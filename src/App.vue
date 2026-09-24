@@ -18,6 +18,7 @@ onUnmounted(() => { document.removeEventListener("keydown", keyboard); document.
     <RouterLink class="brand" to="/" aria-label="Oh, Ohio home">Oh,<span>Ohio</span><span class="brand-dot">.</span></RouterLink>
     <nav class="desktop-nav" aria-label="Main navigation">
       <RouterLink v-for="chapter in chapters" :key="chapter.id" :to="`/${chapter.id}`">{{ chapter.title }}</RouterLink>
+      <RouterLink to="/journal" :class="{ 'router-link-active': route.path.startsWith('/journal') }">Field notes</RouterLink>
     </nav>
     <button ref="menuButton" class="menu-toggle" :class="{active:menuOpen}" :aria-expanded="menuOpen" aria-controls="explore-menu" @click="menuOpen = !menuOpen">
       {{ menuOpen ? "Close" : "Let's explore!" }}<span class="menu-icon" aria-hidden="true">+</span>
@@ -25,6 +26,7 @@ onUnmounted(() => { document.removeEventListener("keydown", keyboard); document.
     <Transition name="menu">
       <nav v-if="menuOpen" id="explore-menu" class="explore-menu" aria-label="Explore Ohio">
         <RouterLink v-for="chapter in chapters" :key="chapter.id" :to="`/${chapter.id}`"><span>{{ chapter.symbol }}</span>{{ chapter.title }}<span>↗</span></RouterLink>
+        <RouterLink to="/journal"><span>05</span>Field notes<span>↗</span></RouterLink>
       </nav>
     </Transition>
   </header>

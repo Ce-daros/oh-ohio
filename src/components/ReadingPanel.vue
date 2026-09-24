@@ -48,7 +48,7 @@ onUnmounted(() => { animation?.kill(); reduced.removeEventListener("change", mot
 <template>
   <dialog ref="dialog" class="reader" aria-labelledby="reader-title" @cancel.prevent="emit('close')" @click="backdrop">
     <template v-if="displayed">
-      <header class="reader-top"><span>OH, OHIO / MY FIELD NOTES</span><button class="reader-close" autofocus aria-label="Close article" @click="emit('close')">Close <span aria-hidden="true">×</span></button></header>
+      <header class="reader-top"><span>OH, OHIO / OHIO-CHAN’S FIELD NOTES</span><button class="reader-close" autofocus aria-label="Close article" @click="emit('close')">Close <span aria-hidden="true">×</span></button></header>
       <article class="reader-article">
         <p class="eyebrow">{{ displayed.kicker }}</p><h2 id="reader-title">{{ displayed.title }}</h2><p class="reader-summary">{{ displayed.summary }}</p>
         <div class="reader-body"><p v-for="paragraph in displayed.body" :key="paragraph">{{ paragraph }}</p></div>

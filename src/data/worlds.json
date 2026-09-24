@@ -1,6 +1,6 @@
 [
-  {"id":"explore","title":"Explore","headline":"A good place to get a little lost.","tease":"Lake days, city nights, scenic detours. ♡","symbol":"01","color":"#c5e4ec","art":"travel","prop":"camera","sources":["discover","travel"]},
-  {"id":"make","title":"Make","headline":"Big ideas, made right here.","tease":"Come see what Ohio makes.","symbol":"02","color":"#d3def3","art":"industry","prop":"airplane","sources":["economy","industry"]},
-  {"id":"culture","title":"Culture","headline":"Ohio has a voice all its own.","tease":"Sounds, stories, and a little local flavor. ♡","symbol":"03","color":"#f1cbd2","art":"culture","prop":"record","sources":["culture","language"]},
-  {"id":"live","title":"Live","headline":"Make yourself at home.","tease":"Find your place in the neighborhood.","symbol":"04","color":"#d4e4db","art":"life","prop":"backpack","sources":["life","government"]}
+  {"id":"explore","title":"Explore","headline":"Ohio has room for every kind of detour.","tease":"Lake shores, city streets, and Appalachian trails. ♡","symbol":"01","color":"#c5e4ec","art":"travel","prop":"camera","sources":["discover","travel"]},
+  {"id":"make","title":"Make","headline":"See what Ohio hands and minds can do.","tease":"Meet the makers and workers behind it.","symbol":"02","color":"#d3def3","art":"industry","prop":"airplane","sources":["economy","industry"]},
+  {"id":"culture","title":"Culture","headline":"Ohio’s many voices belong on stage.","tease":"Markets, music, art, and stories. ♡","symbol":"03","color":"#f1cbd2","art":"culture","prop":"record","sources":["culture","language"]},
+  {"id":"live","title":"Live","headline":"Ohio is shaped by the people who call it home.","tease":"Meet the neighbors, communities, and public life here.","symbol":"04","color":"#d4e4db","art":"life","prop":"backpack","sources":["life","government"]}
 ]

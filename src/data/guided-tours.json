@@ -1,182 +1,182 @@
 {
   "explore": {
-    "welcome": "Hi, I’m Ohio-chan! Wanna wander with me? We can start with the lake breeze, follow a river into the trees, or take the turn that leads to a museum we hadn’t planned on. I’ll point out the little details I love, and you can decide where we linger. Some places call for good walking shoes; others ask us to look and listen carefully. We don’t have to see all of Ohio at once—pick a story that catches your eye, and I’ll take you from there. ♡",
+    "welcome": "Ohio has a lake breeze, rivers threading through the trees, and museums that can turn a quick stop into an afternoon. Its landscapes and communities each have a story to share. Pick the place that catches your eye, and we’ll follow its story. Bring your comfy shoes; there’s plenty to see. ♡",
     "journeys": [
       {
         "title": "Three ways to meet the lake",
-        "intro": "Let’s follow the North Coast through three very different kinds of looking. First up: Toledo, where glass catches and bends the light. Then we’ll visit a marsh where the tiniest movement in a tree can stop us in our tracks. We’ll finish with the islands and that wide-open horizon. Enjoy these chapters at your own pace, across as many outings as you like. The lake will still be there when you return. ♡",
+        "intro": "Ohio’s North Coast offers three ways to look closely. Toledo’s glass catches and bends the light; Magee Marsh rewards a patient eye for the smallest movement in a tree; offshore, the islands open onto a wide horizon. Each place has its own pace, and Lake Erie will be here whenever you return. ♡",
         "stops": [
           {
             "slug": "toledo-glass-pavilion",
-            "note": "First, art you can walk around and look through! After the pavilion’s shifting reflections, we’ll head to Magee Marsh and try a different kind of close looking."
+            "note": "Toledo’s glass pavilion turns light into part of the artwork, with reflections that shift as visitors move around it. From here, Magee Marsh offers a quieter kind of close looking."
           },
           {
             "slug": "magee-marsh",
-            "note": "Here, one flicker in the leaves might be the whole event. I’ll keep my voice low and let the birds set our pace before we turn toward open water. Shh…"
+            "note": "At Magee Marsh, one flicker in the leaves might be the whole event. Keep voices low and let the birds set the pace before heading toward open water. Shh…"
           },
           {
             "slug": "lake-erie-islands",
-            "note": "Ooh, now the horizon opens. Choose an island that fits your mood, check its ferry details, and give it the time it deserves. I’ll be looking back at the shore."
+            "note": "The horizon opens across Lake Erie’s islands. Check ferry details before choosing an island, then leave time to enjoy its distinct shoreline and communities. Ooh, what a view."
           }
         ]
       },
       {
         "title": "The land holds more than one story",
-        "intro": "Let’s explore southern Ohio with care, because every stop has its own story. At Glen Helen, we can notice how a protected woodland changes under our feet. At Serpent Mound, we’ll approach an Indigenous cultural place with the respect it deserves. Hocking Hills brings us close to sandstone and water on a much larger scale. These places belong to different communities and different histories; give each its own visit, and let what you learn at one sharpen your attention at the next.",
+        "intro": "Southern Ohio holds places shaped by different communities and histories. Glen Helen’s protected woodland rewards a slow walk; Serpent Mound is an Indigenous cultural place that calls for respect and careful attention; Hocking Hills reveals sandstone and water on a dramatic scale. Give each place its own visit, and let what you learn at one sharpen your attention at the next.",
         "stops": [
           {
             "slug": "glen-helen",
-            "note": "Let’s start with a slow woodland walk and the Yellow Spring. Once we’ve noticed how much a small landscape holds, we can bring that same patience to Serpent Mound."
+            "note": "Glen Helen’s woodland trails and Yellow Spring invite a slow walk through a small landscape rich in detail. That same patience serves visitors well at Serpent Mound."
           },
           {
             "slug": "serpent-mound",
-            "note": "Here, let’s pause before drawing conclusions. Read the site’s history, respect its boundaries, and carry that careful attention onward when the route turns toward Hocking Hills."
+            "note": "Serpent Mound is an Indigenous cultural place. Read the site’s history, respect its boundaries, and pause before drawing conclusions. Carry that care onward when the route turns toward Hocking Hills."
           },
           {
             "slug": "hocking-hills",
-            "note": "Sandstone, steps, and stream-cut spaces make this final chapter feel physically different. Let’s choose a trail that fits our day and leave room to notice more than the waterfall."
+            "note": "Sandstone, steps, and stream-cut spaces give Hocking Hills a distinct feel. Choose a trail that suits the day and leave room to notice more than the waterfall."
           }
         ]
       }
     ],
     "homeSpotlight": {
       "slug": "magee-marsh",
-      "text": "Ready to meet the North Coast when it’s full of wings? I’ll take you to Magee Marsh, where a boardwalk crosses wooded wetland beside Lake Erie. Spring migration brings warblers and other songbirds; the rest of the year has its own quieter discoveries. Bring binoculars if you have them, and let’s see what appears. ♡"
+      "text": "Magee Marsh brings the North Coast to life with wings. Its boardwalk crosses wooded wetland beside Lake Erie, where spring migration draws warblers and other songbirds. The rest of the year has quieter discoveries, too. Bring binoculars if you have them; I’ll help you look for the next flutter. ♡"
     }
   },
   "live": {
-    "welcome": "Hi, I'm Ohio-chan! Come on, let’s see the Ohio people make together, one everyday place at a time. We can peek inside the Statehouse, follow a question through a museum, step onto a trail, or see what’s growing in a neighborhood garden. You don't need to know where you belong before we start. Pick the door that makes you curious, and we’ll take it from there. I’ll point out a few little details along the way; you can decide which ones are worth staying for. ♡",
+    "welcome": "Ohio’s public life takes shape in its Statehouse, museums, trails, and neighborhood gardens. The people who care for these places, ask questions, and make decisions give them their meaning. Pick a door that makes you curious, and see what’s happening inside. ♡",
     "journeys": [
       {
         "title": "A little closer to public life",
-        "intro": "Let’s meet Ohio through three places that hold its public stories. Start where laws are discussed, follow a bill through the record, then spend time with a museum that preserves lives and voices often left out of a quick civics lesson. These are ideas for separate visits and reading sessions across the state, so take them at your own pace. Bring your questions; each stop might give us a new one to follow.",
+        "intro": "Three places hold different parts of Ohio’s public story: the Statehouse, where laws are discussed; the public record, where a bill’s progress can be followed; and a museum preserving lives and voices often left out of a quick civics lesson. These are separate visits and reading sessions across the state. Bring your questions; each stop may raise another worth following.",
         "stops": [
           {
             "slug": "statehouse-open-door",
-            "note": "I’ll meet you in the Map Room. After the tour, let’s linger at the museum and see which question about Ohio's government we want to follow into the public record."
+            "note": "Begin in the Statehouse Map Room, then follow a question about Ohio’s government into the public record. The building’s tours offer a close look at where public decisions take shape."
           },
           {
             "slug": "legislative",
-            "note": "I like tracing one proposal from committee to vote instead of learning every procedure at once. Pick a subject you care about, and we’ll read the official record together."
+            "note": "A proposal’s path from committee to vote makes the legislative process easier to follow. Choose a subject that matters to you and trace it through the official record."
           },
           {
             "slug": "wilberforce-black-history",
-            "note": "Now let’s give the human stories room. At the museum in Wilberforce, choose an object or exhibition and listen for whose experiences it brings into focus."
+            "note": "At the National Afro-American Museum & Cultural Center in Wilberforce, an object or exhibition can bring individual lives into focus. Give those stories room and listen for whose experiences they preserve."
           }
         ]
       },
       {
         "title": "Follow your curiosity outside",
-        "intro": "Some of my favorite Ohio lessons begin with a muddy shoe or a surprising leaf. A nature center gives us a question to carry onto the trail. A community garden shows what patient care looks like over a season. Then we can meet the neighbors who keep local places lively. These stops span different cities and kinds of commitment; choose the one that fits your day, and save the others for another chapter.",
+        "intro": "Ohio’s outdoor life grows through observation and care. Nature centers help visitors carry questions onto the trail; community gardens show what a season of tending can accomplish; local gatherings bring neighbors together. These stops span different cities and kinds of commitment, so choose one that fits the day and save the others for another chapter.",
         "stops": [
           {
             "slug": "rocky-river-nature-center",
-            "note": "Let’s start with one small observation outside the center. I might choose a bird call; you can choose anything. Then we’ll see where the trail and that little question lead."
+            "note": "Outside the Rocky River Nature Center, a small observation—a bird call, a leaf, a change in the path—can become a question to carry along the trail."
           },
           {
             "slug": "possum-creek-gardens",
-            "note": "A garden asks us to come back, and I love that. Let’s see how Possum Creek's plots and volunteer opportunities work before we decide how much time we want to give."
+            "note": "Possum Creek’s garden plots reward returning over time. Learn how the plots and volunteer opportunities work, then see what kind of commitment fits."
           },
           {
             "slug": "community-life",
-            "note": "I’d finish by checking a local calendar and showing up for something neighbors are making together. Listen first, offer a hand when it’s welcome, and leave room to be surprised."
+            "note": "Local calendars show what neighbors are making together. Check what’s happening nearby, listen first, and offer a hand when it’s welcome. You might find a lovely surprise."
           }
         ]
       }
     ],
     "homeSpotlight": {
       "slug": "wilberforce-black-history",
-      "text": "Let’s visit the National Afro-American Museum & Cultural Center in Wilberforce. A photograph, an everyday object, a page of writing—each can open a life you haven’t met yet. Come look closely with me, then follow the story that stays with you."
+      "text": "The National Afro-American Museum & Cultural Center in Wilberforce preserves stories through photographs, everyday objects, and writing. Each can open a life you haven’t met yet. Take your time with the story that stays with you."
     }
   },
   "make": {
-    "welcome": "Come closer—Ohio's work happens on wonderfully different scales! A ship unloads beside Lake Erie; a potter shapes one vessel; a Columbus factory turns brass into a sharp, familiar sound. I’ll follow the materials with you, from the routes they travel to the hands and machines that change them. Some stories are about old skills still practiced, and some test what comes next. Either way, I want to know who made each thing, where it came from, and how it found its way into our lives. Ooh, let’s take a closer look. ♡",
+    "welcome": "Ohio’s work happens on wonderfully different scales. A ship unloads beside Lake Erie, a potter shapes a vessel, and a Columbus factory turns brass into a familiar sound. Across the state, people carry old skills forward and test what comes next. Follow the materials, routes, hands, and machines behind the things that reach everyday life. Ooh, there’s more to each story than meets the eye. ♡",
     "journeys": [
       {
         "title": "Follow the freight",
-        "intro": "Let’s trace a thing instead of racing along a road. We’ll start where cargo crosses Toledo's waterfront, zoom out to the wider trade routes, then meet the people and systems that keep deliveries moving. Follow the chain at your own pace and see how many hands a shipment passes through. By the end, that next box or piece of steel might carry a much longer story in your mind. Neat, right?",
+        "intro": "Ohio’s freight story begins at working places like Toledo’s waterfront, then stretches across trade routes and the people and systems that keep deliveries moving. Follow a shipment through the chain and notice how many hands it passes through. The next box or piece of steel may carry a much longer story than it first appears to. Neat, right?",
         "stops": [
           {
             "slug": "port-of-toledo",
-            "note": "Let’s begin with the handoff: vessel, dock, crane, rail. Toledo makes the movement visible, and its waterfront plant shows how some freight arrives as an ingredient for making something new."
+            "note": "Toledo’s waterfront makes freight movement visible: vessel, dock, crane, rail. Cargo arriving at a waterfront plant can become an ingredient for making something new."
           },
           {
             "slug": "trade",
-            "note": "Now let’s zoom the map out. The port is one connection among Ohio's waterways, rail corridors, airports, and roads, each with a different role in moving materials and products between places."
+            "note": "The port is one connection among Ohio’s waterways, rail corridors, airports, and roads. Each route has a distinct role in moving materials and products between places."
           },
           {
             "slug": "logistics",
-            "note": "At our final stop, let’s notice the planning and workers behind the route. Freight reaches a destination because people coordinate storage, transfers, timing, and the last stretch of delivery."
+            "note": "Freight reaches its destination through the planning and work of people coordinating storage, transfers, timing, and the last stretch of delivery."
           }
         ]
       },
       {
         "title": "What a material becomes",
-        "intro": "I’ve got three very different objects for us: a tire, a ceramic tile, and a brass whistle. Their makers solve different problems, yet each story begins with material that has to be shaped, tested, and finished. We can follow the work from Akron to Cincinnati to Columbus at our own pace. Ready? Let’s look beyond the finished surface and ask what decisions made each object useful, beautiful, or unmistakable to the ear.",
+        "intro": "A tire, a ceramic tile, and a brass whistle show three different kinds of making. Their makers solve different problems, but each object begins with material that must be shaped, tested, and finished. Follow the work from Akron to Cincinnati to Columbus, and look beyond the finished surface to the decisions that made each object useful, beautiful, or unmistakable to the ear.",
         "stops": [
           {
             "slug": "akron-rubber-work",
-            "note": "Let’s start with rubber, because a tire's everyday familiarity hides years of design questions. Akron's story moves from early products to experiments that change how a wheel meets the road."
+            "note": "A tire’s everyday familiarity hides years of design questions. Akron’s rubber story moves from early products to experiments that change how a wheel meets the road."
           },
           {
             "slug": "rookwood-cincinnati",
-            "note": "Clay asks for a different pace. Let’s see how Rookwood's potters and tile makers give form and finish to objects meant to live in rooms, on tables, and in walls."
+            "note": "Clay asks for a different pace. Rookwood’s potters and tile makers give form and finish to objects meant for rooms, tables, and walls."
           },
           {
             "slug": "columbus-whistle-factory",
-            "note": "Listen for the final transformation: a small piece of brass becomes a dependable signal. I want to linger at the inspection step, where someone checks whether the finished object actually sounds right."
+            "note": "A small piece of brass becomes a dependable signal. The inspection step matters: someone checks whether the finished whistle actually sounds right."
           }
         ]
       }
     ],
     "homeSpotlight": {
       "slug": "columbus-whistle-factory",
-      "text": "A small brass whistle and a Great Lakes freighter have more in common than you might think: both lead us into the work behind everyday objects. Come see how Columbus makes a signal you know by ear, then follow Ohio's materials, makers, and routes a little farther. ♡"
+      "text": "A small brass whistle and a Great Lakes freighter both reveal the work behind everyday objects. Columbus makers shape brass into a signal you know by ear; across Ohio, materials, makers, and routes connect many more stories. There’s always another connection to find. ♡"
     }
   },
   "culture": {
-    "welcome": "You can hear a place in its markets, galleries, stages, and conversations. Let’s peek into Ohio's cultural life: a market still serving shoppers, a library that treats comics as art and history, and a museum glowing with signs saved from streets and storefronts. We can enjoy a beautiful room and still ask whose work and memories fill it. Bring your curiosity, take your time with the people behind the displays, and leave room for a surprise in the next gallery. I’ll be right here with you. ♡",
+    "welcome": "Ohio’s cultural life fills markets, galleries, stages, and everyday conversations. Shoppers and vendors keep a market moving; a library preserves comics as art and history; a museum gives rescued street signs a new home. Look for the people and memories behind each place. Take your time—I’ll be right here when you’re ready for another story. ♡",
     "journeys": [
       {
         "title": "Rooms full of people",
-        "intro": "A market, a sign museum, and a concert hall each change how people meet a place. We’ll start with shoppers and vendors, look at signs that once called to people from storefronts, then listen for the performers and audiences who make a hall feel alive. Follow these rooms at your own pace. Along the way, we can ask what draws people through a door—and what makes them come back.",
+        "intro": "A market, a sign museum, and a concert hall each show how people meet a place. Shoppers and vendors animate the market; signs recall the storefronts that once called to passersby; performers and audiences give a concert hall its sound. Ask what draws people through a door—and what brings them back.",
         "stops": [
           {
             "slug": "west-side-market",
-            "note": "At the market, let’s notice the present tense first: who is selling, choosing, and talking today? The old building matters, but a good market story also belongs to its working counters."
+            "note": "At West Side Market, notice the present tense: who is selling, choosing, and talking today? The historic building matters, and so do the people at its working counters."
           },
           {
             "slug": "american-sign-museum",
-            "note": "At the sign museum, let’s see how makers invited people into shops and streets through light, color, and lettering. Every rescued sign carries traces of the place where it once stood."
+            "note": "The American Sign Museum shows how makers invited people into shops and streets through light, color, and lettering. Every rescued sign carries traces of the place where it once stood."
           },
           {
             "slug": "cincinnati-music-hall",
-            "note": "For our last room, let’s listen. A stage needs musicians, dancers, crews, and an audience; together they give the landmark an evening that could happen only once."
+            "note": "Cincinnati Music Hall comes alive through musicians, dancers, crews, and an audience. Together they make each performance an evening that happens only once."
           }
         ]
       },
       {
         "title": "Lines, images, and sound",
-        "intro": "How does a place remember itself through art? We’ll begin with drawings that appeared on pages, look at how museums care for work we want to keep, and end with a hall built to bring performances to a crowd. Follow the creative trail at your own pace. I’d rather linger with one cartoon or one song than collect three hurried photographs and miss what the artists were trying to say. Which work will stay with you afterward?",
+        "intro": "Art helps a place remember itself. Drawings once appeared on newspaper pages; museums care for works people want to keep; concert halls bring performances to a crowd. Follow this creative trail at your own pace and linger with the cartoon or song that speaks to you. Which work will stay with you afterward?",
         "stops": [
           {
             "slug": "billy-ireland-cartoon-museum",
-            "note": "Let’s start with the drawn line. A cartoon can be funny, angry, tender, or all three, and the library preserves the original work and context behind what readers once saw in print."
+            "note": "A cartoon can be funny, angry, tender, or all three. The Billy Ireland Cartoon Library & Museum preserves original work and the context behind what readers once saw in print."
           },
           {
             "slug": "arts-museums",
-            "note": "Now let’s widen our view. Ohio's galleries and museums hold many forms of creative work; let’s choose a collection or exhibition that makes us look twice, then give it enough time."
+            "note": "Ohio’s galleries and museums hold many forms of creative work. Choose a collection or exhibition that makes you look twice, then give it enough time."
           },
           {
             "slug": "cleveland-orchestra-severance",
-            "note": "At Severance, let’s notice how an orchestra builds one sound from so many instruments. We can begin with the room, then let the Cleveland Orchestra give it a voice."
+            "note": "At Severance, the Cleveland Orchestra builds one sound from many instruments. Notice the room, then let the music give it a voice."
           }
         ]
       }
     ],
     "homeSpotlight": {
       "slug": "west-side-market",
-      "text": "Come hungry for more than a snack. Cleveland's West Side Market has welcomed shoppers since 1912, and the people behind its counters keep the place alive today. I’ll take you into that busy room, then onward to the artists, archivists, and performers who give Ohio its many voices. ♡"
+      "text": "Cleveland’s West Side Market has welcomed shoppers since 1912. The people behind its counters keep the busy room alive today. From vendors to artists, archivists, and performers, Ohio’s cultural voices are made by the people who share their work. ♡"
     }
   }
 }

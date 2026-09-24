@@ -5,9 +5,10 @@ import gsap from "gsap";
 import { chapters, chapterEntries, entries, guide, phrases, sceneGroups, type ChapterId } from "../catalog";
 import groupCopy from "../data/scene-summaries.json";
 import guideCopy from "../data/scene-guidance.json";
-import CharacterArt from "../components/CharacterArt.vue";
+import GuideKeepsake from "../components/GuideKeepsake.vue";
 import ReadingPanel from "../components/ReadingPanel.vue";
 import GuidedJourneys from "../components/GuidedJourneys.vue";
+import JournalShelf from "../components/JournalShelf.vue";
 import ExploreScene from "../components/scenes/ExploreScene.vue";
 import MakeScene from "../components/scenes/MakeScene.vue";
 import CultureScene from "../components/scenes/CultureScene.vue";
@@ -71,13 +72,17 @@ onUnmounted(() => { selectionMotion?.kill(); reducedMotion.removeEventListener("
     <section class="world-body" data-parallax-stage :aria-label="`${chapter.title} scene`">
       <div class="world-scene" data-hero-art><component :is="scenes[chapterId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
       <aside id="scene-selection" ref="selectionPanel" class="scene-selection" aria-label="Selected topic" data-hero-detail>
+        <div class="selection-overview">
         <div class="selection-heading"><span class="selection-number">{{ String(groups.findIndex(group => group.id === selected) + 1).padStart(2,'0') }}</span><p class="eyebrow">{{ chapter.title }} / {{ selectedEntries.length }} {{ selectedEntries.length === 1 ? 'STORY' : 'STORIES' }}</p></div>
         <h2 aria-live="polite">{{ selectedGroup.title }}</h2>
         <p class="selected-summary">{{ summaries[chapterId][selected] }}</p>
         <div class="chan-whisper"><span>Ohio-chan <span aria-hidden="true">♡</span></span><p>{{ guidance[chapterId][selected] }}</p></div>
+        </div>
+        <div class="selection-details">
         <div class="selection-stories"><button v-for="entry in selectedEntries" :key="entry.slug" @click="openEntry(entry.slug)"><span>{{ entry.title }}</span><span aria-hidden="true">↗</span></button></div>
         <a v-if="chapterId === 'make'" class="selection-metric" :href="contextMetric.url" target="_blank" rel="noopener noreferrer"><span>STATEWIDE / {{ contextMetric.label }}</span><strong>{{ contextMetric.value }}</strong><span>{{ contextMetric.unit }} · {{ contextMetric.period }}</span><span>{{ contextMetric.source }} ↗</span></a>
-        <div class="selection-guide"><CharacterArt :chapter="chapter.art" :alt="`Ohio-chan, your ${chapter.title.toLowerCase()} guide`" sizes="220px" /><div><span>YOUR GUIDE</span><strong>Ohio-chan</strong><span class="guide-heart" aria-hidden="true">♡</span></div></div>
+        <GuideKeepsake :chapter="chapterId" />
+        </div>
       </aside>
     </section>
     <section v-if="chapterId === 'make'" class="economy-board" aria-labelledby="numbers-title" data-reveal>
@@ -89,6 +94,7 @@ onUnmounted(() => { selectionMotion?.kill(); reducedMotion.removeEventListener("
       <div class="word-slips"><button v-for="(phrase,index) in phrases" :key="phrase.slug" :style="{'--slip-angle':`${index % 2 ? 3 : -3}deg`}" @click="openEntry(phrase.slug)"><span>0{{ index + 1 }}</span><strong>“{{ phrase.title }}”</strong><span>What does it mean? ↗</span></button></div>
     </section>
     <section class="field-note" data-reveal><img :src="`/art/small/prop-${chapter.prop}.webp`" alt="" width="160" height="160" loading="lazy" /><div><p>{{ facts[chapterId].text }}</p><a :href="facts[chapterId].url" target="_blank" rel="noopener noreferrer">{{ facts[chapterId].source }} ↗</a></div><span class="field-note-mark" aria-hidden="true">Ooh!</span></section>
+    <JournalShelf :chapter="chapterId" />
     <GuidedJourneys :chapter-id="chapterId" @read="openEntry" />
     <section id="all-topics" class="world-index" data-reveal>
       <details><summary><span>All {{ chapter.title.toLowerCase() }} topics</span><span class="index-count">{{ allEntries.length }} STORIES</span><span class="index-plus" aria-hidden="true">+</span></summary><div class="topic-groups"><div v-for="group in groups" :key="group.id"><h3>{{ group.title }}</h3><button v-for="slug in group.slugs" :key="slug" @click="openEntry(slug)">{{ allEntries.find(entry => entry.slug === slug)!.title }}<span aria-hidden="true">↗</span></button></div></div></details>

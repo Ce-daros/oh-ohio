@@ -1,33 +1,33 @@
 {
   "explore": {
-    "coast": "Ooh, Lake Erie shapes this stretch of Ohio, from Cleveland’s waterfront to the islands offshore.",
-    "cities": "Columbus, Cincinnati, and Dayton each offer a different way into Ohio’s city life—which one should we explore first?",
-    "hills": "Southeastern Ohio’s ridges and valleys lead to Appalachian communities and the sandstone gorges of Hocking Hills. Sounds like a lovely detour, right?",
-    "wild": "Wetlands, forest paths, and the Cuyahoga River give us plenty of reasons to slow down outdoors. Let’s take our time. ♡",
-    "past": "Indigenous histories, migration, industry, and reform all shaped the Ohio people know today.",
-    "symbols": "A swallow-tailed flag, a northern cardinal, and a buckeye tree are among Ohio’s familiar emblems. ♡"
+    "coast": "Lake Erie defines Ohio’s North Coast.",
+    "cities": "Columbus, Cincinnati, and Dayton are major centers of Ohio city life.",
+    "hills": "Appalachian Ohio includes southeastern ridges, valleys, and Hocking Hills gorges.",
+    "wild": "Ohio’s outdoor landscapes include wetlands, forests, and the Cuyahoga River.",
+    "past": "Indigenous histories, migration, industry, and reform shaped Ohio.",
+    "symbols": "Ohio’s emblems include its swallow-tailed flag, northern cardinal, and buckeye tree."
   },
   "make": {
-    "factory": "Ohio’s factories connect materials and skilled work to vehicles, chemicals, and the products people use every day. Let’s see how those pieces come together!",
-    "flight": "Aircraft take a whole network of people and places: researchers, precision suppliers, testing teams, and makers. Come trace those connections with me!",
-    "lab": "Ohio’s labs, hospitals, and technology teams turn research into tools for care, industry, and everyday work. Curious how it all connects?",
-    "farm": "A trip from field to grocery shelf passes through farms, processors, cold storage, and delivery routes. So many stops before lunch!",
-    "movement": "Ports, roads, rail lines, and airports connect Ohio’s work to customers near and far. Let’s trace the route!",
-    "work": "Factories, farms, hospitals, and offices make up Ohio’s economy. Wages, housing, and travel time shape how that work feels at home—let’s keep the people in view."
+    "factory": "Ohio manufacturing produces vehicles, chemicals, and everyday goods.",
+    "flight": "Ohio aviation links researchers, suppliers, test teams, and manufacturers.",
+    "lab": "Ohio research supports health care, industry, and daily work.",
+    "farm": "Ohio food passes through farms, processors, storage, and delivery.",
+    "movement": "Ohio freight moves by water, road, rail, and air.",
+    "work": "Ohio’s economy spans many sectors; work conditions shape household life."
   },
   "culture": {
-    "records": "Cleveland’s rock legacy is one part of a music story still heard on local stages and recordings. Come find a sound you love. ♡",
-    "gallery": "The Hopewell earthworks carry enduring Indigenous meaning, while galleries and museums share many other Ohio stories.",
-    "table": "Chili, goetta, markets, and family recipes show how Ohio’s food traditions change from place to place. Come hungry, okay?",
-    "game": "Games, festivals, and local celebrations bring neighbors together well beyond the final score. I love that part most. ♡",
-    "words": "Accents, place names, and the languages spoken at home reveal how many voices Ohio holds. Which ones will you hear?",
-    "invention": "Dayton’s aviation story began with patient experiments, practical skills, and a bicycle shop. What a start!"
+    "records": "Cleveland’s rock legacy is part of Ohio’s wider music history.",
+    "gallery": "Hopewell earthworks hold enduring Indigenous meaning.",
+    "table": "Ohio’s food traditions vary by region and family.",
+    "game": "Games, festivals, and local celebrations are part of Ohio social life.",
+    "words": "Ohio includes varied accents, place names, and home languages.",
+    "invention": "Dayton’s aviation history includes the Wright brothers’ bicycle shop experiments."
   },
   "live": {
-    "campus": "Colleges, schools, research labs, and career programs offer many ways to keep learning in Ohio. Which path catches your eye?",
-    "library": "Ohio’s libraries offer books, digital resources, local history, and places to learn together. Let’s see what we find!",
-    "civic": "Ohio’s executive, legislative, and judicial branches each have a distinct role in public decisions.",
-    "local": "Counties, cities, villages, and townships handle many decisions made closer to home. Let’s see how local government works.",
-    "community": "Local groups, festivals, faith communities, and volunteers help turn a place into a neighborhood. Let’s meet them. ♡"
+    "campus": "Ohioans learn through schools, colleges, research labs, and career programs.",
+    "library": "Ohio libraries offer collections and shared learning spaces.",
+    "civic": "Ohio government has executive, legislative, and judicial branches.",
+    "local": "Ohio counties, cities, villages, and townships handle local decisions.",
+    "community": "Local groups and volunteers help build connected neighborhoods."
   }
 }

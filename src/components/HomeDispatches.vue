@@ -10,8 +10,8 @@ const invitations = chapters.map(chapter => ({
 <template>
   <section class="home-dispatches section-pad" aria-labelledby="dispatch-title">
     <div class="dispatch-heading" data-reveal>
-      <div><p class="eyebrow">OOH, I’VE BEEN MEANING TO SHOW YOU…</p><h2 id="dispatch-title">Next on<br /><em>my list.</em></h2></div>
-      <p>Something tiny. Something loud.<br />Something I’d like us to look at a little longer.<br /><span>Ready? ♡</span></p>
+      <div><p class="eyebrow">OOH, YOU’LL LIKE THIS…</p><h2 id="dispatch-title">A few stories<br />worth <em>knowing.</em></h2></div>
+      <p>A little place. A big idea.<br />Someone whose story might stay with you.<br /><span>Ready? ♡</span></p>
     </div>
     <div class="dispatch-list">
       <article v-for="(item,index) in invitations" :key="item.slug" :class="['dispatch',`dispatch-${item.chapter.id}`]" data-reveal="story">
@@ -23,7 +23,7 @@ const invitations = chapters.map(chapter => ({
           <p class="dispatch-place"><span>0{{ index+1 }}</span>{{ item.entry.kicker }}</p>
           <h3>{{ item.entry.title }}</h3>
           <p class="dispatch-voice">{{ item.text }}</p>
-          <RouterLink :to="`/${item.chapter.id}#${item.slug}`">Come see! <span aria-hidden="true">↗</span></RouterLink>
+          <RouterLink :to="`/${item.chapter.id}#${item.slug}`">Read this story <span aria-hidden="true">↗</span></RouterLink>
         </div>
       </article>
     </div>

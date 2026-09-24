@@ -21,8 +21,8 @@ function switchWithKeys(event: KeyboardEvent) {
 <template>
   <section :class="['guided-journeys', `journeys-${chapterId}`]" aria-labelledby="journey-heading">
     <div class="guide-invitation" data-reveal>
-      <div class="invitation-portrait"><CharacterArt :chapter="portraits[chapterId]" alt="Ohio-chan has a few places to show you" sizes="(max-width: 560px) 45vw, 240px" /><span>Ohio-chan <span aria-hidden="true">♡</span></span></div>
-      <div><p class="eyebrow">COME ALONG WITH ME ♡</p><h2 id="journey-heading">Ooh, I know a few<br /><em>places to start.</em></h2><p class="guide-welcome">{{ notes.welcome }}</p></div>
+      <div class="invitation-portrait"><CharacterArt :chapter="portraits[chapterId]" alt="Ohio-chan introducing a few places" sizes="(max-width: 560px) 45vw, 240px" /><span>Ohio-chan <span aria-hidden="true">♡</span></span></div>
+      <div><p class="eyebrow">A FEW PLACES TO START ♡</p><h2 id="journey-heading">Ooh, I know a few<br /><em>places to start.</em></h2><p class="guide-welcome">{{ notes.welcome }}</p></div>
     </div>
     <div class="journey-selector" role="tablist" aria-label="Ohio-chan’s guided stories" @keydown="switchWithKeys">
       <button v-for="(item,index) in notes.journeys" :id="`journey-tab-${chapterId}-${index}`" :key="item.title" role="tab" :aria-selected="selected===index" :aria-controls="`journey-panel-${chapterId}`" :tabindex="selected===index ? 0 : -1" @click="selected=index"><span>0{{ index+1 }}</span>{{ item.title }}<span class="journey-tab-arrow" aria-hidden="true">↗</span></button>
@@ -32,7 +32,7 @@ function switchWithKeys(event: KeyboardEvent) {
       <div :key="selected" class="journey-content">
         <p class="journey-intro">{{ journey.intro }}</p>
         <ol class="journey-stops">
-          <li v-for="(stop,index) in stops" :key="stop.slug"><span class="stop-number" aria-hidden="true">{{ index+1 }}</span><div><p class="stop-place">{{ stop.entry.kicker }}</p><h3>{{ stop.entry.title }}</h3><p class="stop-voice">{{ stop.note }}</p><button @click="$emit('read',stop.slug)">Come see! <span aria-hidden="true">↗</span></button></div></li>
+          <li v-for="(stop,index) in stops" :key="stop.slug"><span class="stop-number" aria-hidden="true">{{ index+1 }}</span><div><p class="stop-place">{{ stop.entry.kicker }}</p><h3>{{ stop.entry.title }}</h3><p class="stop-voice">{{ stop.note }}</p><button @click="$emit('read',stop.slug)">Read this story <span aria-hidden="true">↗</span></button></div></li>
         </ol>
       </div>
     </Transition>

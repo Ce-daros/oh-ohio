@@ -19,12 +19,20 @@ Old chapter URLs redirect to their new world and retain article hashes and query
 
 `extra-stories.json` adds 24 sourced stories, bringing the total to 68. `guided-tours.json` contains eight three-stop reading journeys and homepage invitations in Ohio-chan’s voice. `scene-guidance.json` adds her commentary to every scene group without replacing the original summaries.
 
+## Field notes
+
+`/journal` collects 14 long-form articles: four travel guides, four making stories, three food stories, and three everyday-life stories. Each article has a direct `/journal/<slug>` route, section navigation, practical notes, source links, and related reading. The archive's category filter is reflected in its URL and supports browser history.
+
+`src/data/journal-guides.json` and `journal-features.json` contain the articles; `journal-types.ts` defines their structure. `journal.ts` provides category labels and article lookups. Research and proofreading notes live in the root `editorial/` directory. Earlier root content drafts are archival; published copy lives in `site/src/`.
+
 ## Art and interaction
 
 Four scene images are served in `public/art/scenes/`. Character art is served from `public/art/characters/`.
+
+Chapter guide signatures use a camera, brass whistle, record, and canvas bag. `GuideKeepsake.vue` places these objects consistently. Field-note covers use individually generated raster illustrations in `public/art/journal/`, with responsive WebP sizes. The illustrations evoke each subject rather than documenting the exact location. Generation prompts and source files are recorded in `editorial/journal-art-manifest.json`.
 
 Each world has a scene component, responsive labeled hotspots, a complete topic index, and a shared native-dialog reader. GSAP handles scoped entrances, scene selection and restrained pointer depth. Reduced-motion and keyboard input show final states immediately. Mobile scenes retain numbered landmarks and labeled touch controls.
 
 ## Deployment
 
-Vercel builds this repository with `npm run build` and serves `dist/`. `vercel.json` lets direct links reach Vue Router while generated route entries provide page metadata for current and older chapter paths. The Vercel project is connected to the GitHub `main` branch.
+The Vercel configuration builds with `npm run build` and serves `dist/`. `vercel.json` lets direct links reach Vue Router while generated route entries provide page metadata for chapters, the journal, and individual articles. A local build does not publish changes.

@@ -4,13 +4,14 @@ import { chapters } from "../catalog";
 import ChapterCover from "../components/ChapterCover.vue";
 import CharacterArt from "../components/CharacterArt.vue";
 import HomeDispatches from "../components/HomeDispatches.vue";
+import JournalShelf from "../components/JournalShelf.vue";
 import { usePageMotion } from "../composables/usePageMotion";
 const root = ref<HTMLElement | null>(null);
 const invitations = {
-  explore: "Yayyy, a scenic route! You pick our first stop.",
-  make: "Ooh, come closer! Wait till you see what Ohio makes.",
-  culture: "I brought the music. You brought an appetite, right? ♡",
-  live: "Come on, let's find your favorite corner of the neighborhood.",
+  explore: "Take in the view. I’ll point out what lies beyond it.",
+  make: "Wait till you meet the people behind what Ohio makes.",
+  culture: "Music, food, stories… I saved you a seat. ♡",
+  live: "Meet the everyday Ohio I’d hate for you to miss.",
 };
 usePageMotion(root);
 </script>
@@ -28,9 +29,8 @@ usePageMotion(root);
           <span class="title-heart" aria-hidden="true">♡</span>
         </h1>
         <p class="hero-description" data-hero-copy>
-          Yayyy, you made it! I’m Ohio-chan.<br />
-          I saved a few Ohio adventures for us.
-          Oopsie… maybe more than a few. Come see? ♡
+          Yayyy, you made it! I’m Ohio-chan, a local girl, and there’s no place I’d
+          rather call home. I’ve got stories to tell—come say hi to Ohio! ♡
         </p>
         <RouterLink class="button" to="/explore" data-hero-copy
           >Let's go! <span>↗</span></RouterLink
@@ -57,8 +57,8 @@ usePageMotion(root);
         ><span class="caption-line"></span>
       </div>
       <div class="hero-bottom" data-hero-detail>
-        <span>THE BUCKEYE STATE, THROUGH MY EYES.</span
-        ><a href="#chapters">Pick our first stop <span>↓</span></a>
+        <span>MEET THE PEOPLE AND PLACES OF OHIO.</span
+        ><a href="#chapters">Pick your first stop <span>↓</span></a>
       </div>
     </section>
     <div class="ribbon" aria-hidden="true">
@@ -72,32 +72,31 @@ usePageMotion(root);
         <span class="letter-signature">Ohio-chan <span aria-hidden="true">♡</span></span>
       </div>
       <div class="letter-copy" data-reveal>
-        <p class="eyebrow">A NOTE FROM ME TO YOU</p>
-        <h2 id="ohio-letter-title">Psst… I made<br /><em>plans for us!</em></h2>
+        <p class="eyebrow">A NOTE FROM OHIO-CHAN</p>
+        <h2 id="ohio-letter-title">You should<br /><em>meet Ohio.</em></h2>
         <p>
-          Okay, I may have made a very full itinerary. A lake breeze? I’m there.
-          A trail disappearing between sandstone cliffs? Ooh, let me grab my bag.
-          A city with music drifting out of a doorway? Ahh, now you’ve really got me.
+          I could take you straight to Hocking Hills. Or a neighborhood market.
+          Or a workshop where someone’s making a thing you’ll recognize the
+          moment you see it. Ooh, choosing a first stop is harder than it sounds.
         </p>
         <p>
-          I want to show you the Ohio between those stops, too: the people making
-          things, the stories behind a familiar name, the library where an afternoon
-          can turn into a whole new interest. You don’t have to pick a favorite yet.
-          I definitely can’t! ♡
+          The best part is meeting the people behind those places. Artists,
+          makers, neighbors, and the people keeping local stories alive—I’d love
+          for you to know them. Pick a chapter and I’ll make the introductions.
         </p>
-        <p class="letter-aside">My only request? Leave room for a detour. And maybe a snack or two. ♡</p>
-        <a class="text-link" href="#chapters">Pick our first stop <span>↓</span></a>
+        <p class="letter-aside">Don’t rush. I know a few good places to start. ♡</p>
+        <a class="text-link" href="#chapters">Pick your first stop <span>↓</span></a>
       </div>
     </section>
     <section id="chapters" class="chapter-directory section-pad">
       <div class="section-heading" data-reveal>
         <div>
           <p class="eyebrow">YOUR TURN TO PICK!</p>
-          <h2>Where shall<br />we go <em>first?</em></h2>
+          <h2>Where to<br /><em>first?</em></h2>
         </div>
         <p>
-          Yayyy, four adventures to choose from!<br />
-          Choosing just one is the hard part…
+          Four ways to meet Ohio. Pick the one that catches your eye—<br />
+          I’ll be right there to point out a few good details.
           <span class="red" aria-hidden="true">(˶ᵔ ᵕ ᵔ˶)</span>
         </p>
       </div>
@@ -134,17 +133,16 @@ usePageMotion(root);
         <div class="postcard-stamp">OHIO<br /><span>01 / EXPLORE</span></div>
       </div>
       <div class="feature-copy" data-reveal>
-        <p class="eyebrow">I PACKED MY CAMERA</p>
+        <p class="eyebrow">FIRST STOP: HOCKING HILLS</p>
         <h2>Let’s get<br />a little <em>lost.</em></h2>
         <p>
-          Ooh, if I’m choosing our first detour, I’m taking you to Hocking Hills.
-          Those sandstone cliffs make me want to stop and look at absolutely
-          everything. I’d leave time for the woods, then save the lake shore for
-          another day. Oopsie, I said one adventure and immediately planned two.
-          You’ll forgive me when we get there, right? ♡
+          Ooh, look up. The sandstone walls at Hocking Hills make even a short
+          walk feel like a discovery. Follow a trail through the woods, then take
+          time for the towns and people nearby. I promised you an introduction,
+          remember? The view is only the beginning. ♡
         </p>
         <RouterLink class="text-link" to="/explore#hocking-hills"
-          >Let me show you Hocking Hills <span>↗</span></RouterLink
+          >Hocking Hills, up close <span>↗</span></RouterLink
         >
         <div class="packing-note">
           <img
@@ -158,12 +156,13 @@ usePageMotion(root);
         </div>
       </div>
     </section>
+    <JournalShelf />
     <HomeDispatches />
     <section class="culture-feature section-pad">
       <div class="section-heading" data-reveal>
         <div>
-          <p class="eyebrow light">WAIT, I HAVE MORE TO SHOW YOU!</p>
-          <h2>Okay, this is<br />my <em>favorite part.</em></h2>
+          <p class="eyebrow light">WAIT, THERE’S MORE!</p>
+          <h2>Listen. Look.<br /><em>Meet the makers.</em></h2>
         </div>
         <img
           class="floating-prop"
@@ -175,10 +174,9 @@ usePageMotion(root);
         />
       </div>
       <p class="home-culture-intro" data-reveal>
-        I know, I keep saying that. But how am I supposed to choose between a music
-        night in Cleveland and the stories behind Ohio’s inventions? One minute I’m
-        picking out a record; the next I’m asking how an airplane stays in the sky.
-        Come be curious with me, okay? ♡
+        One night, a concert in Cleveland. The next day, a closer look at the
+        experiments and skilled hands behind an Ohio invention. Different people,
+        different kinds of work—and I can’t wait for you to meet them. ♡
       </p>
       <div class="world-grid">
         <RouterLink to="/culture#cleveland-orchestra-severance" class="world-card" data-reveal
@@ -191,7 +189,7 @@ usePageMotion(root);
           />
           <div>
             <span>03 / CULTURE</span>
-            <h3>Ooh, I saved<br />you a song.</h3>
+            <h3>Ooh, I saved<br />you a seat.</h3>
             <span class="card-arrow">↗</span>
           </div></RouterLink
         ><RouterLink to="/make#glenn-icing-tunnel" class="world-card" data-reveal
@@ -204,7 +202,7 @@ usePageMotion(root);
           />
           <div>
             <span>02 / MAKE</span>
-            <h3>Whoa, look what<br />we’re making!</h3>
+            <h3>Whoa, look what<br />Ohio makes!</h3>
             <span class="card-arrow">↗</span>
           </div></RouterLink
         >
@@ -223,28 +221,28 @@ usePageMotion(root);
         <p class="eyebrow">LET’S TRY SAYING IT TOGETHER</p>
         <h2>“Wait… say<br />that <em>again?</em>”</h2>
         <p>
-          Ooh, I have a soft spot for words that tell you where someone’s from.
-          Ohio Valley expressions, family nicknames, a place name that makes you
-          look twice… I’ve collected a few for us. And if “Scioto” trips you up?
-          No worries—we can practice together. ♡
+          Ooh, listen closely. Ohio Valley expressions, family nicknames, and
+          place names each have a story behind them. I’ll introduce you to a few.
+          And if “Scioto” trips you up? That’s okay—a local can help with the
+          pronunciation. ♡
         </p>
         <RouterLink class="text-link" to="/culture#phrase-4"
-          >Say “Scioto” with me <span>↗</span></RouterLink
+          >Hear how locals say “Scioto” <span>↗</span></RouterLink
         >
       </div>
       <span class="language-doodle" aria-hidden="true">!?<br />♡</span>
     </section>
     <section class="home-stay section-pad" aria-labelledby="home-stay-title">
       <div class="home-stay-copy" data-reveal>
-        <p class="eyebrow">I’M NOT READY TO SAY GOODBYE YET</p>
+        <p class="eyebrow">WAIT, ONE MORE INTRODUCTION</p>
         <h2 id="home-stay-title">Stay for<br /><em>one more chapter?</em></h2>
         <p>
-          Big adventures get all the attention, but I want to show you the everyday
-          Ohio, too. I’d start at the library, peek at what people are learning,
-          then find out what’s happening around the neighborhood. A place starts
-          feeling closer when you get to know the people in it, don’t you think? ♡
+          Oh, you thought I’d only talk about landmarks? There’s also a library,
+          a neighborhood garden, and a room where local decisions get made.
+          Everyday Ohio has people worth meeting, and I don’t want you to miss
+          them. Stay a little longer? ♡
         </p>
-        <RouterLink class="text-link" to="/live#ohiolink-shared-shelves">Come to the library with me <span>↗</span></RouterLink>
+        <RouterLink class="text-link" to="/live#ohiolink-shared-shelves">An afternoon at an Ohio library <span>↗</span></RouterLink>
       </div>
       <div class="home-stay-portrait" data-reveal="portrait">
         <CharacterArt chapter="life" alt="Ohio-chan, ready to introduce everyday life in Ohio" sizes="(max-width: 560px) 65vw, 35vw" />
@@ -260,8 +258,8 @@ usePageMotion(root);
         loading="lazy"
       />
       <p>
-        Ahh, there’s still so much I want to show you.<br /><em
-          >Come back and wander with me, okay? ♡</em
+        See? One visit was never going to be enough.<br /><em
+          >Next time, I’ll have someone new to introduce you to. ♡</em
         >
       </p>
       <span>WITH LOVE, OHIO-CHAN ♡</span>
