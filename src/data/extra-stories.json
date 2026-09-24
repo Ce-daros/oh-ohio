@@ -1,0 +1,420 @@
+[
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "coast",
+    "entry": {
+      "slug": "marblehead-lighthouse",
+      "title": "Marblehead Lighthouse",
+      "kicker": "LAKE ERIE · LIGHTHOUSE",
+      "summary": "There is a lighthouse at the peninsula edge and a whole lake beyond it. Come take in that view with me ♡",
+      "body": [
+        "At Marblehead Lighthouse State Park, the tower stands above Lake Erie’s limestone shore. It still serves as an aid to navigation, and the grounds give us views toward Kelleys and South Bass islands. I’d start with the water, then turn back to the keeper’s house and the story of the light.",
+        "The park map marks a short walking trail, a scenic overlook, picnic space, and a lifesaving station. I’d take my time here: a closer look at the shore, a pause by the water, then a little lighthouse history. Tower and building access have their own visiting arrangements, so check those before planning a climb."
+      ],
+      "source": "Ohio Department of Natural Resources · Marblehead Lighthouse park map",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/marbleheadlighthouseparkmap.pdf",
+      "supportingSource": "U.S. Coast Guard · Marblehead Lighthouse",
+      "supportingUrl": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1962158/marblehead-lighthouse-oh/"
+    }
+  },
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "hills",
+    "entry": {
+      "slug": "wayne-covered-bridge-byway",
+      "title": "Wayne’s covered bridge road",
+      "kicker": "SOUTHEAST OHIO · SCENIC DRIVE",
+      "summary": "A winding road, a river alongside, and covered bridges ahead. Ooh, shall we take the slower route?",
+      "body": [
+        "The Covered Bridge Scenic Byway follows State Route 26 between Marietta and Woodsfield, with the Little Muskingum River alongside much of the way. Forested hills, farms, and historic bridges turn the drive into a close look at this corner of southeastern Ohio. I’d leave time to stop where it’s safe and actually see the landscape.",
+        "The Forest Service explains that the bridges themselves are not managed by Wayne National Forest, though the forest offers nearby recreation and interpretation. Public forest, local heritage, and lived-in countryside share this road. I’d bring a map and let the river set the pace, with a look at current road notices before we leave."
+      ],
+      "source": "Monroe County · Covered Bridge Byway",
+      "url": "https://www.monroecountyohio.net/departments/parks_and_recreation/covered_bridge_byway.php",
+      "supportingSource": "U.S. Forest Service · Storied Hills",
+      "supportingUrl": "https://www.fs.usda.gov/sites/nfs/files/legacy-media/wayne/Storied%20Hills%20-%20The%20Wayne%20National%20Forest%20PDF%20Version.pdf"
+    }
+  },
+  {
+    "sectionId": "industry",
+    "sceneGroupId": "flight",
+    "entry": {
+      "slug": "glenn-icing-tunnel",
+      "title": "The ice inside NASA Glenn",
+      "kicker": "CLEVELAND · FLIGHT RESEARCH",
+      "summary": "A wind tunnel that makes ice? Ooh, come see why Cleveland researchers give aircraft a very cold test.",
+      "body": [
+        "At NASA Glenn’s Icing Research Tunnel, researchers study how ice forms on aircraft and test ways to prevent it. A refrigerated wind tunnel sounds like science fiction, but the question is practical: what happens to a wing or another aircraft surface in freezing conditions? I love that a thin layer of ice can lead to such careful engineering.",
+        "The facility is part of NASA’s aeronautics testing work in Cleveland. Cold air, water droplets, and wind let researchers examine icing under controlled conditions. I’d start with NASA’s photographs of the equipment, then follow what the tests are trying to measure. Suddenly that smooth airplane wing has a much bigger story behind it."
+      ],
+      "source": "NASA · Icing Research Tunnel",
+      "url": "https://www.nasa.gov/directorates/armd/aetc/icing-research-tunnel/",
+      "supportingSource": "NASA · Glenn Research Center",
+      "supportingUrl": "https://www.nasa.gov/glenn/"
+    }
+  },
+  {
+    "sectionId": "industry",
+    "sceneGroupId": "factory",
+    "entry": {
+      "slug": "east-liverpool-ceramics",
+      "title": "East Liverpool in clay",
+      "kicker": "EAST LIVERPOOL · CERAMICS",
+      "summary": "Plates, pottery, and a city shaped by kilns: let us follow this making story into the Museum of Ceramics ♡",
+      "body": [
+        "East Liverpool became a major center of American pottery, and its Museum of Ceramics holds wares made in the city. The exhibits trace the industry’s growth from the nineteenth into the twentieth century. A finished cup looks simple until you start asking about clay, skilled hands, firing, decoration, and the people who worked around the kilns.",
+        "The museum also displays a mural of James Bennett’s early pottery. I’d linger over it, then look at the objects again: everyday things with a whole local economy behind them. Pick out a shape or a painted detail that catches your eye. That’s where I’d begin our conversation about how an object gets made."
+      ],
+      "source": "Ohio History Connection · Museum of Ceramics",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/museum-of-ceramics/"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "records",
+    "entry": {
+      "slug": "cleveland-orchestra-severance",
+      "title": "An evening at Severance",
+      "kicker": "CLEVELAND · LIVE MUSIC",
+      "summary": "Let us take our seats and hear the orchestra of Cleveland in the hall it calls home. Ready?",
+      "body": [
+        "Severance Music Center sits in Cleveland’s University Circle and is home to The Cleveland Orchestra. Concerts, rehearsals, and education programs give the building its life. I’d look around the hall, then let the musicians take over: a live performance can make a familiar piece feel newly alive.",
+        "The orchestra’s education story reaches beyond its stage. Lillian Baldwin developed lessons for Cleveland schoolchildren that led toward hearing the music in person. I like that invitation to learn by listening. If orchestral music is new to you, we can start with a program that catches your ear. No need to pretend you already know every composer."
+      ],
+      "source": "The Cleveland Orchestra · Severance Music Center",
+      "url": "https://www.clevelandorchestra.com/venues/severance-music-center",
+      "supportingSource": "The Cleveland Orchestra · Education history",
+      "supportingUrl": "https://www.clevelandorchestra.com/posts/miss-baldwins-opus-the-early-history-of-the-cleveland-orchestras-education-programs"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "gallery",
+    "entry": {
+      "slug": "freedom-center-river",
+      "title": "Freedom stories by the river",
+      "kicker": "CINCINNATI · HISTORY",
+      "summary": "The Ohio River runs beside this museum. Come with me to understand why that setting matters.",
+      "body": [
+        "The National Underground Railroad Freedom Center stands on Cincinnati’s riverfront. Its exhibits tell stories of slavery, resistance, the Underground Railroad, and the continuing struggle for freedom. From the museum’s terrace, you can see the river that separated Ohio from Kentucky during legal slavery. The geography makes the history immediate without making any person’s journey simple.",
+        "I’d give these galleries time. Follow the people in each account: those who sought freedom, those who helped, and those who defended an unjust system. The museum also connects this history to present-day freedom issues. This is a stop where I want us to slow down, listen carefully, and leave room to reflect."
+      ],
+      "source": "National Underground Railroad Freedom Center · In This Place",
+      "url": "https://freedomcenter.org/visit/permanent-exhibits/in-this-place/",
+      "supportingSource": "National Underground Railroad Freedom Center · Self-guided tour",
+      "supportingUrl": "https://freedomcenter.org/wp-content/uploads/2023/04/MapHighlightsTour_8.5x11_2304083_v01_Evergreen-Web.pdf"
+    }
+  },
+  {
+    "sectionId": "life",
+    "sceneGroupId": "library",
+    "entry": {
+      "slug": "ohiolink-shared-shelves",
+      "title": "A bigger library shelf",
+      "kicker": "OHIO · SHARED LIBRARIES",
+      "summary": "Looking for one book can open a whole network. Let me show you how libraries across Ohio connect ♡",
+      "body": [
+        "OhioLINK connects collections from college and university libraries across the state with the State Library of Ohio. Eligible users at member institutions can request materials through their own libraries, and physical items can travel between institutions. I love that a question in one town might find its answer on a shelf somewhere else.",
+        "OhioLINK also works with SearchOhio so participating public library users can request some circulating academic materials through their local library. Access to digital resources follows different rules. I’d start with your library’s catalog or a conversation with a librarian. Bring the question you actually care about—even if you haven’t worked out what kind of book might answer it yet."
+      ],
+      "source": "OhioLINK · Shared Collections",
+      "url": "https://www.ohiolink.edu/content/ohiolink_shared_collections",
+      "supportingSource": "OhioLINK · Frequently Asked Questions",
+      "supportingUrl": "https://www.ohiolink.edu/content/frequently_asked_questions"
+    }
+  },
+  {
+    "sectionId": "life",
+    "sceneGroupId": "campus",
+    "entry": {
+      "slug": "cosi-try-it-yourself",
+      "title": "Try it at COSI",
+      "kicker": "COLUMBUS · HANDS-ON SCIENCE",
+      "summary": "At COSI, the best question might be the one you test with your own hands. Ready to try?",
+      "body": [
+        "In COSI’s Gadgets exhibit, you can build a model bridge and test how it holds up, then use a pulley chair to explore simple machines. Words like tension, compression, and torque suddenly have something you can try. I’d start with the bridge. If our first design needs work, that just gives us a better question for the next attempt.",
+        "The Ocean exhibit takes us in another direction, with a wave tank and activities about water’s behavior. One visit can jump from engineering to moving water without leaving Columbus. I’d check the current exhibits, pick a question that grabs us, and leave time to experiment. You get to choose what we try first."
+      ],
+      "source": "COSI · Gadgets",
+      "url": "https://cosi.org/exhibits/classic-exhibits/gadgets",
+      "supportingSource": "COSI · Ocean",
+      "supportingUrl": "https://cosi.org/exhibits/classic-exhibits/ocean"
+    }
+  },
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "cities",
+    "entry": {
+      "slug": "toledo-glass-pavilion",
+      "title": "Toledo’s Glass Pavilion",
+      "kicker": "TOLEDO · ART & GLASS",
+      "summary": "In the Glass City, even the museum walls join the exhibition. Come look through them with me ♡",
+      "body": [
+        "I want to show you a building that changes as you move. At the Toledo Museum of Art’s Glass Pavilion, curved glass walls blur the line between galleries and the outdoors. The pavilion holds glass art from many periods, so one visit can move from an ancient vessel to a contemporary experiment. Notice how the light travels through a piece before you read its label; then go back and see what you missed.",
+        "Toledo’s connection to glass makes this more than a pretty room. The museum’s Glass Studio offers glassblowing demonstrations, bringing the making process into view. If you hope to watch artists work, check the current program before you go. Gallery access can change during renovations too. I’d leave time for the sculpture garden or another open gallery, then let one favorite object decide where we look next."
+      ],
+      "source": "Toledo Museum of Art · Visit and gallery updates",
+      "url": "https://toledomuseum.org/",
+      "supportingSource": "Toledo Museum of Art · Glass Studio and learning",
+      "supportingUrl": "https://toledomuseum.org/learn/"
+    }
+  },
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "coast",
+    "entry": {
+      "slug": "magee-marsh",
+      "title": "Magee Marsh",
+      "kicker": "LAKE ERIE · MIGRATING BIRDS",
+      "summary": "A small bird can make a very big journey. Let us meet the migrants along this Lake Erie boardwalk ♡",
+      "body": [
+        "Walk softly with me through the woods at Magee Marsh. Its boardwalk follows a beach ridge between wetland and Lake Erie, a resting and feeding place for migrating songbirds. In spring, warblers draw birders here from far beyond Ohio. You don’t need to know every bird by name to enjoy the moment: watch for movement in the leaves, listen, and give everyone on the path room to look.",
+        "There’s more to explore than the best-known boardwalk. The state trail map marks a visitor-center loop through wetland vegetation and a connecting path toward Ottawa National Wildlife Refuge. Choose a route that suits your mobility and interest, and check current access before traveling; parts of the wildlife area have seasonal restrictions. Binoculars help, but patience may be the most useful thing we bring."
+      ],
+      "source": "Ohio Department of Natural Resources · Magee Marsh trail map",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/Magee%20Marsh%20Trail%20Map%20Points%20of%20Interest.pdf",
+      "supportingSource": "Ohio Department of Natural Resources · Magee Marsh bird trail",
+      "supportingUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-management/Magee%20Marsh%20Cradle%20of%20Wildlife%20pub008.pdf"
+    }
+  },
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "past",
+    "entry": {
+      "slug": "serpent-mound",
+      "title": "Serpent Mound",
+      "kicker": "SOUTHERN OHIO · INDIGENOUS EARTHWORK",
+      "summary": "A great earthen serpent curls across a ridge. Let us approach this place with care and curiosity.",
+      "body": [
+        "From the ground, you follow a low, winding form; from above, its serpent shape becomes clearer. Serpent Mound is an effigy earthwork made by ancient American Indian people in what is now southern Ohio. Nearby burial mounds belong to different periods. Archaeologists still debate when the serpent itself was built, so I won’t give you a tidy date where the evidence remains unsettled.",
+        "This is a cultural place, not a puzzle for us to solve in an afternoon. I’d start with the Ohio History Connection’s site history and visitor guidance, then take the walk at a respectful pace. Stay within permitted areas and check current opening times before coming; access is limited to posted hours. Look at the shape, the surrounding landscape, and the questions that remain, while remembering that Indigenous histories and communities did not end here."
+      ],
+      "source": "Ohio History Connection · Serpent Mound",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/"
+    }
+  },
+  {
+    "sectionId": "travel",
+    "sceneGroupId": "wild",
+    "entry": {
+      "slug": "glen-helen",
+      "title": "Glen Helen",
+      "kicker": "YELLOW SPRINGS · WOODLAND PATHS",
+      "summary": "A spring, a cascade, and a forest path near town. Let us slow our steps and see what is growing ♡",
+      "body": [
+        "Come into the woods with me at Glen Helen Nature Preserve. Near Yellow Springs, its trails pass the iron-rich Yellow Spring that gave the village its name, along with streams, limestone features, and woodland habitat. The preserve recommends the Inman Trail for a first visit; from the Cascades entrance, you can reach the loop without beginning with the steep stairs at the Steps entrance.",
+        "This is protected land with living things all around us. Stay on marked trails, leave plants where they grow, and keep any dog leashed. Natural surfaces may be muddy and the routes have slopes, so study the preserve map before choosing a walk. There’s no need to hurry toward a single photo. I’d stop by the water, listen for birds, and let the forest set our pace."
+      ],
+      "source": "Glen Helen Nature Preserve · Visitor FAQ",
+      "url": "https://glenhelen.org/faqs/",
+      "supportingSource": "Glen Helen Nature Preserve · Land stewardship",
+      "supportingUrl": "https://glenhelen.org/land-stewardship/"
+    }
+  },
+  {
+    "sectionId": "economy",
+    "sceneGroupId": "movement",
+    "entry": {
+      "slug": "port-of-toledo",
+      "title": "The Port of Toledo",
+      "kicker": "LAKE ERIE · CARGO & RAIL",
+      "summary": "What happens after a lake freighter docks? I will follow the cargo from Toledo waterfront toward the rail lines and roads beyond it.",
+      "body": [
+        "At the western end of Lake Erie, the Port of Toledo connects Ohio to the Great Lakes–St. Lawrence Seaway. Its 13 marine terminals handle different kinds of freight. At the general cargo dock, cranes lift material between ship and shore, while on-dock rail and nearby highways carry the journey inland. From the water, it can look like one big operation; up close, each handoff has its own equipment and workers.",
+        "There's manufacturing at the waterfront too. Cleveland-Cliffs' direct reduction plant at Ironville receives material by vessel and sends hot briquetted iron out by truck and rail. I like tracing that sequence because the word “port” suddenly becomes more than a dot on a map. It is a place where shipping, industry, and local infrastructure meet."
+      ],
+      "source": "Toledo-Lucas County Port Authority · Port of Toledo",
+      "url": "https://www.toledoport.org/port-of-toledo"
+    }
+  },
+  {
+    "sectionId": "industry",
+    "sceneGroupId": "factory",
+    "entry": {
+      "slug": "columbus-whistle-factory",
+      "title": "A whistle from Columbus",
+      "kicker": "COLUMBUS · BRASS & PRECISION",
+      "summary": "That little whistle has a surprisingly long making story. Shall we see how brass becomes a clear, piercing signal?",
+      "body": [
+        "American Whistle Corporation has made metal whistles in Columbus since 1956. Its factory tour follows brass through stamping, forming, assembly, and inspection. The company says each whistle is blown and checked by hand before it leaves. Suddenly, the object in a referee's pocket feels less ordinary: shape, air, sound, and careful testing all have to meet in something small enough to hold between two fingers.",
+        "The tour also shows the machines built for this particular job and the packaging that sends finished whistles outward. I would pause at the quality check; hearing a familiar sound emerge from factory work makes the process easy to remember. Tours must be booked in advance, so use the maker's current tour page if you'd like to see the floor yourself."
+      ],
+      "source": "American Whistle Corporation · Factory tour",
+      "url": "https://www.americanwhistle.com/pages/what-to-expect"
+    }
+  },
+  {
+    "sectionId": "industry",
+    "sceneGroupId": "factory",
+    "entry": {
+      "slug": "rookwood-cincinnati",
+      "title": "Rookwood's Cincinnati clay",
+      "kicker": "CINCINNATI · ART POTTERY",
+      "summary": "A tile can be part of a building and a small work of art. Rookwood makers have explored that idea since 1880 ♡",
+      "body": [
+        "Maria Longworth Storer founded Rookwood in Cincinnati in 1880 with one kiln and a plan to make American art pottery. Its first potters worked in a former schoolhouse, shaping clay from the Ohio River. The company still makes pottery, tile, and custom work in Cincinnati. I love the thought that a vase on a table and a tile in a wall can carry the same attention to form and surface.",
+        "Rookwood describes a process in which many hands touch each piece before it is finished. That matters more to this story than treating every object as a museum relic. Glazes, shapes, and uses have changed, while people continue to make things for homes and public interiors. Look at a tile closely next time; its texture may tell you as much as its pattern."
+      ],
+      "source": "Rookwood Pottery · About Rookwood",
+      "url": "https://rookwood.com/pages/about-rookwood"
+    }
+  },
+  {
+    "sectionId": "industry",
+    "sceneGroupId": "factory",
+    "entry": {
+      "slug": "akron-rubber-work",
+      "title": "Akron and the rubber road",
+      "kicker": "AKRON · RUBBER & TIRES",
+      "summary": "Before tires from Akron rolled everywhere, local factories made a much wider mix of rubber goods. Let us follow how that work grew.",
+      "body": [
+        "When Frank and Charles Seiberling began making rubber goods in Akron in 1898, the early Goodyear products included horseshoe pads, poker chips, and carriage and bicycle tires. The rising automobile industry changed the scale of the work. Akron already had other rubber firms, workers with manufacturing experience, a river, and railroad access. A famous industrial nickname grew from a very real network of people and routes.",
+        "The technical questions did not stop with making more tires. Goodyear's 1901 straight-sided tire used a braided wire bead to help hold it on the wheel while making removal easier. Today its Akron Innovation Center uses a driving simulator as part of tire development. I find that arc fascinating: an awkward wheel change and a virtual driving test both ask how a tire behaves in use."
+      ],
+      "source": "Goodyear Corporate · History",
+      "url": "https://corporate.goodyear.com/us/en/company/history.html",
+      "supportingSource": "Goodyear Corporate · Technologies",
+      "supportingUrl": "https://corporate.goodyear.com/us/en/products-and-innovations/technologies.html"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "table",
+    "entry": {
+      "slug": "west-side-market",
+      "title": "West Side Market",
+      "kicker": "CLEVELAND · PUBLIC MARKET",
+      "summary": "Look up at the tiled vault, then back to the counters. This Cleveland market has more than a century of neighbors in its story.",
+      "body": [
+        "Cleveland's West Side Market opened to shoppers in 1912, replacing an older market across the corner in Ohio City. It is the city's oldest continuously operating municipally owned market. The high vaulted ceiling and clock tower make a first impression, but the stalls are the point: people come here to buy food, sell it, and exchange recommendations across the counter.",
+        "Earlier public markets served Cleveland's growing immigrant communities; today's vendors reflect a wider set of food traditions and businesses. I would look at the architecture, then give the sellers my attention. Choose something you'll actually eat, ask about it when a counter is free, and check the market's current hours before coming. A living market changes through the week; it isn't a still photograph from 1912."
+      ],
+      "source": "West Side Market · Market History",
+      "url": "https://westsidemarket.org/about/market-history/",
+      "supportingSource": "West Side Market · People's Stories",
+      "supportingUrl": "https://westsidemarket.org/about/market-history/self-guided-historical-tour/people/"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "gallery",
+    "entry": {
+      "slug": "billy-ireland-cartoon-museum",
+      "title": "A home for cartoon art",
+      "kicker": "COLUMBUS · COMICS & ARCHIVES",
+      "summary": "A comic panel can make you laugh and hold a piece of history at once. At Ohio State, let us follow both sides of the page.",
+      "body": [
+        "The Billy Ireland Cartoon Library & Museum at Ohio State collects original art, published cartoons, comics, archives, and related materials. Its exhibitions make that work visible beyond the reading room. There is a particular pleasure in seeing an original drawing: the marks and corrections remind us that someone made every familiar printed panel by hand or through a deliberate process.",
+        "The museum also preserves cartoon art for researchers, teachers, and the public. I wouldn't rush through it as a nostalgia stop. Editorial cartoons, comic strips, and longer stories can reveal how people argued, played, and pictured their times. Galleries are open to the public, while special collections require a different kind of visit; check current exhibition details and reading-room guidance before you go."
+      ],
+      "source": "Billy Ireland Cartoon Library & Museum · About",
+      "url": "https://cartoons.osu.edu/",
+      "supportingSource": "Billy Ireland Cartoon Library & Museum · Location & Hours",
+      "supportingUrl": "https://cartoons.osu.edu/location-hours"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "gallery",
+    "entry": {
+      "slug": "american-sign-museum",
+      "title": "The signs we live by",
+      "kicker": "CINCINNATI · SIGNS & NEON",
+      "summary": "A sign has to catch your eye, but it can hold the memory of a whole street. Come see what Cincinnati has saved ♡",
+      "body": [
+        "In Cincinnati's Camp Washington neighborhood, the American Sign Museum gathers more than a century of signs and signmaking history. Its collection includes signs, photographs, artworks, tools, and materials. I'll follow the lettering first: a shop sign has only a moment to tell passersby where to look, and its maker has to choose color, shape, scale, and light with care. Once a sign comes indoors, it also becomes a record of a business and the street around it.",
+        "The museum's Main Street display lets signs speak to one another across styles and decades. There's a working neon shop in the building too, where visitors can sometimes watch a tube being bent or repaired. I like that link between preservation and continuing skill. Look closely at a painted letter or illuminated curve, then notice the signs on your own route home. They may never seem quite so ordinary again."
+      ],
+      "source": "American Sign Museum · Explore",
+      "url": "https://www.americansignmuseum.org/explore",
+      "supportingSource": "American Sign Museum · Collection",
+      "supportingUrl": "https://www.americansignmuseum.org/collection/"
+    }
+  },
+  {
+    "sectionId": "culture",
+    "sceneGroupId": "records",
+    "entry": {
+      "slug": "cincinnati-music-hall",
+      "title": "Cincinnati Music Hall",
+      "kicker": "CINCINNATI · A LIVING STAGE",
+      "summary": "One grand building, many kinds of sound. Let us look beyond the facade and see how Cincinnati keeps filling Music Hall with life.",
+      "body": [
+        "Cincinnati Music Hall was built in 1878, and its Elm Street façade still makes me want to stop and look up. The hall first served the city as a convention center as well as a performance space. Industrial exhibitions, public events, and concerts all belong to its history. A building so often pictured from the outside has always depended on people gathering inside.",
+        "Today it is home to the Cincinnati Symphony Orchestra, Pops Orchestra, Opera, Ballet, and May Festival, among others. Its long program has also included sports, conventions, and contemporary musicians. I like that range: a cultural landmark isn't frozen in its opening year. If you're planning a visit, look for a performance that draws you in and check the current calendar. The room changes with the people onstage and in the seats."
+      ],
+      "source": "Cincinnati Arts Association · About Music Hall",
+      "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall"
+    }
+  },
+  {
+    "sectionId": "government",
+    "sceneGroupId": "civic",
+    "entry": {
+      "slug": "statehouse-open-door",
+      "title": "Step inside the Statehouse",
+      "kicker": "COLUMBUS · CIVIC LIFE",
+      "summary": "Come with me into the building where Ohio lawmakers meet. Its halls and museum make state government easier to picture.",
+      "body": [
+        "The Ohio Statehouse is a working government building and a place you can visit. Start in the Map Room, where tours gather, then look for the Museum Education Center on the ground floor. Its exhibits invite you to weigh viewpoints and make decisions. Suddenly those familiar words—bill, vote, constitution—have rooms and faces attached to them.",
+        "I would leave time to look around after a tour. The museum displays pages from Ohio's historic constitutions, and Capitol Square holds art and memorials outside. Guided and self-guided visits are offered; check the Statehouse's current tour information and security guidance before you go. A building can explain how a government works, but your own questions make the visit yours."
+      ],
+      "source": "Ohio Statehouse · Museum Education Center",
+      "url": "https://ohiostatehouse.org/museum/museum-education-center",
+      "supportingSource": "Ohio Statehouse · School and group tours",
+      "supportingUrl": "https://www.ohiostatehouse.org/visit/school-and-group-tours"
+    }
+  },
+  {
+    "sectionId": "life",
+    "sceneGroupId": "campus",
+    "entry": {
+      "slug": "wilberforce-black-history",
+      "title": "Stories in Wilberforce",
+      "kicker": "WILBERFORCE · MUSEUM & ARCHIVES",
+      "summary": "Let us spend time with Black history told through art, objects, documents, and lives. The National Afro-American Museum & Cultural Center gives us a place to look closely.",
+      "body": [
+        "In Wilberforce, the National Afro-American Museum & Cultural Center collects and shares African American history and culture. Its holdings stretch across art, civil rights, childhood, military history, inventions, and the records of Black organizations. I would pick one object that catches your eye and ask whose life it touches; that question can carry you much farther than a quick circuit of the galleries.",
+        "The museum also offers programs, and its archive is available by appointment. Check the current exhibitions, hours, admission, and archive arrangements before visiting. Wilberforce is home to Wilberforce University and Central State University, so this museum belongs to a wider landscape of Black education and community. Give the stories time to unfold."
+      ],
+      "source": "Ohio History Connection · National Afro-American Museum & Cultural Center",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/national-afro-american-museum-cultural-center/"
+    }
+  },
+  {
+    "sectionId": "life",
+    "sceneGroupId": "campus",
+    "entry": {
+      "slug": "rocky-river-nature-center",
+      "title": "A nature center afternoon",
+      "kicker": "CLEVELAND AREA · LEARN OUTDOORS",
+      "summary": "A quick look at the exhibits, then a walk toward the river? Rocky River Nature Center makes room for curiosity and fresh air.",
+      "body": [
+        "Rocky River Nature Center sits within Cleveland Metroparks' Rocky River Reservation. Gardens near the building lead toward trails that reach the river, ponds, wetland forest, and hilltops. The landscape changes with the season, so I would begin by noticing one thing—a leaf, a bird call, the color of the water—and see what else it helps us find.",
+        "The center lists upcoming programs and offers group learning, too. Choose a walk that fits your time and mobility, and check the park's current trail and program details before setting out. You can enjoy the visit without turning every sighting into a lesson. Still, if a question follows you home, I think the afternoon has done its job."
+      ],
+      "source": "Cleveland Metroparks · Rocky River Nature Center",
+      "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/rocky-river-reservation/rocky-river-nature-center",
+      "supportingSource": "Cleveland Metroparks · Group programs",
+      "supportingUrl": "https://cms.clevelandmetroparks.com/parks/education/education-programs/group-programs"
+    }
+  },
+  {
+    "sectionId": "life",
+    "sceneGroupId": "community",
+    "entry": {
+      "slug": "possum-creek-gardens",
+      "title": "Grow something together",
+      "kicker": "DAYTON · COMMUNITY GARDEN",
+      "summary": "At Possum Creek MetroPark, a garden plot can turn an ordinary season into shared work, new skills, and a reason to return ♡",
+      "body": [
+        "Five Rivers MetroParks runs community garden plots at Possum Creek in Dayton. Gardeners tend their own space within a larger growing area, with park rules covering care of the plot and organic practices. I like the rhythm of it: checking the soil, noticing what changed since last week, and learning from the people working nearby.",
+        "A plot is a real commitment through the growing season, and registration, fees, availability, and dates can change. Read the current garden information before making plans. If a whole plot is more than you want, Five Rivers also describes volunteer work that includes gardening and park care. There are several ways to get your hands in the dirt and meet neighbors there."
+      ],
+      "source": "Five Rivers MetroParks · Possum Creek community garden rules",
+      "url": "https://www.metroparks.org/wp-content/uploads/2025/03/Possum-Creek-Community-Garden-Info_Rules.pdf",
+      "supportingSource": "Five Rivers MetroParks · 2024 annual report",
+      "supportingUrl": "https://www.metroparks.org/wp-content/uploads/2025/06/2024_FRMPAnnualReport_v4WebPages.pdf"
+    }
+  }
+]

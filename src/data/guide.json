@@ -1,0 +1,688 @@
+{
+  "sections": [
+    {
+      "id": "discover",
+      "title": "Discover",
+      "eyebrow": "A STATE OF MANY LANDSCAPES",
+      "headline": ["Oh, hello", "Ohio."],
+      "intro": "Oh, you thought Ohio was all one kind of place? Let me show you the lake shores, river cities, wooded hills, and stories between them. There’s a lot to fall for.",
+      "aside": "Let’s get our bearings. Then we can take the interesting turn. ♡",
+      "entries": [
+        {
+          "slug": "north-coast",
+          "title": "The North Coast",
+          "kicker": "LAKE ERIE · GLACIAL COUNTRY",
+          "summary": "Lake air, long horizons, and islands on the map—northern Ohio knows how to make an entrance. Come on, let’s follow the shoreline. ♡",
+          "body": [
+            "Look north and the land gives way to water. Along Lake Erie, you’ll find beaches, wetlands, islands, fisheries, and working ports, with Sandusky Bay adding another shape to the shoreline. The lake also influences nearby weather. So, yes, that extra layer in your bag may turn out to be a very good idea.",
+            "Much of northern Ohio carries the marks of glaciation: relatively level plains, deposited soils and sediments, and landscapes shaped as the ice retreated. That history helps explain where farms, towns, and roads sit today. I like a view with a backstory. Follow the coast slowly and you’ll start noticing the clues."
+          ],
+          "source": "National Park Service · Ohio geology",
+          "url": "https://home.nps.gov/articles/000/learn-about-geology-rocks-ice-river.htm"
+        },
+        {
+          "slug": "appalachian-ohio",
+          "title": "Appalachian Ohio",
+          "kicker": "SOUTHEAST · RIDGES & VALLEYS",
+          "summary": "The roads start bending, the hills gather around you, and Ohio changes its rhythm. The southeast’s landscape and lived regional identity are worth getting to know at a thoughtful pace.",
+          "body": [
+            "In southeastern Ohio, Appalachian ridges, hollows, and stream valleys replace the flatter country farther north and west. Wayne National Forest stretches across parts of this terrain, while the sandstone of the Hocking Hills makes the geology especially easy to see. Even a short drive can feel like a little journey through folds of wooded land.",
+            "Appalachia is also home: towns, rural communities, local knowledge, and traditions reaching beyond state borders. No single postcard can explain it. Let’s listen to people who live here, support local places, and resist the easy stereotypes. The view is lovely; the lives within it deserve just as much attention."
+          ],
+          "source": "National Park Service · Ohio geology",
+          "url": "https://home.nps.gov/articles/000/learn-about-geology-rocks-ice-river.htm"
+        },
+        {
+          "slug": "cities-regions",
+          "title": "A constellation of cities",
+          "kicker": "CLEVELAND · COLUMBUS · CINCINNATI",
+          "summary": "Lakefront Cleveland, central Columbus, riverfront Cincinnati… where to first? Each city has its own personality, and the places between them have plenty to say too. ♡",
+          "body": [
+            "Picture a loose triangle: Cleveland beside Lake Erie, Columbus near the center of the state, and Cincinnati along the Ohio River. Their neighborhoods, industries, institutions, and skylines feel different from one another. Add Dayton, Toledo, Akron, Canton, Youngstown, and smaller cities, and our neat little triangle becomes a much more interesting map.",
+            "Regional labels are useful bearings, not perfect cultural borders. A county seat, river town, or college community can give the next stretch of road its own character. I’d leave room for those stops between the big names. Sometimes the place you didn’t underline on the map is the one that lingers."
+          ],
+          "source": "Ohio Department of Natural Resources · Statewide map",
+          "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/Ohio-State-Parks-Brochure.pdf"
+        },
+        {
+          "slug": "history",
+          "title": "A layered history",
+          "kicker": "ANCIENT EARTHWORKS · STATEHOOD",
+          "summary": "There’s a deeper story beneath every familiar landmark. Ohio’s history includes Indigenous nations, forced displacement, migration, industry, reform, and communities still shaping what comes next.",
+          "body": [
+            "Let’s begin before statehood. Indigenous peoples have lived in this land for thousands of years, and the ancient earthworks reflect sophisticated communities and far-reaching exchange. Later expansion brought warfare, treaties, and forced removal of Native nations. Those histories belong at the center of the story, alongside the continuing lives and voices of Indigenous peoples.",
+            "Ohio joined the Union in 1803 as the seventeenth state. Canals and railroads connected farms and cities to wider markets; industry grew, and the Underground Railroad and abolitionist organizing became important parts of its history. There are achievements here, and painful conflicts too. Following both helps us understand the places we’re visiting."
+          ],
+          "source": "Ohio History Connection",
+          "url": "https://www.ohiohistory.org/learn/ohio-history/"
+        },
+        {
+          "slug": "nature",
+          "title": "Wild Ohio",
+          "kicker": "PARKS · WETLANDS · WILDLIFE",
+          "summary": "A marsh at sunrise, a forest path, a river bend… Ohio has plenty of reasons to slow down. Let’s trade the checklist for a little patient looking—and enjoy the quiet. ♡",
+          "body": [
+            "Lake Erie wetlands, prairie remnants, hardwood forests, rivers, and sandstone gorges give Ohio a surprising range of habitats. State parks, Wayne National Forest, and Cuyahoga Valley National Park offer different ways into that landscape. Hiking, paddling, camping, or simply sitting somewhere green all count. You’re allowed a quiet adventure.",
+            "What you see depends on place and season. Migrating birds use the lakeshore; forests shelter deer, wild turkeys, and smaller creatures; streams and wetlands support their own busy worlds. Follow park guidance, stay on marked paths, and give wildlife space. A good sighting feels even better when the animal gets to carry on undisturbed."
+          ],
+          "source": "Ohio Department of Natural Resources · Parks guide",
+          "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/Ohio-State-Parks-Brochure.pdf"
+        },
+        {
+          "slug": "symbols",
+          "title": "The buckeye state",
+          "kicker": "A BURGEE · A NICKNAME · A TREE",
+          "summary": "A swallow-tailed flag, a bright red bird, and a shiny brown nut. Ohio’s symbols make a sweet little treasure hunt. Ready to spot them?",
+          "body": [
+            "That unusual flag shape has a name: a burgee. John Eisenmann designed Ohio’s for the 1901 Pan-American Exposition. Its shapes and symbols refer to the state’s landscape, routes, and place as the seventeenth state. And the buckeye nickname? Ooh, follow that one to the state tree and its glossy brown nuts.",
+            "The northern cardinal is the state bird; the scarlet carnation is the state flower. You’ll notice these emblems on souvenirs and in everyday visual life once they’re on your radar. Tiny details, surprisingly memorable. Oh—and the chocolate-and-peanut-butter candy is the edible buckeye. Please leave the actual nuts to the trees. ♡"
+          ],
+          "source": "Ohio Revised Code §5.01 and §5.03",
+          "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "eyebrow": "TAKE THE SCENIC ROUTE",
+      "headline": ["Take the", "scenic route."],
+      "intro": "Waterfalls or a waterfront? A museum morning or an island afternoon? Ooh, choices. Pick your kind of adventure; we’ll leave room for a happy little detour.",
+      "aside": "Comfy shoes, a little curiosity, and room in the day. You’re ready. ♡",
+      "entries": [
+        {
+          "slug": "hocking-hills",
+          "title": "Hocking Hills",
+          "kicker": "SOUTHEAST OHIO · NATURE",
+          "summary": "Ooh, this is the Ohio that makes you put your phone away—after one waterfall photo, obviously. Sandstone gorges, forest paths, and a very tempting overnight stay.",
+          "body": [
+            "Come a little closer to the stream. Hocking Hills is all sandstone cliffs, deep gorges, waterfalls, and woodland, with rock shelters that make you feel wonderfully small. Old Man’s Cave and Ash Cave are familiar names for a reason. Around Logan, little communities give you somewhere to pause between those very big views.",
+            "Let’s match the trail to your day: distance, stairs, terrain, and accessibility all matter here. Check current conditions, bring water, and wear shoes with grip. Cabins, campgrounds, and local lodging make staying overnight possible. One quiet morning after the day-trippers leave? Now that is a lovely reason to linger. ♡"
+          ],
+          "source": "Hocking Hills Tourism Association",
+          "url": "https://www.explorehockinghills.com/",
+          "supportingSource": "Ohio Department of Natural Resources · Parks guide",
+          "supportingUrl": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/Ohio-State-Parks-Brochure.pdf"
+        },
+        {
+          "slug": "cuyahoga-valley",
+          "title": "Cuyahoga Valley",
+          "kicker": "NORTHEAST OHIO · NATIONAL PARK",
+          "summary": "A national park between Cleveland and Akron? Yep! Follow the river, find a waterfall, or let the old canal towpath turn a short walk into an afternoon.",
+          "body": [
+            "You don’t have to leave the cities far behind to find this much green. Cuyahoga Valley National Park gathers forests, wetlands, farms, and the Ohio & Erie Canal into one river landscape. Brandywine Falls is a lovely short stop; the Towpath Trail is the one that whispers, ‘just a little farther.’",
+            "One small planning twist: there isn’t a single park gate. Choose the trail or visitor center first, then work out your route. The National Park Service has maps, accessibility information, and current notices. The scenic railroad adds another way to see the valley when operating; check its schedule before building your day around it."
+          ],
+          "source": "National Park Service",
+          "url": "https://www.nps.gov/cuva/planyourvisit/index.htm"
+        },
+        {
+          "slug": "lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "kicker": "NORTH COAST · WATER & ISLANDS",
+          "summary": "Ferry day! Lively village streets, quieter beaches, or a long bicycle ride—the islands have different personalities. Let’s pick the one that feels like your kind of escape.",
+          "body": [
+            "South Bass Island and Put-in-Bay bring the lively village mood. Kelleys Island pairs beaches and natural areas with a gentler pace, while Middle Bass and North Bass give you still more possibilities. And yes, the crossing counts as part of the adventure. Lake air, a receding shoreline… we’re properly on our way.",
+            "Choose the day you want before choosing the island: walking, cycling, history, nature, or a waterfront meal. Ferries, vehicle rules, routes, and activities vary by island and season, so check the operators directly. Shores & Islands Ohio is a good place to gather the pieces. No rushing between every island, okay? Enjoy the one you’re on."
+          ],
+          "source": "Shores & Islands Ohio",
+          "url": "https://www.shoresandislands.com/communities/islands/"
+        },
+        {
+          "slug": "cleveland",
+          "title": "Cleveland",
+          "kicker": "NORTHEAST OHIO · LAKE ERIE CITY",
+          "summary": "Music history, art, neighborhood food, and a whole lake at the edge of town. Cleveland has plenty of ways to steal your afternoon—in the best way. ♡",
+          "body": [
+            "Start with the lake, then follow whatever catches your eye. Cleveland’s Rock & Roll Hall of Fame is an obvious draw, but University Circle, the West Side Market, galleries, neighborhood streets, and the waterfront all deserve some attention. A city break here can move between major institutions and tiny independent discoveries rather nicely.",
+            "Please leave a little space beyond the headline attraction. That bakery, local performance, or neighborhood restaurant might become the part you keep talking about. Destination Cleveland gathers current events, food ideas, transport details, and visitor guides. Group your stops by area and check the connections—more wandering, less crisscrossing the map."
+          ],
+          "source": "Destination Cleveland",
+          "url": "https://www.thisiscleveland.com/"
+        },
+        {
+          "slug": "columbus",
+          "title": "Columbus",
+          "kicker": "CENTRAL OHIO · CAPITAL CITY",
+          "summary": "The Statehouse, a science museum, an arts district, a riverside stroll… Columbus, you’re making it very difficult to choose. Let’s build the day around your favorite things.",
+          "body": [
+            "Ohio’s capital has more than one mood. You could start at the Statehouse, browse the Short North Arts District, wander German Village, or follow the Scioto Mile along the river. COSI, the Columbus Zoo, and Franklin Park Conservatory offer different kinds of discovery; sports and live events add their own energy.",
+            "I’d think in neighborhoods rather than one enormous checklist. Pick an area, check the distances and transport, then give yourself room to explore it. Experience Columbus has attractions, events, and local guides to help. An unplanned café stop fits into this method beautifully. Purely practical advice, of course. ♡"
+          ],
+          "source": "Experience Columbus",
+          "url": "https://www.experiencecolumbus.com/things-to-do/"
+        },
+        {
+          "slug": "cincinnati",
+          "title": "Cincinnati",
+          "kicker": "SOUTHWEST OHIO · RIVER CITY",
+          "summary": "Come hungry. Cincinnati brings river views, hillside neighborhoods, art, markets, and food traditions that are very much their own. We can argue about the chili later.",
+          "body": [
+            "Those hills and the Ohio River make quite an entrance, don’t they? Downtown, Over-the-Rhine, riverfront spaces, museums, and performances give Cincinnati plenty of ways to fill a day. Cincinnati-style chili and goetta belong to the local food story too. A meal is a rather delicious place to begin exploring.",
+            "One map detail before we wander: the wider region reaches across the river, so check which state and neighborhood each stop is in. Visit Cincy collects dining, events, and neighborhood guides. Choose a few nearby places instead of sprinting through everything. A market, a museum, and a long riverside walk already sound pretty good to me."
+          ],
+          "source": "Visit Cincy",
+          "url": "https://www.visitcincy.com/"
+        },
+        {
+          "slug": "dayton",
+          "title": "Dayton",
+          "kicker": "WESTERN OHIO · AVIATION",
+          "summary": "A bicycle shop, a flying field, and extraordinary aircraft: Dayton lets you follow an idea into the sky. There’s more than one remarkable life story here, too, so take your time.",
+          "body": [
+            "Flight didn’t arrive fully formed—and Dayton lets you see some of the work behind it. Dayton Aviation Heritage National Historical Park connects the Wright brothers’ bicycle shop and printing office, Huffman Prairie, and other historic places. It also includes the home of Paul Laurence Dunbar, whose poetry opens a different, essential chapter.",
+            "Nearby, the National Museum of the U.S. Air Force follows aviation through aircraft and exhibits from different eras. These are separate places with enough to reward a substantial visit, so check locations and access before setting out. Give the people and their experiments some time. The airplane is only part of the story, and that’s what makes this visit so rewarding."
+          ],
+          "source": "National Park Service",
+          "url": "https://www.nps.gov/daav/planyourvisit/index.htm"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "eyebrow": "OLD ROOTS, NEW RHYTHMS",
+      "headline": ["A little", "local magic."],
+      "intro": "A song through an open door. A recipe with a family story. A crowd cheering together. Come closer—this is where Ohio gets personal.",
+      "aside": "Look at what people make, share, and celebrate—you’ll find a lot of Ohio in there. ♡",
+      "entries": [
+        {
+          "slug": "hopewell-earthworks",
+          "title": "Hopewell Earthworks",
+          "kicker": "INDIGENOUS HERITAGE · WORLD HERITAGE",
+          "summary": "These extraordinary earthworks invite us to slow down and listen. Their geometry belongs to a much deeper story of Indigenous knowledge, community, and enduring cultural meaning.",
+          "body": [
+            "The Hopewell Ceremonial Earthworks were built by American Indian communities in what is now Ohio. Their monumental geometric forms reflect sophisticated planning and relationships among earth, sky, ceremony, and community. The World Heritage inscription includes sites around Newark, Chillicothe, and Fort Ancient. There is a great deal here that deserves our careful attention.",
+            "Let’s approach them as meaningful cultural places, not simply impressive shapes to photograph. Ohio History Connection and its partners offer histories and visitor guidance to help you understand what you’re seeing. Read before visiting, respect site access rules, and make room for Indigenous perspectives. A thoughtful visit begins well before the first step onto the grounds."
+          ],
+          "source": "Ohio History Connection",
+          "url": "https://www.ohiohistory.org/visit/special-attractions/world-heritage-site/"
+        },
+        {
+          "slug": "aviation-heritage",
+          "title": "Aviation & invention",
+          "kicker": "DAYTON · IDEAS IN MOTION",
+          "summary": "The bicycle shop before the airplane—that’s the detail I love. Dayton’s aviation story makes room for patient experiments, practical skills, and the people around a big idea. Follow the steps and see how it takes shape.",
+          "body": [
+            "The Wright brothers’ work in Dayton helped turn flight experiments into a practical airplane. Their printing business, bicycle shop, testing field, and local network all belong in that story. The places preserved by Dayton Aviation Heritage National Historical Park let you follow the connections. Suddenly, invention feels less like a lightning bolt and more like work you can trace.",
+            "Pair those original places with the aircraft and later technologies at the National Museum of the U.S. Air Force. Seeing both gives you a fuller picture than either alone. Ohio’s aviation identity also continues into research and industry today. From a workshop problem to a whole field of possibility—pretty wonderful, isn’t it?"
+          ],
+          "source": "Dayton Aviation Heritage National Historical Park",
+          "url": "https://www.nps.gov/daav/planyourvisit/index.htm"
+        },
+        {
+          "slug": "music",
+          "title": "Music with a pulse",
+          "kicker": "CLEVELAND · SOUND",
+          "summary": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving.",
+          "body": [
+            "The Rock & Roll Hall of Fame connects performers, radio, recording, and audiences who changed popular music. Its Northeast Ohio collections also follow local musicians, labels, venues, and scenes. I like that change in scale: a sound can travel around the world and still have a very particular street, station, or stage behind it.",
+            "For a visit, let’s leave room for something happening now. A museum stop and a local performance make a lovely pair; concert halls, neighborhood venues, and festivals all add to the picture. Check current listings rather than assuming a familiar event is on. The next song is still being played somewhere. ♫"
+          ],
+          "source": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/library/"
+        },
+        {
+          "slug": "arts-museums",
+          "title": "Arts & museums",
+          "kicker": "STATEWIDE · CREATIVE LIFE",
+          "summary": "Big collections or a tiny gallery you almost walked past? We have room for both. Ohio’s creative life stretches well beyond one museum district—and that’s where a lovely surprise might be waiting.",
+          "body": [
+            "Cleveland’s major art museum anchors a broader cultural district; Columbus connects established collections with contemporary work and the Short North. Across the state, smaller galleries, theaters, exhibitions, public art, and festivals add their own voices. There isn’t one doorway into all of it, which is honestly part of the fun.",
+            "The Cleveland Museum of Art is a good starting point, with collections, exhibitions, and programs to browse before you go. Then look at what’s near your own route. Check each institution’s current schedule and give yourself permission to follow one unexpected work or performance. You don’t have to see everything to find something that stays with you."
+          ],
+          "source": "Cleveland Museum of Art",
+          "url": "https://www.clevelandart.org/"
+        },
+        {
+          "slug": "foodways",
+          "title": "Regional foodways",
+          "kicker": "LOCAL TABLES · EVERYDAY CULTURE",
+          "summary": "Now this is a map I can get excited about: chili, goetta, neighborhood bakeries, markets, and recipes carried across generations. Ohio tastes different from place to place.",
+          "body": [
+            "Cincinnati brings its own chili tradition and goetta. Cleveland’s markets and neighborhoods reflect many immigrant food histories, while central Ohio’s changing restaurant scene sits alongside long-running favorites. No single dish gets to speak for the whole state. Sorry, little buckeye candy—you’re adorable, but this is a group project.",
+            "Use a meal as the beginning of a neighborhood visit. A market stall, family-run restaurant, or bakery can lead you toward the community around it, not just another item to tick off. Local visitor bureaus help with places and current opening information. Come curious, ask politely, and leave room for the thing you hadn’t planned to try. ♡"
+          ],
+          "source": "Visit Cincy",
+          "url": "https://www.visitcincy.com/restaurants/beer-bourbon-bites/"
+        },
+        {
+          "slug": "sports-community",
+          "title": "Sports & gathering",
+          "kicker": "STATEWIDE · SHARED MOMENTS",
+          "summary": "Hear that? Game-day noise has a way of spilling into the whole neighborhood. Sports, festivals, and local celebrations turn an ordinary day into a shared one.",
+          "body": [
+            "Columbus mixes college sports with professional soccer, hockey, baseball, and more. Cleveland and Cincinnati have their own teams and fan traditions, and the gathering often starts well before the game. Friends meet, streets fill, and familiar places feel different for a few hours. You don’t need to know every statistic to notice the energy.",
+            "If a scoreboard isn’t your thing, neighborhood festivals, gallery events, and public celebrations bring people together too. Check a city’s current calendar before your visit. One local gathering alongside the landmark attractions can change how a place feels. Just leave yourself enough time to get there—the crowd had the same lovely idea."
+          ],
+          "source": "Experience Columbus",
+          "url": "https://www.experiencecolumbus.com/things-to-do/"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "Economy",
+      "eyebrow": "WORK, TRADE & EVERYDAY LIFE",
+      "headline": ["The bigger", "picture."],
+      "intro": "Okay, let’s connect a few dots. Behind Ohio’s numbers are people making things, caring for neighbors, growing food, and getting everyone where they need to go.",
+      "aside": "Dates and units stay with the numbers. Tiny labels, very important jobs.",
+      "entries": [
+        {
+          "slug": "economic-map",
+          "title": "Many kinds of work",
+          "kicker": "REGIONAL ECONOMIES · SHARED NETWORKS",
+          "summary": "Factories, farms, hospitals, campuses, offices—Ohio’s economy is a lot of connected lives. Let’s look beyond one big number and see how the pieces fit.",
+          "body": [
+            "A state economy is never just one industry. Manufacturing, healthcare, education, retail, logistics, finance, agriculture, public service, and professional work all contribute to Ohio’s picture. Different communities depend on different combinations. That’s why a statewide headline can feel very different from what someone sees in their own town.",
+            "The figures above are dated snapshots, each measuring something specific. Population is a count of people; an establishment is a business location; income and unemployment answer other questions. We’ll keep the units and years attached. It’s much easier to have a useful conversation when the numbers aren’t pretending to say the same thing."
+          ],
+          "source": "U.S. Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/data/gdp/gdp-state"
+        },
+        {
+          "slug": "production",
+          "title": "Making things",
+          "kicker": "MANUFACTURING · MATERIALS · DESIGN",
+          "summary": "Pick almost any finished product and start tracing it backward. Ohio’s manufacturing story quickly becomes a web of materials, skills, suppliers, and journeys between places.",
+          "body": [
+            "Vehicles, machinery, metals, chemicals, food, medical products, and aerospace components all belong to Ohio’s production landscape. A finished item may bring together research, parts, assembly, testing, and transport from several places. That is the part I find interesting: one object can carry the work of a whole network.",
+            "Manufacturing affects other kinds of work too, from engineering and maintenance to business services and freight. The Industry chapter follows those individual sectors in more detail. Here, the useful question is how production connects to the wider economy—and to the communities where people make, maintain, and move things."
+          ],
+          "source": "JobsOhio · Advanced Manufacturing",
+          "url": "https://www.jobsohio.com/industries/advanced-manufacturing"
+        },
+        {
+          "slug": "jobs-households",
+          "title": "Work & household budgets",
+          "kicker": "LABOR · INCOME · OPPORTUNITY",
+          "summary": "A statewide average can’t tell you what every household’s day feels like. Wages, hours, stability, housing, and the trip to work all belong in the picture.",
+          "body": [
+            "An unemployment rate is useful, but it isn’t the whole job market. Pay, hours, benefits, commuting distance, and stability matter too. Ohio residents work for large employers, small businesses, public institutions, and themselves. Opportunities differ by region, industry, education, and access. Let’s leave room for those differences when reading a headline number.",
+            "Median household income sits halfway through the income distribution; it isn’t what every household earns. The Census source supplies the period and dollar basis, and the labor data has its own definitions. Keep those details beside the figure. A little care with the labels makes the bigger story much clearer."
+          ],
+          "source": "U.S. Census Bureau · QuickFacts",
+          "url": "https://www.census.gov/quickfacts/OH"
+        },
+        {
+          "slug": "trade",
+          "title": "Trade & movement",
+          "kicker": "ROADS · RAIL · AIR · WATER",
+          "summary": "Ports, interstates, rail lines, airports—Ohio has a lot of ways to send things on their way. Those routes carry local work to much wider markets. Let’s follow where they lead.",
+          "body": [
+            "Ohio sits among transport corridors linking the Great Lakes, Northeast, Midwest, and South. Roads, railways, ports, airports, and distribution centers help move raw materials and finished products. Farms and factories use those connections, and so do the businesses serving them. Follow the routes and you’ll find a map of relationships, too.",
+            "Trade connects producers with customers beyond the state, while suppliers bring materials and equipment in. JobsOhio’s logistics overview introduces the network; official trade data is the place to go for a particular year or measure. Shipment totals, production, and employment aren’t interchangeable, so we’ll let each answer its own question."
+          ],
+          "source": "JobsOhio · Logistics & Distribution",
+          "url": "https://www.jobsohio.com/industries/logistics-and-distribution"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "Industry",
+      "eyebrow": "WHAT OHIO MAKES",
+      "headline": ["Made of", "possibility."],
+      "intro": "Ever wonder how many people it takes to make one ordinary thing? Follow a part, an idea, or a delivery through Ohio. The connections get interesting fast.",
+      "aside": "A little curiosity is excellent factory-tour equipment. No hard hat needed here. ♡",
+      "entries": [
+        {
+          "slug": "advanced-manufacturing",
+          "title": "Advanced manufacturing",
+          "kicker": "MATERIALS · MACHINES · PRODUCTION",
+          "summary": "Robots get the dramatic photos, but the really interesting part is how people improve the whole process. Ohio’s manufacturing connects careful design with things that actually get made.",
+          "body": [
+            "Ohio makes established materials and components alongside products using newer methods. Automation, additive processes, connected equipment, and specialized materials change what can happen on a factory floor. A single part might end up in a vehicle, aircraft, medical device, or energy system. Ooh, one small object can have a surprisingly large family tree.",
+            "Suppliers, engineers, and research partners link design to production across the state. So let’s ask how something is made, not only what comes off the line. The JobsOhio sector guide describes that business network and its capabilities. Following one process can reveal connections you would miss by looking at company names alone."
+          ],
+          "source": "JobsOhio · Advanced Manufacturing",
+          "url": "https://www.jobsohio.com/industries/advanced-manufacturing"
+        },
+        {
+          "slug": "aerospace",
+          "title": "Aerospace & defense",
+          "kicker": "FLIGHT · RESEARCH · SYSTEMS",
+          "summary": "An aircraft has a very long supporting cast. Materials, software, precision parts, testing, maintenance—Ohio’s aviation story is still finding new ways to take shape.",
+          "body": [
+            "Ohio’s aerospace and defense work connects manufacturers, laboratories, researchers, and specialist suppliers, including activity around Dayton. Commercial aircraft components and newer forms of air mobility draw on different kinds of expertise. The flight heritage is a good introduction, and there’s much more going on than preserving the past.",
+            "Think of the aircraft as the meeting point of a long supply chain. Research, parts, testing, maintenance, and systems all have to work together. JobsOhio’s aerospace and defense guide offers a closer look at that ecosystem. It’s a useful way to turn ‘aviation industry’ into actual kinds of work and relationships."
+          ],
+          "source": "JobsOhio · Aerospace & Defense",
+          "url": "https://www.jobsohio.com/industries/advanced-aerospace-defense"
+        },
+        {
+          "slug": "automotive",
+          "title": "Automotive & mobility",
+          "kicker": "VEHICLES · COMPONENTS · TESTING",
+          "summary": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
+          "body": [
+            "A car is many industries arriving at the same place. Ohio’s automotive work includes assembly, engines, powertrains, electronics, components, and vehicle research. Batteries, controls, and newer mobility technologies sit alongside long-established production skills as the sector changes. Ooh, there’s a lot more here than the badge on the front.",
+            "The interesting part is the network: component makers, engineers, manufacturers, and testing partners helping systems work together. That reaches beyond any one brand or plant. JobsOhio tracks the state’s automotive ecosystem and evolving technologies. Follow those links and the finished vehicle starts to look like a rather impressive collaboration."
+          ],
+          "source": "JobsOhio · Automotive",
+          "url": "https://www.jobsohio.com/industries/automotive"
+        },
+        {
+          "slug": "healthcare",
+          "title": "Healthcare & life sciences",
+          "kicker": "CARE · RESEARCH · BIOTECH",
+          "summary": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
+          "body": [
+            "Hospitals, medical technology, pharmaceuticals, biotechnology, and research institutions form a connected life-sciences landscape in Ohio. An idea can move from a laboratory through testing and manufacturing toward clinical use. Each step asks different questions and needs different skills. It’s worth looking at the whole journey.",
+            "Universities and medical centers share this network with companies developing tools and treatments. That makes the field broader than patient care alone, even though patients are the reason much of it matters. JobsOhio’s healthcare guide describes research and business activity. For a particular institution or treatment, go to its own evidence and current information."
+          ],
+          "source": "JobsOhio · Healthcare",
+          "url": "https://www.jobsohio.com/industries/healthcare"
+        },
+        {
+          "slug": "food-agriculture",
+          "title": "Food & agribusiness",
+          "kicker": "FARMS · PROCESSING · SUPPLY",
+          "summary": "That grocery shelf has a backstory. Farms, processors, packaging, cold storage, equipment, and delivery all help turn what grows into what reaches our tables.",
+          "body": [
+            "Ohio’s food economy begins in fields, orchards, and other growing operations, but it doesn’t stay there. Processing, packaging, equipment, storage, and distribution connect rural and urban places. Ingredients and agricultural materials also travel into businesses far from the farm. One snack can have a surprisingly complicated itinerary—what a journey!",
+            "Looking at the whole chain helps explain the range of jobs and infrastructure involved. The processor, warehouse, driver, and grower are all part of the picture. JobsOhio’s food and agribusiness overview follows those business connections. Next time you see ‘made in Ohio,’ there may be more Ohio behind it than you first imagined."
+          ],
+          "source": "JobsOhio · Food & Agribusiness",
+          "url": "https://www.jobsohio.com/industries/food-and-agribusiness"
+        },
+        {
+          "slug": "logistics",
+          "title": "Logistics & distribution",
+          "kicker": "ROADS · RAIL · FREIGHT",
+          "summary": "Things don’t get where they’re going by wishing very hard. Roads, rail, air, water, planning, and people keep Ohio’s farms, factories, shops, and customers connected.",
+          "body": [
+            "Ohio’s location and transport connections support a substantial logistics network. Warehouses and distribution centers are the visible landmarks, while data, equipment, scheduling, and skilled workers organize what moves between them. A shipment might use more than one mode before it reaches its destination. Quite the relay.",
+            "These links matter to other industries too: a farm, factory, hospital, or shop depends on supplies arriving when needed. JobsOhio describes the transport network and approaches to freight and distribution. It may be easy to overlook from a visitor’s window, but this is one of the systems making everyday life possible."
+          ],
+          "source": "JobsOhio · Logistics & Distribution",
+          "url": "https://www.jobsohio.com/industries/logistics-and-distribution"
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "kicker": "SOFTWARE · CHIPS · DATA",
+          "summary": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
+          "body": [
+            "Ohio’s technology sector includes software and digital services as well as systems tied to physical products. Semiconductor supply chains, data systems, and applied research connect with manufacturing, healthcare, automotive work, and logistics. I love following those connections: the technology clicks when you can see what it helps someone do.",
+            "JobsOhio’s overview points to areas of business activity across the state. Use it as a starting point, then check individual projects and institutions directly for current details. One announcement doesn’t describe an entire sector, and a planned facility isn’t the same as an operating one. The useful question is what’s happening, where, and when."
+          ],
+          "source": "JobsOhio · Technology",
+          "url": "https://www.jobsohio.com/industries/technology"
+        },
+        {
+          "slug": "energy-chemicals",
+          "title": "Energy & chemicals",
+          "kicker": "POWER · MATERIALS · PROCESSES",
+          "summary": "Power, coatings, polymers, fuels—some of Ohio’s most widely used products work quietly behind the scenes. Let’s follow the materials, with the practical questions still in view.",
+          "body": [
+            "Energy and chemicals feed into factories, transport, buildings, household life, and consumer goods. Power generation, fuels, coatings, polymers, and other materials often sit behind products we mentally file under a different industry. Trace a few steps backward and those connections begin to appear everywhere.",
+            "This sector also raises real questions about costs, reliability, environmental effects, and changing technology. JobsOhio presents the business perspective. If you’re looking closely at a particular project, read its public regulatory and environmental records as well. A useful introduction should leave you better equipped to ask questions, not simply more impressed."
+          ],
+          "source": "JobsOhio · Energy & Chemicals",
+          "url": "https://www.jobsohio.com/industries/energy-chemicals"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "eyebrow": "OHIO HAS MANY VOICES",
+      "headline": ["Say that", "again?"],
+      "intro": "Wait, say that again? Ohio’s voices have their own little histories. Let’s listen to local expressions, regional accents, and names that keep newcomers guessing.",
+      "aside": "A word can be a little map. Let’s follow it with curious ears.",
+      "entries": [
+        {
+          "slug": "regional-voices",
+          "title": "More than one Ohio accent",
+          "kicker": "NORTHERN · MIDLAND · SOUTHERN",
+          "summary": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t that be a duller world?",
+          "body": [
+            "Ohio State’s OhioSpeaks project describes several dialect regions alongside social variation within them. Research finds Northern patterns in northern Ohio, Midland features around central Ohio, and Southern patterns extending into the south. Think of these as broad, overlapping histories of speech—not boxes that every resident has to fit.",
+            "People move, grow up in different communities, and change how they speak in different settings. Age and social identity matter alongside geography. So if a speaker surprises your mental accent map, keep listening. The map is an introduction; the person is the interesting part. Ohio has room for a lot of voices."
+          ],
+          "source": "Ohio State University · OhioSpeaks",
+          "url": "https://www.ling.ohio-state.edu/ohiospeaks/about.html",
+          "supportingSource": "Regional dialect research",
+          "supportingUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10501805/"
+        },
+        {
+          "slug": "appalachian-english",
+          "title": "Appalachian English",
+          "kicker": "SOUTHEAST OHIO · A REGIONAL VARIETY",
+          "summary": "A voice can carry family, place, and a lifetime of conversations. Appalachian English is varied and expressive; let’s listen with curiosity and let speakers tell their own stories.",
+          "body": [
+            "Southern and eastern Ohio connect to a wider Appalachian speech region, with patterns of pronunciation, vocabulary, and grammar that vary between communities and speakers. These are living varieties of English, not a single accent to imitate. Age, movement, social setting, and personal history all help shape how someone sounds.",
+            "The Southern Ohio Language Project studies that variation through local speakers and interviews. I’d start by listening to the people rather than memorizing a caricature. The expressions above are a few documented examples with regional context. Hearing one doesn’t tell you everything about someone—and not hearing it doesn’t make them any less local."
+          ],
+          "source": "Ohio University · Southern Ohio Language Project",
+          "url": "https://www.ohio.edu/news/2022/04/students-search-linguistic-answers-southern-ohio-language-project"
+        },
+        {
+          "slug": "place-names",
+          "title": "Names worth asking about",
+          "kicker": "SCIOTO · BELLEFONTAINE · CUYAHOGA",
+          "summary": "Scioto, Cuyahoga, Bellefontaine… a familiar-looking spelling can still catch you by surprise. No shame in asking. Local names are an invitation to listen.",
+          "body": [
+            "Ohio place names carry Indigenous, immigrant, and local histories, and their pronunciations don’t always follow a visitor’s first guess. Scioto is one example: Ohio University’s broadcast guide gives ‘sigh OH tuh.’ Say it slowly, then listen to local speakers. A little uncertainty is a perfectly good beginning.",
+            "Pronunciation and origin are different questions, so let’s not turn a spelling guess into an etymology. The university guide is useful for spoken forms; historical and community sources help with the story behind a name. If someone offers a local correction, you’ve learned something. Oops, then onward. That’s how exploring works. ♡"
+          ],
+          "source": "E.W. Scripps School of Journalism, Ohio University",
+          "url": "https://www.ohio.edu/scripps-college/journalism/e-w-scripps-school-journalism-ohio-pronunciation-guide-1"
+        },
+        {
+          "slug": "community-languages",
+          "title": "Many languages, many homes",
+          "kicker": "FAMILY · MIGRATION · COMMUNITY",
+          "summary": "English is only part of what you’ll hear here. Ohio’s families and communities bring many languages into classrooms, neighborhoods, and everyday conversations.",
+          "body": [
+            "Ohio’s education department lists Spanish, Somali, Arabic, Swahili, Chinese, Japanese, Nepali, Pennsylvania Dutch, French, Turkish, and many other home languages among the state’s English learners. That list describes a school population, not a ranking of every language spoken statewide. Still, it opens a rather wonderful window onto the variety around us.",
+            "Pennsylvania Dutch also has a particular history in some Amish and Mennonite communities, with local differences in how languages are used. A University of Akron repository study looks specifically at a Holmes County Beachy Amish-Mennonite community. Let’s keep that specificity: language can connect people without making every family’s experience the same."
+          ],
+          "source": "Ohio Department of Education and Workforce · English Learners",
+          "url": "https://education.ohio.gov/Topics/Student-Supports/English-Learners",
+          "supportingSource": "University of Akron · Holmes County language study",
+          "supportingUrl": "https://ideaexchange.uakron.edu/amishstudies/vol7/iss1/11/"
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "title": "Government",
+      "eyebrow": "PUBLIC LIFE · OHIO",
+      "headline": ["How Ohio", "works."],
+      "intro": "Civics can feel like a room full of unfamiliar names. Let’s start with who does what, how the pieces connect, and where you can follow the work.",
+      "aside": "One office at a time. You don’t have to learn the whole directory today.",
+      "entries": [
+        {
+          "slug": "executive",
+          "title": "Executive branch",
+          "kicker": "CARRY OUT THE LAW",
+          "summary": "What happens after a law is passed? Ohio’s executive offices and agencies turn it into public administration and services. Let’s find the people responsible for that work.",
+          "body": [
+            "The executive branch carries out state laws and runs state agencies. It includes the governor and lieutenant governor, plus statewide offices such as the attorney general, secretary of state, auditor, and treasurer. Cabinet directors appointed by the governor lead many departments. This is where laws and budgets meet a great deal of day-to-day work.",
+            "Different offices handle different questions, so the government directory is a useful first stop. Look for the agency responsible for the service or subject you need, then use its current official information. Knowing the office’s job makes the system easier to navigate. No need to memorize every title before you begin."
+          ],
+          "source": "Ohio Legislature · Ohio Government Websites",
+          "url": "https://www.legislature.ohio.gov/publications/ohio-government-websites"
+        },
+        {
+          "slug": "legislative",
+          "title": "Legislative branch",
+          "kicker": "MAKE THE LAW",
+          "summary": "A proposal has a journey before it becomes law. Ohio’s House and Senate consider bills, debate budgets, and leave a public record you can follow.",
+          "body": [
+            "Ohio’s General Assembly has two chambers: the House of Representatives and the Senate. Bills go through committee review and votes in both before reaching the governor. The legislature also helps set the state budget. Once you know those broad steps, an individual proposal is much easier to follow.",
+            "The Ohio Legislature website brings together bills, hearings, votes, and information about representatives. Start with the bill or subject you’re curious about and follow its record. A headline can capture one moment; the record shows the sequence. Let’s keep those two things separate when we’re trying to understand what has actually happened."
+          ],
+          "source": "Ohio General Assembly",
+          "url": "https://www.legislature.ohio.gov/"
+        },
+        {
+          "slug": "judicial",
+          "title": "Judicial branch",
+          "kicker": "INTERPRET THE LAW",
+          "summary": "Courts resolve disputes and apply the law. Ohio has several kinds, so knowing which part of the system handles what is a very good place to start.",
+          "body": [
+            "Ohio’s judiciary includes the Supreme Court, courts of appeals, courts of common pleas, municipal and county courts, and the Court of Claims. The Supreme Court is the state’s highest court and also has responsibilities for administering the judicial system. Different courts have different roles; they aren’t interchangeable stops on a single counter.",
+            "The Supreme Court’s official structure guide provides a clearer map of that system. Use it to understand the relationships, then consult the relevant court for its own current procedures and records. This is an introduction to the institutions, rather than instructions for a particular case. Finding the right official source is the useful next step."
+          ],
+          "source": "Supreme Court of Ohio",
+          "url": "https://www.supremecourt.ohio.gov/courts/judicial-system-structure/"
+        },
+        {
+          "slug": "local-government",
+          "title": "Closer to home",
+          "kicker": "COUNTIES · CITIES · VILLAGES · TOWNSHIPS",
+          "summary": "The Statehouse isn’t the only place decisions happen. Counties, municipalities, and townships handle work closer to home, with responsibilities that depend on the place and service.",
+          "body": [
+            "Ohio’s municipalities are cities or villages, with powers of local self-government under the state constitution. Counties and townships have their own structures and responsibilities under state law. Roads, public buildings, local rules, and services can involve different offices. It helps to start with your address and the particular issue you’re trying to understand.",
+            "Service arrangements vary: local charters, statutes, and agreements between governments all matter. Township trustees, for example, have statutory powers involving facilities and can contract for certain safety services. So let’s find the responsible local office rather than assume every place works identically. A county or municipality’s official directory is a useful first step."
+          ],
+          "source": "Ohio Constitution · Local government",
+          "url": "https://codes.ohio.gov/ohio-constitution/article-18",
+          "supportingSource": "Ohio Revised Code · Township trustees",
+          "supportingUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-505"
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "title": "Life & learning",
+      "eyebrow": "SCHOOLS · RESEARCH · PUBLIC SPACES",
+      "headline": ["Room to", "grow."],
+      "intro": "New questions, new skills, maybe a new favorite library corner. Ohio has plenty of places to learn and belong. Let’s find a little room for you.",
+      "aside": "Take a book. Ask a question. Stay for the conversation. (˶ᵔ ᵕ ᵔ˶)",
+      "entries": [
+        {
+          "slug": "universities",
+          "title": "Universities across Ohio",
+          "kicker": "PUBLIC · PRIVATE · COMMUNITY",
+          "summary": "Big campus, small college, a technical program close to home—Ohio has more than one way to be a student. Let’s find the questions worth asking.",
+          "body": [
+            "Ohio’s higher-education landscape includes public universities, private colleges, community colleges, technical programs, and specialized schools. Campuses appear in major cities and smaller college communities, each with different programs and everyday rhythms. A university name is only the beginning; the course, setting, and support around it matter too.",
+            "If you’re exploring study options, go straight to the institutions for current admissions, costs, courses, and student services. State higher-education resources help you understand the broader system and pathways between programs. And if you’re simply visiting, public exhibitions, performances, and campus spaces can make a lovely window into local life."
+          ],
+          "source": "Ohio Department of Higher Education · Institutions map",
+          "url": "https://dam.assets.ohio.gov/image/upload/highered.ohio.gov/odhe/OhioPublicInstitutionsMap_111925.pdf"
+        },
+        {
+          "slug": "research",
+          "title": "Research & discovery",
+          "kicker": "LABS · HEALTH · ENGINEERING",
+          "summary": "A good question can travel a long way. Ohio’s labs, hospitals, campuses, museums, and research partnerships give curious people places to follow it.",
+          "body": [
+            "Research happens across medicine, engineering, agriculture, energy, the arts, and public policy. Universities work alongside health systems, agencies, and industry partners, with students and specialists asking very different kinds of questions. The work can be patient and incremental. A promising result is a beginning to investigate, not automatically a finished solution.",
+            "Look at an institution’s own projects, publications, and public programs to see what it actually studies. Some discoveries move toward practical tools or treatments; others deepen how we understand people and places. I rather like that both belong here. Curiosity doesn’t have to arrive with its final destination already written down."
+          ],
+          "source": "Ohio University · Research Division",
+          "url": "https://www.ohio.edu/research"
+        },
+        {
+          "slug": "schools-learning",
+          "title": "Learning at every age",
+          "kicker": "PUBLIC SCHOOLS · CAREER PATHS",
+          "summary": "Learning doesn’t end at one age or follow one neat route. Ohio’s schools and career programs connect classroom ideas with practical skills and new possibilities.",
+          "body": [
+            "Local school districts, career-technical programs, charter schools, and statewide education support are part of Ohio’s learning landscape. Different settings serve different communities and needs. Academic study and hands-on training can connect in more than one way, so there’s no reason to squeeze every learner into the same little diagram.",
+            "The Ohio Department of Education and Workforce provides statewide information and resources. For a particular school or program, check its own offerings and requirements directly. Adult learning and career training open further paths too. Ask what you want to learn next, then look for the people and programs that can help you get there."
+          ],
+          "source": "Ohio Department of Education and Workforce",
+          "url": "https://education.ohio.gov/"
+        },
+        {
+          "slug": "libraries",
+          "title": "Libraries for everyone",
+          "kicker": "BOOKS · DIGITAL ACCESS · COMMUNITY",
+          "summary": "Books are only the beginning, which is excellent news for curious people. Ohio’s libraries also offer research, digital access, local history, learning programs, and a place to settle in.",
+          "body": [
+            "A library can help you find a novel, use the internet, explore an archive, learn a skill, or meet other people. Ohio’s public library systems reflect their own communities through collections and programs. Services and borrowing rules vary, so start with your local branch. I’m very much in favor of a bookish detour.",
+            "The State Library of Ohio supports libraries and statewide resources, including research tools and catalogs. Branch calendars can lead you to story times, job help, language learning, maker activities, and community events. You might walk in for one thing and leave with three new interests. A harmless occupational hazard of curiosity. (˶ᵔ ᵕ ᵔ˶)"
+          ],
+          "source": "State Library of Ohio · Catalog",
+          "url": "https://catalog.library.ohio.gov/"
+        },
+        {
+          "slug": "community-life",
+          "title": "Community life",
+          "kicker": "NEIGHBORS · ARTS · SERVICE",
+          "summary": "A town starts feeling different when you meet the people who gather there. Libraries, local groups, festivals, faith communities, and volunteers help make that happen.",
+          "body": [
+            "Neighborhood associations, cultural groups, arts organizations, faith communities, mutual aid, and volunteer work all shape everyday life. In one place, a county fair brings generations together; in another, a block club or festival makes a busy city feel more familiar. There isn’t one correct scale for belonging.",
+            "Check local calendars, community centers, and libraries for gatherings that welcome visitors. Show up respectfully, support organizers, and listen before deciding you know the story. Traditions change as people arrive and build new ties. The lovely part is that a community isn’t a finished exhibit—it’s people doing things together, right now."
+          ],
+          "source": "Ohio Arts Council",
+          "url": "https://apps.oac.ohio.gov/aboutOAC/"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Ohio population",
+      "value": "11,900,510",
+      "unit": "people",
+      "period": "July 1, 2025 estimate",
+      "source": "U.S. Census Bureau QuickFacts",
+      "url": "https://www.census.gov/quickfacts/OH"
+    },
+    {
+      "label": "Median household income",
+      "value": "$72,212",
+      "unit": "2024 inflation-adjusted dollars",
+      "period": "2024 ACS 1-year estimate",
+      "source": "U.S. Census Bureau · American Community Survey",
+      "url": "https://data.census.gov/table/ACSST1Y2024.S1903?g=0400000US39"
+    },
+    {
+      "label": "Employer establishments",
+      "value": "255,049",
+      "unit": "employer establishments",
+      "period": "2023",
+      "source": "U.S. Census Bureau · QuickFacts",
+      "url": "https://www.census.gov/quickfacts/OH"
+    },
+    {
+      "label": "Annual average unemployment rate",
+      "value": "4.3",
+      "unit": "percent",
+      "period": "2024",
+      "source": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/opub/ted/2025/annual-average-unemployment-rates-increased-in-21-states-in-2024.htm"
+    }
+  ],
+  "languageNotes": [
+    {
+      "expression": "you’uns / y’uns",
+      "meaning": "plural ‘you’; ‘you all’",
+      "region": "Upper Ohio Valley / south Midland speech, with related Appalachian forms",
+      "note": "The source describes regional variation and notes these forms are not used by every Ohio Valley resident.",
+      "source": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”",
+      "url": "https://appalachian-english.library.sc.edu/node/784.html"
+    },
+    {
+      "expression": "mamaw / papaw",
+      "meaning": "grandmother / grandfather",
+      "region": "Upper Ohio Valley speech, including Ohio",
+      "note": "Documented as common in the Ohio Valley, though families use many different names.",
+      "source": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”",
+      "url": "https://appalachian-english.library.sc.edu/node/784.html"
+    },
+    {
+      "expression": "needs washed",
+      "meaning": "needs to be washed",
+      "region": "Ohio Valley and Appalachian varieties; also found elsewhere in the U.S.",
+      "note": "A documented grammatical pattern, not exclusive to the region and not an error.",
+      "source": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”",
+      "url": "https://appalachian-english.library.sc.edu/node/784.html"
+    },
+    {
+      "expression": "Scioto",
+      "meaning": "Ohio river and place name; Ohio University pronunciation guide gives ‘sigh-OH-tuh’",
+      "region": "Scioto River and nearby communities in southern Ohio",
+      "note": "Ohio University’s Scripps guide renders it “sigh OH tuh”; listen to local speakers too.",
+      "source": "E.W. Scripps School of Journalism, Ohio University",
+      "url": "https://www.ohio.edu/scripps-college/journalism/e-w-scripps-school-journalism-ohio-pronunciation-guide-1"
+    }
+  ]
+}
