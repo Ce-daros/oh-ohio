@@ -30,6 +30,9 @@ const readableEntries = computed(() => props.chapterId === "culture" ? [...allEn
 const reading = computed(() => readableEntries.value.find(entry => `#${entry.slug}` === route.hash));
 const currentIndex = computed(() => chapters.findIndex(item => item.id === props.chapterId));
 const nextChapter = computed(() => chapters[(currentIndex.value + 1) % chapters.length]!);
+const nextDestination = computed(() => props.chapterId === "live"
+  ? { path: "/journal", title: "Field notes", color: "#f3e1dc", image: "/art/small/prop-postcard.webp" }
+  : { path: `/${nextChapter.value.id}`, title: nextChapter.value.title, color: nextChapter.value.color, image: `/art/small/prop-${nextChapter.value.prop}.webp` });
 const root = ref<HTMLElement | null>(null);
 const selectionPanel = ref<HTMLElement | null>(null);
 const scenes = { explore: ExploreScene, make: MakeScene, culture: CultureScene, live: LiveScene };
@@ -99,7 +102,7 @@ onUnmounted(() => { selectionMotion?.kill(); reducedMotion.removeEventListener("
     <section id="all-topics" class="world-index" data-reveal>
       <details><summary><span>All {{ chapter.title.toLowerCase() }} topics</span><span class="index-count">{{ allEntries.length }} STORIES</span><span class="index-plus" aria-hidden="true">+</span></summary><div class="topic-groups"><div v-for="group in groups" :key="group.id"><h3>{{ group.title }}</h3><button v-for="slug in group.slugs" :key="slug" @click="openEntry(slug)">{{ allEntries.find(entry => entry.slug === slug)!.title }}<span aria-hidden="true">↗</span></button></div></div></details>
     </section>
-    <RouterLink class="world-next" :to="`/${nextChapter.id}`" :style="{'--next-color':nextChapter.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextChapter.title }}<span>↗</span></strong><img :src="`/art/small/prop-${nextChapter.prop}.webp`" width="160" height="160" alt="" loading="lazy" /></RouterLink>
+    <RouterLink class="world-next" :to="nextDestination.path" :style="{'--next-color':nextDestination.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextDestination.title }}<span>↗</span></strong><img :src="nextDestination.image" width="160" height="160" alt="" loading="lazy" /></RouterLink>
     <ReadingPanel :entry="reading" @close="closeEntry" />
   </main>
 </template>
