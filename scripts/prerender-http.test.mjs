@@ -49,6 +49,9 @@ test('static output serves complete HTML routes and a real 404 over HTTP', async
       assert.equal(moved.status, 308, redirect.source);
       assert.equal(moved.headers.get('location'), redirect.destination);
       assert.ok(!moved.headers.get('location').includes('#'));
+      const movedWithQuery = await fetch(`${origin}${redirect.source}?ref=old&view=full#section`, { redirect: 'manual' });
+      assert.equal(movedWithQuery.status, 308, redirect.source);
+      assert.equal(movedWithQuery.headers.get('location'), `${redirect.destination}?ref=old&view=full`);
     }
     const trailingSlash = await fetch(`${origin}/make/?view=index`, { redirect: 'manual' });
     assert.equal(trailingSlash.status, 308);

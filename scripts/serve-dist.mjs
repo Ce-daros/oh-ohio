@@ -27,7 +27,7 @@ export function createStaticServer() {
     }
     const destination = redirects.get(pathname);
     if (destination) {
-      response.writeHead(308, { Location: destination });
+      response.writeHead(308, { Location: destination + url.search });
       response.end();
       return;
     }
