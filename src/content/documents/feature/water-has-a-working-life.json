@@ -110,8 +110,9 @@
       "role": "intro",
       "text": "Come follow the water with me. Along the Cuyahoga and out to Lake Erie, a lovely view is also a place of work: moving cargo, supplying homes, and caring for the river itself.",
       "sourceIds": [
-        "source:water-ohio-canals",
-        "source:water-cuyahoga-epa"
+        "source:water-cuyahoga-epa",
+        "source:water-cleveland-port",
+        "source:water-cleveland-water"
       ]
     },
     {
