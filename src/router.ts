@@ -17,6 +17,7 @@ type RouteCatalog = { routes: CatalogRoute[]; redirects: { source: string; desti
 const catalog = routeData as RouteCatalog;
 
 const routes: RouteRecordRaw[] = [
+  ...(import.meta.env.DEV ? [{ path: '/editorial', component: () => import('./pages/EditorialPage.vue'), meta: { title: 'Content desk — Oh, Ohio', description: 'Local editorial review.', noindex: true } }] : []),
   ...catalog.routes.map(route => ({
     path: route.path,
     component: routeComponent(route.kind),
