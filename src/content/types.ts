@@ -90,7 +90,7 @@ export type BodyBlock = ({
   }
   | { type: 'heading'; id: string; title: string; eyebrow: string }
   | { type: 'illustration'; mediaId: string; caption?: string }
-  | { type: 'process'; title: string; steps: { title: string; text: string }[] }
+  | { type: 'process'; title: string; layout?: 'steps' | 'parallel'; steps: { title: string; text: string }[] }
   | { type: 'quote'; text: string; attribution: string; sourceId?: string }
   | { type: 'timeline'; events: { label: string; text: string }[] }
   | { type: 'practical'; items: { label: string; text: string }[] }

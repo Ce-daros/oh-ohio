@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
+  <title id="title">A pea whistle, in section</title>
+  <desc id="desc">A simplified diagram showing breath entering the mouthpiece, the sound opening above the chamber, and a small moving pea inside the chamber.</desc>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="m0 0 6 3.5L0 7" fill="none" stroke="#ba2945" stroke-width="1.5"/></marker></defs>
+  <rect width="720" height="470" rx="4" fill="#edf1f4"/>
+  <path d="M105 215H306C331 145 398 112 465 132C543 154 582 237 556 311C531 385 446 421 374 391C338 376 316 350 301 315H105" fill="#dec18b" stroke="#18243c" stroke-width="4"/>
+  <path d="M105 237H327C345 176 394 141 454 157C519 175 552 240 532 302C512 362 443 390 384 366C350 352 331 326 321 293H105" fill="#fffdf5" stroke="#18243c" stroke-width="2"/>
+  <path d="m349 158 24-22 34 11-23 26" fill="#edf1f4"/>
+  <path d="m348 158 18 16m20-26 22 1" fill="none" stroke="#18243c" stroke-width="4"/>
+  <circle cx="444" cy="316" r="32" fill="#a77348" stroke="#18243c" stroke-width="2"/>
+  <path d="M74 263H315" fill="none" stroke="#ba2945" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M363 290c-8-46 15-80 53-82 33-2 62 17 67 45" fill="none" stroke="#ba2945" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+  <path d="m367 122-6-26m18 24 9-27m-5 48 25-22" fill="none" stroke="#ba2945" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="sans-serif" fill="#18243c" font-size="23">
+    <text x="62" y="203">Breath</text>
+    <text x="228" y="64">Sound opening</text>
+    <text x="550" y="170">Chamber</text>
+    <text x="438" y="441">Pea</text>
+  </g>
+  <g fill="none" stroke="#758698" stroke-width="1.5">
+    <path d="M348 74v39l16 22"/>
+    <path d="M558 179l-40 34"/>
+    <path d="M450 415v-60"/>
+  </g>
+</svg>

@@ -152,6 +152,14 @@
       ]
     },
     {
+      "type": "illustration",
+      "mediaId": "media:whistle-section",
+      "caption": "A pea whistle in section. Air passes through the mouthpiece; the moving pea changes its sound into a trill. Simplified, not to scale.",
+      "sourceIds": [
+        "source:mat-whistle-work"
+      ]
+    },
+    {
       "sourceIds": [
         "source:mat-whistle-work"
       ],

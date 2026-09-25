@@ -140,19 +140,15 @@
     },
     {
       "type": "placeMap",
-      "title": "Two towns, separate visits",
+      "title": "Arriving at Glen Helen",
       "placeIds": [
         "yellow-springs-cascades-access",
-        "yellow-springs-steps-access",
-        "nelsonville-public-square",
-        "hocking-valley-depot"
+        "yellow-springs-steps-access"
       ],
-      "caption": "Glen Helen’s lot markers and the railway marker locate published street addresses. Follow the operators’ directions for arrival and boarding.",
+      "caption": "Markers locate the two published parking addresses. Follow the preserve’s current directions for lot access.",
       "sourceIds": [
         "map-census-glen-helen-cascades",
-        "map-census-glen-helen-steps",
-        "map-odot-nelsonville-square",
-        "map-census-hocking-depot"
+        "map-census-glen-helen-steps"
       ]
     },
     {
@@ -222,6 +218,19 @@
         "source:town-hocking-access",
         "source:town-hocking-railway",
         "source:town-stuarts-history"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "Around Nelsonville",
+      "placeIds": [
+        "nelsonville-public-square",
+        "hocking-valley-depot"
+      ],
+      "caption": "The square and the depot belong to one town visit. The depot marker locates its street address; check the railway’s boarding directions.",
+      "sourceIds": [
+        "map-odot-nelsonville-square",
+        "map-census-hocking-depot"
       ]
     },
     {

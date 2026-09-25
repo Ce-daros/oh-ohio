@@ -420,5 +420,21 @@
       "status": "cleared",
       "license": "Public domain per NPS item usage information: NPS-credited media without a copyright symbol. Credit NPS / Josh Angelini and link to the NPS item page."
     }
+  },
+  {
+    "id": "media:whistle-section",
+    "kind": "image",
+    "use": "explanation",
+    "src": "/art/whistle-section.svg",
+    "alt": "Simplified pea-whistle section: breath enters the mouthpiece, passes the sound opening and moves a pea inside the chamber.",
+    "caption": "A pea whistle in section. Simplified from the maker’s account; not to scale.",
+    "provenance": {
+      "status": "verified",
+      "sourceId": "source:mat-whistle-work"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "Original project diagram"
+    }
   }
 ]

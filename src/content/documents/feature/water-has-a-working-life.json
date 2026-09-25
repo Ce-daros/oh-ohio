@@ -256,7 +256,8 @@
           "title": "Restore the river",
           "text": "The Cuyahoga AOC committee tracks impairments and coordinates restoration partners."
         }
-      ]
+      ],
+      "layout": "parallel"
     },
     {
       "text": "The lake supplies drinking water while the river has its own restoration record. These systems meet in one watershed, but each needs its own measure and care.",

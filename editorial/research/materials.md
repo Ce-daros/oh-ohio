@@ -51,3 +51,7 @@ If you are in Cincinnati, Rookwood lists its working facility and showroom at 19
 **Companion notes:** (1) “A whistle in cross-section”: annotated path from mouthpiece to chamber, supported by American Whistle’s official mechanism page. (2) “What survives the kiln?”: compare the 1882 Cincinnati Art Museum Rookwood record with a current product page, making dates and catalog descriptions visible rather than guessing at technique.
 
 **Cross-world associations:** Link to `brass-whistle`, `rookwood-clay`, `toledo-glass`, and `akron-rubber`; the related object stories make a natural four-material reading path. A secondary link to `dayton-made-to-fly` can connect manufacturing choices and testing without claiming a shared industry.
+
+## Diagram record — 2026-09-25
+
+`public/art/whistle-section.svg` is an original project vector drawing based on the manufacturer’s explanation already cited above. It distinguishes the mouthpiece, sound opening, chamber and pea; it does not reproduce the manufacturer’s drawing or assert dimensions. The public caption identifies it as a simplified section, not to scale. Its source reference establishes the explanation’s factual basis; the SVG itself was authored for this project.
