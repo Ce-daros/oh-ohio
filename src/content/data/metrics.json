@@ -1,0 +1,42 @@
+[
+  {
+    "id": "population",
+    "scope": "Ohio",
+    "label": "Ohio population",
+    "value": "11,900,510",
+    "unit": "people",
+    "period": "July 1, 2025 estimate",
+    "source": "U.S. Census Bureau QuickFacts",
+    "url": "https://www.census.gov/quickfacts/OH"
+  },
+  {
+    "id": "household-income",
+    "scope": "Ohio",
+    "label": "Median household income",
+    "value": "$72,212",
+    "unit": "2024 inflation-adjusted dollars",
+    "period": "2024 ACS 1-year estimate",
+    "source": "U.S. Census Bureau · American Community Survey",
+    "url": "https://data.census.gov/table/ACSST1Y2024.S1903?g=0400000US39"
+  },
+  {
+    "id": "employer-establishments",
+    "scope": "Ohio",
+    "label": "Employer establishments",
+    "value": "255,049",
+    "unit": "employer establishments",
+    "period": "2023",
+    "source": "U.S. Census Bureau · QuickFacts",
+    "url": "https://www.census.gov/quickfacts/OH"
+  },
+  {
+    "id": "unemployment",
+    "scope": "Ohio",
+    "label": "Annual average unemployment rate",
+    "value": "4.6",
+    "unit": "percent",
+    "period": "2025 annual average",
+    "source": "Ohio Department of Job and Family Services · Ohio LMI",
+    "url": "https://ohiolmi.com/_docs/LAUS/AnnualAverages/CLFE_2025.pdf"
+  }
+]

@@ -24,6 +24,8 @@ export function validateContent(repoRoot = process.cwd()) {
   const collections = read(`${base}data/collections.json`);
   const scenes = read(`${base}data/scenes.json`);
   const migrations = read(`${base}data/migrations.json`);
+  const journeys = read(`${base}data/journeys.json`);
+  const metrics = read(`${base}data/metrics.json`);
   const documentRoot = path.join(repoRoot, base, 'documents');
   const files = fs.readdirSync(documentRoot, { withFileTypes: true })
     .filter(item => item.isDirectory())
@@ -96,9 +98,10 @@ export function validateContent(repoRoot = process.cwd()) {
       if (!validDate(meta.verification.verifiedAt)) fail(file, 'verifiedAt must be a real ISO date');
       linked(meta.verification.sourceId, articleSourceIds, file, 'verification sourceId');
     }
-    for (const field of ['publishedAt', 'updatedAt']) if (meta[field]) {
+    for (const field of ['publishedAt', 'updatedAt']) if (meta[field] !== undefined) {
       if (!validDate(meta[field])) fail(file, `${field} must be a real ISO date`);
-      linked(meta.dateEvidence?.[field], articleSourceIds, file, `${field} evidence sourceId`);
+      const evidence = meta.dateEvidence?.[field];
+      if (evidence?.kind !== 'editorial-record' || typeof evidence.path !== 'string' || !/^editorial\/research\/[a-z0-9-]+\.md$/.test(evidence.path) || !fs.existsSync(path.join(repoRoot, evidence.path))) fail(file, `${field} requires an existing editorial research record`);
     }
     if (meta.kind === 'note') { nonempty(meta.sectionId, file, 'sectionId'); nonempty(meta.kicker, file, 'kicker'); }
     if (meta.kind === 'phrase') nonempty(meta.region, file, 'region');
@@ -156,10 +159,10 @@ export function validateContent(repoRoot = process.cwd()) {
     if (!['unverified', 'cleared'].includes(item.rights?.status)) fail(file, 'rights status must be explicit');
     if (item.rights?.status === 'cleared') nonempty(item.rights.license, file, 'rights.license');
     if (item.kind === 'image' && item.use !== 'atmosphere') nonempty(item.alt, file, 'alt');
-    if (!item.src.startsWith('/') || item.src.includes('..') || !fs.existsSync(path.join(repoRoot, 'public', item.src.slice(1)))) fail(file, `asset missing ${item.src}`);
+    if (!validMediaPath(item.src, repoRoot)) fail(file, `asset missing or invalid ${item.src}`);
     item.variants?.forEach(variant => {
       if (!Number.isInteger(variant.width) || variant.width <= 0 || !Number.isInteger(variant.height) || variant.height <= 0) fail(file, `variant ${variant.src} requires positive pixel dimensions`);
-      if (!variant.src.startsWith('/') || variant.src.includes('..') || !fs.existsSync(path.join(repoRoot, 'public', variant.src.slice(1)))) fail(file, `variant asset missing ${variant.src}`);
+      if (!validMediaPath(variant.src, repoRoot)) fail(file, `variant asset missing or invalid ${variant.src}`);
     });
     for (const [name, point] of [['focalPoint', item.focalPoint], ['crop', item.crop]]) if (point) for (const [coordinate, value] of Object.entries(point)) if (!Number.isFinite(value)) fail(file, `${name}.${coordinate} must be finite`);
   }
@@ -203,18 +206,47 @@ export function validateContent(repoRoot = process.cwd()) {
     if (!bySlug.has(newSlug)) fail(file, `migration ${oldSlug} references unknown slug ${newSlug}`);
   }
   for (const oldSlug of ['phrase-1', 'phrase-2', 'phrase-3', 'phrase-4']) if (!migrations[oldSlug]) fail(`${base}data/migrations.json`, `missing legacy slug ${oldSlug}`);
+  unique(journeys, `${base}data/journeys.json`, 'journey ID', item => item.id);
+  for (const journey of journeys) {
+    const file = `${base}data/journeys.json ${journey.id}`;
+    if (!slugPattern.test(journey.id) || !journey.id.startsWith(`${journey.world}-`)) fail(file, 'ID must be a world-prefixed slug');
+    linked(journey.world, worldIds, file, 'world');
+    nonempty(journey.title, file, 'title');
+    nonempty(journey.intro, file, 'intro');
+    if (!Array.isArray(journey.stops) || journey.stops.length < 2) fail(file, 'stops must contain at least two documents');
+    else {
+      unique(journey.stops, file, 'stop', stop => stop.contentId);
+      journey.stops.forEach((stop, index) => {
+        linked(stop.contentId, new Set(byId.keys()), file, `stops[${index}].contentId`);
+        if (byId.has(stop.contentId) && !byId.get(stop.contentId).worlds.includes(journey.world)) fail(file, `stops[${index}] is outside world ${journey.world}`);
+        nonempty(stop.note, file, `stops[${index}].note`);
+      });
+    }
+  }
+  unique(metrics, `${base}data/metrics.json`, 'metric ID', item => item.id);
+  for (const metric of metrics) {
+    const file = `${base}data/metrics.json ${metric.id}`;
+    if (!slugPattern.test(metric.id)) fail(file, 'ID must be a slug');
+    for (const field of ['scope', 'label', 'value', 'unit', 'period', 'source']) nonempty(metric[field], file, field);
+    if (!validUrl(metric.url)) fail(file, `invalid evidence URL ${metric.url}`);
+  }
   return errors;
 }
 
 function validDate(value) {
   if (typeof value !== 'string') return false;
-  const parts = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.exec(value);
+  const parts = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2}))?$/.exec(value);
   if (!parts || Number.isNaN(Date.parse(value))) return false;
   const [, year, month, day, hour, minute, second] = parts.map(Number);
   const calendar = new Date(Date.UTC(year, month - 1, day));
-  return calendar.getUTCFullYear() === year && calendar.getUTCMonth() === month - 1 && calendar.getUTCDate() === day && hour <= 23 && minute <= 59 && second <= 59;
+  return calendar.getUTCFullYear() === year && calendar.getUTCMonth() === month - 1 && calendar.getUTCDate() === day && (parts[4] === undefined || hour <= 23 && minute <= 59 && second <= 59);
 }
 function validUrl(value) { try { const url = new URL(value); return url.protocol === 'https:' || url.protocol === 'http:'; } catch { return false; } }
+function validMediaPath(value, repoRoot) {
+  if (typeof value !== 'string') return false;
+  if (value.startsWith('http://') || value.startsWith('https://')) return validUrl(value);
+  return value.startsWith('/') && !value.includes('..') && fs.existsSync(path.join(repoRoot, 'public', value.slice(1)));
+}
 function validateItems(items, file, fields, fail, nonempty) {
   if (!Array.isArray(items) || !items.length) { fail(file, 'items must be a nonempty array'); return; }
   items.forEach((item, index) => fields.forEach(field => nonempty(item[field], `${file} items[${index}]`, field)));

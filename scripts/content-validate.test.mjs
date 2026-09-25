@@ -11,9 +11,11 @@ function fixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'ohio-content-test-'));
   fs.mkdirSync(path.join(root, 'src'), { recursive: true });
   fs.cpSync(path.join(projectRoot, 'src/content'), path.join(root, 'src/content'), { recursive: true });
+  fs.cpSync(path.join(projectRoot, 'editorial/research'), path.join(root, 'editorial/research'), { recursive: true });
   const media = JSON.parse(fs.readFileSync(path.join(root, 'src/content/data/media.json'), 'utf8'));
   for (const item of media) {
     for (const asset of [item.src, ...(item.variants?.map(variant => variant.src) ?? [])]) {
+      if (!asset.startsWith('/')) continue;
       const target = path.join(root, 'public', asset.slice(1));
       fs.mkdirSync(path.dirname(target), { recursive: true });
       fs.writeFileSync(target, '');
@@ -70,7 +72,22 @@ checkCorruption('rejects a block source absent from article citations',
 checkCorruption('rejects an unevidenced publication timestamp',
   'src/content/documents/note/north-coast.json',
   doc => { doc.meta.publishedAt = '2024-01-01T00:00:00Z'; },
-  /north-coast\.json: publishedAt evidence sourceId references unknown undefined/);
+  /north-coast\.json: publishedAt requires an existing editorial research record/);
+
+checkCorruption('rejects invalid remote media URLs',
+  'src/content/data/media.json',
+  media => { media[0].src = 'https://'; },
+  /media\.json media:.*asset missing or invalid https:\/\//);
+
+checkCorruption('rejects journey stops outside their world',
+  'src/content/data/journeys.json',
+  journeys => { journeys[0].stops[0].contentId = 'note:statehouse-open-door'; },
+  /journeys\.json explore-three-ways-to-meet-the-lake: stops\[0\] is outside world explore/);
+
+checkCorruption('rejects metrics without a source URL',
+  'src/content/data/metrics.json',
+  metrics => { metrics[0].url = 'source unknown'; },
+  /metrics\.json population: invalid evidence URL source unknown/);
 
 checkCorruption('rejects invalid geocoded places',
   'src/content/data/places.json',
@@ -80,7 +97,7 @@ checkCorruption('rejects invalid geocoded places',
 checkCorruption('rejects missing media assets',
   'src/content/data/media.json',
   media => { media[0].src = '/art/journal/does-not-exist.webp'; },
-  /media\.json media:.*asset missing \/art\/journal\/does-not-exist.webp/);
+  /media\.json media:.*asset missing or invalid \/art\/journal\/does-not-exist.webp/);
 
 checkCorruption('rejects broken collection relations',
   'src/content/data/collections.json',

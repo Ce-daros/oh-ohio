@@ -56,7 +56,10 @@ interface BaseMeta {
   verification: { status: 'unverified' } | { status: 'verified'; verifiedAt: string; sourceId: string };
   publishedAt?: string;
   updatedAt?: string;
-  dateEvidence?: { publishedAt?: string; updatedAt?: string };
+  dateEvidence?: {
+    publishedAt?: { kind: 'editorial-record'; path: string };
+    updatedAt?: { kind: 'editorial-record'; path: string };
+  };
   bodyPath: string;
 }
 export interface NoteMeta extends BaseMeta {

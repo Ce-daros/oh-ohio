@@ -6,6 +6,7 @@ const commands = [
   ['scripts/content-validate.mjs'],
   [path.join('node_modules', 'vue-tsc', 'bin', 'vue-tsc.js'), '--noEmit'],
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssrManifest'],
+  ['scripts/bundle-verify.mjs'],
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssr', 'src/entry-server.ts', '--outDir', '.ssr'],
   ['scripts/prerender.mjs'],
   ['scripts/prerender-verify.mjs'],

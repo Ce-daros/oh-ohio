@@ -1,38 +1,30 @@
 # Oh, Ohio
 
-A Vue 3, TypeScript, and Vite guide to Ohio, with Ohio-chan as its illustrated host.
+A Vue 3, TypeScript, and Vite guide to Ohio.
 
-## Development
+## Run locally
 
-Run `npm ci` and `npm run dev` locally. `npm run build` checks TypeScript, builds static assets into `dist/`, and creates direct-entry HTML for canonical and migrated routes.
+```sh
+npm ci
+npm run dev
+```
 
-## Four worlds
+`npm run build` validates content and types, builds the client and server bundles, renders every public route to `dist/`, and checks the resulting HTML. `npm run preview` serves the build locally. `npm run validate:content` checks the document graph without building the site.
 
-- `/explore`: Discover and Travel (19 articles).
-- `/make`: Economy and Industry (18 articles and 4 sourced metrics).
-- `/culture`: Culture and Local Language (16 articles and 4 language notes).
-- `/live`: Life and Government (15 articles).
+## Content
 
-Old chapter URLs redirect to their new world and retain article hashes and query parameters. A hash opens the corresponding reading panel. Browser Back/Forward closes/reopens it; direct-link Close remains on the site.
+Stories live in independent JSON documents under `src/content/documents/{feature,note,phrase}/`. Each document owns its metadata and typed body blocks. The generated `src/content/data/manifest.json` contains metadata only; `loadContentBody` imports each body on demand. Edit a document, then run `node scripts/content-manifest.mjs` to refresh the manifest.
 
-`src/data/guide.json` contains all 44 original articles and sources. `worlds.json` defines the four routes. `catalog.ts` assigns each article to one scene group. `scene-summaries.json` contains brief group introductions. Supplemental field notes link to their official sources.
+The registries in `src/content/data/` hold worlds, topics, places, sources, media, collections, scene relationships, journeys, metrics, and old phrase slug mappings. Collections give editorial order through `itemIds`; dossier collections appear at `/topics/<slug>`. The public content API is `src/content/index.ts`. See [the content architecture guide](editorial/content-architecture.md) before adding a story or source.
 
-`extra-stories.json` adds 24 sourced stories, bringing the total to 68. `guided-tours.json` contains eight three-stop reading journeys and homepage invitations in Ohio-chan’s voice. `scene-guidance.json` adds her commentary to every scene group without replacing the original summaries.
+Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for notes, and `/words/<slug>` for phrases. The four world routes are `/explore`, `/make`, `/culture`, and `/live`. World hashes can open a reading panel. Old chapter paths redirect to their corresponding world, and old phrase hashes resolve through `migrations.json`.
 
-## Field notes
+## Static publishing
 
-`/journal` collects 14 long-form articles: four travel guides, four making stories, three food stories, and three everyday-life stories. Each article has a direct `/journal/<slug>` route, section navigation, practical notes, source links, and related reading. The archive's category filter is reflected in its URL and supports browser history.
+The build renders Vue to complete HTML for home, worlds, collections, and every story. Each direct-entry page includes its full story text, route CSS, canonical metadata, and links to its assets. `dist/sitemap.xml`, `dist/robots.txt`, and a rendered `dist/404.html` are generated together with the pages. Client navigation hydrates the same components. Search and the browser-local reading list are marked `noindex`.
 
-`src/data/journal-guides.json` and `journal-features.json` contain the articles; `journal-types.ts` defines their structure. `journal.ts` provides category labels and article lookups. Research and proofreading notes live in the root `editorial/` directory. Earlier root content drafts are archival; published copy lives in `site/src/`.
+Vercel serves `dist/` as static files. `vercel.json` contains only the old chapter redirects and does not rewrite unknown routes to the app. A local build does not publish changes.
 
-## Art and interaction
+## Art
 
-Four scene images are served in `public/art/scenes/`. Character art is served from `public/art/characters/`.
-
-Chapter guide signatures use a camera, brass whistle, record, and canvas bag. `GuideKeepsake.vue` places these objects consistently. Field-note covers use individually generated raster illustrations in `public/art/journal/`, with responsive WebP sizes. The illustrations evoke each subject rather than documenting the exact location. Generation prompts and source files are recorded in `editorial/journal-art-manifest.json`.
-
-Each world has a scene component, responsive labeled hotspots, a complete topic index, and a shared native-dialog reader. GSAP handles scoped entrances, scene selection and restrained pointer depth. Reduced-motion and keyboard input show final states immediately. Mobile scenes retain numbered landmarks and labeled touch controls.
-
-## Deployment
-
-The Vercel configuration builds with `npm run build` and serves `dist/`. `vercel.json` lets direct links reach Vue Router while generated route entries provide page metadata for chapters, the journal, and individual articles. A local build does not publish changes.
+Scene and character art lives in `public/art/`. Feature illustrations have responsive WebP variants registered in `src/content/data/media.json`. The art manifest and research records are under `editorial/`.
