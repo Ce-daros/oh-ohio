@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { isDeepStrictEqual } from 'node:util';
 
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const manifest = read('src/content/data/manifest.json');
@@ -48,10 +49,10 @@ for (const redirect of redirects) if (uniquePaths.has(redirect.source) || !uniqu
 for (const [file, value] of [['src/content/data/routes.json', catalog], ['vercel.json', vercel]]) {
   if (process.argv.includes('--check')) {
     const current = read(file);
-    const expected = file === 'vercel.json'
-      ? Object.fromEntries(Object.keys(vercel).map(key => [key, current[key]]))
+    const checked = file === 'vercel.json' && process.env.VERCEL
+      ? Object.fromEntries(Object.entries(current).filter(([key]) => key !== 'name' && key !== 'version'))
       : current;
-    if (JSON.stringify(expected) !== JSON.stringify(value)) throw new Error(`${file} is stale; run node scripts/route-catalog.mjs`);
+    if (!isDeepStrictEqual(checked, value)) throw new Error(`${file} is stale; run node scripts/route-catalog.mjs`);
   } else fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
 }
 
