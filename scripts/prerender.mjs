@@ -3,19 +3,12 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const root = process.cwd();
-const content = JSON.parse(fs.readFileSync('src/content/data/manifest.json', 'utf8'));
-const worlds = JSON.parse(fs.readFileSync('src/content/data/worlds.json', 'utf8'));
-const collections = JSON.parse(fs.readFileSync('src/content/data/collections.json', 'utf8'));
+const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
 const site = JSON.parse(fs.readFileSync('site.config.json', 'utf8'));
 const template = fs.readFileSync('dist/index.html', 'utf8');
 const ssrManifest = JSON.parse(fs.readFileSync('dist/.vite/ssr-manifest.json', 'utf8'));
 const { render } = await import(pathToFileURL(path.join(root, '.ssr', 'entry-server.js')).href);
-const routes = [
-  '/', '/journal', '/topics', '/search', '/saved',
-  ...worlds.map(world => `/${world.id}`),
-  ...collections.filter(collection => collection.kind === 'dossier').map(collection => `/topics/${collection.slug}`),
-  ...content.documents.map(document => document.canonicalPath),
-];
+const routes = catalog.routes.map(route => route.path);
 const uniqueRoutes = [...new Set(routes)];
 if (uniqueRoutes.length !== routes.length) throw new Error('Prerender routes contain duplicate paths');
 const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -51,7 +44,7 @@ for (const route of uniqueRoutes) {
 const notFound = await render('/__not_found__');
 if (!notFound.notFound) throw new Error('404 route did not render the not-found page');
 fs.writeFileSync(path.join(root, 'dist', '404.html'), pageHtml(notFound));
-const indexed = uniqueRoutes.filter(route => !['/search', '/saved'].includes(route));
+const indexed = catalog.routes.filter(route => !route.noindex).map(route => route.path);
 const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexed.map(route => `<url><loc>${site.origin}${route}</loc></url>`).join('')}</urlset>`;
 fs.writeFileSync(path.join(root, 'dist', 'sitemap.xml'), xml);
 fs.writeFileSync(path.join(root, 'dist', 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);

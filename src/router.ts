@@ -1,46 +1,47 @@
 import { createMemoryHistory, createRouter, createWebHistory, type RouteLocationGeneric, type RouteRecordRaw } from 'vue-router';
-import { collections, contentManifest, getContent, getMedia, resolveLegacySlug, worlds, type FeatureMeta } from './content';
+import { resolveLegacySlug, worlds, type WorldId } from './content';
+import routeData from './content/data/routes.json';
 import site from '../site.config.json';
 
-const movedPages: Record<string, string> = {
-  discover: 'explore', travel: 'explore', economy: 'make', industry: 'make',
-  language: 'culture', life: 'live', government: 'live',
+type CatalogRoute = {
+  path: string;
+  kind: 'home' | 'journal' | 'topics' | 'search' | 'saved' | 'world' | 'dossier' | 'content';
+  title: string;
+  description: string;
+  image?: string;
+  noindex?: boolean;
+  slug?: string;
+  world?: WorldId;
 };
+type RouteCatalog = { routes: CatalogRoute[]; redirects: { source: string; destination: string }[] };
+const catalog = routeData as RouteCatalog;
 
 const routes: RouteRecordRaw[] = [
-  { path: '/', component: () => import('./pages/HomePage.vue'), meta: { title: 'Oh, Ohio', description: 'Explore Ohio’s places, people, and culture with Ohio-chan.', image: '/art/scenes/explore.webp' } },
-  { path: '/journal', component: () => import('./pages/JournalPage.vue'), meta: { title: 'Field notes — Oh, Ohio', description: 'Little adventures, things made here, and a seat at the table.', image: '/art/scenes/culture.webp' } },
-  { path: '/topics', component: () => import('./pages/TopicsPage.vue'), meta: { title: 'Topics — Oh, Ohio', description: 'Explore Ohio stories by topic.', image: '/art/scenes/explore.webp' } },
-  ...collections.filter(collection => collection.kind === 'dossier').map(topic => ({
-    path: `/topics/${topic.slug}`,
-    component: () => import('./pages/TopicPage.vue'),
-    props: { slug: topic.slug },
-    meta: { title: `${topic.title} — Oh, Ohio`, description: topic.dek, image: getMedia((getContent(topic.featuredId) as FeatureMeta).coverMediaId).src },
+  ...catalog.routes.map(route => ({
+    path: route.path,
+    component: routeComponent(route.kind),
+    props: route.kind === 'content' || route.kind === 'dossier' ? { slug: route.slug } : route.kind === 'world' ? { chapterId: route.world } : undefined,
+    meta: { title: route.title, description: route.description, image: route.image, noindex: route.noindex },
   })),
-  { path: '/search', component: () => import('./pages/SearchPage.vue'), meta: { title: 'Search — Oh, Ohio', description: 'Search Ohio stories.', noindex: true } },
-  { path: '/saved', component: () => import('./pages/SavedPage.vue'), meta: { title: 'Saved stories — Oh, Ohio', description: 'Your saved Ohio stories.', noindex: true } },
-  ...contentManifest.documents.map(content => ({
-    path: content.canonicalPath,
-    component: () => import('./pages/ContentPage.vue'),
-    props: { slug: content.slug },
-    meta: {
-      title: `${content.title} — Oh, Ohio`,
-      description: content.summary,
-      image: content.kind === 'feature' ? getMedia(content.coverMediaId).src : `/art/scenes/${content.primaryWorld}.webp`,
-    },
-  })),
-  ...worlds.map(world => ({
-    path: `/${world.id}`,
-    component: () => import('./pages/ChapterPage.vue'),
-    props: { chapterId: world.id },
-    meta: { title: `${world.title} — Oh, Ohio`, description: world.tease, image: `/art/scenes/${world.id}.webp` },
-  })),
-  ...Object.entries(movedPages).map(([old, current]) => ({
-    path: `/${old}`,
-    redirect: (to: RouteLocationGeneric) => ({ path: `/${current}`, hash: to.hash, query: to.query }),
+  ...catalog.redirects.map(redirect => ({
+    path: redirect.source,
+    redirect: (to: RouteLocationGeneric) => ({ path: redirect.destination, hash: to.hash, query: to.query }),
   })),
   { path: '/:pathMatch(.*)*', component: () => import('./pages/NotFoundPage.vue'), meta: { title: 'Page not found — Oh, Ohio', description: 'That page could not be found.', noindex: true, notFound: true } },
 ];
+
+function routeComponent(kind: CatalogRoute['kind']) {
+  switch (kind) {
+    case 'home': return () => import('./pages/HomePage.vue');
+    case 'journal': return () => import('./pages/JournalPage.vue');
+    case 'topics': return () => import('./pages/TopicsPage.vue');
+    case 'search': return () => import('./pages/SearchPage.vue');
+    case 'saved': return () => import('./pages/SavedPage.vue');
+    case 'world': return () => import('./pages/ChapterPage.vue');
+    case 'dossier': return () => import('./pages/TopicPage.vue');
+    case 'content': return () => import('./pages/ContentPage.vue');
+  }
+}
 
 function setHeadMeta(selector: string, name: string, content: string, property = false) {
   let element = document.querySelector<HTMLMetaElement>(selector);
@@ -94,7 +95,7 @@ function anchorPosition(hash: string) {
   });
 }
 
-export function createSiteRouter() {
+export function createSiteRouter(hydrationPath?: string) {
   const router = createRouter({
     history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
     routes,
@@ -106,7 +107,12 @@ export function createSiteRouter() {
       return { top: 0 };
     },
   });
+  let initialNavigation = true;
   router.beforeEach(to => {
+    if (initialNavigation) {
+      initialNavigation = false;
+      if (hydrationPath && to.fullPath !== hydrationPath) return { path: hydrationPath, replace: true };
+    }
     if (to.hash.startsWith('#phrase-')) {
       const slug = to.hash.slice(1);
       const canonical = resolveLegacySlug(slug);

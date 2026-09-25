@@ -13,9 +13,11 @@ npm run dev
 
 ## Content
 
-Stories live in independent JSON documents under `src/content/documents/{feature,note,phrase}/`. Each document owns its metadata and typed body blocks. The generated `src/content/data/manifest.json` contains metadata only; `loadContentBody` imports each body on demand. Edit a document, then run `node scripts/content-manifest.mjs` to refresh the manifest.
+Stories live in independent JSON documents under `src/content/documents/{feature,note,phrase}/`. Each document owns its metadata and typed body blocks. The generated `src/content/data/manifest.json` contains metadata only; `loadContentBody` imports each body on demand. Edit a document, then run `node scripts/content-manifest.mjs` and `node scripts/route-catalog.mjs` to refresh the manifest, routes, and Vercel redirects.
 
 The registries in `src/content/data/` hold worlds, topics, places, sources, media, collections, scene relationships, journeys, metrics, and old phrase slug mappings. Collections give editorial order through `itemIds`; dossier collections appear at `/topics/<slug>`. The public content API is `src/content/index.ts`. See [the content architecture guide](editorial/content-architecture.md) before adding a story or source.
+
+`npm run report:coverage` writes `editorial/content-coverage.json` from the canonical graph and the existing-content review. It reports world, category, dossier, source, media, and verification coverage outside the public site. A full build refreshes it.
 
 Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for notes, and `/words/<slug>` for phrases. The four world routes are `/explore`, `/make`, `/culture`, and `/live`. World hashes can open a reading panel. Old chapter paths redirect to their corresponding world, and old phrase hashes resolve through `migrations.json`.
 

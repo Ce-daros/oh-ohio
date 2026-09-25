@@ -1,0 +1,1053 @@
+{
+  "schemaVersion": 1,
+  "routes": [
+    {
+      "path": "/",
+      "kind": "home",
+      "title": "Oh, Ohio",
+      "description": "Explore Ohio’s places, people, and culture with Ohio-chan.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/journal",
+      "kind": "journal",
+      "title": "Field notes — Oh, Ohio",
+      "description": "Little adventures, things made here, and a seat at the table.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/topics",
+      "kind": "topics",
+      "title": "Topics — Oh, Ohio",
+      "description": "Explore Ohio stories by topic.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/search",
+      "kind": "search",
+      "title": "Search — Oh, Ohio",
+      "description": "Search Ohio stories.",
+      "noindex": true
+    },
+    {
+      "path": "/saved",
+      "kind": "saved",
+      "title": "Saved stories — Oh, Ohio",
+      "description": "Your saved Ohio stories.",
+      "noindex": true
+    },
+    {
+      "path": "/explore",
+      "kind": "world",
+      "world": "explore",
+      "title": "Explore — Oh, Ohio",
+      "description": "Lake shores, city streets, and Appalachian trails. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/make",
+      "kind": "world",
+      "world": "make",
+      "title": "Make — Oh, Ohio",
+      "description": "Meet the makers and workers behind it.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/culture",
+      "kind": "world",
+      "world": "culture",
+      "title": "Culture — Oh, Ohio",
+      "description": "Markets, music, art, and stories. ♡",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/live",
+      "kind": "world",
+      "world": "live",
+      "title": "Live — Oh, Ohio",
+      "description": "Meet the neighbors, communities, and public life here.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/topics/materials-in-the-making",
+      "kind": "dossier",
+      "slug": "materials-in-the-making",
+      "title": "Materials, made in Ohio — Oh, Ohio",
+      "description": "Follow a brass whistle, pottery, glass, and rubber from material to everyday use.",
+      "image": "/art/journal/brass-whistle.webp"
+    },
+    {
+      "path": "/topics/listening-to-ohio",
+      "kind": "dossier",
+      "slug": "listening-to-ohio",
+      "title": "Listening to Ohio — Oh, Ohio",
+      "description": "Canal songs, city voices, marsh sounds, and performance work offer different ways to hear Ohio.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/topics/how-a-library-loan-travels",
+      "kind": "dossier",
+      "slug": "how-a-library-loan-travels",
+      "title": "How a library loan travels — Oh, Ohio",
+      "description": "One title shows how Ohio’s shared library collections connect a local catalog to a neighborhood pickup desk.",
+      "image": "/art/journal/library-afternoon.webp"
+    },
+    {
+      "path": "/topics/findlay-street-through-time",
+      "kind": "dossier",
+      "slug": "findlay-street-through-time",
+      "title": "Findlay Street through time — Oh, Ohio",
+      "description": "Read the market block through a nineteenth-century plat, historic maps, and today’s transit route.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/topics/water-has-a-working-life",
+      "kind": "dossier",
+      "slug": "water-has-a-working-life",
+      "title": "Water has a working life — Oh, Ohio",
+      "description": "Canals, ports, household water, and river restoration meet along Ohio’s north coast.",
+      "image": "/art/journal/cuyahoga-slow-day.webp"
+    },
+    {
+      "path": "/topics/who-keeps-ohios-memory",
+      "kind": "dossier",
+      "slug": "who-keeps-ohios-memory",
+      "title": "Who keeps Ohio’s memory? — Oh, Ohio",
+      "description": "Archives, narrators, and tribal and community collections shape how Ohio remembers.",
+      "image": "/art/journal/library-afternoon.webp"
+    },
+    {
+      "path": "/topics/small-towns-many-centers",
+      "kind": "dossier",
+      "slug": "small-towns-many-centers",
+      "title": "Small towns, many centers — Oh, Ohio",
+      "description": "Two distinct towns, and the local institutions that shape how each is experienced.",
+      "image": "/art/journal/cuyahoga-slow-day.webp"
+    },
+    {
+      "path": "/topics/two-city-days",
+      "kind": "dossier",
+      "slug": "two-city-days",
+      "title": "Two city days, two different rhythms — Oh, Ohio",
+      "description": "A compact Cincinnati loop and a Dayton day planned in separate transportation legs.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/notes/north-coast",
+      "kind": "content",
+      "slug": "north-coast",
+      "title": "The North Coast — Oh, Ohio",
+      "description": "Lake air, long horizons, and islands on the map—northern Ohio knows how to make an entrance. The shoreline is a lovely place to start. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/appalachian-ohio",
+      "kind": "content",
+      "slug": "appalachian-ohio",
+      "title": "Appalachian Ohio — Oh, Ohio",
+      "description": "The roads start bending, the hills gather around you, and Ohio changes its rhythm. The southeast’s landscape and lived regional identity are worth getting to know at a thoughtful pace.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/cities-regions",
+      "kind": "content",
+      "slug": "cities-regions",
+      "title": "A constellation of cities — Oh, Ohio",
+      "description": "Lakefront Cleveland, central Columbus, riverfront Cincinnati… where to first? Each city has its own personality, and the places between them have plenty to say too. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/history",
+      "kind": "content",
+      "slug": "history",
+      "title": "A layered history — Oh, Ohio",
+      "description": "There’s a deeper story beneath every familiar landmark. Ohio’s history includes Indigenous nations, forced displacement, migration, industry, reform, and communities still shaping what comes next.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/nature",
+      "kind": "content",
+      "slug": "nature",
+      "title": "Wild Ohio — Oh, Ohio",
+      "description": "A marsh at sunrise, a forest path, a river bend… Ohio has plenty of reasons to slow down. Let’s trade the checklist for a little patient looking—and enjoy the quiet. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/symbols",
+      "kind": "content",
+      "slug": "symbols",
+      "title": "The buckeye state — Oh, Ohio",
+      "description": "A swallow-tailed flag, a bright red bird, and a shiny brown nut. Ohio’s symbols make a sweet little treasure hunt. Ready to spot them?",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/hocking-hills",
+      "kind": "content",
+      "slug": "hocking-hills",
+      "title": "Hocking Hills — Oh, Ohio",
+      "description": "Ooh, this is the Ohio that makes you put your phone away—after one waterfall photo, obviously. Sandstone gorges, forest paths, and a very tempting overnight stay.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/cuyahoga-valley",
+      "kind": "content",
+      "slug": "cuyahoga-valley",
+      "title": "Cuyahoga Valley — Oh, Ohio",
+      "description": "Wait, a national park between Cleveland and Akron? Yep! Follow the river, find a waterfall, or let the old canal towpath turn a short walk into an afternoon.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/lake-erie-islands",
+      "kind": "content",
+      "slug": "lake-erie-islands",
+      "title": "Lake Erie Islands — Oh, Ohio",
+      "description": "Ooh, ferry day! Lively village streets, quieter beaches, or a long bicycle ride—the islands have different personalities. Let’s pick the one that feels like your kind of escape.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/cleveland",
+      "kind": "content",
+      "slug": "cleveland",
+      "title": "Cleveland — Oh, Ohio",
+      "description": "Ooh, music history, art, neighborhood food, and a whole lake at the edge of town. Cleveland has plenty of ways to steal your afternoon—in the best way. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/columbus",
+      "kind": "content",
+      "slug": "columbus",
+      "title": "Columbus — Oh, Ohio",
+      "description": "Ahh, the Statehouse, a science museum, an arts district, a riverside stroll… Columbus, you’re making it very difficult to choose. Let’s build the day around your favorite things.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/cincinnati",
+      "kind": "content",
+      "slug": "cincinnati",
+      "title": "Cincinnati — Oh, Ohio",
+      "description": "Cincinnati brings river views, hillside neighborhoods, art, markets, and food traditions that are very much their own. We can argue about the chili later.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/dayton",
+      "kind": "content",
+      "slug": "dayton",
+      "title": "Dayton — Oh, Ohio",
+      "description": "A bicycle shop, a flying field, and extraordinary aircraft: Dayton lets you follow an idea into the sky. There’s more than one remarkable life story here, too, so take your time.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/marblehead-lighthouse",
+      "kind": "content",
+      "slug": "marblehead-lighthouse",
+      "title": "Marblehead Lighthouse — Oh, Ohio",
+      "description": "Hey, I’ve got a Lake Erie view for you: a lighthouse at the peninsula’s edge, with the whole lake opening beyond it ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/wayne-covered-bridge-byway",
+      "kind": "content",
+      "slug": "wayne-covered-bridge-byway",
+      "title": "Wayne’s covered bridge road — Oh, Ohio",
+      "description": "Ooh, a winding river road passes forested hills and covered bridges. The slower route is the lovely one, isn’t it?",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/toledo-glass-pavilion",
+      "kind": "content",
+      "slug": "toledo-glass-pavilion",
+      "title": "Toledo’s Glass Pavilion — Oh, Ohio",
+      "description": "In Toledo’s Glass City, even the museum walls join the exhibition. The pavilion changes as you move. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/magee-marsh",
+      "kind": "content",
+      "slug": "magee-marsh",
+      "title": "Magee Marsh — Oh, Ohio",
+      "description": "A small bird can make a very big journey. Lake Erie’s migrating songbirds reward quiet steps and sharp eyes. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/serpent-mound",
+      "kind": "content",
+      "slug": "serpent-mound",
+      "title": "Serpent Mound — Oh, Ohio",
+      "description": "A great earthen serpent curls across a ridge. I’ll guide you through this Indigenous place with care, curiosity, and respect.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/glen-helen",
+      "kind": "content",
+      "slug": "glen-helen",
+      "title": "Glen Helen — Oh, Ohio",
+      "description": "A spring, a cascade, and a forest path near town. Glen Helen rewards slow steps and a little curiosity about what’s growing. ♡",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/hopewell-earthworks",
+      "kind": "content",
+      "slug": "hopewell-earthworks",
+      "title": "Hopewell Earthworks — Oh, Ohio",
+      "description": "These extraordinary earthworks invite us to slow down and listen. Their geometry belongs to a much deeper story of Indigenous knowledge, community, and enduring cultural meaning.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/aviation-heritage",
+      "kind": "content",
+      "slug": "aviation-heritage",
+      "title": "Aviation & invention — Oh, Ohio",
+      "description": "The bicycle shop before the airplane—that’s the detail I love. Dayton’s aviation story makes room for patient experiments, practical skills, and the people around a big idea. Follow the steps and see how it takes shape.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/music",
+      "kind": "content",
+      "slug": "music",
+      "title": "Music with a pulse — Oh, Ohio",
+      "description": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/arts-museums",
+      "kind": "content",
+      "slug": "arts-museums",
+      "title": "Arts & museums — Oh, Ohio",
+      "description": "Ooh, big collections or a tiny gallery you almost walked past? We have room for both. Ohio’s creative life stretches well beyond one museum district—and that’s where a lovely surprise might be waiting.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/foodways",
+      "kind": "content",
+      "slug": "foodways",
+      "title": "Regional foodways — Oh, Ohio",
+      "description": "Now this is a map I can get excited about: chili, goetta, neighborhood bakeries, markets, and recipes carried across generations. Ohio tastes different from place to place.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/sports-community",
+      "kind": "content",
+      "slug": "sports-community",
+      "title": "Sports & gathering — Oh, Ohio",
+      "description": "Hear that? Game-day noise has a way of spilling into the whole neighborhood. Sports, festivals, and local celebrations turn an ordinary day into a shared one.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/cleveland-orchestra-severance",
+      "kind": "content",
+      "slug": "cleveland-orchestra-severance",
+      "title": "An evening at Severance — Oh, Ohio",
+      "description": "At Severance, home to The Cleveland Orchestra, a seat and a little time let the music do its thing.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/freedom-center-river",
+      "kind": "content",
+      "slug": "freedom-center-river",
+      "title": "Freedom stories by the river — Oh, Ohio",
+      "description": "The Ohio River runs right beside this Cincinnati museum, where the setting and the history meet thoughtfully and carefully.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/west-side-market",
+      "kind": "content",
+      "slug": "west-side-market",
+      "title": "West Side Market — Oh, Ohio",
+      "description": "Look up at that tiled vault, then take in the counters. Generations of neighbors have shaped this Cleveland market.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/billy-ireland-cartoon-museum",
+      "kind": "content",
+      "slug": "billy-ireland-cartoon-museum",
+      "title": "A home for cartoon art — Oh, Ohio",
+      "description": "A comic panel can make you laugh and carry history, too. At Ohio State, both sides of the page have a story.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/american-sign-museum",
+      "kind": "content",
+      "slug": "american-sign-museum",
+      "title": "The signs we live by — Oh, Ohio",
+      "description": "A sign catches your eye and can hold a whole street’s memory. Cincinnati has saved plenty of them. ♡",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/cincinnati-music-hall",
+      "kind": "content",
+      "slug": "cincinnati-music-hall",
+      "title": "Cincinnati Music Hall — Oh, Ohio",
+      "description": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/economic-map",
+      "kind": "content",
+      "slug": "economic-map",
+      "title": "Many kinds of work — Oh, Ohio",
+      "description": "Factories, farms, hospitals, campuses, offices—Ohio’s economy is a lot of connected lives. Let’s follow the pieces, and keep an eye on what each big number can actually tell us.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/production",
+      "kind": "content",
+      "slug": "production",
+      "title": "Making things — Oh, Ohio",
+      "description": "Pick almost any finished product and start tracing it backward. Ohio’s manufacturing story quickly becomes a web of materials, skills, suppliers, and journeys between places.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/jobs-households",
+      "kind": "content",
+      "slug": "jobs-households",
+      "title": "Work & household budgets — Oh, Ohio",
+      "description": "A statewide average can’t tell you what every household’s day feels like. Wages, hours, stability, housing, and the trip to work all belong in the picture.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/trade",
+      "kind": "content",
+      "slug": "trade",
+      "title": "Trade & movement — Oh, Ohio",
+      "description": "Ports, interstates, rail lines, airports—Ohio has a lot of ways to send things on their way. Those routes carry local work to much wider markets. Let’s follow where they lead.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/port-of-toledo",
+      "kind": "content",
+      "slug": "port-of-toledo",
+      "title": "The Port of Toledo — Oh, Ohio",
+      "description": "Wait, what happens after a lake freighter docks? I’ll trace Toledo’s cargo from the waterfront toward the rail lines and roads beyond.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/advanced-manufacturing",
+      "kind": "content",
+      "slug": "advanced-manufacturing",
+      "title": "Advanced manufacturing — Oh, Ohio",
+      "description": "Robots get the dramatic photos, but the really interesting part is how people improve the whole process. Ohio’s manufacturing connects careful design with things that actually get made.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/aerospace",
+      "kind": "content",
+      "slug": "aerospace",
+      "title": "Aerospace & defense — Oh, Ohio",
+      "description": "An aircraft has a very long supporting cast. Materials, software, precision parts, testing, maintenance—Ohio’s aviation story is still finding new ways to take shape.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/automotive",
+      "kind": "content",
+      "slug": "automotive",
+      "title": "Automotive & mobility — Oh, Ohio",
+      "description": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/healthcare",
+      "kind": "content",
+      "slug": "healthcare",
+      "title": "Healthcare & life sciences — Oh, Ohio",
+      "description": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/food-agriculture",
+      "kind": "content",
+      "slug": "food-agriculture",
+      "title": "Food & agribusiness — Oh, Ohio",
+      "description": "That grocery shelf has a backstory. Farms, processors, packaging, cold storage, equipment, and delivery all help turn what grows into what reaches our tables.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/logistics",
+      "kind": "content",
+      "slug": "logistics",
+      "title": "Logistics & distribution — Oh, Ohio",
+      "description": "Things don’t get where they’re going by wishing very hard. Roads, rail, air, water, planning, and people keep Ohio’s farms, factories, shops, and customers connected.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/technology",
+      "kind": "content",
+      "slug": "technology",
+      "title": "Technology — Oh, Ohio",
+      "description": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/energy-chemicals",
+      "kind": "content",
+      "slug": "energy-chemicals",
+      "title": "Energy & chemicals — Oh, Ohio",
+      "description": "Power, coatings, polymers, fuels—some of Ohio’s most widely used products work quietly behind the scenes. Let’s follow the materials, with the practical questions still in view.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/glenn-icing-tunnel",
+      "kind": "content",
+      "slug": "glenn-icing-tunnel",
+      "title": "The ice inside NASA Glenn — Oh, Ohio",
+      "description": "A wind tunnel that makes ice? Ooh, Cleveland researchers put aircraft to a very cold test.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/east-liverpool-ceramics",
+      "kind": "content",
+      "slug": "east-liverpool-ceramics",
+      "title": "East Liverpool in clay — Oh, Ohio",
+      "description": "Kilns helped shape East Liverpool. The Museum of Ceramics tells the story of the hands behind its pottery. ♡",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/columbus-whistle-factory",
+      "kind": "content",
+      "slug": "columbus-whistle-factory",
+      "title": "A whistle from Columbus — Oh, Ohio",
+      "description": "That little whistle has quite a making story. Columbus turns brass into a clear, piercing signal.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/rookwood-cincinnati",
+      "kind": "content",
+      "slug": "rookwood-cincinnati",
+      "title": "Rookwood's Cincinnati clay — Oh, Ohio",
+      "description": "A tile can belong to a building and still be a little work of art. Cincinnati’s Rookwood makers have explored that since 1880. ♡",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/akron-rubber-work",
+      "kind": "content",
+      "slug": "akron-rubber-work",
+      "title": "Akron and the rubber road — Oh, Ohio",
+      "description": "Before Akron tires rolled everywhere, local factories made all kinds of rubber goods. That work grew into a citywide industry.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/regional-voices",
+      "kind": "content",
+      "slug": "regional-voices",
+      "title": "More than one Ohio accent — Oh, Ohio",
+      "description": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/appalachian-english",
+      "kind": "content",
+      "slug": "appalachian-english",
+      "title": "Appalachian English — Oh, Ohio",
+      "description": "A voice can carry family, place, and a lifetime of conversations. Appalachian English is varied and expressive; let’s listen with curiosity and let speakers tell their own stories.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/place-names",
+      "kind": "content",
+      "slug": "place-names",
+      "title": "Names worth asking about — Oh, Ohio",
+      "description": "Scioto, Cuyahoga, Bellefontaine… a familiar-looking spelling can still catch you by surprise. No shame in asking. Local names are an invitation to listen.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/community-languages",
+      "kind": "content",
+      "slug": "community-languages",
+      "title": "Many languages, many homes — Oh, Ohio",
+      "description": "English is only part of what you’ll hear here. Ohio’s families and communities bring many languages into classrooms, neighborhoods, and everyday conversations. What a lovely chorus.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/executive",
+      "kind": "content",
+      "slug": "executive",
+      "title": "Executive branch — Oh, Ohio",
+      "description": "A law passes, then a whole team has work to do. Ohio’s governor, statewide offices, and agencies carry out the laws and run public services. Let’s meet the offices behind the day-to-day details.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/legislative",
+      "kind": "content",
+      "slug": "legislative",
+      "title": "Legislative branch — Oh, Ohio",
+      "description": "A bill has quite a journey before it becomes law. Ohio’s House and Senate consider proposals, debate budgets, and leave a public record you can follow. Ready to see each step?",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/judicial",
+      "kind": "content",
+      "slug": "judicial",
+      "title": "Judicial branch — Oh, Ohio",
+      "description": "Courts resolve disputes and apply the law. Ohio has several kinds, each with its own role—so let’s get our bearings before we follow a case through the system.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/local-government",
+      "kind": "content",
+      "slug": "local-government",
+      "title": "Closer to home — Oh, Ohio",
+      "description": "The Statehouse isn’t the only place decisions happen. Counties, cities, villages, and townships handle work closer to home, with responsibilities that depend on the place and service. Let’s find the right local door.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/statehouse-open-door",
+      "kind": "content",
+      "slug": "statehouse-open-door",
+      "title": "Step inside the Statehouse — Oh, Ohio",
+      "description": "Ohio lawmakers meet in this building, whose halls and museum bring state government into view.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/universities",
+      "kind": "content",
+      "slug": "universities",
+      "title": "Universities across Ohio — Oh, Ohio",
+      "description": "Ooh, big campus, small college, a technical program close to home—Ohio has more than one way to be a student. Let’s find the questions that matter to you. ♡",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/research",
+      "kind": "content",
+      "slug": "research",
+      "title": "Research & discovery — Oh, Ohio",
+      "description": "A good question can travel a long way. Ohio’s labs, hospitals, campuses, museums, and research partnerships give curious people places to follow it. Ooh, where might yours lead?",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/schools-learning",
+      "kind": "content",
+      "slug": "schools-learning",
+      "title": "Learning at every age — Oh, Ohio",
+      "description": "Learning doesn’t end at one age or follow one neat route. Ohio’s schools and career programs connect classroom ideas with practical skills. Let’s see what you’d like to learn next.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/libraries",
+      "kind": "content",
+      "slug": "libraries",
+      "title": "Libraries for everyone — Oh, Ohio",
+      "description": "Ahh, books are only the beginning, which is excellent news for curious people. Ohio’s libraries also offer research, digital access, local history, learning programs, and a place to settle in.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/community-life",
+      "kind": "content",
+      "slug": "community-life",
+      "title": "Community life — Oh, Ohio",
+      "description": "Ooh, a town starts feeling different when you meet the people who gather there. Libraries, local groups, festivals, faith communities, and volunteers help make that happen.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/ohiolink-shared-shelves",
+      "kind": "content",
+      "slug": "ohiolink-shared-shelves",
+      "title": "A bigger library shelf — Oh, Ohio",
+      "description": "Ahh, one book can lead to shelves all across Ohio. That’s the library network at work. ♡",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/cosi-try-it-yourself",
+      "kind": "content",
+      "slug": "cosi-try-it-yourself",
+      "title": "Try it at COSI — Oh, Ohio",
+      "description": "Hey, at COSI you can test a question with your own hands. I want to see what you try first.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/wilberforce-black-history",
+      "kind": "content",
+      "slug": "wilberforce-black-history",
+      "title": "Stories in Wilberforce — Oh, Ohio",
+      "description": "Art, objects, and documents tell Black histories at Wilberforce’s National Afro-American Museum & Cultural Center. Begin with what draws your eye.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/rocky-river-nature-center",
+      "kind": "content",
+      "slug": "rocky-river-nature-center",
+      "title": "A nature center afternoon — Oh, Ohio",
+      "description": "A peek at the exhibits, then a walk toward the river? I have just the afternoon in mind at Rocky River Nature Center.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/possum-creek-gardens",
+      "kind": "content",
+      "slug": "possum-creek-gardens",
+      "title": "Grow something together — Oh, Ohio",
+      "description": "At Dayton’s Possum Creek MetroPark, a garden plot brings a season of shared work and new skills. Ooh, I like having a reason to return ♡",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/words/youuns-yuns",
+      "kind": "content",
+      "slug": "youuns-yuns",
+      "title": "you’uns / y’uns — Oh, Ohio",
+      "description": "plural ‘you’; ‘you all’",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/words/mamaw-papaw",
+      "kind": "content",
+      "slug": "mamaw-papaw",
+      "title": "mamaw / papaw — Oh, Ohio",
+      "description": "grandmother / grandfather",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/words/needs-washed",
+      "kind": "content",
+      "slug": "needs-washed",
+      "title": "needs washed — Oh, Ohio",
+      "description": "needs to be washed",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/words/scioto",
+      "kind": "content",
+      "slug": "scioto",
+      "title": "Scioto — Oh, Ohio",
+      "description": "Ohio river and place name; Ohio University pronunciation guide gives ‘sigh-OH-tuh’",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/journal/cincinnati-market-to-music",
+      "kind": "content",
+      "slug": "cincinnati-market-to-music",
+      "title": "A market morning. A music night. — Oh, Ohio",
+      "description": "A full day in Cincinnati’s Over-the-Rhine, with room for music at the end. ♡",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/journal/dayton-made-to-fly",
+      "kind": "content",
+      "slug": "dayton-made-to-fly",
+      "title": "What took flight. — Oh, Ohio",
+      "description": "Two days in Dayton, with bicycles, a printing press, and airplanes that might make you forget to check the time.",
+      "image": "/art/journal/dayton-made-to-fly.webp"
+    },
+    {
+      "path": "/journal/cuyahoga-slow-day",
+      "kind": "content",
+      "slug": "cuyahoga-slow-day",
+      "title": "Let’s take the slow way. — Oh, Ohio",
+      "description": "A waterfall, a towpath, and lunch in Peninsula. Cuyahoga Valley has a lovely way of making us linger.",
+      "image": "/art/journal/cuyahoga-slow-day.webp"
+    },
+    {
+      "path": "/journal/sandusky-play-day",
+      "kind": "content",
+      "slug": "sandusky-play-day",
+      "title": "One more ride. Then the lake. — Oh, Ohio",
+      "description": "Cedar Point gets a whole day. Sandusky’s waterfront gets the quieter moments around it.",
+      "image": "/art/journal/sandusky-play-day.webp"
+    },
+    {
+      "path": "/journal/brass-whistle",
+      "kind": "content",
+      "slug": "brass-whistle",
+      "title": "Little whistle. Big voice. — Oh, Ohio",
+      "description": "At a Columbus workbench, that familiar sound starts with a flat piece of brass.",
+      "image": "/art/journal/brass-whistle.webp"
+    },
+    {
+      "path": "/journal/rookwood-clay",
+      "kind": "content",
+      "slug": "rookwood-clay",
+      "title": "A little clay. A lot of hands. — Oh, Ohio",
+      "description": "Let’s follow a piece of Rookwood pottery through the work that gives it a place in someone’s home.",
+      "image": "/art/journal/rookwood-clay.webp"
+    },
+    {
+      "path": "/journal/toledo-glass",
+      "kind": "content",
+      "slug": "toledo-glass",
+      "title": "Ooh, look at that glass. — Oh, Ohio",
+      "description": "In Toledo, light, heat, and a maker’s timing turn something familiar into something worth stopping for.",
+      "image": "/art/journal/toledo-glass.webp"
+    },
+    {
+      "path": "/journal/akron-rubber",
+      "kind": "content",
+      "slug": "akron-rubber",
+      "title": "There’s a story in these tires. — Oh, Ohio",
+      "description": "Let’s follow Akron’s rubber history from a familiar wheel back to the people and experiments behind it.",
+      "image": "/art/journal/akron-rubber.webp"
+    },
+    {
+      "path": "/journal/cincinnati-chili",
+      "kind": "content",
+      "slug": "cincinnati-chili",
+      "title": "Pull up a chair. Let’s order chili. — Oh, Ohio",
+      "description": "Spaghetti, a spiced sauce, and that generous pile of cheese. I’ll help you make sense of the menu.",
+      "image": "/art/journal/cincinnati-chili.webp"
+    },
+    {
+      "path": "/journal/buckeye-sweets",
+      "kind": "content",
+      "slug": "buckeye-sweets",
+      "title": "Save room for a buckeye. — Oh, Ohio",
+      "description": "A little peanut butter, a little chocolate, and one bare patch that gives the sweet its Ohio name.",
+      "image": "/art/journal/buckeye-sweets.webp"
+    },
+    {
+      "path": "/journal/west-side-market-table",
+      "kind": "content",
+      "slug": "west-side-market-table",
+      "title": "A market full of good things. — Oh, Ohio",
+      "description": "Cleveland’s West Side Market has a beautiful ceiling. The people at the counters deserve your attention too.",
+      "image": "/art/journal/west-side-market-table.webp"
+    },
+    {
+      "path": "/journal/library-afternoon",
+      "kind": "content",
+      "slug": "library-afternoon",
+      "title": "A book, a window, an afternoon. — Oh, Ohio",
+      "description": "At Columbus Main Library, follow an old city map or settle in for one more chapter.",
+      "image": "/art/journal/library-afternoon.webp"
+    },
+    {
+      "path": "/journal/community-garden-season",
+      "kind": "content",
+      "slug": "community-garden-season",
+      "title": "Let’s see what’s growing. — Oh, Ohio",
+      "description": "At Dayton’s Possum Creek, garden plots change throughout the growing season.",
+      "image": "/art/journal/community-garden-season.webp"
+    },
+    {
+      "path": "/journal/athens-campus-day",
+      "kind": "content",
+      "slug": "athens-campus-day",
+      "title": "Got a little time? Let’s walk through Athens. — Oh, Ohio",
+      "description": "From Ohio University’s College Green to Uptown, a few ordinary blocks hold plenty of stories.",
+      "image": "/art/journal/athens-campus-day.webp"
+    },
+    {
+      "path": "/journal/materials-in-the-making",
+      "kind": "content",
+      "slug": "materials-in-the-making",
+      "title": "How an Ohio object takes shape — Oh, Ohio",
+      "description": "Follow a Columbus brass whistle and a Cincinnati pottery piece from material to finished object.",
+      "image": "/art/journal/brass-whistle.webp"
+    },
+    {
+      "path": "/notes/whistle-cross-section",
+      "kind": "content",
+      "slug": "whistle-cross-section",
+      "title": "A whistle in cross-section — Oh, Ohio",
+      "description": "A small chamber and a moving pea turn a breath into a trill.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/notes/what-survives-the-kiln",
+      "kind": "content",
+      "slug": "what-survives-the-kiln",
+      "title": "What survives the kiln? — Oh, Ohio",
+      "description": "Compare a Rookwood form, a historic vase, and a surface changed by firing.",
+      "image": "/art/scenes/make.webp"
+    },
+    {
+      "path": "/journal/listening-to-ohio",
+      "kind": "content",
+      "slug": "listening-to-ohio",
+      "title": "Listening to Ohio — Oh, Ohio",
+      "description": "A canal song, a Columbus conversation, a marsh soundscape, and a Cincinnati orchestra reveal different ways of hearing the state.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/notes/one-canal-song-three-records",
+      "kind": "content",
+      "slug": "one-canal-song-three-records",
+      "title": "One canal song, three records — Oh, Ohio",
+      "description": "Hear one performance alongside its song text and the records kept with it.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/what-is-an-accent-sample",
+      "kind": "content",
+      "slug": "what-is-an-accent-sample",
+      "title": "What is an accent sample? — Oh, Ohio",
+      "description": "A Columbus speech corpus gives researchers a sample to study, not a single Ohio accent.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/journal/how-a-library-loan-travels",
+      "kind": "content",
+      "slug": "how-a-library-loan-travels",
+      "title": "How a library loan travels — Oh, Ohio",
+      "description": "One Cincinnati history book makes a useful guide to Ohio’s shared library shelves, from a local search to pickup and return.",
+      "image": "/art/journal/library-afternoon.webp"
+    },
+    {
+      "path": "/notes/what-catalog-can-tell-you",
+      "kind": "content",
+      "slug": "what-catalog-can-tell-you",
+      "title": "What a catalog can tell you — Oh, Ohio",
+      "description": "Search title, author, and ISBN, then check the edition and the request option in your own library catalog.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/notes/a-books-trip-through-ohio",
+      "kind": "content",
+      "slug": "a-books-trip-through-ohio",
+      "title": "A book’s trip through Ohio — Oh, Ohio",
+      "description": "The request and pickup are a shared-library workflow, with local account rules at either end.",
+      "image": "/art/scenes/live.webp"
+    },
+    {
+      "path": "/journal/findlay-street-through-time",
+      "kind": "content",
+      "slug": "findlay-street-through-time",
+      "title": "Findlay Street through time — Oh, Ohio",
+      "description": "Race Street’s market block links a nineteenth-century plat, a changing neighborhood, and a present-day transit stop.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/notes/reading-a-sanborn-map",
+      "kind": "content",
+      "slug": "reading-a-sanborn-map",
+      "title": "Reading a Sanborn map — Oh, Ohio",
+      "description": "Fire-insurance maps document buildings for risk assessment; use the legend and exact sheet before describing a block.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/markets-changing-edges",
+      "kind": "content",
+      "slug": "markets-changing-edges",
+      "title": "Markets and changing edges — Oh, Ohio",
+      "description": "Compare the early Northern Liberties street grid with the current transit loop without treating them as one map.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/journal/water-has-a-working-life",
+      "kind": "content",
+      "slug": "water-has-a-working-life",
+      "title": "Water has a working life — Oh, Ohio",
+      "description": "Ohio’s waterways connect freight, drinking water, habitat, and neighborhood stewardship. A Cleveland-to-Lake-Erie story makes those layers visible.",
+      "image": "/art/journal/cuyahoga-slow-day.webp"
+    },
+    {
+      "path": "/notes/canal-corridor-in-maps",
+      "kind": "content",
+      "slug": "canal-corridor-in-maps",
+      "title": "A canal corridor on paper — Oh, Ohio",
+      "description": "Canal maps show an engineered route, not a natural river journey.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/lake-erie-intakes-and-buoys",
+      "kind": "content",
+      "slug": "lake-erie-intakes-and-buoys",
+      "title": "Lake water, public service — Oh, Ohio",
+      "description": "Cleveland’s drinking-water story begins offshore.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/journal/who-keeps-ohios-memory",
+      "kind": "content",
+      "slug": "who-keeps-ohios-memory",
+      "title": "Who keeps Ohio’s memory? — Oh, Ohio",
+      "description": "A state archive can preserve millions of records. The people who make those records, describe them, and decide what can be shared shape the story too.",
+      "image": "/art/journal/library-afternoon.webp"
+    },
+    {
+      "path": "/notes/oral-history-is-a-persons-account",
+      "kind": "content",
+      "slug": "oral-history-is-a-persons-account",
+      "title": "An oral history is one person’s account — Oh, Ohio",
+      "description": "A named interview preserves experience without standing for a whole community.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/notes/eastern-shawnee-digital-library",
+      "kind": "content",
+      "slug": "eastern-shawnee-digital-library",
+      "title": "A tribal archive in a shared portal — Oh, Ohio",
+      "description": "Ohio Memory identifies the Eastern Shawnee Tribe of Oklahoma’s digital library as a partner collection.",
+      "image": "/art/scenes/culture.webp"
+    },
+    {
+      "path": "/journal/small-towns-many-centers",
+      "kind": "content",
+      "slug": "small-towns-many-centers",
+      "title": "Small towns, many centers — Oh, Ohio",
+      "description": "Yellow Springs and Nelsonville are two Ohio towns with distinct institutions, landscapes, and public gathering places.",
+      "image": "/art/journal/cuyahoga-slow-day.webp"
+    },
+    {
+      "path": "/notes/yellow-springs-stewardship",
+      "kind": "content",
+      "slug": "yellow-springs-stewardship",
+      "title": "Glen Helen is a place people have shaped — Oh, Ohio",
+      "description": "The preserve’s own timeline connects land, civic choices, and conservation.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/nelsonville-railway-access",
+      "kind": "content",
+      "slug": "nelsonville-railway-access",
+      "title": "Before boarding in Nelsonville — Oh, Ohio",
+      "description": "The railway publishes coach-specific access information; call ahead before traveling.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/journal/two-city-days",
+      "kind": "content",
+      "slug": "two-city-days",
+      "title": "Two city days, two different rhythms — Oh, Ohio",
+      "description": "Cincinnati offers a compact streetcar-and-walk day. Dayton’s aviation sites are spread across town, so plan in sections and leave room for transit and rest.",
+      "image": "/art/journal/cincinnati-market-to-music.webp"
+    },
+    {
+      "path": "/notes/cincinnati-connector-station-order",
+      "kind": "content",
+      "slug": "cincinnati-connector-station-order",
+      "title": "A Cincinnati day in selected stops — Oh, Ohio",
+      "description": "The Connector’s official map makes a shorter route possible without riding the whole loop.",
+      "image": "/art/scenes/explore.webp"
+    },
+    {
+      "path": "/notes/dayton-aviation-transit-and-access",
+      "kind": "content",
+      "slug": "dayton-aviation-transit-and-access",
+      "title": "Dayton’s sites need separate legs — Oh, Ohio",
+      "description": "NPS and transit operator details show where a transit-first day works and where another ride is needed.",
+      "image": "/art/scenes/explore.webp"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/discover",
+      "destination": "/explore",
+      "permanent": true
+    },
+    {
+      "source": "/travel",
+      "destination": "/explore",
+      "permanent": true
+    },
+    {
+      "source": "/economy",
+      "destination": "/make",
+      "permanent": true
+    },
+    {
+      "source": "/industry",
+      "destination": "/make",
+      "permanent": true
+    },
+    {
+      "source": "/language",
+      "destination": "/culture",
+      "permanent": true
+    },
+    {
+      "source": "/life",
+      "destination": "/live",
+      "permanent": true
+    },
+    {
+      "source": "/government",
+      "destination": "/live",
+      "permanent": true
+    }
+  ]
+}

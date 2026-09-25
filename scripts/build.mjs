@@ -4,6 +4,8 @@ import path from 'node:path';
 const commands = [
   ['scripts/content-manifest.mjs', '--check'],
   ['scripts/content-validate.mjs'],
+  ['scripts/route-catalog.mjs', '--check'],
+  ['scripts/content-coverage.mjs'],
   [path.join('node_modules', 'vue-tsc', 'bin', 'vue-tsc.js'), '--noEmit'],
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssrManifest'],
   ['scripts/bundle-verify.mjs'],

@@ -4,12 +4,40 @@
   "outputDirectory": "dist",
   "trailingSlash": false,
   "redirects": [
-    { "source": "/discover", "destination": "/explore", "permanent": true },
-    { "source": "/travel", "destination": "/explore", "permanent": true },
-    { "source": "/economy", "destination": "/make", "permanent": true },
-    { "source": "/industry", "destination": "/make", "permanent": true },
-    { "source": "/language", "destination": "/culture", "permanent": true },
-    { "source": "/life", "destination": "/live", "permanent": true },
-    { "source": "/government", "destination": "/live", "permanent": true }
+    {
+      "source": "/discover",
+      "destination": "/explore",
+      "permanent": true
+    },
+    {
+      "source": "/travel",
+      "destination": "/explore",
+      "permanent": true
+    },
+    {
+      "source": "/economy",
+      "destination": "/make",
+      "permanent": true
+    },
+    {
+      "source": "/industry",
+      "destination": "/make",
+      "permanent": true
+    },
+    {
+      "source": "/language",
+      "destination": "/culture",
+      "permanent": true
+    },
+    {
+      "source": "/life",
+      "destination": "/live",
+      "permanent": true
+    },
+    {
+      "source": "/government",
+      "destination": "/live",
+      "permanent": true
+    }
   ]
 }
