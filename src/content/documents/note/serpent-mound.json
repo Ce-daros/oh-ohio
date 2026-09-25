@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:serpent-mound",
+    "slug": "serpent-mound",
+    "kind": "note",
+    "title": "Serpent Mound",
+    "summary": "A great earthen serpent curls across a ridge. I’ll guide you through this Indigenous place with care, curiosity, and respect.",
+    "canonicalPath": "/explore#serpent-mound",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-past"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:1a8a7a75e913",
+        "label": "Ohio History Connection · Serpent Mound"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/serpent-mound.json",
+    "sectionId": "travel",
+    "kicker": "SOUTHERN OHIO · INDIGENOUS EARTHWORK",
+    "order": 17
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "From the ground, Serpent Mound appears as a low, winding form; from above, its serpent shape comes into view. This effigy earthwork was made by ancient American Indian people in what is now southern Ohio, while nearby burial mounds belong to different periods. Archaeologists still debate when the serpent itself was built, so I won’t give you a neat date where the evidence remains unsettled."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a cultural place, not a puzzle for us to solve in an afternoon. I’d start with the Ohio History Connection’s site history and visitor guidance, then take the walk at a respectful pace. Stay within permitted areas and check current opening times before coming; access is limited to posted hours. Look at the shape, the surrounding landscape, and the questions that remain, while remembering that Indigenous histories and communities did not end here."
+    }
+  ]
+}

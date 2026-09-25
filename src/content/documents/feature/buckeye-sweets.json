@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "feature:buckeye-sweets",
+    "slug": "buckeye-sweets",
+    "kind": "feature",
+    "title": "Save room for a buckeye.",
+    "summary": "A little peanut butter, a little chocolate, and one bare patch that gives the sweet its Ohio name.",
+    "canonicalPath": "/journal/buckeye-sweets",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-table"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:dbe2637c173d",
+        "label": "Ohio State: what is a buckeye?",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:c63f1cdf0fd9",
+        "label": "Ohio Revised Code: state tree",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:321dfad15506",
+        "label": "Experience Columbus: history of the buckeye candy",
+        "kind": "Local guide"
+      },
+      {
+        "id": "source:16d5e471ceeb",
+        "label": "Ohio State University Archives: buckeye candy clipping",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/buckeye-sweets.json",
+    "category": "table",
+    "location": "Across Ohio",
+    "duration": "A sweet little pause",
+    "readTime": "3 min read",
+    "coverMediaId": "media:buckeye-sweets",
+    "coverAlt": "Illustrated buckeye candies with uncovered peanut-butter tops on a navy plate",
+    "titleAccent": "a buckeye.",
+    "recommendations": [
+      {
+        "id": "feature:cincinnati-chili",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:west-side-market-table",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:cincinnati-market-to-music",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 81
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "I saved the sweet part for you. See the little pale circle at the top? That’s what makes this chocolate-dipped peanut-butter candy look like a buckeye nut. It’s a familiar Ohio treat with a tiny detail worth noticing before the first bite. Let’s start with the tree, then head to the kitchen. ♡"
+    },
+    {
+      "type": "heading",
+      "id": "the-tree-first",
+      "title": "First, the actual buckeye",
+      "eyebrow": "THE SHAPE"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Ohio buckeye is the state tree. Its shiny brown nut has a lighter patch, a shape that’s easy to recognize once someone points it out. Look at a picture of the nut beside the candy and you’ll see the connection immediately. The cook leaves part of the peanut-butter center uncovered to keep that resemblance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The nut itself isn’t the dessert; the candy is made from peanut butter and chocolate. Keep the two separate when showing someone the name. You can appreciate the tree’s place in Ohio’s symbols, then enjoy the edible version at the table. It’s a small introduction to the state that doesn’t take a whole history lesson."
+    },
+    {
+      "type": "heading",
+      "id": "a-kitchen-story",
+      "title": "A recipe that traveled",
+      "eyebrow": "THE RECIPE"
+    },
+    {
+      "type": "paragraph",
+      "text": "The candy has a kitchen story too. Experience Columbus credits Gail Tabor with the familiar recipe in the 1960s, while Ohio State alumni material shows it circulating among readers by the early 1970s. Recipes travel from one household to another. By the time a batch reaches your table, the person making it may have learned it from someone close to them."
+    },
+    {
+      "type": "paragraph",
+      "text": "The recognizable step is the dip: lower the peanut-butter center into chocolate and keep a little patch bare. Recipes can vary in proportions, size, and texture, but that last detail keeps the name visible. If you’re watching someone make a batch, this is the moment to look. Ooh, there it is—one little sweet becoming a buckeye."
+    },
+    {
+      "type": "characterAside",
+      "title": "Leave that little circle",
+      "text": "Cover the whole center in chocolate and you hide the detail that gives the candy its name. Funny how the smallest part can tell the whole story."
+    },
+    {
+      "type": "heading",
+      "id": "more-than-game-day",
+      "title": "More than game day",
+      "eyebrow": "THE OCCASION"
+    },
+    {
+      "type": "paragraph",
+      "text": "A box of buckeyes fits into more than a game-day gathering. They turn up as gifts and on holiday tables too. The shape gives you something to share besides chocolate: someone asks about the uncovered top, and now you have a story to tell. No special occasion needed. A neighbor and a plate are a perfectly good start."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’re making a batch, enjoy the part where the shapes come together. Rolling and dipping gives each one a slightly different outline. Keep a little space on the plate for the uneven ones, too. The small pale circle at the top does the important work: one glance, and the buckeye shape is unmistakable."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Spot the detail",
+          "text": "Look for the small circle of peanut butter left visible above the chocolate."
+        },
+        {
+          "label": "Share the story",
+          "text": "Show someone a photo of the tree's nut beside the candy to explain its name."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "One for you, one to share. We can tell the tree story between bites. ♡"
+    }
+  ]
+}

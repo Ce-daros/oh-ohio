@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:hopewell-earthworks",
+    "slug": "hopewell-earthworks",
+    "kind": "note",
+    "title": "Hopewell Earthworks",
+    "summary": "These extraordinary earthworks invite us to slow down and listen. Their geometry belongs to a much deeper story of Indigenous knowledge, community, and enduring cultural meaning.",
+    "canonicalPath": "/culture#hopewell-earthworks",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0723305fd545",
+        "label": "Ohio History Connection"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/hopewell-earthworks.json",
+    "sectionId": "culture",
+    "kicker": "INDIGENOUS HERITAGE · WORLD HERITAGE",
+    "order": 19
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Hopewell Ceremonial Earthworks were built by American Indian communities in what is now Ohio. Their monumental geometric forms reflect sophisticated planning and relationships among earth, sky, ceremony, and community. The World Heritage inscription includes sites around Newark, Chillicothe, and Fort Ancient."
+    },
+    {
+      "type": "paragraph",
+      "text": "Let’s approach them as meaningful cultural places, not simply impressive shapes to photograph. Ohio History Connection and its partners offer histories and visitor guidance to help you understand what you’re seeing. Read before visiting, respect site access rules, and make room for Indigenous perspectives. A thoughtful visit begins before the first step onto the grounds: learn about the place with care, and let it set the terms of our visit."
+    }
+  ]
+}

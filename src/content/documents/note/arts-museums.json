@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:arts-museums",
+    "slug": "arts-museums",
+    "kind": "note",
+    "title": "Arts & museums",
+    "summary": "Ooh, big collections or a tiny gallery you almost walked past? We have room for both. Ohio’s creative life stretches well beyond one museum district—and that’s where a lovely surprise might be waiting.",
+    "canonicalPath": "/culture#arts-museums",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:36a1fc18d246",
+        "label": "Cleveland Museum of Art"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/arts-museums.json",
+    "sectionId": "culture",
+    "kicker": "STATEWIDE · CREATIVE LIFE",
+    "order": 22
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cleveland’s major art museum anchors a broader cultural district; Columbus connects established collections with contemporary work and the Short North. Across the state, smaller galleries, theaters, exhibitions, public art, and festivals add their own voices; those spaces can make lovely stops after the big collections, too."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Cleveland Museum of Art is a good starting point, with collections, exhibitions, and programs to browse before you go. Then look at what’s near your own route. Check each institution’s current schedule and give yourself permission to follow one unexpected work or performance. You don’t have to see everything to find something that stays with you. Follow your curiosity, and let one room or work set the pace."
+    }
+  ]
+}

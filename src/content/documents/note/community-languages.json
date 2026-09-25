@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:community-languages",
+    "slug": "community-languages",
+    "kind": "note",
+    "title": "Many languages, many homes",
+    "summary": "English is only part of what you’ll hear here. Ohio’s families and communities bring many languages into classrooms, neighborhoods, and everyday conversations. What a lovely chorus.",
+    "canonicalPath": "/culture#community-languages",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:f4363cc1bc8c",
+        "label": "Ohio Department of Education and Workforce · English Learners"
+      },
+      {
+        "id": "source:9dab685b3847",
+        "label": "University of Akron · Holmes County language study"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/community-languages.json",
+    "sectionId": "language",
+    "kicker": "FAMILY · MIGRATION · COMMUNITY",
+    "order": 52
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s education department lists Spanish, Somali, Arabic, Swahili, Chinese, Japanese, Nepali, Pennsylvania Dutch, French, Turkish, and many other home languages among the state’s English learners. That list describes a school population, not a ranking of every language spoken statewide; still, it opens a wonderful window onto the variety and people behind it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pennsylvania Dutch also has a particular history in some Amish and Mennonite communities, with local differences in how languages are used. A University of Akron repository study looks specifically at a Holmes County Beachy Amish-Mennonite community. Let’s keep that specificity: language can connect people, while each family and community has its own experience."
+    }
+  ]
+}

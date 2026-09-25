@@ -1,0 +1,502 @@
+[
+  {
+    "id": "topic:explore-coast",
+    "kind": "topic",
+    "title": "Lake Erie",
+    "dek": "Lake Erie defines Ohio’s North Coast.",
+    "order": 0,
+    "world": "explore",
+    "featuredId": "note:north-coast",
+    "itemIds": [
+      "note:north-coast",
+      "note:lake-erie-islands",
+      "note:cleveland",
+      "note:marblehead-lighthouse",
+      "note:magee-marsh"
+    ]
+  },
+  {
+    "id": "topic:explore-cities",
+    "kind": "topic",
+    "title": "City days",
+    "dek": "Columbus, Cincinnati, and Dayton are major centers of Ohio city life.",
+    "order": 1,
+    "world": "explore",
+    "featuredId": "note:cities-regions",
+    "itemIds": [
+      "note:cities-regions",
+      "note:columbus",
+      "note:cincinnati",
+      "note:dayton",
+      "note:toledo-glass-pavilion"
+    ]
+  },
+  {
+    "id": "topic:explore-hills",
+    "kind": "topic",
+    "title": "The hills",
+    "dek": "Appalachian Ohio includes southeastern ridges, valleys, and Hocking Hills gorges.",
+    "order": 2,
+    "world": "explore",
+    "featuredId": "note:appalachian-ohio",
+    "itemIds": [
+      "note:appalachian-ohio",
+      "note:hocking-hills",
+      "note:wayne-covered-bridge-byway"
+    ]
+  },
+  {
+    "id": "topic:explore-wild",
+    "kind": "topic",
+    "title": "Out in the green",
+    "dek": "Ohio’s outdoor landscapes include wetlands, forests, and the Cuyahoga River.",
+    "order": 3,
+    "world": "explore",
+    "featuredId": "note:nature",
+    "itemIds": [
+      "note:nature",
+      "note:cuyahoga-valley",
+      "note:glen-helen"
+    ]
+  },
+  {
+    "id": "topic:explore-past",
+    "kind": "topic",
+    "title": "Past & present",
+    "dek": "Indigenous histories, migration, industry, and reform shaped Ohio.",
+    "order": 4,
+    "world": "explore",
+    "featuredId": "note:history",
+    "itemIds": [
+      "note:history",
+      "note:serpent-mound"
+    ]
+  },
+  {
+    "id": "topic:explore-symbols",
+    "kind": "topic",
+    "title": "The Buckeye State",
+    "dek": "Ohio’s emblems include its swallow-tailed flag, northern cardinal, and buckeye tree.",
+    "order": 5,
+    "world": "explore",
+    "featuredId": "note:symbols",
+    "itemIds": [
+      "note:symbols"
+    ]
+  },
+  {
+    "id": "topic:make-factory",
+    "kind": "topic",
+    "title": "Made in Ohio",
+    "dek": "Ohio manufacturing produces vehicles, chemicals, and everyday goods.",
+    "order": 0,
+    "world": "make",
+    "featuredId": "note:production",
+    "itemIds": [
+      "note:production",
+      "note:advanced-manufacturing",
+      "note:automotive",
+      "note:energy-chemicals",
+      "note:east-liverpool-ceramics",
+      "note:columbus-whistle-factory",
+      "note:rookwood-cincinnati",
+      "note:akron-rubber-work"
+    ]
+  },
+  {
+    "id": "topic:make-flight",
+    "kind": "topic",
+    "title": "Ready for takeoff",
+    "dek": "Ohio aviation links researchers, suppliers, test teams, and manufacturers.",
+    "order": 1,
+    "world": "make",
+    "featuredId": "note:aerospace",
+    "itemIds": [
+      "note:aerospace",
+      "note:glenn-icing-tunnel"
+    ]
+  },
+  {
+    "id": "topic:make-lab",
+    "kind": "topic",
+    "title": "The next idea",
+    "dek": "Ohio research supports health care, industry, and daily work.",
+    "order": 2,
+    "world": "make",
+    "featuredId": "note:healthcare",
+    "itemIds": [
+      "note:healthcare",
+      "note:technology"
+    ]
+  },
+  {
+    "id": "topic:make-farm",
+    "kind": "topic",
+    "title": "From the ground up",
+    "dek": "Ohio food passes through farms, processors, storage, and delivery.",
+    "order": 3,
+    "world": "make",
+    "featuredId": "note:food-agriculture",
+    "itemIds": [
+      "note:food-agriculture"
+    ]
+  },
+  {
+    "id": "topic:make-movement",
+    "kind": "topic",
+    "title": "On the move",
+    "dek": "Ohio freight moves by water, road, rail, and air.",
+    "order": 4,
+    "world": "make",
+    "featuredId": "note:trade",
+    "itemIds": [
+      "note:trade",
+      "note:logistics",
+      "note:port-of-toledo"
+    ]
+  },
+  {
+    "id": "topic:make-work",
+    "kind": "topic",
+    "title": "People at work",
+    "dek": "Ohio’s economy spans many sectors; work conditions shape household life.",
+    "order": 5,
+    "world": "make",
+    "featuredId": "note:economic-map",
+    "itemIds": [
+      "note:economic-map",
+      "note:jobs-households"
+    ]
+  },
+  {
+    "id": "topic:culture-records",
+    "kind": "topic",
+    "title": "Turn it up",
+    "dek": "Cleveland’s rock legacy is part of Ohio’s wider music history.",
+    "order": 0,
+    "world": "culture",
+    "featuredId": "note:music",
+    "itemIds": [
+      "note:music",
+      "note:cleveland-orchestra-severance",
+      "note:cincinnati-music-hall"
+    ]
+  },
+  {
+    "id": "topic:culture-gallery",
+    "kind": "topic",
+    "title": "Take another look",
+    "dek": "Hopewell earthworks hold enduring Indigenous meaning.",
+    "order": 1,
+    "world": "culture",
+    "featuredId": "note:arts-museums",
+    "itemIds": [
+      "note:arts-museums",
+      "note:hopewell-earthworks",
+      "note:freedom-center-river",
+      "note:billy-ireland-cartoon-museum",
+      "note:american-sign-museum"
+    ]
+  },
+  {
+    "id": "topic:culture-table",
+    "kind": "topic",
+    "title": "A taste of home",
+    "dek": "Ohio’s food traditions vary by region and family.",
+    "order": 2,
+    "world": "culture",
+    "featuredId": "note:foodways",
+    "itemIds": [
+      "note:foodways",
+      "note:west-side-market"
+    ]
+  },
+  {
+    "id": "topic:culture-game",
+    "kind": "topic",
+    "title": "Game day",
+    "dek": "Games, festivals, and local celebrations are part of Ohio social life.",
+    "order": 3,
+    "world": "culture",
+    "featuredId": "note:sports-community",
+    "itemIds": [
+      "note:sports-community"
+    ]
+  },
+  {
+    "id": "topic:culture-words",
+    "kind": "topic",
+    "title": "Say that again?",
+    "dek": "Ohio includes varied accents, place names, and home languages.",
+    "order": 4,
+    "world": "culture",
+    "featuredId": "note:regional-voices",
+    "itemIds": [
+      "note:regional-voices",
+      "note:appalachian-english",
+      "note:place-names",
+      "note:community-languages",
+      "phrase:youuns-yuns",
+      "phrase:mamaw-papaw",
+      "phrase:needs-washed",
+      "phrase:scioto"
+    ]
+  },
+  {
+    "id": "topic:culture-invention",
+    "kind": "topic",
+    "title": "A little invention",
+    "dek": "Dayton’s aviation history includes the Wright brothers’ bicycle shop experiments.",
+    "order": 5,
+    "world": "culture",
+    "featuredId": "note:aviation-heritage",
+    "itemIds": [
+      "note:aviation-heritage"
+    ]
+  },
+  {
+    "id": "topic:live-campus",
+    "kind": "topic",
+    "title": "Keep learning",
+    "dek": "Ohioans learn through schools, colleges, research labs, and career programs.",
+    "order": 0,
+    "world": "live",
+    "featuredId": "note:universities",
+    "itemIds": [
+      "note:universities",
+      "note:research",
+      "note:schools-learning",
+      "note:cosi-try-it-yourself",
+      "note:wilberforce-black-history",
+      "note:rocky-river-nature-center"
+    ]
+  },
+  {
+    "id": "topic:live-library",
+    "kind": "topic",
+    "title": "Your next chapter",
+    "dek": "Ohio libraries offer collections and shared learning spaces.",
+    "order": 1,
+    "world": "live",
+    "featuredId": "note:libraries",
+    "itemIds": [
+      "note:libraries",
+      "note:ohiolink-shared-shelves"
+    ]
+  },
+  {
+    "id": "topic:live-civic",
+    "kind": "topic",
+    "title": "State government",
+    "dek": "Ohio government has executive, legislative, and judicial branches.",
+    "order": 2,
+    "world": "live",
+    "featuredId": "note:executive",
+    "itemIds": [
+      "note:executive",
+      "note:legislative",
+      "note:judicial",
+      "note:statehouse-open-door"
+    ]
+  },
+  {
+    "id": "topic:live-local",
+    "kind": "topic",
+    "title": "Closer to home",
+    "dek": "Ohio counties, cities, villages, and townships handle local decisions.",
+    "order": 3,
+    "world": "live",
+    "featuredId": "note:local-government",
+    "itemIds": [
+      "note:local-government"
+    ]
+  },
+  {
+    "id": "topic:live-community",
+    "kind": "topic",
+    "title": "Meet the neighbors",
+    "dek": "Local groups and volunteers help build connected neighborhoods.",
+    "order": 4,
+    "world": "live",
+    "featuredId": "note:community-life",
+    "itemIds": [
+      "note:community-life",
+      "note:possum-creek-gardens"
+    ]
+  },
+  {
+    "id": "category:guides",
+    "kind": "category",
+    "title": "Little adventures",
+    "dek": "A market morning. A whole day by the lake. Let's make a little time for both.",
+    "order": 0,
+    "featuredId": "feature:cincinnati-market-to-music",
+    "itemIds": [
+      "feature:cincinnati-market-to-music",
+      "feature:dayton-made-to-fly",
+      "feature:cuyahoga-slow-day",
+      "feature:sandusky-play-day"
+    ],
+    "presentation": {
+      "id": "guides",
+      "label": "Little adventures",
+      "eyebrow": "A DAY OUT",
+      "description": "A market morning. A whole day by the lake. Let's make a little time for both.",
+      "color": "#dcecef",
+      "ink": "#345c68",
+      "prop": "camera"
+    }
+  },
+  {
+    "id": "category:making",
+    "kind": "category",
+    "title": "Made here",
+    "dek": "Clay, glass, a little brass. Follow each from start to finish.",
+    "order": 1,
+    "featuredId": "feature:brass-whistle",
+    "itemIds": [
+      "feature:brass-whistle",
+      "feature:rookwood-clay",
+      "feature:toledo-glass",
+      "feature:akron-rubber"
+    ],
+    "presentation": {
+      "id": "making",
+      "label": "Made here",
+      "eyebrow": "MEET THE MAKERS",
+      "description": "Clay, glass, a little brass. Follow each from start to finish.",
+      "color": "#e4e8f4",
+      "ink": "#485879",
+      "prop": "whistle"
+    }
+  },
+  {
+    "id": "category:table",
+    "kind": "category",
+    "title": "At the table",
+    "dek": "There are stories behind these familiar flavors. Save room for one.",
+    "order": 2,
+    "featuredId": "feature:cincinnati-chili",
+    "itemIds": [
+      "feature:cincinnati-chili",
+      "feature:buckeye-sweets",
+      "feature:west-side-market-table"
+    ],
+    "presentation": {
+      "id": "table",
+      "label": "At the table",
+      "eyebrow": "SAVED YOU A SEAT",
+      "description": "There are stories behind these familiar flavors. Save room for one.",
+      "color": "#f3e1dc",
+      "ink": "#884b47",
+      "prop": "record"
+    }
+  },
+  {
+    "id": "category:everyday",
+    "kind": "category",
+    "title": "Everyday Ohio",
+    "dek": "Libraries, garden plots, and the places a day unfolds.",
+    "order": 3,
+    "featuredId": "feature:library-afternoon",
+    "itemIds": [
+      "feature:library-afternoon",
+      "feature:community-garden-season",
+      "feature:athens-campus-day"
+    ],
+    "presentation": {
+      "id": "everyday",
+      "label": "Everyday Ohio",
+      "eyebrow": "STAY A LITTLE LONGER",
+      "description": "Libraries, garden plots, and the places a day unfolds.",
+      "color": "#e1ebe2",
+      "ink": "#426351",
+      "prop": "backpack"
+    }
+  },
+  {
+    "id": "world:explore",
+    "kind": "world",
+    "title": "Explore",
+    "dek": "Lake shores, city streets, and Appalachian trails. ♡",
+    "order": 0,
+    "world": "explore",
+    "featuredId": "feature:cincinnati-market-to-music",
+    "itemIds": [
+      "feature:cincinnati-market-to-music",
+      "feature:dayton-made-to-fly",
+      "feature:cuyahoga-slow-day",
+      "feature:sandusky-play-day"
+    ]
+  },
+  {
+    "id": "world:make",
+    "kind": "world",
+    "title": "Make",
+    "dek": "Meet the makers and workers behind it.",
+    "order": 1,
+    "world": "make",
+    "featuredId": "feature:brass-whistle",
+    "itemIds": [
+      "feature:brass-whistle",
+      "feature:rookwood-clay",
+      "feature:toledo-glass",
+      "feature:akron-rubber"
+    ]
+  },
+  {
+    "id": "world:culture",
+    "kind": "world",
+    "title": "Culture",
+    "dek": "Markets, music, art, and stories. ♡",
+    "order": 2,
+    "world": "culture",
+    "featuredId": "feature:cincinnati-chili",
+    "itemIds": [
+      "feature:cincinnati-chili",
+      "feature:buckeye-sweets",
+      "feature:west-side-market-table"
+    ]
+  },
+  {
+    "id": "world:live",
+    "kind": "world",
+    "title": "Live",
+    "dek": "Meet the neighbors, communities, and public life here.",
+    "order": 3,
+    "world": "live",
+    "featuredId": "feature:library-afternoon",
+    "itemIds": [
+      "feature:library-afternoon",
+      "feature:community-garden-season",
+      "feature:athens-campus-day"
+    ]
+  },
+  {
+    "id": "home:field-notes",
+    "kind": "home",
+    "title": "Field notes",
+    "dek": "Good stories are worth staying for.",
+    "order": 0,
+    "featuredId": "feature:cincinnati-market-to-music",
+    "itemIds": [
+      "feature:cincinnati-market-to-music",
+      "feature:rookwood-clay",
+      "feature:library-afternoon"
+    ]
+  },
+  {
+    "id": "home:dispatches",
+    "kind": "home",
+    "title": "A few stories worth knowing.",
+    "dek": "A little place. A big idea.",
+    "order": 1,
+    "featuredId": "note:magee-marsh",
+    "itemIds": [
+      "note:magee-marsh",
+      "note:columbus-whistle-factory",
+      "note:west-side-market",
+      "note:wilberforce-black-history"
+    ]
+  }
+]

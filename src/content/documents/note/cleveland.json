@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "note:cleveland",
+    "slug": "cleveland",
+    "kind": "note",
+    "title": "Cleveland",
+    "summary": "Ooh, music history, art, neighborhood food, and a whole lake at the edge of town. Cleveland has plenty of ways to steal your afternoon—in the best way. ♡",
+    "canonicalPath": "/explore#cleveland",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:f9eda4aefb7d",
+        "label": "Destination Cleveland"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cleveland.json",
+    "sectionId": "travel",
+    "kicker": "NORTHEAST OHIO · LAKE ERIE CITY",
+    "order": 9
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Start with the lake, then follow whatever catches your eye; I’ll happily help you see where the afternoon takes us. Cleveland’s Rock & Roll Hall of Fame is an obvious draw, but University Circle, the West Side Market, galleries, neighborhood streets, and the waterfront all deserve attention."
+    },
+    {
+      "type": "paragraph",
+      "text": "Please leave a little space beyond the headline attraction. That bakery, local performance, or neighborhood restaurant might become the lovely surprise you keep talking about. Destination Cleveland gathers current events, food ideas, transport details, and visitor guides. Group your stops by area and check the connections—more wandering, less crisscrossing the map."
+    }
+  ]
+}

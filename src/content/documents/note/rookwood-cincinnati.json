@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:rookwood-cincinnati",
+    "slug": "rookwood-cincinnati",
+    "kind": "note",
+    "title": "Rookwood's Cincinnati clay",
+    "summary": "A tile can belong to a building and still be a little work of art. Cincinnati’s Rookwood makers have explored that since 1880. ♡",
+    "canonicalPath": "/make#rookwood-cincinnati",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d6157c4bfb9a",
+        "label": "Rookwood Pottery · About Rookwood"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/rookwood-cincinnati.json",
+    "sectionId": "industry",
+    "kicker": "CINCINNATI · ART POTTERY",
+    "order": 47
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I’m taking you back to Cincinnati in 1880, when Maria Longworth Storer founded Rookwood with one kiln and a plan to make American art pottery. The first potters worked in a former schoolhouse, shaping clay from the Ohio River. Rookwood still makes pottery, tile, and custom work in Cincinnati. I love how the same care for form and surface can live in a vase on a table or a tile in a wall."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rookwood describes a process in which many hands touch each piece before it is finished. That matters more to this story than treating every object as a museum relic. Glazes, shapes, and uses have changed, while people continue to make things for homes and public interiors. Look at a tile closely next time; its texture may tell you as much as its pattern."
+    }
+  ]
+}

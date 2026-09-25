@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:advanced-manufacturing",
+    "slug": "advanced-manufacturing",
+    "kind": "note",
+    "title": "Advanced manufacturing",
+    "summary": "Robots get the dramatic photos, but the really interesting part is how people improve the whole process. Ohio’s manufacturing connects careful design with things that actually get made.",
+    "canonicalPath": "/make#advanced-manufacturing",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:440edf6e5e89",
+        "label": "JobsOhio · Advanced Manufacturing"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/advanced-manufacturing.json",
+    "sectionId": "industry",
+    "kicker": "MATERIALS · MACHINES · PRODUCTION",
+    "order": 36
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio makes established materials and components alongside products using newer methods. Automation, additive processes, connected equipment, and specialized materials change what can happen on a factory floor. A single part might end up in a vehicle, aircraft, medical device, or energy system. Ooh, one small object can have a surprisingly large family tree."
+    },
+    {
+      "type": "paragraph",
+      "text": "Suppliers, engineers, and research partners link design to production across the state. So let’s ask how something is made, not only what comes off the line. The JobsOhio sector guide describes that business network and its capabilities. Following one process can reveal connections beyond company names alone—and show how people and tools shape each step together."
+    }
+  ]
+}

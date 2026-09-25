@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:technology",
+    "slug": "technology",
+    "kind": "note",
+    "title": "Technology",
+    "summary": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
+    "canonicalPath": "/make#technology",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-lab"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:43bcc484ce0c",
+        "label": "JobsOhio · Technology"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/technology.json",
+    "sectionId": "industry",
+    "kicker": "SOFTWARE · CHIPS · DATA",
+    "order": 42
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s technology sector includes software and digital services as well as systems tied to physical products. Semiconductor supply chains, data systems, and applied research connect with manufacturing, healthcare, automotive work, and logistics. I love following those connections: technology clicks when you can see what it helps someone do in practice."
+    },
+    {
+      "type": "paragraph",
+      "text": "JobsOhio’s overview points to areas of business activity across the state. Use it as a starting point, then look to individual projects and institutions for current details. One announcement doesn’t describe an entire sector, and a planned facility isn’t the same as an operating one; let’s follow what’s happening, where, and when."
+    }
+  ]
+}

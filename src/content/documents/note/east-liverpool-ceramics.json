@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:east-liverpool-ceramics",
+    "slug": "east-liverpool-ceramics",
+    "kind": "note",
+    "title": "East Liverpool in clay",
+    "summary": "Kilns helped shape East Liverpool. The Museum of Ceramics tells the story of the hands behind its pottery. ♡",
+    "canonicalPath": "/make#east-liverpool-ceramics",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:42ddb59f033e",
+        "label": "Ohio History Connection · Museum of Ceramics"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/east-liverpool-ceramics.json",
+    "sectionId": "industry",
+    "kicker": "EAST LIVERPOOL · CERAMICS",
+    "order": 45
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "East Liverpool grew into a major American pottery center, and its Museum of Ceramics displays wares made there while tracing the industry’s growth from the nineteenth into the twentieth century. A cup may look simple at first glance; then clay, skilled hands, firing, decoration, and the people around the kilns begin to emerge."
+    },
+    {
+      "type": "paragraph",
+      "text": "The museum also displays a mural of James Bennett’s early pottery. I’d linger over it, then look at the objects again: everyday things with a whole local economy behind them. Pick out a shape or a painted detail that catches your eye. That’s where I’d begin our conversation about how an object gets made."
+    }
+  ]
+}

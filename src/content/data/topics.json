@@ -1,0 +1,186 @@
+[
+  {
+    "id": "topic:explore-coast",
+    "title": "Lake Erie",
+    "dek": "Lake Erie defines Ohio’s North Coast.",
+    "order": 0,
+    "world": "explore",
+    "featuredId": "note:north-coast"
+  },
+  {
+    "id": "topic:explore-cities",
+    "title": "City days",
+    "dek": "Columbus, Cincinnati, and Dayton are major centers of Ohio city life.",
+    "order": 1,
+    "world": "explore",
+    "featuredId": "note:cities-regions"
+  },
+  {
+    "id": "topic:explore-hills",
+    "title": "The hills",
+    "dek": "Appalachian Ohio includes southeastern ridges, valleys, and Hocking Hills gorges.",
+    "order": 2,
+    "world": "explore",
+    "featuredId": "note:appalachian-ohio"
+  },
+  {
+    "id": "topic:explore-wild",
+    "title": "Out in the green",
+    "dek": "Ohio’s outdoor landscapes include wetlands, forests, and the Cuyahoga River.",
+    "order": 3,
+    "world": "explore",
+    "featuredId": "note:nature"
+  },
+  {
+    "id": "topic:explore-past",
+    "title": "Past & present",
+    "dek": "Indigenous histories, migration, industry, and reform shaped Ohio.",
+    "order": 4,
+    "world": "explore",
+    "featuredId": "note:history"
+  },
+  {
+    "id": "topic:explore-symbols",
+    "title": "The Buckeye State",
+    "dek": "Ohio’s emblems include its swallow-tailed flag, northern cardinal, and buckeye tree.",
+    "order": 5,
+    "world": "explore",
+    "featuredId": "note:symbols"
+  },
+  {
+    "id": "topic:make-factory",
+    "title": "Made in Ohio",
+    "dek": "Ohio manufacturing produces vehicles, chemicals, and everyday goods.",
+    "order": 0,
+    "world": "make",
+    "featuredId": "note:production"
+  },
+  {
+    "id": "topic:make-flight",
+    "title": "Ready for takeoff",
+    "dek": "Ohio aviation links researchers, suppliers, test teams, and manufacturers.",
+    "order": 1,
+    "world": "make",
+    "featuredId": "note:aerospace"
+  },
+  {
+    "id": "topic:make-lab",
+    "title": "The next idea",
+    "dek": "Ohio research supports health care, industry, and daily work.",
+    "order": 2,
+    "world": "make",
+    "featuredId": "note:healthcare"
+  },
+  {
+    "id": "topic:make-farm",
+    "title": "From the ground up",
+    "dek": "Ohio food passes through farms, processors, storage, and delivery.",
+    "order": 3,
+    "world": "make",
+    "featuredId": "note:food-agriculture"
+  },
+  {
+    "id": "topic:make-movement",
+    "title": "On the move",
+    "dek": "Ohio freight moves by water, road, rail, and air.",
+    "order": 4,
+    "world": "make",
+    "featuredId": "note:trade"
+  },
+  {
+    "id": "topic:make-work",
+    "title": "People at work",
+    "dek": "Ohio’s economy spans many sectors; work conditions shape household life.",
+    "order": 5,
+    "world": "make",
+    "featuredId": "note:economic-map"
+  },
+  {
+    "id": "topic:culture-records",
+    "title": "Turn it up",
+    "dek": "Cleveland’s rock legacy is part of Ohio’s wider music history.",
+    "order": 0,
+    "world": "culture",
+    "featuredId": "note:music"
+  },
+  {
+    "id": "topic:culture-gallery",
+    "title": "Take another look",
+    "dek": "Hopewell earthworks hold enduring Indigenous meaning.",
+    "order": 1,
+    "world": "culture",
+    "featuredId": "note:arts-museums"
+  },
+  {
+    "id": "topic:culture-table",
+    "title": "A taste of home",
+    "dek": "Ohio’s food traditions vary by region and family.",
+    "order": 2,
+    "world": "culture",
+    "featuredId": "note:foodways"
+  },
+  {
+    "id": "topic:culture-game",
+    "title": "Game day",
+    "dek": "Games, festivals, and local celebrations are part of Ohio social life.",
+    "order": 3,
+    "world": "culture",
+    "featuredId": "note:sports-community"
+  },
+  {
+    "id": "topic:culture-words",
+    "title": "Say that again?",
+    "dek": "Ohio includes varied accents, place names, and home languages.",
+    "order": 4,
+    "world": "culture",
+    "featuredId": "note:regional-voices"
+  },
+  {
+    "id": "topic:culture-invention",
+    "title": "A little invention",
+    "dek": "Dayton’s aviation history includes the Wright brothers’ bicycle shop experiments.",
+    "order": 5,
+    "world": "culture",
+    "featuredId": "note:aviation-heritage"
+  },
+  {
+    "id": "topic:live-campus",
+    "title": "Keep learning",
+    "dek": "Ohioans learn through schools, colleges, research labs, and career programs.",
+    "order": 0,
+    "world": "live",
+    "featuredId": "note:universities"
+  },
+  {
+    "id": "topic:live-library",
+    "title": "Your next chapter",
+    "dek": "Ohio libraries offer collections and shared learning spaces.",
+    "order": 1,
+    "world": "live",
+    "featuredId": "note:libraries"
+  },
+  {
+    "id": "topic:live-civic",
+    "title": "State government",
+    "dek": "Ohio government has executive, legislative, and judicial branches.",
+    "order": 2,
+    "world": "live",
+    "featuredId": "note:executive"
+  },
+  {
+    "id": "topic:live-local",
+    "title": "Closer to home",
+    "dek": "Ohio counties, cities, villages, and townships handle local decisions.",
+    "order": 3,
+    "world": "live",
+    "featuredId": "note:local-government"
+  },
+  {
+    "id": "topic:live-community",
+    "title": "Meet the neighbors",
+    "dek": "Local groups and volunteers help build connected neighborhoods.",
+    "order": 4,
+    "world": "live",
+    "featuredId": "note:community-life"
+  }
+]

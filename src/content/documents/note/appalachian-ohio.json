@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:appalachian-ohio",
+    "slug": "appalachian-ohio",
+    "kind": "note",
+    "title": "Appalachian Ohio",
+    "summary": "The roads start bending, the hills gather around you, and Ohio changes its rhythm. The southeast’s landscape and lived regional identity are worth getting to know at a thoughtful pace.",
+    "canonicalPath": "/explore#appalachian-ohio",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-hills"
+    ],
+    "places": [
+      "ohio",
+      "appalachian-ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:4a13e4c82f15",
+        "label": "National Park Service · Ohio geology"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/appalachian-ohio.json",
+    "sectionId": "discover",
+    "kicker": "SOUTHEAST · RIDGES & VALLEYS",
+    "order": 1
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "In southeastern Ohio, Appalachian ridges, hollows, and stream valleys replace the flatter country farther north and west. Wayne National Forest stretches across parts of this terrain, while the sandstone of the Hocking Hills makes the geology especially easy to see. Even a short drive through folds of wooded land feels like a little journey, so take the curves slowly and let the landscape introduce itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "Appalachia is also home: towns, rural communities, local knowledge, and traditions reaching beyond state borders. No single postcard can explain it. Let’s listen to people who live here, support local places, and resist the easy stereotypes. The view is lovely, and the lives within it deserve just as much attention; let’s understand the region on its own terms, with local people in the frame."
+    }
+  ]
+}

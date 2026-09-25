@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:ohiolink-shared-shelves",
+    "slug": "ohiolink-shared-shelves",
+    "kind": "note",
+    "title": "A bigger library shelf",
+    "summary": "Ahh, one book can lead to shelves all across Ohio. That’s the library network at work. ♡",
+    "canonicalPath": "/live#ohiolink-shared-shelves",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:609e7a53b1f7",
+        "label": "OhioLINK · Shared Collections"
+      },
+      {
+        "id": "source:5a84f039b643",
+        "label": "OhioLINK · Frequently Asked Questions"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/ohiolink-shared-shelves.json",
+    "sectionId": "life",
+    "kicker": "OHIO · SHARED LIBRARIES",
+    "order": 63
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "OhioLINK brings together collections from college and university libraries across the state and the State Library of Ohio. Eligible users at member institutions can request materials through their own libraries, and physical items can travel between institutions. A question asked in one town may find its answer on a shelf somewhere else—rather charming, isn’t it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "OhioLINK also works with SearchOhio so participating public library users can request some circulating academic materials through their local library. Access to digital resources follows different rules. I’d start with your library’s catalog or a conversation with a librarian. Bring the question you actually care about—even if you haven’t worked out what kind of book might answer it yet."
+    }
+  ]
+}

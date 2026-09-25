@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:local-government",
+    "slug": "local-government",
+    "kind": "note",
+    "title": "Closer to home",
+    "summary": "The Statehouse isn’t the only place decisions happen. Counties, cities, villages, and townships handle work closer to home, with responsibilities that depend on the place and service. Let’s find the right local door.",
+    "canonicalPath": "/live#local-government",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-local"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:cc3e93c98786",
+        "label": "Ohio Constitution · Local government"
+      },
+      {
+        "id": "source:62fbbde6a771",
+        "label": "Ohio Revised Code · Township trustees"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/local-government.json",
+    "sectionId": "government",
+    "kicker": "COUNTIES · CITIES · VILLAGES · TOWNSHIPS",
+    "order": 56
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s municipalities are cities or villages, with powers of local self-government under the state constitution. Counties and townships have their own structures and responsibilities under state law. Roads, public buildings, local rules, and services can involve different offices. Start with your address and the particular issue you’re trying to understand; those precise clues narrow the search beautifully."
+    },
+    {
+      "type": "paragraph",
+      "text": "Service arrangements vary: local charters, statutes, and agreements between governments all matter. Township trustees, for example, have statutory powers involving facilities and can contract for certain safety services. Let’s find the office responsible for this place and this question instead of guessing. A county or municipality’s official directory is a good first stop."
+    }
+  ]
+}

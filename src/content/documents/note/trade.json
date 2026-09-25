@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:trade",
+    "slug": "trade",
+    "kind": "note",
+    "title": "Trade & movement",
+    "summary": "Ports, interstates, rail lines, airports—Ohio has a lot of ways to send things on their way. Those routes carry local work to much wider markets. Let’s follow where they lead.",
+    "canonicalPath": "/make#trade",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-movement"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:dcb65b96c1c3",
+        "label": "JobsOhio · Logistics & Distribution"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/trade.json",
+    "sectionId": "economy",
+    "kicker": "ROADS · RAIL · AIR · WATER",
+    "order": 34
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio sits among transport corridors linking the Great Lakes, Northeast, Midwest, and South. Roads, railways, ports, airports, and distribution centers help move raw materials and finished products. Farms and factories use those connections, and so do the businesses serving them. Follow the routes with me and you’ll find a map of relationships, one connection at a time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trade connects producers with customers beyond the state, while suppliers bring materials and equipment in. JobsOhio’s logistics overview introduces the network; official trade data is the place to go for a particular year or measure. Shipment totals, production, and employment aren’t interchangeable; each measure shows a different part of the exchange of work and materials."
+    }
+  ]
+}

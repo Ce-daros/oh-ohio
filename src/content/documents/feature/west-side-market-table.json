@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "feature:west-side-market-table",
+    "slug": "west-side-market-table",
+    "kind": "feature",
+    "title": "A market full of good things.",
+    "summary": "Cleveland’s West Side Market has a beautiful ceiling. The people at the counters deserve your attention too.",
+    "canonicalPath": "/journal/west-side-market-table",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-table"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:12809615c67b",
+        "label": "West Side Market: market history",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:b285e7bc8ab5",
+        "label": "West Side Market: vendors and offerings",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:d1f4501f2abb",
+        "label": "West Side Market: people's stories",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:e66d978ea337",
+        "label": "Cleveland Historical: West Side Market",
+        "kind": "Local guide"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/west-side-market-table.json",
+    "category": "table",
+    "location": "Cleveland",
+    "duration": "A market morning",
+    "readTime": "3 min read",
+    "coverMediaId": "media:west-side-market-table",
+    "coverAlt": "Painted vaulted market hall with food counters and a sunlit aisle",
+    "titleAccent": "to the market.",
+    "recommendations": [
+      {
+        "id": "feature:cincinnati-chili",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:buckeye-sweets",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:cincinnati-market-to-music",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 82
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Look up first. That tiled vault is quite an entrance, isn’t it? Now look down at the counters. Cleveland’s West Side Market has served shoppers since 1912, and the day’s food still draws people through the doors. Let’s take a lap before we choose anything. I’m curious what will end up on your table."
+    },
+    {
+      "type": "heading",
+      "id": "a-public-place",
+      "title": "A public place since 1912",
+      "eyebrow": "THE BUILDING"
+    },
+    {
+      "type": "paragraph",
+      "text": "The present building opened on November 2, 1912, following the earlier Pearl Street market nearby. Its clock tower, tiled vault, and rows of stands belong to a city that once had three public markets. West Side Market is the one that remains. Spend a moment with the architecture, then follow the movement of people doing their shopping."
+    },
+    {
+      "type": "paragraph",
+      "text": "The market’s history includes immigrant communities and vendors from many backgrounds. Cleveland Historical and the market’s own tour give names and context to some of those stories. Keep them nearby if a detail makes you curious. A building can tell you when it opened; the people who used it help explain why it stayed part of the neighborhood."
+    },
+    {
+      "type": "heading",
+      "id": "choose-a-meal",
+      "title": "Let the counters shape the meal",
+      "eyebrow": "THE COUNTERS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Let’s think about a meal. The market lists produce, meat, seafood, cheese, baked goods, and prepared food among its offerings. You could start with bread and a few ingredients for dinner, or choose something ready to eat. Take a look at several counters before deciding. There’s room to change the plan when something catches your eye."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each vendor is an independent business. Ask a question when the counter is ready for you, and leave space for people doing their regular shopping. If you want a photograph of a stall, ask first. The best way to enjoy this place is to share the aisles comfortably with the people who use them every week."
+    },
+    {
+      "type": "characterAside",
+      "title": "What are we making for dinner?",
+      "text": "Pick one ingredient that looks good, then see what the other stalls can add. A market is a lovely place to let dinner change its mind."
+    },
+    {
+      "type": "heading",
+      "id": "take-it-home",
+      "title": "Carry the market back to your table",
+      "eyebrow": "THE TABLE"
+    },
+    {
+      "type": "paragraph",
+      "text": "By the time you leave, you may have a lunch, a bag of ingredients, or just a better idea of what you want to cook. The market’s original mix of indoor food stands and produce sellers suggests the same pleasure: different counters contributing to one table. Remember which stall helped you choose something. That’s a good detail to carry home."
+    },
+    {
+      "type": "paragraph",
+      "text": "Use the market’s current website for opening hours, vendor information, and building updates. If a particular business is the reason for your visit, check its details too. Then give yourself enough time to browse. We’ve looked at the ceiling, met a few counters, and found something to eat. A pretty good way to spend a piece of Cleveland."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Make a plan",
+          "text": "Choose a meal before you browse, then let the available stalls change the details."
+        },
+        {
+          "label": "Check first",
+          "text": "Use the market's official site for current hours, vendors, and construction updates."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Got everything? Good. Let’s see what that market bag becomes at the table. ♡"
+    }
+  ]
+}

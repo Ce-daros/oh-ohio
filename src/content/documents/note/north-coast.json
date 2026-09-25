@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:north-coast",
+    "slug": "north-coast",
+    "kind": "note",
+    "title": "The North Coast",
+    "summary": "Lake air, long horizons, and islands on the map—northern Ohio knows how to make an entrance. The shoreline is a lovely place to start. ♡",
+    "canonicalPath": "/explore#north-coast",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:4a13e4c82f15",
+        "label": "National Park Service · Ohio geology"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/north-coast.json",
+    "sectionId": "discover",
+    "kicker": "LAKE ERIE · GLACIAL COUNTRY",
+    "order": 0
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ooh, look north and the land gives way to water. Along Lake Erie, you’ll find beaches, wetlands, islands, fisheries, and working ports, with Sandusky Bay adding another shape to the shoreline. The lake also influences nearby weather. So, yes, that extra layer in your bag may turn out to be a very good idea."
+    },
+    {
+      "type": "paragraph",
+      "text": "Much of northern Ohio carries the marks of glaciation: relatively level plains, deposited soils and sediments, and landscapes shaped as the ice retreated. That history helps explain where farms, towns, and roads sit today. I like a view with a backstory; follow the waterline slowly and glacial clues begin to emerge."
+    }
+  ]
+}

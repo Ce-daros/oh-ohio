@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:cleveland-orchestra-severance",
+    "slug": "cleveland-orchestra-severance",
+    "kind": "note",
+    "title": "An evening at Severance",
+    "summary": "At Severance, home to The Cleveland Orchestra, a seat and a little time let the music do its thing.",
+    "canonicalPath": "/culture#cleveland-orchestra-severance",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-records"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:9f3c319f6e6f",
+        "label": "The Cleveland Orchestra · Severance Music Center"
+      },
+      {
+        "id": "source:723d0633b971",
+        "label": "The Cleveland Orchestra · Education history"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cleveland-orchestra-severance.json",
+    "sectionId": "culture",
+    "kicker": "CLEVELAND · LIVE MUSIC",
+    "order": 25
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Severance Music Center in Cleveland’s University Circle is home to The Cleveland Orchestra. Concerts, rehearsals, and education programs give the building its rhythm. Take in the hall, then let the musicians have your attention: a live performance can make even a familiar piece feel newly alive."
+    },
+    {
+      "type": "paragraph",
+      "text": "The orchestra’s education story reaches beyond its stage. Lillian Baldwin developed lessons for Cleveland schoolchildren that led toward hearing the music in person. I like that invitation to learn by listening. If orchestral music is new to you, we can start with a program that catches your ear. No need to pretend you already know every composer."
+    }
+  ]
+}

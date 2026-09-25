@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:aerospace",
+    "slug": "aerospace",
+    "kind": "note",
+    "title": "Aerospace & defense",
+    "summary": "An aircraft has a very long supporting cast. Materials, software, precision parts, testing, maintenance—Ohio’s aviation story is still finding new ways to take shape.",
+    "canonicalPath": "/make#aerospace",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-flight"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:b3c7c21f6f0c",
+        "label": "JobsOhio · Aerospace & Defense"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/aerospace.json",
+    "sectionId": "industry",
+    "kicker": "FLIGHT · RESEARCH · SYSTEMS",
+    "order": 37
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s aerospace and defense work connects manufacturers, laboratories, researchers, and specialist suppliers, including activity around Dayton. Commercial aircraft components and newer forms of air mobility draw on different kinds of expertise. The flight heritage is a good introduction, and there’s much more than preserving the past: a wider team shapes today’s work."
+    },
+    {
+      "type": "paragraph",
+      "text": "Think of the aircraft as the meeting point of a long supply chain. Research, parts, testing, maintenance, and systems all have to work together. JobsOhio’s aerospace and defense guide offers a closer look at that ecosystem. It’s a useful way to turn ‘aviation industry’ into actual kinds of work and relationships that keep the whole system moving."
+    }
+  ]
+}

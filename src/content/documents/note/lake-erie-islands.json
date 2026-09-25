@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:lake-erie-islands",
+    "slug": "lake-erie-islands",
+    "kind": "note",
+    "title": "Lake Erie Islands",
+    "summary": "Ooh, ferry day! Lively village streets, quieter beaches, or a long bicycle ride—the islands have different personalities. Let’s pick the one that feels like your kind of escape.",
+    "canonicalPath": "/explore#lake-erie-islands",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:8a99d2f30d01",
+        "label": "Shores & Islands Ohio"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/lake-erie-islands.json",
+    "sectionId": "travel",
+    "kicker": "NORTH COAST · WATER & ISLANDS",
+    "order": 8
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "South Bass Island and Put-in-Bay bring the lively village mood. Kelleys Island pairs beaches and natural areas with a gentler pace, while Middle Bass and North Bass give you still more possibilities. And yes, the crossing counts as part of the adventure: lake air, a receding shoreline, and a pace that already feels like yours."
+    },
+    {
+      "type": "paragraph",
+      "text": "Choose the day you want before choosing the island: walking, cycling, history, nature, or a waterfront meal. Ferries, vehicle rules, routes, and activities vary by island and season, so check the operators directly. Shores & Islands Ohio is a good place to gather the pieces. No need to rush between islands; enjoy the one you’re on and let it set the pace for your day."
+    }
+  ]
+}

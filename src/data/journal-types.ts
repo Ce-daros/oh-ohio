@@ -1,22 +1,12 @@
-export type JournalCategory = "guides" | "making" | "table" | "everyday";
+import type { JournalCategory, SourceKind, WorldId } from '../content/types';
 
-export interface JournalSource {
-  label: string;
-  url: string;
-  kind: "Travel account" | "Local guide" | "Official source" | "Reporting";
-}
-
-export interface JournalSection {
-  id: string;
-  title: string;
-  eyebrow: string;
-  paragraphs: string[];
-}
-
+export type { JournalCategory } from '../content/types';
+export interface JournalSource { label: string; url: string; kind: SourceKind }
+export interface JournalSection { id: string; title: string; eyebrow: string; paragraphs: string[] }
 export interface JournalArticle {
   slug: string;
   category: JournalCategory;
-  chapter: "explore" | "make" | "culture" | "live";
+  chapter: WorldId;
   title: string;
   titleAccent: string;
   dek: string;

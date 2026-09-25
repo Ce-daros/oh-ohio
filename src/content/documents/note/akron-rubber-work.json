@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:akron-rubber-work",
+    "slug": "akron-rubber-work",
+    "kind": "note",
+    "title": "Akron and the rubber road",
+    "summary": "Before Akron tires rolled everywhere, local factories made all kinds of rubber goods. That work grew into a citywide industry.",
+    "canonicalPath": "/make#akron-rubber-work",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "akron"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a8aa6b3a6e8d",
+        "label": "Goodyear Corporate · History"
+      },
+      {
+        "id": "source:05f8d798a408",
+        "label": "Goodyear Corporate · Technologies"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/akron-rubber-work.json",
+    "sectionId": "industry",
+    "kicker": "AKRON · RUBBER & TIRES",
+    "order": 48
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I’ll start with Akron’s rubber story: before its tires rolled everywhere, local factories made a much wider mix of rubber goods. When Frank and Charles Seiberling began making rubber products there in 1898, early Goodyear offerings included horseshoe pads, poker chips, and carriage and bicycle tires. The growing automobile industry changed the scale of the work; Akron already had other rubber firms, experienced manufacturing workers, a river, and railroad access. That famous industrial nickname grew from a real network of people and routes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical questions did not stop with making more tires. Goodyear's 1901 straight-sided tire used a braided wire bead to help hold it on the wheel while making removal easier. Today its Akron Innovation Center uses a driving simulator as part of tire development. I find that arc fascinating: an awkward wheel change and a virtual driving test both ask how a tire behaves in use."
+    }
+  ]
+}

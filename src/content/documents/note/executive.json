@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:executive",
+    "slug": "executive",
+    "kind": "note",
+    "title": "Executive branch",
+    "summary": "A law passes, then a whole team has work to do. Ohio’s governor, statewide offices, and agencies carry out the laws and run public services. Let’s meet the offices behind the day-to-day details.",
+    "canonicalPath": "/live#executive",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-civic"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:bdd85ea4de31",
+        "label": "Ohio Legislature · Ohio Government Websites"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/executive.json",
+    "sectionId": "government",
+    "kicker": "CARRY OUT THE LAW",
+    "order": 53
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The executive branch carries out state laws and runs state agencies. Its cast includes the governor and lieutenant governor, plus statewide offices such as the attorney general, secretary of state, auditor, and treasurer. Cabinet directors appointed by the governor lead many departments. That’s where laws and budgets meet the daily work people rely on."
+    },
+    {
+      "type": "paragraph",
+      "text": "Different offices handle different questions, so the government directory is a handy first stop. Find the agency responsible for the service or subject you need, then check its current official information. Once the roles click, the directory feels less mysterious and finding the right public service gets simpler."
+    }
+  ]
+}

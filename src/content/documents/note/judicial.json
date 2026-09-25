@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:judicial",
+    "slug": "judicial",
+    "kind": "note",
+    "title": "Judicial branch",
+    "summary": "Courts resolve disputes and apply the law. Ohio has several kinds, each with its own role—so let’s get our bearings before we follow a case through the system.",
+    "canonicalPath": "/live#judicial",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-civic"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:263c8cc31fe3",
+        "label": "Supreme Court of Ohio"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/judicial.json",
+    "sectionId": "government",
+    "kicker": "INTERPRET THE LAW",
+    "order": 55
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s judiciary includes the Supreme Court, courts of appeals, courts of common pleas, municipal and county courts, and the Court of Claims. The Supreme Court is the state’s highest court and also has responsibilities for administering the judicial system. Each court has its own part to play, so let’s take the structure one court at a time instead of treating them as interchangeable stops."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supreme Court’s official structure guide gives us a map of how the system fits together. Once the roles make sense, consult the relevant court for its current procedures and records. This is an introduction to the institutions, while a particular case calls for its own official information."
+    }
+  ]
+}

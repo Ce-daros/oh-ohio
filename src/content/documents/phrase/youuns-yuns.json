@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "phrase:youuns-yuns",
+    "slug": "youuns-yuns",
+    "kind": "phrase",
+    "title": "you’uns / y’uns",
+    "summary": "plural ‘you’; ‘you all’",
+    "canonicalPath": "/culture#youuns-yuns",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a19b8dd976fa",
+        "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/phrase/youuns-yuns.json",
+    "region": "Upper Ohio Valley / south Midland speech, with related Appalachian forms",
+    "order": 68
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Upper Ohio Valley / south Midland speech, with related Appalachian forms"
+    },
+    {
+      "type": "paragraph",
+      "text": "The source describes regional variation and notes these forms are not used by every Ohio Valley resident. Ooh, listen for the local context rather than assuming everyone says it."
+    }
+  ]
+}

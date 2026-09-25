@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:marblehead-lighthouse",
+    "slug": "marblehead-lighthouse",
+    "kind": "note",
+    "title": "Marblehead Lighthouse",
+    "summary": "Hey, I’ve got a Lake Erie view for you: a lighthouse at the peninsula’s edge, with the whole lake opening beyond it ♡",
+    "canonicalPath": "/explore#marblehead-lighthouse",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a256e99fd8bc",
+        "label": "Ohio Department of Natural Resources · Marblehead Lighthouse park map"
+      },
+      {
+        "id": "source:c9c2947bbb46",
+        "label": "U.S. Coast Guard · Marblehead Lighthouse"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/marblehead-lighthouse.json",
+    "sectionId": "travel",
+    "kicker": "LAKE ERIE · LIGHTHOUSE",
+    "order": 13
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Marblehead Lighthouse State Park rises above Lake Erie’s limestone shore, and the tower still guides navigation. From the grounds, you can look toward Kelleys and South Bass islands. I’d begin with that wide blue view, then turn to the keeper’s house and the story behind the light."
+    },
+    {
+      "type": "paragraph",
+      "text": "The park map marks a short walking trail, a scenic overlook, picnic space, and a lifesaving station. I’d take my time here: a closer look at the shore, a pause by the water, then a little lighthouse history. Tower and building access have their own visiting arrangements, so check those before planning a climb."
+    }
+  ]
+}

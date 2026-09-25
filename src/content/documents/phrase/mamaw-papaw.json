@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "phrase:mamaw-papaw",
+    "slug": "mamaw-papaw",
+    "kind": "phrase",
+    "title": "mamaw / papaw",
+    "summary": "grandmother / grandfather",
+    "canonicalPath": "/culture#mamaw-papaw",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a19b8dd976fa",
+        "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/phrase/mamaw-papaw.json",
+    "region": "Upper Ohio Valley speech, including Ohio",
+    "order": 69
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Upper Ohio Valley speech, including Ohio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Documented as common in the Ohio Valley, though families use many different names. Ask with curiosity; family words can be wonderfully personal."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:rocky-river-nature-center",
+    "slug": "rocky-river-nature-center",
+    "kind": "note",
+    "title": "A nature center afternoon",
+    "summary": "A peek at the exhibits, then a walk toward the river? I have just the afternoon in mind at Rocky River Nature Center.",
+    "canonicalPath": "/live#rocky-river-nature-center",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:517571899cf6",
+        "label": "Cleveland Metroparks · Rocky River Nature Center"
+      },
+      {
+        "id": "source:548c7270b5f0",
+        "label": "Cleveland Metroparks · Group programs"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/rocky-river-nature-center.json",
+    "sectionId": "life",
+    "kicker": "CLEVELAND AREA · LEARN OUTDOORS",
+    "order": 66
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I have a fresh-air afternoon in mind at Rocky River Nature Center, inside Cleveland Metroparks’ Rocky River Reservation. Gardens near the building lead toward trails reaching the river, ponds, wetland forest, and hilltops. The landscape changes with the season, so begin with one small detail—a leaf, a bird call, the color of the water—and see what else it helps you notice."
+    },
+    {
+      "type": "paragraph",
+      "text": "The center lists upcoming programs and offers group learning, too. Choose a walk that fits your time and mobility, and check the park's current trail and program details before setting out. You can enjoy the visit without turning every sighting into a lesson. Still, if a question follows you home, I think the afternoon has done its job."
+    }
+  ]
+}

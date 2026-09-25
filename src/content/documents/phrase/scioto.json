@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "phrase:scioto",
+    "slug": "scioto",
+    "kind": "phrase",
+    "title": "Scioto",
+    "summary": "Ohio river and place name; Ohio University pronunciation guide gives ‘sigh-OH-tuh’",
+    "canonicalPath": "/culture#scioto",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:51e1893663c4",
+        "label": "E.W. Scripps School of Journalism, Ohio University"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/phrase/scioto.json",
+    "region": "Scioto River and nearby communities in southern Ohio",
+    "order": 71
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Scioto River and nearby communities in southern Ohio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio University’s Scripps guide renders it ‘sigh OH tuh’; listen to local speakers too. Try it gently, then let the people who know the place guide you."
+    }
+  ]
+}

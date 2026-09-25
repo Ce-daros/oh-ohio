@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "note:port-of-toledo",
+    "slug": "port-of-toledo",
+    "kind": "note",
+    "title": "The Port of Toledo",
+    "summary": "Wait, what happens after a lake freighter docks? I’ll trace Toledo’s cargo from the waterfront toward the rail lines and roads beyond.",
+    "canonicalPath": "/make#port-of-toledo",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-movement"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie",
+      "toledo"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:1229605d8cb9",
+        "label": "Toledo-Lucas County Port Authority · Port of Toledo"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/port-of-toledo.json",
+    "sectionId": "economy",
+    "kicker": "LAKE ERIE · CARGO & RAIL",
+    "order": 35
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At Lake Erie’s western end, the Port of Toledo links Ohio to the Great Lakes–St. Lawrence Seaway through 13 marine terminals handling different freight. Cranes move material between ship and shore at the general cargo dock; on-dock rail and nearby highways carry it onward. From the water it looks like one operation, but each handoff has its own equipment and workers."
+    },
+    {
+      "type": "paragraph",
+      "text": "There's manufacturing at the waterfront too. Cleveland-Cliffs' direct reduction plant at Ironville receives material by vessel and sends hot briquetted iron out by truck and rail. Tracing that sequence shows how shipping, industry, and local infrastructure meet."
+    }
+  ]
+}

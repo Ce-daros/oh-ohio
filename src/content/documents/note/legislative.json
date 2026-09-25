@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:legislative",
+    "slug": "legislative",
+    "kind": "note",
+    "title": "Legislative branch",
+    "summary": "A bill has quite a journey before it becomes law. Ohio’s House and Senate consider proposals, debate budgets, and leave a public record you can follow. Ready to see each step?",
+    "canonicalPath": "/live#legislative",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-civic"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0a6763f7ea85",
+        "label": "Ohio General Assembly"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/legislative.json",
+    "sectionId": "government",
+    "kicker": "MAKE THE LAW",
+    "order": 54
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s General Assembly has two chambers: the House of Representatives and the Senate. Bills go through committee review and votes in both before reaching the governor. The legislature also helps set the state budget. Once you know those broad steps, an individual proposal is easier to follow; I’ll help trace the route and put each vote in context."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Ohio Legislature website brings together bills, hearings, votes, and information about representatives. Start with the bill or subject you’re curious about and follow its record. A headline catches one moment; the public record lets you see the whole sequence. Ooh, that’s a useful little civics skill."
+    }
+  ]
+}

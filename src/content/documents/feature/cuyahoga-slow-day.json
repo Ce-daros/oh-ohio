@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "id": "feature:cuyahoga-slow-day",
+    "slug": "cuyahoga-slow-day",
+    "kind": "feature",
+    "title": "Let’s take the slow way.",
+    "summary": "A waterfall, a towpath, and lunch in Peninsula. Cuyahoga Valley has a lovely way of making us linger.",
+    "canonicalPath": "/journal/cuyahoga-slow-day",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-wild"
+    ],
+    "places": [
+      "ohio",
+      "cuyahoga-valley"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:208e91e8b76b",
+        "label": "Cleveland Traveler · one-day Cuyahoga itinerary",
+        "kind": "Travel account"
+      },
+      {
+        "id": "source:0089bc401442",
+        "label": "National Park Service · half-day visit",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:6445306a5a08",
+        "label": "National Park Service · current conditions",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:1bd9eb44738d",
+        "label": "National Park Service · parking",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/cuyahoga-slow-day.json",
+    "category": "guides",
+    "location": "Cuyahoga Valley · Peninsula",
+    "duration": "One full day",
+    "readTime": "3 min read",
+    "coverMediaId": "media:cuyahoga-slow-day",
+    "coverAlt": "Illustrated woodland waterfall and a wooden viewing boardwalk",
+    "titleAccent": "the slow way.",
+    "recommendations": [
+      {
+        "id": "feature:community-garden-season",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:west-side-market-table",
+        "reason": "Another Ohio food story"
+      }
+    ],
+    "order": 74
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "You’ve got your comfy shoes? Good. We’re slipping between Cleveland and Akron for a day in Cuyahoga Valley, where the river, old canal route, woods, and little communities share the same landscape. I’ve picked a few places to start. We’ll check which paths are open, keep lunch unhurried, and let our legs decide how much more walking sounds nice."
+    },
+    {
+      "type": "heading",
+      "id": "falls",
+      "title": "Hear the waterfall first",
+      "eyebrow": "Morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Let’s try Brandywine Falls early. The boardwalk brings you to viewpoints above the gorge, so the first stop can be a short walk with a big reward. Stay on the marked path and take turns at the overlooks. Once you’ve found your view, pause and listen to the water for a moment. This is a lovely place to stop thinking about the next stop."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the small lot is full, follow park guidance rather than improvising a roadside space. You can change the order of the day and return later. The valley has plenty to discover while the crowd moves on."
+    },
+    {
+      "type": "heading",
+      "id": "visitor-center",
+      "title": "Get your bearings at Boston Mill",
+      "eyebrow": "Late morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before another trail, we’ll call at Boston Mill Visitor Center. Pick up a map and ask which Towpath segments are open today; maintenance and weather can change the route. Choose an out-and-back walk that suits everyone. The mostly level canal path gives us time to notice the water and old transport corridor without making the whole day about covering distance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Watch the water, the old transportation corridor, and the way trees soften the edges of nearby towns. This is a lived-in valley, not a wilderness far from everyone. Turn around while the walk still feels good, leaving energy for the afternoon."
+    },
+    {
+      "type": "characterAside",
+      "title": "A little room to change our minds",
+      "text": "Brandywine’s parking lot can fill. We can follow the park’s advice, visit another stop, and try later. The waterfall doesn’t need to be an appointment."
+    },
+    {
+      "type": "heading",
+      "id": "peninsula",
+      "title": "Lunch belongs to the town too",
+      "eyebrow": "Midday"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hungry yet? Let’s head into Peninsula. Sit down for lunch, look into a shop if it’s open, and give the town a little of the attention we gave the waterfall. People live and work here, so use the marked parking and take care crossing the streets. A national park day can include being a thoughtful guest in a small community."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're tempted to add three more waterfalls now, wait ten minutes. A meal and a short walk around town may be exactly what the day needs. The best memory can be the pause between trailheads."
+    },
+    {
+      "type": "heading",
+      "id": "second-walk",
+      "title": "Choose one last path",
+      "eyebrow": "Afternoon"
+    },
+    {
+      "type": "paragraph",
+      "text": "One more walk, or are we happy here? If you feel like continuing, the Ledges area has striking rock formations and woodland paths. Check the current conditions, stay on the marked route, and keep off the rocks. An open Towpath segment is another option for a gentler finish. Choose what feels right for today’s legs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finish before you are exhausted. That gives you time to notice the shift from green valley back to city streets. Cuyahoga feels close enough to revisit, and that's one of its gifts."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Duration",
+          "text": "A full day with one waterfall, one relaxed Towpath walk, and an optional second trail."
+        },
+        {
+          "label": "Getting around",
+          "text": "A car helps connect Brandywine, Boston Mill, Peninsula, and the Ledges area."
+        },
+        {
+          "label": "Before you go",
+          "text": "Check National Park Service trail, closure, and parking updates. Towpath work can close sections; bring water and expect conditions to change with the weather."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Leave with a little energy to spare. There’s always another path for next time. ♡"
+    }
+  ]
+}

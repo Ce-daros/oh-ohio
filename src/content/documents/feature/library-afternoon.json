@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "feature:library-afternoon",
+    "slug": "library-afternoon",
+    "kind": "feature",
+    "title": "A book, a window, an afternoon.",
+    "summary": "At Columbus Main Library, follow an old city map or settle in for one more chapter.",
+    "canonicalPath": "/journal/library-afternoon",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d6a49830fe86",
+        "label": "Columbus Metropolitan Library: fact sheet and history",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:89bb865d3a64",
+        "label": "Columbus Metropolitan Library: community buildings",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:edfc75e3bfab",
+        "label": "Columbus Metropolitan Library: house history research",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:171550568ba0",
+        "label": "Columbus Metropolitan Library: about and services",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/library-afternoon.json",
+    "category": "everyday",
+    "location": "Columbus",
+    "duration": "An afternoon",
+    "readTime": "3 min read",
+    "coverMediaId": "media:library-afternoon",
+    "coverAlt": "Illustrated library reading table and open book beside a window overlooking greenery",
+    "titleAccent": "an afternoon.",
+    "recommendations": [
+      {
+        "id": "feature:community-garden-season",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:athens-campus-day",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:cuyahoga-slow-day",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 83
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "You don’t have to fill every hour of a day out. At Columbus Main Library, choose what feels right. A book by the window? A question about an old house? A little time with the city’s records? The building opened in 1907, but there are plenty of reasons to spend an ordinary afternoon here now."
+    },
+    {
+      "type": "heading",
+      "id": "a-building-for-readers",
+      "title": "A building for readers and neighbors",
+      "eyebrow": "THE ROOM"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Carnegie gift helped fund the Main Library’s original building. Later changes opened its spaces toward nearby Topiary Park, adding a different kind of welcome to the old address. The library describes an atrium, children’s area, meeting and study spaces, and a reading room facing the green. Let’s start by finding a place where you’d like to sit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Around you, people may be doing quite different things: browsing, working, helping a child choose a book, or asking a question. A public library makes room for those days to overlap. You can join in with something as simple as reading a chapter. I’m happy to let the next stop wait a little."
+    },
+    {
+      "type": "heading",
+      "id": "the-city-in-its-files",
+      "title": "The city is in its files",
+      "eyebrow": "THE COLLECTION"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’ve brought a question, Local History & Genealogy is a good place to take it. The library’s house-research guide points to city directories going back to 1841 and historic maps. Start with an address or a family name, then ask which records might help. An ordinary street can become much more interesting when you see an earlier version of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Research help is available through the library, including its reserve-an-expert service. You don’t need to know the right archival words before asking. A directory might give you a name; a map might show the shape of a building. Some questions stay open. Follow what the records actually show and keep the next question ready."
+    },
+    {
+      "type": "characterAside",
+      "title": "Bring one small question",
+      "text": "An address, a family name, a street you keep passing. That’s enough to start a conversation with the local history collection."
+    },
+    {
+      "type": "heading",
+      "id": "out-the-door",
+      "title": "Walk back into the neighborhood",
+      "eyebrow": "THE NEIGHBORHOOD"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you’re ready to stretch your legs, Kaufman Plaza connects the library with Topiary Park. Step outside for a little green, then look back toward the building. The reading afternoon and the neighborhood belong together. A quiet place indoors can be part of getting to know a city, just as much as a busy street."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you go, check the library’s hours and any booking required for a program, room, or research appointment. You can keep the rest of the visit loose. Read, ask, wander out to the park. There’s something nice about leaving with a question you didn’t arrive with—and perhaps a title to look for another day."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Start inside",
+          "text": "Ask staff where to find the reading room or Local History & Genealogy resources."
+        },
+        {
+          "label": "Check the day",
+          "text": "Confirm current hours and any program registration on the library site."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "One more page? Of course. I said we had time. ♡"
+    }
+  ]
+}

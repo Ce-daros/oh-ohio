@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:production",
+    "slug": "production",
+    "kind": "note",
+    "title": "Making things",
+    "summary": "Pick almost any finished product and start tracing it backward. Ohio’s manufacturing story quickly becomes a web of materials, skills, suppliers, and journeys between places.",
+    "canonicalPath": "/make#production",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:440edf6e5e89",
+        "label": "JobsOhio · Advanced Manufacturing"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/production.json",
+    "sectionId": "economy",
+    "kicker": "MANUFACTURING · MATERIALS · DESIGN",
+    "order": 32
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Vehicles, machinery, metals, chemicals, food, medical products, and aerospace components all belong to Ohio’s production landscape. A finished item may bring together research, parts, assembly, testing, and transport from several places. That is the part I find interesting: one object can carry the work of a whole network."
+    },
+    {
+      "type": "paragraph",
+      "text": "Manufacturing affects other kinds of work too, from engineering and maintenance to business services and freight. The Industry chapter follows those individual sectors in more detail. Here, the useful question is how production connects to the wider economy and to the communities where people make, maintain, and move things. Those links are where Ohio’s production story gets interesting."
+    }
+  ]
+}

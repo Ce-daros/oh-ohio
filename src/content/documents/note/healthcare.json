@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:healthcare",
+    "slug": "healthcare",
+    "kind": "note",
+    "title": "Healthcare & life sciences",
+    "summary": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
+    "canonicalPath": "/make#healthcare",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-lab"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:66564ad23525",
+        "label": "JobsOhio · Healthcare"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/healthcare.json",
+    "sectionId": "industry",
+    "kicker": "CARE · RESEARCH · BIOTECH",
+    "order": 39
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hospitals, medical technology, pharmaceuticals, biotechnology, and research institutions form a connected life-sciences landscape in Ohio. An idea can move from a laboratory through testing and manufacturing toward clinical use. Each step asks different questions and needs different skills, so stay with me as we follow the whole journey and its careful handoffs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Universities and medical centers share this network with companies developing tools and treatments. That makes the field broader than patient care alone, even though patients are the reason much of it matters. JobsOhio’s healthcare guide describes research and business activity. For a particular institution or treatment, go to its own evidence and current information; I like following that path while keeping patient evidence at the center."
+    }
+  ]
+}

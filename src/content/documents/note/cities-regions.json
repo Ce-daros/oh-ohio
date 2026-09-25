@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "note:cities-regions",
+    "slug": "cities-regions",
+    "kind": "note",
+    "title": "A constellation of cities",
+    "summary": "Lakefront Cleveland, central Columbus, riverfront Cincinnati… where to first? Each city has its own personality, and the places between them have plenty to say too. ♡",
+    "canonicalPath": "/explore#cities-regions",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati",
+      "columbus",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:523dc265135f",
+        "label": "Ohio Department of Natural Resources · Statewide map"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cities-regions.json",
+    "sectionId": "discover",
+    "kicker": "CLEVELAND · COLUMBUS · CINCINNATI",
+    "order": 2
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a loose triangle: Cleveland beside Lake Erie, Columbus near the center of the state, and Cincinnati along the Ohio River. Their neighborhoods, industries, institutions, and skylines feel different from one another. Add Dayton, Toledo, Akron, Canton, Youngstown, and smaller cities, and our neat little triangle becomes a more interesting map to explore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regional labels are useful bearings, not perfect cultural borders. A county seat, river town, or college community can give the next stretch of road its own character. I’d leave room for those stops between the big names. Sometimes the place you didn’t underline on the map is the one that lingers, so stay open to an unexpected favorite."
+    }
+  ]
+}

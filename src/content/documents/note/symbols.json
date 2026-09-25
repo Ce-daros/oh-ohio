@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:symbols",
+    "slug": "symbols",
+    "kind": "note",
+    "title": "The buckeye state",
+    "summary": "A swallow-tailed flag, a bright red bird, and a shiny brown nut. Ohio’s symbols make a sweet little treasure hunt. Ready to spot them?",
+    "canonicalPath": "/explore#symbols",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-symbols"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d70fc01fd709",
+        "label": "Ohio Revised Code §5.01 and §5.03"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/symbols.json",
+    "sectionId": "discover",
+    "kicker": "A BURGEE · A NICKNAME · A TREE",
+    "order": 5
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "That unusual flag shape has a name: a burgee. John Eisenmann designed Ohio’s for the 1901 Pan-American Exposition. Its shapes and symbols refer to the state’s landscape, routes, and place as the seventeenth state. And the buckeye nickname? Ooh, follow that one to the state tree and its glossy brown nuts; Ohio’s symbols are full of little clues."
+    },
+    {
+      "type": "paragraph",
+      "text": "The northern cardinal is the state bird; the scarlet carnation is the state flower. You’ll notice these emblems on souvenirs and in everyday visual life once they’re on your radar. Tiny details, surprisingly memorable. Oh—and the chocolate-and-peanut-butter candy is the edible buckeye. Please leave the actual nuts to the trees. ♡"
+    }
+  ]
+}

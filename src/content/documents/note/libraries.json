@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:libraries",
+    "slug": "libraries",
+    "kind": "note",
+    "title": "Libraries for everyone",
+    "summary": "Ahh, books are only the beginning, which is excellent news for curious people. Ohio’s libraries also offer research, digital access, local history, learning programs, and a place to settle in.",
+    "canonicalPath": "/live#libraries",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:08bbd08a614a",
+        "label": "State Library of Ohio · Catalog"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/libraries.json",
+    "sectionId": "life",
+    "kicker": "BOOKS · DIGITAL ACCESS · COMMUNITY",
+    "order": 61
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A library can help you find a novel, use the internet, explore an archive, learn a skill, or meet other people. Ohio’s public library systems reflect their own communities through collections and programs. Services and borrowing rules vary, so start with your local branch; I’m very much in favor of a bookish detour among its shelves and programs."
+    },
+    {
+      "type": "paragraph",
+      "text": "The State Library of Ohio supports libraries and statewide resources, including research tools and catalogs. Branch calendars can lead you to story times, job help, language learning, maker activities, and community events. You might walk in for one thing and leave with three new interests. A harmless occupational hazard of curiosity. (˶ᵔ ᵕ ᵔ˶)"
+    }
+  ]
+}

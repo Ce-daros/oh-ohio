@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:aviation-heritage",
+    "slug": "aviation-heritage",
+    "kind": "note",
+    "title": "Aviation & invention",
+    "summary": "The bicycle shop before the airplane—that’s the detail I love. Dayton’s aviation story makes room for patient experiments, practical skills, and the people around a big idea. Follow the steps and see how it takes shape.",
+    "canonicalPath": "/culture#aviation-heritage",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-invention"
+    ],
+    "places": [
+      "ohio",
+      "dayton"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0fcbde59e057",
+        "label": "Dayton Aviation Heritage National Historical Park"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/aviation-heritage.json",
+    "sectionId": "culture",
+    "kicker": "DAYTON · IDEAS IN MOTION",
+    "order": 20
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ooh, the Wright brothers’ work in Dayton helped turn flight experiments into a practical airplane. Their printing business, bicycle shop, testing field, and local network all belong in that story. The places preserved by Dayton Aviation Heritage National Historical Park let you follow the connections, making invention feel less like a lightning bolt and more like work you can trace step by step."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pair those original places with the aircraft and later technologies at the National Museum of the U.S. Air Force. Seeing both gives you a fuller picture than either alone. Ohio’s aviation identity also continues into research and industry today. From a workshop problem to a whole field of possibility—pretty wonderful, isn’t it?"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:place-names",
+    "slug": "place-names",
+    "kind": "note",
+    "title": "Names worth asking about",
+    "summary": "Scioto, Cuyahoga, Bellefontaine… a familiar-looking spelling can still catch you by surprise. No shame in asking. Local names are an invitation to listen.",
+    "canonicalPath": "/culture#place-names",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:51e1893663c4",
+        "label": "E.W. Scripps School of Journalism, Ohio University"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/place-names.json",
+    "sectionId": "language",
+    "kicker": "SCIOTO · BELLEFONTAINE · CUYAHOGA",
+    "order": 51
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio place names carry Indigenous, immigrant, and local histories, and their pronunciations don’t always follow a visitor’s first guess. Scioto is one example: Ohio University’s broadcast guide gives ‘sigh OH tuh.’ Say it slowly, then listen to local speakers; a little uncertainty is a perfectly good beginning."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pronunciation and origin are different questions, so let’s not turn a spelling guess into an etymology. The university guide is useful for spoken forms; historical and community sources help with the story behind a name. If someone offers a local correction, you’ve learned something. Oops, then onward. That’s how exploring works. ♡"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:dayton",
+    "slug": "dayton",
+    "kind": "note",
+    "title": "Dayton",
+    "summary": "A bicycle shop, a flying field, and extraordinary aircraft: Dayton lets you follow an idea into the sky. There’s more than one remarkable life story here, too, so take your time.",
+    "canonicalPath": "/explore#dayton",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "dayton"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0fcbde59e057",
+        "label": "National Park Service"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/dayton.json",
+    "sectionId": "travel",
+    "kicker": "WESTERN OHIO · AVIATION",
+    "order": 12
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Flight didn’t arrive fully formed—and Dayton lets you see some of the work behind it. Dayton Aviation Heritage National Historical Park connects the Wright brothers’ bicycle shop and printing office, Huffman Prairie, and other historic places. It also includes the home of Paul Laurence Dunbar, whose poetry opens a different, essential chapter that deserves attention alongside the flight story."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nearby, the National Museum of the U.S. Air Force follows aviation through aircraft and exhibits from different eras. These are separate places with enough to reward a substantial visit, so check locations and access before setting out. Give the people and their experiments some time: the airplane is only part of the story, and each place rewards a little room to explore."
+    }
+  ]
+}

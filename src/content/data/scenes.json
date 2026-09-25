@@ -1,0 +1,285 @@
+{
+  "explore": [
+    {
+      "id": "coast",
+      "title": "Lake Erie",
+      "x": 25,
+      "y": 25,
+      "collectionId": "topic:explore-coast",
+      "slugs": [
+        "north-coast",
+        "lake-erie-islands",
+        "cleveland",
+        "marblehead-lighthouse",
+        "magee-marsh"
+      ]
+    },
+    {
+      "id": "cities",
+      "title": "City days",
+      "x": 72,
+      "y": 28,
+      "collectionId": "topic:explore-cities",
+      "slugs": [
+        "cities-regions",
+        "columbus",
+        "cincinnati",
+        "dayton",
+        "toledo-glass-pavilion"
+      ]
+    },
+    {
+      "id": "hills",
+      "title": "The hills",
+      "x": 73,
+      "y": 70,
+      "collectionId": "topic:explore-hills",
+      "slugs": [
+        "appalachian-ohio",
+        "hocking-hills",
+        "wayne-covered-bridge-byway"
+      ]
+    },
+    {
+      "id": "wild",
+      "title": "Out in the green",
+      "x": 34,
+      "y": 57,
+      "collectionId": "topic:explore-wild",
+      "slugs": [
+        "nature",
+        "cuyahoga-valley",
+        "glen-helen"
+      ]
+    },
+    {
+      "id": "past",
+      "title": "Past & present",
+      "x": 49,
+      "y": 34,
+      "collectionId": "topic:explore-past",
+      "slugs": [
+        "history",
+        "serpent-mound"
+      ]
+    },
+    {
+      "id": "symbols",
+      "title": "The Buckeye State",
+      "x": 22,
+      "y": 79,
+      "collectionId": "topic:explore-symbols",
+      "slugs": [
+        "symbols"
+      ]
+    }
+  ],
+  "make": [
+    {
+      "id": "factory",
+      "title": "Made in Ohio",
+      "x": 24,
+      "y": 38,
+      "collectionId": "topic:make-factory",
+      "slugs": [
+        "production",
+        "advanced-manufacturing",
+        "automotive",
+        "energy-chemicals",
+        "east-liverpool-ceramics",
+        "columbus-whistle-factory",
+        "rookwood-cincinnati",
+        "akron-rubber-work"
+      ]
+    },
+    {
+      "id": "flight",
+      "title": "Ready for takeoff",
+      "x": 67,
+      "y": 22,
+      "collectionId": "topic:make-flight",
+      "slugs": [
+        "aerospace",
+        "glenn-icing-tunnel"
+      ]
+    },
+    {
+      "id": "lab",
+      "title": "The next idea",
+      "x": 80,
+      "y": 51,
+      "collectionId": "topic:make-lab",
+      "slugs": [
+        "healthcare",
+        "technology"
+      ]
+    },
+    {
+      "id": "farm",
+      "title": "From the ground up",
+      "x": 24,
+      "y": 75,
+      "collectionId": "topic:make-farm",
+      "slugs": [
+        "food-agriculture"
+      ]
+    },
+    {
+      "id": "movement",
+      "title": "On the move",
+      "x": 59,
+      "y": 73,
+      "collectionId": "topic:make-movement",
+      "slugs": [
+        "trade",
+        "logistics",
+        "port-of-toledo"
+      ]
+    },
+    {
+      "id": "work",
+      "title": "People at work",
+      "x": 47,
+      "y": 46,
+      "collectionId": "topic:make-work",
+      "slugs": [
+        "economic-map",
+        "jobs-households"
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "id": "records",
+      "title": "Turn it up",
+      "x": 23,
+      "y": 44,
+      "collectionId": "topic:culture-records",
+      "slugs": [
+        "music",
+        "cleveland-orchestra-severance",
+        "cincinnati-music-hall"
+      ]
+    },
+    {
+      "id": "gallery",
+      "title": "Take another look",
+      "x": 76,
+      "y": 24,
+      "collectionId": "topic:culture-gallery",
+      "slugs": [
+        "arts-museums",
+        "hopewell-earthworks",
+        "freedom-center-river",
+        "billy-ireland-cartoon-museum",
+        "american-sign-museum"
+      ]
+    },
+    {
+      "id": "table",
+      "title": "A taste of home",
+      "x": 74,
+      "y": 73,
+      "collectionId": "topic:culture-table",
+      "slugs": [
+        "foodways",
+        "west-side-market"
+      ]
+    },
+    {
+      "id": "game",
+      "title": "Game day",
+      "x": 26,
+      "y": 78,
+      "collectionId": "topic:culture-game",
+      "slugs": [
+        "sports-community"
+      ]
+    },
+    {
+      "id": "words",
+      "title": "Say that again?",
+      "x": 51,
+      "y": 38,
+      "collectionId": "topic:culture-words",
+      "slugs": [
+        "regional-voices",
+        "appalachian-english",
+        "place-names",
+        "community-languages"
+      ]
+    },
+    {
+      "id": "invention",
+      "title": "A little invention",
+      "x": 52,
+      "y": 66,
+      "collectionId": "topic:culture-invention",
+      "slugs": [
+        "aviation-heritage"
+      ]
+    }
+  ],
+  "live": [
+    {
+      "id": "campus",
+      "title": "Keep learning",
+      "x": 28,
+      "y": 23,
+      "collectionId": "topic:live-campus",
+      "slugs": [
+        "universities",
+        "research",
+        "schools-learning",
+        "cosi-try-it-yourself",
+        "wilberforce-black-history",
+        "rocky-river-nature-center"
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Your next chapter",
+      "x": 20,
+      "y": 52,
+      "collectionId": "topic:live-library",
+      "slugs": [
+        "libraries",
+        "ohiolink-shared-shelves"
+      ]
+    },
+    {
+      "id": "civic",
+      "title": "State government",
+      "x": 73,
+      "y": 24,
+      "collectionId": "topic:live-civic",
+      "slugs": [
+        "executive",
+        "legislative",
+        "judicial",
+        "statehouse-open-door"
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Closer to home",
+      "x": 76,
+      "y": 71,
+      "collectionId": "topic:live-local",
+      "slugs": [
+        "local-government"
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Meet the neighbors",
+      "x": 43,
+      "y": 75,
+      "collectionId": "topic:live-community",
+      "slugs": [
+        "community-life",
+        "possum-creek-gardens"
+      ]
+    }
+  ]
+}

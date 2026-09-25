@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:appalachian-english",
+    "slug": "appalachian-english",
+    "kind": "note",
+    "title": "Appalachian English",
+    "summary": "A voice can carry family, place, and a lifetime of conversations. Appalachian English is varied and expressive; let’s listen with curiosity and let speakers tell their own stories.",
+    "canonicalPath": "/culture#appalachian-english",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:dae575730dc7",
+        "label": "Ohio University · Southern Ohio Language Project"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/appalachian-english.json",
+    "sectionId": "language",
+    "kicker": "SOUTHEAST OHIO · A REGIONAL VARIETY",
+    "order": 50
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Southern and eastern Ohio connect to a wider Appalachian speech region, with patterns of pronunciation, vocabulary, and grammar that vary between communities and speakers. These are living varieties of English, not a single accent to imitate. Age, movement, social setting, and personal history all help shape how someone sounds; there’s real richness in those differences."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Southern Ohio Language Project studies that variation through local speakers and interviews. I’d start by listening to people rather than memorizing a caricature. The expressions above are a few documented examples with regional context. Hearing one doesn’t tell you everything about someone—and not hearing it doesn’t make them any less local."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:hocking-hills",
+    "slug": "hocking-hills",
+    "kind": "note",
+    "title": "Hocking Hills",
+    "summary": "Ooh, this is the Ohio that makes you put your phone away—after one waterfall photo, obviously. Sandstone gorges, forest paths, and a very tempting overnight stay.",
+    "canonicalPath": "/explore#hocking-hills",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-hills"
+    ],
+    "places": [
+      "ohio",
+      "hocking-hills"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:958ecaa94a21",
+        "label": "Hocking Hills Tourism Association"
+      },
+      {
+        "id": "source:523dc265135f",
+        "label": "Ohio Department of Natural Resources · Parks guide"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/hocking-hills.json",
+    "sectionId": "travel",
+    "kicker": "SOUTHEAST OHIO · NATURE",
+    "order": 6
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The stream winds through sandstone cliffs, deep gorges, waterfalls, and woodland at Hocking Hills, with rock shelters that make you feel wonderfully small. Old Man’s Cave and Ash Cave are familiar names for a reason. Around Logan, little communities give you somewhere to pause between those very big views—the sort of scenery that makes you forget to check the time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Let’s match the trail to your day: distance, stairs, terrain, and accessibility all matter here. Check current conditions, bring water, and wear shoes with grip. Cabins, campgrounds, and local lodging make staying overnight possible. One quiet morning after the day-trippers leave? Now that is a lovely reason to linger. ♡"
+    }
+  ]
+}

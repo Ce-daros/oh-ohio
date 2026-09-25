@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:glenn-icing-tunnel",
+    "slug": "glenn-icing-tunnel",
+    "kind": "note",
+    "title": "The ice inside NASA Glenn",
+    "summary": "A wind tunnel that makes ice? Ooh, Cleveland researchers put aircraft to a very cold test.",
+    "canonicalPath": "/make#glenn-icing-tunnel",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-flight"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:1b65b9fd42e6",
+        "label": "NASA · Icing Research Tunnel"
+      },
+      {
+        "id": "source:186382792534",
+        "label": "NASA · Glenn Research Center"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/glenn-icing-tunnel.json",
+    "sectionId": "industry",
+    "kicker": "CLEVELAND · FLIGHT RESEARCH",
+    "order": 44
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ooh, in Cleveland, researchers can study icy flight conditions without waiting for winter. At NASA Glenn’s Icing Research Tunnel, they examine how ice forms on aircraft and test ways to prevent it. The question is wonderfully practical: what happens to a wing or another aircraft surface in freezing conditions? A thin layer of ice can ask engineers to do very careful work."
+    },
+    {
+      "type": "paragraph",
+      "text": "The facility is part of NASA’s aeronautics testing work in Cleveland. Cold air, water droplets, and wind let researchers examine icing under controlled conditions. I’d start with NASA’s photographs of the equipment, then follow what the tests are trying to measure. Suddenly that smooth airplane wing has a much bigger story behind it."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:economic-map",
+    "slug": "economic-map",
+    "kind": "note",
+    "title": "Many kinds of work",
+    "summary": "Factories, farms, hospitals, campuses, offices—Ohio’s economy is a lot of connected lives. Let’s follow the pieces, and keep an eye on what each big number can actually tell us.",
+    "canonicalPath": "/make#economic-map",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-work"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0b15bee89bee",
+        "label": "U.S. Bureau of Economic Analysis"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/economic-map.json",
+    "sectionId": "economy",
+    "kicker": "REGIONAL ECONOMIES · SHARED NETWORKS",
+    "order": 31
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A state economy is never just one industry. Manufacturing, healthcare, education, retail, logistics, finance, agriculture, public service, and professional work all contribute to Ohio’s picture. Different communities rely on different combinations. When a statewide headline sounds simple, let’s look at the local mix before deciding what that trend means."
+    },
+    {
+      "type": "paragraph",
+      "text": "The figures above are dated snapshots, each measuring something specific. Population counts people; an establishment is a business location; income and unemployment answer other questions. We’ll keep the units and years attached, so every number gets to tell its own part of the story. ♡"
+    }
+  ]
+}

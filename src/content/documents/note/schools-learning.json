@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:schools-learning",
+    "slug": "schools-learning",
+    "kind": "note",
+    "title": "Learning at every age",
+    "summary": "Learning doesn’t end at one age or follow one neat route. Ohio’s schools and career programs connect classroom ideas with practical skills. Let’s see what you’d like to learn next.",
+    "canonicalPath": "/live#schools-learning",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:4be28be41eb3",
+        "label": "Ohio Department of Education and Workforce"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/schools-learning.json",
+    "sectionId": "life",
+    "kicker": "PUBLIC SCHOOLS · CAREER PATHS",
+    "order": 60
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Local school districts, career-technical programs, charter schools, and statewide education support are part of Ohio’s learning landscape. Different settings serve different communities and needs, and academic study and hands-on training can connect in many ways; no single diagram fits every learner."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Ohio Department of Education and Workforce provides statewide information and resources. For a particular school or program, check its own offerings and requirements directly. Adult learning and career training open further paths too; choose what you want to learn next, then find the people and programs that can help you get there."
+    }
+  ]
+}

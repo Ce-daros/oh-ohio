@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:automotive",
+    "slug": "automotive",
+    "kind": "note",
+    "title": "Automotive & mobility",
+    "summary": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
+    "canonicalPath": "/make#automotive",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:6e491931ca45",
+        "label": "JobsOhio · Automotive"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/automotive.json",
+    "sectionId": "industry",
+    "kicker": "VEHICLES · COMPONENTS · TESTING",
+    "order": 38
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A car is many industries arriving at the same place. Ohio’s automotive work includes assembly, engines, powertrains, electronics, components, and vehicle research. Batteries, controls, and newer mobility technologies sit alongside long-established production skills as the sector changes. Ooh, there’s a lot more here than the badge on the front."
+    },
+    {
+      "type": "paragraph",
+      "text": "The interesting part is the network: component makers, engineers, manufacturers, and testing partners helping systems work together. That reaches beyond any one brand or plant. JobsOhio tracks the state’s automotive ecosystem and evolving technologies. Trace one component through those links and the finished vehicle starts to look like a rather impressive collaboration."
+    }
+  ]
+}

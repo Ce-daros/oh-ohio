@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "phrase:needs-washed",
+    "slug": "needs-washed",
+    "kind": "phrase",
+    "title": "needs washed",
+    "summary": "needs to be washed",
+    "canonicalPath": "/culture#needs-washed",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a19b8dd976fa",
+        "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/phrase/needs-washed.json",
+    "region": "Ohio Valley and Appalachian varieties; also found elsewhere in the U.S.",
+    "order": 70
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio Valley and Appalachian varieties; also found elsewhere in the U.S."
+    },
+    {
+      "type": "paragraph",
+      "text": "A documented grammatical pattern, not exclusive to the region and not an error. You may hear it beyond Ohio too, so let’s keep the map open."
+    }
+  ]
+}

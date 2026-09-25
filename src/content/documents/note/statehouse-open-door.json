@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:statehouse-open-door",
+    "slug": "statehouse-open-door",
+    "kind": "note",
+    "title": "Step inside the Statehouse",
+    "summary": "Ohio lawmakers meet in this building, whose halls and museum bring state government into view.",
+    "canonicalPath": "/live#statehouse-open-door",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-civic"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d68d58647831",
+        "label": "Ohio Statehouse · Museum Education Center"
+      },
+      {
+        "id": "source:e6441a84bf83",
+        "label": "Ohio Statehouse · School and group tours"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/statehouse-open-door.json",
+    "sectionId": "government",
+    "kicker": "COLUMBUS · CIVIC LIFE",
+    "order": 57
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The Ohio Statehouse is both a working government building and a place to visit. Tours gather in the Map Room, and the Museum Education Center sits on the ground floor, where exhibits invite visitors to weigh viewpoints and make decisions. Suddenly words like bill, vote, and constitution have rooms and faces attached to them—much easier to picture, isn’t it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "I’d leave time to look around after a tour. The museum displays pages from Ohio's historic constitutions, and Capitol Square holds art and memorials outside. Guided and self-guided visits are offered; check the Statehouse's current tour information and security guidance before you go. A building can explain how a government works, but your own questions make the visit yours."
+    }
+  ]
+}

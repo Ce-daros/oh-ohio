@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "feature:rookwood-clay",
+    "slug": "rookwood-clay",
+    "kind": "feature",
+    "title": "A little clay. A lot of hands.",
+    "summary": "Let’s follow a piece of Rookwood pottery through the work that gives it a place in someone’s home.",
+    "canonicalPath": "/journal/rookwood-clay",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d6157c4bfb9a",
+        "label": "Rookwood Pottery: about Rookwood",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:747b125e98e3",
+        "label": "Rookwood Pottery: visit and programs",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:1e53152984c1",
+        "label": "Cincinnati Art Museum: Rookwood vase (1882)",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/rookwood-clay.json",
+    "category": "making",
+    "location": "Cincinnati",
+    "duration": "A studio-minded afternoon",
+    "readTime": "3 min read",
+    "coverMediaId": "media:rookwood-clay",
+    "coverAlt": "Illustrated green pottery vase, clay bowl and shaping tool in a workshop",
+    "titleAccent": "A lot of hands.",
+    "recommendations": [
+      {
+        "id": "feature:brass-whistle",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:toledo-glass",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:cincinnati-chili",
+        "reason": "Another Ohio food story"
+      }
+    ],
+    "order": 77
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Pick a vase you like and look past the color for a moment. Someone chose that curve. Someone worked on the surface. Other hands helped it reach the shelf. At Cincinnati’s Rookwood Pottery, those decisions are part of a story that began in 1880. The finished piece is only our first clue."
+    },
+    {
+      "type": "heading",
+      "id": "a-place-for-art",
+      "title": "Art for the room you live in",
+      "eyebrow": "THE BEGINNING"
+    },
+    {
+      "type": "paragraph",
+      "text": "Maria Longworth Nichols Storer founded Rookwood in Cincinnati in 1880. The pottery’s history begins with a former schoolhouse, Ohio River clay, and a single kiln. Imagine starting there, with a material that can become a cup, a tile, or something made simply because you want to see its shape. It’s an inviting place to begin a making story."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rookwood’s early artists developed individual designs and worked with form, decoration, and glaze. So when you look at a piece, try following one choice at a time. The outline first. Then the surface. Then where the glaze changes in the light. There’s no need to know all the pottery terms before you can notice something you like."
+    },
+    {
+      "type": "heading",
+      "id": "many-hands",
+      "title": "A piece passes from hand to hand",
+      "eyebrow": "THE WORK"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ready for the part that surprised me in Rookwood’s own description? A piece passes through at least thirteen sets of hands. Shaping, finishing, glazing, and firing call for different kinds of attention. Clay also changes while it dries and fires. The work has pauses in it; a fresh form can’t be rushed straight to the table."
+    },
+    {
+      "type": "paragraph",
+      "text": "A tile asks us to step back a little. Rookwood still makes architectural tile and custom work, so one small surface might become part of an entire room. Look at how neighboring pieces repeat a color or pattern. With a vase, you can walk around the object. With a tiled wall, the object is all around you."
+    },
+    {
+      "type": "characterAside",
+      "title": "Try looking twice",
+      "text": "First the shape, then the glaze. Does the piece feel different when you pay attention to just one of those? I’d love to know which detail you noticed first."
+    },
+    {
+      "type": "heading",
+      "id": "look-across-time",
+      "title": "Look across time, then look again",
+      "eyebrow": "THE CITY"
+    },
+    {
+      "type": "paragraph",
+      "text": "To see how those choices change over time, look through museum collections and Rookwood’s own history. Compare an older piece with something made today. You might notice a familiar approach to color or a completely different shape. Let one detail catch your attention before reading its label; then see what the maker or museum can tell you about it."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’re planning a Cincinnati visit, use Rookwood’s current information for shop hours and any factory-tour arrangements. A shop visit and a look at a collection are different ways to meet the work. Choose the one that fits your day. Either way, give the small objects time. A cup can hold a surprisingly long conversation."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "At the museum",
+          "text": "Search the Cincinnati Art Museum collection for Rookwood objects before a visit."
+        },
+        {
+          "label": "At the maker",
+          "text": "Check Rookwood's current workshop and tour listings for booking details."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Next time you pick up a favorite cup, spare a thought for the hands that got it to you. ♡"
+    }
+  ]
+}

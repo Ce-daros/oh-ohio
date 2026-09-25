@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:cosi-try-it-yourself",
+    "slug": "cosi-try-it-yourself",
+    "kind": "note",
+    "title": "Try it at COSI",
+    "summary": "Hey, at COSI you can test a question with your own hands. I want to see what you try first.",
+    "canonicalPath": "/live#cosi-try-it-yourself",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:4e1e13a2e7d0",
+        "label": "COSI · Gadgets"
+      },
+      {
+        "id": "source:1ff2c4fed218",
+        "label": "COSI · Ocean"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cosi-try-it-yourself.json",
+    "sectionId": "life",
+    "kicker": "COLUMBUS · HANDS-ON SCIENCE",
+    "order": 64
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At COSI’s Gadgets exhibit, you can build a model bridge, test how it holds up, and try a pulley chair to explore simple machines. I’d start with the bridge: tension, compression, and torque make much more sense when your own design is doing the balancing. If the first version needs work, that’s a better question for your next try."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Ocean exhibit takes us in another direction, with a wave tank and activities about water’s behavior. One visit can jump from engineering to moving water without leaving Columbus. I’d check the current exhibits, pick a question that grabs us, and leave time to experiment. You get to choose what we try first."
+    }
+  ]
+}

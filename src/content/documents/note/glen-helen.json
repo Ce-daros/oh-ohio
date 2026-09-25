@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:glen-helen",
+    "slug": "glen-helen",
+    "kind": "note",
+    "title": "Glen Helen",
+    "summary": "A spring, a cascade, and a forest path near town. Glen Helen rewards slow steps and a little curiosity about what’s growing. ♡",
+    "canonicalPath": "/explore#glen-helen",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-wild"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:af37102bd340",
+        "label": "Glen Helen Nature Preserve · Visitor FAQ"
+      },
+      {
+        "id": "source:7be6a5a6dff2",
+        "label": "Glen Helen Nature Preserve · Land stewardship"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/glen-helen.json",
+    "sectionId": "travel",
+    "kicker": "YELLOW SPRINGS · WOODLAND PATHS",
+    "order": 18
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Glen Helen Nature Preserve, near Yellow Springs, has trails passing the iron-rich Yellow Spring that gave the village its name, along with streams, limestone features, and woodland habitat. For a first visit, the preserve recommends the Inman Trail; from the Cascades entrance, you can reach the loop without starting at the steep stairs by the Steps entrance."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is protected land with living things all around us. Stay on marked trails, leave plants where they grow, and keep any dog leashed. Natural surfaces may be muddy and the routes have slopes, so study the preserve map before choosing a walk. There’s no need to hurry toward a single photo. I’d stop by the water, listen for birds, and let the forest set our pace."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:cincinnati-music-hall",
+    "slug": "cincinnati-music-hall",
+    "kind": "note",
+    "title": "Cincinnati Music Hall",
+    "summary": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive.",
+    "canonicalPath": "/culture#cincinnati-music-hall",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-records"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d9b49fecaefb",
+        "label": "Cincinnati Arts Association · About Music Hall"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cincinnati-music-hall.json",
+    "sectionId": "culture",
+    "kicker": "CINCINNATI · A LIVING STAGE",
+    "order": 30
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Let me start with Cincinnati Music Hall: it dates to 1878, and its Elm Street façade still makes me want to stop and look up. The hall first served as a convention center as well as a performance space; industrial exhibitions, public events, and concerts all belong to its history. This grand building has always needed people gathering inside, not only admiring it from the street."
+    },
+    {
+      "type": "paragraph",
+      "text": "Today it is home to the Cincinnati Symphony Orchestra, Pops Orchestra, Opera, Ballet, and May Festival, among others. Its long program has also included sports, conventions, and contemporary musicians. I like that range: a cultural landmark isn't frozen in its opening year. If you're planning a visit, look for a performance that draws you in and check the current calendar. The room changes with the people onstage and in the seats."
+    }
+  ]
+}

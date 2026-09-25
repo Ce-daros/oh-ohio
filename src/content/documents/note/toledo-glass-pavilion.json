@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:toledo-glass-pavilion",
+    "slug": "toledo-glass-pavilion",
+    "kind": "note",
+    "title": "Toledo’s Glass Pavilion",
+    "summary": "In Toledo’s Glass City, even the museum walls join the exhibition. The pavilion changes as you move. ♡",
+    "canonicalPath": "/explore#toledo-glass-pavilion",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "toledo"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:34ffc9314765",
+        "label": "Toledo Museum of Art · Visit and gallery updates"
+      },
+      {
+        "id": "source:347b1fd24bc5",
+        "label": "Toledo Museum of Art · Glass Studio and learning"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/toledo-glass-pavilion.json",
+    "sectionId": "travel",
+    "kicker": "TOLEDO · ART & GLASS",
+    "order": 15
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At the Toledo Museum of Art’s Glass Pavilion, curved glass walls soften the boundary between galleries and outdoors. The building changes as you move. Its collection spans many periods, so your visit can wander from an ancient vessel to a contemporary experiment. Watch the light travel through a piece before reading its label, then take another look; I bet you’ll notice something new."
+    },
+    {
+      "type": "paragraph",
+      "text": "Toledo’s connection to glass makes this more than a pretty room. The museum’s Glass Studio offers glassblowing demonstrations, bringing the making process into view. If you hope to watch artists work, check the current program before you go. Gallery access can change during renovations too. I’d leave time for the sculpture garden or another open gallery, then let one favorite object decide where we look next."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ohio",
+    "title": "Ohio"
+  },
+  {
+    "id": "lake-erie",
+    "title": "Lake Erie"
+  },
+  {
+    "id": "cincinnati",
+    "title": "Cincinnati"
+  },
+  {
+    "id": "columbus",
+    "title": "Columbus"
+  },
+  {
+    "id": "cleveland",
+    "title": "Cleveland"
+  },
+  {
+    "id": "dayton",
+    "title": "Dayton"
+  },
+  {
+    "id": "toledo",
+    "title": "Toledo"
+  },
+  {
+    "id": "akron",
+    "title": "Akron"
+  },
+  {
+    "id": "athens",
+    "title": "Athens"
+  },
+  {
+    "id": "sandusky",
+    "title": "Sandusky"
+  },
+  {
+    "id": "cuyahoga-valley",
+    "title": "Cuyahoga Valley"
+  },
+  {
+    "id": "hocking-hills",
+    "title": "Hocking Hills"
+  },
+  {
+    "id": "appalachian-ohio",
+    "title": "Appalachian Ohio"
+  }
+]

@@ -1,0 +1,3816 @@
+{
+  "schemaVersion": 1,
+  "documents": [
+    {
+      "id": "note:north-coast",
+      "slug": "north-coast",
+      "kind": "note",
+      "title": "The North Coast",
+      "summary": "Lake air, long horizons, and islands on the map—northern Ohio knows how to make an entrance. The shoreline is a lovely place to start. ♡",
+      "canonicalPath": "/explore#north-coast",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:4a13e4c82f15",
+          "label": "National Park Service · Ohio geology"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/north-coast.json",
+      "sectionId": "discover",
+      "kicker": "LAKE ERIE · GLACIAL COUNTRY",
+      "order": 0
+    },
+    {
+      "id": "note:appalachian-ohio",
+      "slug": "appalachian-ohio",
+      "kind": "note",
+      "title": "Appalachian Ohio",
+      "summary": "The roads start bending, the hills gather around you, and Ohio changes its rhythm. The southeast’s landscape and lived regional identity are worth getting to know at a thoughtful pace.",
+      "canonicalPath": "/explore#appalachian-ohio",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-hills"
+      ],
+      "places": [
+        "ohio",
+        "appalachian-ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:4a13e4c82f15",
+          "label": "National Park Service · Ohio geology"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/appalachian-ohio.json",
+      "sectionId": "discover",
+      "kicker": "SOUTHEAST · RIDGES & VALLEYS",
+      "order": 1
+    },
+    {
+      "id": "note:cities-regions",
+      "slug": "cities-regions",
+      "kind": "note",
+      "title": "A constellation of cities",
+      "summary": "Lakefront Cleveland, central Columbus, riverfront Cincinnati… where to first? Each city has its own personality, and the places between them have plenty to say too. ♡",
+      "canonicalPath": "/explore#cities-regions",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati",
+        "columbus",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:523dc265135f",
+          "label": "Ohio Department of Natural Resources · Statewide map"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cities-regions.json",
+      "sectionId": "discover",
+      "kicker": "CLEVELAND · COLUMBUS · CINCINNATI",
+      "order": 2
+    },
+    {
+      "id": "note:history",
+      "slug": "history",
+      "kind": "note",
+      "title": "A layered history",
+      "summary": "There’s a deeper story beneath every familiar landmark. Ohio’s history includes Indigenous nations, forced displacement, migration, industry, reform, and communities still shaping what comes next.",
+      "canonicalPath": "/explore#history",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-past"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:8cbd0c859f2b",
+          "label": "Ohio History Connection"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/history.json",
+      "sectionId": "discover",
+      "kicker": "ANCIENT EARTHWORKS · STATEHOOD",
+      "order": 3
+    },
+    {
+      "id": "note:nature",
+      "slug": "nature",
+      "kind": "note",
+      "title": "Wild Ohio",
+      "summary": "A marsh at sunrise, a forest path, a river bend… Ohio has plenty of reasons to slow down. Let’s trade the checklist for a little patient looking—and enjoy the quiet. ♡",
+      "canonicalPath": "/explore#nature",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:523dc265135f",
+          "label": "Ohio Department of Natural Resources · Parks guide"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/nature.json",
+      "sectionId": "discover",
+      "kicker": "PARKS · WETLANDS · WILDLIFE",
+      "order": 4
+    },
+    {
+      "id": "note:symbols",
+      "slug": "symbols",
+      "kind": "note",
+      "title": "The buckeye state",
+      "summary": "A swallow-tailed flag, a bright red bird, and a shiny brown nut. Ohio’s symbols make a sweet little treasure hunt. Ready to spot them?",
+      "canonicalPath": "/explore#symbols",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-symbols"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d70fc01fd709",
+          "label": "Ohio Revised Code §5.01 and §5.03"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/symbols.json",
+      "sectionId": "discover",
+      "kicker": "A BURGEE · A NICKNAME · A TREE",
+      "order": 5
+    },
+    {
+      "id": "note:hocking-hills",
+      "slug": "hocking-hills",
+      "kind": "note",
+      "title": "Hocking Hills",
+      "summary": "Ooh, this is the Ohio that makes you put your phone away—after one waterfall photo, obviously. Sandstone gorges, forest paths, and a very tempting overnight stay.",
+      "canonicalPath": "/explore#hocking-hills",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-hills"
+      ],
+      "places": [
+        "ohio",
+        "hocking-hills"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:958ecaa94a21",
+          "label": "Hocking Hills Tourism Association"
+        },
+        {
+          "id": "source:523dc265135f",
+          "label": "Ohio Department of Natural Resources · Parks guide"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/hocking-hills.json",
+      "sectionId": "travel",
+      "kicker": "SOUTHEAST OHIO · NATURE",
+      "order": 6
+    },
+    {
+      "id": "note:cuyahoga-valley",
+      "slug": "cuyahoga-valley",
+      "kind": "note",
+      "title": "Cuyahoga Valley",
+      "summary": "Wait, a national park between Cleveland and Akron? Yep! Follow the river, find a waterfall, or let the old canal towpath turn a short walk into an afternoon.",
+      "canonicalPath": "/explore#cuyahoga-valley",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio",
+        "cuyahoga-valley"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:9a0e778d69a0",
+          "label": "National Park Service"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cuyahoga-valley.json",
+      "sectionId": "travel",
+      "kicker": "NORTHEAST OHIO · NATIONAL PARK",
+      "order": 7
+    },
+    {
+      "id": "note:lake-erie-islands",
+      "slug": "lake-erie-islands",
+      "kind": "note",
+      "title": "Lake Erie Islands",
+      "summary": "Ooh, ferry day! Lively village streets, quieter beaches, or a long bicycle ride—the islands have different personalities. Let’s pick the one that feels like your kind of escape.",
+      "canonicalPath": "/explore#lake-erie-islands",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:8a99d2f30d01",
+          "label": "Shores & Islands Ohio"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/lake-erie-islands.json",
+      "sectionId": "travel",
+      "kicker": "NORTH COAST · WATER & ISLANDS",
+      "order": 8
+    },
+    {
+      "id": "note:cleveland",
+      "slug": "cleveland",
+      "kind": "note",
+      "title": "Cleveland",
+      "summary": "Ooh, music history, art, neighborhood food, and a whole lake at the edge of town. Cleveland has plenty of ways to steal your afternoon—in the best way. ♡",
+      "canonicalPath": "/explore#cleveland",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:f9eda4aefb7d",
+          "label": "Destination Cleveland"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cleveland.json",
+      "sectionId": "travel",
+      "kicker": "NORTHEAST OHIO · LAKE ERIE CITY",
+      "order": 9
+    },
+    {
+      "id": "note:columbus",
+      "slug": "columbus",
+      "kind": "note",
+      "title": "Columbus",
+      "summary": "Ahh, the Statehouse, a science museum, an arts district, a riverside stroll… Columbus, you’re making it very difficult to choose. Let’s build the day around your favorite things.",
+      "canonicalPath": "/explore#columbus",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:e0527e33fc24",
+          "label": "Experience Columbus"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/columbus.json",
+      "sectionId": "travel",
+      "kicker": "CENTRAL OHIO · CAPITAL CITY",
+      "order": 10
+    },
+    {
+      "id": "note:cincinnati",
+      "slug": "cincinnati",
+      "kind": "note",
+      "title": "Cincinnati",
+      "summary": "Cincinnati brings river views, hillside neighborhoods, art, markets, and food traditions that are very much their own. We can argue about the chili later.",
+      "canonicalPath": "/explore#cincinnati",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:57ebd841ae91",
+          "label": "Visit Cincy"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cincinnati.json",
+      "sectionId": "travel",
+      "kicker": "SOUTHWEST OHIO · RIVER CITY",
+      "order": 11
+    },
+    {
+      "id": "note:dayton",
+      "slug": "dayton",
+      "kind": "note",
+      "title": "Dayton",
+      "summary": "A bicycle shop, a flying field, and extraordinary aircraft: Dayton lets you follow an idea into the sky. There’s more than one remarkable life story here, too, so take your time.",
+      "canonicalPath": "/explore#dayton",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0fcbde59e057",
+          "label": "National Park Service"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/dayton.json",
+      "sectionId": "travel",
+      "kicker": "WESTERN OHIO · AVIATION",
+      "order": 12
+    },
+    {
+      "id": "note:marblehead-lighthouse",
+      "slug": "marblehead-lighthouse",
+      "kind": "note",
+      "title": "Marblehead Lighthouse",
+      "summary": "Hey, I’ve got a Lake Erie view for you: a lighthouse at the peninsula’s edge, with the whole lake opening beyond it ♡",
+      "canonicalPath": "/explore#marblehead-lighthouse",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a256e99fd8bc",
+          "label": "Ohio Department of Natural Resources · Marblehead Lighthouse park map"
+        },
+        {
+          "id": "source:c9c2947bbb46",
+          "label": "U.S. Coast Guard · Marblehead Lighthouse"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/marblehead-lighthouse.json",
+      "sectionId": "travel",
+      "kicker": "LAKE ERIE · LIGHTHOUSE",
+      "order": 13
+    },
+    {
+      "id": "note:wayne-covered-bridge-byway",
+      "slug": "wayne-covered-bridge-byway",
+      "kind": "note",
+      "title": "Wayne’s covered bridge road",
+      "summary": "Ooh, a winding river road passes forested hills and covered bridges. The slower route is the lovely one, isn’t it?",
+      "canonicalPath": "/explore#wayne-covered-bridge-byway",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-hills"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:759fb451d8f1",
+          "label": "Monroe County · Covered Bridge Byway"
+        },
+        {
+          "id": "source:d282e7ecc0a1",
+          "label": "U.S. Forest Service · Storied Hills"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/wayne-covered-bridge-byway.json",
+      "sectionId": "travel",
+      "kicker": "SOUTHEAST OHIO · SCENIC DRIVE",
+      "order": 14
+    },
+    {
+      "id": "note:toledo-glass-pavilion",
+      "slug": "toledo-glass-pavilion",
+      "kind": "note",
+      "title": "Toledo’s Glass Pavilion",
+      "summary": "In Toledo’s Glass City, even the museum walls join the exhibition. The pavilion changes as you move. ♡",
+      "canonicalPath": "/explore#toledo-glass-pavilion",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "toledo"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:34ffc9314765",
+          "label": "Toledo Museum of Art · Visit and gallery updates"
+        },
+        {
+          "id": "source:347b1fd24bc5",
+          "label": "Toledo Museum of Art · Glass Studio and learning"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/toledo-glass-pavilion.json",
+      "sectionId": "travel",
+      "kicker": "TOLEDO · ART & GLASS",
+      "order": 15
+    },
+    {
+      "id": "note:magee-marsh",
+      "slug": "magee-marsh",
+      "kind": "note",
+      "title": "Magee Marsh",
+      "summary": "A small bird can make a very big journey. Lake Erie’s migrating songbirds reward quiet steps and sharp eyes. ♡",
+      "canonicalPath": "/explore#magee-marsh",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d3e4fdf63df2",
+          "label": "Ohio Department of Natural Resources · Magee Marsh trail map"
+        },
+        {
+          "id": "source:7cdf38bdad02",
+          "label": "Ohio Department of Natural Resources · Magee Marsh bird trail"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/magee-marsh.json",
+      "sectionId": "travel",
+      "kicker": "LAKE ERIE · MIGRATING BIRDS",
+      "order": 16
+    },
+    {
+      "id": "note:serpent-mound",
+      "slug": "serpent-mound",
+      "kind": "note",
+      "title": "Serpent Mound",
+      "summary": "A great earthen serpent curls across a ridge. I’ll guide you through this Indigenous place with care, curiosity, and respect.",
+      "canonicalPath": "/explore#serpent-mound",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-past"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:1a8a7a75e913",
+          "label": "Ohio History Connection · Serpent Mound"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/serpent-mound.json",
+      "sectionId": "travel",
+      "kicker": "SOUTHERN OHIO · INDIGENOUS EARTHWORK",
+      "order": 17
+    },
+    {
+      "id": "note:glen-helen",
+      "slug": "glen-helen",
+      "kind": "note",
+      "title": "Glen Helen",
+      "summary": "A spring, a cascade, and a forest path near town. Glen Helen rewards slow steps and a little curiosity about what’s growing. ♡",
+      "canonicalPath": "/explore#glen-helen",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:af37102bd340",
+          "label": "Glen Helen Nature Preserve · Visitor FAQ"
+        },
+        {
+          "id": "source:7be6a5a6dff2",
+          "label": "Glen Helen Nature Preserve · Land stewardship"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/glen-helen.json",
+      "sectionId": "travel",
+      "kicker": "YELLOW SPRINGS · WOODLAND PATHS",
+      "order": 18
+    },
+    {
+      "id": "note:hopewell-earthworks",
+      "slug": "hopewell-earthworks",
+      "kind": "note",
+      "title": "Hopewell Earthworks",
+      "summary": "These extraordinary earthworks invite us to slow down and listen. Their geometry belongs to a much deeper story of Indigenous knowledge, community, and enduring cultural meaning.",
+      "canonicalPath": "/culture#hopewell-earthworks",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0723305fd545",
+          "label": "Ohio History Connection"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/hopewell-earthworks.json",
+      "sectionId": "culture",
+      "kicker": "INDIGENOUS HERITAGE · WORLD HERITAGE",
+      "order": 19
+    },
+    {
+      "id": "note:aviation-heritage",
+      "slug": "aviation-heritage",
+      "kind": "note",
+      "title": "Aviation & invention",
+      "summary": "The bicycle shop before the airplane—that’s the detail I love. Dayton’s aviation story makes room for patient experiments, practical skills, and the people around a big idea. Follow the steps and see how it takes shape.",
+      "canonicalPath": "/culture#aviation-heritage",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-invention"
+      ],
+      "places": [
+        "ohio",
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0fcbde59e057",
+          "label": "Dayton Aviation Heritage National Historical Park"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/aviation-heritage.json",
+      "sectionId": "culture",
+      "kicker": "DAYTON · IDEAS IN MOTION",
+      "order": 20
+    },
+    {
+      "id": "note:music",
+      "slug": "music",
+      "kind": "note",
+      "title": "Music with a pulse",
+      "summary": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving.",
+      "canonicalPath": "/culture#music",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-records"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:26a28d3ab445",
+          "label": "Rock & Roll Hall of Fame"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/music.json",
+      "sectionId": "culture",
+      "kicker": "CLEVELAND · SOUND",
+      "order": 21
+    },
+    {
+      "id": "note:arts-museums",
+      "slug": "arts-museums",
+      "kind": "note",
+      "title": "Arts & museums",
+      "summary": "Ooh, big collections or a tiny gallery you almost walked past? We have room for both. Ohio’s creative life stretches well beyond one museum district—and that’s where a lovely surprise might be waiting.",
+      "canonicalPath": "/culture#arts-museums",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:36a1fc18d246",
+          "label": "Cleveland Museum of Art"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/arts-museums.json",
+      "sectionId": "culture",
+      "kicker": "STATEWIDE · CREATIVE LIFE",
+      "order": 22
+    },
+    {
+      "id": "note:foodways",
+      "slug": "foodways",
+      "kind": "note",
+      "title": "Regional foodways",
+      "summary": "Now this is a map I can get excited about: chili, goetta, neighborhood bakeries, markets, and recipes carried across generations. Ohio tastes different from place to place.",
+      "canonicalPath": "/culture#foodways",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-table"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:2c83235fc91d",
+          "label": "Visit Cincy"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/foodways.json",
+      "sectionId": "culture",
+      "kicker": "LOCAL TABLES · EVERYDAY CULTURE",
+      "order": 23
+    },
+    {
+      "id": "note:sports-community",
+      "slug": "sports-community",
+      "kind": "note",
+      "title": "Sports & gathering",
+      "summary": "Hear that? Game-day noise has a way of spilling into the whole neighborhood. Sports, festivals, and local celebrations turn an ordinary day into a shared one.",
+      "canonicalPath": "/culture#sports-community",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-game"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:e0527e33fc24",
+          "label": "Experience Columbus"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/sports-community.json",
+      "sectionId": "culture",
+      "kicker": "STATEWIDE · SHARED MOMENTS",
+      "order": 24
+    },
+    {
+      "id": "note:cleveland-orchestra-severance",
+      "slug": "cleveland-orchestra-severance",
+      "kind": "note",
+      "title": "An evening at Severance",
+      "summary": "At Severance, home to The Cleveland Orchestra, a seat and a little time let the music do its thing.",
+      "canonicalPath": "/culture#cleveland-orchestra-severance",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-records"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:9f3c319f6e6f",
+          "label": "The Cleveland Orchestra · Severance Music Center"
+        },
+        {
+          "id": "source:723d0633b971",
+          "label": "The Cleveland Orchestra · Education history"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cleveland-orchestra-severance.json",
+      "sectionId": "culture",
+      "kicker": "CLEVELAND · LIVE MUSIC",
+      "order": 25
+    },
+    {
+      "id": "note:freedom-center-river",
+      "slug": "freedom-center-river",
+      "kind": "note",
+      "title": "Freedom stories by the river",
+      "summary": "The Ohio River runs right beside this Cincinnati museum, where the setting and the history meet thoughtfully and carefully.",
+      "canonicalPath": "/culture#freedom-center-river",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:48a13dd8c32b",
+          "label": "National Underground Railroad Freedom Center · In This Place"
+        },
+        {
+          "id": "source:3a731cd018ec",
+          "label": "National Underground Railroad Freedom Center · Self-guided tour"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/freedom-center-river.json",
+      "sectionId": "culture",
+      "kicker": "CINCINNATI · HISTORY",
+      "order": 26
+    },
+    {
+      "id": "note:west-side-market",
+      "slug": "west-side-market",
+      "kind": "note",
+      "title": "West Side Market",
+      "summary": "Look up at that tiled vault, then take in the counters. Generations of neighbors have shaped this Cleveland market.",
+      "canonicalPath": "/culture#west-side-market",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-table"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:12809615c67b",
+          "label": "West Side Market · Market History"
+        },
+        {
+          "id": "source:d1f4501f2abb",
+          "label": "West Side Market · People's Stories"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/west-side-market.json",
+      "sectionId": "culture",
+      "kicker": "CLEVELAND · PUBLIC MARKET",
+      "order": 27
+    },
+    {
+      "id": "note:billy-ireland-cartoon-museum",
+      "slug": "billy-ireland-cartoon-museum",
+      "kind": "note",
+      "title": "A home for cartoon art",
+      "summary": "A comic panel can make you laugh and carry history, too. At Ohio State, both sides of the page have a story.",
+      "canonicalPath": "/culture#billy-ireland-cartoon-museum",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:78be97d1d8fc",
+          "label": "Billy Ireland Cartoon Library & Museum · About"
+        },
+        {
+          "id": "source:9e30a0e94d77",
+          "label": "Billy Ireland Cartoon Library & Museum · Location & Hours"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/billy-ireland-cartoon-museum.json",
+      "sectionId": "culture",
+      "kicker": "COLUMBUS · COMICS & ARCHIVES",
+      "order": 28
+    },
+    {
+      "id": "note:american-sign-museum",
+      "slug": "american-sign-museum",
+      "kind": "note",
+      "title": "The signs we live by",
+      "summary": "A sign catches your eye and can hold a whole street’s memory. Cincinnati has saved plenty of them. ♡",
+      "canonicalPath": "/culture#american-sign-museum",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d1499246eed5",
+          "label": "American Sign Museum · Explore"
+        },
+        {
+          "id": "source:161db9646142",
+          "label": "American Sign Museum · Collection"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/american-sign-museum.json",
+      "sectionId": "culture",
+      "kicker": "CINCINNATI · SIGNS & NEON",
+      "order": 29
+    },
+    {
+      "id": "note:cincinnati-music-hall",
+      "slug": "cincinnati-music-hall",
+      "kind": "note",
+      "title": "Cincinnati Music Hall",
+      "summary": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive.",
+      "canonicalPath": "/culture#cincinnati-music-hall",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-records"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d9b49fecaefb",
+          "label": "Cincinnati Arts Association · About Music Hall"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cincinnati-music-hall.json",
+      "sectionId": "culture",
+      "kicker": "CINCINNATI · A LIVING STAGE",
+      "order": 30
+    },
+    {
+      "id": "note:economic-map",
+      "slug": "economic-map",
+      "kind": "note",
+      "title": "Many kinds of work",
+      "summary": "Factories, farms, hospitals, campuses, offices—Ohio’s economy is a lot of connected lives. Let’s follow the pieces, and keep an eye on what each big number can actually tell us.",
+      "canonicalPath": "/make#economic-map",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-work"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0b15bee89bee",
+          "label": "U.S. Bureau of Economic Analysis"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/economic-map.json",
+      "sectionId": "economy",
+      "kicker": "REGIONAL ECONOMIES · SHARED NETWORKS",
+      "order": 31
+    },
+    {
+      "id": "note:production",
+      "slug": "production",
+      "kind": "note",
+      "title": "Making things",
+      "summary": "Pick almost any finished product and start tracing it backward. Ohio’s manufacturing story quickly becomes a web of materials, skills, suppliers, and journeys between places.",
+      "canonicalPath": "/make#production",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:440edf6e5e89",
+          "label": "JobsOhio · Advanced Manufacturing"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/production.json",
+      "sectionId": "economy",
+      "kicker": "MANUFACTURING · MATERIALS · DESIGN",
+      "order": 32
+    },
+    {
+      "id": "note:jobs-households",
+      "slug": "jobs-households",
+      "kind": "note",
+      "title": "Work & household budgets",
+      "summary": "A statewide average can’t tell you what every household’s day feels like. Wages, hours, stability, housing, and the trip to work all belong in the picture.",
+      "canonicalPath": "/make#jobs-households",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-work"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a7488427e5c3",
+          "label": "U.S. Census Bureau · QuickFacts"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/jobs-households.json",
+      "sectionId": "economy",
+      "kicker": "LABOR · INCOME · OPPORTUNITY",
+      "order": 33
+    },
+    {
+      "id": "note:trade",
+      "slug": "trade",
+      "kind": "note",
+      "title": "Trade & movement",
+      "summary": "Ports, interstates, rail lines, airports—Ohio has a lot of ways to send things on their way. Those routes carry local work to much wider markets. Let’s follow where they lead.",
+      "canonicalPath": "/make#trade",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-movement"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:dcb65b96c1c3",
+          "label": "JobsOhio · Logistics & Distribution"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/trade.json",
+      "sectionId": "economy",
+      "kicker": "ROADS · RAIL · AIR · WATER",
+      "order": 34
+    },
+    {
+      "id": "note:port-of-toledo",
+      "slug": "port-of-toledo",
+      "kind": "note",
+      "title": "The Port of Toledo",
+      "summary": "Wait, what happens after a lake freighter docks? I’ll trace Toledo’s cargo from the waterfront toward the rail lines and roads beyond.",
+      "canonicalPath": "/make#port-of-toledo",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-movement"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie",
+        "toledo"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:1229605d8cb9",
+          "label": "Toledo-Lucas County Port Authority · Port of Toledo"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/port-of-toledo.json",
+      "sectionId": "economy",
+      "kicker": "LAKE ERIE · CARGO & RAIL",
+      "order": 35
+    },
+    {
+      "id": "note:advanced-manufacturing",
+      "slug": "advanced-manufacturing",
+      "kind": "note",
+      "title": "Advanced manufacturing",
+      "summary": "Robots get the dramatic photos, but the really interesting part is how people improve the whole process. Ohio’s manufacturing connects careful design with things that actually get made.",
+      "canonicalPath": "/make#advanced-manufacturing",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:440edf6e5e89",
+          "label": "JobsOhio · Advanced Manufacturing"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/advanced-manufacturing.json",
+      "sectionId": "industry",
+      "kicker": "MATERIALS · MACHINES · PRODUCTION",
+      "order": 36
+    },
+    {
+      "id": "note:aerospace",
+      "slug": "aerospace",
+      "kind": "note",
+      "title": "Aerospace & defense",
+      "summary": "An aircraft has a very long supporting cast. Materials, software, precision parts, testing, maintenance—Ohio’s aviation story is still finding new ways to take shape.",
+      "canonicalPath": "/make#aerospace",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-flight"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:b3c7c21f6f0c",
+          "label": "JobsOhio · Aerospace & Defense"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/aerospace.json",
+      "sectionId": "industry",
+      "kicker": "FLIGHT · RESEARCH · SYSTEMS",
+      "order": 37
+    },
+    {
+      "id": "note:automotive",
+      "slug": "automotive",
+      "kind": "note",
+      "title": "Automotive & mobility",
+      "summary": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
+      "canonicalPath": "/make#automotive",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:6e491931ca45",
+          "label": "JobsOhio · Automotive"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/automotive.json",
+      "sectionId": "industry",
+      "kicker": "VEHICLES · COMPONENTS · TESTING",
+      "order": 38
+    },
+    {
+      "id": "note:healthcare",
+      "slug": "healthcare",
+      "kind": "note",
+      "title": "Healthcare & life sciences",
+      "summary": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
+      "canonicalPath": "/make#healthcare",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-lab"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:66564ad23525",
+          "label": "JobsOhio · Healthcare"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/healthcare.json",
+      "sectionId": "industry",
+      "kicker": "CARE · RESEARCH · BIOTECH",
+      "order": 39
+    },
+    {
+      "id": "note:food-agriculture",
+      "slug": "food-agriculture",
+      "kind": "note",
+      "title": "Food & agribusiness",
+      "summary": "That grocery shelf has a backstory. Farms, processors, packaging, cold storage, equipment, and delivery all help turn what grows into what reaches our tables.",
+      "canonicalPath": "/make#food-agriculture",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-farm"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:f9e06f1adb89",
+          "label": "JobsOhio · Food & Agribusiness"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/food-agriculture.json",
+      "sectionId": "industry",
+      "kicker": "FARMS · PROCESSING · SUPPLY",
+      "order": 40
+    },
+    {
+      "id": "note:logistics",
+      "slug": "logistics",
+      "kind": "note",
+      "title": "Logistics & distribution",
+      "summary": "Things don’t get where they’re going by wishing very hard. Roads, rail, air, water, planning, and people keep Ohio’s farms, factories, shops, and customers connected.",
+      "canonicalPath": "/make#logistics",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-movement"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:dcb65b96c1c3",
+          "label": "JobsOhio · Logistics & Distribution"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/logistics.json",
+      "sectionId": "industry",
+      "kicker": "ROADS · RAIL · FREIGHT",
+      "order": 41
+    },
+    {
+      "id": "note:technology",
+      "slug": "technology",
+      "kind": "note",
+      "title": "Technology",
+      "summary": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
+      "canonicalPath": "/make#technology",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-lab"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:43bcc484ce0c",
+          "label": "JobsOhio · Technology"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/technology.json",
+      "sectionId": "industry",
+      "kicker": "SOFTWARE · CHIPS · DATA",
+      "order": 42
+    },
+    {
+      "id": "note:energy-chemicals",
+      "slug": "energy-chemicals",
+      "kind": "note",
+      "title": "Energy & chemicals",
+      "summary": "Power, coatings, polymers, fuels—some of Ohio’s most widely used products work quietly behind the scenes. Let’s follow the materials, with the practical questions still in view.",
+      "canonicalPath": "/make#energy-chemicals",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:67cc7f128dc2",
+          "label": "JobsOhio · Energy & Chemicals"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/energy-chemicals.json",
+      "sectionId": "industry",
+      "kicker": "POWER · MATERIALS · PROCESSES",
+      "order": 43
+    },
+    {
+      "id": "note:glenn-icing-tunnel",
+      "slug": "glenn-icing-tunnel",
+      "kind": "note",
+      "title": "The ice inside NASA Glenn",
+      "summary": "A wind tunnel that makes ice? Ooh, Cleveland researchers put aircraft to a very cold test.",
+      "canonicalPath": "/make#glenn-icing-tunnel",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-flight"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:1b65b9fd42e6",
+          "label": "NASA · Icing Research Tunnel"
+        },
+        {
+          "id": "source:186382792534",
+          "label": "NASA · Glenn Research Center"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/glenn-icing-tunnel.json",
+      "sectionId": "industry",
+      "kicker": "CLEVELAND · FLIGHT RESEARCH",
+      "order": 44
+    },
+    {
+      "id": "note:east-liverpool-ceramics",
+      "slug": "east-liverpool-ceramics",
+      "kind": "note",
+      "title": "East Liverpool in clay",
+      "summary": "Kilns helped shape East Liverpool. The Museum of Ceramics tells the story of the hands behind its pottery. ♡",
+      "canonicalPath": "/make#east-liverpool-ceramics",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:42ddb59f033e",
+          "label": "Ohio History Connection · Museum of Ceramics"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/east-liverpool-ceramics.json",
+      "sectionId": "industry",
+      "kicker": "EAST LIVERPOOL · CERAMICS",
+      "order": 45
+    },
+    {
+      "id": "note:columbus-whistle-factory",
+      "slug": "columbus-whistle-factory",
+      "kind": "note",
+      "title": "A whistle from Columbus",
+      "summary": "That little whistle has quite a making story. Columbus turns brass into a clear, piercing signal.",
+      "canonicalPath": "/make#columbus-whistle-factory",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:90f7f9463f72",
+          "label": "American Whistle Corporation · Factory tour"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/columbus-whistle-factory.json",
+      "sectionId": "industry",
+      "kicker": "COLUMBUS · BRASS & PRECISION",
+      "order": 46
+    },
+    {
+      "id": "note:rookwood-cincinnati",
+      "slug": "rookwood-cincinnati",
+      "kind": "note",
+      "title": "Rookwood's Cincinnati clay",
+      "summary": "A tile can belong to a building and still be a little work of art. Cincinnati’s Rookwood makers have explored that since 1880. ♡",
+      "canonicalPath": "/make#rookwood-cincinnati",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d6157c4bfb9a",
+          "label": "Rookwood Pottery · About Rookwood"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/rookwood-cincinnati.json",
+      "sectionId": "industry",
+      "kicker": "CINCINNATI · ART POTTERY",
+      "order": 47
+    },
+    {
+      "id": "note:akron-rubber-work",
+      "slug": "akron-rubber-work",
+      "kind": "note",
+      "title": "Akron and the rubber road",
+      "summary": "Before Akron tires rolled everywhere, local factories made all kinds of rubber goods. That work grew into a citywide industry.",
+      "canonicalPath": "/make#akron-rubber-work",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "akron"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a8aa6b3a6e8d",
+          "label": "Goodyear Corporate · History"
+        },
+        {
+          "id": "source:05f8d798a408",
+          "label": "Goodyear Corporate · Technologies"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/akron-rubber-work.json",
+      "sectionId": "industry",
+      "kicker": "AKRON · RUBBER & TIRES",
+      "order": 48
+    },
+    {
+      "id": "note:regional-voices",
+      "slug": "regional-voices",
+      "kind": "note",
+      "title": "More than one Ohio accent",
+      "summary": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?",
+      "canonicalPath": "/culture#regional-voices",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:ba297e25475e",
+          "label": "Ohio State University · OhioSpeaks"
+        },
+        {
+          "id": "source:96d0033e85e3",
+          "label": "Regional dialect research"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/regional-voices.json",
+      "sectionId": "language",
+      "kicker": "NORTHERN · MIDLAND · SOUTHERN",
+      "order": 49
+    },
+    {
+      "id": "note:appalachian-english",
+      "slug": "appalachian-english",
+      "kind": "note",
+      "title": "Appalachian English",
+      "summary": "A voice can carry family, place, and a lifetime of conversations. Appalachian English is varied and expressive; let’s listen with curiosity and let speakers tell their own stories.",
+      "canonicalPath": "/culture#appalachian-english",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:dae575730dc7",
+          "label": "Ohio University · Southern Ohio Language Project"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/appalachian-english.json",
+      "sectionId": "language",
+      "kicker": "SOUTHEAST OHIO · A REGIONAL VARIETY",
+      "order": 50
+    },
+    {
+      "id": "note:place-names",
+      "slug": "place-names",
+      "kind": "note",
+      "title": "Names worth asking about",
+      "summary": "Scioto, Cuyahoga, Bellefontaine… a familiar-looking spelling can still catch you by surprise. No shame in asking. Local names are an invitation to listen.",
+      "canonicalPath": "/culture#place-names",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:51e1893663c4",
+          "label": "E.W. Scripps School of Journalism, Ohio University"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/place-names.json",
+      "sectionId": "language",
+      "kicker": "SCIOTO · BELLEFONTAINE · CUYAHOGA",
+      "order": 51
+    },
+    {
+      "id": "note:community-languages",
+      "slug": "community-languages",
+      "kind": "note",
+      "title": "Many languages, many homes",
+      "summary": "English is only part of what you’ll hear here. Ohio’s families and communities bring many languages into classrooms, neighborhoods, and everyday conversations. What a lovely chorus.",
+      "canonicalPath": "/culture#community-languages",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:f4363cc1bc8c",
+          "label": "Ohio Department of Education and Workforce · English Learners"
+        },
+        {
+          "id": "source:9dab685b3847",
+          "label": "University of Akron · Holmes County language study"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/community-languages.json",
+      "sectionId": "language",
+      "kicker": "FAMILY · MIGRATION · COMMUNITY",
+      "order": 52
+    },
+    {
+      "id": "note:executive",
+      "slug": "executive",
+      "kind": "note",
+      "title": "Executive branch",
+      "summary": "A law passes, then a whole team has work to do. Ohio’s governor, statewide offices, and agencies carry out the laws and run public services. Let’s meet the offices behind the day-to-day details.",
+      "canonicalPath": "/live#executive",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-civic"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:bdd85ea4de31",
+          "label": "Ohio Legislature · Ohio Government Websites"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/executive.json",
+      "sectionId": "government",
+      "kicker": "CARRY OUT THE LAW",
+      "order": 53
+    },
+    {
+      "id": "note:legislative",
+      "slug": "legislative",
+      "kind": "note",
+      "title": "Legislative branch",
+      "summary": "A bill has quite a journey before it becomes law. Ohio’s House and Senate consider proposals, debate budgets, and leave a public record you can follow. Ready to see each step?",
+      "canonicalPath": "/live#legislative",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-civic"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0a6763f7ea85",
+          "label": "Ohio General Assembly"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/legislative.json",
+      "sectionId": "government",
+      "kicker": "MAKE THE LAW",
+      "order": 54
+    },
+    {
+      "id": "note:judicial",
+      "slug": "judicial",
+      "kind": "note",
+      "title": "Judicial branch",
+      "summary": "Courts resolve disputes and apply the law. Ohio has several kinds, each with its own role—so let’s get our bearings before we follow a case through the system.",
+      "canonicalPath": "/live#judicial",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-civic"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:263c8cc31fe3",
+          "label": "Supreme Court of Ohio"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/judicial.json",
+      "sectionId": "government",
+      "kicker": "INTERPRET THE LAW",
+      "order": 55
+    },
+    {
+      "id": "note:local-government",
+      "slug": "local-government",
+      "kind": "note",
+      "title": "Closer to home",
+      "summary": "The Statehouse isn’t the only place decisions happen. Counties, cities, villages, and townships handle work closer to home, with responsibilities that depend on the place and service. Let’s find the right local door.",
+      "canonicalPath": "/live#local-government",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-local"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:cc3e93c98786",
+          "label": "Ohio Constitution · Local government"
+        },
+        {
+          "id": "source:62fbbde6a771",
+          "label": "Ohio Revised Code · Township trustees"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/local-government.json",
+      "sectionId": "government",
+      "kicker": "COUNTIES · CITIES · VILLAGES · TOWNSHIPS",
+      "order": 56
+    },
+    {
+      "id": "note:statehouse-open-door",
+      "slug": "statehouse-open-door",
+      "kind": "note",
+      "title": "Step inside the Statehouse",
+      "summary": "Ohio lawmakers meet in this building, whose halls and museum bring state government into view.",
+      "canonicalPath": "/live#statehouse-open-door",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-civic"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d68d58647831",
+          "label": "Ohio Statehouse · Museum Education Center"
+        },
+        {
+          "id": "source:e6441a84bf83",
+          "label": "Ohio Statehouse · School and group tours"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/statehouse-open-door.json",
+      "sectionId": "government",
+      "kicker": "COLUMBUS · CIVIC LIFE",
+      "order": 57
+    },
+    {
+      "id": "note:universities",
+      "slug": "universities",
+      "kind": "note",
+      "title": "Universities across Ohio",
+      "summary": "Ooh, big campus, small college, a technical program close to home—Ohio has more than one way to be a student. Let’s find the questions that matter to you. ♡",
+      "canonicalPath": "/live#universities",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:790e4d776823",
+          "label": "Ohio Department of Higher Education · Institutions map"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/universities.json",
+      "sectionId": "life",
+      "kicker": "PUBLIC · PRIVATE · COMMUNITY",
+      "order": 58
+    },
+    {
+      "id": "note:research",
+      "slug": "research",
+      "kind": "note",
+      "title": "Research & discovery",
+      "summary": "A good question can travel a long way. Ohio’s labs, hospitals, campuses, museums, and research partnerships give curious people places to follow it. Ooh, where might yours lead?",
+      "canonicalPath": "/live#research",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:26b158161245",
+          "label": "Ohio University · Research Division"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/research.json",
+      "sectionId": "life",
+      "kicker": "LABS · HEALTH · ENGINEERING",
+      "order": 59
+    },
+    {
+      "id": "note:schools-learning",
+      "slug": "schools-learning",
+      "kind": "note",
+      "title": "Learning at every age",
+      "summary": "Learning doesn’t end at one age or follow one neat route. Ohio’s schools and career programs connect classroom ideas with practical skills. Let’s see what you’d like to learn next.",
+      "canonicalPath": "/live#schools-learning",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:4be28be41eb3",
+          "label": "Ohio Department of Education and Workforce"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/schools-learning.json",
+      "sectionId": "life",
+      "kicker": "PUBLIC SCHOOLS · CAREER PATHS",
+      "order": 60
+    },
+    {
+      "id": "note:libraries",
+      "slug": "libraries",
+      "kind": "note",
+      "title": "Libraries for everyone",
+      "summary": "Ahh, books are only the beginning, which is excellent news for curious people. Ohio’s libraries also offer research, digital access, local history, learning programs, and a place to settle in.",
+      "canonicalPath": "/live#libraries",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:08bbd08a614a",
+          "label": "State Library of Ohio · Catalog"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/libraries.json",
+      "sectionId": "life",
+      "kicker": "BOOKS · DIGITAL ACCESS · COMMUNITY",
+      "order": 61
+    },
+    {
+      "id": "note:community-life",
+      "slug": "community-life",
+      "kind": "note",
+      "title": "Community life",
+      "summary": "Ooh, a town starts feeling different when you meet the people who gather there. Libraries, local groups, festivals, faith communities, and volunteers help make that happen.",
+      "canonicalPath": "/live#community-life",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:2cfe4c57c885",
+          "label": "Ohio Arts Council"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/community-life.json",
+      "sectionId": "life",
+      "kicker": "NEIGHBORS · ARTS · SERVICE",
+      "order": 62
+    },
+    {
+      "id": "note:ohiolink-shared-shelves",
+      "slug": "ohiolink-shared-shelves",
+      "kind": "note",
+      "title": "A bigger library shelf",
+      "summary": "Ahh, one book can lead to shelves all across Ohio. That’s the library network at work. ♡",
+      "canonicalPath": "/live#ohiolink-shared-shelves",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:609e7a53b1f7",
+          "label": "OhioLINK · Shared Collections"
+        },
+        {
+          "id": "source:5a84f039b643",
+          "label": "OhioLINK · Frequently Asked Questions"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/ohiolink-shared-shelves.json",
+      "sectionId": "life",
+      "kicker": "OHIO · SHARED LIBRARIES",
+      "order": 63
+    },
+    {
+      "id": "note:cosi-try-it-yourself",
+      "slug": "cosi-try-it-yourself",
+      "kind": "note",
+      "title": "Try it at COSI",
+      "summary": "Hey, at COSI you can test a question with your own hands. I want to see what you try first.",
+      "canonicalPath": "/live#cosi-try-it-yourself",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:4e1e13a2e7d0",
+          "label": "COSI · Gadgets"
+        },
+        {
+          "id": "source:1ff2c4fed218",
+          "label": "COSI · Ocean"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/cosi-try-it-yourself.json",
+      "sectionId": "life",
+      "kicker": "COLUMBUS · HANDS-ON SCIENCE",
+      "order": 64
+    },
+    {
+      "id": "note:wilberforce-black-history",
+      "slug": "wilberforce-black-history",
+      "kind": "note",
+      "title": "Stories in Wilberforce",
+      "summary": "Art, objects, and documents tell Black histories at Wilberforce’s National Afro-American Museum & Cultural Center. Begin with what draws your eye.",
+      "canonicalPath": "/live#wilberforce-black-history",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:1d1bdf0cc53d",
+          "label": "Ohio History Connection · National Afro-American Museum & Cultural Center"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/wilberforce-black-history.json",
+      "sectionId": "life",
+      "kicker": "WILBERFORCE · MUSEUM & ARCHIVES",
+      "order": 65
+    },
+    {
+      "id": "note:rocky-river-nature-center",
+      "slug": "rocky-river-nature-center",
+      "kind": "note",
+      "title": "A nature center afternoon",
+      "summary": "A peek at the exhibits, then a walk toward the river? I have just the afternoon in mind at Rocky River Nature Center.",
+      "canonicalPath": "/live#rocky-river-nature-center",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:517571899cf6",
+          "label": "Cleveland Metroparks · Rocky River Nature Center"
+        },
+        {
+          "id": "source:548c7270b5f0",
+          "label": "Cleveland Metroparks · Group programs"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/rocky-river-nature-center.json",
+      "sectionId": "life",
+      "kicker": "CLEVELAND AREA · LEARN OUTDOORS",
+      "order": 66
+    },
+    {
+      "id": "note:possum-creek-gardens",
+      "slug": "possum-creek-gardens",
+      "kind": "note",
+      "title": "Grow something together",
+      "summary": "At Dayton’s Possum Creek MetroPark, a garden plot brings a season of shared work and new skills. Ooh, I like having a reason to return ♡",
+      "canonicalPath": "/live#possum-creek-gardens",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio",
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:428d53229cfb",
+          "label": "Five Rivers MetroParks · Possum Creek community garden rules"
+        },
+        {
+          "id": "source:a7e4ee79c849",
+          "label": "Five Rivers MetroParks · 2024 annual report"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/note/possum-creek-gardens.json",
+      "sectionId": "life",
+      "kicker": "DAYTON · COMMUNITY GARDEN",
+      "order": 67
+    },
+    {
+      "id": "phrase:youuns-yuns",
+      "slug": "youuns-yuns",
+      "kind": "phrase",
+      "title": "you’uns / y’uns",
+      "summary": "plural ‘you’; ‘you all’",
+      "canonicalPath": "/culture#youuns-yuns",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a19b8dd976fa",
+          "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/phrase/youuns-yuns.json",
+      "region": "Upper Ohio Valley / south Midland speech, with related Appalachian forms",
+      "order": 68
+    },
+    {
+      "id": "phrase:mamaw-papaw",
+      "slug": "mamaw-papaw",
+      "kind": "phrase",
+      "title": "mamaw / papaw",
+      "summary": "grandmother / grandfather",
+      "canonicalPath": "/culture#mamaw-papaw",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a19b8dd976fa",
+          "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/phrase/mamaw-papaw.json",
+      "region": "Upper Ohio Valley speech, including Ohio",
+      "order": 69
+    },
+    {
+      "id": "phrase:needs-washed",
+      "slug": "needs-washed",
+      "kind": "phrase",
+      "title": "needs washed",
+      "summary": "needs to be washed",
+      "canonicalPath": "/culture#needs-washed",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a19b8dd976fa",
+          "label": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/phrase/needs-washed.json",
+      "region": "Ohio Valley and Appalachian varieties; also found elsewhere in the U.S.",
+      "order": 70
+    },
+    {
+      "id": "phrase:scioto",
+      "slug": "scioto",
+      "kind": "phrase",
+      "title": "Scioto",
+      "summary": "Ohio river and place name; Ohio University pronunciation guide gives ‘sigh-OH-tuh’",
+      "canonicalPath": "/culture#scioto",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:51e1893663c4",
+          "label": "E.W. Scripps School of Journalism, Ohio University"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/phrase/scioto.json",
+      "region": "Scioto River and nearby communities in southern Ohio",
+      "order": 71
+    },
+    {
+      "id": "feature:cincinnati-market-to-music",
+      "slug": "cincinnati-market-to-music",
+      "kind": "feature",
+      "title": "A market morning. A music night.",
+      "summary": "A full day in Cincinnati’s Over-the-Rhine, with room for music at the end. ♡",
+      "canonicalPath": "/journal/cincinnati-market-to-music",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:43b5ffb6701f",
+          "label": "Travelling Han · Cincinnati two-day itinerary",
+          "kind": "Travel account"
+        },
+        {
+          "id": "source:668b7749a77a",
+          "label": "Findlay Market · history and visitor information",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:d6f3964ef5ae",
+          "label": "ArtWorks · interactive public art map",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:8e3ff34cee29",
+          "label": "Cincinnati Arts · visiting Music Hall",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:9e83bf597a6f",
+          "label": "Cincinnati Connector · how to ride",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/cincinnati-market-to-music.json",
+      "category": "guides",
+      "location": "Cincinnati · Over-the-Rhine",
+      "duration": "One easy day",
+      "readTime": "3 min read",
+      "coverMediaId": "media:cincinnati-market-to-music",
+      "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+      "titleAccent": "A music night.",
+      "recommendations": [
+        {
+          "id": "feature:rookwood-clay",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "reason": "Another Ohio food story"
+        }
+      ],
+      "order": 72
+    },
+    {
+      "id": "feature:dayton-made-to-fly",
+      "slug": "dayton-made-to-fly",
+      "kind": "feature",
+      "title": "What took flight.",
+      "summary": "Two days in Dayton, with bicycles, a printing press, and airplanes that might make you forget to check the time.",
+      "canonicalPath": "/journal/dayton-made-to-fly",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:93148660c377",
+          "label": "Ohio Magazine · Dayton aviation trail",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:9cfd07f7b8af",
+          "label": "National Park Service · Wright Cycle Company Complex",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:1d92d2970c60",
+          "label": "National Park Service · Dayton Aviation Heritage",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:9b29710edda5",
+          "label": "National Aviation Heritage Area · Wright-Dunbar day trip",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:194328dc025b",
+          "label": "National Museum of the U.S. Air Force · visit",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/dayton-made-to-fly.json",
+      "category": "guides",
+      "location": "Dayton · Wright-Dunbar and beyond",
+      "duration": "Two days",
+      "readTime": "4 min read",
+      "coverMediaId": "media:dayton-made-to-fly",
+      "coverAlt": "Illustration of an early biplane model and bicycle wheel on a workshop bench",
+      "titleAccent": "what took flight.",
+      "recommendations": [
+        {
+          "id": "feature:akron-rubber",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "reason": "A closer look at an Ohio maker"
+        }
+      ],
+      "order": 73
+    },
+    {
+      "id": "feature:cuyahoga-slow-day",
+      "slug": "cuyahoga-slow-day",
+      "kind": "feature",
+      "title": "Let’s take the slow way.",
+      "summary": "A waterfall, a towpath, and lunch in Peninsula. Cuyahoga Valley has a lovely way of making us linger.",
+      "canonicalPath": "/journal/cuyahoga-slow-day",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio",
+        "cuyahoga-valley"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:208e91e8b76b",
+          "label": "Cleveland Traveler · one-day Cuyahoga itinerary",
+          "kind": "Travel account"
+        },
+        {
+          "id": "source:0089bc401442",
+          "label": "National Park Service · half-day visit",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:6445306a5a08",
+          "label": "National Park Service · current conditions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:1bd9eb44738d",
+          "label": "National Park Service · parking",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/cuyahoga-slow-day.json",
+      "category": "guides",
+      "location": "Cuyahoga Valley · Peninsula",
+      "duration": "One full day",
+      "readTime": "3 min read",
+      "coverMediaId": "media:cuyahoga-slow-day",
+      "coverAlt": "Illustrated woodland waterfall and a wooden viewing boardwalk",
+      "titleAccent": "the slow way.",
+      "recommendations": [
+        {
+          "id": "feature:community-garden-season",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "reason": "Another Ohio food story"
+        }
+      ],
+      "order": 74
+    },
+    {
+      "id": "feature:sandusky-play-day",
+      "slug": "sandusky-play-day",
+      "kind": "feature",
+      "title": "One more ride. Then the lake.",
+      "summary": "Cedar Point gets a whole day. Sandusky’s waterfront gets the quieter moments around it.",
+      "canonicalPath": "/journal/sandusky-play-day",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore"
+      ],
+      "topics": [
+        "topic:explore-coast"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie",
+        "sandusky"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:9516e9a0b1fc",
+          "label": "Finding the Universe · Sandusky three-day itinerary",
+          "kind": "Travel account"
+        },
+        {
+          "id": "source:0cc533d484c6",
+          "label": "Follow the Piper · Sandusky weekend",
+          "kind": "Travel account"
+        },
+        {
+          "id": "source:eff0058f0693",
+          "label": "Cedar Point · park map and directions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:4fe0326712dc",
+          "label": "Shores & Islands Ohio · Sandusky",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:7047f46f4c94",
+          "label": "Shores & Islands Ohio · Jackson Street Pier",
+          "kind": "Local guide"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/sandusky-play-day.json",
+      "category": "guides",
+      "location": "Sandusky · Lake Erie",
+      "duration": "Two days or one night",
+      "readTime": "3 min read",
+      "coverMediaId": "media:sandusky-play-day",
+      "coverAlt": "Painted lakeside scene with a bench, sailboat and distant roller coasters",
+      "titleAccent": "Then the lake.",
+      "recommendations": [
+        {
+          "id": "feature:toledo-glass",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "reason": "Another Ohio food story"
+        }
+      ],
+      "order": 75
+    },
+    {
+      "id": "feature:brass-whistle",
+      "slug": "brass-whistle",
+      "kind": "feature",
+      "title": "Little whistle. Big voice.",
+      "summary": "At a Columbus workbench, that familiar sound starts with a flat piece of brass.",
+      "canonicalPath": "/journal/brass-whistle",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:5ba0acf258d0",
+          "label": "American Whistle: how whistles are made",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:e1139ccc0d38",
+          "label": "American Whistle: factory and tours",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:a4c48f4c9012",
+          "label": "American Whistle: how whistles work",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/brass-whistle.json",
+      "category": "making",
+      "location": "Columbus",
+      "duration": "A closer look",
+      "readTime": "3 min read",
+      "coverMediaId": "media:brass-whistle",
+      "coverAlt": "Illustrated brass pea whistle, navy cord and metal blank on a workbench",
+      "titleAccent": "Big voice.",
+      "recommendations": [
+        {
+          "id": "feature:rookwood-clay",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:dayton-made-to-fly",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 76
+    },
+    {
+      "id": "feature:rookwood-clay",
+      "slug": "rookwood-clay",
+      "kind": "feature",
+      "title": "A little clay. A lot of hands.",
+      "summary": "Let’s follow a piece of Rookwood pottery through the work that gives it a place in someone’s home.",
+      "canonicalPath": "/journal/rookwood-clay",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d6157c4bfb9a",
+          "label": "Rookwood Pottery: about Rookwood",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:747b125e98e3",
+          "label": "Rookwood Pottery: visit and programs",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:1e53152984c1",
+          "label": "Cincinnati Art Museum: Rookwood vase (1882)",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/rookwood-clay.json",
+      "category": "making",
+      "location": "Cincinnati",
+      "duration": "A studio-minded afternoon",
+      "readTime": "3 min read",
+      "coverMediaId": "media:rookwood-clay",
+      "coverAlt": "Illustrated green pottery vase, clay bowl and shaping tool in a workshop",
+      "titleAccent": "A lot of hands.",
+      "recommendations": [
+        {
+          "id": "feature:brass-whistle",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "reason": "Another Ohio food story"
+        }
+      ],
+      "order": 77
+    },
+    {
+      "id": "feature:toledo-glass",
+      "slug": "toledo-glass",
+      "kind": "feature",
+      "title": "Ooh, look at that glass.",
+      "summary": "In Toledo, light, heat, and a maker’s timing turn something familiar into something worth stopping for.",
+      "canonicalPath": "/journal/toledo-glass",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "toledo"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:347b1fd24bc5",
+          "label": "Toledo Museum of Art: learn and Glass Studio",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:d91f1feabb36",
+          "label": "Toledo Museum of Art: Glass Pavilion publication",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:1dd62d565327",
+          "label": "Toledo Museum of Art: Harvey Littleton work",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:66ddd394a16e",
+          "label": "Toledo Museum of Art: Libenský and Brychtová work",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:d3c6d84efc2c",
+          "label": "Toledo Museum of Art: a vase from the first 1962 workshop",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/toledo-glass.json",
+      "category": "making",
+      "location": "Toledo",
+      "duration": "A museum afternoon",
+      "readTime": "3 min read",
+      "coverMediaId": "media:toledo-glass",
+      "coverAlt": "Painted blue-green glass vase and amber bowl with a studio furnace behind",
+      "titleAccent": "that glass.",
+      "recommendations": [
+        {
+          "id": "feature:rookwood-clay",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:dayton-made-to-fly",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 78
+    },
+    {
+      "id": "feature:akron-rubber",
+      "slug": "akron-rubber",
+      "kind": "feature",
+      "title": "There’s a story in these tires.",
+      "summary": "Let’s follow Akron’s rubber history from a familiar wheel back to the people and experiments behind it.",
+      "canonicalPath": "/journal/akron-rubber",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "akron"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:a8aa6b3a6e8d",
+          "label": "Goodyear: company history",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:e651e920ffde",
+          "label": "Goodyear Heights: neighborhood history",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:f7093a449f30",
+          "label": "University of Akron Press: Labor in Akron, 1825–1945",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:b22e0578fa04",
+          "label": "University of Akron Archives: The Flourishing",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:89b67fe60a77",
+          "label": "University of Akron: from rubber chemistry to polymers",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/akron-rubber.json",
+      "category": "making",
+      "location": "Akron",
+      "duration": "A city-history read",
+      "readTime": "3 min read",
+      "coverMediaId": "media:akron-rubber",
+      "coverAlt": "Illustration of a rubber tire beside a workshop bench and a sheet of rubber",
+      "titleAccent": "in these tires.",
+      "recommendations": [
+        {
+          "id": "feature:brass-whistle",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "reason": "A closer look at an Ohio maker"
+        },
+        {
+          "id": "feature:dayton-made-to-fly",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 79
+    },
+    {
+      "id": "feature:cincinnati-chili",
+      "slug": "cincinnati-chili",
+      "kind": "feature",
+      "title": "Pull up a chair. Let’s order chili.",
+      "summary": "Spaghetti, a spiced sauce, and that generous pile of cheese. I’ll help you make sense of the menu.",
+      "canonicalPath": "/journal/cincinnati-chili",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-table"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:0a88fe931a42",
+          "label": "Empress Chili: history",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:49b153a95f28",
+          "label": "Visit Cincy: food and drink scene",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:57276d5b0123",
+          "label": "Ohio Magazine: how the coney became a Cincinnati favorite",
+          "kind": "Reporting"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/cincinnati-chili.json",
+      "category": "table",
+      "location": "Cincinnati",
+      "duration": "A lunch stop",
+      "readTime": "3 min read",
+      "coverMediaId": "media:cincinnati-chili",
+      "coverAlt": "Painted plate of Cincinnati chili with spaghetti and shredded cheddar in a diner",
+      "titleAccent": "Let’s order chili.",
+      "recommendations": [
+        {
+          "id": "feature:buckeye-sweets",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 80
+    },
+    {
+      "id": "feature:buckeye-sweets",
+      "slug": "buckeye-sweets",
+      "kind": "feature",
+      "title": "Save room for a buckeye.",
+      "summary": "A little peanut butter, a little chocolate, and one bare patch that gives the sweet its Ohio name.",
+      "canonicalPath": "/journal/buckeye-sweets",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-table"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:dbe2637c173d",
+          "label": "Ohio State: what is a buckeye?",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:c63f1cdf0fd9",
+          "label": "Ohio Revised Code: state tree",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:321dfad15506",
+          "label": "Experience Columbus: history of the buckeye candy",
+          "kind": "Local guide"
+        },
+        {
+          "id": "source:16d5e471ceeb",
+          "label": "Ohio State University Archives: buckeye candy clipping",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/buckeye-sweets.json",
+      "category": "table",
+      "location": "Across Ohio",
+      "duration": "A sweet little pause",
+      "readTime": "3 min read",
+      "coverMediaId": "media:buckeye-sweets",
+      "coverAlt": "Illustrated buckeye candies with uncovered peanut-butter tops on a navy plate",
+      "titleAccent": "a buckeye.",
+      "recommendations": [
+        {
+          "id": "feature:cincinnati-chili",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 81
+    },
+    {
+      "id": "feature:west-side-market-table",
+      "slug": "west-side-market-table",
+      "kind": "feature",
+      "title": "A market full of good things.",
+      "summary": "Cleveland’s West Side Market has a beautiful ceiling. The people at the counters deserve your attention too.",
+      "canonicalPath": "/journal/west-side-market-table",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-table"
+      ],
+      "places": [
+        "ohio",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:12809615c67b",
+          "label": "West Side Market: market history",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:b285e7bc8ab5",
+          "label": "West Side Market: vendors and offerings",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:d1f4501f2abb",
+          "label": "West Side Market: people's stories",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:e66d978ea337",
+          "label": "Cleveland Historical: West Side Market",
+          "kind": "Local guide"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/west-side-market-table.json",
+      "category": "table",
+      "location": "Cleveland",
+      "duration": "A market morning",
+      "readTime": "3 min read",
+      "coverMediaId": "media:west-side-market-table",
+      "coverAlt": "Painted vaulted market hall with food counters and a sunlit aisle",
+      "titleAccent": "to the market.",
+      "recommendations": [
+        {
+          "id": "feature:cincinnati-chili",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "reason": "Another Ohio food story"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 82
+    },
+    {
+      "id": "feature:library-afternoon",
+      "slug": "library-afternoon",
+      "kind": "feature",
+      "title": "A book, a window, an afternoon.",
+      "summary": "At Columbus Main Library, follow an old city map or settle in for one more chapter.",
+      "canonicalPath": "/journal/library-afternoon",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:d6a49830fe86",
+          "label": "Columbus Metropolitan Library: fact sheet and history",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:89bb865d3a64",
+          "label": "Columbus Metropolitan Library: community buildings",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:edfc75e3bfab",
+          "label": "Columbus Metropolitan Library: house history research",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:171550568ba0",
+          "label": "Columbus Metropolitan Library: about and services",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/library-afternoon.json",
+      "category": "everyday",
+      "location": "Columbus",
+      "duration": "An afternoon",
+      "readTime": "3 min read",
+      "coverMediaId": "media:library-afternoon",
+      "coverAlt": "Illustrated library reading table and open book beside a window overlooking greenery",
+      "titleAccent": "an afternoon.",
+      "recommendations": [
+        {
+          "id": "feature:community-garden-season",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 83
+    },
+    {
+      "id": "feature:community-garden-season",
+      "slug": "community-garden-season",
+      "kind": "feature",
+      "title": "Let’s see what’s growing.",
+      "summary": "At Dayton’s Possum Creek, garden plots change throughout the growing season.",
+      "canonicalPath": "/journal/community-garden-season",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio",
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:428d53229cfb",
+          "label": "Five Rivers MetroParks: 2025 Possum Creek garden rules",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:44895e9af573",
+          "label": "Five Rivers MetroParks: garden registration",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:7dd053f846c2",
+          "label": "Five Rivers MetroParks: Possum Creek brochure",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/community-garden-season.json",
+      "category": "everyday",
+      "location": "Dayton",
+      "duration": "A growing season",
+      "readTime": "3 min read",
+      "coverMediaId": "media:community-garden-season",
+      "coverAlt": "Painted garden beds, tomato plants and watering can beside a quiet path in evening light",
+      "titleAccent": "what’s growing.",
+      "recommendations": [
+        {
+          "id": "feature:library-afternoon",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 84
+    },
+    {
+      "id": "feature:athens-campus-day",
+      "slug": "athens-campus-day",
+      "kind": "feature",
+      "title": "Got a little time? Let’s walk through Athens.",
+      "summary": "From Ohio University’s College Green to Uptown, a few ordinary blocks hold plenty of stories.",
+      "canonicalPath": "/journal/athens-campus-day",
+      "primaryWorld": "live",
+      "worlds": [
+        "live"
+      ],
+      "topics": [
+        "topic:live-campus"
+      ],
+      "places": [
+        "ohio",
+        "athens"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:ede1787bcddb",
+          "label": "Ohio University: history and traditions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:29584ee3d5de",
+          "label": "Ohio University: plan your visit",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:5c1739058d79",
+          "label": "Ohio University: Athens community",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:60ddb2dbd634",
+          "label": "Ohio University: Baker University Center dining",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "unverified"
+      },
+      "bodyPath": "./documents/feature/athens-campus-day.json",
+      "category": "everyday",
+      "location": "Athens",
+      "duration": "A campus day",
+      "readTime": "3 min read",
+      "coverMediaId": "media:athens-campus-day",
+      "coverAlt": "Painted college green with a tree-lined path and red brick academic building",
+      "titleAccent": "through Athens.",
+      "recommendations": [
+        {
+          "id": "feature:library-afternoon",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:community-garden-season",
+          "reason": "Another look at everyday Ohio"
+        },
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "reason": "Another Ohio day out"
+        }
+      ],
+      "order": 85
+    }
+  ],
+  "sourceUrls": [
+    {
+      "id": "source:4a13e4c82f15",
+      "url": "https://home.nps.gov/articles/000/learn-about-geology-rocks-ice-river.htm"
+    },
+    {
+      "id": "source:523dc265135f",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/Ohio-State-Parks-Brochure.pdf"
+    },
+    {
+      "id": "source:8cbd0c859f2b",
+      "url": "https://www.ohiohistory.org/learn/ohio-history/"
+    },
+    {
+      "id": "source:d70fc01fd709",
+      "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5"
+    },
+    {
+      "id": "source:958ecaa94a21",
+      "url": "https://www.explorehockinghills.com/"
+    },
+    {
+      "id": "source:9a0e778d69a0",
+      "url": "https://www.nps.gov/cuva/planyourvisit/index.htm"
+    },
+    {
+      "id": "source:8a99d2f30d01",
+      "url": "https://www.shoresandislands.com/communities/islands/"
+    },
+    {
+      "id": "source:f9eda4aefb7d",
+      "url": "https://www.thisiscleveland.com/"
+    },
+    {
+      "id": "source:e0527e33fc24",
+      "url": "https://www.experiencecolumbus.com/things-to-do/"
+    },
+    {
+      "id": "source:57ebd841ae91",
+      "url": "https://www.visitcincy.com/"
+    },
+    {
+      "id": "source:0fcbde59e057",
+      "url": "https://www.nps.gov/daav/planyourvisit/index.htm"
+    },
+    {
+      "id": "source:a256e99fd8bc",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/marbleheadlighthouseparkmap.pdf"
+    },
+    {
+      "id": "source:c9c2947bbb46",
+      "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1962158/marblehead-lighthouse-oh/"
+    },
+    {
+      "id": "source:759fb451d8f1",
+      "url": "https://www.monroecountyohio.net/departments/parks_and_recreation/covered_bridge_byway.php"
+    },
+    {
+      "id": "source:d282e7ecc0a1",
+      "url": "https://www.fs.usda.gov/sites/nfs/files/legacy-media/wayne/Storied%20Hills%20-%20The%20Wayne%20National%20Forest%20PDF%20Version.pdf"
+    },
+    {
+      "id": "source:34ffc9314765",
+      "url": "https://toledomuseum.org/"
+    },
+    {
+      "id": "source:347b1fd24bc5",
+      "url": "https://toledomuseum.org/learn/"
+    },
+    {
+      "id": "source:d3e4fdf63df2",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/Magee%20Marsh%20Trail%20Map%20Points%20of%20Interest.pdf"
+    },
+    {
+      "id": "source:7cdf38bdad02",
+      "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-management/Magee%20Marsh%20Cradle%20of%20Wildlife%20pub008.pdf"
+    },
+    {
+      "id": "source:1a8a7a75e913",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/"
+    },
+    {
+      "id": "source:af37102bd340",
+      "url": "https://glenhelen.org/faqs/"
+    },
+    {
+      "id": "source:7be6a5a6dff2",
+      "url": "https://glenhelen.org/land-stewardship/"
+    },
+    {
+      "id": "source:0723305fd545",
+      "url": "https://www.ohiohistory.org/visit/special-attractions/world-heritage-site/"
+    },
+    {
+      "id": "source:26a28d3ab445",
+      "url": "https://rockhall.com/library/"
+    },
+    {
+      "id": "source:36a1fc18d246",
+      "url": "https://www.clevelandart.org/"
+    },
+    {
+      "id": "source:2c83235fc91d",
+      "url": "https://www.visitcincy.com/restaurants/beer-bourbon-bites/"
+    },
+    {
+      "id": "source:9f3c319f6e6f",
+      "url": "https://www.clevelandorchestra.com/venues/severance-music-center"
+    },
+    {
+      "id": "source:723d0633b971",
+      "url": "https://www.clevelandorchestra.com/posts/miss-baldwins-opus-the-early-history-of-the-cleveland-orchestras-education-programs"
+    },
+    {
+      "id": "source:48a13dd8c32b",
+      "url": "https://freedomcenter.org/visit/permanent-exhibits/in-this-place/"
+    },
+    {
+      "id": "source:3a731cd018ec",
+      "url": "https://freedomcenter.org/wp-content/uploads/2023/04/MapHighlightsTour_8.5x11_2304083_v01_Evergreen-Web.pdf"
+    },
+    {
+      "id": "source:12809615c67b",
+      "url": "https://westsidemarket.org/about/market-history/"
+    },
+    {
+      "id": "source:d1f4501f2abb",
+      "url": "https://westsidemarket.org/about/market-history/self-guided-historical-tour/people/"
+    },
+    {
+      "id": "source:78be97d1d8fc",
+      "url": "https://cartoons.osu.edu/"
+    },
+    {
+      "id": "source:9e30a0e94d77",
+      "url": "https://cartoons.osu.edu/location-hours"
+    },
+    {
+      "id": "source:d1499246eed5",
+      "url": "https://www.americansignmuseum.org/explore"
+    },
+    {
+      "id": "source:161db9646142",
+      "url": "https://www.americansignmuseum.org/collection/"
+    },
+    {
+      "id": "source:d9b49fecaefb",
+      "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall"
+    },
+    {
+      "id": "source:0b15bee89bee",
+      "url": "https://www.bea.gov/data/gdp/gdp-state"
+    },
+    {
+      "id": "source:440edf6e5e89",
+      "url": "https://www.jobsohio.com/industries/advanced-manufacturing"
+    },
+    {
+      "id": "source:a7488427e5c3",
+      "url": "https://www.census.gov/quickfacts/OH"
+    },
+    {
+      "id": "source:dcb65b96c1c3",
+      "url": "https://www.jobsohio.com/industries/logistics-and-distribution"
+    },
+    {
+      "id": "source:1229605d8cb9",
+      "url": "https://www.toledoport.org/port-of-toledo"
+    },
+    {
+      "id": "source:b3c7c21f6f0c",
+      "url": "https://www.jobsohio.com/industries/advanced-aerospace-defense"
+    },
+    {
+      "id": "source:6e491931ca45",
+      "url": "https://www.jobsohio.com/industries/automotive"
+    },
+    {
+      "id": "source:66564ad23525",
+      "url": "https://www.jobsohio.com/industries/healthcare"
+    },
+    {
+      "id": "source:f9e06f1adb89",
+      "url": "https://www.jobsohio.com/industries/food-and-agribusiness"
+    },
+    {
+      "id": "source:43bcc484ce0c",
+      "url": "https://www.jobsohio.com/industries/technology"
+    },
+    {
+      "id": "source:67cc7f128dc2",
+      "url": "https://www.jobsohio.com/industries/energy-chemicals"
+    },
+    {
+      "id": "source:1b65b9fd42e6",
+      "url": "https://www.nasa.gov/directorates/armd/aetc/icing-research-tunnel/"
+    },
+    {
+      "id": "source:186382792534",
+      "url": "https://www.nasa.gov/glenn/"
+    },
+    {
+      "id": "source:42ddb59f033e",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/museum-of-ceramics/"
+    },
+    {
+      "id": "source:90f7f9463f72",
+      "url": "https://www.americanwhistle.com/pages/what-to-expect"
+    },
+    {
+      "id": "source:d6157c4bfb9a",
+      "url": "https://rookwood.com/pages/about-rookwood"
+    },
+    {
+      "id": "source:a8aa6b3a6e8d",
+      "url": "https://corporate.goodyear.com/us/en/company/history.html"
+    },
+    {
+      "id": "source:05f8d798a408",
+      "url": "https://corporate.goodyear.com/us/en/products-and-innovations/technologies.html"
+    },
+    {
+      "id": "source:ba297e25475e",
+      "url": "https://www.ling.ohio-state.edu/ohiospeaks/about.html"
+    },
+    {
+      "id": "source:96d0033e85e3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10501805/"
+    },
+    {
+      "id": "source:dae575730dc7",
+      "url": "https://www.ohio.edu/news/2022/04/students-search-linguistic-answers-southern-ohio-language-project"
+    },
+    {
+      "id": "source:51e1893663c4",
+      "url": "https://www.ohio.edu/scripps-college/journalism/e-w-scripps-school-journalism-ohio-pronunciation-guide-1"
+    },
+    {
+      "id": "source:f4363cc1bc8c",
+      "url": "https://education.ohio.gov/Topics/Student-Supports/English-Learners"
+    },
+    {
+      "id": "source:9dab685b3847",
+      "url": "https://ideaexchange.uakron.edu/amishstudies/vol7/iss1/11/"
+    },
+    {
+      "id": "source:bdd85ea4de31",
+      "url": "https://www.legislature.ohio.gov/publications/ohio-government-websites"
+    },
+    {
+      "id": "source:0a6763f7ea85",
+      "url": "https://www.legislature.ohio.gov/"
+    },
+    {
+      "id": "source:263c8cc31fe3",
+      "url": "https://www.supremecourt.ohio.gov/courts/judicial-system-structure/"
+    },
+    {
+      "id": "source:cc3e93c98786",
+      "url": "https://codes.ohio.gov/ohio-constitution/article-18"
+    },
+    {
+      "id": "source:62fbbde6a771",
+      "url": "https://codes.ohio.gov/ohio-revised-code/chapter-505"
+    },
+    {
+      "id": "source:d68d58647831",
+      "url": "https://ohiostatehouse.org/museum/museum-education-center"
+    },
+    {
+      "id": "source:e6441a84bf83",
+      "url": "https://www.ohiostatehouse.org/visit/school-and-group-tours"
+    },
+    {
+      "id": "source:790e4d776823",
+      "url": "https://dam.assets.ohio.gov/image/upload/highered.ohio.gov/odhe/OhioPublicInstitutionsMap_111925.pdf"
+    },
+    {
+      "id": "source:26b158161245",
+      "url": "https://www.ohio.edu/research"
+    },
+    {
+      "id": "source:4be28be41eb3",
+      "url": "https://education.ohio.gov/"
+    },
+    {
+      "id": "source:08bbd08a614a",
+      "url": "https://catalog.library.ohio.gov/"
+    },
+    {
+      "id": "source:2cfe4c57c885",
+      "url": "https://apps.oac.ohio.gov/aboutOAC/"
+    },
+    {
+      "id": "source:609e7a53b1f7",
+      "url": "https://www.ohiolink.edu/content/ohiolink_shared_collections"
+    },
+    {
+      "id": "source:5a84f039b643",
+      "url": "https://www.ohiolink.edu/content/frequently_asked_questions"
+    },
+    {
+      "id": "source:4e1e13a2e7d0",
+      "url": "https://cosi.org/exhibits/classic-exhibits/gadgets"
+    },
+    {
+      "id": "source:1ff2c4fed218",
+      "url": "https://cosi.org/exhibits/classic-exhibits/ocean"
+    },
+    {
+      "id": "source:1d1bdf0cc53d",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/national-afro-american-museum-cultural-center/"
+    },
+    {
+      "id": "source:517571899cf6",
+      "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/rocky-river-reservation/rocky-river-nature-center"
+    },
+    {
+      "id": "source:548c7270b5f0",
+      "url": "https://cms.clevelandmetroparks.com/parks/education/education-programs/group-programs"
+    },
+    {
+      "id": "source:428d53229cfb",
+      "url": "https://www.metroparks.org/wp-content/uploads/2025/03/Possum-Creek-Community-Garden-Info_Rules.pdf"
+    },
+    {
+      "id": "source:a7e4ee79c849",
+      "url": "https://www.metroparks.org/wp-content/uploads/2025/06/2024_FRMPAnnualReport_v4WebPages.pdf"
+    },
+    {
+      "id": "source:a19b8dd976fa",
+      "url": "https://appalachian-english.library.sc.edu/node/784.html"
+    },
+    {
+      "id": "source:43b5ffb6701f",
+      "url": "https://travellinghan.com/2026/03/11/cincinnati-ohio-a-2-day-itinerary-for-first-time-visitors/"
+    },
+    {
+      "id": "source:668b7749a77a",
+      "url": "https://www.findlaymarket.org/"
+    },
+    {
+      "id": "source:d6f3964ef5ae",
+      "url": "https://www.1001colors.org/discover/public-art-gallery/map"
+    },
+    {
+      "id": "source:8e3ff34cee29",
+      "url": "https://www.cincinnatiarts.org/plan-your-visit/visit-music-hall"
+    },
+    {
+      "id": "source:9e83bf597a6f",
+      "url": "https://vendorselfservice.cincinnati-oh.gov/streetcar/how-to-ride/"
+    },
+    {
+      "id": "source:93148660c377",
+      "url": "https://www.ohiomagazine.com/travel/article/take-off-and-explore-dayton-s-aviation-trail"
+    },
+    {
+      "id": "source:9cfd07f7b8af",
+      "url": "https://www.nps.gov/daav/learn/historyculture/wright-cycle-company-complex.htm"
+    },
+    {
+      "id": "source:1d92d2970c60",
+      "url": "https://www.nps.gov/daav/index.htm"
+    },
+    {
+      "id": "source:9b29710edda5",
+      "url": "https://visitnaha.com/itinerary/day-trip-wright-dunbar-neighborhood/"
+    },
+    {
+      "id": "source:194328dc025b",
+      "url": "https://www.nationalmuseum.af.mil/Visit/Mus/"
+    },
+    {
+      "id": "source:208e91e8b76b",
+      "url": "https://clevelandtraveler.com/cuyahoga-valley-national-park-itinerary/"
+    },
+    {
+      "id": "source:0089bc401442",
+      "url": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm"
+    },
+    {
+      "id": "source:6445306a5a08",
+      "url": "https://home.nps.gov/cuva/planyourvisit/conditions.htm"
+    },
+    {
+      "id": "source:1bd9eb44738d",
+      "url": "https://www.nps.gov/cuva/planyourvisit/parking.htm"
+    },
+    {
+      "id": "source:9516e9a0b1fc",
+      "url": "https://www.findingtheuniverse.com/days-in-sandusky-ohio-visiting-shores-islands-cedar-point/"
+    },
+    {
+      "id": "source:0cc533d484c6",
+      "url": "https://followthepiper.com/how-to-spend-a-perfect-weekend-in-sandusky-ohio/"
+    },
+    {
+      "id": "source:eff0058f0693",
+      "url": "https://www.cedarpoint.com/plan-a-visit/park-map"
+    },
+    {
+      "id": "source:4fe0326712dc",
+      "url": "https://www.shoresandislands.com/communities/central-shores/"
+    },
+    {
+      "id": "source:7047f46f4c94",
+      "url": "https://www.shoresandislands.com/blog/post/sanduskys-ties-to-the-underground-railroad/"
+    },
+    {
+      "id": "source:5ba0acf258d0",
+      "url": "https://thewhistlefactory.com/how-whistles-are-made"
+    },
+    {
+      "id": "source:e1139ccc0d38",
+      "url": "https://thewhistlefactory.com/"
+    },
+    {
+      "id": "source:a4c48f4c9012",
+      "url": "https://thewhistlefactory.com/how-whistles-work"
+    },
+    {
+      "id": "source:747b125e98e3",
+      "url": "https://rookwood.com/"
+    },
+    {
+      "id": "source:1e53152984c1",
+      "url": "https://collection.cincinnatiartmuseum.org/objects/6693/vase"
+    },
+    {
+      "id": "source:d91f1feabb36",
+      "url": "https://store.toledomuseum.org/products/the-glass-pavilion"
+    },
+    {
+      "id": "source:1dd62d565327",
+      "url": "https://emuseum.toledomuseum.org/objects/54687/implosionexplosion"
+    },
+    {
+      "id": "source:66ddd394a16e",
+      "url": "https://emuseum.toledomuseum.org/objects/60404/rhomboid-head"
+    },
+    {
+      "id": "source:d3c6d84efc2c",
+      "url": "https://emuseum.toledomuseum.org/objects/73202/small-vase-from-the-first-toledo-studio-glass-workshop"
+    },
+    {
+      "id": "source:e651e920ffde",
+      "url": "https://www.goodyearheights.org/history"
+    },
+    {
+      "id": "source:f7093a449f30",
+      "url": "https://blogs.uakron.edu/uapress/product/labor-in-akron-1825-1945/"
+    },
+    {
+      "id": "source:b22e0578fa04",
+      "url": "https://blogs.uakron.edu/archives/buildingbuchtel-theflourishing/"
+    },
+    {
+      "id": "source:89b67fe60a77",
+      "url": "https://www.uakron.edu/im/news/college-of-polymer-science-and-polymer-engineering-from-rubber-to-sustainable-polymers-leading-the-field-for-more-than-a-century/"
+    },
+    {
+      "id": "source:0a88fe931a42",
+      "url": "https://www.empress-chili.com/"
+    },
+    {
+      "id": "source:49b153a95f28",
+      "url": "https://www.visitcincy.com/plan-your-visit/trip-ideas-culture-guides/food-and-drink-scene/"
+    },
+    {
+      "id": "source:57276d5b0123",
+      "url": "https://www.ohiomagazine.com/food-drink/article/how-the-coney-became-a-cincinnati-favorite"
+    },
+    {
+      "id": "source:dbe2637c173d",
+      "url": "https://ohiostatebuckeyes.com/sports/2018/6/1/what-is-a-buckeye"
+    },
+    {
+      "id": "source:c63f1cdf0fd9",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5.05"
+    },
+    {
+      "id": "source:321dfad15506",
+      "url": "https://www.experiencecolumbus.com/blog/post/the-history-of-the-buckeye-candy-in-columbus/"
+    },
+    {
+      "id": "source:16d5e471ceeb",
+      "url": "https://library.osu.edu/documents/university-archives/subject_files/buckeye_candy.pdf"
+    },
+    {
+      "id": "source:b285e7bc8ab5",
+      "url": "https://westsidemarket.org/about/"
+    },
+    {
+      "id": "source:e66d978ea337",
+      "url": "https://clevelandhistorical.org/items/show/67"
+    },
+    {
+      "id": "source:d6a49830fe86",
+      "url": "https://www.columbuslibrary.org/wp-content/uploads/2025/10/Media-Fact-Sheet.pdf"
+    },
+    {
+      "id": "source:89bb865d3a64",
+      "url": "https://www.columbuslibrary.org/wp-content/uploads/2024/11/CML-Building-Libraries-for-the-21st-Century-Community.pdf"
+    },
+    {
+      "id": "source:edfc75e3bfab",
+      "url": "https://www.columbuslibrary.org/house-history/"
+    },
+    {
+      "id": "source:171550568ba0",
+      "url": "https://www.columbuslibrary.org/about/"
+    },
+    {
+      "id": "source:44895e9af573",
+      "url": "https://reservations.metroparks.org/program-registration/?epr=QbOE"
+    },
+    {
+      "id": "source:7dd053f846c2",
+      "url": "https://www.metroparks.org/wp-content/uploads/2016/04/metroparks-Possum-Creek-brochure-08-2015.pdf"
+    },
+    {
+      "id": "source:ede1787bcddb",
+      "url": "https://www.ohio.edu/about/history-traditions"
+    },
+    {
+      "id": "source:29584ee3d5de",
+      "url": "https://www.ohio.edu/admissions/visit/plan-your-visit"
+    },
+    {
+      "id": "source:5c1739058d79",
+      "url": "https://www.ohio.edu/athens-community"
+    },
+    {
+      "id": "source:60ddb2dbd634",
+      "url": "https://www.ohio.edu/food/baker-center"
+    }
+  ]
+}

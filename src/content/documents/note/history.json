@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:history",
+    "slug": "history",
+    "kind": "note",
+    "title": "A layered history",
+    "summary": "There’s a deeper story beneath every familiar landmark. Ohio’s history includes Indigenous nations, forced displacement, migration, industry, reform, and communities still shaping what comes next.",
+    "canonicalPath": "/explore#history",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-past"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:8cbd0c859f2b",
+        "label": "Ohio History Connection"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/history.json",
+    "sectionId": "discover",
+    "kicker": "ANCIENT EARTHWORKS · STATEHOOD",
+    "order": 3
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Let’s begin before statehood. Indigenous peoples have lived in this land for thousands of years, and the ancient earthworks reflect sophisticated communities and far-reaching exchange. Later expansion brought warfare, treaties, and forced removal of Native nations. Those histories belong at the center of the story, alongside the continuing lives and voices of Indigenous peoples."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio joined the Union in 1803 as the seventeenth state. Canals and railroads connected farms and cities to wider markets; industry grew, and the Underground Railroad and abolitionist organizing became important parts of its history. Its story holds achievements and painful conflicts, shaped by the people behind each chapter."
+    }
+  ]
+}

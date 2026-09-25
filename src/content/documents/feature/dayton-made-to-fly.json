@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "feature:dayton-made-to-fly",
+    "slug": "dayton-made-to-fly",
+    "kind": "feature",
+    "title": "What took flight.",
+    "summary": "Two days in Dayton, with bicycles, a printing press, and airplanes that might make you forget to check the time.",
+    "canonicalPath": "/journal/dayton-made-to-fly",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "dayton"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:93148660c377",
+        "label": "Ohio Magazine · Dayton aviation trail",
+        "kind": "Local guide"
+      },
+      {
+        "id": "source:9cfd07f7b8af",
+        "label": "National Park Service · Wright Cycle Company Complex",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:1d92d2970c60",
+        "label": "National Park Service · Dayton Aviation Heritage",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:9b29710edda5",
+        "label": "National Aviation Heritage Area · Wright-Dunbar day trip",
+        "kind": "Local guide"
+      },
+      {
+        "id": "source:194328dc025b",
+        "label": "National Museum of the U.S. Air Force · visit",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/dayton-made-to-fly.json",
+    "category": "guides",
+    "location": "Dayton · Wright-Dunbar and beyond",
+    "duration": "Two days",
+    "readTime": "4 min read",
+    "coverMediaId": "media:dayton-made-to-fly",
+    "coverAlt": "Illustration of an early biplane model and bicycle wheel on a workshop bench",
+    "titleAccent": "what took flight.",
+    "recommendations": [
+      {
+        "id": "feature:akron-rubber",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:toledo-glass",
+        "reason": "A closer look at an Ohio maker"
+      }
+    ],
+    "order": 73
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Before we look up, let’s start in the workshop. Dayton’s flight story has bicycles and printing presses in it, and people whose work deserves a closer look. We’ll spend the first day around Wright-Dunbar and Carillon, then give the Air Force museum a day of its own. Bring your curiosity; those enormous galleries can keep it busy. ♡"
+    },
+    {
+      "type": "heading",
+      "id": "wright-dunbar",
+      "title": "Start with a printing press and bicycles",
+      "eyebrow": "Day one · morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Let’s begin at the Wright-Dunbar Interpretive Center and the neighboring Wright Cycle Company building. The Wright brothers had a printing business before their bicycle shop. They printed a newspaper for Paul Laurence Dunbar, who edited it for Dayton’s Black community. Look at the tools and the everyday work around the inventions. There were customers and deadlines here before there were aircraft."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spend time with Dunbar’s story at the center too. He was a writer with an international reputation, not a footnote to somebody else’s invention. To tour his house, plan a separate stop and check the National Park Service schedule. A slow morning here gives the later aircraft more human scale."
+    },
+    {
+      "type": "heading",
+      "id": "carillon",
+      "title": "Meet the airplane that kept improving",
+      "eyebrow": "Day one · afternoon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Next stop: Carillon Historical Park and the Wright Flyer III. Remember, the 1903 first flight happened in North Carolina. The brothers continued their experiments around Dayton, and the 1905 airplane shows how much work followed that first lift off the ground. Take your time with it. I think the changes become more interesting after a morning in the workshop."
+    },
+    {
+      "type": "paragraph",
+      "text": "Carillon also tells wider Dayton stories, so leave a little time to wander after the airplane. Finish the day with dinner in town. If you still have energy for one more aviation stop, save it for tomorrow; the museum ahead is far larger than it looks on a trip plan."
+    },
+    {
+      "type": "characterAside",
+      "title": "One for another day?",
+      "text": "Huffman Prairie belongs in the Wright story too. Save it for a separate stop if the museum fills your day. We can be curious without being in a hurry."
+    },
+    {
+      "type": "heading",
+      "id": "museum",
+      "title": "Give the Air Force museum its own day",
+      "eyebrow": "Day two"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leave today open for the National Museum of the U.S. Air Force. Start with early flight if you want to pick up yesterday’s thread, then follow the aircraft or period that interests you. The galleries stretch through military aviation and space history. There’s no prize for finishing every label; choose a few things you really want to understand."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pause for lunch and build in time to sit down. A museum this large rewards a second pass at a favorite gallery more than a frantic march to its farthest corner. If you're traveling with someone whose interests differ from yours, pick a meeting spot and compare discoveries afterward. There is a surprising amount to talk about over dinner."
+    },
+    {
+      "type": "heading",
+      "id": "meaning",
+      "title": "Keep the whole story in view",
+      "eyebrow": "On the way home"
+    },
+    {
+      "type": "paragraph",
+      "text": "On the way back, think about which stop stayed with you. The sites are spread around Dayton, but we’ve followed a thread from local businesses and experiments to the much larger history of aviation. Some museum stories are difficult military histories. Give those room too; the lives behind an aircraft matter as much as the machine."
+    },
+    {
+      "type": "paragraph",
+      "text": "And if your favorite moment turns out to be a bicycle workshop rather than a jet, that makes perfect sense. Flight here began with people making things, learning from mistakes, and trying again."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Duration",
+          "text": "Two days, with the Air Force museum given most of day two."
+        },
+        {
+          "label": "Getting around",
+          "text": "Plan on a car or rides between Wright-Dunbar, Carillon, and the Air Force museum."
+        },
+        {
+          "label": "Before you go",
+          "text": "Check each site's opening schedule. The Dunbar House has limited tour days, and Carillon has a separate admission from National Park Service sites."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A bicycle shop can be the beginning of quite a trip. Ready to look at ordinary things a little differently? ♡"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:columbus-whistle-factory",
+    "slug": "columbus-whistle-factory",
+    "kind": "note",
+    "title": "A whistle from Columbus",
+    "summary": "That little whistle has quite a making story. Columbus turns brass into a clear, piercing signal.",
+    "canonicalPath": "/make#columbus-whistle-factory",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:90f7f9463f72",
+        "label": "American Whistle Corporation · Factory tour"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/columbus-whistle-factory.json",
+    "sectionId": "industry",
+    "kicker": "COLUMBUS · BRASS & PRECISION",
+    "order": 46
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "That little whistle has a surprisingly satisfying journey; let me bring you closer. American Whistle Corporation has made metal whistles in Columbus since 1956. Its factory tour follows brass through stamping, forming, assembly, and inspection; the company says each whistle is blown and checked by hand before it leaves. Shape, air, sound, and careful testing all have to meet in an object small enough to hold between two fingers."
+    },
+    {
+      "type": "paragraph",
+      "text": "The tour also shows the machines built for this particular job and the packaging that sends finished whistles outward. I’d pause at the quality check; hearing a familiar sound emerge from factory work makes the process easy to remember. Tours must be booked in advance, so use the maker's current tour page if you'd like to see the floor yourself."
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+[
+  {
+    "id": "source:4a13e4c82f15",
+    "url": "https://home.nps.gov/articles/000/learn-about-geology-rocks-ice-river.htm",
+    "title": "National Park Service · Ohio geology"
+  },
+  {
+    "id": "source:523dc265135f",
+    "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/Ohio-State-Parks-Brochure.pdf",
+    "title": "Ohio Department of Natural Resources · Statewide map"
+  },
+  {
+    "id": "source:8cbd0c859f2b",
+    "url": "https://www.ohiohistory.org/learn/ohio-history/",
+    "title": "Ohio History Connection"
+  },
+  {
+    "id": "source:d70fc01fd709",
+    "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5",
+    "title": "Ohio Revised Code §5.01 and §5.03"
+  },
+  {
+    "id": "source:958ecaa94a21",
+    "url": "https://www.explorehockinghills.com/",
+    "title": "Hocking Hills Tourism Association"
+  },
+  {
+    "id": "source:9a0e778d69a0",
+    "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
+    "title": "National Park Service"
+  },
+  {
+    "id": "source:8a99d2f30d01",
+    "url": "https://www.shoresandislands.com/communities/islands/",
+    "title": "Shores & Islands Ohio"
+  },
+  {
+    "id": "source:f9eda4aefb7d",
+    "url": "https://www.thisiscleveland.com/",
+    "title": "Destination Cleveland"
+  },
+  {
+    "id": "source:e0527e33fc24",
+    "url": "https://www.experiencecolumbus.com/things-to-do/",
+    "title": "Experience Columbus"
+  },
+  {
+    "id": "source:57ebd841ae91",
+    "url": "https://www.visitcincy.com/",
+    "title": "Visit Cincy"
+  },
+  {
+    "id": "source:0fcbde59e057",
+    "url": "https://www.nps.gov/daav/planyourvisit/index.htm",
+    "title": "National Park Service"
+  },
+  {
+    "id": "source:a256e99fd8bc",
+    "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/marbleheadlighthouseparkmap.pdf",
+    "title": "Ohio Department of Natural Resources · Marblehead Lighthouse park map"
+  },
+  {
+    "id": "source:c9c2947bbb46",
+    "url": "https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/Lighthouses-Light-Stations/Article/1962158/marblehead-lighthouse-oh/",
+    "title": "U.S. Coast Guard · Marblehead Lighthouse"
+  },
+  {
+    "id": "source:759fb451d8f1",
+    "url": "https://www.monroecountyohio.net/departments/parks_and_recreation/covered_bridge_byway.php",
+    "title": "Monroe County · Covered Bridge Byway"
+  },
+  {
+    "id": "source:d282e7ecc0a1",
+    "url": "https://www.fs.usda.gov/sites/nfs/files/legacy-media/wayne/Storied%20Hills%20-%20The%20Wayne%20National%20Forest%20PDF%20Version.pdf",
+    "title": "U.S. Forest Service · Storied Hills"
+  },
+  {
+    "id": "source:34ffc9314765",
+    "url": "https://toledomuseum.org/",
+    "title": "Toledo Museum of Art · Visit and gallery updates"
+  },
+  {
+    "id": "source:347b1fd24bc5",
+    "url": "https://toledomuseum.org/learn/",
+    "title": "Toledo Museum of Art · Glass Studio and learning"
+  },
+  {
+    "id": "source:d3e4fdf63df2",
+    "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/Magee%20Marsh%20Trail%20Map%20Points%20of%20Interest.pdf",
+    "title": "Ohio Department of Natural Resources · Magee Marsh trail map"
+  },
+  {
+    "id": "source:7cdf38bdad02",
+    "url": "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-management/Magee%20Marsh%20Cradle%20of%20Wildlife%20pub008.pdf",
+    "title": "Ohio Department of Natural Resources · Magee Marsh bird trail"
+  },
+  {
+    "id": "source:1a8a7a75e913",
+    "url": "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/",
+    "title": "Ohio History Connection · Serpent Mound"
+  },
+  {
+    "id": "source:af37102bd340",
+    "url": "https://glenhelen.org/faqs/",
+    "title": "Glen Helen Nature Preserve · Visitor FAQ"
+  },
+  {
+    "id": "source:7be6a5a6dff2",
+    "url": "https://glenhelen.org/land-stewardship/",
+    "title": "Glen Helen Nature Preserve · Land stewardship"
+  },
+  {
+    "id": "source:0723305fd545",
+    "url": "https://www.ohiohistory.org/visit/special-attractions/world-heritage-site/",
+    "title": "Ohio History Connection"
+  },
+  {
+    "id": "source:26a28d3ab445",
+    "url": "https://rockhall.com/library/",
+    "title": "Rock & Roll Hall of Fame"
+  },
+  {
+    "id": "source:36a1fc18d246",
+    "url": "https://www.clevelandart.org/",
+    "title": "Cleveland Museum of Art"
+  },
+  {
+    "id": "source:2c83235fc91d",
+    "url": "https://www.visitcincy.com/restaurants/beer-bourbon-bites/",
+    "title": "Visit Cincy"
+  },
+  {
+    "id": "source:9f3c319f6e6f",
+    "url": "https://www.clevelandorchestra.com/venues/severance-music-center",
+    "title": "The Cleveland Orchestra · Severance Music Center"
+  },
+  {
+    "id": "source:723d0633b971",
+    "url": "https://www.clevelandorchestra.com/posts/miss-baldwins-opus-the-early-history-of-the-cleveland-orchestras-education-programs",
+    "title": "The Cleveland Orchestra · Education history"
+  },
+  {
+    "id": "source:48a13dd8c32b",
+    "url": "https://freedomcenter.org/visit/permanent-exhibits/in-this-place/",
+    "title": "National Underground Railroad Freedom Center · In This Place"
+  },
+  {
+    "id": "source:3a731cd018ec",
+    "url": "https://freedomcenter.org/wp-content/uploads/2023/04/MapHighlightsTour_8.5x11_2304083_v01_Evergreen-Web.pdf",
+    "title": "National Underground Railroad Freedom Center · Self-guided tour"
+  },
+  {
+    "id": "source:12809615c67b",
+    "url": "https://westsidemarket.org/about/market-history/",
+    "title": "West Side Market · Market History"
+  },
+  {
+    "id": "source:d1f4501f2abb",
+    "url": "https://westsidemarket.org/about/market-history/self-guided-historical-tour/people/",
+    "title": "West Side Market · People's Stories"
+  },
+  {
+    "id": "source:78be97d1d8fc",
+    "url": "https://cartoons.osu.edu/",
+    "title": "Billy Ireland Cartoon Library & Museum · About"
+  },
+  {
+    "id": "source:9e30a0e94d77",
+    "url": "https://cartoons.osu.edu/location-hours",
+    "title": "Billy Ireland Cartoon Library & Museum · Location & Hours"
+  },
+  {
+    "id": "source:d1499246eed5",
+    "url": "https://www.americansignmuseum.org/explore",
+    "title": "American Sign Museum · Explore"
+  },
+  {
+    "id": "source:161db9646142",
+    "url": "https://www.americansignmuseum.org/collection/",
+    "title": "American Sign Museum · Collection"
+  },
+  {
+    "id": "source:d9b49fecaefb",
+    "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall",
+    "title": "Cincinnati Arts Association · About Music Hall"
+  },
+  {
+    "id": "source:0b15bee89bee",
+    "url": "https://www.bea.gov/data/gdp/gdp-state",
+    "title": "U.S. Bureau of Economic Analysis"
+  },
+  {
+    "id": "source:440edf6e5e89",
+    "url": "https://www.jobsohio.com/industries/advanced-manufacturing",
+    "title": "JobsOhio · Advanced Manufacturing"
+  },
+  {
+    "id": "source:a7488427e5c3",
+    "url": "https://www.census.gov/quickfacts/OH",
+    "title": "U.S. Census Bureau · QuickFacts"
+  },
+  {
+    "id": "source:dcb65b96c1c3",
+    "url": "https://www.jobsohio.com/industries/logistics-and-distribution",
+    "title": "JobsOhio · Logistics & Distribution"
+  },
+  {
+    "id": "source:1229605d8cb9",
+    "url": "https://www.toledoport.org/port-of-toledo",
+    "title": "Toledo-Lucas County Port Authority · Port of Toledo"
+  },
+  {
+    "id": "source:b3c7c21f6f0c",
+    "url": "https://www.jobsohio.com/industries/advanced-aerospace-defense",
+    "title": "JobsOhio · Aerospace & Defense"
+  },
+  {
+    "id": "source:6e491931ca45",
+    "url": "https://www.jobsohio.com/industries/automotive",
+    "title": "JobsOhio · Automotive"
+  },
+  {
+    "id": "source:66564ad23525",
+    "url": "https://www.jobsohio.com/industries/healthcare",
+    "title": "JobsOhio · Healthcare"
+  },
+  {
+    "id": "source:f9e06f1adb89",
+    "url": "https://www.jobsohio.com/industries/food-and-agribusiness",
+    "title": "JobsOhio · Food & Agribusiness"
+  },
+  {
+    "id": "source:43bcc484ce0c",
+    "url": "https://www.jobsohio.com/industries/technology",
+    "title": "JobsOhio · Technology"
+  },
+  {
+    "id": "source:67cc7f128dc2",
+    "url": "https://www.jobsohio.com/industries/energy-chemicals",
+    "title": "JobsOhio · Energy & Chemicals"
+  },
+  {
+    "id": "source:1b65b9fd42e6",
+    "url": "https://www.nasa.gov/directorates/armd/aetc/icing-research-tunnel/",
+    "title": "NASA · Icing Research Tunnel"
+  },
+  {
+    "id": "source:186382792534",
+    "url": "https://www.nasa.gov/glenn/",
+    "title": "NASA · Glenn Research Center"
+  },
+  {
+    "id": "source:42ddb59f033e",
+    "url": "https://www.ohiohistory.org/visit/browse-historical-sites/museum-of-ceramics/",
+    "title": "Ohio History Connection · Museum of Ceramics"
+  },
+  {
+    "id": "source:90f7f9463f72",
+    "url": "https://www.americanwhistle.com/pages/what-to-expect",
+    "title": "American Whistle Corporation · Factory tour"
+  },
+  {
+    "id": "source:d6157c4bfb9a",
+    "url": "https://rookwood.com/pages/about-rookwood",
+    "title": "Rookwood Pottery · About Rookwood"
+  },
+  {
+    "id": "source:a8aa6b3a6e8d",
+    "url": "https://corporate.goodyear.com/us/en/company/history.html",
+    "title": "Goodyear Corporate · History"
+  },
+  {
+    "id": "source:05f8d798a408",
+    "url": "https://corporate.goodyear.com/us/en/products-and-innovations/technologies.html",
+    "title": "Goodyear Corporate · Technologies"
+  },
+  {
+    "id": "source:ba297e25475e",
+    "url": "https://www.ling.ohio-state.edu/ohiospeaks/about.html",
+    "title": "Ohio State University · OhioSpeaks"
+  },
+  {
+    "id": "source:96d0033e85e3",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10501805/",
+    "title": "Regional dialect research"
+  },
+  {
+    "id": "source:dae575730dc7",
+    "url": "https://www.ohio.edu/news/2022/04/students-search-linguistic-answers-southern-ohio-language-project",
+    "title": "Ohio University · Southern Ohio Language Project"
+  },
+  {
+    "id": "source:51e1893663c4",
+    "url": "https://www.ohio.edu/scripps-college/journalism/e-w-scripps-school-journalism-ohio-pronunciation-guide-1",
+    "title": "E.W. Scripps School of Journalism, Ohio University"
+  },
+  {
+    "id": "source:f4363cc1bc8c",
+    "url": "https://education.ohio.gov/Topics/Student-Supports/English-Learners",
+    "title": "Ohio Department of Education and Workforce · English Learners"
+  },
+  {
+    "id": "source:9dab685b3847",
+    "url": "https://ideaexchange.uakron.edu/amishstudies/vol7/iss1/11/",
+    "title": "University of Akron · Holmes County language study"
+  },
+  {
+    "id": "source:bdd85ea4de31",
+    "url": "https://www.legislature.ohio.gov/publications/ohio-government-websites",
+    "title": "Ohio Legislature · Ohio Government Websites"
+  },
+  {
+    "id": "source:0a6763f7ea85",
+    "url": "https://www.legislature.ohio.gov/",
+    "title": "Ohio General Assembly"
+  },
+  {
+    "id": "source:263c8cc31fe3",
+    "url": "https://www.supremecourt.ohio.gov/courts/judicial-system-structure/",
+    "title": "Supreme Court of Ohio"
+  },
+  {
+    "id": "source:cc3e93c98786",
+    "url": "https://codes.ohio.gov/ohio-constitution/article-18",
+    "title": "Ohio Constitution · Local government"
+  },
+  {
+    "id": "source:62fbbde6a771",
+    "url": "https://codes.ohio.gov/ohio-revised-code/chapter-505",
+    "title": "Ohio Revised Code · Township trustees"
+  },
+  {
+    "id": "source:d68d58647831",
+    "url": "https://ohiostatehouse.org/museum/museum-education-center",
+    "title": "Ohio Statehouse · Museum Education Center"
+  },
+  {
+    "id": "source:e6441a84bf83",
+    "url": "https://www.ohiostatehouse.org/visit/school-and-group-tours",
+    "title": "Ohio Statehouse · School and group tours"
+  },
+  {
+    "id": "source:790e4d776823",
+    "url": "https://dam.assets.ohio.gov/image/upload/highered.ohio.gov/odhe/OhioPublicInstitutionsMap_111925.pdf",
+    "title": "Ohio Department of Higher Education · Institutions map"
+  },
+  {
+    "id": "source:26b158161245",
+    "url": "https://www.ohio.edu/research",
+    "title": "Ohio University · Research Division"
+  },
+  {
+    "id": "source:4be28be41eb3",
+    "url": "https://education.ohio.gov/",
+    "title": "Ohio Department of Education and Workforce"
+  },
+  {
+    "id": "source:08bbd08a614a",
+    "url": "https://catalog.library.ohio.gov/",
+    "title": "State Library of Ohio · Catalog"
+  },
+  {
+    "id": "source:2cfe4c57c885",
+    "url": "https://apps.oac.ohio.gov/aboutOAC/",
+    "title": "Ohio Arts Council"
+  },
+  {
+    "id": "source:609e7a53b1f7",
+    "url": "https://www.ohiolink.edu/content/ohiolink_shared_collections",
+    "title": "OhioLINK · Shared Collections"
+  },
+  {
+    "id": "source:5a84f039b643",
+    "url": "https://www.ohiolink.edu/content/frequently_asked_questions",
+    "title": "OhioLINK · Frequently Asked Questions"
+  },
+  {
+    "id": "source:4e1e13a2e7d0",
+    "url": "https://cosi.org/exhibits/classic-exhibits/gadgets",
+    "title": "COSI · Gadgets"
+  },
+  {
+    "id": "source:1ff2c4fed218",
+    "url": "https://cosi.org/exhibits/classic-exhibits/ocean",
+    "title": "COSI · Ocean"
+  },
+  {
+    "id": "source:1d1bdf0cc53d",
+    "url": "https://www.ohiohistory.org/visit/browse-historical-sites/national-afro-american-museum-cultural-center/",
+    "title": "Ohio History Connection · National Afro-American Museum & Cultural Center"
+  },
+  {
+    "id": "source:517571899cf6",
+    "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/rocky-river-reservation/rocky-river-nature-center",
+    "title": "Cleveland Metroparks · Rocky River Nature Center"
+  },
+  {
+    "id": "source:548c7270b5f0",
+    "url": "https://cms.clevelandmetroparks.com/parks/education/education-programs/group-programs",
+    "title": "Cleveland Metroparks · Group programs"
+  },
+  {
+    "id": "source:428d53229cfb",
+    "url": "https://www.metroparks.org/wp-content/uploads/2025/03/Possum-Creek-Community-Garden-Info_Rules.pdf",
+    "title": "Five Rivers MetroParks · Possum Creek community garden rules"
+  },
+  {
+    "id": "source:a7e4ee79c849",
+    "url": "https://www.metroparks.org/wp-content/uploads/2025/06/2024_FRMPAnnualReport_v4WebPages.pdf",
+    "title": "Five Rivers MetroParks · 2024 annual report"
+  },
+  {
+    "id": "source:a19b8dd976fa",
+    "url": "https://appalachian-english.library.sc.edu/node/784.html",
+    "title": "University of South Carolina · Encyclopedia of Appalachia, “Upper Ohio Valley Speech”"
+  },
+  {
+    "id": "source:43b5ffb6701f",
+    "url": "https://travellinghan.com/2026/03/11/cincinnati-ohio-a-2-day-itinerary-for-first-time-visitors/",
+    "title": "Travelling Han · Cincinnati two-day itinerary"
+  },
+  {
+    "id": "source:668b7749a77a",
+    "url": "https://www.findlaymarket.org/",
+    "title": "Findlay Market · history and visitor information"
+  },
+  {
+    "id": "source:d6f3964ef5ae",
+    "url": "https://www.1001colors.org/discover/public-art-gallery/map",
+    "title": "ArtWorks · interactive public art map"
+  },
+  {
+    "id": "source:8e3ff34cee29",
+    "url": "https://www.cincinnatiarts.org/plan-your-visit/visit-music-hall",
+    "title": "Cincinnati Arts · visiting Music Hall"
+  },
+  {
+    "id": "source:9e83bf597a6f",
+    "url": "https://vendorselfservice.cincinnati-oh.gov/streetcar/how-to-ride/",
+    "title": "Cincinnati Connector · how to ride"
+  },
+  {
+    "id": "source:93148660c377",
+    "url": "https://www.ohiomagazine.com/travel/article/take-off-and-explore-dayton-s-aviation-trail",
+    "title": "Ohio Magazine · Dayton aviation trail"
+  },
+  {
+    "id": "source:9cfd07f7b8af",
+    "url": "https://www.nps.gov/daav/learn/historyculture/wright-cycle-company-complex.htm",
+    "title": "National Park Service · Wright Cycle Company Complex"
+  },
+  {
+    "id": "source:1d92d2970c60",
+    "url": "https://www.nps.gov/daav/index.htm",
+    "title": "National Park Service · Dayton Aviation Heritage"
+  },
+  {
+    "id": "source:9b29710edda5",
+    "url": "https://visitnaha.com/itinerary/day-trip-wright-dunbar-neighborhood/",
+    "title": "National Aviation Heritage Area · Wright-Dunbar day trip"
+  },
+  {
+    "id": "source:194328dc025b",
+    "url": "https://www.nationalmuseum.af.mil/Visit/Mus/",
+    "title": "National Museum of the U.S. Air Force · visit"
+  },
+  {
+    "id": "source:208e91e8b76b",
+    "url": "https://clevelandtraveler.com/cuyahoga-valley-national-park-itinerary/",
+    "title": "Cleveland Traveler · one-day Cuyahoga itinerary"
+  },
+  {
+    "id": "source:0089bc401442",
+    "url": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+    "title": "National Park Service · half-day visit"
+  },
+  {
+    "id": "source:6445306a5a08",
+    "url": "https://home.nps.gov/cuva/planyourvisit/conditions.htm",
+    "title": "National Park Service · current conditions"
+  },
+  {
+    "id": "source:1bd9eb44738d",
+    "url": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+    "title": "National Park Service · parking"
+  },
+  {
+    "id": "source:9516e9a0b1fc",
+    "url": "https://www.findingtheuniverse.com/days-in-sandusky-ohio-visiting-shores-islands-cedar-point/",
+    "title": "Finding the Universe · Sandusky three-day itinerary"
+  },
+  {
+    "id": "source:0cc533d484c6",
+    "url": "https://followthepiper.com/how-to-spend-a-perfect-weekend-in-sandusky-ohio/",
+    "title": "Follow the Piper · Sandusky weekend"
+  },
+  {
+    "id": "source:eff0058f0693",
+    "url": "https://www.cedarpoint.com/plan-a-visit/park-map",
+    "title": "Cedar Point · park map and directions"
+  },
+  {
+    "id": "source:4fe0326712dc",
+    "url": "https://www.shoresandislands.com/communities/central-shores/",
+    "title": "Shores & Islands Ohio · Sandusky"
+  },
+  {
+    "id": "source:7047f46f4c94",
+    "url": "https://www.shoresandislands.com/blog/post/sanduskys-ties-to-the-underground-railroad/",
+    "title": "Shores & Islands Ohio · Jackson Street Pier"
+  },
+  {
+    "id": "source:5ba0acf258d0",
+    "url": "https://thewhistlefactory.com/how-whistles-are-made",
+    "title": "American Whistle: how whistles are made"
+  },
+  {
+    "id": "source:e1139ccc0d38",
+    "url": "https://thewhistlefactory.com/",
+    "title": "American Whistle: factory and tours"
+  },
+  {
+    "id": "source:a4c48f4c9012",
+    "url": "https://thewhistlefactory.com/how-whistles-work",
+    "title": "American Whistle: how whistles work"
+  },
+  {
+    "id": "source:747b125e98e3",
+    "url": "https://rookwood.com/",
+    "title": "Rookwood Pottery: visit and programs"
+  },
+  {
+    "id": "source:1e53152984c1",
+    "url": "https://collection.cincinnatiartmuseum.org/objects/6693/vase",
+    "title": "Cincinnati Art Museum: Rookwood vase (1882)"
+  },
+  {
+    "id": "source:d91f1feabb36",
+    "url": "https://store.toledomuseum.org/products/the-glass-pavilion",
+    "title": "Toledo Museum of Art: Glass Pavilion publication"
+  },
+  {
+    "id": "source:1dd62d565327",
+    "url": "https://emuseum.toledomuseum.org/objects/54687/implosionexplosion",
+    "title": "Toledo Museum of Art: Harvey Littleton work"
+  },
+  {
+    "id": "source:66ddd394a16e",
+    "url": "https://emuseum.toledomuseum.org/objects/60404/rhomboid-head",
+    "title": "Toledo Museum of Art: Libenský and Brychtová work"
+  },
+  {
+    "id": "source:d3c6d84efc2c",
+    "url": "https://emuseum.toledomuseum.org/objects/73202/small-vase-from-the-first-toledo-studio-glass-workshop",
+    "title": "Toledo Museum of Art: a vase from the first 1962 workshop"
+  },
+  {
+    "id": "source:e651e920ffde",
+    "url": "https://www.goodyearheights.org/history",
+    "title": "Goodyear Heights: neighborhood history"
+  },
+  {
+    "id": "source:f7093a449f30",
+    "url": "https://blogs.uakron.edu/uapress/product/labor-in-akron-1825-1945/",
+    "title": "University of Akron Press: Labor in Akron, 1825–1945"
+  },
+  {
+    "id": "source:b22e0578fa04",
+    "url": "https://blogs.uakron.edu/archives/buildingbuchtel-theflourishing/",
+    "title": "University of Akron Archives: The Flourishing"
+  },
+  {
+    "id": "source:89b67fe60a77",
+    "url": "https://www.uakron.edu/im/news/college-of-polymer-science-and-polymer-engineering-from-rubber-to-sustainable-polymers-leading-the-field-for-more-than-a-century/",
+    "title": "University of Akron: from rubber chemistry to polymers"
+  },
+  {
+    "id": "source:0a88fe931a42",
+    "url": "https://www.empress-chili.com/",
+    "title": "Empress Chili: history"
+  },
+  {
+    "id": "source:49b153a95f28",
+    "url": "https://www.visitcincy.com/plan-your-visit/trip-ideas-culture-guides/food-and-drink-scene/",
+    "title": "Visit Cincy: food and drink scene"
+  },
+  {
+    "id": "source:57276d5b0123",
+    "url": "https://www.ohiomagazine.com/food-drink/article/how-the-coney-became-a-cincinnati-favorite",
+    "title": "Ohio Magazine: how the coney became a Cincinnati favorite"
+  },
+  {
+    "id": "source:dbe2637c173d",
+    "url": "https://ohiostatebuckeyes.com/sports/2018/6/1/what-is-a-buckeye",
+    "title": "Ohio State: what is a buckeye?"
+  },
+  {
+    "id": "source:c63f1cdf0fd9",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-5.05",
+    "title": "Ohio Revised Code: state tree"
+  },
+  {
+    "id": "source:321dfad15506",
+    "url": "https://www.experiencecolumbus.com/blog/post/the-history-of-the-buckeye-candy-in-columbus/",
+    "title": "Experience Columbus: history of the buckeye candy"
+  },
+  {
+    "id": "source:16d5e471ceeb",
+    "url": "https://library.osu.edu/documents/university-archives/subject_files/buckeye_candy.pdf",
+    "title": "Ohio State University Archives: buckeye candy clipping"
+  },
+  {
+    "id": "source:b285e7bc8ab5",
+    "url": "https://westsidemarket.org/about/",
+    "title": "West Side Market: vendors and offerings"
+  },
+  {
+    "id": "source:e66d978ea337",
+    "url": "https://clevelandhistorical.org/items/show/67",
+    "title": "Cleveland Historical: West Side Market"
+  },
+  {
+    "id": "source:d6a49830fe86",
+    "url": "https://www.columbuslibrary.org/wp-content/uploads/2025/10/Media-Fact-Sheet.pdf",
+    "title": "Columbus Metropolitan Library: fact sheet and history"
+  },
+  {
+    "id": "source:89bb865d3a64",
+    "url": "https://www.columbuslibrary.org/wp-content/uploads/2024/11/CML-Building-Libraries-for-the-21st-Century-Community.pdf",
+    "title": "Columbus Metropolitan Library: community buildings"
+  },
+  {
+    "id": "source:edfc75e3bfab",
+    "url": "https://www.columbuslibrary.org/house-history/",
+    "title": "Columbus Metropolitan Library: house history research"
+  },
+  {
+    "id": "source:171550568ba0",
+    "url": "https://www.columbuslibrary.org/about/",
+    "title": "Columbus Metropolitan Library: about and services"
+  },
+  {
+    "id": "source:44895e9af573",
+    "url": "https://reservations.metroparks.org/program-registration/?epr=QbOE",
+    "title": "Five Rivers MetroParks: garden registration"
+  },
+  {
+    "id": "source:7dd053f846c2",
+    "url": "https://www.metroparks.org/wp-content/uploads/2016/04/metroparks-Possum-Creek-brochure-08-2015.pdf",
+    "title": "Five Rivers MetroParks: Possum Creek brochure"
+  },
+  {
+    "id": "source:ede1787bcddb",
+    "url": "https://www.ohio.edu/about/history-traditions",
+    "title": "Ohio University: history and traditions"
+  },
+  {
+    "id": "source:29584ee3d5de",
+    "url": "https://www.ohio.edu/admissions/visit/plan-your-visit",
+    "title": "Ohio University: plan your visit"
+  },
+  {
+    "id": "source:5c1739058d79",
+    "url": "https://www.ohio.edu/athens-community",
+    "title": "Ohio University: Athens community"
+  },
+  {
+    "id": "source:60ddb2dbd634",
+    "url": "https://www.ohio.edu/food/baker-center",
+    "title": "Ohio University: Baker University Center dining"
+  }
+]

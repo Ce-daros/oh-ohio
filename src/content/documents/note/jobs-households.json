@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:jobs-households",
+    "slug": "jobs-households",
+    "kind": "note",
+    "title": "Work & household budgets",
+    "summary": "A statewide average can’t tell you what every household’s day feels like. Wages, hours, stability, housing, and the trip to work all belong in the picture.",
+    "canonicalPath": "/make#jobs-households",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-work"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:a7488427e5c3",
+        "label": "U.S. Census Bureau · QuickFacts"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/jobs-households.json",
+    "sectionId": "economy",
+    "kicker": "LABOR · INCOME · OPPORTUNITY",
+    "order": 33
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An unemployment rate is useful, but it isn’t the whole job market. Pay, hours, benefits, commuting distance, and stability matter too. Ohio residents work for large employers, small businesses, public institutions, and themselves. Opportunities differ by region, industry, education, and access. Let’s keep those differences and the human details beside the percentage as we read a headline number."
+    },
+    {
+      "type": "paragraph",
+      "text": "Median household income sits halfway through the income distribution; it isn’t what every household earns. The Census source supplies the period and dollar basis, and the labor data has its own definitions. Keep those details beside the figure; with the labels in view, the bigger story becomes much clearer."
+    }
+  ]
+}

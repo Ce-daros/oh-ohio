@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:research",
+    "slug": "research",
+    "kind": "note",
+    "title": "Research & discovery",
+    "summary": "A good question can travel a long way. Ohio’s labs, hospitals, campuses, museums, and research partnerships give curious people places to follow it. Ooh, where might yours lead?",
+    "canonicalPath": "/live#research",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:26b158161245",
+        "label": "Ohio University · Research Division"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/research.json",
+    "sectionId": "life",
+    "kicker": "LABS · HEALTH · ENGINEERING",
+    "order": 59
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Research happens across medicine, engineering, agriculture, energy, the arts, and public policy. Universities work alongside health systems, agencies, and industry partners, with students and specialists asking very different kinds of questions. The work can be patient and incremental, so follow the question with me; a promising result is a beginning to investigate, not automatically a finished solution."
+    },
+    {
+      "type": "paragraph",
+      "text": "Look at an institution’s own projects, publications, and public programs to see what it actually studies. Some discoveries move toward practical tools or treatments; others deepen how we understand people and places. I rather like that both belong here. Curiosity doesn’t have to arrive with its final destination already written down."
+    }
+  ]
+}

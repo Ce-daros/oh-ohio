@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:music",
+    "slug": "music",
+    "kind": "note",
+    "title": "Music with a pulse",
+    "summary": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving.",
+    "canonicalPath": "/culture#music",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-records"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:26a28d3ab445",
+        "label": "Rock & Roll Hall of Fame"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/music.json",
+    "sectionId": "culture",
+    "kicker": "CLEVELAND · SOUND",
+    "order": 21
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hey, the Rock & Roll Hall of Fame connects performers, radio, recording, and audiences who changed popular music. Its Northeast Ohio collections also follow local musicians, labels, venues, and scenes. I like that change in scale: a sound can travel around the world and still begin on one particular street, station, or stage."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a visit, let’s leave room for something happening now. A museum stop and a local performance make a lovely pair; concert halls, neighborhood venues, and festivals all add to the picture. Check current listings rather than assuming a familiar event is on. The next song is still being played somewhere. ♫"
+    }
+  ]
+}

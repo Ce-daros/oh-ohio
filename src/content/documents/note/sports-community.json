@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:sports-community",
+    "slug": "sports-community",
+    "kind": "note",
+    "title": "Sports & gathering",
+    "summary": "Hear that? Game-day noise has a way of spilling into the whole neighborhood. Sports, festivals, and local celebrations turn an ordinary day into a shared one.",
+    "canonicalPath": "/culture#sports-community",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-game"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:e0527e33fc24",
+        "label": "Experience Columbus"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/sports-community.json",
+    "sectionId": "culture",
+    "kicker": "STATEWIDE · SHARED MOMENTS",
+    "order": 24
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hey, Columbus mixes college sports with professional soccer, hockey, baseball, and more. Cleveland and Cincinnati have their own teams and fan traditions, and the gathering often starts well before the game. Friends meet, streets fill, and familiar places feel different for a few hours. You don’t need to know every statistic to feel a city’s rhythm change when people gather."
+    },
+    {
+      "type": "paragraph",
+      "text": "If a scoreboard isn’t your thing, neighborhood festivals, gallery events, and public celebrations bring people together too. Check a city’s current calendar before your visit. One local gathering alongside the landmark attractions can change how a place feels. Leave yourself enough time to get there; the crowd may have had the same lovely idea."
+    }
+  ]
+}

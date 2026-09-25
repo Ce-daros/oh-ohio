@@ -1,0 +1,81 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { validateContent } from './content-validate.mjs';
+
+const projectRoot = process.cwd();
+
+function fixture() {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'ohio-content-test-'));
+  fs.mkdirSync(path.join(root, 'src'), { recursive: true });
+  fs.cpSync(path.join(projectRoot, 'src/content'), path.join(root, 'src/content'), { recursive: true });
+  const media = JSON.parse(fs.readFileSync(path.join(root, 'src/content/data/media.json'), 'utf8'));
+  for (const item of media) {
+    const target = path.join(root, 'public', item.src.slice(1));
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, '');
+  }
+  return root;
+}
+
+function mutate(root, relative, change) {
+  const file = path.join(root, relative);
+  const value = JSON.parse(fs.readFileSync(file, 'utf8'));
+  change(value);
+  fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
+}
+
+function checkCorruption(name, relative, change, expected) {
+  test(name, () => {
+    const root = fixture();
+    try {
+      mutate(root, relative, change);
+      assert.match(validateContent(root).join('\n'), expected);
+    } finally {
+      const temporaryParent = fs.realpathSync(os.tmpdir());
+      assert.ok(fs.realpathSync(root).startsWith(temporaryParent + path.sep));
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  });
+}
+
+test('canonical content validates', () => {
+  assert.deepEqual(validateContent(projectRoot), []);
+});
+
+checkCorruption('rejects duplicate document IDs with file context',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.meta.id = 'note:history'; },
+  /src\/content\/documents: duplicate ID note:history/);
+
+checkCorruption('rejects broken source references',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.meta.sourceRefs[0].id = 'source:missing'; },
+  /north-coast\.json: sourceRef references unknown source:missing/);
+
+checkCorruption('rejects empty body content',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.blocks[0].text = ''; },
+  /north-coast\.json blocks\[0\]: text must be non-empty text/);
+
+checkCorruption('rejects missing media assets',
+  'src/content/data/media.json',
+  media => { media[0].src = '/art/journal/does-not-exist.webp'; },
+  /media\.json media:.*asset missing \/art\/journal\/does-not-exist.webp/);
+
+checkCorruption('rejects broken collection relations',
+  'src/content/data/collections.json',
+  collections => { collections.find(item => item.id === 'home:field-notes').itemIds[0] = 'feature:missing'; },
+  /collections\.json home:field-notes: item references unknown feature:missing/);
+
+checkCorruption('rejects stale legacy slug migrations',
+  'src/content/data/migrations.json',
+  migrations => { migrations['phrase-1'] = 'unknown-phrase'; },
+  /migrations\.json: migration phrase-1 references unknown slug unknown-phrase/);
+
+checkCorruption('rejects stale generated manifest',
+  'src/content/data/manifest.json',
+  manifest => { manifest.documents[0].title = 'Changed only in the manifest'; },
+  /manifest\.json: generated manifest is stale/);

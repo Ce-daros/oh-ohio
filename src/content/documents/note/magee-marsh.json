@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:magee-marsh",
+    "slug": "magee-marsh",
+    "kind": "note",
+    "title": "Magee Marsh",
+    "summary": "A small bird can make a very big journey. Lake Erie’s migrating songbirds reward quiet steps and sharp eyes. ♡",
+    "canonicalPath": "/explore#magee-marsh",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:d3e4fdf63df2",
+        "label": "Ohio Department of Natural Resources · Magee Marsh trail map"
+      },
+      {
+        "id": "source:7cdf38bdad02",
+        "label": "Ohio Department of Natural Resources · Magee Marsh bird trail"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/magee-marsh.json",
+    "sectionId": "travel",
+    "kicker": "LAKE ERIE · MIGRATING BIRDS",
+    "order": 16
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At Magee Marsh, the boardwalk follows a beach ridge between wetland and Lake Erie, where migrating songbirds can rest and feed. In spring, warblers bring birders from far beyond Ohio. You don’t need every bird’s name to enjoy the moment: watch the leaves, listen, and leave room for others to share the path."
+    },
+    {
+      "type": "paragraph",
+      "text": "There’s more to explore than the best-known boardwalk. The state trail map marks a visitor-center loop through wetland vegetation and a connecting path toward Ottawa National Wildlife Refuge. Choose a route that suits your mobility and interest, and check current access before traveling; parts of the wildlife area have seasonal restrictions. Binoculars help, but patience may be the most useful thing we bring."
+    }
+  ]
+}

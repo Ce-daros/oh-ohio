@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "feature:community-garden-season",
+    "slug": "community-garden-season",
+    "kind": "feature",
+    "title": "Let’s see what’s growing.",
+    "summary": "At Dayton’s Possum Creek, garden plots change throughout the growing season.",
+    "canonicalPath": "/journal/community-garden-season",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio",
+      "dayton"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:428d53229cfb",
+        "label": "Five Rivers MetroParks: 2025 Possum Creek garden rules",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:44895e9af573",
+        "label": "Five Rivers MetroParks: garden registration",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:7dd053f846c2",
+        "label": "Five Rivers MetroParks: Possum Creek brochure",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/community-garden-season.json",
+    "category": "everyday",
+    "location": "Dayton",
+    "duration": "A growing season",
+    "readTime": "3 min read",
+    "coverMediaId": "media:community-garden-season",
+    "coverAlt": "Painted garden beds, tomato plants and watering can beside a quiet path in evening light",
+    "titleAccent": "what’s growing.",
+    "recommendations": [
+      {
+        "id": "feature:library-afternoon",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:athens-campus-day",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:cuyahoga-slow-day",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 84
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "A garden looks different from one month to the next. That’s what I’d like you to notice at Possum Creek MetroPark in Dayton. The community plots have people caring for them through a whole growing season: planting, watering, weeding, and finding out what the weather has decided. Let’s look at the small routines that keep a shared garden going."
+    },
+    {
+      "type": "heading",
+      "id": "a-plot-of-ground",
+      "title": "A marked piece of shared ground",
+      "eyebrow": "THE SPACE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start with the edges of a plot. Five Rivers MetroParks’ rules mark out each gardener’s space, shared paths, and seasonal water access. A clear boundary sounds simple, but it gives everyone room to work. You can tend your own patch while leaving the next gardener a path to theirs. Little practical choices make a shared place easier to use."
+    },
+    {
+      "type": "paragraph",
+      "text": "Possum Creek’s gardens sit in a wider park landscape with farm activities and opportunities to learn outdoors. A rented plot has its own caretaker within that public setting. If you’re visiting, enjoy the areas open to visitors and leave the beds to their gardeners. We can be interested in what’s growing without stepping into someone’s work."
+    },
+    {
+      "type": "heading",
+      "id": "the-seasonal-work",
+      "title": "The season asks you to return",
+      "eyebrow": "THE ROUTINE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Planting day is only the beginning. Water, weeds, pests, and the end of a plant’s season all ask someone to return. MetroParks specifies organic practices and sets out responsibilities for common paths and water. Before taking a plot, read those details and think about the weeks ahead. The work is easier to picture when you imagine more than the first sunny afternoon."
+    },
+    {
+      "type": "paragraph",
+      "text": "A month from now, notice what has changed from the public paths. Plants grow at different rates; weather changes the week’s jobs. A garden doesn’t have to produce a perfect basket to show how much attention it receives. Sometimes the interesting thing is a newly cleared row or a gardener making room for the next planting."
+    },
+    {
+      "type": "characterAside",
+      "title": "A little room for the neighbors",
+      "text": "The paths and water are shared, even when the plots have different caretakers. Leaving room for the next person is part of growing things here."
+    },
+    {
+      "type": "heading",
+      "id": "garden-neighbors",
+      "title": "Growing beside other people",
+      "eyebrow": "THE PEOPLE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interested in a plot yourself? The garden uses seasonal registration. Ask Five Rivers MetroParks about current availability and rules before making plans. Think about how often you can return and what you’d like to learn. There’s no need to promise a whole season of care before you’ve understood what taking a plot involves."
+    },
+    {
+      "type": "paragraph",
+      "text": "And if you’re here for a park visit, that belongs in the story too. Follow the visitor guidance, respect the marked beds, and notice how this part of the park is shaped by repeated work. Someone returned to water. Someone cleared a path. The next time you pass, the ground will have a little more of the season to reveal."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "To garden",
+          "text": "Check Five Rivers MetroParks' current registration and rules before planning for a plot."
+        },
+        {
+          "label": "To visit",
+          "text": "Use the park's visitor information and respect marked garden boundaries."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Shall we see how it looks another month? Gardens are good at giving us a reason to return. ♡"
+    }
+  ]
+}

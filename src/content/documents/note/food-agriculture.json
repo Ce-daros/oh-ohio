@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:food-agriculture",
+    "slug": "food-agriculture",
+    "kind": "note",
+    "title": "Food & agribusiness",
+    "summary": "That grocery shelf has a backstory. Farms, processors, packaging, cold storage, equipment, and delivery all help turn what grows into what reaches our tables.",
+    "canonicalPath": "/make#food-agriculture",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-farm"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:f9e06f1adb89",
+        "label": "JobsOhio · Food & Agribusiness"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/food-agriculture.json",
+    "sectionId": "industry",
+    "kicker": "FARMS · PROCESSING · SUPPLY",
+    "order": 40
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s food economy begins in fields, orchards, and other growing operations, but it doesn’t stay there. Processing, packaging, equipment, storage, and distribution connect rural and urban places. Ingredients and agricultural materials also travel into businesses far from the farm. One snack can have a surprisingly complicated itinerary—what a journey!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Looking at the whole chain helps explain the range of jobs and infrastructure involved. The processor, warehouse, driver, and grower are all part of the picture. JobsOhio’s food and agribusiness overview follows those business connections. Next time you see ‘made in Ohio,’ imagine the whole cast behind that shelf, from grower to delivery driver."
+    }
+  ]
+}

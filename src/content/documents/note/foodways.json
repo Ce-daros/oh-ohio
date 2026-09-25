@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:foodways",
+    "slug": "foodways",
+    "kind": "note",
+    "title": "Regional foodways",
+    "summary": "Now this is a map I can get excited about: chili, goetta, neighborhood bakeries, markets, and recipes carried across generations. Ohio tastes different from place to place.",
+    "canonicalPath": "/culture#foodways",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-table"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:2c83235fc91d",
+        "label": "Visit Cincy"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/foodways.json",
+    "sectionId": "culture",
+    "kicker": "LOCAL TABLES · EVERYDAY CULTURE",
+    "order": 23
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cincinnati brings its own chili tradition and goetta. Cleveland’s markets and neighborhoods reflect many immigrant food histories, while central Ohio’s changing restaurant scene sits alongside long-running favorites. No single dish gets to speak for the whole state. Sorry, little buckeye candy—you’re adorable, but this is a group project."
+    },
+    {
+      "type": "paragraph",
+      "text": "Use that first bite as the beginning of a neighborhood visit. A market stall, family-run restaurant, or bakery can lead you toward the community around it, not just another item to tick off. Local visitor bureaus help with places and current opening information. Stay curious, ask politely, and leave room for the thing you hadn’t planned to try. ♡"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:community-life",
+    "slug": "community-life",
+    "kind": "note",
+    "title": "Community life",
+    "summary": "Ooh, a town starts feeling different when you meet the people who gather there. Libraries, local groups, festivals, faith communities, and volunteers help make that happen.",
+    "canonicalPath": "/live#community-life",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:2cfe4c57c885",
+        "label": "Ohio Arts Council"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/community-life.json",
+    "sectionId": "life",
+    "kicker": "NEIGHBORS · ARTS · SERVICE",
+    "order": 62
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Neighborhood associations, cultural groups, arts organizations, faith communities, mutual aid, and volunteer work all shape everyday life. In one place, a county fair brings generations together; in another, a block club or festival makes a busy city feel more familiar. There isn’t one correct scale for belonging. Approach each community with curiosity and let it introduce itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "Check local calendars, community centers, and libraries for gatherings that welcome visitors. Show up respectfully, support organizers, and listen before deciding you know the story. Traditions change as people arrive and build new ties. The lovely part is that a community isn’t a finished exhibit—it’s people doing things together right now."
+    }
+  ]
+}

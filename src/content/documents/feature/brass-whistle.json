@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "feature:brass-whistle",
+    "slug": "brass-whistle",
+    "kind": "feature",
+    "title": "Little whistle. Big voice.",
+    "summary": "At a Columbus workbench, that familiar sound starts with a flat piece of brass.",
+    "canonicalPath": "/journal/brass-whistle",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:5ba0acf258d0",
+        "label": "American Whistle: how whistles are made",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:e1139ccc0d38",
+        "label": "American Whistle: factory and tours",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:a4c48f4c9012",
+        "label": "American Whistle: how whistles work",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/brass-whistle.json",
+    "category": "making",
+    "location": "Columbus",
+    "duration": "A closer look",
+    "readTime": "3 min read",
+    "coverMediaId": "media:brass-whistle",
+    "coverAlt": "Illustrated brass pea whistle, navy cord and metal blank on a workbench",
+    "titleAccent": "Big voice.",
+    "recommendations": [
+      {
+        "id": "feature:rookwood-clay",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:toledo-glass",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:dayton-made-to-fly",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 76
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "You know the sound before you see the thing making it. A game pauses, someone turns, and there it is: a little whistle. At American Whistle Corporation in Columbus, brass is cut, shaped, assembled, and tested until it can do that small but very noticeable job. Inside, its design makes the clear sound possible."
+    },
+    {
+      "type": "heading",
+      "id": "from-flat-to-formed",
+      "title": "Start with a flat sheet",
+      "eyebrow": "THE MATERIAL"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start with the brass sheet or coil. It looks very different from the curved whistle in your hand, doesn’t it? A stamping press cuts blanks for the body and mouthpiece. Forming operations then bend them into shape. The company’s account of the process puts careful tooling right at the beginning: each part has to fit the work that comes next."
+    },
+    {
+      "type": "paragraph",
+      "text": "Now look along a finished whistle’s seam, opening, and ring attachment. There’s a reason for each of them. The brass has to accept those precise shapes and stand up to outdoor use. I like this part of the story: an object that looks so familiar becomes easier to appreciate once you can imagine it lying flat on a workbench."
+    },
+    {
+      "type": "heading",
+      "id": "the-moving-pea",
+      "title": "The pea has room to move",
+      "eyebrow": "THE SOUND"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hear that trill? A little moving part helps make it. In a pea whistle, a small sphere sits inside the chamber. Air enters through the mouthpiece and passes the opening; the moving pea changes the sound. The size and space around it matter. It needs room to move, even though the whole whistle fits easily in your palm."
+    },
+    {
+      "type": "paragraph",
+      "text": "American Whistle describes inserting the pea by hand and joining the mouthpiece carefully around the air passage. Follow that path from the entrance to the chamber. It’s a small space with a lot to do. A shiny finish catches your eye, but the shapes underneath are what make the sound work."
+    },
+    {
+      "type": "characterAside",
+      "title": "That little rattle has a job",
+      "text": "The pea moves inside the chamber. Next time you hear the trill, you’ll know there’s something busy happening in that tiny space. Neat, right?"
+    },
+    {
+      "type": "heading",
+      "id": "one-last-listen",
+      "title": "One last listen",
+      "eyebrow": "THE HUMAN CHECK"
+    },
+    {
+      "type": "paragraph",
+      "text": "And now, someone listens. The company says every finished whistle is sound-tested by hand. Looking at the brass tells you some things; hearing the assembled whistle tells you something else. All the cutting, forming, and joining ends with a person checking the result. Ooh, there’s our familiar signal again."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Columbus business traces its production back to 1956. If you’d like to see more than the finished object, its website has factory-tour information. Check the current arrangements before planning a visit. For now, you can follow its published process and look again at the whistle’s tiny working parts. There’s plenty to notice without taking one apart."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Look closely",
+          "text": "Find the mouthpiece, sound opening, body seam, and lanyard ring on a metal whistle."
+        },
+        {
+          "label": "Plan ahead",
+          "text": "Use the company's tour page for current booking details and access rules."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A small piece of brass, a lot of careful work, and one very familiar sound. ♡"
+    }
+  ]
+}

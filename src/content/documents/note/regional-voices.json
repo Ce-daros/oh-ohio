@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:regional-voices",
+    "slug": "regional-voices",
+    "kind": "note",
+    "title": "More than one Ohio accent",
+    "summary": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?",
+    "canonicalPath": "/culture#regional-voices",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-words"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:ba297e25475e",
+        "label": "Ohio State University · OhioSpeaks"
+      },
+      {
+        "id": "source:96d0033e85e3",
+        "label": "Regional dialect research"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/regional-voices.json",
+    "sectionId": "language",
+    "kicker": "NORTHERN · MIDLAND · SOUTHERN",
+    "order": 49
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio State’s OhioSpeaks project describes several dialect regions alongside social variation within them. Research finds Northern patterns in northern Ohio, Midland features around central Ohio, and Southern patterns extending into the south. Think of these as broad, overlapping histories of speech—not boxes every resident has to fit; listen for the patterns while leaving room for each voice."
+    },
+    {
+      "type": "paragraph",
+      "text": "People move, grow up in different communities, and change how they speak in different settings. Age and social identity matter alongside geography. So if a speaker surprises your mental accent map, stay curious. The map is an introduction; each person is the interesting part, and Ohio has room for a lot of voices."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "feature:toledo-glass",
+    "slug": "toledo-glass",
+    "kind": "feature",
+    "title": "Ooh, look at that glass.",
+    "summary": "In Toledo, light, heat, and a maker’s timing turn something familiar into something worth stopping for.",
+    "canonicalPath": "/journal/toledo-glass",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "toledo"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:347b1fd24bc5",
+        "label": "Toledo Museum of Art: learn and Glass Studio",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:d91f1feabb36",
+        "label": "Toledo Museum of Art: Glass Pavilion publication",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:1dd62d565327",
+        "label": "Toledo Museum of Art: Harvey Littleton work",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:66ddd394a16e",
+        "label": "Toledo Museum of Art: Libenský and Brychtová work",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:d3c6d84efc2c",
+        "label": "Toledo Museum of Art: a vase from the first 1962 workshop",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/toledo-glass.json",
+    "category": "making",
+    "location": "Toledo",
+    "duration": "A museum afternoon",
+    "readTime": "3 min read",
+    "coverMediaId": "media:toledo-glass",
+    "coverAlt": "Painted blue-green glass vase and amber bowl with a studio furnace behind",
+    "titleAccent": "that glass.",
+    "recommendations": [
+      {
+        "id": "feature:rookwood-clay",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:akron-rubber",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:dayton-made-to-fly",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 78
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Move a little to the side. See how the light changes? Glass is lovely company for a curious eye, and Toledo gives us plenty to look at. We’ll start with the city’s glass story, spend time with the objects at the museum, and see how today’s studio programs can bring the making a little closer. No need to hurry past the windows."
+    },
+    {
+      "type": "heading",
+      "id": "a-building-of-glass",
+      "title": "The building joins the lesson",
+      "eyebrow": "THE SETTING"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toledo’s connection with glass includes both industry and art. The city’s manufacturing history helps explain why glass belongs in its story, while the Toledo Museum of Art invites you to consider what artists can do with it. Keep both in mind. The same material can be part of an ordinary day and the thing that makes you stop in a gallery."
+    },
+    {
+      "type": "paragraph",
+      "text": "The museum’s Glass Pavilion gives the collection a building with glass at the center of its design. Look at the works, then look at the room around them. Reflections and transparency make the edges interesting. We can take a slow lap and let different surfaces catch the light instead of choosing a favorite immediately."
+    },
+    {
+      "type": "heading",
+      "id": "hot-work",
+      "title": "A workshop opened the door",
+      "eyebrow": "THE STUDIO STORY"
+    },
+    {
+      "type": "paragraph",
+      "text": "There’s an important studio chapter here too. Workshops at the Toledo Museum of Art in 1962 helped establish the American studio glass movement. Artists explored working with glass on a scale that opened up new possibilities outside conventional industrial production. That’s a useful thought to carry into the collection: who gets to work with a material, and what can they try?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start with an object that holds your attention. Notice its thickness, color, bubbles, or the way a rim bends the light. The museum label can help with the technique, but your eyes can begin the conversation. Two pieces made from glass may feel completely different. That’s part of the pleasure of staying awhile."
+    },
+    {
+      "type": "characterAside",
+      "title": "A different view",
+      "text": "Try looking from another angle without touching the work. A reflection can move, an edge can catch the light, and suddenly you’re noticing something else."
+    },
+    {
+      "type": "heading",
+      "id": "different-answers",
+      "title": "Now, watch the making",
+      "eyebrow": "THE HOT WORK"
+    },
+    {
+      "type": "paragraph",
+      "text": "Watching the work gives those finished surfaces another meaning. The museum offers glass demonstrations and classes through its studio programs. Check the current schedule before making that the center of your visit; a gallery day and a booked class ask for different plans. If a demonstration fits, settle in and watch how the maker handles the changing material."
+    },
+    {
+      "type": "paragraph",
+      "text": "A class is a chance to follow the studio’s instruction and discover how much attention a small object asks for. If you’d rather just look, the collection rewards a slow visit. We can leave with one favorite color, one curious shape, or a question for another visit. You don’t have to make a vase to start noticing glass."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Before you go",
+          "text": "Check the museum's current Glass Pavilion access and demonstration calendar."
+        },
+        {
+          "label": "In the gallery",
+          "text": "Compare the methods listed for two different glass objects."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Now even the glass on an ordinary windowsill might get a second look. ♡"
+    }
+  ]
+}

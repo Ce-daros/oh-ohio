@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:possum-creek-gardens",
+    "slug": "possum-creek-gardens",
+    "kind": "note",
+    "title": "Grow something together",
+    "summary": "At Dayton’s Possum Creek MetroPark, a garden plot brings a season of shared work and new skills. Ooh, I like having a reason to return ♡",
+    "canonicalPath": "/live#possum-creek-gardens",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio",
+      "dayton"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:428d53229cfb",
+        "label": "Five Rivers MetroParks · Possum Creek community garden rules"
+      },
+      {
+        "id": "source:a7e4ee79c849",
+        "label": "Five Rivers MetroParks · 2024 annual report"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/possum-creek-gardens.json",
+    "sectionId": "life",
+    "kicker": "DAYTON · COMMUNITY GARDEN",
+    "order": 67
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At Possum Creek in Dayton, Five Rivers MetroParks runs community garden plots where gardeners tend their own space within a larger growing area. Park rules cover plot care and organic practices. I like the rhythm of this shared work: checking the soil, noticing what changed since last week, and learning from the people tending the neighboring rows. A little patch of ground can make a season feel wonderfully connected."
+    },
+    {
+      "type": "paragraph",
+      "text": "A plot is a real commitment through the growing season, and registration, fees, availability, and dates can change. Read the current garden information before making plans. If a whole plot is more than you want, Five Rivers also describes volunteer work that includes gardening and park care. There are several ways to get your hands in the dirt and meet neighbors there."
+    }
+  ]
+}

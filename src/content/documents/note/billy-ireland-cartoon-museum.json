@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:billy-ireland-cartoon-museum",
+    "slug": "billy-ireland-cartoon-museum",
+    "kind": "note",
+    "title": "A home for cartoon art",
+    "summary": "A comic panel can make you laugh and carry history, too. At Ohio State, both sides of the page have a story.",
+    "canonicalPath": "/culture#billy-ireland-cartoon-museum",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:78be97d1d8fc",
+        "label": "Billy Ireland Cartoon Library & Museum · About"
+      },
+      {
+        "id": "source:9e30a0e94d77",
+        "label": "Billy Ireland Cartoon Library & Museum · Location & Hours"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/billy-ireland-cartoon-museum.json",
+    "sectionId": "culture",
+    "kicker": "COLUMBUS · COMICS & ARCHIVES",
+    "order": 28
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "At Ohio State, the Billy Ireland Cartoon Library & Museum gathers original art, published cartoons, comics, archives, and related materials. Its exhibitions bring that work into view beyond the reading room. I always like seeing an original drawing: the marks and corrections remind you that every familiar printed panel began with someone making choices by hand or through a deliberate process."
+    },
+    {
+      "type": "paragraph",
+      "text": "The museum also preserves cartoon art for researchers, teachers, and the public. I wouldn't rush through it as a nostalgia stop. Editorial cartoons, comic strips, and longer stories can reveal how people argued, played, and pictured their times. Galleries are open to the public, while special collections require a different kind of visit; check current exhibition details and reading-room guidance before you go."
+    }
+  ]
+}

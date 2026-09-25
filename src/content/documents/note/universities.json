@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "note:universities",
+    "slug": "universities",
+    "kind": "note",
+    "title": "Universities across Ohio",
+    "summary": "Ooh, big campus, small college, a technical program close to home—Ohio has more than one way to be a student. Let’s find the questions that matter to you. ♡",
+    "canonicalPath": "/live#universities",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:790e4d776823",
+        "label": "Ohio Department of Higher Education · Institutions map"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/universities.json",
+    "sectionId": "life",
+    "kicker": "PUBLIC · PRIVATE · COMMUNITY",
+    "order": 58
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s higher-education landscape includes public universities, private colleges, community colleges, technical programs, and specialized schools. Campuses appear in major cities and smaller college communities, each with different programs and everyday rhythms. A university name is only the beginning; the course, setting, and support around it help show whether it fits the learner’s goals."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’re exploring study options, go straight to the institutions for current admissions, costs, courses, and student services. State higher-education resources help you understand the broader system and pathways between programs. And if you’re simply visiting, public exhibitions, performances, and campus spaces make a lovely window into campus life and its local setting."
+    }
+  ]
+}

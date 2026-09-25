@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:columbus",
+    "slug": "columbus",
+    "kind": "note",
+    "title": "Columbus",
+    "summary": "Ahh, the Statehouse, a science museum, an arts district, a riverside stroll… Columbus, you’re making it very difficult to choose. Let’s build the day around your favorite things.",
+    "canonicalPath": "/explore#columbus",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:e0527e33fc24",
+        "label": "Experience Columbus"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/columbus.json",
+    "sectionId": "travel",
+    "kicker": "CENTRAL OHIO · CAPITAL CITY",
+    "order": 10
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s capital has more than one mood, and each stop gives the day a slightly different rhythm. You could start at the Statehouse, browse the Short North Arts District, wander German Village, or follow the Scioto Mile along the river. COSI, the Columbus Zoo, and Franklin Park Conservatory offer different kinds of discovery; sports and live events add their own energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "I’d think in neighborhoods rather than one enormous checklist. Pick an area, check the distances and transport, then give yourself room to explore it. Experience Columbus has attractions, events, and local guides to help. An unplanned café stop fits beautifully between neighborhoods. Purely practical advice, of course. ♡"
+    }
+  ]
+}

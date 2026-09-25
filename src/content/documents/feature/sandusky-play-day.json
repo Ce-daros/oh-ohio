@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "id": "feature:sandusky-play-day",
+    "slug": "sandusky-play-day",
+    "kind": "feature",
+    "title": "One more ride. Then the lake.",
+    "summary": "Cedar Point gets a whole day. Sandusky’s waterfront gets the quieter moments around it.",
+    "canonicalPath": "/journal/sandusky-play-day",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-coast"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie",
+      "sandusky"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:9516e9a0b1fc",
+        "label": "Finding the Universe · Sandusky three-day itinerary",
+        "kind": "Travel account"
+      },
+      {
+        "id": "source:0cc533d484c6",
+        "label": "Follow the Piper · Sandusky weekend",
+        "kind": "Travel account"
+      },
+      {
+        "id": "source:eff0058f0693",
+        "label": "Cedar Point · park map and directions",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:4fe0326712dc",
+        "label": "Shores & Islands Ohio · Sandusky",
+        "kind": "Local guide"
+      },
+      {
+        "id": "source:7047f46f4c94",
+        "label": "Shores & Islands Ohio · Jackson Street Pier",
+        "kind": "Local guide"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/sandusky-play-day.json",
+    "category": "guides",
+    "location": "Sandusky · Lake Erie",
+    "duration": "Two days or one night",
+    "readTime": "3 min read",
+    "coverMediaId": "media:sandusky-play-day",
+    "coverAlt": "Painted lakeside scene with a bench, sailboat and distant roller coasters",
+    "titleAccent": "Then the lake.",
+    "recommendations": [
+      {
+        "id": "feature:toledo-glass",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:buckeye-sweets",
+        "reason": "Another Ohio food story"
+      }
+    ],
+    "order": 75
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "You can have the big drop. I’m also saving us a look at the water afterward. Let’s make this a Sandusky overnight: arrive with time for downtown and the bay, spend the next day at Cedar Point, and keep a little space around the rides. It’s a much nicer pace than trying to fit a whole town between two queues."
+    },
+    {
+      "type": "heading",
+      "id": "arrival",
+      "title": "Start by the water",
+      "eyebrow": "Arrival day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once your bag is down, head toward Jackson Street Pier. Sandusky Bay opens out in front of you, with places to sit and watch the boats. Walk a few downtown blocks before choosing dinner. See how the streets lead back toward the water? That’s a good first introduction to a town we’ll see quite differently tomorrow."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you have extra time, the Maritime Museum of Sandusky offers a way into the lake's working history. Keep it optional. An arrival evening can be as simple as a meal and a slow walk, especially if tomorrow is your big park day."
+    },
+    {
+      "type": "heading",
+      "id": "park-morning",
+      "title": "Let Cedar Point take the day",
+      "eyebrow": "Park day · morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Breakfast, park map, comfortable shoes. We’re ready. Check Cedar Point’s calendar before setting out, then choose two or three rides you’re most excited about. Give them a place in the plan and leave the rest flexible. Queues, weather, and everyone’s energy will have a say. We don’t need to decide every hour before the first ride."
+    },
+    {
+      "type": "paragraph",
+      "text": "Coaster fans have plenty to choose from, but the park also has gentler rides, food, shows, and a beach setting. If your group likes different things, choose a clear meeting place and time. Nobody has to pretend to love the same drop to enjoy the day together."
+    },
+    {
+      "type": "characterAside",
+      "title": "Different ideas of fun?",
+      "text": "Agree on a few meeting spots and meals if your group splits up. You can love the lake and skip the tallest coaster. We’ll still have plenty to talk about afterward."
+    },
+    {
+      "type": "heading",
+      "id": "park-afternoon",
+      "title": "Make room between the rides",
+      "eyebrow": "Park day · afternoon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Okay, snack break. Better still, find time for a meal and somewhere to sit. When the busiest paths feel like a lot, take a look toward the lake and let your eyes rest on something that isn’t moving quite so fast. Afterward, you can try another ride, catch a scheduled show, or go back to the one you liked best."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can stay into the evening if the operating calendar allows, but don't make downtown dinner a hard appointment after a full park day. Eat when it makes sense. Leave the night flexible enough to follow your feet."
+    },
+    {
+      "type": "heading",
+      "id": "after",
+      "title": "Take the bay home with you",
+      "eyebrow": "Next morning, if you have it"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’ve kept another morning, spend it at the waterfront before heading home. A coffee and a pier walk make a gentle last stop. Yesterday had plenty of noise; now there’s room to notice the bay and downtown again. Sandusky has a maritime past and neighbors with ordinary days to get on with, even after your park visit ends."
+    },
+    {
+      "type": "paragraph",
+      "text": "There are islands and more shore towns nearby, but they deserve their own time. For this trip, the pairing is enough: one day of play and one unhurried encounter with the bay."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Duration",
+          "text": "One night and a full Cedar Point day; add a second night if you want more waterfront time."
+        },
+        {
+          "label": "Getting around",
+          "text": "Downtown is walkable around the pier. Plan a separate ride or drive to Cedar Point."
+        },
+        {
+          "label": "Before you go",
+          "text": "Check Cedar Point's operating calendar, tickets, ride status, and park map. The park's schedule varies by season and date."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "All right, one last look at the bay. You can tell me your favorite ride on the way back. ♡"
+    }
+  ]
+}

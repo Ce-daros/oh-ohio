@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "feature:cincinnati-chili",
+    "slug": "cincinnati-chili",
+    "kind": "feature",
+    "title": "Pull up a chair. Let’s order chili.",
+    "summary": "Spaghetti, a spiced sauce, and that generous pile of cheese. I’ll help you make sense of the menu.",
+    "canonicalPath": "/journal/cincinnati-chili",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-table"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:0a88fe931a42",
+        "label": "Empress Chili: history",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:49b153a95f28",
+        "label": "Visit Cincy: food and drink scene",
+        "kind": "Local guide"
+      },
+      {
+        "id": "source:57276d5b0123",
+        "label": "Ohio Magazine: how the coney became a Cincinnati favorite",
+        "kind": "Reporting"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/cincinnati-chili.json",
+    "category": "table",
+    "location": "Cincinnati",
+    "duration": "A lunch stop",
+    "readTime": "3 min read",
+    "coverMediaId": "media:cincinnati-chili",
+    "coverAlt": "Painted plate of Cincinnati chili with spaghetti and shredded cheddar in a diner",
+    "titleAccent": "Let’s order chili.",
+    "recommendations": [
+      {
+        "id": "feature:buckeye-sweets",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:west-side-market-table",
+        "reason": "Another Ohio food story"
+      },
+      {
+        "id": "feature:cincinnati-market-to-music",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 80
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "First Cincinnati chili order? The numbers on the menu will make sense in a minute. A three-way brings spaghetti, chili, and shredded cheese together on the plate; from there, you choose what else sounds good. We can learn a little of the parlor’s history while you decide. Lunch should still get most of our attention. ♡"
+    },
+    {
+      "type": "heading",
+      "id": "from-the-empress",
+      "title": "From a theater-side shop",
+      "eyebrow": "THE BEGINNING"
+    },
+    {
+      "type": "paragraph",
+      "text": "The story takes us back to 1922. Macedonian immigrant brothers Tom and John Kiradjieff began selling their seasoned meat sauce near Cincinnati’s Empress Theatre. Empress Chili’s account remembers theater patrons and performers among the early customers. Picture the kind of meal that fits around a night out: something quick, familiar, and worth coming back for."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cincinnati chili is served as a spiced meat sauce over spaghetti or on a hot dog. That helps explain why the plate looks different from the bowl you might have imagined. Parlors have their own recipes and regulars. We’ll start with the common menu terms, then leave you room to find the version you like."
+    },
+    {
+      "type": "heading",
+      "id": "learn-the-ways",
+      "title": "The numbers are your guide",
+      "eyebrow": "THE ORDER"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here’s your little menu key. A three-way is spaghetti, chili, and cheese. A four-way adds onions or beans; a five-way adds both. Want the sauce on a hot dog? Look for a coney, with cheese and other toppings according to the parlor’s menu. There, much less mysterious already."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’re ordering a four-way, just say whether you want the onions or the beans. You don’t have to pretend you’ve been coming here forever. Check the portion choices too; a smaller order can be a nice introduction. Once it arrives, take a look at the fine sauce and the spaghetti underneath before the cheese disappears into your first bite."
+    },
+    {
+      "type": "characterAside",
+      "title": "Three, four, or five?",
+      "text": "Spaghetti + chili + cheese gets you to three. Onions or beans make four; both make five. You’ve got it. Now choose what sounds good."
+    },
+    {
+      "type": "heading",
+      "id": "a-parlor-is-a-place",
+      "title": "The parlor is part of the dish",
+      "eyebrow": "THE TABLE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Take a moment with the room around your plate. Cincinnati’s chili story belongs to counters, quick meals, and family-run parlors as well as recipes. Local food histories trace those connections to theater crowds and everyday eating. A place that becomes someone’s usual lunch stop has a different kind of importance from a dish you only try on holiday."
+    },
+    {
+      "type": "paragraph",
+      "text": "So let this first visit be a beginning. Read the parlor’s own story, look at the menu, and decide what you’d order another time. You might be curious about a coney next, or about how a different place seasons its sauce. We have plenty of room for another lunch. For this one, go on—your plate is waiting."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Order plainly",
+          "text": "Name the toppings you want, especially when ordering a four-way."
+        },
+        {
+          "label": "Choose your parlor",
+          "text": "Check a restaurant's own current menu and location details before visiting."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Save your favorite order. Next time, you can show me what you picked. ♡"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "note:wayne-covered-bridge-byway",
+    "slug": "wayne-covered-bridge-byway",
+    "kind": "note",
+    "title": "Wayne’s covered bridge road",
+    "summary": "Ooh, a winding river road passes forested hills and covered bridges. The slower route is the lovely one, isn’t it?",
+    "canonicalPath": "/explore#wayne-covered-bridge-byway",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-hills"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:759fb451d8f1",
+        "label": "Monroe County · Covered Bridge Byway"
+      },
+      {
+        "id": "source:d282e7ecc0a1",
+        "label": "U.S. Forest Service · Storied Hills"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/wayne-covered-bridge-byway.json",
+    "sectionId": "travel",
+    "kicker": "SOUTHEAST OHIO · SCENIC DRIVE",
+    "order": 14
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I’m taking you along State Route 26, the Covered Bridge Scenic Byway between Marietta and Woodsfield. The Little Muskingum River keeps pace for much of the drive, with forested hills, farms, and historic bridges filling the view. Save time to stop safely and take it in; this corner of southeastern Ohio is much sweeter when you don’t rush past it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Forest Service explains that the bridges themselves are not managed by Wayne National Forest, though the forest offers nearby recreation and interpretation. Public forest, local heritage, and lived-in countryside share this road. I’d bring a map and let the river set the pace, with a look at current road notices before we leave."
+    }
+  ]
+}

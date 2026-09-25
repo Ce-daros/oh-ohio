@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:cuyahoga-valley",
+    "slug": "cuyahoga-valley",
+    "kind": "note",
+    "title": "Cuyahoga Valley",
+    "summary": "Wait, a national park between Cleveland and Akron? Yep! Follow the river, find a waterfall, or let the old canal towpath turn a short walk into an afternoon.",
+    "canonicalPath": "/explore#cuyahoga-valley",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-wild"
+    ],
+    "places": [
+      "ohio",
+      "cuyahoga-valley"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:9a0e778d69a0",
+        "label": "National Park Service"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cuyahoga-valley.json",
+    "sectionId": "travel",
+    "kicker": "NORTHEAST OHIO · NATIONAL PARK",
+    "order": 7
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "You don’t have to leave the cities far behind to find this much green. Cuyahoga Valley National Park gathers forests, wetlands, farms, and the Ohio & Erie Canal into one river landscape. Brandywine Falls is a lovely short stop; the Towpath Trail whispers ‘just a little farther,’ and I’d let the river set the pace."
+    },
+    {
+      "type": "paragraph",
+      "text": "One small planning twist: there isn’t a single park gate. Choose a trail or visitor center first and I’ll help you shape your route. The National Park Service has maps, accessibility information, and current notices. The scenic railroad adds another way to see the valley when operating; check its schedule before building your day around it."
+    }
+  ]
+}

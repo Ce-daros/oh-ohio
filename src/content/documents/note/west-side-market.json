@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:west-side-market",
+    "slug": "west-side-market",
+    "kind": "note",
+    "title": "West Side Market",
+    "summary": "Look up at that tiled vault, then take in the counters. Generations of neighbors have shaped this Cleveland market.",
+    "canonicalPath": "/culture#west-side-market",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-table"
+    ],
+    "places": [
+      "ohio",
+      "cleveland"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:12809615c67b",
+        "label": "West Side Market · Market History"
+      },
+      {
+        "id": "source:d1f4501f2abb",
+        "label": "West Side Market · People's Stories"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/west-side-market.json",
+    "sectionId": "culture",
+    "kicker": "CLEVELAND · PUBLIC MARKET",
+    "order": 27
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Look up first with me: Cleveland’s West Side Market has a high vaulted ceiling and clock tower, and it opened to shoppers in 1912. It replaced an older market across the corner in Ohio City and remains the city’s oldest continuously operating municipally owned market. Still, the stalls are the heart of the place—people come to buy and sell food and swap recommendations across the counter."
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier public markets served Cleveland's growing immigrant communities; today's vendors reflect a wider set of food traditions and businesses. I’d look at the architecture, then give the sellers my attention. Choose something you'll actually eat, ask about it when a counter is free, and check the market's current hours before coming. A living market changes through the week; it isn't a still photograph from 1912."
+    }
+  ]
+}

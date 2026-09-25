@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "note:cincinnati",
+    "slug": "cincinnati",
+    "kind": "note",
+    "title": "Cincinnati",
+    "summary": "Cincinnati brings river views, hillside neighborhoods, art, markets, and food traditions that are very much their own. We can argue about the chili later.",
+    "canonicalPath": "/explore#cincinnati",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:57ebd841ae91",
+        "label": "Visit Cincy"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/cincinnati.json",
+    "sectionId": "travel",
+    "kicker": "SOUTHWEST OHIO · RIVER CITY",
+    "order": 11
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hey, those hills and the Ohio River make quite an entrance, don’t they? Downtown, Over-the-Rhine, riverfront spaces, museums, and performances give Cincinnati plenty of ways to fill a day. Cincinnati-style chili and goetta belong to the local food story too. A meal is a rather delicious place to begin exploring."
+    },
+    {
+      "type": "paragraph",
+      "text": "One map detail before we wander: the wider region reaches across the river, so check which state and neighborhood each stop is in. Visit Cincy collects dining, events, and neighborhood guides. Choose a few nearby places instead of sprinting through everything. A market, a museum, and a long riverside walk already sound pretty good to me."
+    }
+  ]
+}

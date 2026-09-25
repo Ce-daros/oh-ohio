@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "note:freedom-center-river",
+    "slug": "freedom-center-river",
+    "kind": "note",
+    "title": "Freedom stories by the river",
+    "summary": "The Ohio River runs right beside this Cincinnati museum, where the setting and the history meet thoughtfully and carefully.",
+    "canonicalPath": "/culture#freedom-center-river",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture"
+    ],
+    "topics": [
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:48a13dd8c32b",
+        "label": "National Underground Railroad Freedom Center · In This Place"
+      },
+      {
+        "id": "source:3a731cd018ec",
+        "label": "National Underground Railroad Freedom Center · Self-guided tour"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/note/freedom-center-river.json",
+    "sectionId": "culture",
+    "kicker": "CINCINNATI · HISTORY",
+    "order": 26
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I’ll guide you into the National Underground Railroad Freedom Center with care. On Cincinnati’s riverfront, its exhibits tell stories of slavery, resistance, the Underground Railroad, and the continuing struggle for freedom. From the terrace, the Ohio River marks the boundary between Ohio and Kentucky during legal slavery. That geography brings history close while leaving the complexity of each person’s journey intact."
+    },
+    {
+      "type": "paragraph",
+      "text": "Follow the people in each account: those who sought freedom, those who helped, and those who defended an unjust system. The museum also connects this history to present-day freedom issues. Let the accounts remain distinct, and leave room to reflect."
+    }
+  ]
+}

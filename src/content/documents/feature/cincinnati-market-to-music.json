@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "feature:cincinnati-market-to-music",
+    "slug": "cincinnati-market-to-music",
+    "kind": "feature",
+    "title": "A market morning. A music night.",
+    "summary": "A full day in Cincinnati’s Over-the-Rhine, with room for music at the end. ♡",
+    "canonicalPath": "/journal/cincinnati-market-to-music",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore"
+    ],
+    "topics": [
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:43b5ffb6701f",
+        "label": "Travelling Han · Cincinnati two-day itinerary",
+        "kind": "Travel account"
+      },
+      {
+        "id": "source:668b7749a77a",
+        "label": "Findlay Market · history and visitor information",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:d6f3964ef5ae",
+        "label": "ArtWorks · interactive public art map",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:8e3ff34cee29",
+        "label": "Cincinnati Arts · visiting Music Hall",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:9e83bf597a6f",
+        "label": "Cincinnati Connector · how to ride",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/cincinnati-market-to-music.json",
+    "category": "guides",
+    "location": "Cincinnati · Over-the-Rhine",
+    "duration": "One easy day",
+    "readTime": "3 min read",
+    "coverMediaId": "media:cincinnati-market-to-music",
+    "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+    "titleAccent": "A music night.",
+    "recommendations": [
+      {
+        "id": "feature:rookwood-clay",
+        "reason": "A closer look at an Ohio maker"
+      },
+      {
+        "id": "feature:cincinnati-chili",
+        "reason": "Another Ohio food story"
+      }
+    ],
+    "order": 72
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Breakfast first? I thought you might say that. Let’s start at Findlay Market, wander past a few painted walls, and find a bench in Washington Park before the evening begins. Music Hall is waiting across the street if there’s a performance you fancy. We’ll stay in Over-the-Rhine today; there’s plenty here to keep us happily occupied without racing across Cincinnati."
+    },
+    {
+      "type": "heading",
+      "id": "market",
+      "title": "Begin at the market",
+      "eyebrow": "Morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ooh, take one lap before you choose. Findlay Market’s iron-framed market house opened in 1855, but the counters are busy with today’s shopping: produce, fish, flowers, and something ready to eat. Browse the indoor aisles, then go back to whatever caught your eye. On a weekend, leave time for the outdoor vendors too. A quick breakfast can easily become a longer look."
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no need to turn lunch into a reservation race. Choose something you can eat nearby, save a little appetite for later, and notice how many kinds of shopping fit into one block. The market is a good place to see the neighborhood in the middle of its ordinary errands."
+    },
+    {
+      "type": "heading",
+      "id": "art",
+      "title": "Follow the painted walls south",
+      "eyebrow": "Late morning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ready for a walk? Let’s head south toward Washington Park through Over-the-Rhine’s side streets. ArtWorks’ murals give us plenty of reasons to pause. Open its current mural map if you’d like to find out who painted a wall or what inspired it. We can choose a few along the way and still leave room for an unexpected favorite."
+    },
+    {
+      "type": "paragraph",
+      "text": "Give the buildings a look too. The close-set brick fronts and changing storefronts make the short trip feel like a sequence of rooms. Step into a shop if it interests you, then keep moving. This is a better stretch for curiosity than for speed."
+    },
+    {
+      "type": "characterAside",
+      "title": "Wait, who painted that?",
+      "text": "The ArtWorks map names the artists behind the walls. If a mural makes you stop, give its maker a moment too. I’d love to know which one you pick."
+    },
+    {
+      "type": "heading",
+      "id": "park",
+      "title": "Take a pause at Washington Park",
+      "eyebrow": "Afternoon"
+    },
+    {
+      "type": "paragraph",
+      "text": "There’s our pause: Washington Park. Find a bench and put your bag down for a bit. Across Elm Street, Music Hall gives you something lovely to look at while deciding between another wander and an early dinner. You can enjoy the building from the park even without a performance ticket. Go on, look up at that facade."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the weather changes or your feet ask for a break, the Connector streetcar links Findlay Market and Washington Park with downtown. You can use it for one leg and still keep the best part of the walk. Check the route before boarding so you know which side of the loop takes you where you want to go."
+    },
+    {
+      "type": "heading",
+      "id": "music",
+      "title": "Let the evening have a soundtrack",
+      "eyebrow": "Evening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Now for the evening. If a Music Hall performance catches your eye, book it before the trip and let that set our dinner time. The hall also offers tours when the schedule allows. On a night without a show, we can finish with dinner in Over-the-Rhine and one more walk. The day already has plenty to remember."
+    },
+    {
+      "type": "paragraph",
+      "text": "By bedtime, you will have followed one neighborhood from its grocery counters to its public art and concert hall. There is plenty more to see another time."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Duration",
+          "text": "Allow most of a day, plus an evening if you book a show."
+        },
+        {
+          "label": "Getting around",
+          "text": "Walk the market-to-park stretch; the Connector streetcar serves both ends and downtown."
+        },
+        {
+          "label": "Before you go",
+          "text": "Findlay Market closes on Mondays. Check market hours, ArtWorks tour dates, and Music Hall's calendar before choosing your day."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A market bag, a few new stories, maybe a tune to take home. That was a good day, wasn’t it? ♡"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "feature:athens-campus-day",
+    "slug": "athens-campus-day",
+    "kind": "feature",
+    "title": "Got a little time? Let’s walk through Athens.",
+    "summary": "From Ohio University’s College Green to Uptown, a few ordinary blocks hold plenty of stories.",
+    "canonicalPath": "/journal/athens-campus-day",
+    "primaryWorld": "live",
+    "worlds": [
+      "live"
+    ],
+    "topics": [
+      "topic:live-campus"
+    ],
+    "places": [
+      "ohio",
+      "athens"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:ede1787bcddb",
+        "label": "Ohio University: history and traditions",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:29584ee3d5de",
+        "label": "Ohio University: plan your visit",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:5c1739058d79",
+        "label": "Ohio University: Athens community",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:60ddb2dbd634",
+        "label": "Ohio University: Baker University Center dining",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "unverified"
+    },
+    "bodyPath": "./documents/feature/athens-campus-day.json",
+    "category": "everyday",
+    "location": "Athens",
+    "duration": "A campus day",
+    "readTime": "3 min read",
+    "coverMediaId": "media:athens-campus-day",
+    "coverAlt": "Painted college green with a tree-lined path and red brick academic building",
+    "titleAccent": "through Athens.",
+    "recommendations": [
+      {
+        "id": "feature:library-afternoon",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:community-garden-season",
+        "reason": "Another look at everyday Ohio"
+      },
+      {
+        "id": "feature:cuyahoga-slow-day",
+        "reason": "Another Ohio day out"
+      }
+    ],
+    "order": 85
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Let’s start at College Green. You can look at the old buildings, but watch the paths too: they’re part of somebody’s walk to class, a meeting, or the library. Ohio University and Uptown Athens sit close enough for us to meet both on foot. We’ll take the public paths, leave people room to get on with their day, and see where a little wandering leads."
+    },
+    {
+      "type": "heading",
+      "id": "through-the-gate",
+      "title": "Through the gateway",
+      "eyebrow": "THE CROSSING"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Alumni Gateway is a nice place to begin. Ohio University describes a tradition of entering through it as a new student and leaving after commencement. Today, it also does an ordinary, useful thing: connects campus with town. Stand back for a moment and look in both directions. We can follow the green first and leave Uptown for later."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cutler Hall is the oldest building on College Green. Over its long history it has held different university uses, including classrooms and a library. That’s something to keep in mind while you look at the facade. A historic building has had many ordinary mornings. Its place in the university comes from all those days as well as the big occasions."
+    },
+    {
+      "type": "heading",
+      "id": "a-working-campus",
+      "title": "A working campus, not a still picture",
+      "eyebrow": "THE ROUTINE"
+    },
+    {
+      "type": "paragraph",
+      "text": "The university’s suggested visitor route includes College Green, Alden Library, and places for study, food, and recreation. Baker University Center is a meeting point between classes and activities. You start to see the shape of a student day in those stops: somewhere to read, somewhere to eat, someone to meet before moving on."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an active campus, so use public paths and the university’s visitor guidance. A booked admissions tour is the way to see the spaces included in that program. We can enjoy the green without treating every doorway as an invitation. Take a seat if you like. Sometimes staying still for a minute tells you more than hurrying to the next building."
+    },
+    {
+      "type": "characterAside",
+      "title": "Try the view both ways",
+      "text": "Toward the green, then back toward Uptown. The gateway is a good reminder that a campus day is also a day in somebody’s town."
+    },
+    {
+      "type": "heading",
+      "id": "out-to-athens",
+      "title": "Out to Athens",
+      "eyebrow": "THE TOWN"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ready for the town side? Head toward Court Street and Uptown. Ohio University’s introduction to Athens points to food, music, and arts as part of the relationship between campus and community. Choose a public street, look at the businesses, and let something catch your interest. There are neighbors and working days here beyond the university calendar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before heading back, turn around and look toward the gateway again. We’ve only crossed a few blocks, but they connect different parts of Athens: the green, classrooms, shops, and places to meet. If you’re planning a more formal campus visit, check the university’s current tour information. For a simple walk, leave yourself enough time to notice both sides."
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "For a campus visit",
+          "text": "Use Ohio University's current admissions tour information for guided access."
+        },
+        {
+          "label": "For a walk",
+          "text": "Begin at College Green and continue toward Uptown on public paths."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A little walk, a little time in town. I’m glad we didn’t rush through. ♡"
+    }
+  ]
+}
