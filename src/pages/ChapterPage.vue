@@ -14,6 +14,7 @@ import MakeScene from "../components/scenes/MakeScene.vue";
 import CultureScene from "../components/scenes/CultureScene.vue";
 import LiveScene from "../components/scenes/LiveScene.vue";
 import { usePageMotion } from "../composables/usePageMotion";
+import { useMotionPolicy } from "../composables/useMotionPolicy";
 const props = defineProps<{ chapterId: ChapterId }>();
 const route = useRoute();
 const router = useRouter();
@@ -44,15 +45,13 @@ const facts = {
 };
 usePageMotion(root);
 let selectionMotion: gsap.core.Tween | undefined;
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-const finishSelection = () => { selectionMotion?.progress(1); };
-reducedMotion.addEventListener("change", finishSelection);
+const canAnimate = useMotionPolicy(() => { selectionMotion?.progress(1).kill(); });
 async function selectGroup(id: string) {
   if (id === selected.value) return;
   selected.value = id;
   await nextTick();
   selectionMotion?.kill();
-  if (!reducedMotion.matches && document.documentElement.dataset.input !== "keyboard") {
+  if (canAnimate()) {
     selectionMotion = gsap.fromTo(selectionPanel.value, { y: 8, opacity: .3 }, { y: 0, opacity: 1, duration: .3, ease: "power3.out", clearProps: "transform,opacity" });
   }
 }
@@ -64,7 +63,7 @@ function closeEntry() {
 watch(reading, entry => {
   if (entry) { const group = groups.value.find(item => item.slugs.includes(entry.slug)); if (group) selected.value = group.id; }
 }, { immediate: true });
-onUnmounted(() => { selectionMotion?.kill(); reducedMotion.removeEventListener("change", finishSelection); });
+onUnmounted(() => { selectionMotion?.kill(); });
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" :class="['world-page', `world-${chapterId}`]" :style="{'--world-color':chapter.color}">

@@ -1,14 +1,15 @@
 <script setup lang="ts">
-import { nextTick, onUnmounted, ref, watch } from "vue";
+import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import gsap from "gsap";
 import type { Entry } from "../catalog";
+import { useMotionPolicy } from "../composables/useMotionPolicy";
 const props = defineProps<{ entry: Entry | undefined }>();
 const emit = defineEmits<{ close: [] }>();
 const dialog = ref<HTMLDialogElement | null>(null);
-const displayed = ref<Entry>();
+const displayed = ref<Entry | undefined>(props.entry);
 let trigger: HTMLElement | null = null;
 let animation: gsap.core.Tween | undefined;
-const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+const canAnimate = useMotionPolicy(motionChanged);
 function finishClose() {
   dialog.value!.close();
   document.documentElement.classList.remove("reading-open");
@@ -16,7 +17,7 @@ function finishClose() {
   else document.querySelector<HTMLButtonElement>('.scene-hotspot[aria-pressed="true"]')!.focus({ preventScroll: true });
   displayed.value = undefined;
 }
-watch(() => props.entry, async (entry, _previous, onCleanup) => {
+onMounted(() => watch(() => props.entry, async (entry, _previous, onCleanup) => {
   let superseded = false;
   onCleanup(() => { superseded = true; });
   animation?.kill();
@@ -31,19 +32,17 @@ watch(() => props.entry, async (entry, _previous, onCleanup) => {
       element.showModal();
     }
     element.scrollTop = 0;
-    if (!reduced.matches && document.documentElement.dataset.input !== "keyboard") {
+    if (canAnimate()) {
       animation = gsap.fromTo(element, { x: 32, opacity: 0 }, { x: 0, opacity: 1, duration: .36, ease: "power3.out" });
     } else gsap.set(element, { clearProps: "transform,opacity" });
   } else if (dialog.value?.open) {
-    if (reduced.matches || document.documentElement.dataset.input === "keyboard") finishClose();
+    if (!canAnimate()) finishClose();
     else animation = gsap.to(dialog.value, { x: 14, opacity: 0, duration: .18, ease: "power2.in", onComplete: finishClose });
   }
-}, { immediate: true, flush: "post" });
+}, { immediate: true, flush: "post" }));
 function backdrop(event: MouseEvent) { if (event.target === dialog.value) { const rect = dialog.value!.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) emit("close"); } }
 function motionChanged() { animation?.kill(); if (props.entry) gsap.set(dialog.value!, { clearProps: "transform,opacity" }); else if (dialog.value?.open) finishClose(); }
-reduced.addEventListener("change", motionChanged);
-document.addEventListener("ohio:motion-stop", motionChanged);
-onUnmounted(() => { animation?.kill(); reduced.removeEventListener("change", motionChanged); document.removeEventListener("ohio:motion-stop", motionChanged); document.documentElement.classList.remove("reading-open"); });
+onUnmounted(() => { animation?.kill(); document.documentElement.classList.remove("reading-open"); });
 </script>
 <template>
   <dialog ref="dialog" class="reader" aria-labelledby="reader-title" @cancel.prevent="emit('close')" @click="backdrop">
