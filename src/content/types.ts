@@ -1,13 +1,13 @@
 export type WorldId = 'explore' | 'make' | 'culture' | 'live';
 export type ContentKind = 'note' | 'phrase' | 'feature';
-export type JournalCategory = 'guides' | 'making' | 'table' | 'everyday';
+export type JournalCategory = 'guides' | 'making' | 'table' | 'everyday' | 'culture';
 export type SourceKind = 'Travel account' | 'Local guide' | 'Official source' | 'Reporting';
 
 export interface SourceRef { id: string; label: string; kind?: SourceKind }
 export interface Source { id: string; title: string; url: string }
 export interface Media {
   id: string;
-  kind: 'image' | 'audio';
+  kind: 'image' | 'audio' | 'video';
   use: 'atmosphere' | 'explanation' | 'documentary';
   src: string;
   alt?: string;
@@ -18,12 +18,13 @@ export interface Media {
   crop?: { x: number; y: number; width: number; height: number };
   focalPoint?: { x: number; y: number };
 }
-export interface Place { id: string; title: string }
+export interface Place { id: string; title: string; address?: string; coordinates?: { lat: number; lon: number }; sourceId?: string }
 export interface Topic { id: string; title: string; dek: string; order: number; world: WorldId; featuredId: string }
 export interface World { id: WorldId; title: string; headline: string; tease: string; symbol: string; color: string; art: string; prop: string; sources: string[] }
 export interface Collection {
   id: string;
-  kind: 'topic' | 'category' | 'world' | 'home';
+  kind: 'topic' | 'category' | 'world' | 'home' | 'dossier';
+  slug?: string;
   title: string;
   dek: string;
   order: number;
@@ -95,6 +96,8 @@ export type BodyBlock = ({
   | { type: 'practical'; items: { label: string; text: string }[] }
   | { type: 'characterAside'; title: string; text: string; role?: 'welcome' | 'notice' | 'explain' | 'listen' | 'practical' | 'farewell' }
   | { type: 'audio'; mediaId: string; transcript: string }
+  | { type: 'video'; mediaId: string; transcript: string }
+  | { type: 'placeMap'; title: string; placeIds: string[]; caption: string }
   | { type: 'route'; stops: { id: string; title: string; note: string; placeId?: string }[] }) & { sourceIds?: string[] };
 
 export interface ContentBody { meta: ContentMeta; blocks: BodyBlock[] }

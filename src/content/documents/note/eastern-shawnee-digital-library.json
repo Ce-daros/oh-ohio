@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "note:eastern-shawnee-digital-library",
+    "slug": "eastern-shawnee-digital-library",
+    "kind": "note",
+    "title": "A tribal archive in a shared portal",
+    "summary": "Ohio Memory identifies the Eastern Shawnee Tribe of Oklahoma’s digital library as a partner collection.",
+    "canonicalPath": "/notes/eastern-shawnee-digital-library",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture",
+      "live"
+    ],
+    "topics": [
+      "topic:culture-gallery",
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:memory-ohio-memory-collections",
+        "label": "Ohio Memory · Collections",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-ohc-american-indian-policy",
+        "label": "Ohio History Connection · American Indian Policy",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:memory-ohio-memory-collections"
+    },
+    "bodyPath": "./documents/note/eastern-shawnee-digital-library.json",
+    "sectionId": "discover",
+    "kicker": "EASTERN SHAWNEE TRIBE · DIGITAL COLLECTION",
+    "order": 103,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/memory.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio Memory’s collections page lists the Eastern Shawnee Tribe of Oklahoma among its partners and describes a digital library project presenting the Tribe’s heritage through records selected for that collection. The shared portal is useful for discovery, but the partner attribution matters: the collection belongs to a relationship with a named Tribe, not to an undifferentiated category of “Native history.” Ohio History Connection’s American Indian Policy provides institutional context for tribal relationships and collections care. Read the collection’s own descriptions and credit the Eastern Shawnee Tribe; the partner record helps explain who selected and described the materials. For a question about current tribal life or interpretation, seek the Tribe’s own present-day statements rather than extending an archival record beyond what it says.",
+      "sourceIds": [
+        "source:memory-ohio-memory-collections",
+        "source:memory-ohc-american-indian-policy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "id": "note:whistle-cross-section",
+    "slug": "whistle-cross-section",
+    "kind": "note",
+    "title": "A whistle in cross-section",
+    "summary": "A small chamber and a moving pea turn a breath into a trill.",
+    "canonicalPath": "/notes/whistle-cross-section",
+    "primaryWorld": "make",
+    "worlds": [
+      "make"
+    ],
+    "topics": [
+      "topic:make-factory"
+    ],
+    "places": [
+      "ohio",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:mat-whistle-made",
+        "label": "American Whistle Corporation: How Whistles Are Made",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-whistle-work",
+        "label": "American Whistle Corporation: How Whistles Work",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:mat-whistle-work"
+    },
+    "bodyPath": "./documents/note/whistle-cross-section.json",
+    "order": 87,
+    "sectionId": "making",
+    "kicker": "COLUMBUS · OBJECT STUDY",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/materials.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A pea whistle has a short route for air and a little room for movement. Air enters at the mouthpiece and passes through an opening into the chamber. A small sphere inside moves as the air passes, changing the sound into the familiar trill. American Whistle Corporation’s explanation of how whistles work describes the mechanism; its manufacturing account describes how the pea is placed inside before the mouthpiece is joined.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-whistle-work"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If you have a metal whistle nearby, look for the mouthpiece, chamber, sound opening, seam, and ring. A diagram can help you follow the path, but the company’s account is still one maker’s description of its product. It says the finished whistle is hand-tested. No need to take one apart: follow the published cutaway, then listen to the next whistle you hear and picture the small sphere moving inside.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-whistle-work"
+      ]
+    }
+  ]
+}

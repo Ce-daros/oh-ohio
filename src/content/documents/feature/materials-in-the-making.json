@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "id": "feature:materials-in-the-making",
+    "slug": "materials-in-the-making",
+    "kind": "feature",
+    "title": "How an Ohio object takes shape",
+    "summary": "Follow a Columbus brass whistle and a Cincinnati pottery piece from material to finished object.",
+    "canonicalPath": "/journal/materials-in-the-making",
+    "primaryWorld": "make",
+    "worlds": [
+      "make",
+      "culture"
+    ],
+    "topics": [
+      "topic:make-factory",
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio",
+      "columbus",
+      "cincinnati",
+      "toledo",
+      "akron"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:mat-whistle-made",
+        "label": "American Whistle Corporation: How Whistles Are Made",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-whistle-work",
+        "label": "American Whistle Corporation: How Whistles Work",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-whistle-visit",
+        "label": "American Whistle Corporation: Visit and company information",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-rookwood-about",
+        "label": "Rookwood Pottery: About Rookwood",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-rookwood-tour",
+        "label": "Rookwood Pottery: Factory Tours",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-rookwood-honors",
+        "label": "Rookwood honors, digitized by the Public Library of Cincinnati and Hamilton County",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-rookwood-vase",
+        "label": "Cincinnati Art Museum: Rookwood vase, 1882",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-glass-1962",
+        "label": "Toledo Museum of Art: 1962 Toledo Workshops",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-akron-chemistry",
+        "label": "University of Akron Archives: Charles M. Knight and rubber chemistry",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-akron-labor",
+        "label": "University of Akron Press: Wheels of Fortune, the story of rubber in Akron",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:mat-whistle-made"
+    },
+    "bodyPath": "./documents/feature/materials-in-the-making.json",
+    "order": 86,
+    "category": "making",
+    "location": "Columbus and Cincinnati",
+    "duration": "A close look",
+    "readTime": "5 min read",
+    "coverMediaId": "media:brass-whistle",
+    "coverAlt": "Illustrated brass pea whistle, navy cord and metal blank on a workbench",
+    "titleAccent": "takes shape",
+    "recommendations": [
+      {
+        "id": "feature:rookwood-clay",
+        "reason": "See another Ohio material pass through many hands"
+      },
+      {
+        "id": "feature:toledo-glass",
+        "reason": "Follow glass from workshop to gallery"
+      },
+      {
+        "id": "feature:akron-rubber",
+        "reason": "Look closer at a familiar Ohio-made material"
+      }
+    ],
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/materials.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Take a metal whistle from a desk drawer and turn it over. Its sound seems to come from one tiny opening, but the object began as several carefully shaped pieces. American Whistle Corporation says it has made metal whistles in Columbus since 1956. Its published process starts with brass sheet or coil, then moves through cutting, forming, joining, and a final sound check.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-whistle-visit"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "brass-begins-flat",
+      "title": "A whistle begins flat",
+      "eyebrow": "THE MATERIAL"
+    },
+    {
+      "type": "process",
+      "title": "From brass stock to finished whistle",
+      "steps": [
+        {
+          "title": "Cut",
+          "text": "A press cuts flat blanks for the body and mouthpiece from brass stock."
+        },
+        {
+          "title": "Form",
+          "text": "Tools bend the blanks into the curved shapes the whistle needs."
+        },
+        {
+          "title": "Fit",
+          "text": "The mouthpiece and body are joined around the air passage, with a small pea set inside the chamber."
+        },
+        {
+          "title": "Listen",
+          "text": "The company says finished whistles are tested by hand for sound."
+        }
+      ],
+      "sourceIds": [
+        "source:mat-whistle-made"
+      ]
+    },
+    {
+      "sourceIds": [
+        "source:mat-whistle-work"
+      ],
+      "text": "That small pea has a job: it moves inside the chamber and interrupts the airflow, making the whistle’s trill.",
+      "type": "characterAside",
+      "title": "Listen for the little sphere",
+      "role": "explain"
+    },
+    {
+      "type": "paragraph",
+      "text": "That sequence gives us a way to read the object. Start at the mouthpiece and trace the route air would take. Look for the chamber, the opening, the seam, and the ring. Each feature belongs to the sound-making path or to the practical job of carrying and using the whistle. American Whistle’s explanation says the moving sphere interrupts airflow in the chamber, producing the familiar trill. The pea is not decoration; the space around it lets it move.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-whistle-work"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The first close look is almost a miniature manufacturing diagram: sheet, cut, bend, join, test. The company says it still uses original machinery and produces more than a million whistles a year. Its visit page lists factory tours; check current booking and access information before planning around one.",
+      "sourceIds": [
+        "source:mat-whistle-visit",
+        "source:mat-whistle-made"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "clay-needs-time",
+      "title": "Clay asks for time",
+      "eyebrow": "THE WORK"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Cincinnati, another familiar object follows a slower path. Rookwood Pottery dates its beginnings to 1880, when Maria Longworth Nichols Storer established a pottery in a former schoolhouse and potters worked with Ohio River clay. Rookwood says each piece passes through at least thirteen sets of hands. Rookwood says each piece passes through at least thirteen sets of hands.",
+      "sourceIds": [
+        "source:mat-rookwood-about"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Clay changes as it is shaped, dried, decorated, glazed, and fired. Each stage narrows the choices available at the next one. A curve that looks effortless on a finished vase has to survive those changes; a glaze is both a surface and the result of a process. Rookwood’s account stresses patience and allows that small variations are part of handmade work. Notice where a form is regular, where a glaze gathers, and where the maker has left a mark.",
+      "sourceIds": [
+        "source:mat-rookwood-about"
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Designs shall be original, individuality shall be the goal.",
+      "attribution": "Maria Longworth Nichols Storer, quoted by Rookwood Pottery",
+      "sourceId": "source:mat-rookwood-about",
+      "sourceIds": [
+        "source:mat-rookwood-about"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "That line points to a tension worth seeing in a workshop: a vessel is a usable thing, but it can also carry an artist’s distinct choices. Rookwood’s history records a gold medal at the Paris Exposition within ten years of its 1880 founding; a Cincinnati Public Library honors list gives the year as 1889. A Cincinnati Art Museum catalog also preserves the record of an 1882 vase.",
+      "sourceIds": [
+        "source:mat-rookwood-about",
+        "source:mat-rookwood-honors",
+        "source:mat-rookwood-vase"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "across-ohio",
+      "title": "Follow the material across the state",
+      "eyebrow": "COMPARE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Now the two objects open onto Ohio’s other material stories. A whistle makes airflow audible; glass makes light and heat part of what we see; rubber turns flexibility and wear into questions about a tire’s contact with the road. The Toledo Museum’s account of its two 1962 glass workshops describes artists experimenting with studio furnaces, a different kind of making history. Akron’s rubber story connects everyday products to industrial research and workers in the rubber shops. The materials follow different paths through Ohio’s workshops and industries.",
+      "sourceIds": [
+        "source:mat-glass-1962",
+        "source:mat-akron-chemistry",
+        "source:mat-akron-labor"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Try one small comparison. Put a whistle, a glazed cup, a glass vessel, and a tire tread in your mind’s eye. Ask what each material has to withstand, what process changes its shape, and what the finished object lets someone do. Then ask whose work the object makes easy to overlook. Look closely at what each finished object hides: repeated labor, skilled judgement, and the hands that made it.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-rookwood-about",
+        "source:mat-glass-1962",
+        "source:mat-akron-labor"
+      ]
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "In Cincinnati",
+          "text": "Rookwood lists its working facility and showroom at 1920 Race Street. Its scheduled factory tours enter a live factory, require closed-toe shoes, and cover a large area. Confirm current availability and access arrangements directly."
+        },
+        {
+          "label": "In Columbus",
+          "text": "Use American Whistle’s current visit page for tour details and booking information."
+        }
+      ],
+      "sourceIds": [
+        "source:mat-rookwood-tour",
+        "source:mat-whistle-visit"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "The objects are worth a close look even when a factory visit does not fit your plans. ♡"
+    }
+  ]
+}

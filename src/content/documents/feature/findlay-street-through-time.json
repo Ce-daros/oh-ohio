@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "id": "feature:findlay-street-through-time",
+    "slug": "findlay-street-through-time",
+    "kind": "feature",
+    "title": "Findlay Street through time",
+    "summary": "Race Street’s market block links a nineteenth-century plat, a changing neighborhood, and a present-day transit stop.",
+    "canonicalPath": "/journal/findlay-street-through-time",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "culture",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-cities",
+      "topic:culture-gallery",
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati",
+      "findlay-market",
+      "washington-park-cincinnati",
+      "cincinnati-music-hall"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:str-market-history",
+        "label": "Findlay Market: History",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-tour",
+        "label": "Findlay Market: Self-guided tour",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-geocoder",
+        "label": "U.S. Census Bureau Geocoder: 132 W Elder Street",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-sanborn",
+        "label": "Library of Congress: Cincinnati Sanborn maps, 1904, volume 7",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-loc-sanborn-about",
+        "label": "Library of Congress: Sanborn Maps collection guide",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-oplin",
+        "label": "OPLIN Sanborn Image Viewer: Cincinnati, 1887",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-nps",
+        "label": "National Register: Over-the-Rhine Historic District",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-streetcar",
+        "label": "City of Cincinnati: Hours, Route and Station Stops",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-hours",
+        "label": "Findlay Market: Hours",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-findlay",
+        "label": "U.S. Census Bureau Geocoder — 132 W Elder Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-washington-park",
+        "label": "U.S. Census Bureau Geocoder — 1230 Elm Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-music-hall",
+        "label": "U.S. Census Bureau Geocoder — 1241 Elm Street, Public_AR_Current",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:str-market-history"
+    },
+    "bodyPath": "./documents/feature/findlay-street-through-time.json",
+    "category": "everyday",
+    "location": "Cincinnati · Findlay Market and Race Street",
+    "duration": "A map-led market visit",
+    "readTime": "5 min read",
+    "coverMediaId": "media:cincinnati-market-to-music",
+    "coverAlt": "An illustrated Cincinnati market street and storefronts",
+    "titleAccent": "through time",
+    "recommendations": [
+      {
+        "id": "note:reading-a-sanborn-map",
+        "reason": "Learn what an insurance map can and cannot show."
+      },
+      {
+        "id": "note:markets-changing-edges",
+        "reason": "Compare the market plat with today’s transit map."
+      }
+    ],
+    "order": 95,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/street.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "At Findlay Market, a short stretch of Race Street carries more than one city plan. The street is part of a grid laid out before this area joined Cincinnati; the market building came later, and a modern streetcar now stops at the block. Read the block through its changing infrastructure: the plat lays out streets, the market history describes a public institution, and the present route shows how transit reaches the area.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-tour",
+        "source:str-streetcar"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "find-the-block",
+      "title": "Find the street before the market",
+      "eyebrow": "1833 · Northern Liberties",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-geocoder"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Findlay Market’s published history says James Findlay and Jepthah Garrard recorded the Northern Liberties town plat on June 3, 1833. The plat established streets that still include Race, Elm, Green, and Findlay, and reserved a market area along what became Elder Street. At the time, the Northern Liberties lay north of Cincinnati’s boundary; the area was annexed in 1849. The market occupies the later history of this grid, rather than explaining why every street line was drawn as it was.",
+      "sourceIds": [
+        "source:str-market-history"
+      ]
+    },
+    {
+      "type": "practical",
+      "items": [
+        {
+          "label": "Market address",
+          "text": "Findlay Market’s self-guided tour lists 1801 Race Street and shows Race on the market’s west side."
+        },
+        {
+          "label": "Map pin",
+          "text": "The U.S. Census Bureau geocoder returns about 39.11544, −84.51930 for the organization’s 132 W Elder Street address. This is a representative address point, not a surveyed market-house center."
+        },
+        {
+          "label": "Map evidence",
+          "text": "Use the 1887 or 1904 Sanborn viewer to locate the precise sheet and verify its date and legend before labeling a building or footprint."
+        }
+      ],
+      "sourceIds": [
+        "source:str-tour",
+        "source:str-geocoder",
+        "source:str-sanborn",
+        "source:str-oplin"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "market-house",
+      "title": "A market built in stages",
+      "eyebrow": "1852–1902",
+      "sourceIds": [
+        "source:str-market-history"
+      ]
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "label": "1833",
+          "text": "The Northern Liberties plat establishes a street grid and a market location along Elder Street."
+        },
+        {
+          "label": "1852 / 1855",
+          "text": "The iron-framed market house is erected in 1852; construction disputes and difficulties delay opening until 1855."
+        },
+        {
+          "label": "1902",
+          "text": "A central masonry tower is added; public-health concerns lead soon after to enclosure, plumbing, and refrigeration."
+        },
+        {
+          "label": "Today",
+          "text": "The city streetcar’s Findlay Market – Race stop connects the market block to the downtown and Over-the-Rhine loop."
+        }
+      ],
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-streetcar"
+      ]
+    },
+    {
+      "text": "A plat lays out streets; a Sanborn sheet records buildings; today’s transit map shows a route. Put them side by side, and leave residents’ lived experience to the sources that can speak to it.",
+      "type": "characterAside",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-sanborn",
+        "source:str-streetcar"
+      ],
+      "title": "Compare what each map can show",
+      "role": "explain"
+    },
+    {
+      "type": "paragraph",
+      "text": "The market’s account calls Findlay the only surviving municipal market house among the nine Cincinnati public markets operating in the nineteenth and early twentieth centuries. It was built as an open-sided pavilion with a cast- and wrought-iron frame, a relatively unusual construction method in the United States according to the market history. Built in 1852, it did not open until 1855 because of contractor disputes and problems in the construction. A masonry tower followed in 1902. Public-health concerns about exposure to weather and increasing urban pollution were followed by enclosure and the addition of plumbing and refrigeration. Merchants had previously used cool storage in deep cellars beneath nearby breweries. Each change answers a different practical problem: structure, weather, water, and keeping perishables cold.",
+      "sourceIds": [
+        "source:str-market-history"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "neighborhood",
+      "title": "A commercial street inside a residential neighborhood",
+      "eyebrow": "Nineteenth and twentieth centuries",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-nps"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Over-the-Rhine’s growth involved housing, work, migration, and cultural institutions as well as commerce. Findlay Market’s history, drawing on the local historic district report, describes German churches, associations, newspapers, and a brewing industry with 36 breweries by 1860. It says most of the 950 structures in the Over-the-Rhine North district were built between 1860 and 1900. The National Register entry identifies the district’s significance in architecture and areas that include commerce, industry, religion, social history, and performing arts. Those institutional records define a broad historic context; they cannot stand in for individual residents’ experiences.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-nps"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The market’s page also reports a population decline of more than half in Over-the-Rhine during the 1960s and a doubling of African-American residents, linking that shift to West End displacement from highway construction and urban renewal. Keep these changes out of a tidy decline-and-revival arc. A map can show parcels and street alignment; it cannot tell us who was forced to move, who could afford to remain, or how people experienced the neighborhood.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-nps"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "walk-now",
+      "title": "Walk the block in the present tense",
+      "eyebrow": "Current route information",
+      "sourceIds": [
+        "source:str-streetcar",
+        "source:str-hours"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The city’s current streetcar page describes a 3.6-mile loop joining The Banks, downtown, and Over-the-Rhine; its station list includes Findlay Market – Race. The published core schedule is daily, but weekday, Saturday, and Sunday hours differ, and extended service may run for selected events. Findlay Market’s hours page gives its present general schedule and a separate weekend farmers-market schedule. Check both pages before travelling because hours and service can change, while individual vendors may keep their own schedules. The present-day streetcar serves this block; it is a newer layer in the street’s history.",
+      "sourceIds": [
+        "source:str-streetcar",
+        "source:str-hours"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "The market and the music block",
+      "placeIds": [
+        "findlay-market",
+        "washington-park-cincinnati",
+        "cincinnati-music-hall"
+      ],
+      "caption": "Address markers locate the surrounding blocks, not individual visitor entrances.",
+      "sourceIds": [
+        "map-census-findlay",
+        "map-census-washington-park",
+        "map-census-music-hall"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A useful walk is also a map comparison. Mark Race and Elder, find the market block on a verified historic sheet, then compare it with the city’s current streetcar map. The 1833 plat gives the grid’s early structure; the market history records construction changes; the district record supplies a preservation frame; the transit map shows today’s connection. Each source has a different scale and purpose. A map can explain a sequence of plans and buildings, but a sensory account of a past street would need a dated photograph, diary, recording, or a person’s own testimony.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-sanborn",
+        "source:str-streetcar"
+      ]
+    }
+  ]
+}

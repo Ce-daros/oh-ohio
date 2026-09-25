@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const idPattern = /^(note|phrase|feature):[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const kinds = new Set(['note', 'phrase', 'feature']);
-const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'video', 'route']);
+const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'video', 'placeMap', 'route']);
 const asideRoles = new Set(['welcome', 'notice', 'explain', 'listen', 'practical', 'farewell']);
 const mediaUses = new Set(['atmosphere', 'explanation', 'documentary']);
 const mediaKinds = new Set(['image', 'audio', 'video']);
@@ -111,7 +111,7 @@ export function validateContent(repoRoot = process.cwd()) {
       if (media.find(item => item.id === meta.coverMediaId)?.kind !== 'image') fail(file, 'coverMediaId must reference image media');
       if (!collections.some(item => item.kind === 'category' && item.presentation?.id === meta.category)) fail(file, `unknown category ${meta.category}`);
       if (!Array.isArray(meta.recommendations)) fail(file, 'recommendations must be an array');
-      else { unique(meta.recommendations, file, 'recommendation', item => item.id); meta.recommendations.forEach(rec => { linked(rec.id, new Set(metas.filter(item => item.kind === 'feature').map(item => item.id)), file, 'recommendation'); if (rec.id === meta.id) fail(file, 'feature cannot recommend itself'); nonempty(rec.reason, file, 'recommendation.reason'); }); }
+      else { unique(meta.recommendations, file, 'recommendation', item => item.id); meta.recommendations.forEach(rec => { linked(rec.id, new Set(byId.keys()), file, 'recommendation'); if (rec.id === meta.id) fail(file, 'feature cannot recommend itself'); nonempty(rec.reason, file, 'recommendation.reason'); }); }
     }
     if (!data.blocks.length) fail(file, 'body must contain blocks');
     const headings = new Set();
@@ -127,6 +127,23 @@ export function validateContent(repoRoot = process.cwd()) {
       if (block.type === 'illustration') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'image') fail(at, 'illustration requires image media'); }
       if (block.type === 'audio') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'audio') fail(at, 'audio block requires audio media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'video') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'video') fail(at, 'video block requires video media'); nonempty(block.transcript, at, 'transcript'); }
+      if (block.type === 'placeMap') {
+        nonempty(block.title, at, 'title');
+        nonempty(block.caption, at, 'caption');
+        if (!Array.isArray(block.placeIds) || !block.placeIds.length) fail(at, 'placeIds must contain at least one marker');
+        else {
+          unique(block.placeIds, at, 'place marker', id => id);
+          block.placeIds.forEach(id => {
+            linked(id, placeIds, at, 'placeId');
+            const place = places.find(item => item.id === id);
+            if (place && (!place.coordinates || !place.sourceId)) fail(at, `place ${id} requires sourced coordinates`);
+            if (place?.sourceId) {
+              linked(place.sourceId, articleSourceIds, at, `place ${id} sourceId`);
+              if (!block.sourceIds?.includes(place.sourceId)) fail(at, `place ${id} sourceId must appear in block sourceIds`);
+            }
+          });
+        }
+      }
       if (block.type === 'process') { nonempty(block.title, at, 'title'); validateItems(block.steps, at, ['title', 'text'], fail, nonempty); }
       if (block.type === 'quote') { nonempty(block.text, at, 'text'); nonempty(block.attribution, at, 'attribution'); if (block.sourceId) linked(block.sourceId, articleSourceIds, at, 'sourceId'); }
       if (block.type === 'timeline') validateItems(block.events, at, ['label', 'text'], fail, nonempty);

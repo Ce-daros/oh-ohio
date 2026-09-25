@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "note:yellow-springs-stewardship",
+    "slug": "yellow-springs-stewardship",
+    "kind": "note",
+    "title": "Glen Helen is a place people have shaped",
+    "summary": "The preserve’s own timeline connects land, civic choices, and conservation.",
+    "canonicalPath": "/notes/yellow-springs-stewardship",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-wild",
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:town-glen-helen-history",
+        "label": "Glen Helen · History of the Preserve",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-glen-helen-access",
+        "label": "Glen Helen · Directions and Parking",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:town-glen-helen-history"
+    },
+    "bodyPath": "./documents/note/yellow-springs-stewardship.json",
+    "sectionId": "travel",
+    "kicker": "YELLOW SPRINGS · GLEN HELEN",
+    "order": 105,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/small-towns.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Glen Helen’s history page describes more than a woodland setting. The preserve names Indigenous routes and Shawnee and Miami histories, a nineteenth-century resort around Yellow Spring, mills and lime production near the Little Miami River, and later conservation and outdoor education. Its timeline also records local opposition to a highway proposal in 1958, a sewer compromise in 1959, and the Glen Helen Association’s purchase and reopening of the preserve in 2020. This is the organization’s account of its own landscape and stewardship. Glen Helen’s directions distinguish the Cascades Lot, with ADA trail access to Birch Creek Cascades and Yellow Spring, from the Steps Lot, where a trail descends more than 110 stone steps. Check current conditions and choose an entrance that fits the visit.",
+      "sourceIds": [
+        "source:town-glen-helen-history",
+        "source:town-glen-helen-access"
+      ]
+    }
+  ]
+}

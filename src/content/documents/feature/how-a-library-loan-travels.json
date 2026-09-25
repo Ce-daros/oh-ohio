@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "id": "feature:how-a-library-loan-travels",
+    "slug": "how-a-library-loan-travels",
+    "kind": "feature",
+    "title": "How a library loan travels",
+    "summary": "One Cincinnati history book makes a useful guide to Ohio’s shared library shelves, from a local search to pickup and return.",
+    "canonicalPath": "/journal/how-a-library-loan-travels",
+    "primaryWorld": "live",
+    "worlds": [
+      "live",
+      "culture",
+      "explore"
+    ],
+    "topics": [
+      "topic:live-library",
+      "topic:explore-cities"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati",
+      "columbus"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:lib-ohiolink",
+        "label": "OhioLINK Resources",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-searchohio",
+        "label": "SearchOhio: Using SearchOhio",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-cml",
+        "label": "Columbus Metropolitan Library: SearchOhio & OhioLINK Catalogs",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-faq",
+        "label": "OhioLINK Frequently Asked Questions",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-book",
+        "label": "Arcadia Publishing: Findlay Market of Cincinnati",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-market",
+        "label": "Findlay Market: History",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:lib-ohiolink"
+    },
+    "bodyPath": "./documents/feature/how-a-library-loan-travels.json",
+    "category": "guides",
+    "location": "Ohio · local library catalogs",
+    "duration": "One catalog search",
+    "readTime": "5 min read",
+    "coverMediaId": "media:library-afternoon",
+    "coverAlt": "An illustrated library reading room",
+    "titleAccent": "travels",
+    "recommendations": [
+      {
+        "id": "note:what-catalog-can-tell-you",
+        "reason": "Start with the title, author, and ISBN."
+      },
+      {
+        "id": "note:a-books-trip-through-ohio",
+        "reason": "Follow the request through pickup and return."
+      }
+    ],
+    "order": 92,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/library.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "A book can cross Ohio without its reader leaving a neighborhood. SearchOhio and OhioLINK connect participating collections through local public-library catalogs; a request starts with the cardholder’s own library and ends at a chosen pickup desk. To make the route concrete, search for Alyssa McClanahan’s Findlay Market of Cincinnati: A History, published by Arcadia in 2021 (ISBN 9781467148597).",
+      "sourceIds": [
+        "source:lib-ohiolink",
+        "source:lib-book"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "catalog",
+      "title": "Begin where your card works",
+      "eyebrow": "One title, several ways to search",
+      "sourceIds": [
+        "source:lib-ohiolink",
+        "source:lib-book"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Search the local catalog by title, author, or ISBN. The ISBN is helpful when a title has similar editions, but the catalog record still needs to be checked: format, publication details, owning library, and current availability can differ. OhioLINK says its shared collections are now accessible through local library catalogs. Its Central Catalog stopped operating as a standalone catalog on June 26, 2025. A saved bookmark to the former central search may therefore lead to an obsolete route. Start with the catalog linked by the library that issued your card.",
+      "sourceIds": [
+        "source:lib-ohiolink"
+      ]
+    },
+    {
+      "type": "process",
+      "title": "From search to shelf",
+      "steps": [
+        {
+          "title": "Find the record",
+          "text": "Search the title, author, or ISBN in your own library catalog and review the edition and format."
+        },
+        {
+          "title": "Request it",
+          "text": "If the record offers SearchOhio or OhioLINK, choose its request control, select your affiliated library, enter the requested account details, and choose a pickup location."
+        },
+        {
+          "title": "Wait for notice",
+          "text": "SearchOhio says requests are usually ready within 3–5 business days, excluding weekend requests; that is an estimate, not a delivery promise."
+        },
+        {
+          "title": "Pick up and return",
+          "text": "Collect the item after the library notifies you. Follow the owning and pickup library’s rules for due dates, renewals, fees, and eligible return locations."
+        }
+      ],
+      "sourceIds": [
+        "source:lib-searchohio",
+        "source:lib-ohiolink"
+      ]
+    },
+    {
+      "sourceIds": [
+        "source:lib-searchohio",
+        "source:lib-cml"
+      ],
+      "text": "A catalog record starts the request; the arrival notice tells you when the book is ready. Check the due date in your own account before planning the return.",
+      "type": "characterAside",
+      "title": "Wait for the pickup notice",
+      "role": "practical"
+    },
+    {
+      "type": "paragraph",
+      "text": "SearchOhio’s request steps are straightforward: choose your affiliated library, sign in with your last name and library-card number (and a PIN if your library requires one), then select a pickup point. Requests usually arrive in three to five business days, except for weekend requests, and stay on the pickup shelf for ten days. Treat that timeline as an estimate: a title may be unavailable, non-circulating, or already requested. Wait for the arrival notice before making a special pickup trip.",
+      "sourceIds": [
+        "source:lib-searchohio"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "local-rules",
+      "title": "The local library still sets important terms",
+      "eyebrow": "Check the account that will receive the item",
+      "sourceIds": [
+        "source:lib-cml",
+        "source:lib-faq"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Network access does not erase local rules. Columbus Metropolitan Library publishes its own SearchOhio and OhioLINK loan lengths, renewal conditions, pickup hold, and return options. Its page lists 21 days for print materials, audiobooks, and music, seven days for movies, and up to three renewals when no one else is waiting; its pickup shelf hold is ten days. CML also says these items follow distinct fee and replacement policies. These are Columbus rules, not statewide terms. If your card comes from another library, use that library’s current guidance and the due date shown on your account.",
+      "sourceIds": [
+        "source:lib-cml"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "OhioLINK’s FAQ likewise points patrons back to local libraries for help with requests and fines. Eligibility and available options depend on the participating library and the item record. If the book does not appear, a librarian can help identify whether the title has another edition or whether a different interlibrary-loan route exists. Do not treat a missing request button as proof that the book is nowhere in Ohio.",
+      "sourceIds": [
+        "source:lib-faq",
+        "source:lib-ohiolink"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "read-the-place",
+      "title": "Let the book lead back to the market",
+      "eyebrow": "After pickup",
+      "sourceIds": [
+        "source:lib-market",
+        "source:lib-book"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When the book arrives, it can open a second route: from a library desk to the market it describes. Findlay Market’s institutional history dates the iron-framed market house to 1852 and its opening to 1855, after construction disputes and difficulties with the new method. The page also describes the later tower, enclosure, plumbing, and refrigeration. The catalog identifies the edition; the book and the market’s own history offer separate routes into the neighborhood’s past.",
+      "sourceIds": [
+        "source:lib-market",
+        "source:lib-book"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "The useful scale is small: one title, one account, one selected pickup point, and one return governed by local instructions. Ohio’s shared lending network makes collections easier to search across institutional boundaries, while the patron-facing path remains local. Search first, request only if the active record offers it, and plan around the notice and account rather than an assumed travel time.",
+      "sourceIds": [
+        "source:lib-searchohio",
+        "source:lib-ohiolink"
+      ]
+    }
+  ]
+}

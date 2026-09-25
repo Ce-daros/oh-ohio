@@ -50,5 +50,149 @@
   {
     "id": "appalachian-ohio",
     "title": "Appalachian Ohio"
+  },
+  {
+    "id": "findlay-market",
+    "title": "Findlay Market / Corporation office address",
+    "address": "132 W Elder Street, Cincinnati, OH",
+    "coordinates": {
+      "lat": 39.115436918183,
+      "lon": -84.519298951293
+    },
+    "sourceId": "map-census-findlay"
+  },
+  {
+    "id": "yellow-springs-cascades-access",
+    "title": "Glen Helen Cascades Lot",
+    "address": "1075 OH-343, Yellow Springs, OH",
+    "sourceId": "map-census-glen-helen-cascades",
+    "coordinates": {
+      "lat": 39.807864560227,
+      "lon": -83.882856001144
+    }
+  },
+  {
+    "id": "yellow-springs-steps-access",
+    "title": "Glen Helen Steps Lot",
+    "address": "505 Corry Street, Yellow Springs, OH",
+    "sourceId": "map-census-glen-helen-steps",
+    "coordinates": {
+      "lat": 39.79958500174,
+      "lon": -83.885480983035
+    }
+  },
+  {
+    "id": "nelsonville-public-square",
+    "title": "Nelsonville Public Square",
+    "coordinates": {
+      "lat": 39.46121,
+      "lon": -82.2321
+    },
+    "sourceId": "map-odot-nelsonville-square"
+  },
+  {
+    "id": "hocking-valley-depot",
+    "title": "Hocking Valley Scenic Railway depot",
+    "address": "33 W Canal Street, Nelsonville, OH",
+    "sourceId": "map-census-hocking-depot",
+    "coordinates": {
+      "lat": 39.458856159571,
+      "lon": -82.232943740203
+    }
+  },
+  {
+    "id": "wright-dunbar-center",
+    "title": "Wright-Dunbar Interpretive Center",
+    "address": "16 S Williams Street, Dayton, OH",
+    "sourceId": "map-nps-wright-dunbar-event",
+    "coordinates": {
+      "lat": 39.755785,
+      "lon": -84.211676
+    }
+  },
+  {
+    "id": "wright-cycle-company",
+    "title": "Wright Cycle Company",
+    "address": "22 S Williams Street, Dayton, OH",
+    "sourceId": "source:routes-nps-directions"
+  },
+  {
+    "id": "dunbar-house",
+    "title": "Paul Laurence Dunbar House Historic Site",
+    "address": "219 N Paul Laurence Dunbar Street, Dayton, OH",
+    "sourceId": "map-nps-dunbar-house-event",
+    "coordinates": {
+      "lat": 39.757773,
+      "lon": -84.219072
+    }
+  },
+  {
+    "id": "huffman-prairie-center",
+    "title": "Huffman Prairie Flying Field Interpretive Center",
+    "address": "2380 Memorial Road, Dayton, OH",
+    "sourceId": "source:routes-nps-directions"
+  },
+  {
+    "id": "west-third-williams-stop",
+    "title": "West Third and Williams transit stop",
+    "address": "W Third Street and Williams Street, Dayton, OH",
+    "sourceId": "source:routes-nps-directions"
+  },
+  {
+    "id": "cincinnati-music-hall",
+    "title": "Cincinnati Music Hall",
+    "coordinates": {
+      "lat": 39.10863727723,
+      "lon": -84.518282399169
+    },
+    "sourceId": "map-census-music-hall",
+    "address": "1241 Elm Street, Cincinnati, OH"
+  },
+  {
+    "id": "washington-park-cincinnati",
+    "title": "Washington Park, Cincinnati",
+    "coordinates": {
+      "lat": 39.108035525021,
+      "lon": -84.517977372356
+    },
+    "sourceId": "map-census-washington-park",
+    "address": "1230 Elm Street, Cincinnati, OH"
+  },
+  {
+    "id": "huffman-prairie-field-gate-16a",
+    "title": "Huffman Prairie Flying Field, Gate 16A access",
+    "coordinates": {
+      "lat": 39.80491,
+      "lon": -84.06086
+    },
+    "sourceId": "map-nps-huffman-gate-16a"
+  },
+  {
+    "id": "canalway-center",
+    "title": "CanalWay Center, Ohio & Erie Canal Reservation",
+    "coordinates": {
+      "lat": 41.435735919761,
+      "lon": -81.656796040465
+    },
+    "sourceId": "map-census-canalway",
+    "address": "4524 E 49th Street, Cuyahoga Heights, OH"
+  },
+  {
+    "id": "cuyahoga-river-cleveland-usgs-gage",
+    "title": "Cuyahoga River at Cleveland — USGS gaging station",
+    "coordinates": {
+      "lat": 41.4164415964781,
+      "lon": -81.6395710118936
+    },
+    "sourceId": "map-usgs-cuyahoga-gage"
+  },
+  {
+    "id": "lake-erie-cleveland-usgs-station",
+    "title": "Lake Erie at Cleveland — USGS monitoring location",
+    "coordinates": {
+      "lat": 41.4947729127001,
+      "lon": -81.7265213107538
+    },
+    "sourceId": "map-usgs-lake-erie-cleveland"
   }
 ]

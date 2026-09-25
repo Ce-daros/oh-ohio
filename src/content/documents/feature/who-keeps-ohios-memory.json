@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "id": "feature:who-keeps-ohios-memory",
+    "slug": "who-keeps-ohios-memory",
+    "kind": "feature",
+    "title": "Who keeps Ohio’s memory?",
+    "summary": "A state archive can preserve millions of records. The people who make those records, describe them, and decide what can be shared shape the story too.",
+    "canonicalPath": "/journal/who-keeps-ohios-memory",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture",
+      "live",
+      "explore"
+    ],
+    "topics": [
+      "topic:culture-gallery",
+      "topic:live-library",
+      "topic:explore-past"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:memory-ohc-engagement",
+        "label": "Ohio History Connection · Community Engagement",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-ohc-manuscripts",
+        "label": "Ohio History Connection · Manuscripts and Audiovisual Collections",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-ohio-memory-oral",
+        "label": "Ohio Memory · Oral History",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-gohi",
+        "label": "Ohio History Connection · GOHI Oral Histories",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-ohio-memory-collections",
+        "label": "Ohio Memory · Collections",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:memory-ohc-american-indian-policy",
+        "label": "Ohio History Connection · American Indian Policy",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:memory-ohc-engagement"
+    },
+    "bodyPath": "./documents/feature/who-keeps-ohios-memory.json",
+    "category": "everyday",
+    "location": "Ohio · state and community collections",
+    "duration": "A collection-led reading",
+    "readTime": "4 min read",
+    "coverMediaId": "media:library-afternoon",
+    "coverAlt": "An illustrated library reading table beside a window",
+    "titleAccent": "memory?",
+    "recommendations": [
+      {
+        "id": "note:oral-history-is-a-persons-account",
+        "reason": "Follow a named narrator and the context of their interview."
+      },
+      {
+        "id": "note:eastern-shawnee-digital-library",
+        "reason": "Read a tribal digital collection through its own partnership record."
+      }
+    ],
+    "order": 101,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/memory.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Memory does not live in one building. In Ohio it sits in state collections, local libraries, tribal archives, neighborhood organizations, family albums, and recordings made while history is still unfolding. A useful start is to distinguish the evidence from the account: an archive holds records; an institution or community explains how records were assembled and what they can mean. Neither automatically represents everyone connected to a place.",
+      "role": "intro",
+      "sourceIds": [
+        "source:memory-ohc-engagement",
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "institutions",
+      "title": "A statewide archive and a shared portal",
+      "eyebrow": "Where records are held",
+      "sourceIds": [
+        "source:memory-ohc-engagement",
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio History Connection operates the State Archives and State Historic Preservation Office and maintains museums and historic sites. Its research collections include manuscripts, photographs, audiovisual records, and oral histories. Ohio Memory brings digital collections from OHC together with material contributed by partner institutions. An item can be held by one organization, described by another, and displayed through a shared portal. The item record names the partner that supplied the material, even when Ohio Memory provides the shared portal.",
+      "sourceIds": [
+        "source:memory-ohc-engagement",
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "read",
+      "title": "Read the record in its own terms",
+      "eyebrow": "A source-reading sequence",
+      "sourceIds": [
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Three questions for each record",
+      "sourceIds": [
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ],
+      "steps": [
+        {
+          "title": "Who made it?",
+          "text": "A letter, government file, recording, and museum label come from different makers and purposes."
+        },
+        {
+          "title": "Who describes it?",
+          "text": "Check the repository or community collection that supplied and cataloged the item."
+        },
+        {
+          "title": "What does it support?",
+          "text": "Keep narrator, date, interview question, access terms, and limits attached to what you conclude."
+        }
+      ]
+    },
+    {
+      "sourceIds": [
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ],
+      "text": "A named voice gives you one person’s experience. Let the collection tell you when and how the recording was made, and resist turning one account into a community-wide statement.",
+      "type": "characterAside",
+      "title": "Keep the narrator in view",
+      "role": "listen"
+    },
+    {
+      "type": "paragraph",
+      "text": "A letter documents what one writer chose to put on paper. A government file can show how an institution classified people and events. An oral-history recording gives a named narrator space to speak in their own voice, but it is shaped by the interview question, date, recording conditions, transcript, and permissions. A museum label is an interpretation built from evidence, not the artifact speaking for itself. Read a source for what it can support, and notice what remains outside its frame.",
+      "sourceIds": [
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "voices",
+      "title": "Named voices are individual accounts",
+      "eyebrow": "Oral history",
+      "sourceIds": [
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio Memory describes oral history as a way to preserve individual experience and document communities as they change. The Ohio History Connection’s Gay Ohio History Initiative has gathered oral histories with people who shaped LGBTQ+ Ohio communities. Its project listings name interviewees and subjects, including organizers and bar owners. Petie Brown, CJ Curtis, and Judy Long appear together in the Summit Station project. Their testimony belongs to those narrators; a short transcript excerpt cannot be turned into a claim about all LGBTQ+ Ohioans. Read an excerpt alongside the named narrator and project; it remains that person’s testimony, not a community-wide statement.",
+      "sourceIds": [
+        "source:memory-ohio-memory-oral",
+        "source:memory-gohi"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Community collections also change who helps set the frame. Ohio Memory lists the Gay Ohio History Initiative community collection and collections from local institutions such as libraries. Its partner records show that photographs, newspapers, school records, and organizational papers may remain with a regional repository rather than a statewide institution. If you want to offer a family or organization’s records, ask the repository what it collects, what access limits apply, and how it preserves the records’ original context.",
+      "sourceIds": [
+        "source:memory-ohio-memory-collections",
+        "source:memory-gohi"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "tribal",
+      "title": "Credit tribal archives on their own terms",
+      "eyebrow": "Indigenous materials",
+      "sourceIds": [
+        "source:memory-ohio-memory-collections",
+        "source:memory-ohc-american-indian-policy"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Indigenous objects in a state collection are not a substitute for present-day tribal knowledge or authority. Ohio History Connection’s American Indian Policy recognizes the importance of relationships with tribes in interpretation and collections care. Ohio Memory identifies the Eastern Shawnee Tribe of Oklahoma as a partner presenting its digital library. This is an entry point into materials selected and described through that partnership; it is not a view held by every Shawnee community or every Native nation. Credit the Eastern Shawnee Tribe’s archive directly and consult tribal sources when the question concerns present-day tribal voices.",
+      "sourceIds": [
+        "source:memory-ohio-memory-collections",
+        "source:memory-ohc-american-indian-policy"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "visit",
+      "title": "A practical way to begin",
+      "eyebrow": "Before a repository visit",
+      "sourceIds": [
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Try a three-layer reading exercise with one Ohio place. Find an institutional record such as a map or report, a community-held collection, then a first-person account. Ask who created each source, for whom, and under what conditions. Compare the descriptions used for the same street, school, workplace, or event. A catalog entry or thumbnail does not mean every page is digitized; check the repository’s current hours, reading-room rules, advance-request process, handling requirements, and permissions before traveling or reproducing an image.",
+      "sourceIds": [
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "An archive need not confirm one tidy version of Ohio. Ask what its records can show and whose further voices are needed. Credit narrators and collection partners; keep dates and restrictions attached to digital objects. For living communities, look for present-day organizations and their own statements instead of assuming a historical record speaks on their behalf. Preserving memory is ongoing work by archivists, families, cultural organizations, tribal nations, libraries, and the people who trust them with their stories.",
+      "role": "signoff",
+      "sourceIds": [
+        "source:memory-ohc-engagement",
+        "source:memory-ohio-memory-oral",
+        "source:memory-ohio-memory-collections"
+      ]
+    }
+  ]
+}

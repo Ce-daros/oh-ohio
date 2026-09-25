@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "note:markets-changing-edges",
+    "slug": "markets-changing-edges",
+    "kind": "note",
+    "title": "Markets and changing edges",
+    "summary": "Compare the early Northern Liberties street grid with the current transit loop without treating them as one map.",
+    "canonicalPath": "/notes/markets-changing-edges",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-cities",
+      "topic:live-library"
+    ],
+    "places": [
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:str-market-history",
+        "label": "Findlay Market: History",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-streetcar",
+        "label": "City of Cincinnati: Hours, Route and Station Stops",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-tour",
+        "label": "Findlay Market: Self-guided tour",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:str-market-history"
+    },
+    "bodyPath": "./documents/note/markets-changing-edges.json",
+    "order": 97,
+    "sectionId": "street",
+    "kicker": "Street and transit",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/street.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Findlay Market’s history dates the Northern Liberties plat to 1833 and names Race, Elm, Green, and Findlay among its streets, with the market area along Elder. The present city streetcar map is a different document: it shows a 3.6-mile loop and a Findlay Market – Race stop. Compare the two by locating the market block, then keep their dates and purposes visible. The current tour guide identifies 1801 Race Street and the market’s orientation. A street name that persists does not mean its traffic, buildings, or neighbors stayed the same; use historical maps for the footprint and current transit information for today’s route.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-streetcar",
+        "source:str-tour"
+      ]
+    }
+  ]
+}

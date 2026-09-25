@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "id": "feature:small-towns-many-centers",
+    "slug": "small-towns-many-centers",
+    "kind": "feature",
+    "title": "Small towns, many centers",
+    "summary": "Yellow Springs and Nelsonville are two Ohio towns with distinct institutions, landscapes, and public gathering places.",
+    "canonicalPath": "/journal/small-towns-many-centers",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live",
+      "culture"
+    ],
+    "topics": [
+      "topic:explore-hills",
+      "topic:live-campus",
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio",
+      "appalachian-ohio",
+      "yellow-springs-cascades-access",
+      "yellow-springs-steps-access",
+      "nelsonville-public-square",
+      "hocking-valley-depot"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:town-glen-helen-history",
+        "label": "Glen Helen · History of the Preserve",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-glen-helen-access",
+        "label": "Glen Helen · Directions and Parking",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-hocking-access",
+        "label": "Hocking Valley Scenic Railway · Accessibility",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-hocking-railway",
+        "label": "Hocking Valley Scenic Railway",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-stuarts-history",
+        "label": "Stuart’s Opera House · Our History",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-odot-appalachian-plan",
+        "label": "Ohio Department of Transportation · Appalachian Byway Corridor Management Plan",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-glen-helen-cascades",
+        "label": "U.S. Census Bureau Geocoder — 1075 OH-343, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-glen-helen-steps",
+        "label": "U.S. Census Bureau Geocoder — 505 Corry Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-odot-nelsonville-square",
+        "label": "Ohio Department of Transportation, Appalachian Byway Corridor Management Plan",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-hocking-depot",
+        "label": "U.S. Census Bureau Geocoder — 33 W Canal Street, Public_AR_Current",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:town-glen-helen-history"
+    },
+    "bodyPath": "./documents/feature/small-towns-many-centers.json",
+    "category": "guides",
+    "location": "Yellow Springs and Nelsonville · separate visits",
+    "duration": "Two separate town visits",
+    "readTime": "4 min read",
+    "coverMediaId": "media:cuyahoga-slow-day",
+    "coverAlt": "Illustrated woodland waterfall and boardwalk",
+    "titleAccent": "many centers",
+    "recommendations": [
+      {
+        "id": "note:yellow-springs-stewardship",
+        "reason": "Read Glen Helen’s own account of land use and local stewardship."
+      },
+      {
+        "id": "note:nelsonville-railway-access",
+        "reason": "Check the railway’s specific lift, coach, parking, and restroom details."
+      }
+    ],
+    "order": 104,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/small-towns.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio outside its largest cities is not one landscape or one culture. A village near a college and preserve has different daily rhythms from a town with a historic rail line and arts venues. Yellow Springs in Greene County and Nelsonville in the Hocking Valley make a useful pair because their institutions hold distinct relationships to land, education, work, and public gathering. They are separate visits, not neighboring stops.",
+      "sourceIds": [
+        "source:town-glen-helen-history",
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history"
+      ],
+      "role": "intro"
+    },
+    {
+      "type": "heading",
+      "id": "yellow-springs",
+      "title": "Yellow Springs: preserve, college, community",
+      "eyebrow": "Greene County",
+      "sourceIds": [
+        "source:town-glen-helen-history",
+        "source:town-glen-helen-access"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Glen Helen’s institutional history describes land use over centuries: Indigenous routes and settlement, a nineteenth-century resort around the spring, mills and lime production along the Little Miami River, and later conservation and outdoor education. Its account names Shawnee and Miami histories rather than presenting the preserve as unpeopled wilderness. That is the preserve’s own institutional narrative; readers seeking tribal perspectives should consult tribal sources directly.",
+      "sourceIds": [
+        "source:town-glen-helen-history"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "Two towns, separate visits",
+      "placeIds": [
+        "yellow-springs-cascades-access",
+        "yellow-springs-steps-access",
+        "nelsonville-public-square",
+        "hocking-valley-depot"
+      ],
+      "caption": "Glen Helen’s lot markers and the railway marker locate published street addresses. Follow the operators’ directions for arrival and boarding.",
+      "sourceIds": [
+        "map-census-glen-helen-cascades",
+        "map-census-glen-helen-steps",
+        "map-odot-nelsonville-square",
+        "map-census-hocking-depot"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The preserve’s history also includes civic choices. Glen Helen recounts local opposition to a proposed highway route through the preserve in 1958, a compromise that rerouted a proposed sewer in 1959, and the Glen Helen Association’s purchase and reopening of the preserve in 2020. Stewardship here appears as decisions by residents, organizations, and institutions, not as a timeless quality of scenery.",
+      "sourceIds": [
+        "source:town-glen-helen-history"
+      ]
+    },
+    {
+      "type": "route",
+      "sourceIds": [
+        "source:town-glen-helen-access"
+      ],
+      "stops": [
+        {
+          "id": "village",
+          "title": "Yellow Springs village center",
+          "note": "Begin with village services and local businesses; this is not a measured walking route."
+        },
+        {
+          "id": "cascades",
+          "title": "Glen Helen Cascades Lot",
+          "note": "The preserve lists ADA trail access from this entrance to Birch Creek Cascades and Yellow Spring.",
+          "placeId": "yellow-springs-cascades-access"
+        },
+        {
+          "id": "steps",
+          "title": "Glen Helen Steps Lot",
+          "note": "A separate entrance serves the museum and a trail descending more than 110 stone steps.",
+          "placeId": "yellow-springs-steps-access"
+        }
+      ]
+    },
+    {
+      "title": "Choose the entrance first",
+      "type": "characterAside",
+      "text": "Glen Helen lists ADA trail access from the Cascades Lot and more than 110 stone steps at the Steps Lot. Those are different approaches to the preserve, so check current conditions before choosing.",
+      "role": "practical",
+      "sourceIds": [
+        "source:town-glen-helen-access"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The two Glen Helen entrances matter for practical planning. The preserve identifies ADA trail access to Birch Creek Cascades and the Yellow Spring from its Cascades Lot at 1075 OH-343. Its Steps Lot at 505 Corry Street serves the museum and a trail with more than 110 stone steps. Check the current directions and trail conditions, and do not assume that the sketch is a step-free pedestrian connection. Antioch College and WYSO have their own schedules and visitor policies; a campus or studio is not automatically open for drop-in visits.",
+      "sourceIds": [
+        "source:town-glen-helen-access"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "nelsonville",
+      "title": "Nelsonville: rail and a public square",
+      "eyebrow": "Athens County",
+      "sourceIds": [
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history",
+        "source:town-odot-appalachian-plan"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nelsonville offers a different center of gravity. The Hocking Valley Scenic Railway operates seasonal excursions from its depot at 33 West Canal Street. The organization describes itself as volunteer-run and preserves rail equipment for public trips through the valley. Stuart’s Opera House, a restored downtown performance venue, adds another institution in the historic square. One interprets rail travel and landscape; the other hosts performances and community events. Their calendars, rather than a generic expectation about small towns, determine whether either fits a visit.",
+      "sourceIds": [
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history"
+      ]
+    },
+    {
+      "type": "route",
+      "sourceIds": [
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-odot-appalachian-plan"
+      ],
+      "stops": [
+        {
+          "id": "square",
+          "title": "Nelsonville Public Square",
+          "note": "ODOT’s byway plan marks this point at 39.46121, -82.23210.",
+          "placeId": "nelsonville-public-square"
+        },
+        {
+          "id": "opera",
+          "title": "Stuart’s Opera House",
+          "note": "Check the venue’s current performance and visitor information."
+        },
+        {
+          "id": "depot",
+          "title": "Hocking Valley Scenic Railway depot",
+          "note": "Scheduled excursions and accessibility arrangements are operator-dependent.",
+          "placeId": "hocking-valley-depot"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The railway’s accessibility page says a portable lift serves three coaches, asks wheelchair users to call ahead, and notes that most parking is gravel and the depot restrooms are not wheelchair accessible. Confirm which car is scheduled and how loading will work before traveling. Nelsonville sits on ODOT’s defined 115-mile Appalachian Byway, whose corridor plan lists the public square and local cultural resources. That road plan locates the town in a specific route; it does not summarize Appalachian Ohio or speak for residents.",
+      "sourceIds": [
+        "source:town-hocking-access",
+        "source:town-odot-appalachian-plan"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "make-time",
+      "title": "Let local calendars shape the day",
+      "eyebrow": "Before setting out",
+      "sourceIds": [
+        "source:town-glen-helen-access",
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For a low-pressure visit, choose one institution and one nearby public place. In Yellow Springs, read Glen Helen’s history and then decide whether one of its current trail options suits your walking capacity. In Nelsonville, check the excursion schedule first; if no train runs, the square and performance calendar still give you ways to understand the town, but confirm what is open. Build in a rest stop and an ordinary meal. Local institutions are working places throughout the year, not attractions that guarantee a visitor program every day.",
+      "sourceIds": [
+        "source:town-glen-helen-access",
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history"
+      ],
+      "role": "signoff"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+:root {
+  --ink: #18243c;
+  --ink-soft: #4d5d70;
+  --ink-muted: #596879;
+  --accent: #ba2945;
+  --surface: #f8f9fc;
+  --surface-raised: #ffffff;
+  --surface-note: #e9eff5;
+  --rule: #ced6df;
+  --focus: #b12643;
+  --navy: var(--ink);
+  --red: var(--accent);
+  --paper: var(--surface);
+  --muted: var(--ink-muted);
+  --line: var(--rule);
+  --font-body: "DM Sans Variable", sans-serif;
+  --font-heading: "Space Grotesk Variable", sans-serif;
+  --font-editorial: Georgia, serif;
+  --text-small: .8125rem;
+  --text-meta: .875rem;
+  --text-body: 1.0625rem;
+  --text-lead: clamp(1.125rem, 1.8vw, 1.375rem);
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --space-12: 6rem;
+  --page-gutter: clamp(1.25rem, 5vw, 5rem);
+  --page-width: 1440px;
+  --prose-width: 68ch;
+  --header-height: 88px;
+  --anchor-offset: calc(var(--header-height) + 24px);
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
+@media (max-width: 700px) { :root { --header-height: 72px; } }

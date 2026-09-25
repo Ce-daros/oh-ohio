@@ -49,6 +49,18 @@ test('canonical content validates', () => {
   assert.deepEqual(validateContent(projectRoot), []);
 });
 
+test('remote media validates without a local file or network request', () => {
+  const root = fixture();
+  try {
+    mutate(root, 'src/content/data/media.json', media => { media[0].src = 'https://www.nps.gov/media/example.mp4'; });
+    assert.deepEqual(validateContent(root), []);
+  } finally {
+    const temporaryParent = fs.realpathSync(os.tmpdir());
+    assert.ok(fs.realpathSync(root).startsWith(temporaryParent + path.sep));
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
 checkCorruption('rejects duplicate document IDs with file context',
   'src/content/documents/note/north-coast.json',
   doc => { doc.meta.id = 'note:history'; },
@@ -89,6 +101,11 @@ checkCorruption('rejects metrics without a source URL',
   metrics => { metrics[0].url = 'source unknown'; },
   /metrics\.json population: invalid evidence URL source unknown/);
 
+checkCorruption('rejects map markers without sourced coordinates',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.blocks.push({ type: 'placeMap', title: 'Map', caption: 'Places', placeIds: ['ohio'], sourceIds: [] }); },
+  /north-coast\.json blocks\[\d+\]: place ohio requires sourced coordinates/);
+
 checkCorruption('rejects invalid geocoded places',
   'src/content/data/places.json',
   places => { places[0].coordinates = { lat: 200, lon: -83 }; places[0].sourceId = 'source:missing'; },
@@ -103,6 +120,11 @@ checkCorruption('rejects broken collection relations',
   'src/content/data/collections.json',
   collections => { collections.find(item => item.id === 'home:field-notes').itemIds[0] = 'feature:missing'; },
   /collections\.json home:field-notes: item references unknown feature:missing/);
+
+checkCorruption('rejects recommendations to missing content',
+  'src/content/documents/feature/brass-whistle.json',
+  doc => { doc.meta.recommendations[0].id = 'note:missing'; },
+  /brass-whistle\.json: recommendation references unknown note:missing/);
 
 checkCorruption('rejects stale legacy slug migrations',
   'src/content/data/migrations.json',

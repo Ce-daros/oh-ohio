@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "id": "note:what-survives-the-kiln",
+    "slug": "what-survives-the-kiln",
+    "kind": "note",
+    "title": "What survives the kiln?",
+    "summary": "Compare a Rookwood form, a historic vase, and a surface changed by firing.",
+    "canonicalPath": "/notes/what-survives-the-kiln",
+    "primaryWorld": "make",
+    "worlds": [
+      "make",
+      "culture"
+    ],
+    "topics": [
+      "topic:make-factory",
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:mat-rookwood-about",
+        "label": "Rookwood Pottery: About Rookwood",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:mat-rookwood-vase",
+        "label": "Cincinnati Art Museum: Rookwood vase, 1882",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:mat-rookwood-vase"
+    },
+    "bodyPath": "./documents/note/what-survives-the-kiln.json",
+    "order": 88,
+    "sectionId": "making",
+    "kicker": "CINCINNATI · CERAMICS",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/materials.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A fired piece is a record of choices made before and during the firing. Rookwood describes pottery as a slow process of shaping, drying, glazing, and firing, and says its current work passes through at least thirteen sets of hands. The Cincinnati Art Museum’s catalog gives one historic comparison point: a Rookwood vase dated 1882. Read the museum’s object entry for what it records about that particular piece, then compare its form and glaze with a current Rookwood object.",
+      "sourceIds": [
+        "source:mat-rookwood-about",
+        "source:mat-rookwood-vase"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The comparison does not reveal an undocumented workshop sequence, and a museum label cannot tell us every decision behind a vessel. It can help us notice shape, surface, maker, and date before we look again at the company’s account of its present practice. A cup or vase can be useful and artistic at once; give the surface a second look before deciding which quality caught your eye first.",
+      "sourceIds": [
+        "source:mat-rookwood-about",
+        "source:mat-rookwood-vase"
+      ]
+    }
+  ]
+}

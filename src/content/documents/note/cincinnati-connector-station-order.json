@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "note:cincinnati-connector-station-order",
+    "slug": "cincinnati-connector-station-order",
+    "kind": "note",
+    "title": "A Cincinnati day in selected stops",
+    "summary": "The Connector’s official map makes a shorter route possible without riding the whole loop.",
+    "canonicalPath": "/notes/cincinnati-connector-station-order",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-cities",
+      "topic:live-community"
+    ],
+    "places": [
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:routes-cincinnati-map",
+        "label": "City of Cincinnati · Streetcar map",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-cincinnati-how-to",
+        "label": "City of Cincinnati · How to Ride the Connector",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:routes-cincinnati-map"
+    },
+    "bodyPath": "./documents/note/cincinnati-connector-station-order.json",
+    "sectionId": "travel",
+    "kicker": "CINCINNATI · CONNECTOR",
+    "order": 108,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/routes.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The City of Cincinnati’s Connector map gives each station a number and name. A visitor can begin at Findlay Market–Race (12), continue through Liberty & Race (13) and Washington Park (14), then follow the map toward the Public Library (16), Fountain Square (18), and The Banks (1). This sequence carries the ride from Over-the-Rhine toward downtown and the riverfront; you can stop at Washington Park or another listed station instead of riding every segment. The City says the service is fare-free and describes level boarding and audio and visual stop information. These are vehicle details, not a guarantee about each sidewalk, curb, or destination entrance. Check the operator’s current service alerts and route information before setting out.",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to"
+      ]
+    }
+  ]
+}

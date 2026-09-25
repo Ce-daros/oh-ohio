@@ -12,7 +12,8 @@
       "note:lake-erie-islands",
       "note:cleveland",
       "note:marblehead-lighthouse",
-      "note:magee-marsh"
+      "note:magee-marsh",
+      "note:lake-erie-intakes-and-buoys"
     ]
   },
   {
@@ -28,7 +29,14 @@
       "note:columbus",
       "note:cincinnati",
       "note:dayton",
-      "note:toledo-glass-pavilion"
+      "note:toledo-glass-pavilion",
+      "feature:how-a-library-loan-travels",
+      "feature:findlay-street-through-time",
+      "note:reading-a-sanborn-map",
+      "note:markets-changing-edges",
+      "feature:two-city-days",
+      "note:cincinnati-connector-station-order",
+      "note:dayton-aviation-transit-and-access"
     ]
   },
   {
@@ -42,7 +50,9 @@
     "itemIds": [
       "note:appalachian-ohio",
       "note:hocking-hills",
-      "note:wayne-covered-bridge-byway"
+      "note:wayne-covered-bridge-byway",
+      "feature:small-towns-many-centers",
+      "note:nelsonville-railway-access"
     ]
   },
   {
@@ -56,7 +66,12 @@
     "itemIds": [
       "note:nature",
       "note:cuyahoga-valley",
-      "note:glen-helen"
+      "note:glen-helen",
+      "feature:listening-to-ohio",
+      "note:one-canal-song-three-records",
+      "feature:water-has-a-working-life",
+      "note:canal-corridor-in-maps",
+      "note:yellow-springs-stewardship"
     ]
   },
   {
@@ -69,7 +84,8 @@
     "featuredId": "note:history",
     "itemIds": [
       "note:history",
-      "note:serpent-mound"
+      "note:serpent-mound",
+      "feature:who-keeps-ohios-memory"
     ]
   },
   {
@@ -100,7 +116,10 @@
       "note:east-liverpool-ceramics",
       "note:columbus-whistle-factory",
       "note:rookwood-cincinnati",
-      "note:akron-rubber-work"
+      "note:akron-rubber-work",
+      "feature:materials-in-the-making",
+      "note:whistle-cross-section",
+      "note:what-survives-the-kiln"
     ]
   },
   {
@@ -152,7 +171,9 @@
     "itemIds": [
       "note:trade",
       "note:logistics",
-      "note:port-of-toledo"
+      "note:port-of-toledo",
+      "feature:water-has-a-working-life",
+      "note:canal-corridor-in-maps"
     ]
   },
   {
@@ -179,7 +200,9 @@
     "itemIds": [
       "note:music",
       "note:cleveland-orchestra-severance",
-      "note:cincinnati-music-hall"
+      "note:cincinnati-music-hall",
+      "feature:listening-to-ohio",
+      "note:one-canal-song-three-records"
     ]
   },
   {
@@ -195,7 +218,14 @@
       "note:hopewell-earthworks",
       "note:freedom-center-river",
       "note:billy-ireland-cartoon-museum",
-      "note:american-sign-museum"
+      "note:american-sign-museum",
+      "feature:materials-in-the-making",
+      "note:what-survives-the-kiln",
+      "feature:findlay-street-through-time",
+      "note:reading-a-sanborn-map",
+      "feature:who-keeps-ohios-memory",
+      "note:oral-history-is-a-persons-account",
+      "note:eastern-shawnee-digital-library"
     ]
   },
   {
@@ -239,7 +269,9 @@
       "phrase:youuns-yuns",
       "phrase:mamaw-papaw",
       "phrase:needs-washed",
-      "phrase:scioto"
+      "phrase:scioto",
+      "feature:listening-to-ohio",
+      "note:what-is-an-accent-sample"
     ]
   },
   {
@@ -251,7 +283,8 @@
     "world": "culture",
     "featuredId": "note:aviation-heritage",
     "itemIds": [
-      "note:aviation-heritage"
+      "note:aviation-heritage",
+      "feature:two-city-days"
     ]
   },
   {
@@ -268,7 +301,8 @@
       "note:schools-learning",
       "note:cosi-try-it-yourself",
       "note:wilberforce-black-history",
-      "note:rocky-river-nature-center"
+      "note:rocky-river-nature-center",
+      "feature:small-towns-many-centers"
     ]
   },
   {
@@ -281,7 +315,14 @@
     "featuredId": "note:libraries",
     "itemIds": [
       "note:libraries",
-      "note:ohiolink-shared-shelves"
+      "note:ohiolink-shared-shelves",
+      "feature:how-a-library-loan-travels",
+      "note:what-catalog-can-tell-you",
+      "note:a-books-trip-through-ohio",
+      "feature:findlay-street-through-time",
+      "note:markets-changing-edges",
+      "feature:who-keeps-ohios-memory",
+      "note:eastern-shawnee-digital-library"
     ]
   },
   {
@@ -321,7 +362,15 @@
     "featuredId": "note:community-life",
     "itemIds": [
       "note:community-life",
-      "note:possum-creek-gardens"
+      "note:possum-creek-gardens",
+      "note:lake-erie-intakes-and-buoys",
+      "note:oral-history-is-a-persons-account",
+      "feature:small-towns-many-centers",
+      "note:yellow-springs-stewardship",
+      "note:nelsonville-railway-access",
+      "feature:two-city-days",
+      "note:cincinnati-connector-station-order",
+      "note:dayton-aviation-transit-and-access"
     ]
   },
   {
@@ -335,7 +384,11 @@
       "feature:cincinnati-market-to-music",
       "feature:dayton-made-to-fly",
       "feature:cuyahoga-slow-day",
-      "feature:sandusky-play-day"
+      "feature:sandusky-play-day",
+      "feature:how-a-library-loan-travels",
+      "feature:water-has-a-working-life",
+      "feature:small-towns-many-centers",
+      "feature:two-city-days"
     ],
     "presentation": {
       "id": "guides",
@@ -358,7 +411,8 @@
       "feature:brass-whistle",
       "feature:rookwood-clay",
       "feature:toledo-glass",
-      "feature:akron-rubber"
+      "feature:akron-rubber",
+      "feature:materials-in-the-making"
     ],
     "presentation": {
       "id": "making",
@@ -402,7 +456,9 @@
     "itemIds": [
       "feature:library-afternoon",
       "feature:community-garden-season",
-      "feature:athens-campus-day"
+      "feature:athens-campus-day",
+      "feature:findlay-street-through-time",
+      "feature:who-keeps-ohios-memory"
     ],
     "presentation": {
       "id": "everyday",
@@ -421,12 +477,12 @@
     "dek": "Lake shores, city streets, and Appalachian trails. ♡",
     "order": 0,
     "world": "explore",
-    "featuredId": "feature:cincinnati-market-to-music",
+    "featuredId": "feature:two-city-days",
     "itemIds": [
-      "feature:cincinnati-market-to-music",
-      "feature:dayton-made-to-fly",
+      "feature:two-city-days",
+      "feature:water-has-a-working-life",
       "feature:cuyahoga-slow-day",
-      "feature:sandusky-play-day"
+      "feature:small-towns-many-centers"
     ]
   },
   {
@@ -436,11 +492,11 @@
     "dek": "Meet the makers and workers behind it.",
     "order": 1,
     "world": "make",
-    "featuredId": "feature:brass-whistle",
+    "featuredId": "feature:materials-in-the-making",
     "itemIds": [
+      "feature:materials-in-the-making",
       "feature:brass-whistle",
-      "feature:rookwood-clay",
-      "feature:toledo-glass",
+      "feature:water-has-a-working-life",
       "feature:akron-rubber"
     ]
   },
@@ -451,11 +507,12 @@
     "dek": "Markets, music, art, and stories. ♡",
     "order": 2,
     "world": "culture",
-    "featuredId": "feature:cincinnati-chili",
+    "featuredId": "feature:listening-to-ohio",
     "itemIds": [
+      "feature:listening-to-ohio",
+      "feature:who-keeps-ohios-memory",
       "feature:cincinnati-chili",
-      "feature:buckeye-sweets",
-      "feature:west-side-market-table"
+      "feature:findlay-street-through-time"
     ]
   },
   {
@@ -465,11 +522,12 @@
     "dek": "Meet the neighbors, communities, and public life here.",
     "order": 3,
     "world": "live",
-    "featuredId": "feature:library-afternoon",
+    "featuredId": "feature:how-a-library-loan-travels",
     "itemIds": [
-      "feature:library-afternoon",
+      "feature:how-a-library-loan-travels",
       "feature:community-garden-season",
-      "feature:athens-campus-day"
+      "feature:who-keeps-ohios-memory",
+      "feature:small-towns-many-centers"
     ]
   },
   {
@@ -478,11 +536,12 @@
     "title": "Field notes",
     "dek": "Good stories are worth staying for.",
     "order": 0,
-    "featuredId": "feature:cincinnati-market-to-music",
+    "featuredId": "feature:findlay-street-through-time",
     "itemIds": [
-      "feature:cincinnati-market-to-music",
-      "feature:rookwood-clay",
-      "feature:library-afternoon"
+      "feature:findlay-street-through-time",
+      "feature:listening-to-ohio",
+      "feature:water-has-a-working-life",
+      "feature:how-a-library-loan-travels"
     ]
   },
   {
@@ -497,6 +556,192 @@
       "note:columbus-whistle-factory",
       "note:west-side-market",
       "note:wilberforce-black-history"
+    ]
+  },
+  {
+    "id": "home:theme",
+    "kind": "home",
+    "title": "A life in the making",
+    "dek": "A brass whistle carries a breath across a playing field. A piece of clay holds the shape of a hand. Follow the materials, and meet the work that gives them a life.",
+    "order": 2,
+    "featuredId": "feature:materials-in-the-making",
+    "itemIds": [
+      "feature:materials-in-the-making",
+      "feature:brass-whistle",
+      "feature:rookwood-clay",
+      "feature:toledo-glass"
+    ]
+  },
+  {
+    "id": "category:culture",
+    "kind": "category",
+    "title": "Arts & voices",
+    "dek": "The songs, collections, and shared stories that travel through Ohio.",
+    "order": 34,
+    "featuredId": "feature:listening-to-ohio",
+    "itemIds": [
+      "feature:listening-to-ohio"
+    ],
+    "presentation": {
+      "id": "culture",
+      "label": "Arts & voices",
+      "eyebrow": "ARTS & VOICES",
+      "description": "The songs, collections, and shared stories that travel through Ohio.",
+      "color": "#f7eef0",
+      "ink": "#18243c",
+      "prop": "record"
+    }
+  },
+  {
+    "id": "dossier:materials-in-the-making",
+    "kind": "dossier",
+    "slug": "materials-in-the-making",
+    "title": "Materials, made in Ohio",
+    "dek": "Follow a brass whistle, pottery, glass, and rubber from material to everyday use.",
+    "order": 40,
+    "world": "make",
+    "featuredId": "feature:materials-in-the-making",
+    "itemIds": [
+      "feature:materials-in-the-making",
+      "note:whistle-cross-section",
+      "note:what-survives-the-kiln",
+      "feature:brass-whistle",
+      "feature:rookwood-clay",
+      "feature:toledo-glass",
+      "feature:akron-rubber"
+    ]
+  },
+  {
+    "id": "dossier:listening-to-ohio",
+    "kind": "dossier",
+    "slug": "listening-to-ohio",
+    "title": "Listening to Ohio",
+    "dek": "Canal songs, city voices, marsh sounds, and performance work offer different ways to hear Ohio.",
+    "order": 41,
+    "world": "culture",
+    "featuredId": "feature:listening-to-ohio",
+    "itemIds": [
+      "feature:listening-to-ohio",
+      "note:one-canal-song-three-records",
+      "note:what-is-an-accent-sample",
+      "note:music",
+      "note:regional-voices",
+      "note:cincinnati-music-hall",
+      "note:cuyahoga-valley",
+      "feature:cincinnati-market-to-music"
+    ]
+  },
+  {
+    "id": "dossier:how-a-library-loan-travels",
+    "kind": "dossier",
+    "slug": "how-a-library-loan-travels",
+    "title": "How a library loan travels",
+    "dek": "One title shows how Ohio’s shared library collections connect a local catalog to a neighborhood pickup desk.",
+    "order": 42,
+    "world": "live",
+    "featuredId": "feature:how-a-library-loan-travels",
+    "itemIds": [
+      "feature:how-a-library-loan-travels",
+      "note:what-catalog-can-tell-you",
+      "note:a-books-trip-through-ohio",
+      "feature:library-afternoon",
+      "feature:cincinnati-market-to-music",
+      "feature:findlay-street-through-time"
+    ]
+  },
+  {
+    "id": "dossier:findlay-street-through-time",
+    "kind": "dossier",
+    "slug": "findlay-street-through-time",
+    "title": "Findlay Street through time",
+    "dek": "Read the market block through a nineteenth-century plat, historic maps, and today’s transit route.",
+    "order": 43,
+    "world": "explore",
+    "featuredId": "feature:findlay-street-through-time",
+    "itemIds": [
+      "feature:findlay-street-through-time",
+      "note:reading-a-sanborn-map",
+      "note:markets-changing-edges",
+      "feature:cincinnati-market-to-music",
+      "feature:rookwood-clay",
+      "feature:library-afternoon"
+    ]
+  },
+  {
+    "id": "dossier:water-has-a-working-life",
+    "kind": "dossier",
+    "slug": "water-has-a-working-life",
+    "title": "Water has a working life",
+    "dek": "Canals, ports, household water, and river restoration meet along Ohio’s north coast.",
+    "order": 44,
+    "world": "explore",
+    "featuredId": "feature:water-has-a-working-life",
+    "itemIds": [
+      "feature:water-has-a-working-life",
+      "note:canal-corridor-in-maps",
+      "note:lake-erie-intakes-and-buoys",
+      "feature:cuyahoga-slow-day",
+      "note:north-coast",
+      "note:trade",
+      "note:port-of-toledo"
+    ]
+  },
+  {
+    "id": "dossier:who-keeps-ohios-memory",
+    "kind": "dossier",
+    "slug": "who-keeps-ohios-memory",
+    "title": "Who keeps Ohio’s memory?",
+    "dek": "Archives, narrators, and tribal and community collections shape how Ohio remembers.",
+    "order": 45,
+    "world": "culture",
+    "featuredId": "feature:who-keeps-ohios-memory",
+    "itemIds": [
+      "feature:who-keeps-ohios-memory",
+      "note:oral-history-is-a-persons-account",
+      "note:eastern-shawnee-digital-library",
+      "note:history",
+      "note:libraries",
+      "note:wilberforce-black-history",
+      "note:ohiolink-shared-shelves"
+    ]
+  },
+  {
+    "id": "dossier:small-towns-many-centers",
+    "kind": "dossier",
+    "slug": "small-towns-many-centers",
+    "title": "Small towns, many centers",
+    "dek": "Two distinct towns, and the local institutions that shape how each is experienced.",
+    "order": 46,
+    "world": "explore",
+    "featuredId": "feature:small-towns-many-centers",
+    "itemIds": [
+      "feature:small-towns-many-centers",
+      "note:yellow-springs-stewardship",
+      "note:nelsonville-railway-access",
+      "note:appalachian-ohio",
+      "note:glen-helen",
+      "feature:athens-campus-day",
+      "note:wayne-covered-bridge-byway"
+    ]
+  },
+  {
+    "id": "dossier:two-city-days",
+    "kind": "dossier",
+    "slug": "two-city-days",
+    "title": "Two city days, two different rhythms",
+    "dek": "A compact Cincinnati loop and a Dayton day planned in separate transportation legs.",
+    "order": 47,
+    "world": "explore",
+    "featuredId": "feature:two-city-days",
+    "itemIds": [
+      "feature:two-city-days",
+      "note:cincinnati-connector-station-order",
+      "note:dayton-aviation-transit-and-access",
+      "feature:cincinnati-market-to-music",
+      "feature:dayton-made-to-fly",
+      "note:cincinnati",
+      "note:dayton",
+      "note:freedom-center-river"
     ]
   }
 ]

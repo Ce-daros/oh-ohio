@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "id": "note:what-catalog-can-tell-you",
+    "slug": "what-catalog-can-tell-you",
+    "kind": "note",
+    "title": "What a catalog can tell you",
+    "summary": "Search title, author, and ISBN, then check the edition and the request option in your own library catalog.",
+    "canonicalPath": "/notes/what-catalog-can-tell-you",
+    "primaryWorld": "live",
+    "worlds": [
+      "live",
+      "culture"
+    ],
+    "topics": [
+      "topic:live-library"
+    ],
+    "places": [
+      "ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:lib-ohiolink",
+        "label": "OhioLINK Resources",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-searchohio",
+        "label": "SearchOhio: Using SearchOhio",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:lib-book",
+        "label": "Arcadia Publishing: Findlay Market of Cincinnati",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:lib-searchohio"
+    },
+    "bodyPath": "./documents/note/what-catalog-can-tell-you.json",
+    "order": 93,
+    "sectionId": "library",
+    "kicker": "Before you request",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/library.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Search by title, author, or ISBN; then compare the edition and format in the record. For a focused example, try Alyssa McClanahan’s Findlay Market of Cincinnati: A History (ISBN 9781467148597). This is a title to look up, not a confirmed available copy. OhioLINK says its shared collections are reached through local library catalogs, and its former standalone Central Catalog closed in June 2025. If the record offers a SearchOhio or OhioLINK request, use the affiliated-library sign-in and pickup choices described by SearchOhio. If there is no request button, ask your library staff to check the record and other options. Catalog search results describe holdings and current status; they do not guarantee that an item can be borrowed.",
+      "sourceIds": [
+        "source:lib-ohiolink",
+        "source:lib-searchohio",
+        "source:lib-book"
+      ]
+    }
+  ]
+}

@@ -668,5 +668,350 @@
     "id": "source:60ddb2dbd634",
     "url": "https://www.ohio.edu/food/baker-center",
     "title": "Ohio University: Baker University Center dining"
+  },
+  {
+    "id": "source:mat-whistle-made",
+    "title": "American Whistle Corporation: How Whistles Are Made",
+    "url": "https://thewhistlefactory.com/how-whistles-are-made"
+  },
+  {
+    "id": "source:mat-whistle-work",
+    "title": "American Whistle Corporation: How Whistles Work",
+    "url": "https://thewhistlefactory.com/how-whistles-work"
+  },
+  {
+    "id": "source:mat-whistle-visit",
+    "title": "American Whistle Corporation: Visit and company information",
+    "url": "https://thewhistlefactory.com/"
+  },
+  {
+    "id": "source:mat-rookwood-about",
+    "title": "Rookwood Pottery: About Rookwood",
+    "url": "https://rookwood.com/pages/about-rookwood"
+  },
+  {
+    "id": "source:mat-rookwood-tour",
+    "title": "Rookwood Pottery: Factory Tours",
+    "url": "https://rookwood.com/collections/workshops-tours/products/behind-the-scenes-factory-tours-of-rookwood"
+  },
+  {
+    "id": "source:mat-rookwood-honors",
+    "title": "Rookwood honors, digitized by the Public Library of Cincinnati and Hamilton County",
+    "url": "https://cdm16998.contentdm.oclc.org/digital/api/collection/p16998coll22/id/5026/download"
+  },
+  {
+    "id": "source:mat-rookwood-vase",
+    "title": "Cincinnati Art Museum: Rookwood vase, 1882",
+    "url": "https://collection.cincinnatiartmuseum.org/objects/6693/vase"
+  },
+  {
+    "id": "source:mat-glass-1962",
+    "title": "Toledo Museum of Art: 1962 Toledo Workshops",
+    "url": "https://store.toledomuseum.org/products/1962-toledo-workshops-historic-photograph-print"
+  },
+  {
+    "id": "source:mat-akron-chemistry",
+    "title": "University of Akron Archives: Charles M. Knight and rubber chemistry",
+    "url": "https://blogs.uakron.edu/archives/uapresidents-knight/"
+  },
+  {
+    "id": "source:mat-akron-labor",
+    "title": "University of Akron Press: Wheels of Fortune, the story of rubber in Akron",
+    "url": "https://ideaexchange.uakron.edu/uapress_publications/44/"
+  },
+  {
+    "id": "source:snd-nye-overview",
+    "title": "Library of Congress: Captain Pearl R. Nye collection",
+    "url": "https://www.loc.gov/collections/captain-pearl-r-nye-life-on-the-erie-and-ohio-canal/about-this-collection/"
+  },
+  {
+    "id": "source:snd-nye-finding-aid",
+    "title": "Library of Congress: Captain Pearl R. Nye finding aid",
+    "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/af012006/af012006.pdf"
+  },
+  {
+    "id": "source:snd-buckeye",
+    "title": "Ohio State University: Buckeye Speech Corpus",
+    "url": "https://buckeyecorpus.osu.edu/"
+  },
+  {
+    "id": "source:snd-nps-marsh",
+    "title": "National Park Service: Wetland Sights and Sounds",
+    "url": "https://www.nps.gov/media/video/view.htm?id=09EA5C2A-069A-4884-A5F6-25276EE45860"
+  },
+  {
+    "id": "source:snd-music-hall",
+    "title": "Cincinnati Arts: About Music Hall",
+    "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall"
+  },
+  {
+    "id": "source:snd-local1-about",
+    "title": "AFM Local 1: About and history",
+    "url": "https://afm1.org/about/"
+  },
+  {
+    "id": "source:snd-local1-constitution",
+    "title": "AFM Local 1: Constitution",
+    "url": "https://afm1.org/board-meetings/constitution/"
+  },
+  {
+    "id": "source:lib-ohiolink",
+    "title": "OhioLINK Resources",
+    "url": "https://www.ohiolink.edu/content/ohiolink_resources"
+  },
+  {
+    "id": "source:lib-searchohio",
+    "title": "SearchOhio: Using SearchOhio",
+    "url": "https://searchohio.org/searchohio/index.php/using-searchohio/"
+  },
+  {
+    "id": "source:lib-cml",
+    "title": "Columbus Metropolitan Library: SearchOhio & OhioLINK Catalogs",
+    "url": "https://www.columbuslibrary.org/searchohio/"
+  },
+  {
+    "id": "source:lib-faq",
+    "title": "OhioLINK Frequently Asked Questions",
+    "url": "https://www.ohiolink.edu/content/frequently_asked_questions"
+  },
+  {
+    "id": "source:lib-book",
+    "title": "Arcadia Publishing: Findlay Market of Cincinnati",
+    "url": "https://www.arcadiapublishing.com/products/findlay-market-of-cincinnati-9781467148597"
+  },
+  {
+    "id": "source:lib-market",
+    "title": "Findlay Market: History",
+    "url": "https://www.findlaymarket.org/history"
+  },
+  {
+    "id": "source:str-market-history",
+    "title": "Findlay Market: History",
+    "url": "https://www.findlaymarket.org/history"
+  },
+  {
+    "id": "source:str-tour",
+    "title": "Findlay Market: Self-guided tour",
+    "url": "https://www.findlaymarket.org/s/Self_Guided_Tour_final.pdf"
+  },
+  {
+    "id": "source:str-geocoder",
+    "title": "U.S. Census Bureau Geocoder: 132 W Elder Street",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=132%20W%20Elder%20Street%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "source:str-sanborn",
+    "title": "Library of Congress: Cincinnati Sanborn maps, 1904, volume 7",
+    "url": "https://www.loc.gov/resource/g4084cm.g4084cm_g06645190407/"
+  },
+  {
+    "id": "source:str-loc-sanborn-about",
+    "title": "Library of Congress: Sanborn Maps collection guide",
+    "url": "https://www.loc.gov/collections/sanborn-maps/about-this-collection/"
+  },
+  {
+    "id": "source:str-oplin",
+    "title": "OPLIN Sanborn Image Viewer: Cincinnati, 1887",
+    "url": "https://sanborn.ohioweblibrary.org/viewer/?id=4828"
+  },
+  {
+    "id": "source:str-nps",
+    "title": "National Register: Over-the-Rhine Historic District",
+    "url": "https://npgallery.nps.gov/AssetDetail/362674c3-1e0a-4626-9f94-f03e6df460b5"
+  },
+  {
+    "id": "source:str-streetcar",
+    "title": "City of Cincinnati: Hours, Route and Station Stops",
+    "url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/hours-route-and-station-stops/"
+  },
+  {
+    "id": "source:str-hours",
+    "title": "Findlay Market: Hours",
+    "url": "https://www.findlaymarket.org/hours"
+  },
+  {
+    "id": "source:water-ohio-canals",
+    "title": "Ohio History Connection · Ohio canals",
+    "url": "https://www.ohiohistory.org/ohiocanals/"
+  },
+  {
+    "id": "source:water-canal-plats",
+    "title": "Ohio Memory · Ohio Canal Plat Map Collection",
+    "url": "https://ohiomemory.org/digital/collection/p16007coll93"
+  },
+  {
+    "id": "source:water-cuyahoga-epa",
+    "title": "U.S. EPA · Cuyahoga River Area of Concern",
+    "url": "https://www.epa.gov/great-lakes-aocs/cuyahoga-river-aoc"
+  },
+  {
+    "id": "source:water-aoc-committee",
+    "title": "Cuyahoga River AOC Advisory Committee",
+    "url": "https://cuyahogaaoc.org/"
+  },
+  {
+    "id": "source:water-cleveland-port",
+    "title": "Port of Cleveland",
+    "url": "https://www.portofcleveland.com/"
+  },
+  {
+    "id": "source:water-cleveland-water",
+    "title": "Cleveland Water · Lake Erie",
+    "url": "https://www.clevelandwater.com/your-water/lake-erie"
+  },
+  {
+    "id": "source:memory-ohc-engagement",
+    "title": "Ohio History Connection · Community Engagement",
+    "url": "https://www.ohiohistory.org/get-involved/advocacy/community-engagement/"
+  },
+  {
+    "id": "source:memory-ohc-manuscripts",
+    "title": "Ohio History Connection · Manuscripts and Audiovisual Collections",
+    "url": "https://www.ohiohistory.org/research/archives-library/manuscripts-audiovisual-collections/"
+  },
+  {
+    "id": "source:memory-ohio-memory-oral",
+    "title": "Ohio Memory · Oral History",
+    "url": "https://ohiomemory.ohiohistory.org/oral-history"
+  },
+  {
+    "id": "source:memory-gohi",
+    "title": "Ohio History Connection · GOHI Oral Histories",
+    "url": "https://www.ohiohistory.org/gohi-oral-histories/"
+  },
+  {
+    "id": "source:memory-ohio-memory-collections",
+    "title": "Ohio Memory · Collections",
+    "url": "https://ohiomemory.ohiohistory.org/collections"
+  },
+  {
+    "id": "source:memory-ohc-american-indian-policy",
+    "title": "Ohio History Connection · American Indian Policy",
+    "url": "https://www.ohiohistory.org/wp-content/uploads/2022/02/OHC-American-Indian-Policy-Board-Approved-2019-09-19.pdf"
+  },
+  {
+    "id": "source:town-glen-helen-history",
+    "title": "Glen Helen · History of the Preserve",
+    "url": "https://glenhelen.org/history/"
+  },
+  {
+    "id": "source:town-glen-helen-access",
+    "title": "Glen Helen · Directions and Parking",
+    "url": "https://glenhelen.org/directions-and-parking/"
+  },
+  {
+    "id": "source:town-hocking-access",
+    "title": "Hocking Valley Scenic Railway · Accessibility",
+    "url": "https://www.hvsry.org/accessibility/"
+  },
+  {
+    "id": "source:town-hocking-railway",
+    "title": "Hocking Valley Scenic Railway",
+    "url": "https://www.hvsry.org/"
+  },
+  {
+    "id": "source:town-stuarts-history",
+    "title": "Stuart’s Opera House · Our History",
+    "url": "https://stuartsoperahouse.org/about/history/"
+  },
+  {
+    "id": "source:town-odot-appalachian-plan",
+    "title": "Ohio Department of Transportation · Appalachian Byway Corridor Management Plan",
+    "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/scenic-byways/appalachian/CMP-Appalachian.pdf"
+  },
+  {
+    "id": "source:routes-cincinnati-map",
+    "title": "City of Cincinnati · Streetcar map",
+    "url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf"
+  },
+  {
+    "id": "source:routes-cincinnati-how-to",
+    "title": "City of Cincinnati · How to Ride the Connector",
+    "url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/"
+  },
+  {
+    "id": "source:routes-metro-access",
+    "title": "Southwest Ohio Regional Transit Authority · Access Paratransit",
+    "url": "https://www.go-metro.com/access-paratransit/"
+  },
+  {
+    "id": "source:routes-nps-directions",
+    "title": "National Park Service · Dayton Aviation Heritage directions",
+    "url": "https://www.nps.gov/daav/planyourvisit/directions.htm"
+  },
+  {
+    "id": "source:routes-nps-accessibility",
+    "title": "National Park Service · Dayton Aviation Heritage accessibility",
+    "url": "https://www.nps.gov/daav/planyourvisit/accessibility.htm"
+  },
+  {
+    "id": "source:routes-dayton-rta-planner",
+    "title": "Greater Dayton RTA · Ride Time trip planner",
+    "url": "https://ridetime.greaterdaytonrta.org/bustime/home.jsp"
+  },
+  {
+    "id": "map-census-findlay",
+    "title": "U.S. Census Bureau Geocoder — 132 W Elder Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=132%20W%20Elder%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-census-music-hall",
+    "title": "U.S. Census Bureau Geocoder — 1241 Elm Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1241%20Elm%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-census-washington-park",
+    "title": "U.S. Census Bureau Geocoder — 1230 Elm Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1230%20Elm%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-nps-wright-dunbar-event",
+    "title": "National Park Service event location at Wright-Dunbar Interpretive Center",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=D3A5387E-AFD1-1CA7-395F7689D033B5B1"
+  },
+  {
+    "id": "map-nps-dunbar-house-event",
+    "title": "National Park Service event location at Dunbar House",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=EE622176-E8FA-4E9E-546E9E054121F6BE"
+  },
+  {
+    "id": "map-nps-huffman-gate-16a",
+    "title": "National Park Service event location at Huffman Prairie Flying Field, Gate 16A",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=D1E59252-FFC3-6932-6BB02CEACF7BA4D4"
+  },
+  {
+    "id": "map-census-glen-helen-cascades",
+    "title": "U.S. Census Bureau Geocoder — 1075 OH-343, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1075%20OH-343%2C%20Yellow%20Springs%2C%20OH%2045387&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-census-glen-helen-steps",
+    "title": "U.S. Census Bureau Geocoder — 505 Corry Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=505%20Corry%20St%2C%20Yellow%20Springs%2C%20OH%2045387&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-odot-nelsonville-square",
+    "title": "Ohio Department of Transportation, Appalachian Byway Corridor Management Plan",
+    "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/scenic-byways/appalachian/CMP-Appalachian.pdf"
+  },
+  {
+    "id": "map-census-hocking-depot",
+    "title": "U.S. Census Bureau Geocoder — 33 W Canal Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=33%20W%20Canal%20St%2C%20Nelsonville%2C%20OH%2045764&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-census-canalway",
+    "title": "U.S. Census Bureau Geocoder — 4524 East 49th Street, Public_AR_Current",
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4524%20E%2049th%20St%2C%20Cuyahoga%20Heights%2C%20OH%2044125&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "id": "map-usgs-cuyahoga-gage",
+    "title": "U.S. Geological Survey, Cuyahoga River at Cleveland OH (04208500)",
+    "url": "https://waterdata.usgs.gov/monitoring-location/USGS-04208500/statistics/"
+  },
+  {
+    "id": "map-usgs-lake-erie-cleveland",
+    "title": "U.S. Geological Survey, Lake Erie at Cleveland (412941081433600)",
+    "url": "https://waterdata.usgs.gov/monitoring-location/USGS-412941081433600/"
   }
 ]

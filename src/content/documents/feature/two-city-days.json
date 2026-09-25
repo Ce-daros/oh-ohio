@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "id": "feature:two-city-days",
+    "slug": "two-city-days",
+    "kind": "feature",
+    "title": "Two city days, two different rhythms",
+    "summary": "Cincinnati offers a compact streetcar-and-walk day. Dayton’s aviation sites are spread across town, so plan in sections and leave room for transit and rest.",
+    "canonicalPath": "/journal/two-city-days",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live",
+      "culture"
+    ],
+    "topics": [
+      "topic:explore-cities",
+      "topic:culture-invention",
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio",
+      "cincinnati",
+      "dayton",
+      "findlay-market",
+      "washington-park-cincinnati",
+      "cincinnati-music-hall",
+      "wright-dunbar-center",
+      "dunbar-house",
+      "huffman-prairie-field-gate-16a"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:routes-cincinnati-map",
+        "label": "City of Cincinnati · Streetcar map",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-cincinnati-how-to",
+        "label": "City of Cincinnati · How to Ride the Connector",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-metro-access",
+        "label": "Southwest Ohio Regional Transit Authority · Access Paratransit",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-nps-directions",
+        "label": "National Park Service · Dayton Aviation Heritage directions",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-nps-accessibility",
+        "label": "National Park Service · Dayton Aviation Heritage accessibility",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:routes-dayton-rta-planner",
+        "label": "Greater Dayton RTA · Ride Time trip planner",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-findlay",
+        "label": "U.S. Census Bureau Geocoder — 132 W Elder Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-washington-park",
+        "label": "U.S. Census Bureau Geocoder — 1230 Elm Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-music-hall",
+        "label": "U.S. Census Bureau Geocoder — 1241 Elm Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-nps-wright-dunbar-event",
+        "label": "National Park Service event location at Wright-Dunbar Interpretive Center",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-nps-dunbar-house-event",
+        "label": "National Park Service event location at Dunbar House",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-nps-huffman-gate-16a",
+        "label": "National Park Service event location at Huffman Prairie Flying Field, Gate 16A",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:routes-cincinnati-map"
+    },
+    "bodyPath": "./documents/feature/two-city-days.json",
+    "category": "guides",
+    "location": "Cincinnati and Dayton · two separate itineraries",
+    "duration": "Choose a half-day or full day",
+    "readTime": "4 min read",
+    "coverMediaId": "media:cincinnati-market-to-music",
+    "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+    "titleAccent": "two different rhythms",
+    "recommendations": [
+      {
+        "id": "note:cincinnati-connector-station-order",
+        "reason": "Check the selected station sequence on the City’s map."
+      },
+      {
+        "id": "note:dayton-aviation-transit-and-access",
+        "reason": "Use the NPS and transit operators’ details to plan Dayton legs."
+      }
+    ],
+    "order": 107,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/routes.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Cincinnati’s central Connector loop makes it possible to choose one stop at a time. Dayton’s aviation sites sit in different parts of the city and Wright-Patterson area, so plan that day in sections. In either place, choose one anchor first and leave optional stops for energy, service, and opening hours.",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to",
+        "source:routes-nps-directions"
+      ],
+      "role": "intro"
+    },
+    {
+      "type": "heading",
+      "id": "cincinnati",
+      "title": "Cincinnati: market, park, downtown",
+      "eyebrow": "Half day or full day",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For a shorter visit, begin at Findlay Market and ride the Cincinnati Connector to Washington Park. Spend time in the park and continue downtown only if you want another stop. The City’s published map numbers Findlay Market–Race as station 12, Liberty & Race as 13, Washington Park as 14, Public Library as 16, Fountain Square as 18, and The Banks as 1. Following those listed stations carries the route from Over-the-Rhine toward downtown and the riverfront. You can leave at Washington Park or continue to Fountain Square or The Banks; a full loop is optional, not a requirement.",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "Around the Cincinnati day",
+      "placeIds": [
+        "findlay-market",
+        "washington-park-cincinnati",
+        "cincinnati-music-hall"
+      ],
+      "caption": "Markers locate street addresses on the market and music blocks. Use venue directions for entrances.",
+      "sourceIds": [
+        "map-census-findlay",
+        "map-census-washington-park",
+        "map-census-music-hall"
+      ]
+    },
+    {
+      "type": "route",
+      "sourceIds": [
+        "source:routes-cincinnati-map"
+      ],
+      "stops": [
+        {
+          "id": "findlay-race",
+          "title": "Findlay Market–Race · station 12",
+          "note": "Begin near the market; check its current calendar before choosing a fixed visit."
+        },
+        {
+          "id": "liberty-race",
+          "title": "Liberty & Race · station 13",
+          "note": "The next listed station southbound on the published map."
+        },
+        {
+          "id": "washington-park",
+          "title": "Washington Park · station 14",
+          "note": "A useful stop for a seated break and a shorter itinerary."
+        },
+        {
+          "id": "public-library",
+          "title": "Public Library · station 16",
+          "note": "Continue toward downtown using the map’s station order."
+        },
+        {
+          "id": "fountain-square",
+          "title": "Fountain Square · station 18",
+          "note": "Downtown stop; choose this as a finish or a pause."
+        },
+        {
+          "id": "the-banks",
+          "title": "The Banks · station 1",
+          "note": "Riverfront end of this selected sequence."
+        }
+      ]
+    },
+    {
+      "sourceIds": [
+        "source:routes-cincinnati-how-to",
+        "source:routes-nps-accessibility"
+      ],
+      "text": "Level boarding helps on the Connector, but sidewalks and entrances vary. Choose one stop where you can rest, then decide whether to add another.",
+      "type": "characterAside",
+      "title": "Leave room at the curb",
+      "role": "practical"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Connector is fare-free, and the City describes level boarding plus audio and visual stop information. Those vehicle features do not guarantee step-free sidewalks, curbs, market aisles, or destination entrances. For a walking-light day, ride between stations and stay longer at one place. For a more active visit, browse the market and take the park walk, but add stops only as you feel comfortable.",
+      "sourceIds": [
+        "source:routes-cincinnati-how-to"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "dayton",
+      "title": "Dayton: Wright-Dunbar and the spaces between",
+      "eyebrow": "Two to three hours or a full day",
+      "sourceIds": [
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility",
+        "source:routes-dayton-rta-planner"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Begin with a focused transit-first visit to Wright-Dunbar. The National Park Service identifies the nearest Greater Dayton RTA stop at West Third and Williams. From there, visit the Wright-Dunbar Interpretive Center at 16 South Williams Street and the Wright Cycle Company building next door at 22 South Williams Street. The NPS directions place the Paul Laurence Dunbar House three blocks west along Third Street and three blocks north on Paul Laurence Dunbar Street; check the house’s schedule before walking there. The NPS accessibility page documents an elevator, accessible restrooms, benches, a ramp into the Cycle Company, captions and audio description for the film, and typed communication equipment at the visitor center.",
+      "sourceIds": [
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility",
+        "source:routes-dayton-rta-planner"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "Across Dayton",
+      "placeIds": [
+        "wright-dunbar-center",
+        "dunbar-house",
+        "huffman-prairie-field-gate-16a"
+      ],
+      "caption": "The flying-field marker is Gate 16A, a separate destination from the interpretive center. These sites need separate travel legs.",
+      "sourceIds": [
+        "map-nps-wright-dunbar-event",
+        "map-nps-dunbar-house-event",
+        "map-nps-huffman-gate-16a"
+      ]
+    },
+    {
+      "type": "route",
+      "sourceIds": [
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility",
+        "source:routes-dayton-rta-planner"
+      ],
+      "stops": [
+        {
+          "id": "third-williams",
+          "title": "West Third & Williams RTA stop",
+          "note": "NPS identifies this as the nearest transit stop to the Wright-Dunbar visitor area.",
+          "placeId": "west-third-williams-stop"
+        },
+        {
+          "id": "interpretive-center",
+          "title": "Wright-Dunbar Interpretive Center",
+          "note": "NPS address: 16 S Williams Street; check current hours.",
+          "placeId": "wright-dunbar-center"
+        },
+        {
+          "id": "cycle-company",
+          "title": "Wright Cycle Company",
+          "note": "NPS address: 22 S Williams Street; adjoining building with a ramp described on the accessibility page.",
+          "placeId": "wright-cycle-company"
+        },
+        {
+          "id": "dunbar-house",
+          "title": "Paul Laurence Dunbar House",
+          "note": "Three blocks west and three north by NPS directions; confirm tour availability.",
+          "placeId": "dunbar-house"
+        },
+        {
+          "id": "outlying-sites",
+          "title": "Huffman Prairie / National Museum of the U.S. Air Force",
+          "note": "Separate ride; NPS says there is no public transportation to Huffman Prairie.",
+          "placeId": "huffman-prairie-center"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For a full day, eat and rest downtown, then arrange a separate ride to Huffman Prairie and the National Museum of the U.S. Air Force. NPS says there is no public transit to the Huffman Prairie visitor center, so do not assume the RTA bus alone completes that leg. Use Greater Dayton RTA’s trip planner for the transit portion to Wright-Dunbar and confirm the route for your date. A lower-transfer alternative is to stay downtown longer instead of trying to visit every site.",
+      "sourceIds": [
+        "source:routes-nps-directions",
+        "source:routes-dayton-rta-planner"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "choose",
+      "title": "Match the route to your time and mobility",
+      "eyebrow": "Before setting out",
+      "sourceIds": [
+        "source:routes-cincinnati-how-to",
+        "source:routes-metro-access",
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility"
+      ]
+    },
+    {
+      "type": "practical",
+      "sourceIds": [
+        "source:routes-cincinnati-how-to",
+        "source:routes-metro-access",
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility",
+        "source:routes-dayton-rta-planner"
+      ],
+      "items": [
+        {
+          "label": "Short Cincinnati visit",
+          "text": "Ride from Findlay Market to Washington Park, take a seated break, and decide whether to continue downtown."
+        },
+        {
+          "label": "Long Cincinnati visit",
+          "text": "Use the published station order toward the Public Library, Fountain Square, or The Banks; leave time between stops."
+        },
+        {
+          "label": "Short Dayton visit",
+          "text": "Use RTA to reach Wright-Dunbar and focus on the visitor center and Cycle Company; confirm current hours."
+        },
+        {
+          "label": "Long Dayton visit",
+          "text": "Arrange separate transportation to Huffman Prairie and the Air Force museum; NPS reports no public transit to Huffman Prairie."
+        },
+        {
+          "label": "Access planning",
+          "text": "The Connector’s boarding features describe the vehicle, while Metro Access has separate eligibility, service-area, and scheduling rules. Ask the operator about your journey."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The best route is the one that leaves time to look, sit, and change plans. Check transit alerts, attraction hours, and any accessibility arrangements for the travel date. In Cincinnati, the loop offers several natural stopping points. In Dayton, the distance between sites makes transport part of the itinerary itself.",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to",
+        "source:routes-metro-access",
+        "source:routes-nps-directions",
+        "source:routes-nps-accessibility",
+        "source:routes-dayton-rta-planner"
+      ],
+      "role": "signoff"
+    }
+  ]
+}

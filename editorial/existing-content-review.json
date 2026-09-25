@@ -1,0 +1,3469 @@
+{
+  "reviewedAt": "2026-09-25",
+  "scope": {
+    "included": "All 86 JSON files under site/src/content/documents (feature, note, phrase).",
+    "excluded": "Editorial draft bundles and future dossier slugs.",
+    "method": "Read every canonical document body and metadata, count source refs and flag dynamic visitor/service words. This is a code/editorial audit; no document source is treated as reverified unless a metric item below explicitly records a live primary-source check.",
+    "dispositionDefinitions": {
+      "retain": "Keep the canonical item, with routine source maintenance.",
+      "deepen": "Keep but materially add/qualify evidence or current practical context.",
+      "merge": "Combine overlapping material into the named canonical item and preserve/redirect the old canonical path.",
+      "retire": "Remove only with a redirect after confirming no unique evidence or user need."
+    }
+  },
+  "items": [
+    {
+      "id": "feature:akron-rubber",
+      "canonicalPath": "/journal/akron-rubber",
+      "title": "There’s a story in these tires.",
+      "kind": "feature",
+      "wordCount": 494,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The 472-word object story compresses a multi-company labor and chemistry history into a useful entry point. At the next edit, distinguish Goodyear’s corporate account from labor/archive evidence, add dated labor context, and keep visitor suggestions conditional.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a8aa6b3a6e8d",
+          "source:e651e920ffde",
+          "source:f7093a449f30",
+          "source:b22e0578fa04",
+          "source:89b67fe60a77"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:akron-rubber-work",
+          "title": "Akron and the rubber road",
+          "reason": "shared named place: akron"
+        },
+        {
+          "id": "note:advanced-manufacturing",
+          "title": "Advanced manufacturing",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "note:automotive",
+          "title": "Automotive & mobility",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "feature:athens-campus-day",
+      "canonicalPath": "/journal/athens-campus-day",
+      "title": "Got a little time? Let’s walk through Athens.",
+      "kind": "feature",
+      "wordCount": 473,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The walk is explicitly campus-based and appropriately directs formal visits to Ohio University. Recheck campus access, dining, paths, and tour options immediately before use; the story is an itinerary proposal, not a visited route.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:ede1787bcddb",
+          "source:29584ee3d5de",
+          "source:5c1739058d79",
+          "source:60ddb2dbd634"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cosi-try-it-yourself",
+          "title": "Try it at COSI",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:research",
+          "title": "Research & discovery",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:rocky-river-nature-center",
+          "title": "A nature center afternoon",
+          "reason": "shared editorial topic: topic:live-campus"
+        }
+      ]
+    },
+    {
+      "id": "feature:brass-whistle",
+      "canonicalPath": "/journal/brass-whistle",
+      "title": "Little whistle. Big voice.",
+      "kind": "feature",
+      "wordCount": 454,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The manufacturing sequence and sound test depend heavily on the company’s own process account. Preserve that attribution, deepen the material/process explanation, and reconfirm tours and access before giving visit advice.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:5ba0acf258d0",
+          "source:e1139ccc0d38",
+          "source:a4c48f4c9012"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:columbus-whistle-factory",
+          "title": "A whistle from Columbus",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "feature:buckeye-sweets",
+      "canonicalPath": "/journal/buckeye-sweets",
+      "title": "Save room for a buckeye.",
+      "kind": "feature",
+      "wordCount": 462,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep the candy and state-symbol pairing, but distinguish the Ohio buckeye tree/nut from the confection’s undocumented origin story; source the recipe convention and candy-history attribution before expanding.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:dbe2637c173d",
+          "source:c63f1cdf0fd9",
+          "source:321dfad15506",
+          "source:16d5e471ceeb"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:foodways",
+          "title": "Regional foodways",
+          "reason": "shared editorial topic: topic:culture-table"
+        },
+        {
+          "id": "note:west-side-market",
+          "title": "West Side Market",
+          "reason": "shared editorial topic: topic:culture-table"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shared editorial topic: topic:culture-table"
+        }
+      ]
+    },
+    {
+      "id": "feature:cincinnati-chili",
+      "canonicalPath": "/journal/cincinnati-chili",
+      "title": "Pull up a chair. Let’s order chili.",
+      "kind": "feature",
+      "wordCount": 449,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Retain the menu-ordering entry point while tightening origin claims to sourced dates and attributed accounts. Menus, parlor locations, and ordering options must remain venue-specific and current.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0a88fe931a42",
+          "source:49b153a95f28",
+          "source:57276d5b0123"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cincinnati",
+          "title": "Cincinnati",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:rookwood-cincinnati",
+          "title": "Rookwood's Cincinnati clay",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "feature:cincinnati-market-to-music",
+      "canonicalPath": "/journal/cincinnati-market-to-music",
+      "title": "A market morning. A music night.",
+      "kind": "feature",
+      "wordCount": 568,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "This route mixes weekly market activity, mural attribution, streetcar direction, Music Hall events, and tours. Keep it as a useful Cincinnati itinerary, but refresh each service/calendar claim and connect it to the street and listening dossiers.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:43b5ffb6701f",
+          "source:668b7749a77a",
+          "source:d6f3964ef5ae",
+          "source:8e3ff34cee29",
+          "source:9e83bf597a6f"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cincinnati",
+          "title": "Cincinnati",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:american-sign-museum",
+          "title": "The signs we live by",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "feature:community-garden-season",
+      "canonicalPath": "/journal/community-garden-season",
+      "title": "Let’s see what’s growing.",
+      "kind": "feature",
+      "wordCount": 472,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The draft cites 2025 plot rules and registration. Confirm the program still operates, its current plot eligibility and boundaries, and distinguish public viewing from garden access; seasonal observations must remain advice rather than eyewitness reporting.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:428d53229cfb",
+          "source:44895e9af573",
+          "source:7dd053f846c2"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:possum-creek-gardens",
+          "title": "Grow something together",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:aviation-heritage",
+          "title": "Aviation & invention",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:dayton",
+          "title": "Dayton",
+          "reason": "shared named place: dayton"
+        }
+      ]
+    },
+    {
+      "id": "feature:cuyahoga-slow-day",
+      "canonicalPath": "/journal/cuyahoga-slow-day",
+      "title": "Let’s take the slow way.",
+      "kind": "feature",
+      "wordCount": 535,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The route depends on park closures, parking, weather, and vehicle transfers. Refresh each stop against NPS conditions, remove any route detail that is not verified on publication day, and distinguish a proposed day from completed travel.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:208e91e8b76b",
+          "source:0089bc401442",
+          "source:6445306a5a08",
+          "source:1bd9eb44738d"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cuyahoga-valley",
+          "title": "Cuyahoga Valley",
+          "reason": "shared named place: cuyahoga-valley"
+        },
+        {
+          "id": "note:glen-helen",
+          "title": "Glen Helen",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:nature",
+          "title": "Wild Ohio",
+          "reason": "shared editorial topic: topic:explore-wild"
+        }
+      ]
+    },
+    {
+      "id": "feature:dayton-made-to-fly",
+      "canonicalPath": "/journal/dayton-made-to-fly",
+      "title": "What took flight.",
+      "kind": "feature",
+      "wordCount": 583,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The Wright-Dunbar, Carillon, and Air Force museum sequence includes different operators, admissions, access, and schedules. Recheck current tour days, admission, and travel time by each operator; strengthen primary historical sourcing.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:93148660c377",
+          "source:9cfd07f7b8af",
+          "source:1d92d2970c60",
+          "source:9b29710edda5",
+          "source:194328dc025b"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:dayton",
+          "title": "Dayton",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:aviation-heritage",
+          "title": "Aviation & invention",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:possum-creek-gardens",
+          "title": "Grow something together",
+          "reason": "shared named place: dayton"
+        }
+      ]
+    },
+    {
+      "id": "feature:library-afternoon",
+      "canonicalPath": "/journal/library-afternoon",
+      "title": "A book, a window, an afternoon.",
+      "kind": "feature",
+      "wordCount": 447,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The library service and reserve-an-expert details may have changed. Recheck current hours, research appointments, Local History & Genealogy access, and service names; distinguish institutional history from present-day offerings.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d6a49830fe86",
+          "source:89bb865d3a64",
+          "source:edfc75e3bfab",
+          "source:171550568ba0"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:columbus",
+          "title": "Columbus",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "feature:rookwood-clay",
+      "canonicalPath": "/journal/rookwood-clay",
+      "title": "A little clay. A lot of hands.",
+      "kind": "feature",
+      "wordCount": 465,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep maker, studio, and museum histories distinct. Update the present-day production/tour/retail details from Rookwood and current collection access from the museum; do not imply a visitor can observe factory work unless the operator confirms it.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d6157c4bfb9a",
+          "source:747b125e98e3",
+          "source:1e53152984c1"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:rookwood-cincinnati",
+          "title": "Rookwood's Cincinnati clay",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:american-sign-museum",
+          "title": "The signs we live by",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:cincinnati",
+          "title": "Cincinnati",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "feature:sandusky-play-day",
+      "canonicalPath": "/journal/sandusky-play-day",
+      "title": "One more ride. Then the lake.",
+      "kind": "feature",
+      "wordCount": 554,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The itinerary depends on Cedar Point operating dates, tickets, ride status, shoreline facilities, and transit between downtown and the park. Recheck season-specific access and replace generic lodging/ride advice with verified locations.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:9516e9a0b1fc",
+          "source:0cc533d484c6",
+          "source:eff0058f0693",
+          "source:4fe0326712dc",
+          "source:7047f46f4c94"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:magee-marsh",
+          "title": "Magee Marsh",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "feature:toledo-glass",
+      "canonicalPath": "/journal/toledo-glass",
+      "title": "Ooh, look at that glass.",
+      "kind": "feature",
+      "wordCount": 465,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Retain the Toledo making-and-collection link, but reconfirm Glass Pavilion entry, studio demonstrations, class registration, and object captions on current museum pages; distinguish seeing glass from participating in a hot-shop session.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:347b1fd24bc5",
+          "source:d91f1feabb36",
+          "source:1dd62d565327",
+          "source:66ddd394a16e",
+          "source:d3c6d84efc2c"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:toledo-glass-pavilion",
+          "title": "Toledo’s Glass Pavilion",
+          "reason": "shared named place: toledo"
+        },
+        {
+          "id": "note:port-of-toledo",
+          "title": "The Port of Toledo",
+          "reason": "shared named place: toledo"
+        },
+        {
+          "id": "note:advanced-manufacturing",
+          "title": "Advanced manufacturing",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "feature:west-side-market-table",
+      "canonicalPath": "/journal/west-side-market-table",
+      "title": "A market full of good things.",
+      "kind": "feature",
+      "wordCount": 465,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Preserve the Cleveland market as a food and architecture story. Refresh construction, hours, vendor roster, accessibility, and public-market claims from the market and municipal records before presenting a visit plan.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:12809615c67b",
+          "source:b285e7bc8ab5",
+          "source:d1f4501f2abb",
+          "source:e66d978ea337"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:west-side-market",
+          "title": "West Side Market",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:advanced-manufacturing",
+      "canonicalPath": "/notes/advanced-manufacturing",
+      "title": "Advanced manufacturing",
+      "kind": "note",
+      "wordCount": 109,
+      "disposition": "merge",
+      "mergedInto": "note:production",
+      "reason": "Fold this short overlapping entry into note:production; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:440edf6e5e89"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:production",
+          "title": "Making things",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:aerospace",
+      "canonicalPath": "/notes/aerospace",
+      "title": "Aerospace & defense",
+      "kind": "note",
+      "wordCount": 109,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on Aerospace & defense; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:b3c7c21f6f0c"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:glenn-icing-tunnel",
+          "title": "The ice inside NASA Glenn",
+          "reason": "shared editorial topic: topic:make-flight"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:akron-rubber-work",
+      "canonicalPath": "/notes/akron-rubber-work",
+      "title": "Akron and the rubber road",
+      "kind": "note",
+      "wordCount": 149,
+      "disposition": "merge",
+      "mergedInto": "feature:akron-rubber",
+      "reason": "Fold this short overlapping entry into feature:akron-rubber; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a8aa6b3a6e8d",
+          "source:05f8d798a408"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:american-sign-museum",
+      "canonicalPath": "/notes/american-sign-museum",
+      "title": "The signs we live by",
+      "kind": "note",
+      "wordCount": 142,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on The signs we live by; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d1499246eed5",
+          "source:161db9646142"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:freedom-center-river",
+          "title": "Freedom stories by the river",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "note:appalachian-english",
+      "canonicalPath": "/notes/appalachian-english",
+      "title": "Appalachian English",
+      "kind": "note",
+      "wordCount": 107,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this language entry with the named speaker/research context and variation limits. Reopen the cited scholarship or corpus terms before expanding; never generalize one documented form to all Ohioans.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:dae575730dc7"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "phrase:mamaw-papaw",
+          "title": "mamaw / papaw",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:needs-washed",
+          "title": "needs washed",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:scioto",
+          "title": "Scioto",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "note:appalachian-ohio",
+      "canonicalPath": "/notes/appalachian-ohio",
+      "title": "Appalachian Ohio",
+      "kind": "note",
+      "wordCount": 129,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore hills reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:4a13e4c82f15"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:hocking-hills",
+          "title": "Hocking Hills",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "note:wayne-covered-bridge-byway",
+          "title": "Wayne’s covered bridge road",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:arts-museums",
+      "canonicalPath": "/notes/arts-museums",
+      "title": "Arts & museums",
+      "kind": "note",
+      "wordCount": 115,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:36a1fc18d246"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:american-sign-museum",
+          "title": "The signs we live by",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        },
+        {
+          "id": "note:freedom-center-river",
+          "title": "Freedom stories by the river",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        }
+      ]
+    },
+    {
+      "id": "note:automotive",
+      "canonicalPath": "/notes/automotive",
+      "title": "Automotive & mobility",
+      "kind": "note",
+      "wordCount": 101,
+      "disposition": "merge",
+      "mergedInto": "note:production",
+      "reason": "Fold this short overlapping entry into note:production; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:6e491931ca45"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:production",
+          "title": "Making things",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:aviation-heritage",
+      "canonicalPath": "/notes/aviation-heritage",
+      "title": "Aviation & invention",
+      "kind": "note",
+      "wordCount": 115,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on Aviation & invention; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0fcbde59e057"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:community-garden-season",
+          "title": "Let’s see what’s growing.",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "feature:dayton-made-to-fly",
+          "title": "What took flight.",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:dayton",
+          "title": "Dayton",
+          "reason": "shared named place: dayton"
+        }
+      ]
+    },
+    {
+      "id": "note:billy-ireland-cartoon-museum",
+      "canonicalPath": "/notes/billy-ireland-cartoon-museum",
+      "title": "A home for cartoon art",
+      "kind": "note",
+      "wordCount": 124,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:78be97d1d8fc",
+          "source:9e30a0e94d77"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:cincinnati-music-hall",
+      "canonicalPath": "/notes/cincinnati-music-hall",
+      "title": "Cincinnati Music Hall",
+      "kind": "note",
+      "wordCount": 137,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d9b49fecaefb"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "note:cincinnati",
+      "canonicalPath": "/notes/cincinnati",
+      "title": "Cincinnati",
+      "kind": "note",
+      "wordCount": 106,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore cities reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:57ebd841ae91"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "note:cities-regions",
+      "canonicalPath": "/notes/cities-regions",
+      "title": "A constellation of cities",
+      "kind": "note",
+      "wordCount": 111,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore cities reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:523dc265135f"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:cincinnati",
+          "title": "Cincinnati",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "note:columbus",
+          "title": "Columbus",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:cleveland-orchestra-severance",
+      "canonicalPath": "/notes/cleveland-orchestra-severance",
+      "title": "An evening at Severance",
+      "kind": "note",
+      "wordCount": 103,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:9f3c319f6e6f",
+          "source:723d0633b971"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:music",
+          "title": "Music with a pulse",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:cleveland",
+      "canonicalPath": "/notes/cleveland",
+      "title": "Cleveland",
+      "kind": "note",
+      "wordCount": 98,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore coast reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:f9eda4aefb7d"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:magee-marsh",
+          "title": "Magee Marsh",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:columbus-whistle-factory",
+      "canonicalPath": "/notes/columbus-whistle-factory",
+      "title": "A whistle from Columbus",
+      "kind": "note",
+      "wordCount": 129,
+      "disposition": "merge",
+      "mergedInto": "feature:brass-whistle",
+      "reason": "Fold this short overlapping entry into feature:brass-whistle; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:90f7f9463f72"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:columbus",
+      "canonicalPath": "/notes/columbus",
+      "title": "Columbus",
+      "kind": "note",
+      "wordCount": 109,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore cities reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:e0527e33fc24"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:community-languages",
+      "canonicalPath": "/notes/community-languages",
+      "title": "Many languages, many homes",
+      "kind": "note",
+      "wordCount": 105,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this language entry with the named speaker/research context and variation limits. Reopen the cited scholarship or corpus terms before expanding; never generalize one documented form to all Ohioans.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:f4363cc1bc8c",
+          "source:9dab685b3847"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "phrase:mamaw-papaw",
+          "title": "mamaw / papaw",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:needs-washed",
+          "title": "needs washed",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:scioto",
+          "title": "Scioto",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "note:community-life",
+      "canonicalPath": "/notes/community-life",
+      "title": "Community life",
+      "kind": "note",
+      "wordCount": 108,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on Community life; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:2cfe4c57c885"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:community-garden-season",
+          "title": "Let’s see what’s growing.",
+          "reason": "shared editorial topic: topic:live-community"
+        },
+        {
+          "id": "note:possum-creek-gardens",
+          "title": "Grow something together",
+          "reason": "shared editorial topic: topic:live-community"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:cosi-try-it-yourself",
+      "canonicalPath": "/notes/cosi-try-it-yourself",
+      "title": "Try it at COSI",
+      "kind": "note",
+      "wordCount": 112,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:4e1e13a2e7d0",
+          "source:1ff2c4fed218"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:cuyahoga-valley",
+      "canonicalPath": "/notes/cuyahoga-valley",
+      "title": "Cuyahoga Valley",
+      "kind": "note",
+      "wordCount": 111,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:9a0e778d69a0"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "title": "Let’s take the slow way.",
+          "reason": "shared named place: cuyahoga-valley"
+        },
+        {
+          "id": "note:glen-helen",
+          "title": "Glen Helen",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:nature",
+          "title": "Wild Ohio",
+          "reason": "shared editorial topic: topic:explore-wild"
+        }
+      ]
+    },
+    {
+      "id": "note:dayton",
+      "canonicalPath": "/notes/dayton",
+      "title": "Dayton",
+      "kind": "note",
+      "wordCount": 121,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore cities reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0fcbde59e057"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:dayton-made-to-fly",
+          "title": "What took flight.",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "feature:community-garden-season",
+          "title": "Let’s see what’s growing.",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:aviation-heritage",
+          "title": "Aviation & invention",
+          "reason": "shared named place: dayton"
+        }
+      ]
+    },
+    {
+      "id": "note:east-liverpool-ceramics",
+      "canonicalPath": "/notes/east-liverpool-ceramics",
+      "title": "East Liverpool in clay",
+      "kind": "note",
+      "wordCount": 107,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make factory note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:42ddb59f033e"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:economic-map",
+      "canonicalPath": "/notes/economic-map",
+      "title": "Many kinds of work",
+      "kind": "note",
+      "wordCount": 94,
+      "disposition": "merge",
+      "mergedInto": "note:jobs-households",
+      "reason": "Fold this short overlapping entry into note:jobs-households; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0b15bee89bee"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:jobs-households",
+          "title": "Work & household budgets",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:energy-chemicals",
+      "canonicalPath": "/notes/energy-chemicals",
+      "title": "Energy & chemicals",
+      "kind": "note",
+      "wordCount": 109,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make factory note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:67cc7f128dc2"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:executive",
+      "canonicalPath": "/notes/executive",
+      "title": "Executive branch",
+      "kind": "note",
+      "wordCount": 102,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this civic explainer and check the current Ohio Constitution/statute or official branch description at the next revision; distinguish constitutional structure from current officeholders or pending policy.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:bdd85ea4de31"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:judicial",
+          "title": "Judicial branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:legislative",
+          "title": "Legislative branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:statehouse-open-door",
+          "title": "Step inside the Statehouse",
+          "reason": "shared editorial topic: topic:live-civic"
+        }
+      ]
+    },
+    {
+      "id": "note:food-agriculture",
+      "canonicalPath": "/notes/food-agriculture",
+      "title": "Food & agribusiness",
+      "kind": "note",
+      "wordCount": 103,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make farm note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:f9e06f1adb89"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:foodways",
+      "canonicalPath": "/notes/foodways",
+      "title": "Regional foodways",
+      "kind": "note",
+      "wordCount": 107,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise culture table reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:2c83235fc91d"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shared editorial topic: topic:culture-table"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shared editorial topic: topic:culture-table"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "shared editorial topic: topic:culture-table"
+        }
+      ]
+    },
+    {
+      "id": "note:freedom-center-river",
+      "canonicalPath": "/notes/freedom-center-river",
+      "title": "Freedom stories by the river",
+      "kind": "note",
+      "wordCount": 101,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Preserve the institution’s civic and historical importance while adding collection-specific primary evidence and current access details; do not reduce slavery history to a visitor itinerary or institutional summary.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:48a13dd8c32b",
+          "source:3a731cd018ec"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:american-sign-museum",
+          "title": "The signs we live by",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "note:glen-helen",
+      "canonicalPath": "/notes/glen-helen",
+      "title": "Glen Helen",
+      "kind": "note",
+      "wordCount": 124,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:af37102bd340",
+          "source:7be6a5a6dff2"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "title": "Let’s take the slow way.",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:cuyahoga-valley",
+          "title": "Cuyahoga Valley",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:nature",
+          "title": "Wild Ohio",
+          "reason": "shared editorial topic: topic:explore-wild"
+        }
+      ]
+    },
+    {
+      "id": "note:glenn-icing-tunnel",
+      "canonicalPath": "/notes/glenn-icing-tunnel",
+      "title": "The ice inside NASA Glenn",
+      "kind": "note",
+      "wordCount": 115,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Treat the NASA Glenn icing-tunnel material as a specific research facility story, not a public attraction. Verify current NASA exhibit/tour access and use NASA-owned records for test purpose, facility dates, and imagery.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:1b65b9fd42e6",
+          "source:186382792534"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:healthcare",
+      "canonicalPath": "/notes/healthcare",
+      "title": "Healthcare & life sciences",
+      "kind": "note",
+      "wordCount": 118,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make lab note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:66564ad23525"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:technology",
+          "title": "Technology",
+          "reason": "shared editorial topic: topic:make-lab"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:history",
+      "canonicalPath": "/notes/history",
+      "title": "A layered history",
+      "kind": "note",
+      "wordCount": 103,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore past reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:8cbd0c859f2b"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:serpent-mound",
+          "title": "Serpent Mound",
+          "reason": "shared editorial topic: topic:explore-past"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:hocking-hills",
+      "canonicalPath": "/notes/hocking-hills",
+      "title": "Hocking Hills",
+      "kind": "note",
+      "wordCount": 110,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:958ecaa94a21",
+          "source:523dc265135f"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:appalachian-ohio",
+          "title": "Appalachian Ohio",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "note:wayne-covered-bridge-byway",
+          "title": "Wayne’s covered bridge road",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:hopewell-earthworks",
+      "canonicalPath": "/notes/hopewell-earthworks",
+      "title": "Hopewell Earthworks",
+      "kind": "note",
+      "wordCount": 112,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Recheck the contemporary designation and attribution with UNESCO, NPS, Ohio History Connection, and tribal sources; distinguish the World Heritage group of sites from any single mound or community.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0723305fd545"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:american-sign-museum",
+          "title": "The signs we live by",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        },
+        {
+          "id": "note:arts-museums",
+          "title": "Arts & museums",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared editorial topic: topic:culture-gallery"
+        }
+      ]
+    },
+    {
+      "id": "note:jobs-households",
+      "canonicalPath": "/notes/jobs-households",
+      "title": "Work & household budgets",
+      "kind": "note",
+      "wordCount": 107,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Separate household-income estimates from payroll/employer measures and show their survey/administrative source, geography, and year. The old JobsOhio framing is not independent labor-market evidence.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a7488427e5c3"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:economic-map",
+          "title": "Many kinds of work",
+          "reason": "shared editorial topic: topic:make-work"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:judicial",
+      "canonicalPath": "/notes/judicial",
+      "title": "Judicial branch",
+      "kind": "note",
+      "wordCount": 112,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this civic explainer and check the current Ohio Constitution/statute or official branch description at the next revision; distinguish constitutional structure from current officeholders or pending policy.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:263c8cc31fe3"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:executive",
+          "title": "Executive branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:legislative",
+          "title": "Legislative branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:statehouse-open-door",
+          "title": "Step inside the Statehouse",
+          "reason": "shared editorial topic: topic:live-civic"
+        }
+      ]
+    },
+    {
+      "id": "note:lake-erie-islands",
+      "canonicalPath": "/notes/lake-erie-islands",
+      "title": "Lake Erie Islands",
+      "kind": "note",
+      "wordCount": 120,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore coast reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:8a99d2f30d01"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:magee-marsh",
+          "title": "Magee Marsh",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:legislative",
+      "canonicalPath": "/notes/legislative",
+      "title": "Legislative branch",
+      "kind": "note",
+      "wordCount": 105,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this civic explainer and check the current Ohio Constitution/statute or official branch description at the next revision; distinguish constitutional structure from current officeholders or pending policy.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:0a6763f7ea85"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:executive",
+          "title": "Executive branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:judicial",
+          "title": "Judicial branch",
+          "reason": "shared editorial topic: topic:live-civic"
+        },
+        {
+          "id": "note:statehouse-open-door",
+          "title": "Step inside the Statehouse",
+          "reason": "shared editorial topic: topic:live-civic"
+        }
+      ]
+    },
+    {
+      "id": "note:libraries",
+      "canonicalPath": "/notes/libraries",
+      "title": "Libraries for everyone",
+      "kind": "note",
+      "wordCount": 112,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise live library reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:08bbd08a614a"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared editorial topic: topic:live-library"
+        },
+        {
+          "id": "note:ohiolink-shared-shelves",
+          "title": "A bigger library shelf",
+          "reason": "shared editorial topic: topic:live-library"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:local-government",
+      "canonicalPath": "/notes/local-government",
+      "title": "Closer to home",
+      "kind": "note",
+      "wordCount": 110,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this civic explainer and check the current Ohio Constitution/statute or official branch description at the next revision; distinguish constitutional structure from current officeholders or pending policy.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:cc3e93c98786",
+          "source:62fbbde6a771"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:logistics",
+      "canonicalPath": "/notes/logistics",
+      "title": "Logistics & distribution",
+      "kind": "note",
+      "wordCount": 95,
+      "disposition": "merge",
+      "mergedInto": "note:trade",
+      "reason": "Fold this short overlapping entry into note:trade; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:dcb65b96c1c3"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:trade",
+          "title": "Trade & movement",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "note:port-of-toledo",
+          "title": "The Port of Toledo",
+          "reason": "shared editorial topic: topic:make-movement"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:magee-marsh",
+      "canonicalPath": "/notes/magee-marsh",
+      "title": "Magee Marsh",
+      "kind": "note",
+      "wordCount": 116,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d3e4fdf63df2",
+          "source:7cdf38bdad02"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:marblehead-lighthouse",
+      "canonicalPath": "/notes/marblehead-lighthouse",
+      "title": "Marblehead Lighthouse",
+      "kind": "note",
+      "wordCount": 101,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a256e99fd8bc",
+          "source:c9c2947bbb46"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:music",
+      "canonicalPath": "/notes/music",
+      "title": "Music with a pulse",
+      "kind": "note",
+      "wordCount": 105,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this place/institution entry and recheck current visitor access and institution-specific facts. Add collection, object, or labor evidence so it remains useful beyond a brief directory description.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:26a28d3ab445"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:cleveland-orchestra-severance",
+          "title": "An evening at Severance",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:nature",
+      "canonicalPath": "/notes/nature",
+      "title": "Wild Ohio",
+      "kind": "note",
+      "wordCount": 116,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:523dc265135f"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:cuyahoga-slow-day",
+          "title": "Let’s take the slow way.",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:cuyahoga-valley",
+          "title": "Cuyahoga Valley",
+          "reason": "shared editorial topic: topic:explore-wild"
+        },
+        {
+          "id": "note:glen-helen",
+          "title": "Glen Helen",
+          "reason": "shared editorial topic: topic:explore-wild"
+        }
+      ]
+    },
+    {
+      "id": "note:north-coast",
+      "canonicalPath": "/notes/north-coast",
+      "title": "The North Coast",
+      "kind": "note",
+      "wordCount": 105,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:4a13e4c82f15"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "note:lake-erie-islands",
+          "title": "Lake Erie Islands",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:ohiolink-shared-shelves",
+      "canonicalPath": "/notes/ohiolink-shared-shelves",
+      "title": "A bigger library shelf",
+      "kind": "note",
+      "wordCount": 114,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The old note predates the June 2025 Central Catalog shutdown and fall 2025 SearchOhio update; OhioLINK reports lending resumed May 2026. Replace any old catalog/request workflow with current local-catalog and SearchOhio steps.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:609e7a53b1f7",
+          "source:5a84f039b643"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared editorial topic: topic:live-library"
+        },
+        {
+          "id": "note:libraries",
+          "title": "Libraries for everyone",
+          "reason": "shared editorial topic: topic:live-library"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:place-names",
+      "canonicalPath": "/notes/place-names",
+      "title": "Names worth asking about",
+      "kind": "note",
+      "wordCount": 99,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep pronunciation separate from etymology and identify the community/source behind each form. A single Scripps pronunciation guide is not a complete map of local speech or Indigenous place-name history.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:51e1893663c4"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "phrase:scioto",
+          "title": "Scioto",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:mamaw-papaw",
+          "title": "mamaw / papaw",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:needs-washed",
+          "title": "needs washed",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "note:port-of-toledo",
+      "canonicalPath": "/notes/port-of-toledo",
+      "title": "The Port of Toledo",
+      "kind": "note",
+      "wordCount": 98,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make movement note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:1229605d8cb9"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:sandusky-play-day",
+          "title": "One more ride. Then the lake.",
+          "reason": "shared named place: lake-erie"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "title": "Ooh, look at that glass.",
+          "reason": "shared named place: toledo"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: lake-erie"
+        }
+      ]
+    },
+    {
+      "id": "note:possum-creek-gardens",
+      "canonicalPath": "/notes/possum-creek-gardens",
+      "title": "Grow something together",
+      "kind": "note",
+      "wordCount": 131,
+      "disposition": "merge",
+      "mergedInto": "feature:community-garden-season",
+      "reason": "Fold this short overlapping entry into feature:community-garden-season; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:428d53229cfb",
+          "source:a7e4ee79c849"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:community-garden-season",
+          "title": "Let’s see what’s growing.",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:dayton-made-to-fly",
+          "title": "What took flight.",
+          "reason": "shared named place: dayton"
+        },
+        {
+          "id": "note:aviation-heritage",
+          "title": "Aviation & invention",
+          "reason": "shared named place: dayton"
+        }
+      ]
+    },
+    {
+      "id": "note:production",
+      "canonicalPath": "/notes/production",
+      "title": "Making things",
+      "kind": "note",
+      "wordCount": 106,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on Making things; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:440edf6e5e89"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared editorial topic: topic:make-factory"
+        },
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "shared editorial topic: topic:make-factory"
+        }
+      ]
+    },
+    {
+      "id": "note:regional-voices",
+      "canonicalPath": "/notes/regional-voices",
+      "title": "More than one Ohio accent",
+      "kind": "note",
+      "wordCount": 110,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The broad dialect-region summary needs the actual OhioSpeaks/regional research pages reopened and speaker-level limits stated. Pair regional maps with recorded speech only under each collection’s terms; do not turn a continuum into fixed Ohio accent labels.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:ba297e25475e",
+          "source:96d0033e85e3"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "phrase:mamaw-papaw",
+          "title": "mamaw / papaw",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:needs-washed",
+          "title": "needs washed",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "phrase:scioto",
+          "title": "Scioto",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "note:research",
+      "canonicalPath": "/notes/research",
+      "title": "Research & discovery",
+      "kind": "note",
+      "wordCount": 108,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise live campus reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:26b158161245"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:cosi-try-it-yourself",
+          "title": "Try it at COSI",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:rocky-river-nature-center",
+          "title": "A nature center afternoon",
+          "reason": "shared editorial topic: topic:live-campus"
+        }
+      ]
+    },
+    {
+      "id": "note:rocky-river-nature-center",
+      "canonicalPath": "/notes/rocky-river-nature-center",
+      "title": "A nature center afternoon",
+      "kind": "note",
+      "wordCount": 119,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:517571899cf6",
+          "source:548c7270b5f0"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:rookwood-cincinnati",
+      "canonicalPath": "/notes/rookwood-cincinnati",
+      "title": "Rookwood's Cincinnati clay",
+      "kind": "note",
+      "wordCount": 136,
+      "disposition": "merge",
+      "mergedInto": "feature:rookwood-clay",
+      "reason": "Fold this short overlapping entry into feature:rookwood-clay; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d6157c4bfb9a"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:rookwood-clay",
+          "title": "A little clay. A lot of hands.",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "feature:cincinnati-chili",
+          "title": "Pull up a chair. Let’s order chili.",
+          "reason": "shared named place: cincinnati"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared named place: cincinnati"
+        }
+      ]
+    },
+    {
+      "id": "note:schools-learning",
+      "canonicalPath": "/notes/schools-learning",
+      "title": "Learning at every age",
+      "kind": "note",
+      "wordCount": 94,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise live campus reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:4be28be41eb3"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:cosi-try-it-yourself",
+          "title": "Try it at COSI",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:research",
+          "title": "Research & discovery",
+          "reason": "shared editorial topic: topic:live-campus"
+        }
+      ]
+    },
+    {
+      "id": "note:serpent-mound",
+      "canonicalPath": "/notes/serpent-mound",
+      "title": "Serpent Mound",
+      "kind": "note",
+      "wordCount": 140,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep the dating uncertainty explicit and ground authorship/cultural context in Ohio History Connection, archaeology, and descendant tribal sources. Do not collapse Serpent Mound with nearby burial mounds or assign a builder without evidence.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:1a8a7a75e913"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:history",
+          "title": "A layered history",
+          "reason": "shared editorial topic: topic:explore-past"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:sports-community",
+      "canonicalPath": "/notes/sports-community",
+      "title": "Sports & gathering",
+      "kind": "note",
+      "wordCount": 114,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise culture game reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:e0527e33fc24"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:statehouse-open-door",
+      "canonicalPath": "/notes/statehouse-open-door",
+      "title": "Step inside the Statehouse",
+      "kind": "note",
+      "wordCount": 118,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The Statehouse is a working public building; recheck tour hours, security, museum access, and registration with the official Statehouse before any visit guidance.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d68d58647831",
+          "source:e6441a84bf83"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "feature:library-afternoon",
+          "title": "A book, a window, an afternoon.",
+          "reason": "shared named place: columbus"
+        },
+        {
+          "id": "note:billy-ireland-cartoon-museum",
+          "title": "A home for cartoon art",
+          "reason": "shared named place: columbus"
+        }
+      ]
+    },
+    {
+      "id": "note:symbols",
+      "canonicalPath": "/notes/symbols",
+      "title": "The buckeye state",
+      "kind": "note",
+      "wordCount": 109,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore symbols reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:d70fc01fd709"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:brass-whistle",
+          "title": "Little whistle. Big voice.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:technology",
+      "canonicalPath": "/notes/technology",
+      "title": "Technology",
+      "kind": "note",
+      "wordCount": 102,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make lab note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:43bcc484ce0c"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:healthcare",
+          "title": "Healthcare & life sciences",
+          "reason": "shared editorial topic: topic:make-lab"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        },
+        {
+          "id": "feature:buckeye-sweets",
+          "title": "Save room for a buckeye.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:toledo-glass-pavilion",
+      "canonicalPath": "/notes/toledo-glass-pavilion",
+      "title": "Toledo’s Glass Pavilion",
+      "kind": "note",
+      "wordCount": 129,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise explore cities reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:34ffc9314765",
+          "source:347b1fd24bc5"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:toledo-glass",
+          "title": "Ooh, look at that glass.",
+          "reason": "shared named place: toledo"
+        },
+        {
+          "id": "note:port-of-toledo",
+          "title": "The Port of Toledo",
+          "reason": "shared named place: toledo"
+        },
+        {
+          "id": "feature:cincinnati-market-to-music",
+          "title": "A market morning. A music night.",
+          "reason": "shared editorial topic: topic:explore-cities"
+        }
+      ]
+    },
+    {
+      "id": "note:trade",
+      "canonicalPath": "/notes/trade",
+      "title": "Trade & movement",
+      "kind": "note",
+      "wordCount": 112,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this make movement note, but its short sector overview needs dated, independent evidence rather than relying only on promotional framing. Add an Ohio-specific primary statistic, process, or named case and state its scope.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:dcb65b96c1c3"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:logistics",
+          "title": "Logistics & distribution",
+          "reason": "shared editorial topic: topic:make-movement"
+        },
+        {
+          "id": "note:port-of-toledo",
+          "title": "The Port of Toledo",
+          "reason": "shared editorial topic: topic:make-movement"
+        },
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:universities",
+      "canonicalPath": "/notes/universities",
+      "title": "Universities across Ohio",
+      "kind": "note",
+      "wordCount": 106,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this concise live campus reference as a distinct entry. Deepen with one specific Ohio source/object/community example and recheck any current dates, visitor information, or statistics rather than treating the existing citation as a present-day verification.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:790e4d776823"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:cosi-try-it-yourself",
+          "title": "Try it at COSI",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:research",
+          "title": "Research & discovery",
+          "reason": "shared editorial topic: topic:live-campus"
+        }
+      ]
+    },
+    {
+      "id": "note:wayne-covered-bridge-byway",
+      "canonicalPath": "/notes/wayne-covered-bridge-byway",
+      "title": "Wayne’s covered bridge road",
+      "kind": "note",
+      "wordCount": 114,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep this named landscape entry, but pair its ecological/geographic claims with the mapped site and current managing agency access/safety guidance; seasonal conditions need a dated check.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:759fb451d8f1",
+          "source:d282e7ecc0a1"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:appalachian-ohio",
+          "title": "Appalachian Ohio",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "note:hocking-hills",
+          "title": "Hocking Hills",
+          "reason": "shared editorial topic: topic:explore-hills"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "title": "There’s a story in these tires.",
+          "reason": "shares cited source: "
+        }
+      ]
+    },
+    {
+      "id": "note:west-side-market",
+      "canonicalPath": "/notes/west-side-market",
+      "title": "West Side Market",
+      "kind": "note",
+      "wordCount": 131,
+      "disposition": "merge",
+      "mergedInto": "feature:west-side-market-table",
+      "reason": "Fold this short overlapping entry into feature:west-side-market-table; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:12809615c67b",
+          "source:d1f4501f2abb"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:west-side-market-table",
+          "title": "A market full of good things.",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "note:cities-regions",
+          "title": "A constellation of cities",
+          "reason": "shared named place: cleveland"
+        },
+        {
+          "id": "note:cleveland",
+          "title": "Cleveland",
+          "reason": "shared named place: cleveland"
+        }
+      ]
+    },
+    {
+      "id": "note:wilberforce-black-history",
+      "canonicalPath": "/notes/wilberforce-black-history",
+      "title": "Stories in Wilberforce",
+      "kind": "note",
+      "wordCount": 104,
+      "disposition": "retain",
+      "mergedInto": null,
+      "reason": "Retain this distinct quick-reference entry on Stories in Wilberforce; its subject adds a separate place or topic to the collection. Reopen the listed source before making any renewed accuracy claim, especially for changing details.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:1d1bdf0cc53d"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "feature:athens-campus-day",
+          "title": "Got a little time? Let’s walk through Athens.",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:cosi-try-it-yourself",
+          "title": "Try it at COSI",
+          "reason": "shared editorial topic: topic:live-campus"
+        },
+        {
+          "id": "note:research",
+          "title": "Research & discovery",
+          "reason": "shared editorial topic: topic:live-campus"
+        }
+      ]
+    },
+    {
+      "id": "phrase:mamaw-papaw",
+      "canonicalPath": "/words/mamaw-papaw",
+      "title": "mamaw / papaw",
+      "kind": "phrase",
+      "wordCount": 28,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Retain only with careful geographic limits and citations to the named Ohio Valley source; family terms vary by household and are not an Ohio-only marker.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a19b8dd976fa"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:appalachian-english",
+          "title": "Appalachian English",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:community-languages",
+          "title": "Many languages, many homes",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:place-names",
+          "title": "Names worth asking about",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "phrase:needs-washed",
+      "canonicalPath": "/words/needs-washed",
+      "title": "needs washed",
+      "kind": "phrase",
+      "wordCount": 37,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "The phrase has a documented grammatical distribution beyond Ohio. Keep its current non-exclusive framing and add regional/speaker context rather than presenting it as a state-wide error or signature.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a19b8dd976fa"
+        ]
+      },
+      "riskFlags": [
+        "time-sensitive visitor/service detail appears in copy"
+      ],
+      "recommendedAssociations": [
+        {
+          "id": "note:appalachian-english",
+          "title": "Appalachian English",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:community-languages",
+          "title": "Many languages, many homes",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:place-names",
+          "title": "Names worth asking about",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "phrase:scioto",
+      "canonicalPath": "/words/scioto",
+      "title": "Scioto",
+      "kind": "phrase",
+      "wordCount": 35,
+      "disposition": "merge",
+      "mergedInto": "note:place-names",
+      "reason": "Fold this short overlapping entry into note:place-names; preserve the old canonical URL with a redirect or alias and retain any distinct facts that survive the consolidation.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:51e1893663c4"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:place-names",
+          "title": "Names worth asking about",
+          "reason": "merge destination for overlapping canonical material"
+        },
+        {
+          "id": "note:appalachian-english",
+          "title": "Appalachian English",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:community-languages",
+          "title": "Many languages, many homes",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    },
+    {
+      "id": "phrase:youuns-yuns",
+      "canonicalPath": "/words/youuns-yuns",
+      "title": "you’uns / y’uns",
+      "kind": "phrase",
+      "wordCount": 40,
+      "disposition": "deepen",
+      "mergedInto": null,
+      "reason": "Keep spelling variants and community context attached to source evidence; the form is not used by every Ohio Valley resident and should not be assigned to a person from geography alone.",
+      "sourceStatus": {
+        "review": "code-only; all 86 document files and metadata inspected, cited pages not reopened in this content sweep; no content fact is reverified here",
+        "recordedMetadataStatus": "unverified",
+        "recordedVerifiedAt": null,
+        "recordedSourceId": null,
+        "sourceRefs": [
+          "source:a19b8dd976fa"
+        ]
+      },
+      "riskFlags": [],
+      "recommendedAssociations": [
+        {
+          "id": "note:appalachian-english",
+          "title": "Appalachian English",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:community-languages",
+          "title": "Many languages, many homes",
+          "reason": "shared editorial topic: topic:culture-words"
+        },
+        {
+          "id": "note:place-names",
+          "title": "Names worth asking about",
+          "reason": "shared editorial topic: topic:culture-words"
+        }
+      ]
+    }
+  ],
+  "statewideMetricAudit": {
+    "checkedAt": "2026-09-25",
+    "metrics": [
+      {
+        "id": "population",
+        "existing": "11,900,510 people; July 1, 2025 estimate",
+        "finding": "Verified unchanged. Census QuickFacts Ohio table lines 24–30 reports the same July 1, 2025 estimate and identifies it as V2025.",
+        "sourceStatus": "Direct Census QuickFacts page opened 2026-09-25.",
+        "evidence": [
+          {
+            "title": "U.S. Census Bureau QuickFacts: Ohio",
+            "url": "https://www.census.gov/quickfacts/OH",
+            "retrievedAt": "2026-09-25",
+            "supports": "11,900,510 population estimate, July 1, 2025 (V2025)."
+          }
+        ],
+        "action": "Keep; maintain an explicit reference date because the next annual population estimate will supersede it."
+      },
+      {
+        "id": "household-income",
+        "existing": "$72,212; 2024 ACS 1-year estimate, 2024 inflation-adjusted dollars",
+        "finding": "Value is correct for the 2024 ACS 1-year series and remains the latest released one-year ACS estimate as of this review; the Census Bureau says 2025 ACS 1-year release date is still being determined. Do not conflate it with QuickFacts’ $71,389 2020–2024 five-year estimate.",
+        "sourceStatus": "Census 2024 state income report opened from Census Bureau publication record; data.census.gov table URL itself was inaccessible in the browser tool. Official Census 2026 notice opened.",
+        "evidence": [
+          {
+            "title": "Census Bureau, Household Income in States and Metropolitan Areas: 2024",
+            "url": "https://www2.census.gov/library/publications/2025/demo/acsbr-025.pdf",
+            "retrievedAt": "2026-09-25",
+            "supports": "Ohio 2024 median household income $72,212; the report gives $69,761 for 2023 and a margin of error."
+          },
+          {
+            "title": "Census Bureau 2026 ACS update",
+            "url": "https://www.census.gov/programs-surveys/acs/news/updates.2026.html",
+            "retrievedAt": "2026-09-25",
+            "supports": "2025 ACS 1-year release date was still being determined as of August 6, 2026."
+          },
+          {
+            "title": "Census Bureau QuickFacts: Ohio",
+            "url": "https://www.census.gov/quickfacts/OH",
+            "retrievedAt": "2026-09-25",
+            "supports": "Different 2020–2024 ACS 5-year median household income, $71,389; explains why period/series label matters."
+          }
+        ],
+        "action": "Keep $72,212 with the 2024 ACS 1-year label; retain the metric’s table URL and make comparison with the separate five-year QuickFacts estimate explicit if both are shown."
+      },
+      {
+        "id": "employer-establishments",
+        "existing": "255,049 employer establishments; 2023",
+        "finding": "Verified unchanged. Current Census QuickFacts Ohio table reports 255,049 total employer establishments for 2023.",
+        "sourceStatus": "Direct Census QuickFacts page opened 2026-09-25.",
+        "evidence": [
+          {
+            "title": "U.S. Census Bureau QuickFacts: Ohio",
+            "url": "https://www.census.gov/quickfacts/OH",
+            "retrievedAt": "2026-09-25",
+            "supports": "Businesses table reports 255,049 total employer establishments, 2023."
+          }
+        ],
+        "action": "Keep; label as establishments rather than firms/business owners, and preserve the 2023 reference year."
+      },
+      {
+        "id": "unemployment",
+        "existing": "4.3%; 2024 annual average",
+        "finding": "Outdated. Ohio’s 2025 annual-average state rate is 4.6%; the 2025 ODJFS table also shows 2024 4.4 and 2023 3.7, reflecting a revised series versus the older BLS 2024-release figure of 4.3. The current BLS LAUS state annual series has been updated through 2025.",
+        "sourceStatus": "Ohio LMI/ODJFS 2025 annual-average PDF result exposed the State of Ohio row exactly (open request returned 502); BLS tables and annual-series methodology pages directly opened and show the current annual series includes 2025 and is revised through 2025.",
+        "evidence": [
+          {
+            "title": "Ohio LMI / Ohio Department of Job and Family Services: Ohio Unemployment Rates, 2025 Annual Average",
+            "url": "https://ohiolmi.com/_docs/LAUS/AnnualAverages/CLFE_2025.pdf",
+            "retrievedAt": "2026-09-25",
+            "supports": "State of Ohio 2025 annual-average unemployment 4.6; 2024 4.4; 2023 3.7."
+          },
+          {
+            "title": "U.S. Bureau of Labor Statistics: LAUS Tables and Maps",
+            "url": "https://www.bls.gov/lau/tables.htm",
+            "retrievedAt": "2026-09-25",
+            "supports": "Links current state annual-average unemployment series."
+          },
+          {
+            "title": "U.S. Bureau of Labor Statistics: Civilian Noninstitutional Population and Associated Rate and Ratio Measures for Model-Based Areas",
+            "url": "https://www.bls.gov/lau/rdscnp16.htm",
+            "retrievedAt": "2026-09-25",
+            "supports": "Annual processing revised model-based state series from 2021 through 2025."
+          },
+          {
+            "title": "BLS 2024 annual average release (superseded)",
+            "url": "https://www.bls.gov/opub/ted/2025/annual-average-unemployment-rates-increased-in-21-states-in-2024.htm",
+            "retrievedAt": "2026-09-25",
+            "supports": "Original 4.3% claim for 2024, now superseded by revised 2024 value 4.4 and 2025 value 4.6."
+          }
+        ],
+        "action": "Updated src/content/data/metrics.json to 4.6, 2025 annual average, and the Ohio LMI source. Do not substitute the distinct 2025 CPS 11-month U-3 measure (4.8%) for the LAUS annual average."
+      }
+    ]
+  },
+  "summary": {
+    "canonicalItemsReviewed": 86,
+    "byDisposition": {
+      "retain": 6,
+      "deepen": 70,
+      "merge": 10,
+      "retire": 0
+    },
+    "currentSourceChecksOnCanonicalDocs": 0,
+    "keyFinding": "Three metrics remain accurate for their explicitly stated source period. The unemployment metric was updated from 2024 4.3% to the current 2025 annual average 4.6%. Income stays at $72,212 from the latest released 2024 ACS 1-year estimate; Census had not yet announced the 2025 1-year release date.",
+    "metricsWithPrimarySourceReview": 4
+  }
+}

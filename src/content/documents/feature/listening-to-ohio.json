@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "id": "feature:listening-to-ohio",
+    "slug": "listening-to-ohio",
+    "kind": "feature",
+    "title": "Listening to Ohio",
+    "summary": "A canal song, a Columbus conversation, a marsh soundscape, and a Cincinnati orchestra reveal different ways of hearing the state.",
+    "canonicalPath": "/journal/listening-to-ohio",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture",
+      "explore"
+    ],
+    "topics": [
+      "topic:culture-records",
+      "topic:culture-words",
+      "topic:explore-wild"
+    ],
+    "places": [
+      "ohio",
+      "akron",
+      "columbus",
+      "cincinnati",
+      "cuyahoga-valley"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:snd-nye-overview",
+        "label": "Library of Congress: Captain Pearl R. Nye collection",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-nye-finding-aid",
+        "label": "Library of Congress: Captain Pearl R. Nye finding aid",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-buckeye",
+        "label": "Ohio State University: Buckeye Speech Corpus",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-nps-marsh",
+        "label": "National Park Service: Wetland Sights and Sounds",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-music-hall",
+        "label": "Cincinnati Arts: About Music Hall",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-local1-about",
+        "label": "AFM Local 1: About and history",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-local1-constitution",
+        "label": "AFM Local 1: Constitution",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:snd-nye-overview"
+    },
+    "bodyPath": "./documents/feature/listening-to-ohio.json",
+    "order": 89,
+    "category": "culture",
+    "location": "Across Ohio",
+    "duration": "A listening session",
+    "readTime": "5 min read",
+    "coverMediaId": "media:cincinnati-market-to-music",
+    "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+    "titleAccent": "Ohio",
+    "recommendations": [
+      {
+        "id": "note:music",
+        "reason": "Hear how Ohio’s music story keeps moving"
+      },
+      {
+        "id": "note:regional-voices",
+        "reason": "Explore Ohio speech without reducing it to one accent"
+      },
+      {
+        "id": "note:cincinnati-music-hall",
+        "reason": "Meet a Cincinnati performance space"
+      }
+    ],
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/sounds.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "role": "intro",
+      "text": "Start with a song that had a job to do. In the 1930s, folklorists John A. Lomax and Alan and Elizabeth Lomax recorded Captain Pearl R. Nye in Akron. Nye had been born and raised on a canal boat, and the Library of Congress collection presents his songs as evidence of life along the Ohio and Erie Canal. Its online collection describes 22 audio discs with 75 songs, alongside manuscripts, correspondence, and photographs. The sound is not a general Ohio folk soundtrack. It belongs to a particular performer, history, and network of people who worked and lived on the canal.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-nye-finding-aid"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "a-song-along-the-canal",
+      "title": "A song carried along the canal",
+      "eyebrow": "THE ARCHIVE"
+    },
+    {
+      "type": "paragraph",
+      "text": "Open one of the Library’s linked recordings and listen for what the catalog lets you know: the performer, disc and side, song title, and collection around it. Then listen again for what a metadata record cannot settle on its own. Who first taught Nye a song? How did a version change as it moved from person to person? A recording preserves one performance at one moment; it does not freeze an entire tradition. The collection’s written song texts and photographs can place a performance beside a person and a place.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-nye-finding-aid"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Archives also have a history of selection. The Lomaxes’ equipment, travel, and collecting decisions shaped what was captured and how later listeners encounter it. The Library identifies these as performances by Nye recorded in Akron, not as a transparent window onto everyone who sang on the canal. We can value the recording and still ask what did not make it onto the disc.",
+      "sourceIds": [
+        "source:snd-nye-finding-aid"
+      ]
+    },
+    {
+      "type": "video",
+      "mediaId": "media:nps-beaver-marsh-sounds",
+      "transcript": "No spoken narration. The soundtrack includes insects, frogs, birds, and occasional muffled visitor voices at Beaver Marsh.",
+      "sourceIds": [
+        "source:snd-nps-marsh"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The National Park Service has posted a Beaver Marsh scene from Cuyahoga Valley National Park with no spoken narration. Its description notes insects, frogs, birds, and occasional muffled visitor voices. It is a different kind of field sound than the canal recording: animals and distant visitors share the frame.",
+      "sourceIds": [
+        "source:snd-nps-marsh"
+      ]
+    },
+    {
+      "role": "listen",
+      "text": "A canal recording, a marsh soundscape, and a city conversation come from different places and people. The scene around a voice is part of what you hear.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-nps-marsh",
+        "source:snd-buckeye"
+      ],
+      "type": "characterAside",
+      "title": "Listen for the setting"
+    },
+    {
+      "type": "heading",
+      "id": "more-than-one-city-voice",
+      "title": "A city has more than one voice",
+      "eyebrow": "THE SPEECH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio speech also resists a single signature sound. The Buckeye Speech Corpus, maintained by researchers at The Ohio State University, holds conversations recorded with 40 Columbus speakers and an interviewer. Its project page says the speech is transcribed and phonetically labeled, with timing aligned to the audio. The time-aligned transcript places each pronunciation in conversation, where the surrounding words and speakers matter.",
+      "sourceIds": [
+        "source:snd-buckeye"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Columbus is one city, and 40 speakers form a defined sample, not a map of the whole state. The collection cannot tell us what every Ohioan sounds like. It offers a better question: Which speaker, in which setting, using which pronunciation, compared with whom? Listen for differences among voices rather than trying to imitate a person.",
+      "sourceIds": [
+        "source:snd-buckeye"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "performance-has-a-working-life",
+      "title": "Performance has a working life",
+      "eyebrow": "THE PLAYERS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Then there is the sound people make together in a room. Cincinnati Music Hall opened in 1878 as both a music center and a place for industrial exhibitions. Today Cincinnati Arts lists the Cincinnati Symphony Orchestra, Cincinnati Pops, Cincinnati Ballet, Cincinnati Opera, and May Festival among the organizations based there. A concert is the part an audience hears, but rehearsals, scheduling, contracts, instrument preparation, stage work, and musicians’ ability to earn a living sit behind that sound.",
+      "sourceIds": [
+        "source:snd-music-hall"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In Cincinnati, that labor has a long local history. AFM Local 1 says the Cincinnati Musicians’ Protective Union was incorporated in 1881 and became a local of the American Federation of Musicians in 1897. Its constitution describes personal contracts and a master agreement for Cincinnati Symphony musicians, with provisions for rates, conditions, and touring. The constitution sets out the union’s own rules for engagements and working conditions. The written rules make visible the work behind the concert: specific services, rehearsals, rates, working conditions, and touring have to be negotiated and contracted. Put those sources beside Music Hall’s history and the building becomes a workplace as well as an auditorium.",
+      "sourceIds": [
+        "source:snd-local1-about",
+        "source:snd-local1-constitution",
+        "source:snd-music-hall"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Try a listening sequence that moves between these scales. Follow one Pearl Nye recording through its catalog entry and related documents. Compare one voice in the Buckeye Corpus with another, paying attention to words and context rather than trying to imitate a person. Finally, check a current Cincinnati performance listing and notice the venue, ensemble, and people credited. Each link gives a different kind of evidence: archived performance, recorded conversation, and live work scheduled for an audience.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-buckeye",
+        "source:snd-music-hall"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no need to pretend those sounds are interchangeable. A canal song, a Columbus conversation, a Beaver Marsh soundscape, and a symphony concert have different makers and histories. Their shared lesson is smaller and more interesting: sound is made by people, under real conditions, and it can carry a job, a route, a memory, or the terms under which a performance can happen.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-buckeye",
+        "source:snd-nps-marsh",
+        "source:snd-local1-constitution"
+      ]
+    }
+  ]
+}

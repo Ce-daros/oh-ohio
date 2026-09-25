@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "id": "feature:water-has-a-working-life",
+    "slug": "water-has-a-working-life",
+    "kind": "feature",
+    "title": "Water has a working life",
+    "summary": "Ohio’s waterways connect freight, drinking water, habitat, and neighborhood stewardship. A Cleveland-to-Lake-Erie story makes those layers visible.",
+    "canonicalPath": "/journal/water-has-a-working-life",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "make",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-wild",
+      "topic:make-movement"
+    ],
+    "places": [
+      "ohio",
+      "lake-erie",
+      "cleveland",
+      "cuyahoga-valley",
+      "canalway-center",
+      "cuyahoga-river-cleveland-usgs-gage",
+      "lake-erie-cleveland-usgs-station"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:water-ohio-canals",
+        "label": "Ohio History Connection · Ohio canals",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:water-canal-plats",
+        "label": "Ohio Memory · Ohio Canal Plat Map Collection",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:water-cuyahoga-epa",
+        "label": "U.S. EPA · Cuyahoga River Area of Concern",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:water-aoc-committee",
+        "label": "Cuyahoga River AOC Advisory Committee",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:water-cleveland-port",
+        "label": "Port of Cleveland",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:water-cleveland-water",
+        "label": "Cleveland Water · Lake Erie",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-census-canalway",
+        "label": "U.S. Census Bureau Geocoder — 4524 East 49th Street, Public_AR_Current",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-usgs-cuyahoga-gage",
+        "label": "U.S. Geological Survey, Cuyahoga River at Cleveland OH (04208500)",
+        "kind": "Official source"
+      },
+      {
+        "id": "map-usgs-lake-erie-cleveland",
+        "label": "U.S. Geological Survey, Lake Erie at Cleveland (412941081433600)",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:water-ohio-canals"
+    },
+    "bodyPath": "./documents/feature/water-has-a-working-life.json",
+    "category": "guides",
+    "location": "Cleveland · Cuyahoga River and Lake Erie",
+    "duration": "A slow, map-led day",
+    "readTime": "4 min read",
+    "coverMediaId": "media:cuyahoga-slow-day",
+    "coverAlt": "An illustrated woodland waterfall and boardwalk",
+    "titleAccent": "has a working life",
+    "recommendations": [
+      {
+        "id": "note:canal-corridor-in-maps",
+        "reason": "Read the Ohio & Erie Canal corridor through its original plats."
+      },
+      {
+        "id": "note:lake-erie-intakes-and-buoys",
+        "reason": "Follow the public drinking-water system from lake to household."
+      }
+    ],
+    "order": 98,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/water.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Ohio’s water map is also a map of work. The Ohio & Erie Canal once carried people and cargo between Lake Erie and the Ohio River. Today, the Cuyahoga still drains a large watershed into Lake Erie, while a modern port, drinking-water utility, environmental agencies, and community groups shape what use of the river means. Follow the Cuyahoga north through Cleveland and the story changes at every bend: canal transport, industrial production, public services, and restoration share a corridor.",
+      "role": "intro",
+      "sourceIds": [
+        "source:water-ohio-canals",
+        "source:water-cuyahoga-epa"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "canal",
+      "title": "A canal made an inland connection",
+      "eyebrow": "Early nineteenth century",
+      "sourceIds": [
+        "source:water-ohio-canals",
+        "source:water-canal-plats"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio authorized canal construction in 1825. The Ohio History Connection describes the Canal Commission’s ambition as connecting the Great Lakes with the Mississippi River system. By 1832, boats could travel the Ohio & Erie Canal between Cleveland and Portsmouth. The canal moved agricultural products and raw materials toward distant markets; manufactured goods and travelers moved through Ohio towns. Its channel was engineered infrastructure, supported by locks, reservoirs, towpaths, and labor. Water-powered mills and factories grew along the route. The canal made inland water a transportation service, not merely a scenic backdrop.",
+      "sourceIds": [
+        "source:water-ohio-canals",
+        "source:water-canal-plats"
+      ]
+    },
+    {
+      "type": "route",
+      "sourceIds": [
+        "source:water-canal-plats"
+      ],
+      "stops": [
+        {
+          "id": "cleveland",
+          "title": "Lake Erie and Cleveland",
+          "note": "Northern canal endpoint; the route sketch follows the historical canal corridor south."
+        },
+        {
+          "id": "akron",
+          "title": "Akron and the Tuscarawas Valley",
+          "note": "A southbound canal corridor through the valley."
+        },
+        {
+          "id": "coshocton",
+          "title": "Coshocton and the Muskingum Valley",
+          "note": "The man-made channel continued south across the Licking Summit."
+        },
+        {
+          "id": "scioto",
+          "title": "Little Walnut Creek and the Scioto Valley",
+          "note": "The Ohio & Erie Canal followed this southern valley toward Portsmouth."
+        },
+        {
+          "id": "portsmouth",
+          "title": "Portsmouth and the Ohio River",
+          "note": "Southern canal endpoint."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a schematic of valleys and the summit, not a river itinerary or a claim that every segment remains navigable. Original canal plats show the surveyed waterway; the Cuyahoga, Tuscarawas, Muskingum, and Scioto are connected by engineered channel and summit works rather than one continuous natural river.",
+      "sourceIds": [
+        "source:water-ohio-canals",
+        "source:water-canal-plats"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "river",
+      "title": "A river still carries competing responsibilities",
+      "eyebrow": "Cleveland today",
+      "sourceIds": [
+        "source:water-cuyahoga-epa",
+        "source:water-aoc-committee"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In Cleveland, the Cuyahoga meets Lake Erie. EPA describes the river’s watershed as more than 800 square miles and records its 1987 designation as a Great Lakes Area of Concern. The pressures it identifies include historic industrial contamination, municipal and agricultural discharges, erosion, stormwater, and combined sewer overflows. Those causes make a cleanup story larger than one dramatic image or one project: it concerns how land, pipes, industry, and water affect one another.",
+      "sourceIds": [
+        "source:water-cuyahoga-epa"
+      ]
+    },
+    {
+      "type": "placeMap",
+      "title": "Three places along the water story",
+      "placeIds": [
+        "canalway-center",
+        "cuyahoga-river-cleveland-usgs-gage",
+        "lake-erie-cleveland-usgs-station"
+      ],
+      "caption": "CanalWay is a visitor destination. The two USGS points are monitoring locations, not public access points or water intakes.",
+      "sourceIds": [
+        "map-census-canalway",
+        "map-usgs-cuyahoga-gage",
+        "map-usgs-lake-erie-cleveland"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Cuyahoga River AOC Advisory Committee brings public agencies, park systems, watershed groups, businesses, and individuals into restoration work. Ohio EPA and the Ohio Lake Erie Commission lead Ohio’s Areas of Concern program. The committee reports that six of the river’s original ten beneficial-use impairments have been removed, with four remaining. The figures mark progress and continuing work at once. They also show why a river account should name the people and institutions organizing around it, not only the waterway itself.",
+      "sourceIds": [
+        "source:water-aoc-committee",
+        "source:water-cuyahoga-epa"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "service",
+      "title": "From cargo to household water",
+      "eyebrow": "Working shoreline",
+      "sourceIds": [
+        "source:water-cleveland-port",
+        "source:water-cleveland-water"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Port of Cleveland connects Great Lakes shipping with markets beyond Ohio through year-round cargo operations. Its harbor is a modern freight system, distinct from the towpaths, locks, and narrow boats of the canal era. Both systems connect local labor and production to distant markets, but they do so with different vessels and infrastructure. Cleveland’s drinking-water system adds another public service: Cleveland Water draws from four Lake Erie intakes several miles offshore and monitors lake conditions with buoys before treating water for customers. Pipes can hide the lake’s role in everyday life; the utility’s published buoy readings make that relationship visible.",
+      "sourceIds": [
+        "source:water-cleveland-port",
+        "source:water-cleveland-water"
+      ]
+    },
+    {
+      "type": "process",
+      "title": "One lake, several systems",
+      "sourceIds": [
+        "source:water-cleveland-port",
+        "source:water-cleveland-water",
+        "source:water-cuyahoga-epa"
+      ],
+      "steps": [
+        {
+          "title": "Move goods",
+          "text": "The Port of Cleveland operates commercial shipping on the Great Lakes."
+        },
+        {
+          "title": "Monitor the source",
+          "text": "Cleveland Water publishes readings from buoys near its Lake Erie intake areas."
+        },
+        {
+          "title": "Treat and deliver",
+          "text": "Water from four offshore intakes is treated before it reaches customers."
+        },
+        {
+          "title": "Restore the river",
+          "text": "The Cuyahoga AOC committee tracks impairments and coordinates restoration partners."
+        }
+      ]
+    },
+    {
+      "text": "The lake supplies drinking water while the river has its own restoration record. These systems meet in one watershed, but each needs its own measure and care.",
+      "type": "characterAside",
+      "sourceIds": [
+        "source:water-cleveland-water",
+        "source:water-cuyahoga-epa",
+        "source:water-aoc-committee"
+      ],
+      "title": "Trace the water home",
+      "role": "explain"
+    },
+    {
+      "type": "heading",
+      "id": "visit",
+      "title": "Read the water at two scales",
+      "eyebrow": "A map-led visit",
+      "sourceIds": [
+        "source:water-canal-plats",
+        "source:water-cleveland-water"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Start with the Cuyahoga mouth and Lake Erie on a map, then compare the shoreline with a historic canal plat. Cleveland Water’s public buoy page offers a practical way to see how lake conditions are monitored. The Towpath Trail lets visitors encounter preserved portions of the historic corridor, but access, surface, and closures vary by managed section; check the responsible park operator’s current notices before choosing a segment. The old canal, present-day port, household water service, and restoration committee describe different ways people depend on water.",
+      "sourceIds": [
+        "source:water-canal-plats",
+        "source:water-cleveland-water",
+        "source:water-cuyahoga-epa"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no single river story that can speak for everyone beside it. Agency records explain how pollution is measured and projects are organized. Port and utility pages describe services. Community and tribal collections add other kinds of relationship and memory; a commerce map cannot stand in for those accounts. The useful question is not simply what the water carried, but who uses it now, who cares for it, and whose account becomes part of its history.",
+      "role": "signoff",
+      "sourceIds": [
+        "source:water-cuyahoga-epa",
+        "source:water-aoc-committee",
+        "source:water-cleveland-port",
+        "source:water-cleveland-water"
+      ]
+    }
+  ]
+}

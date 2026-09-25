@@ -2470,7 +2470,7 @@
       "readTime": "4 min read",
       "coverMediaId": "media:dayton-made-to-fly",
       "coverAlt": "Illustration of an early biplane model and bicycle wheel on a workshop bench",
-      "titleAccent": "what took flight.",
+      "titleAccent": "took flight.",
       "recommendations": [
         {
           "id": "feature:akron-rubber",
@@ -3061,7 +3061,7 @@
       "readTime": "3 min read",
       "coverMediaId": "media:west-side-market-table",
       "coverAlt": "Painted vaulted market hall with food counters and a sunlit aisle",
-      "titleAccent": "to the market.",
+      "titleAccent": "good things.",
       "recommendations": [
         {
           "id": "feature:cincinnati-chili",
@@ -3273,6 +3273,1636 @@
         }
       ],
       "order": 85
+    },
+    {
+      "id": "feature:materials-in-the-making",
+      "slug": "materials-in-the-making",
+      "kind": "feature",
+      "title": "How an Ohio object takes shape",
+      "summary": "Follow a Columbus brass whistle and a Cincinnati pottery piece from material to finished object.",
+      "canonicalPath": "/journal/materials-in-the-making",
+      "primaryWorld": "make",
+      "worlds": [
+        "make",
+        "culture"
+      ],
+      "topics": [
+        "topic:make-factory",
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio",
+        "columbus",
+        "cincinnati",
+        "toledo",
+        "akron"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:mat-whistle-made",
+          "label": "American Whistle Corporation: How Whistles Are Made",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-whistle-work",
+          "label": "American Whistle Corporation: How Whistles Work",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-whistle-visit",
+          "label": "American Whistle Corporation: Visit and company information",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-rookwood-about",
+          "label": "Rookwood Pottery: About Rookwood",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-rookwood-tour",
+          "label": "Rookwood Pottery: Factory Tours",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-rookwood-honors",
+          "label": "Rookwood honors, digitized by the Public Library of Cincinnati and Hamilton County",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-rookwood-vase",
+          "label": "Cincinnati Art Museum: Rookwood vase, 1882",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-glass-1962",
+          "label": "Toledo Museum of Art: 1962 Toledo Workshops",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-akron-chemistry",
+          "label": "University of Akron Archives: Charles M. Knight and rubber chemistry",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-akron-labor",
+          "label": "University of Akron Press: Wheels of Fortune, the story of rubber in Akron",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:mat-whistle-made"
+      },
+      "bodyPath": "./documents/feature/materials-in-the-making.json",
+      "order": 86,
+      "category": "making",
+      "location": "Columbus and Cincinnati",
+      "duration": "A close look",
+      "readTime": "5 min read",
+      "coverMediaId": "media:brass-whistle",
+      "coverAlt": "Illustrated brass pea whistle, navy cord and metal blank on a workbench",
+      "titleAccent": "takes shape",
+      "recommendations": [
+        {
+          "id": "feature:rookwood-clay",
+          "reason": "See another Ohio material pass through many hands"
+        },
+        {
+          "id": "feature:toledo-glass",
+          "reason": "Follow glass from workshop to gallery"
+        },
+        {
+          "id": "feature:akron-rubber",
+          "reason": "Look closer at a familiar Ohio-made material"
+        }
+      ],
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/materials.md"
+        }
+      }
+    },
+    {
+      "id": "note:whistle-cross-section",
+      "slug": "whistle-cross-section",
+      "kind": "note",
+      "title": "A whistle in cross-section",
+      "summary": "A small chamber and a moving pea turn a breath into a trill.",
+      "canonicalPath": "/notes/whistle-cross-section",
+      "primaryWorld": "make",
+      "worlds": [
+        "make"
+      ],
+      "topics": [
+        "topic:make-factory"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:mat-whistle-made",
+          "label": "American Whistle Corporation: How Whistles Are Made",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-whistle-work",
+          "label": "American Whistle Corporation: How Whistles Work",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:mat-whistle-work"
+      },
+      "bodyPath": "./documents/note/whistle-cross-section.json",
+      "order": 87,
+      "sectionId": "making",
+      "kicker": "COLUMBUS · OBJECT STUDY",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/materials.md"
+        }
+      }
+    },
+    {
+      "id": "note:what-survives-the-kiln",
+      "slug": "what-survives-the-kiln",
+      "kind": "note",
+      "title": "What survives the kiln?",
+      "summary": "Compare a Rookwood form, a historic vase, and a surface changed by firing.",
+      "canonicalPath": "/notes/what-survives-the-kiln",
+      "primaryWorld": "make",
+      "worlds": [
+        "make",
+        "culture"
+      ],
+      "topics": [
+        "topic:make-factory",
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:mat-rookwood-about",
+          "label": "Rookwood Pottery: About Rookwood",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:mat-rookwood-vase",
+          "label": "Cincinnati Art Museum: Rookwood vase, 1882",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:mat-rookwood-vase"
+      },
+      "bodyPath": "./documents/note/what-survives-the-kiln.json",
+      "order": 88,
+      "sectionId": "making",
+      "kicker": "CINCINNATI · CERAMICS",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/materials.md"
+        }
+      }
+    },
+    {
+      "id": "feature:listening-to-ohio",
+      "slug": "listening-to-ohio",
+      "kind": "feature",
+      "title": "Listening to Ohio",
+      "summary": "A canal song, a Columbus conversation, a marsh soundscape, and a Cincinnati orchestra reveal different ways of hearing the state.",
+      "canonicalPath": "/journal/listening-to-ohio",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture",
+        "explore"
+      ],
+      "topics": [
+        "topic:culture-records",
+        "topic:culture-words",
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio",
+        "akron",
+        "columbus",
+        "cincinnati",
+        "cuyahoga-valley"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:snd-nye-overview",
+          "label": "Library of Congress: Captain Pearl R. Nye collection",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-nye-finding-aid",
+          "label": "Library of Congress: Captain Pearl R. Nye finding aid",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-buckeye",
+          "label": "Ohio State University: Buckeye Speech Corpus",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-nps-marsh",
+          "label": "National Park Service: Wetland Sights and Sounds",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-music-hall",
+          "label": "Cincinnati Arts: About Music Hall",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-local1-about",
+          "label": "AFM Local 1: About and history",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-local1-constitution",
+          "label": "AFM Local 1: Constitution",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:snd-nye-overview"
+      },
+      "bodyPath": "./documents/feature/listening-to-ohio.json",
+      "order": 89,
+      "category": "culture",
+      "location": "Across Ohio",
+      "duration": "A listening session",
+      "readTime": "5 min read",
+      "coverMediaId": "media:cincinnati-market-to-music",
+      "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+      "titleAccent": "Ohio",
+      "recommendations": [
+        {
+          "id": "note:music",
+          "reason": "Hear how Ohio’s music story keeps moving"
+        },
+        {
+          "id": "note:regional-voices",
+          "reason": "Explore Ohio speech without reducing it to one accent"
+        },
+        {
+          "id": "note:cincinnati-music-hall",
+          "reason": "Meet a Cincinnati performance space"
+        }
+      ],
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/sounds.md"
+        }
+      }
+    },
+    {
+      "id": "note:one-canal-song-three-records",
+      "slug": "one-canal-song-three-records",
+      "kind": "note",
+      "title": "One canal song, three records",
+      "summary": "Hear one performance alongside its song text and the records kept with it.",
+      "canonicalPath": "/notes/one-canal-song-three-records",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture",
+        "explore"
+      ],
+      "topics": [
+        "topic:culture-records",
+        "topic:explore-wild"
+      ],
+      "places": [
+        "ohio",
+        "akron"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:snd-nye-overview",
+          "label": "Library of Congress: Captain Pearl R. Nye collection",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:snd-nye-finding-aid",
+          "label": "Library of Congress: Captain Pearl R. Nye finding aid",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:snd-nye-finding-aid"
+      },
+      "bodyPath": "./documents/note/one-canal-song-three-records.json",
+      "order": 90,
+      "sectionId": "culture",
+      "kicker": "AKRON · ARCHIVAL SOUND",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/sounds.md"
+        }
+      }
+    },
+    {
+      "id": "note:what-is-an-accent-sample",
+      "slug": "what-is-an-accent-sample",
+      "kind": "note",
+      "title": "What is an accent sample?",
+      "summary": "A Columbus speech corpus gives researchers a sample to study, not a single Ohio accent.",
+      "canonicalPath": "/notes/what-is-an-accent-sample",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture"
+      ],
+      "topics": [
+        "topic:culture-words"
+      ],
+      "places": [
+        "ohio",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:snd-buckeye",
+          "label": "Ohio State University: Buckeye Speech Corpus",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:snd-buckeye"
+      },
+      "bodyPath": "./documents/note/what-is-an-accent-sample.json",
+      "order": 91,
+      "sectionId": "language",
+      "kicker": "COLUMBUS · SPEECH RESEARCH",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/sounds.md"
+        }
+      }
+    },
+    {
+      "id": "feature:how-a-library-loan-travels",
+      "slug": "how-a-library-loan-travels",
+      "kind": "feature",
+      "title": "How a library loan travels",
+      "summary": "One Cincinnati history book makes a useful guide to Ohio’s shared library shelves, from a local search to pickup and return.",
+      "canonicalPath": "/journal/how-a-library-loan-travels",
+      "primaryWorld": "live",
+      "worlds": [
+        "live",
+        "culture",
+        "explore"
+      ],
+      "topics": [
+        "topic:live-library",
+        "topic:explore-cities"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati",
+        "columbus"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:lib-ohiolink",
+          "label": "OhioLINK Resources",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-searchohio",
+          "label": "SearchOhio: Using SearchOhio",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-cml",
+          "label": "Columbus Metropolitan Library: SearchOhio & OhioLINK Catalogs",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-faq",
+          "label": "OhioLINK Frequently Asked Questions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-book",
+          "label": "Arcadia Publishing: Findlay Market of Cincinnati",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-market",
+          "label": "Findlay Market: History",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:lib-ohiolink"
+      },
+      "bodyPath": "./documents/feature/how-a-library-loan-travels.json",
+      "category": "guides",
+      "location": "Ohio · local library catalogs",
+      "duration": "One catalog search",
+      "readTime": "5 min read",
+      "coverMediaId": "media:library-afternoon",
+      "coverAlt": "An illustrated library reading room",
+      "titleAccent": "travels",
+      "recommendations": [
+        {
+          "id": "note:what-catalog-can-tell-you",
+          "reason": "Start with the title, author, and ISBN."
+        },
+        {
+          "id": "note:a-books-trip-through-ohio",
+          "reason": "Follow the request through pickup and return."
+        }
+      ],
+      "order": 92,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/library.md"
+        }
+      }
+    },
+    {
+      "id": "note:what-catalog-can-tell-you",
+      "slug": "what-catalog-can-tell-you",
+      "kind": "note",
+      "title": "What a catalog can tell you",
+      "summary": "Search title, author, and ISBN, then check the edition and the request option in your own library catalog.",
+      "canonicalPath": "/notes/what-catalog-can-tell-you",
+      "primaryWorld": "live",
+      "worlds": [
+        "live",
+        "culture"
+      ],
+      "topics": [
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:lib-ohiolink",
+          "label": "OhioLINK Resources",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-searchohio",
+          "label": "SearchOhio: Using SearchOhio",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-book",
+          "label": "Arcadia Publishing: Findlay Market of Cincinnati",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:lib-searchohio"
+      },
+      "bodyPath": "./documents/note/what-catalog-can-tell-you.json",
+      "order": 93,
+      "sectionId": "library",
+      "kicker": "Before you request",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/library.md"
+        }
+      }
+    },
+    {
+      "id": "note:a-books-trip-through-ohio",
+      "slug": "a-books-trip-through-ohio",
+      "kind": "note",
+      "title": "A book’s trip through Ohio",
+      "summary": "The request and pickup are a shared-library workflow, with local account rules at either end.",
+      "canonicalPath": "/notes/a-books-trip-through-ohio",
+      "primaryWorld": "live",
+      "worlds": [
+        "live",
+        "explore"
+      ],
+      "topics": [
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:lib-searchohio",
+          "label": "SearchOhio: Using SearchOhio",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-cml",
+          "label": "Columbus Metropolitan Library: SearchOhio & OhioLINK Catalogs",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:lib-faq",
+          "label": "OhioLINK Frequently Asked Questions",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:lib-searchohio"
+      },
+      "bodyPath": "./documents/note/a-books-trip-through-ohio.json",
+      "order": 94,
+      "sectionId": "library",
+      "kicker": "Request and return",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/library.md"
+        }
+      }
+    },
+    {
+      "id": "feature:findlay-street-through-time",
+      "slug": "findlay-street-through-time",
+      "kind": "feature",
+      "title": "Findlay Street through time",
+      "summary": "Race Street’s market block links a nineteenth-century plat, a changing neighborhood, and a present-day transit stop.",
+      "canonicalPath": "/journal/findlay-street-through-time",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "culture",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:culture-gallery",
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati",
+        "findlay-market",
+        "washington-park-cincinnati",
+        "cincinnati-music-hall"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:str-market-history",
+          "label": "Findlay Market: History",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-tour",
+          "label": "Findlay Market: Self-guided tour",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-geocoder",
+          "label": "U.S. Census Bureau Geocoder: 132 W Elder Street",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-sanborn",
+          "label": "Library of Congress: Cincinnati Sanborn maps, 1904, volume 7",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-loc-sanborn-about",
+          "label": "Library of Congress: Sanborn Maps collection guide",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-oplin",
+          "label": "OPLIN Sanborn Image Viewer: Cincinnati, 1887",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-nps",
+          "label": "National Register: Over-the-Rhine Historic District",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-streetcar",
+          "label": "City of Cincinnati: Hours, Route and Station Stops",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-hours",
+          "label": "Findlay Market: Hours",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-findlay",
+          "label": "U.S. Census Bureau Geocoder — 132 W Elder Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-washington-park",
+          "label": "U.S. Census Bureau Geocoder — 1230 Elm Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-music-hall",
+          "label": "U.S. Census Bureau Geocoder — 1241 Elm Street, Public_AR_Current",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:str-market-history"
+      },
+      "bodyPath": "./documents/feature/findlay-street-through-time.json",
+      "category": "everyday",
+      "location": "Cincinnati · Findlay Market and Race Street",
+      "duration": "A map-led market visit",
+      "readTime": "5 min read",
+      "coverMediaId": "media:cincinnati-market-to-music",
+      "coverAlt": "An illustrated Cincinnati market street and storefronts",
+      "titleAccent": "through time",
+      "recommendations": [
+        {
+          "id": "note:reading-a-sanborn-map",
+          "reason": "Learn what an insurance map can and cannot show."
+        },
+        {
+          "id": "note:markets-changing-edges",
+          "reason": "Compare the market plat with today’s transit map."
+        }
+      ],
+      "order": 95,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/street.md"
+        }
+      }
+    },
+    {
+      "id": "note:reading-a-sanborn-map",
+      "slug": "reading-a-sanborn-map",
+      "kind": "note",
+      "title": "Reading a Sanborn map",
+      "summary": "Fire-insurance maps document buildings for risk assessment; use the legend and exact sheet before describing a block.",
+      "canonicalPath": "/notes/reading-a-sanborn-map",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "culture"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:culture-gallery"
+      ],
+      "places": [
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:str-sanborn",
+          "label": "Library of Congress: Cincinnati Sanborn maps, 1904, volume 7",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-loc-sanborn-about",
+          "label": "Library of Congress: Sanborn Maps collection guide",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-oplin",
+          "label": "OPLIN Sanborn Image Viewer: Cincinnati, 1887",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-market-history",
+          "label": "Findlay Market: History",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:str-sanborn"
+      },
+      "bodyPath": "./documents/note/reading-a-sanborn-map.json",
+      "order": 96,
+      "sectionId": "street",
+      "kicker": "Map reading",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/street.md"
+        }
+      }
+    },
+    {
+      "id": "note:markets-changing-edges",
+      "slug": "markets-changing-edges",
+      "kind": "note",
+      "title": "Markets and changing edges",
+      "summary": "Compare the early Northern Liberties street grid with the current transit loop without treating them as one map.",
+      "canonicalPath": "/notes/markets-changing-edges",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:live-library"
+      ],
+      "places": [
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:str-market-history",
+          "label": "Findlay Market: History",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-streetcar",
+          "label": "City of Cincinnati: Hours, Route and Station Stops",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:str-tour",
+          "label": "Findlay Market: Self-guided tour",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:str-market-history"
+      },
+      "bodyPath": "./documents/note/markets-changing-edges.json",
+      "order": 97,
+      "sectionId": "street",
+      "kicker": "Street and transit",
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/street.md"
+        }
+      }
+    },
+    {
+      "id": "feature:water-has-a-working-life",
+      "slug": "water-has-a-working-life",
+      "kind": "feature",
+      "title": "Water has a working life",
+      "summary": "Ohio’s waterways connect freight, drinking water, habitat, and neighborhood stewardship. A Cleveland-to-Lake-Erie story makes those layers visible.",
+      "canonicalPath": "/journal/water-has-a-working-life",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "make",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-wild",
+        "topic:make-movement"
+      ],
+      "places": [
+        "ohio",
+        "lake-erie",
+        "cleveland",
+        "cuyahoga-valley",
+        "canalway-center",
+        "cuyahoga-river-cleveland-usgs-gage",
+        "lake-erie-cleveland-usgs-station"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:water-ohio-canals",
+          "label": "Ohio History Connection · Ohio canals",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-canal-plats",
+          "label": "Ohio Memory · Ohio Canal Plat Map Collection",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-cuyahoga-epa",
+          "label": "U.S. EPA · Cuyahoga River Area of Concern",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-aoc-committee",
+          "label": "Cuyahoga River AOC Advisory Committee",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-cleveland-port",
+          "label": "Port of Cleveland",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-cleveland-water",
+          "label": "Cleveland Water · Lake Erie",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-canalway",
+          "label": "U.S. Census Bureau Geocoder — 4524 East 49th Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-usgs-cuyahoga-gage",
+          "label": "U.S. Geological Survey, Cuyahoga River at Cleveland OH (04208500)",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-usgs-lake-erie-cleveland",
+          "label": "U.S. Geological Survey, Lake Erie at Cleveland (412941081433600)",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:water-ohio-canals"
+      },
+      "bodyPath": "./documents/feature/water-has-a-working-life.json",
+      "category": "guides",
+      "location": "Cleveland · Cuyahoga River and Lake Erie",
+      "duration": "A slow, map-led day",
+      "readTime": "4 min read",
+      "coverMediaId": "media:cuyahoga-slow-day",
+      "coverAlt": "An illustrated woodland waterfall and boardwalk",
+      "titleAccent": "has a working life",
+      "recommendations": [
+        {
+          "id": "note:canal-corridor-in-maps",
+          "reason": "Read the Ohio & Erie Canal corridor through its original plats."
+        },
+        {
+          "id": "note:lake-erie-intakes-and-buoys",
+          "reason": "Follow the public drinking-water system from lake to household."
+        }
+      ],
+      "order": 98,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/water.md"
+        }
+      }
+    },
+    {
+      "id": "note:canal-corridor-in-maps",
+      "slug": "canal-corridor-in-maps",
+      "kind": "note",
+      "title": "A canal corridor on paper",
+      "summary": "Canal maps show an engineered route, not a natural river journey.",
+      "canonicalPath": "/notes/canal-corridor-in-maps",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "make"
+      ],
+      "topics": [
+        "topic:explore-wild",
+        "topic:make-movement"
+      ],
+      "places": [
+        "ohio",
+        "cuyahoga-valley"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:water-ohio-canals",
+          "label": "Ohio History Connection · Ohio canals",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-canal-plats",
+          "label": "Ohio Memory · Ohio Canal Plat Map Collection",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:water-ohio-canals"
+      },
+      "bodyPath": "./documents/note/canal-corridor-in-maps.json",
+      "sectionId": "discover",
+      "kicker": "OHIO & ERIE CANAL · MAPS",
+      "order": 99,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/water.md"
+        }
+      }
+    },
+    {
+      "id": "note:lake-erie-intakes-and-buoys",
+      "slug": "lake-erie-intakes-and-buoys",
+      "kind": "note",
+      "title": "Lake water, public service",
+      "summary": "Cleveland’s drinking-water story begins offshore.",
+      "canonicalPath": "/notes/lake-erie-intakes-and-buoys",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-coast",
+        "topic:live-community"
+      ],
+      "places": [
+        "lake-erie",
+        "cleveland"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:water-cleveland-water",
+          "label": "Cleveland Water · Lake Erie",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:water-cuyahoga-epa",
+          "label": "U.S. EPA · Cuyahoga River Area of Concern",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:water-cleveland-water"
+      },
+      "bodyPath": "./documents/note/lake-erie-intakes-and-buoys.json",
+      "sectionId": "discover",
+      "kicker": "CLEVELAND · DRINKING WATER",
+      "order": 100,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/water.md"
+        }
+      }
+    },
+    {
+      "id": "feature:who-keeps-ohios-memory",
+      "slug": "who-keeps-ohios-memory",
+      "kind": "feature",
+      "title": "Who keeps Ohio’s memory?",
+      "summary": "A state archive can preserve millions of records. The people who make those records, describe them, and decide what can be shared shape the story too.",
+      "canonicalPath": "/journal/who-keeps-ohios-memory",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture",
+        "live",
+        "explore"
+      ],
+      "topics": [
+        "topic:culture-gallery",
+        "topic:live-library",
+        "topic:explore-past"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:memory-ohc-engagement",
+          "label": "Ohio History Connection · Community Engagement",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-ohc-manuscripts",
+          "label": "Ohio History Connection · Manuscripts and Audiovisual Collections",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-ohio-memory-oral",
+          "label": "Ohio Memory · Oral History",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-gohi",
+          "label": "Ohio History Connection · GOHI Oral Histories",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-ohio-memory-collections",
+          "label": "Ohio Memory · Collections",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-ohc-american-indian-policy",
+          "label": "Ohio History Connection · American Indian Policy",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:memory-ohc-engagement"
+      },
+      "bodyPath": "./documents/feature/who-keeps-ohios-memory.json",
+      "category": "everyday",
+      "location": "Ohio · state and community collections",
+      "duration": "A collection-led reading",
+      "readTime": "4 min read",
+      "coverMediaId": "media:library-afternoon",
+      "coverAlt": "An illustrated library reading table beside a window",
+      "titleAccent": "memory?",
+      "recommendations": [
+        {
+          "id": "note:oral-history-is-a-persons-account",
+          "reason": "Follow a named narrator and the context of their interview."
+        },
+        {
+          "id": "note:eastern-shawnee-digital-library",
+          "reason": "Read a tribal digital collection through its own partnership record."
+        }
+      ],
+      "order": 101,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/memory.md"
+        }
+      }
+    },
+    {
+      "id": "note:oral-history-is-a-persons-account",
+      "slug": "oral-history-is-a-persons-account",
+      "kind": "note",
+      "title": "An oral history is one person’s account",
+      "summary": "A named interview preserves experience without standing for a whole community.",
+      "canonicalPath": "/notes/oral-history-is-a-persons-account",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture",
+        "live"
+      ],
+      "topics": [
+        "topic:culture-gallery",
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:memory-ohio-memory-oral",
+          "label": "Ohio Memory · Oral History",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-gohi",
+          "label": "Ohio History Connection · GOHI Oral Histories",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:memory-ohio-memory-oral"
+      },
+      "bodyPath": "./documents/note/oral-history-is-a-persons-account.json",
+      "sectionId": "discover",
+      "kicker": "OHIO · ORAL HISTORY",
+      "order": 102,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/memory.md"
+        }
+      }
+    },
+    {
+      "id": "note:eastern-shawnee-digital-library",
+      "slug": "eastern-shawnee-digital-library",
+      "kind": "note",
+      "title": "A tribal archive in a shared portal",
+      "summary": "Ohio Memory identifies the Eastern Shawnee Tribe of Oklahoma’s digital library as a partner collection.",
+      "canonicalPath": "/notes/eastern-shawnee-digital-library",
+      "primaryWorld": "culture",
+      "worlds": [
+        "culture",
+        "live"
+      ],
+      "topics": [
+        "topic:culture-gallery",
+        "topic:live-library"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:memory-ohio-memory-collections",
+          "label": "Ohio Memory · Collections",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:memory-ohc-american-indian-policy",
+          "label": "Ohio History Connection · American Indian Policy",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:memory-ohio-memory-collections"
+      },
+      "bodyPath": "./documents/note/eastern-shawnee-digital-library.json",
+      "sectionId": "discover",
+      "kicker": "EASTERN SHAWNEE TRIBE · DIGITAL COLLECTION",
+      "order": 103,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/memory.md"
+        }
+      }
+    },
+    {
+      "id": "feature:small-towns-many-centers",
+      "slug": "small-towns-many-centers",
+      "kind": "feature",
+      "title": "Small towns, many centers",
+      "summary": "Yellow Springs and Nelsonville are two Ohio towns with distinct institutions, landscapes, and public gathering places.",
+      "canonicalPath": "/journal/small-towns-many-centers",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live",
+        "culture"
+      ],
+      "topics": [
+        "topic:explore-hills",
+        "topic:live-campus",
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio",
+        "appalachian-ohio",
+        "yellow-springs-cascades-access",
+        "yellow-springs-steps-access",
+        "nelsonville-public-square",
+        "hocking-valley-depot"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:town-glen-helen-history",
+          "label": "Glen Helen · History of the Preserve",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-glen-helen-access",
+          "label": "Glen Helen · Directions and Parking",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-hocking-access",
+          "label": "Hocking Valley Scenic Railway · Accessibility",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-hocking-railway",
+          "label": "Hocking Valley Scenic Railway",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-stuarts-history",
+          "label": "Stuart’s Opera House · Our History",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-odot-appalachian-plan",
+          "label": "Ohio Department of Transportation · Appalachian Byway Corridor Management Plan",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-glen-helen-cascades",
+          "label": "U.S. Census Bureau Geocoder — 1075 OH-343, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-glen-helen-steps",
+          "label": "U.S. Census Bureau Geocoder — 505 Corry Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-odot-nelsonville-square",
+          "label": "Ohio Department of Transportation, Appalachian Byway Corridor Management Plan",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-hocking-depot",
+          "label": "U.S. Census Bureau Geocoder — 33 W Canal Street, Public_AR_Current",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:town-glen-helen-history"
+      },
+      "bodyPath": "./documents/feature/small-towns-many-centers.json",
+      "category": "guides",
+      "location": "Yellow Springs and Nelsonville · separate visits",
+      "duration": "Two separate town visits",
+      "readTime": "4 min read",
+      "coverMediaId": "media:cuyahoga-slow-day",
+      "coverAlt": "Illustrated woodland waterfall and boardwalk",
+      "titleAccent": "many centers",
+      "recommendations": [
+        {
+          "id": "note:yellow-springs-stewardship",
+          "reason": "Read Glen Helen’s own account of land use and local stewardship."
+        },
+        {
+          "id": "note:nelsonville-railway-access",
+          "reason": "Check the railway’s specific lift, coach, parking, and restroom details."
+        }
+      ],
+      "order": 104,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/small-towns.md"
+        }
+      }
+    },
+    {
+      "id": "note:yellow-springs-stewardship",
+      "slug": "yellow-springs-stewardship",
+      "kind": "note",
+      "title": "Glen Helen is a place people have shaped",
+      "summary": "The preserve’s own timeline connects land, civic choices, and conservation.",
+      "canonicalPath": "/notes/yellow-springs-stewardship",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-wild",
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:town-glen-helen-history",
+          "label": "Glen Helen · History of the Preserve",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-glen-helen-access",
+          "label": "Glen Helen · Directions and Parking",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:town-glen-helen-history"
+      },
+      "bodyPath": "./documents/note/yellow-springs-stewardship.json",
+      "sectionId": "travel",
+      "kicker": "YELLOW SPRINGS · GLEN HELEN",
+      "order": 105,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/small-towns.md"
+        }
+      }
+    },
+    {
+      "id": "note:nelsonville-railway-access",
+      "slug": "nelsonville-railway-access",
+      "kind": "note",
+      "title": "Before boarding in Nelsonville",
+      "summary": "The railway publishes coach-specific access information; call ahead before traveling.",
+      "canonicalPath": "/notes/nelsonville-railway-access",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-hills",
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio",
+        "appalachian-ohio"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:town-hocking-access",
+          "label": "Hocking Valley Scenic Railway · Accessibility",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:town-hocking-railway",
+          "label": "Hocking Valley Scenic Railway",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:town-hocking-access"
+      },
+      "bodyPath": "./documents/note/nelsonville-railway-access.json",
+      "sectionId": "travel",
+      "kicker": "NELSONVILLE · RAILWAY",
+      "order": 106,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/small-towns.md"
+        }
+      }
+    },
+    {
+      "id": "feature:two-city-days",
+      "slug": "two-city-days",
+      "kind": "feature",
+      "title": "Two city days, two different rhythms",
+      "summary": "Cincinnati offers a compact streetcar-and-walk day. Dayton’s aviation sites are spread across town, so plan in sections and leave room for transit and rest.",
+      "canonicalPath": "/journal/two-city-days",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live",
+        "culture"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:culture-invention",
+        "topic:live-community"
+      ],
+      "places": [
+        "ohio",
+        "cincinnati",
+        "dayton",
+        "findlay-market",
+        "washington-park-cincinnati",
+        "cincinnati-music-hall",
+        "wright-dunbar-center",
+        "dunbar-house",
+        "huffman-prairie-field-gate-16a"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:routes-cincinnati-map",
+          "label": "City of Cincinnati · Streetcar map",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-cincinnati-how-to",
+          "label": "City of Cincinnati · How to Ride the Connector",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-metro-access",
+          "label": "Southwest Ohio Regional Transit Authority · Access Paratransit",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-nps-directions",
+          "label": "National Park Service · Dayton Aviation Heritage directions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-nps-accessibility",
+          "label": "National Park Service · Dayton Aviation Heritage accessibility",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-dayton-rta-planner",
+          "label": "Greater Dayton RTA · Ride Time trip planner",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-findlay",
+          "label": "U.S. Census Bureau Geocoder — 132 W Elder Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-washington-park",
+          "label": "U.S. Census Bureau Geocoder — 1230 Elm Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-census-music-hall",
+          "label": "U.S. Census Bureau Geocoder — 1241 Elm Street, Public_AR_Current",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-nps-wright-dunbar-event",
+          "label": "National Park Service event location at Wright-Dunbar Interpretive Center",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-nps-dunbar-house-event",
+          "label": "National Park Service event location at Dunbar House",
+          "kind": "Official source"
+        },
+        {
+          "id": "map-nps-huffman-gate-16a",
+          "label": "National Park Service event location at Huffman Prairie Flying Field, Gate 16A",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:routes-cincinnati-map"
+      },
+      "bodyPath": "./documents/feature/two-city-days.json",
+      "category": "guides",
+      "location": "Cincinnati and Dayton · two separate itineraries",
+      "duration": "Choose a half-day or full day",
+      "readTime": "4 min read",
+      "coverMediaId": "media:cincinnati-market-to-music",
+      "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
+      "titleAccent": "two different rhythms",
+      "recommendations": [
+        {
+          "id": "note:cincinnati-connector-station-order",
+          "reason": "Check the selected station sequence on the City’s map."
+        },
+        {
+          "id": "note:dayton-aviation-transit-and-access",
+          "reason": "Use the NPS and transit operators’ details to plan Dayton legs."
+        }
+      ],
+      "order": 107,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/routes.md"
+        }
+      }
+    },
+    {
+      "id": "note:cincinnati-connector-station-order",
+      "slug": "cincinnati-connector-station-order",
+      "kind": "note",
+      "title": "A Cincinnati day in selected stops",
+      "summary": "The Connector’s official map makes a shorter route possible without riding the whole loop.",
+      "canonicalPath": "/notes/cincinnati-connector-station-order",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:live-community"
+      ],
+      "places": [
+        "cincinnati"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:routes-cincinnati-map",
+          "label": "City of Cincinnati · Streetcar map",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-cincinnati-how-to",
+          "label": "City of Cincinnati · How to Ride the Connector",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:routes-cincinnati-map"
+      },
+      "bodyPath": "./documents/note/cincinnati-connector-station-order.json",
+      "sectionId": "travel",
+      "kicker": "CINCINNATI · CONNECTOR",
+      "order": 108,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/routes.md"
+        }
+      }
+    },
+    {
+      "id": "note:dayton-aviation-transit-and-access",
+      "slug": "dayton-aviation-transit-and-access",
+      "kind": "note",
+      "title": "Dayton’s sites need separate legs",
+      "summary": "NPS and transit operator details show where a transit-first day works and where another ride is needed.",
+      "canonicalPath": "/notes/dayton-aviation-transit-and-access",
+      "primaryWorld": "explore",
+      "worlds": [
+        "explore",
+        "live"
+      ],
+      "topics": [
+        "topic:explore-cities",
+        "topic:live-community"
+      ],
+      "places": [
+        "dayton"
+      ],
+      "sourceRefs": [
+        {
+          "id": "source:routes-nps-directions",
+          "label": "National Park Service · Dayton Aviation Heritage directions",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-nps-accessibility",
+          "label": "National Park Service · Dayton Aviation Heritage accessibility",
+          "kind": "Official source"
+        },
+        {
+          "id": "source:routes-dayton-rta-planner",
+          "label": "Greater Dayton RTA · Ride Time trip planner",
+          "kind": "Official source"
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-25",
+        "sourceId": "source:routes-nps-directions"
+      },
+      "bodyPath": "./documents/note/dayton-aviation-transit-and-access.json",
+      "sectionId": "travel",
+      "kicker": "DAYTON · TRANSPORT",
+      "order": 109,
+      "updatedAt": "2026-09-25",
+      "dateEvidence": {
+        "updatedAt": {
+          "kind": "editorial-record",
+          "path": "editorial/research/routes.md"
+        }
+      }
     }
   ],
   "sourceUrls": [
@@ -3811,6 +5441,282 @@
     {
       "id": "source:60ddb2dbd634",
       "url": "https://www.ohio.edu/food/baker-center"
+    },
+    {
+      "id": "source:mat-whistle-made",
+      "url": "https://thewhistlefactory.com/how-whistles-are-made"
+    },
+    {
+      "id": "source:mat-whistle-work",
+      "url": "https://thewhistlefactory.com/how-whistles-work"
+    },
+    {
+      "id": "source:mat-whistle-visit",
+      "url": "https://thewhistlefactory.com/"
+    },
+    {
+      "id": "source:mat-rookwood-about",
+      "url": "https://rookwood.com/pages/about-rookwood"
+    },
+    {
+      "id": "source:mat-rookwood-tour",
+      "url": "https://rookwood.com/collections/workshops-tours/products/behind-the-scenes-factory-tours-of-rookwood"
+    },
+    {
+      "id": "source:mat-rookwood-honors",
+      "url": "https://cdm16998.contentdm.oclc.org/digital/api/collection/p16998coll22/id/5026/download"
+    },
+    {
+      "id": "source:mat-rookwood-vase",
+      "url": "https://collection.cincinnatiartmuseum.org/objects/6693/vase"
+    },
+    {
+      "id": "source:mat-glass-1962",
+      "url": "https://store.toledomuseum.org/products/1962-toledo-workshops-historic-photograph-print"
+    },
+    {
+      "id": "source:mat-akron-chemistry",
+      "url": "https://blogs.uakron.edu/archives/uapresidents-knight/"
+    },
+    {
+      "id": "source:mat-akron-labor",
+      "url": "https://ideaexchange.uakron.edu/uapress_publications/44/"
+    },
+    {
+      "id": "source:snd-nye-overview",
+      "url": "https://www.loc.gov/collections/captain-pearl-r-nye-life-on-the-erie-and-ohio-canal/about-this-collection/"
+    },
+    {
+      "id": "source:snd-nye-finding-aid",
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/af012006/af012006.pdf"
+    },
+    {
+      "id": "source:snd-buckeye",
+      "url": "https://buckeyecorpus.osu.edu/"
+    },
+    {
+      "id": "source:snd-nps-marsh",
+      "url": "https://www.nps.gov/media/video/view.htm?id=09EA5C2A-069A-4884-A5F6-25276EE45860"
+    },
+    {
+      "id": "source:snd-music-hall",
+      "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall"
+    },
+    {
+      "id": "source:snd-local1-about",
+      "url": "https://afm1.org/about/"
+    },
+    {
+      "id": "source:snd-local1-constitution",
+      "url": "https://afm1.org/board-meetings/constitution/"
+    },
+    {
+      "id": "source:lib-ohiolink",
+      "url": "https://www.ohiolink.edu/content/ohiolink_resources"
+    },
+    {
+      "id": "source:lib-searchohio",
+      "url": "https://searchohio.org/searchohio/index.php/using-searchohio/"
+    },
+    {
+      "id": "source:lib-cml",
+      "url": "https://www.columbuslibrary.org/searchohio/"
+    },
+    {
+      "id": "source:lib-faq",
+      "url": "https://www.ohiolink.edu/content/frequently_asked_questions"
+    },
+    {
+      "id": "source:lib-book",
+      "url": "https://www.arcadiapublishing.com/products/findlay-market-of-cincinnati-9781467148597"
+    },
+    {
+      "id": "source:lib-market",
+      "url": "https://www.findlaymarket.org/history"
+    },
+    {
+      "id": "source:str-market-history",
+      "url": "https://www.findlaymarket.org/history"
+    },
+    {
+      "id": "source:str-tour",
+      "url": "https://www.findlaymarket.org/s/Self_Guided_Tour_final.pdf"
+    },
+    {
+      "id": "source:str-geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=132%20W%20Elder%20Street%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "source:str-sanborn",
+      "url": "https://www.loc.gov/resource/g4084cm.g4084cm_g06645190407/"
+    },
+    {
+      "id": "source:str-loc-sanborn-about",
+      "url": "https://www.loc.gov/collections/sanborn-maps/about-this-collection/"
+    },
+    {
+      "id": "source:str-oplin",
+      "url": "https://sanborn.ohioweblibrary.org/viewer/?id=4828"
+    },
+    {
+      "id": "source:str-nps",
+      "url": "https://npgallery.nps.gov/AssetDetail/362674c3-1e0a-4626-9f94-f03e6df460b5"
+    },
+    {
+      "id": "source:str-streetcar",
+      "url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/hours-route-and-station-stops/"
+    },
+    {
+      "id": "source:str-hours",
+      "url": "https://www.findlaymarket.org/hours"
+    },
+    {
+      "id": "source:water-ohio-canals",
+      "url": "https://www.ohiohistory.org/ohiocanals/"
+    },
+    {
+      "id": "source:water-canal-plats",
+      "url": "https://ohiomemory.org/digital/collection/p16007coll93"
+    },
+    {
+      "id": "source:water-cuyahoga-epa",
+      "url": "https://www.epa.gov/great-lakes-aocs/cuyahoga-river-aoc"
+    },
+    {
+      "id": "source:water-aoc-committee",
+      "url": "https://cuyahogaaoc.org/"
+    },
+    {
+      "id": "source:water-cleveland-port",
+      "url": "https://www.portofcleveland.com/"
+    },
+    {
+      "id": "source:water-cleveland-water",
+      "url": "https://www.clevelandwater.com/your-water/lake-erie"
+    },
+    {
+      "id": "source:memory-ohc-engagement",
+      "url": "https://www.ohiohistory.org/get-involved/advocacy/community-engagement/"
+    },
+    {
+      "id": "source:memory-ohc-manuscripts",
+      "url": "https://www.ohiohistory.org/research/archives-library/manuscripts-audiovisual-collections/"
+    },
+    {
+      "id": "source:memory-ohio-memory-oral",
+      "url": "https://ohiomemory.ohiohistory.org/oral-history"
+    },
+    {
+      "id": "source:memory-gohi",
+      "url": "https://www.ohiohistory.org/gohi-oral-histories/"
+    },
+    {
+      "id": "source:memory-ohio-memory-collections",
+      "url": "https://ohiomemory.ohiohistory.org/collections"
+    },
+    {
+      "id": "source:memory-ohc-american-indian-policy",
+      "url": "https://www.ohiohistory.org/wp-content/uploads/2022/02/OHC-American-Indian-Policy-Board-Approved-2019-09-19.pdf"
+    },
+    {
+      "id": "source:town-glen-helen-history",
+      "url": "https://glenhelen.org/history/"
+    },
+    {
+      "id": "source:town-glen-helen-access",
+      "url": "https://glenhelen.org/directions-and-parking/"
+    },
+    {
+      "id": "source:town-hocking-access",
+      "url": "https://www.hvsry.org/accessibility/"
+    },
+    {
+      "id": "source:town-hocking-railway",
+      "url": "https://www.hvsry.org/"
+    },
+    {
+      "id": "source:town-stuarts-history",
+      "url": "https://stuartsoperahouse.org/about/history/"
+    },
+    {
+      "id": "source:town-odot-appalachian-plan",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/scenic-byways/appalachian/CMP-Appalachian.pdf"
+    },
+    {
+      "id": "source:routes-cincinnati-map",
+      "url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf"
+    },
+    {
+      "id": "source:routes-cincinnati-how-to",
+      "url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/"
+    },
+    {
+      "id": "source:routes-metro-access",
+      "url": "https://www.go-metro.com/access-paratransit/"
+    },
+    {
+      "id": "source:routes-nps-directions",
+      "url": "https://www.nps.gov/daav/planyourvisit/directions.htm"
+    },
+    {
+      "id": "source:routes-nps-accessibility",
+      "url": "https://www.nps.gov/daav/planyourvisit/accessibility.htm"
+    },
+    {
+      "id": "source:routes-dayton-rta-planner",
+      "url": "https://ridetime.greaterdaytonrta.org/bustime/home.jsp"
+    },
+    {
+      "id": "map-census-findlay",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=132%20W%20Elder%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-census-music-hall",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1241%20Elm%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-census-washington-park",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1230%20Elm%20St%2C%20Cincinnati%2C%20OH%2045202&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-nps-wright-dunbar-event",
+      "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=D3A5387E-AFD1-1CA7-395F7689D033B5B1"
+    },
+    {
+      "id": "map-nps-dunbar-house-event",
+      "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=EE622176-E8FA-4E9E-546E9E054121F6BE"
+    },
+    {
+      "id": "map-nps-huffman-gate-16a",
+      "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=D1E59252-FFC3-6932-6BB02CEACF7BA4D4"
+    },
+    {
+      "id": "map-census-glen-helen-cascades",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1075%20OH-343%2C%20Yellow%20Springs%2C%20OH%2045387&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-census-glen-helen-steps",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=505%20Corry%20St%2C%20Yellow%20Springs%2C%20OH%2045387&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-odot-nelsonville-square",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/scenic-byways/appalachian/CMP-Appalachian.pdf"
+    },
+    {
+      "id": "map-census-hocking-depot",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=33%20W%20Canal%20St%2C%20Nelsonville%2C%20OH%2045764&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-census-canalway",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4524%20E%2049th%20St%2C%20Cuyahoga%20Heights%2C%20OH%2044125&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "map-usgs-cuyahoga-gage",
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-04208500/statistics/"
+    },
+    {
+      "id": "map-usgs-lake-erie-cleveland",
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-412941081433600/"
     }
   ]
 }

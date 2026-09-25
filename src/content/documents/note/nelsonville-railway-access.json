@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "note:nelsonville-railway-access",
+    "slug": "nelsonville-railway-access",
+    "kind": "note",
+    "title": "Before boarding in Nelsonville",
+    "summary": "The railway publishes coach-specific access information; call ahead before traveling.",
+    "canonicalPath": "/notes/nelsonville-railway-access",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "live"
+    ],
+    "topics": [
+      "topic:explore-hills",
+      "topic:live-community"
+    ],
+    "places": [
+      "ohio",
+      "appalachian-ohio"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:town-hocking-access",
+        "label": "Hocking Valley Scenic Railway · Accessibility",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:town-hocking-railway",
+        "label": "Hocking Valley Scenic Railway",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:town-hocking-access"
+    },
+    "bodyPath": "./documents/note/nelsonville-railway-access.json",
+    "sectionId": "travel",
+    "kicker": "NELSONVILLE · RAILWAY",
+    "order": 106,
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/small-towns.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hocking Valley Scenic Railway runs seasonal excursions from its Nelsonville depot and describes itself as a volunteer-operated nonprofit preserving rail equipment and offering public rides. Access is specific to the scheduled train: the railway says a portable lift serves three coaches and asks wheelchair users to call ahead so staff can confirm the arrangement. Its accessibility page also notes gravel parking and says the depot restroom is not wheelchair accessible. These details can change what works for a party, so contact the operator with questions about the date, boarding, seating, and facilities before traveling. The depot is listed at 33 West Canal Street. Check the current timetable as well; a historic railway’s existence does not mean a train runs every day.",
+      "sourceIds": [
+        "source:town-hocking-access",
+        "source:town-hocking-railway"
+      ]
+    }
+  ]
+}

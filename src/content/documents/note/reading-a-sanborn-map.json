@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "note:reading-a-sanborn-map",
+    "slug": "reading-a-sanborn-map",
+    "kind": "note",
+    "title": "Reading a Sanborn map",
+    "summary": "Fire-insurance maps document buildings for risk assessment; use the legend and exact sheet before describing a block.",
+    "canonicalPath": "/notes/reading-a-sanborn-map",
+    "primaryWorld": "explore",
+    "worlds": [
+      "explore",
+      "culture"
+    ],
+    "topics": [
+      "topic:explore-cities",
+      "topic:culture-gallery"
+    ],
+    "places": [
+      "cincinnati"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:str-sanborn",
+        "label": "Library of Congress: Cincinnati Sanborn maps, 1904, volume 7",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-loc-sanborn-about",
+        "label": "Library of Congress: Sanborn Maps collection guide",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-oplin",
+        "label": "OPLIN Sanborn Image Viewer: Cincinnati, 1887",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:str-market-history",
+        "label": "Findlay Market: History",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:str-sanborn"
+    },
+    "bodyPath": "./documents/note/reading-a-sanborn-map.json",
+    "order": 96,
+    "sectionId": "street",
+    "kicker": "Map reading",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/street.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Sanborn fire-insurance maps were made to record the built environment for insurance assessment. The Library of Congress explains that the maps document building footprints, construction materials, uses, and addresses, with color and symbols interpreted through each sheet’s legend. This makes them useful for comparing a block’s form at a particular date, not for recovering what residents thought or heard. The 1904 volume index alone does not identify the sheet containing Findlay Market; find the right sheet before comparing footprints. OPLIN’s 1887 viewer offers an earlier edition; consult the sheet’s date and legend to read it accurately.",
+      "sourceIds": [
+        "source:str-loc-sanborn-about",
+        "source:str-sanborn",
+        "source:str-oplin",
+        "source:str-market-history"
+      ]
+    }
+  ]
+}

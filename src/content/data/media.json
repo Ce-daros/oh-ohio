@@ -10,6 +10,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/cincinnati-market-to-music-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/cincinnati-market-to-music.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -23,6 +39,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/dayton-made-to-fly-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/dayton-made-to-fly.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -36,6 +68,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/cuyahoga-slow-day-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/cuyahoga-slow-day.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -49,6 +97,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/sandusky-play-day-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/sandusky-play-day.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -62,6 +126,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/brass-whistle-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/brass-whistle.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -75,6 +155,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/rookwood-clay-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/rookwood-clay.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -88,6 +184,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/toledo-glass-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/toledo-glass.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -101,6 +213,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/akron-rubber-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/akron-rubber.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -114,6 +242,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/cincinnati-chili-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/cincinnati-chili.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -127,6 +271,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/buckeye-sweets-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/buckeye-sweets.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -140,6 +300,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/west-side-market-table-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/west-side-market-table.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -153,6 +329,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/library-afternoon-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/library-afternoon.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -166,6 +358,22 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/community-garden-season-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/community-garden-season.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
     }
   },
   {
@@ -179,6 +387,38 @@
     },
     "rights": {
       "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/athens-campus-day-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/athens-campus-day.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:nps-beaver-marsh-sounds",
+    "kind": "video",
+    "use": "documentary",
+    "src": "https://www.nps.gov/nps-audiovideo/audiovideo/2ea1843f-fea8-441c-8b9f-68d12f25cd1b720p.mp4",
+    "alt": "Beaver Marsh at Cuyahoga Valley National Park with an environmental soundtrack",
+    "caption": "Wetland Sights and Sounds · NPS / Josh Angelini · 3:10 · 2021-09-24. The video includes its soundtrack.",
+    "provenance": {
+      "status": "verified",
+      "sourceId": "source:snd-nps-marsh"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "Public domain per NPS item usage information: NPS-credited media without a copyright symbol. Credit NPS / Josh Angelini and link to the NPS item page."
     }
   }
 ]

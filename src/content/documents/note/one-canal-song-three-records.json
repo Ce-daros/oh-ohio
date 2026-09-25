@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "note:one-canal-song-three-records",
+    "slug": "one-canal-song-three-records",
+    "kind": "note",
+    "title": "One canal song, three records",
+    "summary": "Hear one performance alongside its song text and the records kept with it.",
+    "canonicalPath": "/notes/one-canal-song-three-records",
+    "primaryWorld": "culture",
+    "worlds": [
+      "culture",
+      "explore"
+    ],
+    "topics": [
+      "topic:culture-records",
+      "topic:explore-wild"
+    ],
+    "places": [
+      "ohio",
+      "akron"
+    ],
+    "sourceRefs": [
+      {
+        "id": "source:snd-nye-overview",
+        "label": "Library of Congress: Captain Pearl R. Nye collection",
+        "kind": "Official source"
+      },
+      {
+        "id": "source:snd-nye-finding-aid",
+        "label": "Library of Congress: Captain Pearl R. Nye finding aid",
+        "kind": "Official source"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-25",
+      "sourceId": "source:snd-nye-finding-aid"
+    },
+    "bodyPath": "./documents/note/one-canal-song-three-records.json",
+    "order": 90,
+    "sectionId": "culture",
+    "kicker": "AKRON · ARCHIVAL SOUND",
+    "updatedAt": "2026-09-25",
+    "dateEvidence": {
+      "updatedAt": {
+        "kind": "editorial-record",
+        "path": "editorial/research/sounds.md"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Captain Pearl R. Nye’s songs reached the Library of Congress on recording discs, but the archive preserves more than sound. The collection page links recordings with song texts, correspondence, and photographs. Choose one disc-side entry, then keep those records open together: the audio documents one performance, the written text lets you follow its words, and the related papers can show how a collector identified or discussed it. The Library describes the collection as recordings made in Akron in 1937 of songs connected to life on the Ohio and Erie Canal. Do not assume every item has the same date, setting, or rights status. Link to the Library’s player and that item’s catalog record; verify individual rights before rehosting a file.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-nye-finding-aid"
+      ]
+    }
+  ]
+}
