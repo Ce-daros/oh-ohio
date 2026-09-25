@@ -107,8 +107,16 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Ohio’s water map is also a map of work. The Ohio & Erie Canal once carried people and cargo between Lake Erie and the Ohio River. Today, the Cuyahoga still drains a large watershed into Lake Erie, while a modern port, drinking-water utility, environmental agencies, and community groups shape what use of the river means. Follow the Cuyahoga north through Cleveland and the story changes at every bend: canal transport, industrial production, public services, and restoration share a corridor.",
       "role": "intro",
+      "text": "Come follow the water with me. Along the Cuyahoga and out to Lake Erie, a lovely view is also a place of work: moving cargo, supplying homes, and caring for the river itself.",
+      "sourceIds": [
+        "source:water-ohio-canals",
+        "source:water-cuyahoga-epa"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohio’s water map is also a map of work. The Ohio & Erie Canal once carried people and cargo between Lake Erie and the Ohio River. Today, the Cuyahoga still drains a large watershed into Lake Erie, while a modern port, drinking-water utility, environmental agencies, and community groups shape what use of the river means. Follow the Cuyahoga north through Cleveland and the story changes at every bend: canal transport, industrial production, public services, and restoration share a corridor.",
       "sourceIds": [
         "source:water-ohio-canals",
         "source:water-cuyahoga-epa"
@@ -260,7 +268,7 @@
       "layout": "parallel"
     },
     {
-      "text": "The lake supplies drinking water while the river has its own restoration record. These systems meet in one watershed, but each needs its own measure and care.",
+      "text": "Here’s the part I want to follow home: Lake Erie supplies drinking water, while the river has its own restoration work. They meet in one watershed, with different people keeping an eye on each.",
       "type": "characterAside",
       "sourceIds": [
         "source:water-cleveland-water",
@@ -292,13 +300,17 @@
     {
       "type": "paragraph",
       "text": "There is no single river story that can speak for everyone beside it. Agency records explain how pollution is measured and projects are organized. Port and utility pages describe services. Community and tribal collections add other kinds of relationship and memory; a commerce map cannot stand in for those accounts. The useful question is not simply what the water carried, but who uses it now, who cares for it, and whose account becomes part of its history.",
-      "role": "signoff",
       "sourceIds": [
         "source:water-cuyahoga-epa",
         "source:water-aoc-committee",
         "source:water-cleveland-port",
         "source:water-cleveland-water"
       ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Next time you see the lake, stay for the view. Then follow one small question about the work behind it. There’s plenty here to be curious about. ♡"
     }
   ]
 }

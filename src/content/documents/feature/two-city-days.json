@@ -125,13 +125,22 @@
   "blocks": [
     {
       "type": "paragraph",
+      "role": "intro",
+      "text": "A market morning in Cincinnati, or a day following Dayton’s aviation story? Let’s choose one place you really want to see, then build a day around it. There’s room for a rest stop, too.",
+      "sourceIds": [
+        "source:routes-cincinnati-map",
+        "source:routes-cincinnati-how-to",
+        "source:routes-nps-directions"
+      ]
+    },
+    {
+      "type": "paragraph",
       "text": "Cincinnati’s central Connector loop makes it possible to choose one stop at a time. Dayton’s aviation sites sit in different parts of the city and Wright-Patterson area, so plan that day in sections. In either place, choose one anchor first and leave optional stops for energy, service, and opening hours.",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to",
         "source:routes-nps-directions"
-      ],
-      "role": "intro"
+      ]
     },
     {
       "type": "heading",
@@ -209,7 +218,7 @@
         "source:routes-cincinnati-how-to",
         "source:routes-nps-accessibility"
       ],
-      "text": "Level boarding helps on the Connector, but sidewalks and entrances vary. Choose one stop where you can rest, then decide whether to add another.",
+      "text": "We can take this one stop at a time. The Connector has level boarding, though sidewalks and entrances vary. Pick somewhere to rest before deciding on another stop—there’s no prize for rushing. ♡",
       "type": "characterAside",
       "title": "Leave room at the curb",
       "role": "practical"
@@ -358,8 +367,12 @@
         "source:routes-nps-directions",
         "source:routes-nps-accessibility",
         "source:routes-dayton-rta-planner"
-      ],
-      "role": "signoff"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Leave a little room to look around, sit down, or change your mind. It’s your day in Ohio. I’m happy to help you find a beginning. ♡"
     }
   ]
 }

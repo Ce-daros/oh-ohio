@@ -87,8 +87,17 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Memory does not live in one building. In Ohio it sits in state collections, local libraries, tribal archives, neighborhood organizations, family albums, and recordings made while history is still unfolding. A useful start is to distinguish the evidence from the account: an archive holds records; an institution or community explains how records were assembled and what they can mean. Neither automatically represents everyone connected to a place.",
       "role": "intro",
+      "text": "An old photograph can make you want to know someone’s name. Let’s start with that curiosity and meet a few of the collections—and people—keeping Ohio’s stories within reach.",
+      "sourceIds": [
+        "source:memory-ohc-engagement",
+        "source:memory-ohc-manuscripts",
+        "source:memory-ohio-memory-collections"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Memory does not live in one building. In Ohio it sits in state collections, local libraries, tribal archives, neighborhood organizations, family albums, and recordings made while history is still unfolding. A useful start is to distinguish the evidence from the account: an archive holds records; an institution or community explains how records were assembled and what they can mean. Neither automatically represents everyone connected to a place.",
       "sourceIds": [
         "source:memory-ohc-engagement",
         "source:memory-ohc-manuscripts",
@@ -154,7 +163,7 @@
         "source:memory-ohio-memory-oral",
         "source:memory-gohi"
       ],
-      "text": "A named voice gives you one person’s experience. Let the collection tell you when and how the recording was made, and resist turning one account into a community-wide statement.",
+      "text": "Let’s stay with this person’s voice for a moment. Their name, the recording date, and the story they chose to tell all matter. We can listen closely without asking one person to speak for everyone.",
       "type": "characterAside",
       "title": "Keep the narrator in view",
       "role": "listen"
@@ -233,12 +242,16 @@
     {
       "type": "paragraph",
       "text": "An archive need not confirm one tidy version of Ohio. Ask what its records can show and whose further voices are needed. Credit narrators and collection partners; keep dates and restrictions attached to digital objects. For living communities, look for present-day organizations and their own statements instead of assuming a historical record speaks on their behalf. Preserving memory is ongoing work by archivists, families, cultural organizations, tribal nations, libraries, and the people who trust them with their stories.",
-      "role": "signoff",
       "sourceIds": [
         "source:memory-ohc-engagement",
         "source:memory-ohio-memory-oral",
         "source:memory-ohio-memory-collections"
       ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A name, a date, a voice worth making time for. Let’s keep those with the story. ♡"
     }
   ]
 }

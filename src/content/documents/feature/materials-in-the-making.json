@@ -114,6 +114,14 @@
     {
       "type": "paragraph",
       "role": "intro",
+      "text": "Ooh, look at this little whistle. A sheet of brass becomes something you can hold in one hand—and hear across a playground. Let’s start with the flat metal and follow the work that gives it a voice.",
+      "sourceIds": [
+        "source:mat-whistle-made",
+        "source:mat-whistle-visit"
+      ]
+    },
+    {
+      "type": "paragraph",
       "text": "Take a metal whistle from a desk drawer and turn it over. Its sound seems to come from one tiny opening, but the object began as several carefully shaped pieces. American Whistle Corporation says it has made metal whistles in Columbus since 1956. Its published process starts with brass sheet or coil, then moves through cutting, forming, joining, and a final sound check.",
       "sourceIds": [
         "source:mat-whistle-made",
@@ -163,7 +171,7 @@
       "sourceIds": [
         "source:mat-whistle-work"
       ],
-      "text": "That small pea has a job: it moves inside the chamber and interrupts the airflow, making the whistle’s trill.",
+      "text": "See the little pea inside? It moves around and interrupts the airflow, giving the whistle its trill. Such a small piece, and you can hear the difference.",
       "type": "characterAside",
       "title": "Listen for the little sphere",
       "role": "explain"
@@ -267,7 +275,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "The objects are worth a close look even when a factory visit does not fit your plans. ♡"
+      "text": "A little whistle, a piece of clay. I hope you’ll look at the next one a moment longer. ♡"
     }
   ]
 }

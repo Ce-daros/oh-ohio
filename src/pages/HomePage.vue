@@ -18,8 +18,14 @@ usePageMotion(root);
   <main id="main-content" ref="root" tabindex="-1" class="home-page">
     <section class="home-welcome">
       <span class="welcome-watermark" aria-hidden="true">OHIO</span>
-      <div class="welcome-copy"><p class="eyebrow" data-hero-copy><span aria-hidden="true">✳</span> OHIO-CHAN HERE!</p><h1 data-hero-copy>Oh, hello<br /><em>Ohio.</em><span aria-hidden="true">♡</span></h1><p class="welcome-dek" data-hero-copy>A lake breeze. A workshop door.<br />A story around the next corner.<br />Come along — I know a few places. ♡</p><a href="#worlds" class="button" data-hero-copy>Where to first? <span aria-hidden="true">↘</span></a></div>
-      <div class="welcome-portrait" data-hero-art><img src="/ohio-chan-vtuber.webp" width="1024" height="1536" fetchpriority="high" alt="Ohio-chan welcomes you with a microphone and an outstretched hand" /></div>
+      <div class="welcome-copy">
+        <p class="eyebrow" data-hero-copy><span aria-hidden="true">✳</span> OHIO-CHAN HERE!</p>
+        <h1 data-hero-copy>Oh, hello<br /><em>Ohio.</em><span aria-hidden="true">♡</span></h1>
+        <p class="welcome-identity" data-hero-copy>Civic idol, local girl,<br /><em>your Ohio guide.</em></p>
+        <p class="welcome-dek" data-hero-copy>I’m Ohio-chan. A market morning, a workshop visit, a quiet library afternoon—come along. I’ll show you where to start.</p>
+        <a href="#worlds" class="button" data-hero-copy>Where to first? <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="welcome-portrait" data-hero-art><img src="/ohio-chan-vtuber.webp" srcset="/art/characters/welcome-480.webp 480w, /art/characters/welcome-768.webp 768w, /ohio-chan-vtuber.webp 1024w" sizes="(max-width: 560px) 91vw, (max-width: 760px) 68vw, (max-width: 1000px) 62vw, 48vw" width="1024" height="1536" fetchpriority="high" alt="Ohio-chan welcomes you with a microphone and an outstretched hand" /></div>
       <div class="welcome-stamp" data-hero-detail>YOUR GUIDE,<br /><strong>Ohio-chan <span aria-hidden="true">♡</span></strong></div>
       <div class="welcome-bottom"><span>A LITTLE CLOSER TO THE BUCKEYE STATE</span><a href="#worlds">Four ways in <span aria-hidden="true">↓</span></a></div>
     </section>
@@ -37,12 +43,13 @@ usePageMotion(root);
   </main>
 </template>
 <style scoped>
-.home-welcome{position:relative;isolation:isolate;overflow:hidden;min-height:660px;height:min(780px,calc(100svh - var(--header-height)));background:#e8f0f5;padding:55px 7% 80px}
+.home-welcome{position:relative;isolation:isolate;overflow:hidden;min-height:720px;height:min(820px,calc(100svh - var(--header-height)));background:#e8f0f5;padding:55px 7% 80px}
 .home-welcome::before{content:'';position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#e8f0f5 18%,#e8f0f5ab 72%),url('/travel-anime.webp') center/cover}
 .welcome-watermark{position:absolute;z-index:-1;right:-3%;top:10px;font:700 clamp(190px,31vw,470px)/1 var(--font-heading);letter-spacing:-.09em;color:#ffffff42;pointer-events:none}
 .welcome-copy{position:relative;z-index:2;max-width:560px}.welcome-copy .eyebrow{display:flex;align-items:center;gap:16px;font-size:12px}.welcome-copy .eyebrow>span{font-size:21px}
 .welcome-copy h1{font-size:clamp(74px,8.5vw,126px);line-height:1.01;letter-spacing:-.065em;margin:30px 0 25px;font-weight:600}.welcome-copy h1 em{color:var(--accent)}.welcome-copy h1>span{display:inline-block;font:normal .42em var(--font-editorial);color:var(--accent);margin-left:20px;transform:rotate(-12deg)}
-.welcome-dek{font-size:18px;line-height:1.75;color:var(--ink-soft);max-width:380px;margin-bottom:30px}.welcome-portrait{position:absolute;z-index:1;bottom:-17%;right:3%;width:48%;height:115%;pointer-events:none}.welcome-portrait img{width:100%;height:100%;object-fit:contain;object-position:center top;max-width:none}
+.welcome-identity{font:500 24px/1.35 var(--font-heading);letter-spacing:-.035em;color:var(--ink);margin-bottom:18px}.welcome-identity em{font-family:var(--font-editorial);font-weight:400;color:var(--accent)}
+.welcome-dek{font-size:17px;line-height:1.7;color:var(--ink-soft);max-width:350px;margin-bottom:25px}.welcome-portrait{position:absolute;z-index:1;bottom:-17%;right:3%;width:48%;height:115%;pointer-events:none}.welcome-portrait img{width:100%;height:100%;object-fit:contain;object-position:center top;max-width:none}
 .welcome-stamp{position:absolute;right:5%;bottom:15%;z-index:3;background:var(--ink);color:white;padding:20px 25px;transform:rotate(-4deg);font-size:11px;letter-spacing:.13em}.welcome-stamp strong{display:block;font:500 26px var(--font-heading);letter-spacing:-.045em;margin-top:9px}.welcome-stamp strong>span{color:#f0a2b1}
 .welcome-bottom{position:absolute;bottom:0;left:7%;right:7%;z-index:3;display:flex;justify-content:space-between;gap:15px;align-items:center;padding:21px 0;border-top:1px solid #18243c26;font-size:12px;letter-spacing:.055em}.welcome-bottom a{display:flex;gap:20px}
 .home-worlds,.home-notes{padding:65px var(--page-gutter) 75px;max-width:var(--page-width);margin:auto}.home-section-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:38px}.home-section-heading h2{font-size:clamp(39px,4.7vw,66px);line-height:1.06;margin-top:16px}.home-section-heading em{color:var(--accent)}.home-section-heading>p{font-size:17px;color:var(--ink-soft);line-height:1.8;max-width:300px}
@@ -53,4 +60,7 @@ usePageMotion(root);
 @media(max-width:1000px){.home-welcome{min-height:640px;padding-top:48px}.welcome-portrait{right:-9%;width:62%}.welcome-copy{max-width:52%}.welcome-copy h1{font-size:90px}.welcome-stamp{right:3%;bottom:13%}.home-world-grid{gap:20px}.home-world-card h3{font-size:23px}.home-world-card p{font-size:14px}.home-note-grid{grid-template-columns:1fr 1fr}.home-theme{gap:5%}.theme-copy h2{font-size:48px}}
 @media(max-width:760px){.home-welcome{height:auto;min-height:650px}.welcome-copy h1{font-size:78px}.welcome-dek{font-size:17px}.welcome-portrait{right:-12%;width:68%;bottom:-12%;height:100%}.welcome-stamp{font-size:10px;padding:15px 18px;bottom:17%}.welcome-stamp strong{font-size:23px}.welcome-bottom>span{max-width:210px;line-height:1.6}.home-world-grid{grid-template-columns:1fr 1fr;gap:30px 20px}.home-theme{grid-template-columns:1fr;gap:35px}.theme-copy{max-width:none;margin:0}.theme-art{max-width:none}.home-section-heading>p{max-width:220px}.home-public{gap:3%}.public-portrait{height:380px}}
 @media(max-width:560px){.home-welcome{min-height:725px;padding:32px 6% 70px}.welcome-copy{max-width:100%}.welcome-copy h1{font-size:72px;margin-top:24px}.welcome-copy h1>span{margin-left:14px}.welcome-dek{max-width:56%;font-size:16px;margin-bottom:25px}.welcome-dek br{display:none}.welcome-portrait{width:91%;right:-29%;bottom:-5%;height:76%}.welcome-copy .button{padding:15px 17px;font-size:14px;gap:16px}.welcome-stamp{bottom:12%;right:3%;padding:13px 16px}.welcome-stamp strong{font-size:22px}.welcome-bottom{left:6%;right:6%;font-size:10px;padding:18px 0}.welcome-bottom>span{max-width:180px}.home-worlds,.home-notes{padding-block:42px 48px}.home-section-heading{display:block;margin-bottom:28px}.home-section-heading h2{font-size:43px}.home-section-heading>p{margin-top:22px;max-width:none}.home-world-grid{gap:28px 17px}.home-world-card h3{font-size:24px}.home-world-card p{font-size:14px}.home-theme{padding-block:45px 60px}.theme-copy h2{font-size:48px}.theme-copy>p:not(.eyebrow){font-size:17px}.theme-art>span{right:-6px;font-size:10px;padding:15px}.home-note-grid{grid-template-columns:1fr}.home-notes .text-link{margin-top:23px}.home-public{grid-template-columns:1fr;padding:45px var(--page-gutter) 0}.home-public h2{font-size:43px}.public-portrait{height:300px;max-width:80%;margin:20px auto 0}.home-public>div>p:not(.eyebrow){font-size:17px}}
+</style>
+<style scoped>
+@media(max-width:560px){.welcome-identity{font-size:22px}.welcome-portrait{height:64%;bottom:-2%}.welcome-stamp{display:none}.welcome-dek{max-width:54%}}
 </style>

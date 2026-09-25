@@ -100,7 +100,15 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Start with a song that had a job to do. In the 1930s, folklorists John A. Lomax and Alan and Elizabeth Lomax recorded Captain Pearl R. Nye in Akron. Nye had been born and raised on a canal boat, and the Library of Congress collection presents his songs as evidence of life along the Ohio and Erie Canal. Its online collection describes 22 audio discs with 75 songs, alongside manuscripts, correspondence, and photographs. The sound is not a general Ohio folk soundtrack. It belongs to a particular performer, history, and network of people who worked and lived on the canal.",
+      "text": "Listen with me for a minute. A canal song, a conversation in Columbus, frogs at Beaver Marsh—there’s more than one way to get to know Ohio by ear.",
+      "sourceIds": [
+        "source:snd-nye-overview",
+        "source:snd-nye-finding-aid"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 1930s, folklorists John A. Lomax and Alan and Elizabeth Lomax recorded Captain Pearl R. Nye in Akron. Nye had been born and raised on a canal boat. The Library of Congress collection brings together 22 audio discs with 75 songs, alongside manuscripts, correspondence, and photographs. His voice offers one person’s account of life along the Ohio and Erie Canal, with the written records and photographs giving us more to explore.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-nye-finding-aid"
@@ -144,7 +152,7 @@
     },
     {
       "role": "listen",
-      "text": "A canal recording, a marsh soundscape, and a city conversation come from different places and people. The scene around a voice is part of what you hear.",
+      "text": "Did you catch the visitors’ voices behind the frogs? Keep listening to the background, too. A sound can tell you a little about the place around it.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-nps-marsh",
@@ -206,13 +214,18 @@
     },
     {
       "type": "paragraph",
-      "text": "There is no need to pretend those sounds are interchangeable. A canal song, a Columbus conversation, a Beaver Marsh soundscape, and a symphony concert have different makers and histories. Their shared lesson is smaller and more interesting: sound is made by people, under real conditions, and it can carry a job, a route, a memory, or the terms under which a performance can happen.",
+      "text": "A canal song, a Columbus conversation, a Beaver Marsh soundscape, and a symphony concert each have their own setting. Listen to them side by side and different details come forward: a performer’s memory, a turn of phrase, an insect among the frogs, the work that brings musicians together. Ohio has room for all of these sounds.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-buckeye",
         "source:snd-nps-marsh",
         "source:snd-local1-constitution"
       ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "A song, a voice, a frog in the marsh. Pick one to listen to a little longer. I’ll be quiet for this part. ♡"
     }
   ]
 }

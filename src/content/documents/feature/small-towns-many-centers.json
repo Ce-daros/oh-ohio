@@ -112,14 +112,24 @@
   "blocks": [
     {
       "type": "paragraph",
+      "role": "intro",
+      "text": "Let’s make room for a smaller place on the map. Yellow Springs has a preserve to explore; Nelsonville has a railway and a square with a life of its own. Pick one for today. We don’t have to hurry through both.",
+      "sourceIds": [
+        "source:town-glen-helen-history",
+        "source:town-hocking-access",
+        "source:town-hocking-railway",
+        "source:town-stuarts-history"
+      ]
+    },
+    {
+      "type": "paragraph",
       "text": "Ohio outside its largest cities is not one landscape or one culture. A village near a college and preserve has different daily rhythms from a town with a historic rail line and arts venues. Yellow Springs in Greene County and Nelsonville in the Hocking Valley make a useful pair because their institutions hold distinct relationships to land, education, work, and public gathering. They are separate visits, not neighboring stops.",
       "sourceIds": [
         "source:town-glen-helen-history",
         "source:town-hocking-access",
         "source:town-hocking-railway",
         "source:town-stuarts-history"
-      ],
-      "role": "intro"
+      ]
     },
     {
       "type": "heading",
@@ -186,7 +196,7 @@
     {
       "title": "Choose the entrance first",
       "type": "characterAside",
-      "text": "Glen Helen lists ADA trail access from the Cascades Lot and more than 110 stone steps at the Steps Lot. Those are different approaches to the preserve, so check current conditions before choosing.",
+      "text": "A small thing to check before we set off: Glen Helen lists ADA trail access at the Cascades Lot, while the Steps Lot starts with more than 110 stone steps. Choose the approach that suits you, and check today’s conditions.",
       "role": "practical",
       "sourceIds": [
         "source:town-glen-helen-access"
@@ -288,8 +298,12 @@
         "source:town-hocking-access",
         "source:town-hocking-railway",
         "source:town-stuarts-history"
-      ],
-      "role": "signoff"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "One place to spend some time, a meal, and room to sit down. I like a day with a little breathing space. ♡"
     }
   ]
 }

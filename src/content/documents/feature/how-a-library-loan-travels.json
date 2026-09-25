@@ -89,6 +89,14 @@
     {
       "type": "paragraph",
       "role": "intro",
+      "text": "A book can take a little trip through Ohio before it reaches your hands. Let’s find one about Cincinnati’s Findlay Market and follow it from the catalog to your pickup shelf.",
+      "sourceIds": [
+        "source:lib-ohiolink",
+        "source:lib-book"
+      ]
+    },
+    {
+      "type": "paragraph",
       "text": "A book can cross Ohio without its reader leaving a neighborhood. SearchOhio and OhioLINK connect participating collections through local public-library catalogs; a request starts with the cardholder’s own library and ends at a chosen pickup desk. To make the route concrete, search for Alyssa McClanahan’s Findlay Market of Cincinnati: A History, published by Arcadia in 2021 (ISBN 9781467148597).",
       "sourceIds": [
         "source:lib-ohiolink",
@@ -143,7 +151,7 @@
         "source:lib-searchohio",
         "source:lib-cml"
       ],
-      "text": "A catalog record starts the request; the arrival notice tells you when the book is ready. Check the due date in your own account before planning the return.",
+      "text": "Found the book? Lovely. Wait for the pickup notice before heading over, and check the due date in your own account. I’d rather you had that extra time for reading.",
       "type": "characterAside",
       "title": "Wait for the pickup notice",
       "role": "practical"
@@ -200,12 +208,16 @@
     },
     {
       "type": "paragraph",
-      "role": "signoff",
       "text": "The useful scale is small: one title, one account, one selected pickup point, and one return governed by local instructions. Ohio’s shared lending network makes collections easier to search across institutional boundaries, while the patron-facing path remains local. Search first, request only if the active record offers it, and plan around the notice and account rather than an assumed travel time.",
       "sourceIds": [
         "source:lib-searchohio",
         "source:lib-ohiolink"
       ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "One book, a pickup notice, and a little time to read. That’s a lovely place to start. ♡"
     }
   ]
 }

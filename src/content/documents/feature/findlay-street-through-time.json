@@ -122,6 +122,15 @@
     {
       "type": "paragraph",
       "role": "intro",
+      "text": "Before we head into Findlay Market, come look at the block with me. A street grid, an iron market house, a streetcar stop—there’s quite a lot to notice before we even get to the stalls.",
+      "sourceIds": [
+        "source:str-market-history",
+        "source:str-tour",
+        "source:str-streetcar"
+      ]
+    },
+    {
+      "type": "paragraph",
       "text": "At Findlay Market, a short stretch of Race Street carries more than one city plan. The street is part of a grid laid out before this area joined Cincinnati; the market building came later, and a modern streetcar now stops at the block. Read the block through its changing infrastructure: the plat lays out streets, the market history describes a public institution, and the present route shows how transit reaches the area.",
       "sourceIds": [
         "source:str-market-history",
@@ -204,7 +213,7 @@
       ]
     },
     {
-      "text": "A plat lays out streets; a Sanborn sheet records buildings; today’s transit map shows a route. Put them side by side, and leave residents’ lived experience to the sources that can speak to it.",
+      "text": "Ooh, the same block looks different on each map. The plat gives us streets, the Sanborn sheet gives us buildings, and today’s transit map gives us a route. For what life felt like here, we’ll need people’s own accounts, too.",
       "type": "characterAside",
       "sourceIds": [
         "source:str-market-history",
@@ -282,13 +291,17 @@
     },
     {
       "type": "paragraph",
-      "role": "signoff",
       "text": "A useful walk is also a map comparison. Mark Race and Elder, find the market block on a verified historic sheet, then compare it with the city’s current streetcar map. The 1833 plat gives the grid’s early structure; the market history records construction changes; the district record supplies a preservation frame; the transit map shows today’s connection. Each source has a different scale and purpose. A map can explain a sequence of plans and buildings, but a sensory account of a past street would need a dated photograph, diary, recording, or a person’s own testimony.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-sanborn",
         "source:str-streetcar"
       ]
+    },
+    {
+      "type": "paragraph",
+      "role": "signoff",
+      "text": "Keep Race and Elder in mind. Next time you look at the market block, you’ll have a few more things to notice. ♡"
     }
   ]
 }
