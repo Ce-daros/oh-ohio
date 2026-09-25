@@ -5,7 +5,7 @@
     "kind": "note",
     "title": "Try it at COSI",
     "summary": "Hey, at COSI you can test a question with your own hands. I want to see what you try first.",
-    "canonicalPath": "/live#cosi-try-it-yourself",
+    "canonicalPath": "/notes/cosi-try-it-yourself",
     "primaryWorld": "live",
     "worlds": [
       "live"

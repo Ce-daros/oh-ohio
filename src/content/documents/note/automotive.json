@@ -5,7 +5,7 @@
     "kind": "note",
     "title": "Automotive & mobility",
     "summary": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
-    "canonicalPath": "/make#automotive",
+    "canonicalPath": "/notes/automotive",
     "primaryWorld": "make",
     "worlds": [
       "make"

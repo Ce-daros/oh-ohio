@@ -5,7 +5,7 @@
     "kind": "note",
     "title": "The Port of Toledo",
     "summary": "Wait, what happens after a lake freighter docks? I’ll trace Toledo’s cargo from the waterfront toward the rail lines and roads beyond.",
-    "canonicalPath": "/make#port-of-toledo",
+    "canonicalPath": "/notes/port-of-toledo",
     "primaryWorld": "make",
     "worlds": [
       "make"

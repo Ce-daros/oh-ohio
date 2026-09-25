@@ -5,7 +5,7 @@
     "kind": "note",
     "title": "Technology",
     "summary": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
-    "canonicalPath": "/make#technology",
+    "canonicalPath": "/notes/technology",
     "primaryWorld": "make",
     "worlds": [
       "make"

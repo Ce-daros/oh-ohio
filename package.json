@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vue-tsc --noEmit && vite build && node scripts/create-route-entries.mjs",
+    "build": "node scripts/build.mjs",
+    "validate:content": "node scripts/content-manifest.mjs --check && node scripts/content-validate.mjs && node --test scripts/content-validate.test.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

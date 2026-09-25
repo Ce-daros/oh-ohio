@@ -5,7 +5,7 @@
     "kind": "note",
     "title": "Healthcare & life sciences",
     "summary": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
-    "canonicalPath": "/make#healthcare",
+    "canonicalPath": "/notes/healthcare",
     "primaryWorld": "make",
     "worlds": [
       "make"

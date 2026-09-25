@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const idPattern = /^(note|phrase|feature):[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const kinds = new Set(['note', 'phrase', 'feature']);
-const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'route']);
+const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'video', 'route']);
 const asideRoles = new Set(['welcome', 'notice', 'explain', 'listen', 'practical', 'farewell']);
 const mediaUses = new Set(['atmosphere', 'explanation', 'documentary']);
 
@@ -65,6 +65,7 @@ export function validateContent(repoRoot = process.cwd()) {
   unique(sources, `${base}data/sources.json`, 'source ID', item => item.id);
   unique(media, `${base}data/media.json`, 'media ID', item => item.id);
   unique(collections, `${base}data/collections.json`, 'collection ID', item => item.id);
+  unique(collections.filter(item => item.kind === 'dossier'), `${base}data/collections.json`, 'dossier slug', item => item.slug);
 
   for (const { file, data } of docs) {
     const meta = data.meta;
@@ -74,7 +75,8 @@ export function validateContent(repoRoot = process.cwd()) {
     if (!slugPattern.test(meta.slug)) fail(file, `invalid slug ${meta.slug}`);
     if (!Number.isInteger(meta.order) || meta.order < 0) fail(file, 'order must be a nonnegative integer');
     if (`${base}${meta.bodyPath.slice(2)}` !== file) fail(file, `bodyPath ${meta.bodyPath} does not match filename`);
-    if (meta.canonicalPath !== (meta.kind === 'feature' ? `/journal/${meta.slug}` : `/${meta.primaryWorld}#${meta.slug}`)) fail(file, `invalid canonicalPath ${meta.canonicalPath}`);
+    const expectedPath = meta.kind === 'feature' ? `/journal/${meta.slug}` : meta.kind === 'phrase' ? `/words/${meta.slug}` : `/notes/${meta.slug}`;
+    if (meta.canonicalPath !== expectedPath) fail(file, `invalid canonicalPath ${meta.canonicalPath}`);
     nonempty(meta.title, file, 'title');
     nonempty(meta.summary, file, 'summary');
     linked(meta.primaryWorld, worldIds, file, 'primaryWorld');
@@ -117,6 +119,7 @@ export function validateContent(repoRoot = process.cwd()) {
       if (block.type === 'heading') { nonempty(block.title, at, 'title'); nonempty(block.eyebrow, at, 'eyebrow'); if (!slugPattern.test(block.id)) fail(at, `invalid heading ID ${block.id}`); if (headings.has(block.id)) fail(at, `duplicate heading ID ${block.id}`); headings.add(block.id); }
       if (block.type === 'illustration') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'image') fail(at, 'illustration requires image media'); }
       if (block.type === 'audio') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'audio') fail(at, 'audio block requires audio media'); nonempty(block.transcript, at, 'transcript'); }
+      if (block.type === 'video') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'video') fail(at, 'video block requires video media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'process') { nonempty(block.title, at, 'title'); validateItems(block.steps, at, ['title', 'text'], fail, nonempty); }
       if (block.type === 'quote') { nonempty(block.text, at, 'text'); nonempty(block.attribution, at, 'attribution'); if (block.sourceId) linked(block.sourceId, sourceIds, at, 'sourceId'); }
       if (block.type === 'timeline') validateItems(block.events, at, ['label', 'text'], fail, nonempty);
@@ -157,6 +160,10 @@ export function validateContent(repoRoot = process.cwd()) {
     else { unique(collection.itemIds, file, 'item ID', id => id); collection.itemIds.forEach(id => linked(id, new Set(byId.keys()), file, 'item')); }
     if (!collection.itemIds.includes(collection.featuredId)) fail(file, `featuredId ${collection.featuredId} must be in itemIds`);
     if (collection.world) linked(collection.world, worldIds, file, 'world');
+    if (collection.kind === 'dossier') {
+      if (!slugPattern.test(collection.slug)) fail(file, `invalid dossier slug ${collection.slug}`);
+      if (byId.get(collection.featuredId)?.kind !== 'feature') fail(file, 'dossier featuredId must reference a feature');
+    }
   }
   for (const [world, groups] of Object.entries(scenes)) {
     linked(world, worldIds, `${base}data/scenes.json`, 'world');
@@ -177,6 +184,7 @@ export function validateContent(repoRoot = process.cwd()) {
     if (bySlug.has(oldSlug)) fail(file, `old slug ${oldSlug} collides with a canonical slug`);
     if (!bySlug.has(newSlug)) fail(file, `migration ${oldSlug} references unknown slug ${newSlug}`);
   }
+  for (const oldSlug of ['phrase-1', 'phrase-2', 'phrase-3', 'phrase-4']) if (!migrations[oldSlug]) fail(`${base}data/migrations.json`, `missing legacy slug ${oldSlug}`);
   return errors;
 }
 

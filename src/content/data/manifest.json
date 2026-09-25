@@ -7,7 +7,7 @@
       "kind": "note",
       "title": "The North Coast",
       "summary": "Lake air, long horizons, and islands on the map—northern Ohio knows how to make an entrance. The shoreline is a lovely place to start. ♡",
-      "canonicalPath": "/explore#north-coast",
+      "canonicalPath": "/notes/north-coast",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -39,7 +39,7 @@
       "kind": "note",
       "title": "Appalachian Ohio",
       "summary": "The roads start bending, the hills gather around you, and Ohio changes its rhythm. The southeast’s landscape and lived regional identity are worth getting to know at a thoughtful pace.",
-      "canonicalPath": "/explore#appalachian-ohio",
+      "canonicalPath": "/notes/appalachian-ohio",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -71,7 +71,7 @@
       "kind": "note",
       "title": "A constellation of cities",
       "summary": "Lakefront Cleveland, central Columbus, riverfront Cincinnati… where to first? Each city has its own personality, and the places between them have plenty to say too. ♡",
-      "canonicalPath": "/explore#cities-regions",
+      "canonicalPath": "/notes/cities-regions",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -105,7 +105,7 @@
       "kind": "note",
       "title": "A layered history",
       "summary": "There’s a deeper story beneath every familiar landmark. Ohio’s history includes Indigenous nations, forced displacement, migration, industry, reform, and communities still shaping what comes next.",
-      "canonicalPath": "/explore#history",
+      "canonicalPath": "/notes/history",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -136,7 +136,7 @@
       "kind": "note",
       "title": "Wild Ohio",
       "summary": "A marsh at sunrise, a forest path, a river bend… Ohio has plenty of reasons to slow down. Let’s trade the checklist for a little patient looking—and enjoy the quiet. ♡",
-      "canonicalPath": "/explore#nature",
+      "canonicalPath": "/notes/nature",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -167,7 +167,7 @@
       "kind": "note",
       "title": "The buckeye state",
       "summary": "A swallow-tailed flag, a bright red bird, and a shiny brown nut. Ohio’s symbols make a sweet little treasure hunt. Ready to spot them?",
-      "canonicalPath": "/explore#symbols",
+      "canonicalPath": "/notes/symbols",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -198,7 +198,7 @@
       "kind": "note",
       "title": "Hocking Hills",
       "summary": "Ooh, this is the Ohio that makes you put your phone away—after one waterfall photo, obviously. Sandstone gorges, forest paths, and a very tempting overnight stay.",
-      "canonicalPath": "/explore#hocking-hills",
+      "canonicalPath": "/notes/hocking-hills",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -234,7 +234,7 @@
       "kind": "note",
       "title": "Cuyahoga Valley",
       "summary": "Wait, a national park between Cleveland and Akron? Yep! Follow the river, find a waterfall, or let the old canal towpath turn a short walk into an afternoon.",
-      "canonicalPath": "/explore#cuyahoga-valley",
+      "canonicalPath": "/notes/cuyahoga-valley",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -266,7 +266,7 @@
       "kind": "note",
       "title": "Lake Erie Islands",
       "summary": "Ooh, ferry day! Lively village streets, quieter beaches, or a long bicycle ride—the islands have different personalities. Let’s pick the one that feels like your kind of escape.",
-      "canonicalPath": "/explore#lake-erie-islands",
+      "canonicalPath": "/notes/lake-erie-islands",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -298,7 +298,7 @@
       "kind": "note",
       "title": "Cleveland",
       "summary": "Ooh, music history, art, neighborhood food, and a whole lake at the edge of town. Cleveland has plenty of ways to steal your afternoon—in the best way. ♡",
-      "canonicalPath": "/explore#cleveland",
+      "canonicalPath": "/notes/cleveland",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -331,7 +331,7 @@
       "kind": "note",
       "title": "Columbus",
       "summary": "Ahh, the Statehouse, a science museum, an arts district, a riverside stroll… Columbus, you’re making it very difficult to choose. Let’s build the day around your favorite things.",
-      "canonicalPath": "/explore#columbus",
+      "canonicalPath": "/notes/columbus",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -363,7 +363,7 @@
       "kind": "note",
       "title": "Cincinnati",
       "summary": "Cincinnati brings river views, hillside neighborhoods, art, markets, and food traditions that are very much their own. We can argue about the chili later.",
-      "canonicalPath": "/explore#cincinnati",
+      "canonicalPath": "/notes/cincinnati",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -395,7 +395,7 @@
       "kind": "note",
       "title": "Dayton",
       "summary": "A bicycle shop, a flying field, and extraordinary aircraft: Dayton lets you follow an idea into the sky. There’s more than one remarkable life story here, too, so take your time.",
-      "canonicalPath": "/explore#dayton",
+      "canonicalPath": "/notes/dayton",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -427,7 +427,7 @@
       "kind": "note",
       "title": "Marblehead Lighthouse",
       "summary": "Hey, I’ve got a Lake Erie view for you: a lighthouse at the peninsula’s edge, with the whole lake opening beyond it ♡",
-      "canonicalPath": "/explore#marblehead-lighthouse",
+      "canonicalPath": "/notes/marblehead-lighthouse",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -463,7 +463,7 @@
       "kind": "note",
       "title": "Wayne’s covered bridge road",
       "summary": "Ooh, a winding river road passes forested hills and covered bridges. The slower route is the lovely one, isn’t it?",
-      "canonicalPath": "/explore#wayne-covered-bridge-byway",
+      "canonicalPath": "/notes/wayne-covered-bridge-byway",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -498,7 +498,7 @@
       "kind": "note",
       "title": "Toledo’s Glass Pavilion",
       "summary": "In Toledo’s Glass City, even the museum walls join the exhibition. The pavilion changes as you move. ♡",
-      "canonicalPath": "/explore#toledo-glass-pavilion",
+      "canonicalPath": "/notes/toledo-glass-pavilion",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -534,7 +534,7 @@
       "kind": "note",
       "title": "Magee Marsh",
       "summary": "A small bird can make a very big journey. Lake Erie’s migrating songbirds reward quiet steps and sharp eyes. ♡",
-      "canonicalPath": "/explore#magee-marsh",
+      "canonicalPath": "/notes/magee-marsh",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -570,7 +570,7 @@
       "kind": "note",
       "title": "Serpent Mound",
       "summary": "A great earthen serpent curls across a ridge. I’ll guide you through this Indigenous place with care, curiosity, and respect.",
-      "canonicalPath": "/explore#serpent-mound",
+      "canonicalPath": "/notes/serpent-mound",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -601,7 +601,7 @@
       "kind": "note",
       "title": "Glen Helen",
       "summary": "A spring, a cascade, and a forest path near town. Glen Helen rewards slow steps and a little curiosity about what’s growing. ♡",
-      "canonicalPath": "/explore#glen-helen",
+      "canonicalPath": "/notes/glen-helen",
       "primaryWorld": "explore",
       "worlds": [
         "explore"
@@ -636,7 +636,7 @@
       "kind": "note",
       "title": "Hopewell Earthworks",
       "summary": "These extraordinary earthworks invite us to slow down and listen. Their geometry belongs to a much deeper story of Indigenous knowledge, community, and enduring cultural meaning.",
-      "canonicalPath": "/culture#hopewell-earthworks",
+      "canonicalPath": "/notes/hopewell-earthworks",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -667,7 +667,7 @@
       "kind": "note",
       "title": "Aviation & invention",
       "summary": "The bicycle shop before the airplane—that’s the detail I love. Dayton’s aviation story makes room for patient experiments, practical skills, and the people around a big idea. Follow the steps and see how it takes shape.",
-      "canonicalPath": "/culture#aviation-heritage",
+      "canonicalPath": "/notes/aviation-heritage",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -699,7 +699,7 @@
       "kind": "note",
       "title": "Music with a pulse",
       "summary": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving.",
-      "canonicalPath": "/culture#music",
+      "canonicalPath": "/notes/music",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -731,7 +731,7 @@
       "kind": "note",
       "title": "Arts & museums",
       "summary": "Ooh, big collections or a tiny gallery you almost walked past? We have room for both. Ohio’s creative life stretches well beyond one museum district—and that’s where a lovely surprise might be waiting.",
-      "canonicalPath": "/culture#arts-museums",
+      "canonicalPath": "/notes/arts-museums",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -762,7 +762,7 @@
       "kind": "note",
       "title": "Regional foodways",
       "summary": "Now this is a map I can get excited about: chili, goetta, neighborhood bakeries, markets, and recipes carried across generations. Ohio tastes different from place to place.",
-      "canonicalPath": "/culture#foodways",
+      "canonicalPath": "/notes/foodways",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -793,7 +793,7 @@
       "kind": "note",
       "title": "Sports & gathering",
       "summary": "Hear that? Game-day noise has a way of spilling into the whole neighborhood. Sports, festivals, and local celebrations turn an ordinary day into a shared one.",
-      "canonicalPath": "/culture#sports-community",
+      "canonicalPath": "/notes/sports-community",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -824,7 +824,7 @@
       "kind": "note",
       "title": "An evening at Severance",
       "summary": "At Severance, home to The Cleveland Orchestra, a seat and a little time let the music do its thing.",
-      "canonicalPath": "/culture#cleveland-orchestra-severance",
+      "canonicalPath": "/notes/cleveland-orchestra-severance",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -860,7 +860,7 @@
       "kind": "note",
       "title": "Freedom stories by the river",
       "summary": "The Ohio River runs right beside this Cincinnati museum, where the setting and the history meet thoughtfully and carefully.",
-      "canonicalPath": "/culture#freedom-center-river",
+      "canonicalPath": "/notes/freedom-center-river",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -896,7 +896,7 @@
       "kind": "note",
       "title": "West Side Market",
       "summary": "Look up at that tiled vault, then take in the counters. Generations of neighbors have shaped this Cleveland market.",
-      "canonicalPath": "/culture#west-side-market",
+      "canonicalPath": "/notes/west-side-market",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -932,7 +932,7 @@
       "kind": "note",
       "title": "A home for cartoon art",
       "summary": "A comic panel can make you laugh and carry history, too. At Ohio State, both sides of the page have a story.",
-      "canonicalPath": "/culture#billy-ireland-cartoon-museum",
+      "canonicalPath": "/notes/billy-ireland-cartoon-museum",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -968,7 +968,7 @@
       "kind": "note",
       "title": "The signs we live by",
       "summary": "A sign catches your eye and can hold a whole street’s memory. Cincinnati has saved plenty of them. ♡",
-      "canonicalPath": "/culture#american-sign-museum",
+      "canonicalPath": "/notes/american-sign-museum",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1004,7 +1004,7 @@
       "kind": "note",
       "title": "Cincinnati Music Hall",
       "summary": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive.",
-      "canonicalPath": "/culture#cincinnati-music-hall",
+      "canonicalPath": "/notes/cincinnati-music-hall",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1036,7 +1036,7 @@
       "kind": "note",
       "title": "Many kinds of work",
       "summary": "Factories, farms, hospitals, campuses, offices—Ohio’s economy is a lot of connected lives. Let’s follow the pieces, and keep an eye on what each big number can actually tell us.",
-      "canonicalPath": "/make#economic-map",
+      "canonicalPath": "/notes/economic-map",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1067,7 +1067,7 @@
       "kind": "note",
       "title": "Making things",
       "summary": "Pick almost any finished product and start tracing it backward. Ohio’s manufacturing story quickly becomes a web of materials, skills, suppliers, and journeys between places.",
-      "canonicalPath": "/make#production",
+      "canonicalPath": "/notes/production",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1098,7 +1098,7 @@
       "kind": "note",
       "title": "Work & household budgets",
       "summary": "A statewide average can’t tell you what every household’s day feels like. Wages, hours, stability, housing, and the trip to work all belong in the picture.",
-      "canonicalPath": "/make#jobs-households",
+      "canonicalPath": "/notes/jobs-households",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1129,7 +1129,7 @@
       "kind": "note",
       "title": "Trade & movement",
       "summary": "Ports, interstates, rail lines, airports—Ohio has a lot of ways to send things on their way. Those routes carry local work to much wider markets. Let’s follow where they lead.",
-      "canonicalPath": "/make#trade",
+      "canonicalPath": "/notes/trade",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1160,7 +1160,7 @@
       "kind": "note",
       "title": "The Port of Toledo",
       "summary": "Wait, what happens after a lake freighter docks? I’ll trace Toledo’s cargo from the waterfront toward the rail lines and roads beyond.",
-      "canonicalPath": "/make#port-of-toledo",
+      "canonicalPath": "/notes/port-of-toledo",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1193,7 +1193,7 @@
       "kind": "note",
       "title": "Advanced manufacturing",
       "summary": "Robots get the dramatic photos, but the really interesting part is how people improve the whole process. Ohio’s manufacturing connects careful design with things that actually get made.",
-      "canonicalPath": "/make#advanced-manufacturing",
+      "canonicalPath": "/notes/advanced-manufacturing",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1224,7 +1224,7 @@
       "kind": "note",
       "title": "Aerospace & defense",
       "summary": "An aircraft has a very long supporting cast. Materials, software, precision parts, testing, maintenance—Ohio’s aviation story is still finding new ways to take shape.",
-      "canonicalPath": "/make#aerospace",
+      "canonicalPath": "/notes/aerospace",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1255,7 +1255,7 @@
       "kind": "note",
       "title": "Automotive & mobility",
       "summary": "Let’s peek under the hood. Ohio’s vehicle industry stretches from assembly and engines to electronics, batteries, testing, and all the suppliers between them.",
-      "canonicalPath": "/make#automotive",
+      "canonicalPath": "/notes/automotive",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1286,7 +1286,7 @@
       "kind": "note",
       "title": "Healthcare & life sciences",
       "summary": "A discovery in a lab has quite a journey before it can help a patient. Ohio’s health systems, universities, manufacturers, and researchers work at different points along that path.",
-      "canonicalPath": "/make#healthcare",
+      "canonicalPath": "/notes/healthcare",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1317,7 +1317,7 @@
       "kind": "note",
       "title": "Food & agribusiness",
       "summary": "That grocery shelf has a backstory. Farms, processors, packaging, cold storage, equipment, and delivery all help turn what grows into what reaches our tables.",
-      "canonicalPath": "/make#food-agriculture",
+      "canonicalPath": "/notes/food-agriculture",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1348,7 +1348,7 @@
       "kind": "note",
       "title": "Logistics & distribution",
       "summary": "Things don’t get where they’re going by wishing very hard. Roads, rail, air, water, planning, and people keep Ohio’s farms, factories, shops, and customers connected.",
-      "canonicalPath": "/make#logistics",
+      "canonicalPath": "/notes/logistics",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1379,7 +1379,7 @@
       "kind": "note",
       "title": "Technology",
       "summary": "Code doesn’t always live in an app on your phone. In Ohio, it can help a factory make a part, support a medical tool, or follow freight across the map.",
-      "canonicalPath": "/make#technology",
+      "canonicalPath": "/notes/technology",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1410,7 +1410,7 @@
       "kind": "note",
       "title": "Energy & chemicals",
       "summary": "Power, coatings, polymers, fuels—some of Ohio’s most widely used products work quietly behind the scenes. Let’s follow the materials, with the practical questions still in view.",
-      "canonicalPath": "/make#energy-chemicals",
+      "canonicalPath": "/notes/energy-chemicals",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1441,7 +1441,7 @@
       "kind": "note",
       "title": "The ice inside NASA Glenn",
       "summary": "A wind tunnel that makes ice? Ooh, Cleveland researchers put aircraft to a very cold test.",
-      "canonicalPath": "/make#glenn-icing-tunnel",
+      "canonicalPath": "/notes/glenn-icing-tunnel",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1477,7 +1477,7 @@
       "kind": "note",
       "title": "East Liverpool in clay",
       "summary": "Kilns helped shape East Liverpool. The Museum of Ceramics tells the story of the hands behind its pottery. ♡",
-      "canonicalPath": "/make#east-liverpool-ceramics",
+      "canonicalPath": "/notes/east-liverpool-ceramics",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1508,7 +1508,7 @@
       "kind": "note",
       "title": "A whistle from Columbus",
       "summary": "That little whistle has quite a making story. Columbus turns brass into a clear, piercing signal.",
-      "canonicalPath": "/make#columbus-whistle-factory",
+      "canonicalPath": "/notes/columbus-whistle-factory",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1540,7 +1540,7 @@
       "kind": "note",
       "title": "Rookwood's Cincinnati clay",
       "summary": "A tile can belong to a building and still be a little work of art. Cincinnati’s Rookwood makers have explored that since 1880. ♡",
-      "canonicalPath": "/make#rookwood-cincinnati",
+      "canonicalPath": "/notes/rookwood-cincinnati",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1572,7 +1572,7 @@
       "kind": "note",
       "title": "Akron and the rubber road",
       "summary": "Before Akron tires rolled everywhere, local factories made all kinds of rubber goods. That work grew into a citywide industry.",
-      "canonicalPath": "/make#akron-rubber-work",
+      "canonicalPath": "/notes/akron-rubber-work",
       "primaryWorld": "make",
       "worlds": [
         "make"
@@ -1608,7 +1608,7 @@
       "kind": "note",
       "title": "More than one Ohio accent",
       "summary": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?",
-      "canonicalPath": "/culture#regional-voices",
+      "canonicalPath": "/notes/regional-voices",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1643,7 +1643,7 @@
       "kind": "note",
       "title": "Appalachian English",
       "summary": "A voice can carry family, place, and a lifetime of conversations. Appalachian English is varied and expressive; let’s listen with curiosity and let speakers tell their own stories.",
-      "canonicalPath": "/culture#appalachian-english",
+      "canonicalPath": "/notes/appalachian-english",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1674,7 +1674,7 @@
       "kind": "note",
       "title": "Names worth asking about",
       "summary": "Scioto, Cuyahoga, Bellefontaine… a familiar-looking spelling can still catch you by surprise. No shame in asking. Local names are an invitation to listen.",
-      "canonicalPath": "/culture#place-names",
+      "canonicalPath": "/notes/place-names",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1705,7 +1705,7 @@
       "kind": "note",
       "title": "Many languages, many homes",
       "summary": "English is only part of what you’ll hear here. Ohio’s families and communities bring many languages into classrooms, neighborhoods, and everyday conversations. What a lovely chorus.",
-      "canonicalPath": "/culture#community-languages",
+      "canonicalPath": "/notes/community-languages",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -1740,7 +1740,7 @@
       "kind": "note",
       "title": "Executive branch",
       "summary": "A law passes, then a whole team has work to do. Ohio’s governor, statewide offices, and agencies carry out the laws and run public services. Let’s meet the offices behind the day-to-day details.",
-      "canonicalPath": "/live#executive",
+      "canonicalPath": "/notes/executive",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1771,7 +1771,7 @@
       "kind": "note",
       "title": "Legislative branch",
       "summary": "A bill has quite a journey before it becomes law. Ohio’s House and Senate consider proposals, debate budgets, and leave a public record you can follow. Ready to see each step?",
-      "canonicalPath": "/live#legislative",
+      "canonicalPath": "/notes/legislative",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1802,7 +1802,7 @@
       "kind": "note",
       "title": "Judicial branch",
       "summary": "Courts resolve disputes and apply the law. Ohio has several kinds, each with its own role—so let’s get our bearings before we follow a case through the system.",
-      "canonicalPath": "/live#judicial",
+      "canonicalPath": "/notes/judicial",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1833,7 +1833,7 @@
       "kind": "note",
       "title": "Closer to home",
       "summary": "The Statehouse isn’t the only place decisions happen. Counties, cities, villages, and townships handle work closer to home, with responsibilities that depend on the place and service. Let’s find the right local door.",
-      "canonicalPath": "/live#local-government",
+      "canonicalPath": "/notes/local-government",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1868,7 +1868,7 @@
       "kind": "note",
       "title": "Step inside the Statehouse",
       "summary": "Ohio lawmakers meet in this building, whose halls and museum bring state government into view.",
-      "canonicalPath": "/live#statehouse-open-door",
+      "canonicalPath": "/notes/statehouse-open-door",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1904,7 +1904,7 @@
       "kind": "note",
       "title": "Universities across Ohio",
       "summary": "Ooh, big campus, small college, a technical program close to home—Ohio has more than one way to be a student. Let’s find the questions that matter to you. ♡",
-      "canonicalPath": "/live#universities",
+      "canonicalPath": "/notes/universities",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1935,7 +1935,7 @@
       "kind": "note",
       "title": "Research & discovery",
       "summary": "A good question can travel a long way. Ohio’s labs, hospitals, campuses, museums, and research partnerships give curious people places to follow it. Ooh, where might yours lead?",
-      "canonicalPath": "/live#research",
+      "canonicalPath": "/notes/research",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1966,7 +1966,7 @@
       "kind": "note",
       "title": "Learning at every age",
       "summary": "Learning doesn’t end at one age or follow one neat route. Ohio’s schools and career programs connect classroom ideas with practical skills. Let’s see what you’d like to learn next.",
-      "canonicalPath": "/live#schools-learning",
+      "canonicalPath": "/notes/schools-learning",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -1997,7 +1997,7 @@
       "kind": "note",
       "title": "Libraries for everyone",
       "summary": "Ahh, books are only the beginning, which is excellent news for curious people. Ohio’s libraries also offer research, digital access, local history, learning programs, and a place to settle in.",
-      "canonicalPath": "/live#libraries",
+      "canonicalPath": "/notes/libraries",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2028,7 +2028,7 @@
       "kind": "note",
       "title": "Community life",
       "summary": "Ooh, a town starts feeling different when you meet the people who gather there. Libraries, local groups, festivals, faith communities, and volunteers help make that happen.",
-      "canonicalPath": "/live#community-life",
+      "canonicalPath": "/notes/community-life",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2059,7 +2059,7 @@
       "kind": "note",
       "title": "A bigger library shelf",
       "summary": "Ahh, one book can lead to shelves all across Ohio. That’s the library network at work. ♡",
-      "canonicalPath": "/live#ohiolink-shared-shelves",
+      "canonicalPath": "/notes/ohiolink-shared-shelves",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2094,7 +2094,7 @@
       "kind": "note",
       "title": "Try it at COSI",
       "summary": "Hey, at COSI you can test a question with your own hands. I want to see what you try first.",
-      "canonicalPath": "/live#cosi-try-it-yourself",
+      "canonicalPath": "/notes/cosi-try-it-yourself",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2130,7 +2130,7 @@
       "kind": "note",
       "title": "Stories in Wilberforce",
       "summary": "Art, objects, and documents tell Black histories at Wilberforce’s National Afro-American Museum & Cultural Center. Begin with what draws your eye.",
-      "canonicalPath": "/live#wilberforce-black-history",
+      "canonicalPath": "/notes/wilberforce-black-history",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2161,7 +2161,7 @@
       "kind": "note",
       "title": "A nature center afternoon",
       "summary": "A peek at the exhibits, then a walk toward the river? I have just the afternoon in mind at Rocky River Nature Center.",
-      "canonicalPath": "/live#rocky-river-nature-center",
+      "canonicalPath": "/notes/rocky-river-nature-center",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2197,7 +2197,7 @@
       "kind": "note",
       "title": "Grow something together",
       "summary": "At Dayton’s Possum Creek MetroPark, a garden plot brings a season of shared work and new skills. Ooh, I like having a reason to return ♡",
-      "canonicalPath": "/live#possum-creek-gardens",
+      "canonicalPath": "/notes/possum-creek-gardens",
       "primaryWorld": "live",
       "worlds": [
         "live"
@@ -2233,7 +2233,7 @@
       "kind": "phrase",
       "title": "you’uns / y’uns",
       "summary": "plural ‘you’; ‘you all’",
-      "canonicalPath": "/culture#youuns-yuns",
+      "canonicalPath": "/words/youuns-yuns",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -2263,7 +2263,7 @@
       "kind": "phrase",
       "title": "mamaw / papaw",
       "summary": "grandmother / grandfather",
-      "canonicalPath": "/culture#mamaw-papaw",
+      "canonicalPath": "/words/mamaw-papaw",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -2293,7 +2293,7 @@
       "kind": "phrase",
       "title": "needs washed",
       "summary": "needs to be washed",
-      "canonicalPath": "/culture#needs-washed",
+      "canonicalPath": "/words/needs-washed",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
@@ -2323,7 +2323,7 @@
       "kind": "phrase",
       "title": "Scioto",
       "summary": "Ohio river and place name; Ohio University pronunciation guide gives ‘sigh-OH-tuh’",
-      "canonicalPath": "/culture#scioto",
+      "canonicalPath": "/words/scioto",
       "primaryWorld": "culture",
       "worlds": [
         "culture"
