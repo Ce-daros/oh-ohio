@@ -9,6 +9,7 @@ const commands = [
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssr', 'src/entry-server.ts', '--outDir', '.ssr'],
   ['scripts/prerender.mjs'],
   ['scripts/prerender-verify.mjs'],
+  ['--test', 'scripts/prerender-http.test.mjs'],
 ];
 
 for (const args of commands) {

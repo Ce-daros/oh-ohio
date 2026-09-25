@@ -13,9 +13,11 @@ function fixture() {
   fs.cpSync(path.join(projectRoot, 'src/content'), path.join(root, 'src/content'), { recursive: true });
   const media = JSON.parse(fs.readFileSync(path.join(root, 'src/content/data/media.json'), 'utf8'));
   for (const item of media) {
-    const target = path.join(root, 'public', item.src.slice(1));
-    fs.mkdirSync(path.dirname(target), { recursive: true });
-    fs.writeFileSync(target, '');
+    for (const asset of [item.src, ...(item.variants?.map(variant => variant.src) ?? [])]) {
+      const target = path.join(root, 'public', asset.slice(1));
+      fs.mkdirSync(path.dirname(target), { recursive: true });
+      fs.writeFileSync(target, '');
+    }
   }
   return root;
 }
@@ -59,6 +61,21 @@ checkCorruption('rejects empty body content',
   'src/content/documents/note/north-coast.json',
   doc => { doc.blocks[0].text = ''; },
   /north-coast\.json blocks\[0\]: text must be non-empty text/);
+
+checkCorruption('rejects a block source absent from article citations',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.blocks[0].sourceIds = ['source:missing']; },
+  /north-coast\.json blocks\[0\]: sourceId references unknown source:missing/);
+
+checkCorruption('rejects an unevidenced publication timestamp',
+  'src/content/documents/note/north-coast.json',
+  doc => { doc.meta.publishedAt = '2024-01-01T00:00:00Z'; },
+  /north-coast\.json: publishedAt evidence sourceId references unknown undefined/);
+
+checkCorruption('rejects invalid geocoded places',
+  'src/content/data/places.json',
+  places => { places[0].coordinates = { lat: 200, lon: -83 }; places[0].sourceId = 'source:missing'; },
+  /places\.json ohio: coordinates must be valid latitude and longitude/);
 
 checkCorruption('rejects missing media assets',
   'src/content/data/media.json',

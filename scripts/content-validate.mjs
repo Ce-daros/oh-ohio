@@ -8,6 +8,7 @@ const kinds = new Set(['note', 'phrase', 'feature']);
 const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'video', 'route']);
 const asideRoles = new Set(['welcome', 'notice', 'explain', 'listen', 'practical', 'farewell']);
 const mediaUses = new Set(['atmosphere', 'explanation', 'documentary']);
+const mediaKinds = new Set(['image', 'audio', 'video']);
 
 export function validateContent(repoRoot = process.cwd()) {
   const errors = [];
@@ -88,23 +89,26 @@ export function validateContent(repoRoot = process.cwd()) {
     else meta.places.forEach(id => linked(id, placeIds, file, 'place'));
     if (!Array.isArray(meta.sourceRefs) || !meta.sourceRefs.length) fail(file, 'sourceRefs must contain at least one source');
     else meta.sourceRefs.forEach(ref => { linked(ref.id, sourceIds, file, 'sourceRef'); nonempty(ref.label, file, 'sourceRef.label'); });
+    const articleSourceIds = new Set(meta.sourceRefs?.map(ref => ref.id));
     if (!collectionMembers.has(meta.id)) fail(file, `orphan document ${meta.id}: no collection contains it`);
     if (meta.verification?.status !== 'unverified' && meta.verification?.status !== 'verified') fail(file, 'verification status must be explicit');
     if (meta.verification?.status === 'verified') {
       if (!validDate(meta.verification.verifiedAt)) fail(file, 'verifiedAt must be a real ISO date');
-      linked(meta.verification.sourceId, sourceIds, file, 'verification sourceId');
+      linked(meta.verification.sourceId, articleSourceIds, file, 'verification sourceId');
     }
     for (const field of ['publishedAt', 'updatedAt']) if (meta[field]) {
       if (!validDate(meta[field])) fail(file, `${field} must be a real ISO date`);
-      linked(meta.dateEvidence?.[field], sourceIds, file, `${field} evidence sourceId`);
+      linked(meta.dateEvidence?.[field], articleSourceIds, file, `${field} evidence sourceId`);
     }
     if (meta.kind === 'note') { nonempty(meta.sectionId, file, 'sectionId'); nonempty(meta.kicker, file, 'kicker'); }
     if (meta.kind === 'phrase') nonempty(meta.region, file, 'region');
     if (meta.kind === 'feature') {
       for (const field of ['category', 'location', 'duration', 'readTime', 'coverAlt', 'titleAccent']) nonempty(meta[field], file, field);
       linked(meta.coverMediaId, mediaIds, file, 'coverMediaId');
+      if (media.find(item => item.id === meta.coverMediaId)?.kind !== 'image') fail(file, 'coverMediaId must reference image media');
+      if (!collections.some(item => item.kind === 'category' && item.presentation?.id === meta.category)) fail(file, `unknown category ${meta.category}`);
       if (!Array.isArray(meta.recommendations)) fail(file, 'recommendations must be an array');
-      else meta.recommendations.forEach(rec => { linked(rec.id, new Set(metas.filter(item => item.kind === 'feature').map(item => item.id)), file, 'recommendation'); nonempty(rec.reason, file, 'recommendation.reason'); });
+      else { unique(meta.recommendations, file, 'recommendation', item => item.id); meta.recommendations.forEach(rec => { linked(rec.id, new Set(metas.filter(item => item.kind === 'feature').map(item => item.id)), file, 'recommendation'); if (rec.id === meta.id) fail(file, 'feature cannot recommend itself'); nonempty(rec.reason, file, 'recommendation.reason'); }); }
     }
     if (!data.blocks.length) fail(file, 'body must contain blocks');
     const headings = new Set();
@@ -113,7 +117,7 @@ export function validateContent(repoRoot = process.cwd()) {
       if (!blockTypes.has(block.type)) { fail(at, `unknown block type ${block.type}`); continue; }
       if (block.sourceIds !== undefined) {
         if (!Array.isArray(block.sourceIds)) fail(at, 'sourceIds must be an array');
-        else block.sourceIds.forEach(id => linked(id, sourceIds, at, 'sourceId'));
+        else block.sourceIds.forEach(id => linked(id, articleSourceIds, at, 'sourceId'));
       }
       if (block.type === 'paragraph') { nonempty(block.text, at, 'text'); if (block.role && !['intro', 'signoff'].includes(block.role)) fail(at, `invalid paragraph role ${block.role}`); }
       if (block.type === 'heading') { nonempty(block.title, at, 'title'); nonempty(block.eyebrow, at, 'eyebrow'); if (!slugPattern.test(block.id)) fail(at, `invalid heading ID ${block.id}`); if (headings.has(block.id)) fail(at, `duplicate heading ID ${block.id}`); headings.add(block.id); }
@@ -121,7 +125,7 @@ export function validateContent(repoRoot = process.cwd()) {
       if (block.type === 'audio') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'audio') fail(at, 'audio block requires audio media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'video') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'video') fail(at, 'video block requires video media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'process') { nonempty(block.title, at, 'title'); validateItems(block.steps, at, ['title', 'text'], fail, nonempty); }
-      if (block.type === 'quote') { nonempty(block.text, at, 'text'); nonempty(block.attribution, at, 'attribution'); if (block.sourceId) linked(block.sourceId, sourceIds, at, 'sourceId'); }
+      if (block.type === 'quote') { nonempty(block.text, at, 'text'); nonempty(block.attribution, at, 'attribution'); if (block.sourceId) linked(block.sourceId, articleSourceIds, at, 'sourceId'); }
       if (block.type === 'timeline') validateItems(block.events, at, ['label', 'text'], fail, nonempty);
       if (block.type === 'practical') validateItems(block.items, at, ['label', 'text'], fail, nonempty);
       if (block.type === 'characterAside') { nonempty(block.title, at, 'title'); nonempty(block.text, at, 'text'); if (block.role && !asideRoles.has(block.role)) fail(at, `invalid characterAside role ${block.role}`); }
@@ -145,11 +149,25 @@ export function validateContent(repoRoot = process.cwd()) {
   }
   for (const item of media) {
     const file = `${base}data/media.json ${item.id}`;
+    if (!mediaKinds.has(item.kind)) fail(file, `invalid kind ${item.kind}`);
     if (!mediaUses.has(item.use)) fail(file, `invalid use ${item.use}`);
     if (!['unverified', 'verified'].includes(item.provenance?.status)) fail(file, 'provenance status must be explicit');
+    if (item.provenance?.status === 'verified') linked(item.provenance.sourceId, sourceIds, file, 'provenance sourceId');
     if (!['unverified', 'cleared'].includes(item.rights?.status)) fail(file, 'rights status must be explicit');
+    if (item.rights?.status === 'cleared') nonempty(item.rights.license, file, 'rights.license');
+    if (item.kind === 'image' && item.use !== 'atmosphere') nonempty(item.alt, file, 'alt');
     if (!item.src.startsWith('/') || item.src.includes('..') || !fs.existsSync(path.join(repoRoot, 'public', item.src.slice(1)))) fail(file, `asset missing ${item.src}`);
-    item.variants?.forEach(variant => { if (!fs.existsSync(path.join(repoRoot, 'public', variant.src.slice(1)))) fail(file, `variant asset missing ${variant.src}`); });
+    item.variants?.forEach(variant => {
+      if (!Number.isInteger(variant.width) || variant.width <= 0 || !Number.isInteger(variant.height) || variant.height <= 0) fail(file, `variant ${variant.src} requires positive pixel dimensions`);
+      if (!variant.src.startsWith('/') || variant.src.includes('..') || !fs.existsSync(path.join(repoRoot, 'public', variant.src.slice(1)))) fail(file, `variant asset missing ${variant.src}`);
+    });
+    for (const [name, point] of [['focalPoint', item.focalPoint], ['crop', item.crop]]) if (point) for (const [coordinate, value] of Object.entries(point)) if (!Number.isFinite(value)) fail(file, `${name}.${coordinate} must be finite`);
+  }
+  for (const place of places) {
+    const file = `${base}data/places.json ${place.id}`;
+    nonempty(place.title, file, 'title');
+    if (place.address || place.coordinates) linked(place.sourceId, sourceIds, file, 'place sourceId');
+    if (place.coordinates && (!Number.isFinite(place.coordinates.lat) || place.coordinates.lat < -90 || place.coordinates.lat > 90 || !Number.isFinite(place.coordinates.lon) || place.coordinates.lon < -180 || place.coordinates.lon > 180)) fail(file, 'coordinates must be valid latitude and longitude');
   }
   for (const topic of topics) { const file = `${base}data/topics.json ${topic.id}`; linked(topic.world, worldIds, file, 'world'); linked(topic.featuredId, new Set(byId.keys()), file, 'featuredId'); linked(topic.id, collectionIds, file, 'collection'); }
   for (const collection of collections) {
@@ -188,7 +206,14 @@ export function validateContent(repoRoot = process.cwd()) {
   return errors;
 }
 
-function validDate(value) { return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(value) && !Number.isNaN(Date.parse(value)); }
+function validDate(value) {
+  if (typeof value !== 'string') return false;
+  const parts = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.exec(value);
+  if (!parts || Number.isNaN(Date.parse(value))) return false;
+  const [, year, month, day, hour, minute, second] = parts.map(Number);
+  const calendar = new Date(Date.UTC(year, month - 1, day));
+  return calendar.getUTCFullYear() === year && calendar.getUTCMonth() === month - 1 && calendar.getUTCDate() === day && hour <= 23 && minute <= 59 && second <= 59;
+}
 function validUrl(value) { try { const url = new URL(value); return url.protocol === 'https:' || url.protocol === 'http:'; } catch { return false; } }
 function validateItems(items, file, fields, fail, nonempty) {
   if (!Array.isArray(items) || !items.length) { fail(file, 'items must be a nonempty array'); return; }
