@@ -44,6 +44,8 @@ test('static output serves complete HTML routes and a real 404 over HTTP', async
     const missing = await fetch(`${origin}/no-such-story`);
     assert.equal(missing.status, 404);
     assert.match(await missing.text(), /name="robots" content="noindex,follow"/);
+    const editorial = await fetch(`${origin}/editorial`);
+    assert.equal(editorial.status, 404);
     for (const redirect of redirects) {
       const moved = await fetch(`${origin}${redirect.source}`, { redirect: 'manual' });
       assert.equal(moved.status, 308, redirect.source);

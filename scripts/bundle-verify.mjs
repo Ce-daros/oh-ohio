@@ -5,7 +5,11 @@ const manifest = JSON.parse(fs.readFileSync('src/content/data/manifest.json', 'u
 const ssrManifest = JSON.parse(fs.readFileSync('dist/.vite/ssr-manifest.json', 'utf8'));
 const assetDir = 'dist/assets';
 const scripts = fs.readdirSync(assetDir).filter(name => name.endsWith('.js'));
+if (scripts.some(name => name.startsWith('EditorialPage-'))) throw new Error('Local editorial page was included in the production bundle');
 const textByFile = new Map(scripts.map(name => [name, fs.readFileSync(path.join(assetDir, name), 'utf8')]));
+if ([...textByFile.values()].some(text => text.includes('auditReviewedAt') || text.includes('EDITORIAL / LOCAL WORKSPACE'))) {
+  throw new Error('Internal editorial audit was included in the production bundle');
+}
 const chunkByDocument = new Map(manifest.documents.map(document => {
   const module = `src/content/${document.bodyPath.slice(2)}`;
   const names = ssrManifest[module]?.filter(asset => asset.endsWith('.js')).map(asset => path.basename(asset));
