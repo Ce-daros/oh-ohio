@@ -16,7 +16,7 @@ All documents have `id`, `kind`, `slug`, `title`, `summary`, `canonicalPath`, `p
 
 `publishedAt` is for an actual publication event and may be absent. `updatedAt` records an actual editorial update. Either date requires `dateEvidence.<field> = { "kind": "editorial-record", "path": "editorial/research/<name>.md" }`, pointing to an existing research record. `verifiedAt` is the date a cited source was checked, with `verification.sourceId` among the document's source references. Dates can be ISO calendar dates or precise ISO timestamps.
 
-Body blocks are `paragraph`, `heading`, `illustration`, `process`, `quote`, `timeline`, `practical`, `characterAside`, `audio`, `video`, and `route`. Any block can carry `sourceIds` selected from that document's `sourceRefs`. Headings have stable IDs so direct links work. Route stops can reference registered places. Character asides use an optional role: `welcome`, `notice`, `explain`, `listen`, `practical`, or `farewell`.
+Body blocks are `paragraph`, `heading`, `illustration`, `process`, `quote`, `timeline`, `practical`, `characterAside`, `audio`, `video`, `route`, and `placeMap`. Any block can carry `sourceIds` selected from that document's `sourceRefs`. Headings have stable IDs so direct links work. Route stops can reference registered places. A process defaults to sequential steps; use `layout: "parallel"` for related systems that do not form a sequence. Place maps require sourced geographic coordinates and show a static location diagram before the reader chooses to load the interactive map. Character asides use an optional role: `welcome`, `notice`, `explain`, `listen`, `practical`, or `farewell`.
 
 ## Registries and API
 

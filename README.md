@@ -17,7 +17,9 @@ Stories live in independent JSON documents under `src/content/documents/{feature
 
 The registries in `src/content/data/` hold worlds, topics, places, sources, media, collections, scene relationships, journeys, metrics, and old phrase slug mappings. Collections give editorial order through `itemIds`; dossier collections appear at `/topics/<slug>`. The public content API is `src/content/index.ts`. See [the content architecture guide](editorial/content-architecture.md) before adding a story or source.
 
-`npm run report:coverage` writes `editorial/content-coverage.json` from the canonical graph and the existing-content review. It reports world, category, dossier, source, media, and verification coverage outside the public site. A full build refreshes it.
+`npm run report:coverage` writes `editorial/content-coverage.json` from the canonical graph and the existing-content review. It reports world, category, dossier, source, media, and verification coverage outside the public site. A full build refreshes it. The local development route `/editorial` presents the report with document filters; it is excluded from production builds.
+
+Follow the [voice guide](editorial/voice-guide.md) for Ohio-chan’s bright, natural civic-idol voice, and the [update policy](editorial/update-policy.md) for fact checks, corrections and rights records. The inherited 86-document editorial review is separate from factual verification. It does not claim that those sources were reopened or that proposed merges have already happened.
 
 Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for notes, and `/words/<slug>` for phrases. The four world routes are `/explore`, `/make`, `/culture`, and `/live`. World hashes can open a reading panel. Old chapter paths redirect to their corresponding world, and old phrase hashes resolve through `migrations.json`.
 
