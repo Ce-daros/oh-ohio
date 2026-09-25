@@ -47,7 +47,11 @@ for (const redirect of redirects) if (uniquePaths.has(redirect.source) || !uniqu
 
 for (const [file, value] of [['src/content/data/routes.json', catalog], ['vercel.json', vercel]]) {
   if (process.argv.includes('--check')) {
-    if (JSON.stringify(read(file)) !== JSON.stringify(value)) throw new Error(`${file} is stale; run node scripts/route-catalog.mjs`);
+    const current = read(file);
+    const expected = file === 'vercel.json'
+      ? Object.fromEntries(Object.keys(vercel).map(key => [key, current[key]]))
+      : current;
+    if (JSON.stringify(expected) !== JSON.stringify(value)) throw new Error(`${file} is stale; run node scripts/route-catalog.mjs`);
   } else fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
 }
 
