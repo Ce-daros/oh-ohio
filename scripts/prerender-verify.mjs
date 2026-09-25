@@ -22,6 +22,7 @@ for (const route of routes) {
   const pageStyle = route === '/' ? 'HomePage' : route === '/journal' ? 'JournalPage' : route === '/topics' ? 'TopicsPage' : route === '/search' ? 'SearchPage' : route === '/saved' ? 'SavedPage' : worlds.some(world => route === `/${world.id}`) ? 'ChapterPage' : route.startsWith('/topics/') ? 'TopicPage' : 'ContentPage';
   if (!html.includes(`/assets/${pageStyle}-`) || !new RegExp(`<link rel="stylesheet" href="/assets/${pageStyle}-[^" ]+\\.css"`).test(html)) throw new Error(`${file}: route CSS is not in static HTML`);
   if (route !== '/search' && route !== '/saved' && !html.includes(`rel="canonical" href="${site.origin}${route}"`)) throw new Error(`${file}: canonical URL missing`);
+  if (!html.includes(`property="og:url" content="${site.origin}${route}"`)) throw new Error(`${file}: Open Graph URL missing`);
   if ((route === '/search' || route === '/saved') && !html.includes('name="robots" content="noindex,follow"')) throw new Error(`${file}: noindex missing`);
   for (const match of html.matchAll(/(?:src|href)="(\/[^"?#]+\.(?:webp|png|jpe?g|svg|woff2?|css|js|ico|mp3|mp4))"/g)) {
     const asset = path.join('dist', match[1].slice(1));
@@ -30,6 +31,7 @@ for (const route of routes) {
   }
   for (const match of html.matchAll(/srcset="([^"]+)"/g)) {
     for (const candidate of match[1].split(',').map(value => value.trim().split(/\s+/)[0])) {
+      if (candidate.startsWith('http://') || candidate.startsWith('https://')) continue;
       const asset = path.join('dist', candidate.slice(1));
       if (!fs.existsSync(asset)) throw new Error(`${file}: responsive asset missing ${candidate}`);
       assetsChecked++;

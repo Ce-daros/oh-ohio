@@ -22,14 +22,16 @@ const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('"
 
 function pageHtml(result) {
   const canonical = result.notFound ? '' : `<link rel="canonical" href="${site.origin}${escapeHtml(result.path)}" />`;
-  const image = result.image ? `<meta property="og:image" content="${site.origin}${escapeHtml(result.image)}" />` : '';
+  const imageUrl = result.image && (result.image.startsWith('http://') || result.image.startsWith('https://') ? result.image : `${site.origin}${result.image}`);
+  const image = imageUrl ? `<meta property="og:image" content="${escapeHtml(imageUrl)}" />` : '';
   const styles = new Set(result.modules.flatMap(module => {
     const assets = ssrManifest[module];
     if (!assets) throw new Error(`SSR module absent from client manifest: ${module}`);
     return assets.filter(asset => asset.endsWith('.css'));
   }));
   const links = [...styles].map(asset => `<link rel="stylesheet" href="${asset}" />`).join('');
-  const extra = `${links}${canonical}<meta name="robots" content="${result.noindex ? 'noindex,follow' : 'index,follow'}" /><meta property="og:title" content="${escapeHtml(result.title)}" /><meta property="og:description" content="${escapeHtml(result.description)}" /><meta property="og:type" content="website" />${image}`;
+  const ogUrl = result.notFound ? '' : `<meta property="og:url" content="${site.origin}${escapeHtml(result.path)}" />`;
+  const extra = `${links}${canonical}<meta name="robots" content="${result.noindex ? 'noindex,follow' : 'index,follow'}" /><meta property="og:title" content="${escapeHtml(result.title)}" /><meta property="og:description" content="${escapeHtml(result.description)}" /><meta property="og:type" content="website" />${ogUrl}${image}`;
   return template
     .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(result.title)}</title>`)
     .replace(/<meta name="description" content="[^"]*"\s*\/>/, `<meta name="description" content="${escapeHtml(result.description)}" />`)

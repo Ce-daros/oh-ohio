@@ -61,7 +61,12 @@ function updateHead(to: RouteLocationGeneric) {
   setHeadMeta('meta[property="og:title"]', 'og:title', title, true);
   setHeadMeta('meta[property="og:description"]', 'og:description', description, true);
   setHeadMeta('meta[property="og:type"]', 'og:type', 'website', true);
-  if (to.meta.image) setHeadMeta('meta[property="og:image"]', 'og:image', `${site.origin}${to.meta.image}`, true);
+  if (to.meta.notFound) document.querySelector('meta[property="og:url"]')?.remove();
+  else setHeadMeta('meta[property="og:url"]', 'og:url', `${site.origin}${to.path}`, true);
+  if (to.meta.image) {
+    const image = String(to.meta.image);
+    setHeadMeta('meta[property="og:image"]', 'og:image', image.startsWith('http://') || image.startsWith('https://') ? image : `${site.origin}${image}`, true);
+  } else document.querySelector('meta[property="og:image"]')?.remove();
   const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
   if (to.meta.notFound) canonical?.remove();
   else if (canonical) canonical.href = `${site.origin}${to.path}`;
