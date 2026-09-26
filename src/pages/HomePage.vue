@@ -6,15 +6,15 @@ import HomeTheme from '../components/home/HomeTheme.vue';
 import HomeFieldNotes from '../components/home/HomeFieldNotes.vue';
 import HomeDiscoveries from '../components/home/HomeDiscoveries.vue';
 import HomeNeighborhood from '../components/home/HomeNeighborhood.vue';
-import { useHomeChapters, homeChapters } from '../composables/useHomeChapters';
+import { useHomeSections, homeSections } from '../composables/home/useHomeSections';
 const root = ref<HTMLElement | null>(null);
-const active = useHomeChapters(root);
+const active = useHomeSections(root);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="home-page">
     <HomeWelcome /><HomeWorlds /><HomeTheme /><HomeFieldNotes /><HomeDiscoveries /><HomeNeighborhood />
-    <nav class="home-chapters" aria-label="Homepage chapters">
-      <a v-for="chapter in homeChapters" :key="chapter.id" :href="`#${chapter.id}`" :aria-label="chapter.label" :aria-current="active === chapter.id ? 'location' : undefined"><span>{{ chapter.label }}</span><i aria-hidden="true" /></a>
+    <nav class="home-sections" aria-label="Homepage sections">
+      <a v-for="section in homeSections" :key="section.id" :href="`#${section.id}`" :aria-label="section.label" :aria-current="active === section.id ? 'location' : undefined"><span>{{ section.label }}</span><i aria-hidden="true" /></a>
     </nav>
   </main>
 </template>

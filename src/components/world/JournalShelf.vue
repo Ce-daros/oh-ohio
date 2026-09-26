@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { getCollection, getContent, queryContent, type WorldId } from "../content";
-import ContentCard from "./ContentCard.vue";
-const props = defineProps<{ chapter?: WorldId }>();
-const collection = computed(() => getCollection(props.chapter ? `world:${props.chapter}` : 'home:field-notes'));
+import { getCollection, getContent, queryContent, type WorldId } from "../../content";
+import ContentCard from "../ContentCard.vue";
+const props = defineProps<{ world?: WorldId }>();
+const collection = computed(() => getCollection(props.world ? `world:${props.world}` : 'home:field-notes'));
 const selected = computed(() => collection.value.itemIds.map(getContent));
 const count = queryContent({ kind: 'feature' }).length;
 </script>
 <template>
-  <section class="journal-shelf" :aria-labelledby="`shelf-${chapter || 'home'}`">
-    <div class="shelf-heading"><div><p class="eyebrow">FIELD NOTES</p><h2 :id="`shelf-${chapter || 'home'}`">{{ chapter ? 'A closer look.' : 'Worth an afternoon.' }}</h2></div><div><p>{{ collection.dek }}</p><RouterLink :to="{path:'/journal', query: chapter ? {world:chapter} : {}}">{{ chapter ? 'All stories' : `All ${count} field notes` }} ↗</RouterLink></div></div>
+  <section class="journal-shelf" :aria-labelledby="`shelf-${world || 'home'}`">
+    <div class="shelf-heading"><div><p class="eyebrow">FIELD NOTES</p><h2 :id="`shelf-${world || 'home'}`">{{ world ? 'A closer look.' : 'Worth an afternoon.' }}</h2></div><div><p>{{ collection.dek }}</p><RouterLink :to="{path:'/journal', query: world ? {world:world} : {}}">{{ world ? 'All stories' : `All ${count} field notes` }} ↗</RouterLink></div></div>
     <div class="shelf-grid"><ContentCard v-for="content in selected" :key="content.id" :content="content" /></div>
   </section>
 </template>

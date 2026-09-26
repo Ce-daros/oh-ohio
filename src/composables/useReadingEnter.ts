@@ -5,12 +5,12 @@ import { usePageMotion } from "./usePageMotion";
 import { useGridFlip } from "./useGridFlip";
 
 /**
- * Field notes page: shared masthead choreography + generic reveals
+ * Reading pages (journal and full-page stories): shared masthead choreography + generic reveals
  * (data-reveal / data-reveal-grid / data-reveal-art) + the featured story
  * materializing alongside its cover settling from 1.08. When a filter
  * signal is provided, the archive grid re-flows smoothly on change.
  */
-export function useJournalMotion(root: Ref<HTMLElement | null>, signal?: () => unknown) {
+export function useReadingEnter(root: Ref<HTMLElement | null>, signal?: () => unknown) {
   if (signal) useGridFlip(root, ".journal-grid", signal);
   usePageMotion(root);
   useMotionScope(root, element => {

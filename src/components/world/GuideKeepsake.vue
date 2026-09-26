@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { getWorld, type WorldId } from "../content";
+import { getWorld, type WorldId } from "../../content";
 const props = defineProps<{ world: WorldId }>();
 // Single source of truth: the prop id comes from worlds.json, matching the
 // world-next card, instead of a hand-maintained copy that can drift.

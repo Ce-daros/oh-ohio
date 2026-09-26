@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { getCollection, getContent, type SceneGroup, type WorldId } from "../content";
-import { metrics, sceneGuidance } from "../content/registries";
+import { getCollection, getContent, type SceneGroup, type WorldId } from "../../content";
+import { metrics, sceneGuidance } from "../../content/registries";
 
 import GuideKeepsake from "./GuideKeepsake.vue";
 const props = defineProps<{ world: WorldId; group: SceneGroup; position: number }>();

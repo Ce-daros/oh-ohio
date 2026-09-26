@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { computed, nextTick } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { getContent, getWorld, type WorldId } from "../content";
-import { journeys } from "../content/registries";
-import CharacterArt from "./CharacterArt.vue";
-const props = defineProps<{ chapterId: WorldId }>();
+import { getContent, getWorld, type WorldId } from "../../content";
+import { journeys } from "../../content/registries";
+import CharacterArt from "../CharacterArt.vue";
+const props = defineProps<{ worldId: WorldId }>();
 const route = useRoute();
 const router = useRouter();
-const choices = computed(() => journeys.filter(item => item.world === props.chapterId));
+const choices = computed(() => journeys.filter(item => item.world === props.worldId));
 const journey = computed(() => choices.value.find(item => item.id === route.query.journey) ?? choices.value[0]!);
 const stops = computed(() => journey.value.stops.map(stop => ({ ...stop, content:getContent(stop.contentId) })));
 async function select(id:string, replace=false) {
@@ -25,10 +25,10 @@ async function switchWithKeys(event:KeyboardEvent) {
 }
 </script>
 <template>
-  <section :class="['guided-journeys',`journeys-${chapterId}`]" aria-labelledby="journey-heading">
-    <header class="journeys-header"><div><p class="eyebrow">A READING JOURNEY</p><h2 id="journey-heading">One story leads<br />to <em>another.</em></h2></div><CharacterArt :character="getWorld(chapterId).portrait" alt="Ohio-chan with a few reading suggestions" sizes="180px" /></header>
-    <div class="journey-selector" role="tablist" aria-label="Reading journeys" @keydown="switchWithKeys"><button v-for="(item,index) in choices" :id="`journey-tab-${item.id}`" :key="item.id" role="tab" :aria-selected="journey.id === item.id" :aria-controls="`journey-panel-${chapterId}`" :tabindex="journey.id === item.id ? 0 : -1" @click="select(item.id)"><span>{{ String(index+1).padStart(2,'0') }}</span>{{ item.title }}<span aria-hidden="true">↗</span></button></div>
-    <div :id="`journey-panel-${chapterId}`" class="journey-panel" role="tabpanel" :aria-labelledby="`journey-tab-${journey.id}`" tabindex="0"><p class="journey-intro">{{ journey.intro }}</p><ol class="journey-stops"><li v-for="(stop,index) in stops" :key="stop.contentId"><span class="stop-number">{{ index+1 }}</span><div><p class="stop-world">{{ stop.content.primaryWorld }} / {{ stop.content.kind === 'feature' ? 'Field note' : 'Guide note' }}</p><h3>{{ stop.content.title }}</h3><p class="stop-voice">{{ stop.note }}</p><RouterLink :to="stop.content.canonicalPath">Read this story <span aria-hidden="true">↗</span></RouterLink></div></li></ol></div>
+  <section :class="['guided-journeys',`journeys-${worldId}`]" aria-labelledby="journey-heading">
+    <header class="journeys-header"><div><p class="eyebrow">A READING JOURNEY</p><h2 id="journey-heading">One story leads<br />to <em>another.</em></h2></div><CharacterArt :character="getWorld(worldId).portrait" alt="Ohio-chan with a few reading suggestions" sizes="180px" /></header>
+    <div class="journey-selector" role="tablist" aria-label="Reading journeys" @keydown="switchWithKeys"><button v-for="(item,index) in choices" :id="`journey-tab-${item.id}`" :key="item.id" role="tab" :aria-selected="journey.id === item.id" :aria-controls="`journey-panel-${worldId}`" :tabindex="journey.id === item.id ? 0 : -1" @click="select(item.id)"><span>{{ String(index+1).padStart(2,'0') }}</span>{{ item.title }}<span aria-hidden="true">↗</span></button></div>
+    <div :id="`journey-panel-${worldId}`" class="journey-panel" role="tabpanel" :aria-labelledby="`journey-tab-${journey.id}`" tabindex="0"><p class="journey-intro">{{ journey.intro }}</p><ol class="journey-stops"><li v-for="(stop,index) in stops" :key="stop.contentId"><span class="stop-number">{{ index+1 }}</span><div><p class="stop-world">{{ stop.content.primaryWorld }} / {{ stop.content.kind === 'feature' ? 'Field note' : 'Guide note' }}</p><h3>{{ stop.content.title }}</h3><p class="stop-voice">{{ stop.note }}</p><RouterLink :to="stop.content.canonicalPath">Read this story <span aria-hidden="true">↗</span></RouterLink></div></li></ol></div>
   </section>
 </template>
 <style scoped>

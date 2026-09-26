@@ -4,7 +4,7 @@ import { useRoute } from "vue-router";
 import { collections, getCollection, getContent, getMedia, queryContent, worlds } from "../content";
 import PageMasthead from "../components/PageMasthead.vue";
 import ContentCard from "../components/ContentCard.vue";
-import { useJournalMotion } from "../composables/useJournalMotion";
+import { useReadingEnter } from "../composables/useReadingEnter";
 const route = useRoute();
 const root = ref<HTMLElement | null>(null);
 const articles = queryContent({ kind: 'feature' });
@@ -14,7 +14,7 @@ const selectedWorld = computed(() => typeof route.query.world === 'string' ? rou
 const visible = computed(() => articles.filter(item => item.kind === 'feature' && (!selected.value || item.category === selected.value) && (!selectedWorld.value || item.worlds.includes(selectedWorld.value as typeof item.primaryWorld))));
 const featured = getContent(getCollection('home:field-notes').featuredId);
 const cover = featured.kind === 'feature' ? getMedia(featured.coverMediaId) : undefined;
-useJournalMotion(root, () => visible.value);
+useReadingEnter(root, () => visible.value);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="journal-page">

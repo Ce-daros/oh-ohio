@@ -5,22 +5,22 @@ import { getContent, queryContent, scenes, worlds, resolveLegacySlug, type World
 import { readingContext } from "../reading-context";
 import ReadingPanel from "../components/ReadingPanel.vue";
 import PageMasthead from "../components/PageMasthead.vue";
-import WorldSelection from "../components/WorldSelection.vue";
-import GuidedJourneys from "../components/GuidedJourneys.vue";
-import JournalShelf from "../components/JournalShelf.vue";
+import WorldSelection from "../components/world/WorldSelection.vue";
+import GuidedJourneys from "../components/world/GuidedJourneys.vue";
+import JournalShelf from "../components/world/JournalShelf.vue";
 import WorldNumbers from "../components/world/WorldNumbers.vue";
 import WordCollection from "../components/world/WordCollection.vue";
 import ExploreScene from "../components/scenes/ExploreScene.vue";
 import MakeScene from "../components/scenes/MakeScene.vue";
 import CultureScene from "../components/scenes/CultureScene.vue";
 import LiveScene from "../components/scenes/LiveScene.vue";
-import { useWorldMotion } from "../composables/usePageMotion";
-const props = defineProps<{ chapterId: WorldId }>();
+import { useWorldMotion } from "../composables/useWorldMotion";
+const props = defineProps<{ worldId: WorldId }>();
 const route = useRoute();
 const router = useRouter();
-const chapter = computed(() => worlds.find(item => item.id === props.chapterId)!);
-const groups = computed(() => scenes[props.chapterId]);
-const allEntries = computed(() => queryContent({world:props.chapterId}).filter(item => item.kind !== 'feature'));
+const world = computed(() => worlds.find(item => item.id === props.worldId)!);
+const groups = computed(() => scenes[props.worldId]);
+const allEntries = computed(() => queryContent({world:props.worldId}).filter(item => item.kind !== 'feature'));
 const reading = computed(() => allEntries.value.find(item => item.slug === resolveLegacySlug(route.hash.slice(1))));
 const readingScene = computed(() => groups.value.find(item => reading.value && item.slugs.includes(reading.value.slug))?.id);
 const selectedGroup = computed(() => {
@@ -31,7 +31,7 @@ const selectedGroup = computed(() => {
 });
 const selected = computed(() => selectedGroup.value.id);
 const view = computed(() => route.query.view === 'index' ? 'index' : 'scene');
-const nextWorld = computed(() => worlds[(worlds.findIndex(item => item.id === props.chapterId) + 1) % worlds.length]!);
+const nextWorld = computed(() => worlds[(worlds.findIndex(item => item.id === props.worldId) + 1) % worlds.length]!);
 const root = ref<HTMLElement | null>(null);
 const sceneComponents = { explore:ExploreScene, make:MakeScene, culture:CultureScene, live:LiveScene };
 useWorldMotion(root);
@@ -53,24 +53,24 @@ function closeEntry() {
 }
 </script>
 <template>
-  <main id="main-content" ref="root" tabindex="-1" :class="['world-page', `world-${chapterId}`]" :style="{'--world-color':chapter.color}">
-    <PageMasthead :label="chapter.symbol" :description="chapter.headline" :title-style="chapterId === 'culture' ? 'italic' : 'roman'">
-      <template #title>{{ chapter.title }}<span class="title-period">.</span></template>
-      <template #actions><RouterLink :to="{query:{...route.query,view:undefined},hash:''}" :aria-current="view === 'scene' ? 'page' : undefined">Explore the scene</RouterLink><RouterLink :to="{query:{...route.query,view:'index'},hash:''}" :aria-current="view === 'index' ? 'page' : undefined">Topic index <span>{{ allEntries.length }}</span></RouterLink><RouterLink :to="{path:'/search',query:{world:chapterId}}">Search ↗</RouterLink></template>
+  <main id="main-content" ref="root" tabindex="-1" :class="['world-page', `world-${worldId}`]" :style="{'--world-color':world.color}">
+    <PageMasthead :label="world.symbol" :description="world.headline" :title-style="worldId === 'culture' ? 'italic' : 'roman'">
+      <template #title>{{ world.title }}<span class="title-period">.</span></template>
+      <template #actions><RouterLink :to="{query:{...route.query,view:undefined},hash:''}" :aria-current="view === 'scene' ? 'page' : undefined">Explore the scene</RouterLink><RouterLink :to="{query:{...route.query,view:'index'},hash:''}" :aria-current="view === 'index' ? 'page' : undefined">Topic index <span>{{ allEntries.length }}</span></RouterLink><RouterLink :to="{path:'/search',query:{world:worldId}}">Search ↗</RouterLink></template>
     </PageMasthead>
     <Transition name="view-swap" mode="out-in">
-    <section v-if="view === 'scene'" class="world-body" :aria-label="`${chapter.title} scene`">
-      <div class="world-scene" data-hero-art><component :is="sceneComponents[chapterId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
-      <WorldSelection :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
+    <section v-if="view === 'scene'" class="world-body" :aria-label="`${world.title} scene`">
+      <div class="world-scene" data-hero-art><component :is="sceneComponents[worldId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
+      <WorldSelection :world="worldId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
     </section>
     <section v-else class="world-index" aria-label="Topic index"><div class="topic-groups" data-reveal-grid><section v-for="group in groups" :key="group.id"><h2>{{ group.title }}</h2><a v-for="entry in group.slugs.map(getContent)" :key="entry.id" :href="entry.canonicalPath" @click="openEntry($event,entry.slug)">{{ entry.title }}<span aria-hidden="true">↗</span></a></section></div></section>
     </Transition>
-    <WorldNumbers v-if="chapterId === 'make'" />
-    <WordCollection v-if="chapterId === 'culture'" @read="openEntry" />
-    <JournalShelf data-reveal :chapter="chapterId" />
-    <GuidedJourneys data-reveal :chapter-id="chapterId" />
+    <WorldNumbers v-if="worldId === 'make'" />
+    <WordCollection v-if="worldId === 'culture'" @read="openEntry" />
+    <JournalShelf data-reveal :world="worldId" />
+    <GuidedJourneys data-reveal :world-id="worldId" />
     <RouterLink data-reveal-art class="world-next" :to="`/${nextWorld.id}`" :style="{'--next-color':nextWorld.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextWorld.title }}<span>↗</span></strong><img :src="`/art/small/prop-${nextWorld.prop}.webp`" width="160" height="160" alt="" loading="lazy" /></RouterLink>
-    <ReadingPanel :entry="reading" :world="chapterId" :scene-id="readingScene" @close="closeEntry" />
+    <ReadingPanel :entry="reading" :world="worldId" :scene-id="readingScene" @close="closeEntry" />
   </main>
 </template>
 <style scoped>

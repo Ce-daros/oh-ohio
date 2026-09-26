@@ -2,15 +2,15 @@ import { onMounted, onUnmounted, ref, type Ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SplitText from 'gsap/SplitText';
-import { inputMode, onInputModeChange } from '../input-mode';
+import { inputMode, onInputModeChange } from '../../input-mode';
 
-export const homeChapters = [
+export const homeSections = [
   { id: 'welcome', label: 'Hello' }, { id: 'worlds', label: 'Four worlds' },
   { id: 'in-focus', label: 'In focus' }, { id: 'field-notes', label: 'Field notes' },
   { id: 'discoveries', label: 'Little finds' }, { id: 'neighborhood', label: 'Everyday Ohio' },
 ];
 
-export function useHomeChapters(root: Ref<HTMLElement | null>) {
+export function useHomeSections(root: Ref<HTMLElement | null>) {
   const active = ref('welcome');
   let dispose: () => void;
   onMounted(() => {

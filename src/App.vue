@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
-import { worlds as chapters } from "./content";
+import { worlds } from "./content";
 import { provideReadingList } from "./composables/useReadingList";
 import { startInputModeTracking } from "./input-mode";
 provideReadingList();
@@ -25,7 +25,7 @@ onUnmounted(() => stopInputTracking());
   <header class="site-header" @keydown.esc="closeMenu">
     <RouterLink class="brand" to="/" aria-label="Oh, Ohio home">Oh,<span>Ohio</span><span class="brand-dot">.</span></RouterLink>
     <nav class="desktop-nav" aria-label="Main navigation">
-      <RouterLink v-for="chapter in chapters" :key="chapter.id" :to="`/${chapter.id}`">{{ chapter.title }}</RouterLink>
+      <RouterLink v-for="world in worlds" :key="world.id" :to="`/${world.id}`">{{ world.title }}</RouterLink>
       <RouterLink to="/journal" :class="{ 'router-link-active': route.path.startsWith('/journal') }">Field notes</RouterLink>
       <RouterLink to="/topics">Collections</RouterLink>
     </nav>
@@ -35,7 +35,7 @@ onUnmounted(() => stopInputTracking());
     </button>
     <Transition name="menu">
       <nav v-if="menuOpen" id="explore-menu" class="explore-menu" aria-label="Explore Ohio">
-        <RouterLink v-for="chapter in chapters" :key="chapter.id" :to="`/${chapter.id}`"><span>{{ chapter.symbol }}</span>{{ chapter.title }}<span>↗</span></RouterLink>
+        <RouterLink v-for="world in worlds" :key="world.id" :to="`/${world.id}`"><span>{{ world.symbol }}</span>{{ world.title }}<span>↗</span></RouterLink>
         <RouterLink to="/journal"><span>↳</span>Field notes<span>↗</span></RouterLink>
         <RouterLink to="/topics"><span>↳</span>Collections<span>↗</span></RouterLink>
         <RouterLink to="/saved"><span>♡</span>Reading list<span>↗</span></RouterLink>

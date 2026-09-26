@@ -14,7 +14,7 @@ for (const route of routes) {
   const html = fs.readFileSync(file, 'utf8');
   if (!html.includes('<main') || !html.includes('id="app"')) throw new Error(`${file}: missing actual Vue-rendered main content`);
   if (html.includes('<!--app-html-->') || html.includes('<!--page-head-->')) throw new Error(`${file}: template marker was not replaced`);
-  const pageStyle = { home: 'HomePage', journal: 'JournalPage', topics: 'TopicsPage', search: 'SearchPage', saved: 'SavedPage', world: 'ChapterPage', dossier: 'TopicPage', content: 'ContentPage' }[route.kind];
+  const pageStyle = { home: 'HomePage', journal: 'JournalPage', topics: 'TopicsPage', search: 'SearchPage', saved: 'SavedPage', world: 'WorldPage', dossier: 'TopicPage', content: 'ContentPage' }[route.kind];
   if (!html.includes(`/assets/${pageStyle}-`) || !new RegExp(`<link rel="stylesheet" href="/assets/${pageStyle}-[^" ]+\\.css"`).test(html)) throw new Error(`${file}: route CSS is not in static HTML`);
   if (!route.noindex && !html.includes(`rel="canonical" href="${site.origin}${route.path}"`)) throw new Error(`${file}: canonical URL missing`);
   if (!html.includes(`property="og:url" content="${site.origin}${route.path}"`)) throw new Error(`${file}: Open Graph URL missing`);

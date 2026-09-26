@@ -8,7 +8,7 @@ import ContentBody from "../components/ContentBody.vue";
 import ContentSources from "../components/ContentSources.vue";
 import ContentCard from "../components/ContentCard.vue";
 import SaveButton from "../components/SaveButton.vue";
-import { useJournalMotion } from "../composables/useJournalMotion";
+import { useReadingEnter } from "../composables/useReadingEnter";
 const props = defineProps<{ slug: string }>();
 const route = useRoute();
 const content = getContent(props.slug);
@@ -41,7 +41,7 @@ function measure() {
 function schedule() { if (!frame) frame = requestAnimationFrame(measure); }
 onMounted(() => { if (!headings.value.length) return; measure(); window.addEventListener('scroll', schedule, { passive: true }); window.addEventListener('resize', schedule); });
 onUnmounted(() => { window.removeEventListener('scroll', schedule); window.removeEventListener('resize', schedule); cancelAnimationFrame(frame); });
-useJournalMotion(root);
+useReadingEnter(root);
 blocks.value = await loadContentBody(content.id);
 </script>
 <template>

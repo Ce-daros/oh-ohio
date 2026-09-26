@@ -21,7 +21,7 @@ const routes: RouteRecordRaw[] = [
   ...catalog.routes.map(route => ({
     path: route.path,
     component: routeComponent(route.kind),
-    props: route.kind === 'content' || route.kind === 'dossier' ? { slug: route.slug } : route.kind === 'world' ? { chapterId: route.world } : undefined,
+    props: route.kind === 'content' || route.kind === 'dossier' ? { slug: route.slug } : route.kind === 'world' ? { worldId: route.world } : undefined,
     meta: { title: route.title, description: route.description, image: route.image, noindex: route.noindex },
   })),
   ...catalog.redirects.map(redirect => ({
@@ -38,7 +38,7 @@ function routeComponent(kind: CatalogRoute['kind']) {
     case 'topics': return () => import('./pages/TopicsPage.vue');
     case 'search': return () => import('./pages/SearchPage.vue');
     case 'saved': return () => import('./pages/SavedPage.vue');
-    case 'world': return () => import('./pages/ChapterPage.vue');
+    case 'world': return () => import('./pages/WorldPage.vue');
     case 'dossier': return () => import('./pages/TopicPage.vue');
     case 'content': return () => import('./pages/ContentPage.vue');
   }
