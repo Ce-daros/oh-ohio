@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CharacterId } from "../content";
 defineProps<{
-  chapter: CharacterId;
+  character: CharacterId;
   alt: string;
   sizes: string;
   priority?: boolean;
@@ -9,8 +9,8 @@ defineProps<{
 </script>
 <template>
   <img
-    :src="`/art/characters/${chapter}.webp`"
-    :srcset="`/art/characters/${chapter}-480.webp 480w, /art/characters/${chapter}-960.webp 960w`"
+    :src="`/art/characters/${character}.webp`"
+    :srcset="`/art/characters/${character}-480.webp 480w, /art/characters/${character}-960.webp 960w`"
     :sizes="sizes"
     :alt="alt"
     width="800"

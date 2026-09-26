@@ -34,7 +34,16 @@ const bySlug = new Map(contentManifest.documents.map(document => [document.slug,
 const sourceById = new Map(sources.map(source => [source.id, source]));
 const mediaById = new Map(media.map(item => [item.id, item]));
 const collectionById = new Map(collections.map(collection => [collection.id, collection]));
+const worldById = new Map(worlds.map(world => [world.id, world]));
 const bodyModules = import.meta.glob<ContentBody>('./documents/*/*.json', { import: 'default' });
+
+export const kindLabels: Record<ContentMeta['kind'], string> = { feature: 'Field note', note: 'Guide note', phrase: 'Local words' };
+
+export function getWorld(id: WorldId): Readonly<World> {
+  const world = worldById.get(id);
+  if (!world) throw new Error(`Unknown world: ${id}`);
+  return world;
+}
 
 export function resolveLegacySlug(slug: string): string {
   return legacySlugs[slug] ?? slug;

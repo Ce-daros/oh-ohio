@@ -90,6 +90,9 @@
       "x": 24,
       "y": 38,
       "collectionId": "topic:make-factory",
+      "metricIds": [
+        "employer-establishments"
+      ],
       "slugs": [
         "production",
         "advanced-manufacturing",
@@ -154,6 +157,10 @@
       "x": 47,
       "y": 46,
       "collectionId": "topic:make-work",
+      "metricIds": [
+        "household-income",
+        "unemployment"
+      ],
       "slugs": [
         "economic-map",
         "jobs-households"

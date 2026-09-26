@@ -7,8 +7,7 @@ import GuideKeepsake from "./GuideKeepsake.vue";
 const props = defineProps<{ world: WorldId; group: SceneGroup; position: number }>();
 defineEmits<{ read: [event: MouseEvent, slug: string] }>();
 const selectedEntries = computed(() => props.group.slugs.map(getContent));
-const metricIds: Record<string, string[]> = { work: ['household-income', 'unemployment'], factory: ['employer-establishments'] };
-const contextualMetrics = computed(() => props.world === 'make' ? metrics.filter(metric => (metricIds[props.group.id] ?? []).includes(metric.id)) : []);
+const contextualMetrics = computed(() => metrics.filter(metric => props.group.metricIds?.includes(metric.id)));
 </script>
 <template>
   <aside id="scene-selection" class="scene-selection" aria-label="Selected topic">

@@ -7,11 +7,9 @@
     "symbol": "01",
     "color": "#c5e4ec",
     "art": "travel",
+    "portrait": "discover",
     "prop": "camera",
-    "sources": [
-      "discover",
-      "travel"
-    ]
+    "invitation": "Lake shores, river cities, wooded hills."
   },
   {
     "id": "make",
@@ -21,11 +19,9 @@
     "symbol": "02",
     "color": "#d3def3",
     "art": "industry",
+    "portrait": "economy",
     "prop": "airplane",
-    "sources": [
-      "economy",
-      "industry"
-    ]
+    "invitation": "Materials, machines, and the hands behind them."
   },
   {
     "id": "culture",
@@ -35,11 +31,9 @@
     "symbol": "03",
     "color": "#f1cbd2",
     "art": "culture",
+    "portrait": "language",
     "prop": "record",
-    "sources": [
-      "culture",
-      "language"
-    ]
+    "invitation": "A sound, a shared table, a story passed on."
   },
   {
     "id": "live",
@@ -49,10 +43,8 @@
     "symbol": "04",
     "color": "#d4e4db",
     "art": "life",
+    "portrait": "government",
     "prop": "backpack",
-    "sources": [
-      "life",
-      "government"
-    ]
+    "invitation": "Libraries, neighbors, and everyday public life."
   }
 ]
