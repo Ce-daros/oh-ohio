@@ -22,7 +22,6 @@ export interface Media {
   variants?: { src: string; width: number; height: number }[];
 }
 export interface Place { id: string; title: string; address?: string; coordinates?: { lat: number; lon: number }; sourceId?: string }
-export interface Topic { id: string; title: string; dek: string; order: number; world: WorldId; featuredId: string }
 export interface World { id: WorldId; title: string; headline: string; tease: string; symbol: string; color: string; art: CharacterId; portrait: CharacterId; prop: string; invitation: string }
 export interface Collection {
   id: string;

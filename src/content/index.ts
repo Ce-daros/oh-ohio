@@ -1,20 +1,18 @@
 import manifestData from './data/manifest.json';
 import worldsData from './data/worlds.json';
-import topicsData from './data/topics.json';
 import placesData from './data/places.json';
 import sourcesData from './data/sources.json';
 import mediaData from './data/media.json';
 import collectionsData from './data/collections.json';
 import scenesData from './data/scenes.json';
 import migrationsData from './data/migrations.json';
-import type { Collection, ContentBody, ContentManifest, ContentMeta, ContentQuery, Media, Place, SceneGroup, Source, Topic, World, WorldId } from './types';
+import type { Collection, ContentBody, ContentManifest, ContentMeta, ContentQuery, Media, Place, SceneGroup, Source, World, WorldId } from './types';
 import { deepFreeze } from './freeze';
 
 export type * from './types';
 
 export const contentManifest = deepFreeze(manifestData as ContentManifest);
 export const worlds = deepFreeze(worldsData as World[]);
-export const topics = deepFreeze(topicsData as Topic[]);
 export const places = deepFreeze(placesData as Place[]);
 const sources = deepFreeze(sourcesData as Source[]);
 export const media = deepFreeze(mediaData as Media[]);

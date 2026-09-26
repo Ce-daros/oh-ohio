@@ -17,7 +17,6 @@ export function validateContent(repoRoot = process.cwd()) {
   const base = 'src/content/';
   const manifest = read(`${base}data/manifest.json`);
   const worlds = read(`${base}data/worlds.json`);
-  const topics = read(`${base}data/topics.json`);
   const places = read(`${base}data/places.json`);
   const sources = read(`${base}data/sources.json`);
   const media = read(`${base}data/media.json`);
@@ -37,7 +36,7 @@ export function validateContent(repoRoot = process.cwd()) {
   const byId = new Map(metas.map(meta => [meta.id, meta]));
   const bySlug = new Map(metas.map(meta => [meta.slug, meta]));
   const worldIds = new Set(worlds.map(world => world.id));
-  const topicIds = new Set(topics.map(topic => topic.id));
+  const topicIds = new Set(collections.filter(item => item.kind === 'topic').map(item => item.id));
   const placeIds = new Set(places.map(place => place.id));
   const sourceIds = new Set(sources.map(source => source.id));
   const mediaIds = new Set(media.map(item => item.id));
@@ -63,7 +62,6 @@ export function validateContent(repoRoot = process.cwd()) {
   unique(metas, `${base}documents`, 'slug', item => item.slug);
   unique(metas, `${base}documents`, 'order', item => item.order);
   unique(worlds, `${base}data/worlds.json`, 'world ID', item => item.id);
-  unique(topics, `${base}data/topics.json`, 'topic ID', item => item.id);
   unique(places, `${base}data/places.json`, 'place ID', item => item.id);
   unique(sources, `${base}data/sources.json`, 'source ID', item => item.id);
   unique(media, `${base}data/media.json`, 'media ID', item => item.id);
@@ -178,7 +176,6 @@ export function validateContent(repoRoot = process.cwd()) {
     if (place.address || place.coordinates) linked(place.sourceId, sourceIds, file, 'place sourceId');
     if (place.coordinates && (!Number.isFinite(place.coordinates.lat) || place.coordinates.lat < -90 || place.coordinates.lat > 90 || !Number.isFinite(place.coordinates.lon) || place.coordinates.lon < -180 || place.coordinates.lon > 180)) fail(file, 'coordinates must be valid latitude and longitude');
   }
-  for (const topic of topics) { const file = `${base}data/topics.json ${topic.id}`; linked(topic.world, worldIds, file, 'world'); linked(topic.featuredId, new Set(byId.keys()), file, 'featuredId'); linked(topic.id, collectionIds, file, 'collection'); }
   for (const collection of collections) {
     const file = `${base}data/collections.json ${collection.id}`;
     nonempty(collection.title, file, 'title'); nonempty(collection.dek, file, 'dek');

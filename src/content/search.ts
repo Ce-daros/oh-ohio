@@ -1,4 +1,4 @@
-import { contentManifest, places, topics, type ContentMeta, type WorldId } from './index';
+import { collections, contentManifest, places, type ContentMeta, type WorldId } from './index';
 
 const SEARCH_ALIASES: Record<string, string> = {
   cle: 'cleveland', cbus: 'columbus', otr: 'over-the-rhine', cvnp: 'cuyahoga', buckeyes: 'buckeye',
@@ -11,10 +11,11 @@ export function normalizeText(value: string): string {
 /** Search filters as strings; values come straight from URL query params. */
 export interface SearchQuery { q?: string; world?: string; kind?: string; place?: string }
 
+const topicTitle = (id: string) => collections.find(collection => collection.id === id)?.title ?? id;
 const searchableText = (item: Readonly<ContentMeta>) => normalizeText([
   item.title, item.summary, item.slug,
   ...item.places.map(id => places.find(place => place.id === id)!.title),
-  ...item.topics.map(id => topics.find(topic => topic.id === id)!.title),
+  ...item.topics.map(id => topicTitle(id)),
 ].join(' '));
 
 /**
