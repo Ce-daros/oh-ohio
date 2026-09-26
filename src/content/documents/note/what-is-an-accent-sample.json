@@ -30,16 +30,7 @@
       "sourceId": "source:snd-buckeye"
     },
     "bodyPath": "./documents/note/what-is-an-accent-sample.json",
-    "order": 91,
-    "sectionId": "language",
-    "kicker": "COLUMBUS · SPEECH RESEARCH",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/sounds.md"
-      }
-    }
+    "order": 91
   },
   "blocks": [
     {

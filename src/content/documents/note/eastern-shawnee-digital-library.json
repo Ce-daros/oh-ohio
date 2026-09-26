@@ -36,16 +36,7 @@
       "sourceId": "source:memory-ohio-memory-collections"
     },
     "bodyPath": "./documents/note/eastern-shawnee-digital-library.json",
-    "sectionId": "discover",
-    "kicker": "EASTERN SHAWNEE TRIBE · DIGITAL COLLECTION",
-    "order": 103,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/memory.md"
-      }
-    }
+    "order": 103
   },
   "blocks": [
     {

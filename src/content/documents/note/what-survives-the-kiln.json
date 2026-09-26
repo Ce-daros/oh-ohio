@@ -37,16 +37,7 @@
       "sourceId": "source:mat-rookwood-vase"
     },
     "bodyPath": "./documents/note/what-survives-the-kiln.json",
-    "order": 88,
-    "sectionId": "making",
-    "kicker": "CINCINNATI · CERAMICS",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/materials.md"
-      }
-    }
+    "order": 88
   },
   "blocks": [
     {

@@ -5,10 +5,10 @@ import { fileURLToPath } from 'node:url';
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const idPattern = /^(note|phrase|feature):[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const kinds = new Set(['note', 'phrase', 'feature']);
-const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'audio', 'video', 'placeMap', 'route']);
+const blockTypes = new Set(['paragraph', 'heading', 'illustration', 'process', 'quote', 'timeline', 'practical', 'characterAside', 'video', 'placeMap', 'route']);
 const asideRoles = new Set(['welcome', 'notice', 'explain', 'listen', 'practical', 'farewell']);
 const mediaUses = new Set(['atmosphere', 'explanation', 'documentary']);
-const mediaKinds = new Set(['image', 'audio', 'video']);
+const mediaKinds = new Set(['image', 'video']);
 
 export function validateContent(repoRoot = process.cwd()) {
   const errors = [];
@@ -98,15 +98,8 @@ export function validateContent(repoRoot = process.cwd()) {
       if (!validDate(meta.verification.verifiedAt)) fail(file, 'verifiedAt must be a real ISO date');
       linked(meta.verification.sourceId, articleSourceIds, file, 'verification sourceId');
     }
-    for (const field of ['publishedAt', 'updatedAt']) if (meta[field] !== undefined) {
-      if (!validDate(meta[field])) fail(file, `${field} must be a real ISO date`);
-      const evidence = meta.dateEvidence?.[field];
-      if (evidence?.kind !== 'editorial-record' || typeof evidence.path !== 'string' || !/^editorial\/research\/[a-z0-9-]+\.md$/.test(evidence.path) || !fs.existsSync(path.join(repoRoot, evidence.path))) fail(file, `${field} requires an existing editorial research record`);
-    }
-    if (meta.kind === 'note') { nonempty(meta.sectionId, file, 'sectionId'); nonempty(meta.kicker, file, 'kicker'); }
-    if (meta.kind === 'phrase') nonempty(meta.region, file, 'region');
     if (meta.kind === 'feature') {
-      for (const field of ['category', 'location', 'duration', 'readTime', 'coverAlt', 'titleAccent']) nonempty(meta[field], file, field);
+      for (const field of ['category', 'location', 'readTime', 'coverAlt', 'titleAccent']) nonempty(meta[field], file, field);
       linked(meta.coverMediaId, mediaIds, file, 'coverMediaId');
       if (media.find(item => item.id === meta.coverMediaId)?.kind !== 'image') fail(file, 'coverMediaId must reference image media');
       if (!collections.some(item => item.kind === 'category' && item.presentation?.id === meta.category)) fail(file, `unknown category ${meta.category}`);
@@ -125,7 +118,6 @@ export function validateContent(repoRoot = process.cwd()) {
       if (block.type === 'paragraph') { nonempty(block.text, at, 'text'); if (block.role && !['intro', 'signoff'].includes(block.role)) fail(at, `invalid paragraph role ${block.role}`); }
       if (block.type === 'heading') { nonempty(block.title, at, 'title'); nonempty(block.eyebrow, at, 'eyebrow'); if (!slugPattern.test(block.id)) fail(at, `invalid heading ID ${block.id}`); if (headings.has(block.id)) fail(at, `duplicate heading ID ${block.id}`); headings.add(block.id); }
       if (block.type === 'illustration') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'image') fail(at, 'illustration requires image media'); }
-      if (block.type === 'audio') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'audio') fail(at, 'audio block requires audio media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'video') { linked(block.mediaId, mediaIds, at, 'mediaId'); if (media.find(item => item.id === block.mediaId)?.kind !== 'video') fail(at, 'video block requires video media'); nonempty(block.transcript, at, 'transcript'); }
       if (block.type === 'placeMap') {
         nonempty(block.title, at, 'title');
@@ -149,14 +141,14 @@ export function validateContent(repoRoot = process.cwd()) {
       if (block.type === 'timeline') validateItems(block.events, at, ['label', 'text'], fail, nonempty);
       if (block.type === 'practical') validateItems(block.items, at, ['label', 'text'], fail, nonempty);
       if (block.type === 'characterAside') { nonempty(block.title, at, 'title'); nonempty(block.text, at, 'text'); if (block.role && !asideRoles.has(block.role)) fail(at, `invalid characterAside role ${block.role}`); }
-      if (block.type === 'route') { validateItems(block.stops, at, ['id', 'title', 'note'], fail, nonempty); block.stops?.forEach(stop => { if (stop.placeId) linked(stop.placeId, placeIds, at, 'route placeId'); }); }
+      if (block.type === 'route') validateItems(block.stops, at, ['id', 'title', 'note'], fail, nonempty);
     }
     if (meta.kind === 'feature') {
       if (data.blocks[0]?.type !== 'paragraph' || data.blocks[0]?.role !== 'intro') fail(file, 'feature body must begin with intro paragraph');
       if (!data.blocks.some(block => block.type === 'heading')) fail(file, 'feature body requires a heading');
     }
     if (meta.kind === 'note' && !data.blocks.some(block => block.type === 'paragraph')) fail(file, 'note body requires a paragraph');
-    if (meta.kind === 'phrase' && data.blocks.filter(block => block.type === 'paragraph').length < 2) fail(file, 'phrase body requires region and note paragraphs');
+    if (meta.kind === 'phrase' && data.blocks.filter(block => block.type === 'paragraph').length < 2) fail(file, 'phrase body requires two paragraphs');
   }
 
   const sorted = [...metas].sort((a, b) => a.order - b.order);
@@ -180,9 +172,7 @@ export function validateContent(repoRoot = process.cwd()) {
       if (!Number.isInteger(variant.width) || variant.width <= 0 || !Number.isInteger(variant.height) || variant.height <= 0) fail(file, `variant ${variant.src} requires positive pixel dimensions`);
       if (!validMediaPath(variant.src, repoRoot)) fail(file, `variant asset missing or invalid ${variant.src}`);
     });
-    for (const [name, point] of [['focalPoint', item.focalPoint], ['crop', item.crop]]) if (point) for (const [coordinate, value] of Object.entries(point)) if (!Number.isFinite(value)) fail(file, `${name}.${coordinate} must be finite`);
-  }
-  for (const place of places) {
+  }  for (const place of places) {
     const file = `${base}data/places.json ${place.id}`;
     nonempty(place.title, file, 'title');
     if (place.address || place.coordinates) linked(place.sourceId, sourceIds, file, 'place sourceId');

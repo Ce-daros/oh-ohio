@@ -46,16 +46,7 @@
       "sourceId": "source:str-sanborn"
     },
     "bodyPath": "./documents/note/reading-a-sanborn-map.json",
-    "order": 96,
-    "sectionId": "street",
-    "kicker": "Map reading",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/street.md"
-      }
-    }
+    "order": 96
   },
   "blocks": [
     {

@@ -30,8 +30,6 @@
       "status": "unverified"
     },
     "bodyPath": "./documents/note/local-government.json",
-    "sectionId": "government",
-    "kicker": "COUNTIES · CITIES · VILLAGES · TOWNSHIPS",
     "order": 56
   },
   "blocks": [

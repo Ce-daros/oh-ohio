@@ -67,8 +67,6 @@ const report = {
   evidence: {
     verifiedDocuments: manifest.documents.filter(meta => meta.verification.status === 'verified').map(meta => meta.id),
     unverifiedDocuments: manifest.documents.filter(meta => meta.verification.status === 'unverified').map(meta => meta.id),
-    publishedDocuments: manifest.documents.filter(meta => meta.publishedAt).map(meta => meta.id),
-    updatedDocuments: manifest.documents.filter(meta => meta.updatedAt).map(meta => meta.id),
     documentsWithoutBlockCitations: documents.filter(({ blocks }) => !blocks.some(block => block.sourceIds?.length || block.sourceId)).map(({ meta }) => meta.id),
     citedSourceIds: sorted(citationIds),
     remoteMediaIds: media.filter(item => item.src.startsWith('http://') || item.src.startsWith('https://')).map(item => item.id),

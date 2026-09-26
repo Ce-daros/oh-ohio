@@ -36,16 +36,7 @@
       "sourceId": "source:town-glen-helen-history"
     },
     "bodyPath": "./documents/note/yellow-springs-stewardship.json",
-    "sectionId": "travel",
-    "kicker": "YELLOW SPRINGS · GLEN HELEN",
-    "order": 105,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/small-towns.md"
-      }
-    }
+    "order": 105
   },
   "blocks": [
     {

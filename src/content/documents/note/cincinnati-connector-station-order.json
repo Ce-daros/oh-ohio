@@ -36,16 +36,7 @@
       "sourceId": "source:routes-cincinnati-map"
     },
     "bodyPath": "./documents/note/cincinnati-connector-station-order.json",
-    "sectionId": "travel",
-    "kicker": "CINCINNATI · CONNECTOR",
-    "order": 108,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/routes.md"
-      }
-    }
+    "order": 108
   },
   "blocks": [
     {

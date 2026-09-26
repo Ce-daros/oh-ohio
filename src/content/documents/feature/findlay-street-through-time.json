@@ -94,7 +94,6 @@
     "bodyPath": "./documents/feature/findlay-street-through-time.json",
     "category": "everyday",
     "location": "Cincinnati · Findlay Market and Race Street",
-    "duration": "A map-led market visit",
     "readTime": "5 min read",
     "coverMediaId": "media:findlay-street-through-time",
     "coverAlt": "An illustrated Cincinnati street block beside the market",
@@ -109,14 +108,7 @@
         "reason": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both."
       }
     ],
-    "order": 95,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/street.md"
-      }
-    }
+    "order": 95
   },
   "blocks": [
     {

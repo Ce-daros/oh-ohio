@@ -50,13 +50,9 @@ export function getContent(idOrSlug: string): Readonly<ContentMeta> {
 }
 
 export function queryContent(query: ContentQuery = {}): readonly Readonly<ContentMeta>[] {
-  const collection = query.collection ? getCollection(query.collection) : undefined;
-  const pool = collection ? collection.itemIds.map(id => getContent(id)) : contentManifest.documents;
-  const selected = pool.filter(document =>
+  const selected = contentManifest.documents.filter(document =>
     (!query.kind || document.kind === query.kind) &&
-    (!query.world || document.worlds.includes(query.world)) &&
-    (!query.topic || document.topics.includes(query.topic)) &&
-    (!query.place || document.places.includes(query.place)));
+    (!query.world || document.worlds.includes(query.world)));
   return Object.freeze(selected);
 }
 

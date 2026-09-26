@@ -36,16 +36,7 @@
       "sourceId": "source:memory-ohio-memory-oral"
     },
     "bodyPath": "./documents/note/oral-history-is-a-persons-account.json",
-    "sectionId": "discover",
-    "kicker": "OHIO · ORAL HISTORY",
-    "order": 102,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/memory.md"
-      }
-    }
+    "order": 102
   },
   "blocks": [
     {

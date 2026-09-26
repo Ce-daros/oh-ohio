@@ -7,7 +7,7 @@ defineEmits<{ select: [id: string] }>();
 </script>
 <template>
   <div :class="['scene-canvas', `canvas-${world}`]">
-    <div class="scene-picture" data-parallax-art><img :src="`/art/scenes/${world}.webp`" :srcset="`/art/scenes/${world}-768.webp 768w, /art/scenes/${world}.webp 1536w`" sizes="(max-width: 800px) 90vw, 70vw" width="1536" height="1024" :alt="alt" fetchpriority="high" /></div>
+    <div class="scene-picture"><img :src="`/art/scenes/${world}.webp`" :srcset="`/art/scenes/${world}-768.webp 768w, /art/scenes/${world}.webp 1536w`" sizes="(max-width: 800px) 90vw, 70vw" width="1536" height="1024" :alt="alt" fetchpriority="high" /></div>
     <div class="scene-vignette" aria-hidden="true"></div>
     <div class="scene-focus-plane" aria-hidden="true"><div class="scene-focus" :style="{transform:`translate(${point.x}%, ${point.y}%)`}"><span></span></div></div>
     <div class="mobile-scene-points" aria-hidden="true"><span v-for="(group,index) in groups" :key="group.id" :class="{active:group.id===selected}" :style="{left:`${group.x}%`,top:`${group.y}%`}">{{ String(index+1).padStart(2,'0') }}</span></div>

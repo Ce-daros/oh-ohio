@@ -45,7 +45,6 @@
     "bodyPath": "./documents/feature/library-afternoon.json",
     "category": "everyday",
     "location": "Columbus",
-    "duration": "An afternoon",
     "readTime": "3 min read",
     "coverMediaId": "media:library-afternoon",
     "coverAlt": "Illustrated library reading table and open book beside a window overlooking greenery",

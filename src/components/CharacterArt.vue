@@ -4,7 +4,6 @@ defineProps<{
   character: CharacterId;
   alt: string;
   sizes: string;
-  priority?: boolean;
 }>();
 </script>
 <template>
@@ -15,7 +14,6 @@ defineProps<{
     :alt="alt"
     width="800"
     height="1000"
-    :loading="priority ? 'eager' : 'lazy'"
-    :fetchpriority="priority ? 'high' : 'auto'"
+    loading="lazy"
   />
 </template>

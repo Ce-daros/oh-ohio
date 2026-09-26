@@ -26,8 +26,6 @@
       "status": "unverified"
     },
     "bodyPath": "./documents/note/jobs-households.json",
-    "sectionId": "economy",
-    "kicker": "LABOR · INCOME · OPPORTUNITY",
     "order": 33
   },
   "blocks": [

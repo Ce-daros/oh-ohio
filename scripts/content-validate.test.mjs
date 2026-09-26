@@ -17,7 +17,6 @@ function createFixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'ohio-content-test-'));
   fs.mkdirSync(path.join(root, 'src'), { recursive: true });
   fs.cpSync(path.join(projectRoot, 'src/content'), path.join(root, 'src/content'), { recursive: true });
-  fs.cpSync(path.join(projectRoot, 'editorial/research'), path.join(root, 'editorial/research'), { recursive: true });
   const media = JSON.parse(fs.readFileSync(path.join(root, 'src/content/data/media.json'), 'utf8'));
   for (const item of media) {
     for (const asset of [item.src, ...(item.variants?.map(variant => variant.src) ?? [])]) {
@@ -78,11 +77,6 @@ checkCorruption('rejects a block source absent from article citations',
   'src/content/documents/note/north-coast.json',
   doc => { doc.blocks[0].sourceIds = ['source:missing']; },
   /sourceId references unknown source:missing/);
-
-checkCorruption('rejects an unevidenced publication timestamp',
-  'src/content/documents/note/north-coast.json',
-  doc => { doc.meta.publishedAt = '2024-01-01T00:00:00Z'; },
-  /publishedAt requires an existing editorial research record/);
 
 checkCorruption('rejects invalid remote media URLs',
   'src/content/data/media.json',

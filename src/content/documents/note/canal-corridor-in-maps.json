@@ -37,16 +37,7 @@
       "sourceId": "source:water-ohio-canals"
     },
     "bodyPath": "./documents/note/canal-corridor-in-maps.json",
-    "sectionId": "discover",
-    "kicker": "OHIO & ERIE CANAL · MAPS",
-    "order": 99,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/water.md"
-      }
-    }
+    "order": 99
   },
   "blocks": [
     {

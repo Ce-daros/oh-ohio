@@ -40,16 +40,7 @@
       "sourceId": "source:lib-searchohio"
     },
     "bodyPath": "./documents/note/a-books-trip-through-ohio.json",
-    "order": 94,
-    "sectionId": "library",
-    "kicker": "Request and return",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/library.md"
-      }
-    }
+    "order": 94
   },
   "blocks": [
     {

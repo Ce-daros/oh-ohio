@@ -1,9 +1,8 @@
-# Next edition delivery record
+# Implementation status
 
-Working branch: `codex/editorial-next`. Application repository: `site/`.
-The parent directory contains archived drafts and source artwork; it is not the application Git repository.
+Application repository: `site/` (branch `main`). Source artwork lives in `artwork/` on disk but is not tracked by Git; archived drafts and past reviews are not part of this repository.
 
-## Required scope
+## Delivered scope
 
 ### 1. Content and publishing architecture
 
@@ -36,42 +35,31 @@ The parent directory contains archived drafts and source artwork; it is not the 
 - [x] Existing content review, source/rights/revision records, update policy, internal coverage inspection.
 - [x] Integrated tests and browser QA; actual deployment response verification.
 
-## Evidence log
+## Verification approach
 
-### Canonical content and publishing
+Document, collection, source and route totals live in the generated `src/content/data/manifest.json`, `src/content/data/routes.json` and `editorial/content-coverage.json` — this document deliberately does not repeat them.
 
-The final graph contains 110 documents (22 features, 84 notes, 4 phrases), 43 collections including eight dossiers, 203 sources and 16 media records. Twenty-four new documents form eight features with two companion notes each. Every document has a separate lazy body chunk; the build checks that bodies and the local editorial desk do not enter the initial client bundle.
+- `npm run validate:content` runs the manifest, content and route-catalog validators; `npm test` adds the fault-injection suite (deliberately broken IDs, references, dates, coordinates and media) plus the static HTTP/404 tests against a built `dist/`.
+- `npx vue-tsc --noEmit` and `npm run lint` cover types and style across `src/` and `scripts/`.
+- `npm run build` type-checks, builds client and server bundles, prerenders every public route, and verifies bundle isolation, sitemap/robots and prerendered output.
 
-`npm run validate:content` passed all 17 integrity tests, including deliberately broken IDs, references, evidence dates, map coordinates and media. `npx vue-tsc --noEmit` passed. `npm run build` passed route validation, client/server builds, bundle isolation, Vue prerendering, HTML metadata/assets and HTTP tests for 127 public routes, seven legacy redirects, unknown-route 404 and production exclusion of `/editorial`.
+### Browser QA highlights
 
-Source checks and editorial review remain separate. The 86 inherited documents have a complete code/editorial review with recorded recommendations, not 86 new fact checks. Their unverified status is retained. Fourteen inherited illustrations retain incomplete rights/provenance records; the original generation manifest is described in `art-direction.md`. The project diagram and the linked NPS video have explicit records. This delivery does not claim that future merge/deepen recommendations were executed or that all inherited media received new clearance.
+- Shared masthead geometry inspected on Make, Culture, Live, Field notes and Collections at desktop and 320 px; intentionally different title fonts kept.
+- Home inspected at 320, 390, 768 and desktop widths; search with world filtering and URL persistence; reading-list save/reload/remove; Make scene/index entry with dialog, Escape, focus restoration and history restoration.
+- Keyboard menu Enter/Escape returns focus to Menu; Live scene selection and journey ArrowRight keyboard flows checked.
+- Reduced-motion emulation leaves all hero/reveal content visible without entrance motion; 640 × 450 reflow checked (equivalent to 1280 × 900 at 200% zoom).
+- JavaScript disabled: the static listening feature and small-town diagrams render fully without scripts.
+- Native NPS video reached readyState 4 and advanced past 15 seconds with transcript disclosure checked; Cincinnati map loaded real OSM tiles with visible attribution.
 
-### Root browser inspection
+## Voice alignment (2026-09-26)
 
-- Shared masthead geometry inspected on Make, Culture, Live, Field notes and Collections at desktop and 320 px. Their intentionally different title fonts remain.
-- Home inspected at 320, 390, 768 and desktop widths after the civic-idol/local-girl introduction. Narrow-screen portrait and stamp changes keep identity and entry button clear. Responsive portrait variants preserve composition.
-- Search `whistle`, world filtering and URL persistence checked. Saving a note, reloading the reading list and removing the test save checked.
-- Make scene/index entry, note dialog, Escape, focus restoration, scroll unlock, history restoration and full-page contextual links checked. Rechecked against the static production build.
-- Keyboard menu Enter/Escape returns focus to Menu. Live scene selection updates `scene`; journey ArrowRight updates selected tab, tab stops and `journey` query.
-- Reduced-motion emulation leaves all hero/reveal content visible without entrance motion. Inspected 640 × 450 viewport reflow, equivalent to the CSS viewport of a 1280 × 900 screen at 200% zoom; native browser zoom was not available in the in-app browser.
-- JavaScript disabled on the static listening feature: full opening, 30 prose/source paragraphs, farewell, title and canonical remain in the DOM and render normally. Both small-town geographic diagrams and address links remain available without scripts.
-- Native NPS video reached readyState 4, duration 190.44 seconds, and advanced beyond 15 seconds. Playback paused after verification; transcript/listening notes disclosure checked.
-- Cincinnati interactive map loaded actual OSM street tiles and visible attribution. Static geography remains separate from illustrated topic hotspots. Split small-town maps and whistle/process diagrams inspected.
-- Local content desk inspected; searching `whistle` with Make returns three records and separates verified/unverified status. Production build excludes this page.
-- Static query-entry, dialog and complete-page navigation produced no browser warnings or errors in the final check.
+Subject first, specific personal taste or observation second, occasional gentle flirt; identity remains "civic idol, local girl, your Ohio guide." The revision reached all feature narrations, note commentary, phrase pages, home copy, world recommendations and reading journeys; the mural aside in `cincinnati-market-to-music` is the reference passage. IDs, slugs, source references, verification records and structured blocks were preserved — this was a copy revision, not a source-verification pass. See [voice-guide.md](voice-guide.md) and [motion-system.md](motion-system.md) for current behavior (home scroll snapping was removed 2026-09-27 in favor of dwell/breathing sections).
 
-Browser testing used the in-app browser directly. A Vue type check alone was not treated as visual verification.
+## Known limits
 
-### Voice alignment
+Source checks and editorial review remain separate. The inherited documents carry a complete code/editorial review with recorded recommendations, not a fresh fact-check; their unverified status is retained. Inherited illustrations with incomplete rights/provenance records keep those records; the generation manifest is described in [art-direction.md](art-direction.md). This record does not claim that future merge/deepen recommendations were executed or that all inherited media received new clearance.
 
-The earlier eight-feature voice pass is superseded by the 2026-09-26 alignment in [the current voice guide](voice-guide.md). Ohio-chan introduces the subject, expresses specific tastes or observations, and occasionally offers a gentle flirt. The revision reaches all 22 feature narrations, commentary in 84 notes and four phrase pages, home, four-world recommendations, and reading journeys. Identity remains “Civic idol, local girl, your Ohio guide.” Source and verification records were preserved; this was not a new source-verification pass.
+## Release
 
-### Release
-
-Ready preview: https://oh-ohio-7o0wgtb93-cedaros-projects.vercel.app (`dpl_G1Ah1YrmEiAzHELNjFP84u9wzgj6`). The remote build passed validation and rendering for all 127 routes and 110 documents. Authenticated HTTP checks returned complete article HTML with the same SHA256 as local `dist`, matching sitemap content, correct canonical metadata and `robots.txt`, query-preserving 308 redirects for legacy/trailing-slash URLs, and real noindex 404 responses for `/editorial` and unknown paths. The production client bundle excludes the internal audit.
-
-Vercel adds `name` and `version` to its build-time config. The validator accounts only for those observed annotations in the Vercel environment and compares the remaining config semantically. A synthetic check confirmed that additional rewrites and changed redirect targets still fail. Local preview redirects were fixed to preserve query strings.
-
-Deployment protection remains enabled. The in-app browser has no Vercel login session, so remote checks used authenticated CLI HTTP; visual inspection used the matching local production build. Production was not promoted.
-
-Logical commits include `8168e47` (connected dossiers/shared reading), `66582f0` (single-catalog static rendering), `15dbebd` (diagrams/geography), `741fd02` (local editorial desk), `e77ee0c` (voice/home portrait), `c720c65` (citations/count label), `b2ebf77` / `e005004` / `e91f6ca` (publishing corrections and checks), and `2fe4960` (maintenance documentation). Each stage was reviewed with staged diffs and relevant validation before delivery.
+Latest verified preview: `https://oh-ohio-7o0wgtb93-cedaros-projects.vercel.app`. The remote build passed validation and rendering for every public route and document; authenticated HTTP checks matched the local `dist` SHA256, sitemap, canonical metadata, `robots.txt`, query-preserving 308 redirects and real noindex 404s. Vercel's build-time `name`/`version` annotations are excluded from the `vercel.json` comparison; synthetic rewrites and changed redirect targets still fail validation. Deployment protection remains enabled; production was not promoted.

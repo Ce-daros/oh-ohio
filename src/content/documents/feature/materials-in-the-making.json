@@ -83,7 +83,6 @@
     "order": 86,
     "category": "making",
     "location": "Columbus and Cincinnati",
-    "duration": "A close look",
     "readTime": "5 min read",
     "coverMediaId": "media:materials-in-the-making",
     "coverAlt": "An illustrated workbench with brass whistle parts and a clay vessel in progress",
@@ -101,14 +100,7 @@
         "id": "feature:akron-rubber",
         "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
       }
-    ],
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/materials.md"
-      }
-    }
+    ]
   },
   "blocks": [
     {

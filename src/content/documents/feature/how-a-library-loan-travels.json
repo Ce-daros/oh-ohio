@@ -61,7 +61,6 @@
     "bodyPath": "./documents/feature/how-a-library-loan-travels.json",
     "category": "guides",
     "location": "Ohio · local library catalogs",
-    "duration": "One catalog search",
     "readTime": "5 min read",
     "coverMediaId": "media:how-a-library-loan-travels",
     "coverAlt": "An illustrated wrapped book on a library pickup shelf",
@@ -76,14 +75,7 @@
         "reason": "A request at your own library can send a book traveling between shared shelves. I like a reading adventure that begins close to home. ♡"
       }
     ],
-    "order": 92,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/library.md"
-      }
-    }
+    "order": 92
   },
   "blocks": [
     {

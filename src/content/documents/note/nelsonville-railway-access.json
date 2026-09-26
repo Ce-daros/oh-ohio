@@ -37,16 +37,7 @@
       "sourceId": "source:town-hocking-access"
     },
     "bodyPath": "./documents/note/nelsonville-railway-access.json",
-    "sectionId": "travel",
-    "kicker": "NELSONVILLE · RAILWAY",
-    "order": 106,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/small-towns.md"
-      }
-    }
+    "order": 106
   },
   "blocks": [
     {

@@ -26,8 +26,6 @@
       "status": "unverified"
     },
     "bodyPath": "./documents/note/trade.json",
-    "sectionId": "economy",
-    "kicker": "ROADS · RAIL · AIR · WATER",
     "order": 34
   },
   "blocks": [

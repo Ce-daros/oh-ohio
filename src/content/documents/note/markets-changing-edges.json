@@ -41,16 +41,7 @@
       "sourceId": "source:str-market-history"
     },
     "bodyPath": "./documents/note/markets-changing-edges.json",
-    "order": 97,
-    "sectionId": "street",
-    "kicker": "Street and transit",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/street.md"
-      }
-    }
+    "order": 97
   },
   "blocks": [
     {

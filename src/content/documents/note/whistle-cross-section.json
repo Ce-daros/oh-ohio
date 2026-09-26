@@ -35,16 +35,7 @@
       "sourceId": "source:mat-whistle-work"
     },
     "bodyPath": "./documents/note/whistle-cross-section.json",
-    "order": 87,
-    "sectionId": "making",
-    "kicker": "COLUMBUS · OBJECT STUDY",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/materials.md"
-      }
-    }
+    "order": 87
   },
   "blocks": [
     {

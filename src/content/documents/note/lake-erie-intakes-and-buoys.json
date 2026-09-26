@@ -37,16 +37,7 @@
       "sourceId": "source:water-cleveland-water"
     },
     "bodyPath": "./documents/note/lake-erie-intakes-and-buoys.json",
-    "sectionId": "discover",
-    "kicker": "CLEVELAND · DRINKING WATER",
-    "order": 100,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/water.md"
-      }
-    }
+    "order": 100
   },
   "blocks": [
     {

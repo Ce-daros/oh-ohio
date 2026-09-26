@@ -69,7 +69,6 @@
     "order": 89,
     "category": "culture",
     "location": "Across Ohio",
-    "duration": "A listening session",
     "readTime": "5 min read",
     "coverMediaId": "media:listening-to-ohio",
     "coverAlt": "An illustrated marsh boardwalk at dusk with a frog by the water",
@@ -87,14 +86,7 @@
         "id": "note:cincinnati-music-hall",
         "reason": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive."
       }
-    ],
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/sounds.md"
-      }
-    }
+    ]
   },
   "blocks": [
     {

@@ -41,16 +41,7 @@
       "sourceId": "source:routes-nps-directions"
     },
     "bodyPath": "./documents/note/dayton-aviation-transit-and-access.json",
-    "sectionId": "travel",
-    "kicker": "DAYTON · TRANSPORT",
-    "order": 109,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/routes.md"
-      }
-    }
+    "order": 109
   },
   "blocks": [
     {

@@ -12,7 +12,7 @@ interface SourceRef { id: string; label: string; kind?: SourceKind }
 export interface Source { id: string; title: string; url: string }
 export interface Media {
   id: string;
-  kind: 'image' | 'audio' | 'video';
+  kind: 'image' | 'video';
   use: 'atmosphere' | 'explanation' | 'documentary';
   src: string;
   alt?: string;
@@ -20,8 +20,6 @@ export interface Media {
   provenance: { status: 'unverified' } | { status: 'verified'; sourceId: string };
   rights: { status: 'unverified' } | { status: 'cleared'; license: string };
   variants?: { src: string; width: number; height: number }[];
-  crop?: { x: number; y: number; width: number; height: number };
-  focalPoint?: { x: number; y: number };
 }
 export interface Place { id: string; title: string; address?: string; coordinates?: { lat: number; lon: number }; sourceId?: string }
 export interface Topic { id: string; title: string; dek: string; order: number; world: WorldId; featuredId: string }
@@ -61,28 +59,18 @@ interface BaseMeta {
   places: string[];
   sourceRefs: SourceRef[];
   verification: { status: 'unverified' } | { status: 'verified'; verifiedAt: string; sourceId: string };
-  publishedAt?: string;
-  updatedAt?: string;
-  dateEvidence?: {
-    publishedAt?: { kind: 'editorial-record'; path: string };
-    updatedAt?: { kind: 'editorial-record'; path: string };
-  };
   bodyPath: string;
 }
 export interface NoteMeta extends BaseMeta {
   kind: 'note';
-  sectionId: string;
-  kicker: string;
 }
 export interface PhraseMeta extends BaseMeta {
   kind: 'phrase';
-  region: string;
 }
 export interface FeatureMeta extends BaseMeta {
   kind: 'feature';
   category: JournalCategory;
   location: string;
-  duration: string;
   readTime: string;
   coverMediaId: string;
   coverAlt: string;
@@ -101,17 +89,13 @@ export type BodyBlock = ({
   | { type: 'timeline'; events: { label: string; text: string }[] }
   | { type: 'practical'; items: { label: string; text: string }[] }
   | { type: 'characterAside'; title: string; text: string; role?: 'welcome' | 'notice' | 'explain' | 'listen' | 'practical' | 'farewell' }
-  | { type: 'audio'; mediaId: string; transcript: string }
   | { type: 'video'; mediaId: string; transcript: string }
   | { type: 'placeMap'; title: string; placeIds: string[]; caption: string }
-  | { type: 'route'; stops: { id: string; title: string; note: string; placeId?: string }[] }) & { sourceIds?: string[] };
+  | { type: 'route'; stops: { id: string; title: string; note: string }[] }) & { sourceIds?: string[] };
 
 export interface ContentBody { meta: ContentMeta; blocks: BodyBlock[] }
 export interface ContentManifest { schemaVersion: 1; documents: ContentMeta[] }
 export interface ContentQuery {
   kind?: ContentKind;
   world?: WorldId;
-  topic?: string;
-  place?: string;
-  collection?: string;
 }

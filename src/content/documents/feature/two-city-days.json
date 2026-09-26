@@ -98,7 +98,6 @@
     "bodyPath": "./documents/feature/two-city-days.json",
     "category": "guides",
     "location": "Cincinnati and Dayton · two separate itineraries",
-    "duration": "Choose a half-day or full day",
     "readTime": "4 min read",
     "coverMediaId": "media:two-city-days",
     "coverAlt": "An illustrated travel notebook with market and aviation day trip ideas",
@@ -113,14 +112,7 @@
         "reason": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites."
       }
     ],
-    "order": 107,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/routes.md"
-      }
-    }
+    "order": 107
   },
   "blocks": [
     {
@@ -276,32 +268,27 @@
         {
           "id": "third-williams",
           "title": "West Third & Williams RTA stop",
-          "note": "NPS identifies this as the nearest transit stop to the Wright-Dunbar visitor area.",
-          "placeId": "west-third-williams-stop"
+          "note": "NPS identifies this as the nearest transit stop to the Wright-Dunbar visitor area."
         },
         {
           "id": "interpretive-center",
           "title": "Wright-Dunbar Interpretive Center",
-          "note": "NPS address: 16 S Williams Street; check current hours.",
-          "placeId": "wright-dunbar-center"
+          "note": "NPS address: 16 S Williams Street; check current hours."
         },
         {
           "id": "cycle-company",
           "title": "Wright Cycle Company",
-          "note": "NPS address: 22 S Williams Street; adjoining building with a ramp described on the accessibility page.",
-          "placeId": "wright-cycle-company"
+          "note": "NPS address: 22 S Williams Street; adjoining building with a ramp described on the accessibility page."
         },
         {
           "id": "dunbar-house",
           "title": "Paul Laurence Dunbar House",
-          "note": "Three blocks west and three north by NPS directions; confirm tour availability.",
-          "placeId": "dunbar-house"
+          "note": "Three blocks west and three north by NPS directions; confirm tour availability."
         },
         {
           "id": "outlying-sites",
           "title": "Huffman Prairie / National Museum of the U.S. Air Force",
-          "note": "Separate ride; NPS says there is no public transportation to Huffman Prairie.",
-          "placeId": "huffman-prairie-center"
+          "note": "Separate ride; NPS says there is no public transportation to Huffman Prairie."
         }
       ]
     },

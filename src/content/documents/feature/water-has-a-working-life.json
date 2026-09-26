@@ -80,7 +80,6 @@
     "bodyPath": "./documents/feature/water-has-a-working-life.json",
     "category": "guides",
     "location": "Cleveland · Cuyahoga River and Lake Erie",
-    "duration": "A slow, map-led day",
     "readTime": "4 min read",
     "coverMediaId": "media:water-has-a-working-life",
     "coverAlt": "An illustrated working waterfront with river water, a cargo ship and cranes",
@@ -95,14 +94,7 @@
         "reason": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow."
       }
     ],
-    "order": 98,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/water.md"
-      }
-    }
+    "order": 98
   },
   "blocks": [
     {

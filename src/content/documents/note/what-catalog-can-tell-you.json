@@ -40,16 +40,7 @@
       "sourceId": "source:lib-searchohio"
     },
     "bodyPath": "./documents/note/what-catalog-can-tell-you.json",
-    "order": 93,
-    "sectionId": "library",
-    "kicker": "Before you request",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/library.md"
-      }
-    }
+    "order": 93
   },
   "blocks": [
     {

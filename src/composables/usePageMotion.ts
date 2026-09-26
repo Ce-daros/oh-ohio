@@ -48,11 +48,6 @@ export function usePageMotion(root: Ref<HTMLElement | null>) {
       tl.from(heroArt, { y: 34, opacity: 0, filter: "blur(12px)", duration: 1.1, clearProps: "transform,opacity,filter" });
       if (img) tl.from(img, { scale: 1.08, duration: 1.7, clearProps: "transform" }, 0);
     }
-    const entrance = element.querySelectorAll("[data-hero-copy], [data-hero-detail]");
-    if (entrance.length) gsap.from(entrance, {
-      y: 14, opacity: 0, filter: "blur(8px)", duration: .55, stagger: .05, ease: "power3.out",
-      clearProps: "transform,opacity,filter",
-    });
     element.querySelectorAll<HTMLElement>("[data-reveal]").forEach(section => {
       gsap.from(section, {
         ...materialize, y: 26, opacity: 0, filter: "blur(8px)", duration: .8,

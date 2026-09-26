@@ -1,4 +1,4 @@
-.world-page { overflow:clip; --world-ink:#18243c; background:#f5f7fb; }
+.world-page { overflow:clip; background:#f5f7fb; }
 .world-body { max-width:var(--page-width); margin:auto; padding:0 var(--page-gutter); display:grid; grid-template-columns:minmax(0,1fr) 305px; gap:30px; align-items:start; }
 .world-scene { min-width:0; }
 .scene-canvas { position:relative; isolation:isolate; aspect-ratio:3/2; overflow:hidden; border-radius:5px 70px 5px 5px; background:var(--world-color); }
@@ -24,11 +24,13 @@
   .scene-hotspot:nth-of-type(3) .hotspot-dot { animation-delay:.52s }
   .scene-hotspot:nth-of-type(4) .hotspot-dot { animation-delay:.62s }
   .scene-hotspot:nth-of-type(5) .hotspot-dot { animation-delay:.72s }
+  .scene-hotspot:nth-of-type(6) .hotspot-dot { animation-delay:.82s }
   .scene-hotspot:nth-of-type(1) .hotspot-label { animation-delay:.4s }
   .scene-hotspot:nth-of-type(2) .hotspot-label { animation-delay:.5s }
   .scene-hotspot:nth-of-type(3) .hotspot-label { animation-delay:.6s }
   .scene-hotspot:nth-of-type(4) .hotspot-label { animation-delay:.7s }
   .scene-hotspot:nth-of-type(5) .hotspot-label { animation-delay:.8s }
+  .scene-hotspot:nth-of-type(6) .hotspot-label { animation-delay:.9s }
 }
 @keyframes hotspot-pop { from { opacity:0; transform:scale(.3); } }
 @keyframes hotspot-label { from { opacity:0; transform:translateY(6px); } }

@@ -37,16 +37,7 @@
       "sourceId": "source:snd-nye-finding-aid"
     },
     "bodyPath": "./documents/note/one-canal-song-three-records.json",
-    "order": 90,
-    "sectionId": "culture",
-    "kicker": "AKRON · ARCHIVAL SOUND",
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/sounds.md"
-      }
-    }
+    "order": 90
   },
   "blocks": [
     {

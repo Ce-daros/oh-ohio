@@ -60,7 +60,6 @@
     "bodyPath": "./documents/feature/who-keeps-ohios-memory.json",
     "category": "everyday",
     "location": "Ohio · state and community collections",
-    "duration": "A collection-led reading",
     "readTime": "4 min read",
     "coverMediaId": "media:who-keeps-ohios-memory",
     "coverAlt": "An illustrated archive reader examining an old photograph",
@@ -75,14 +74,7 @@
         "reason": "The Eastern Shawnee Tribe of Oklahoma shares a digital library through Ohio Memory. Let’s begin with the Tribe’s own collection and descriptions."
       }
     ],
-    "order": 101,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/memory.md"
-      }
-    }
+    "order": 101
   },
   "blocks": [
     {

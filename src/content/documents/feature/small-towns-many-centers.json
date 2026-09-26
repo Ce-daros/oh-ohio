@@ -85,7 +85,6 @@
     "bodyPath": "./documents/feature/small-towns-many-centers.json",
     "category": "guides",
     "location": "Yellow Springs and Nelsonville · separate visits",
-    "duration": "Two separate town visits",
     "readTime": "4 min read",
     "coverMediaId": "media:small-towns-many-centers",
     "coverAlt": "An illustrated small town square with brick storefronts and a train",
@@ -100,14 +99,7 @@
         "reason": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day."
       }
     ],
-    "order": 104,
-    "updatedAt": "2026-09-25",
-    "dateEvidence": {
-      "updatedAt": {
-        "kind": "editorial-record",
-        "path": "editorial/research/small-towns.md"
-      }
-    }
+    "order": 104
   },
   "blocks": [
     {
@@ -182,14 +174,12 @@
         {
           "id": "cascades",
           "title": "Glen Helen Cascades Lot",
-          "note": "The preserve lists ADA trail access from this entrance to Birch Creek Cascades and Yellow Spring.",
-          "placeId": "yellow-springs-cascades-access"
+          "note": "The preserve lists ADA trail access from this entrance to Birch Creek Cascades and Yellow Spring."
         },
         {
           "id": "steps",
           "title": "Glen Helen Steps Lot",
-          "note": "A separate entrance serves the museum and a trail descending more than 110 stone steps.",
-          "placeId": "yellow-springs-steps-access"
+          "note": "A separate entrance serves the museum and a trail descending more than 110 stone steps."
         }
       ]
     },
@@ -254,8 +244,7 @@
         {
           "id": "square",
           "title": "Nelsonville Public Square",
-          "note": "ODOT’s byway plan marks this point at 39.46121, -82.23210.",
-          "placeId": "nelsonville-public-square"
+          "note": "ODOT’s byway plan marks this point at 39.46121, -82.23210."
         },
         {
           "id": "opera",
@@ -265,8 +254,7 @@
         {
           "id": "depot",
           "title": "Hocking Valley Scenic Railway depot",
-          "note": "Scheduled excursions and accessibility arrangements are operator-dependent.",
-          "placeId": "hocking-valley-depot"
+          "note": "Scheduled excursions and accessibility arrangements are operator-dependent."
         }
       ]
     },

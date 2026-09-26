@@ -29,8 +29,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/north-coast.json",
-      "sectionId": "discover",
-      "kicker": "LAKE ERIE · GLACIAL COUNTRY",
       "order": 0
     },
     {
@@ -61,8 +59,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/appalachian-ohio.json",
-      "sectionId": "discover",
-      "kicker": "SOUTHEAST · RIDGES & VALLEYS",
       "order": 1
     },
     {
@@ -95,8 +91,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cities-regions.json",
-      "sectionId": "discover",
-      "kicker": "CLEVELAND · COLUMBUS · CINCINNATI",
       "order": 2
     },
     {
@@ -126,8 +120,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/history.json",
-      "sectionId": "discover",
-      "kicker": "ANCIENT EARTHWORKS · STATEHOOD",
       "order": 3
     },
     {
@@ -157,8 +149,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/nature.json",
-      "sectionId": "discover",
-      "kicker": "PARKS · WETLANDS · WILDLIFE",
       "order": 4
     },
     {
@@ -188,8 +178,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/symbols.json",
-      "sectionId": "discover",
-      "kicker": "A BURGEE · A NICKNAME · A TREE",
       "order": 5
     },
     {
@@ -224,8 +212,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/hocking-hills.json",
-      "sectionId": "travel",
-      "kicker": "SOUTHEAST OHIO · NATURE",
       "order": 6
     },
     {
@@ -256,8 +242,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cuyahoga-valley.json",
-      "sectionId": "travel",
-      "kicker": "NORTHEAST OHIO · NATIONAL PARK",
       "order": 7
     },
     {
@@ -288,8 +272,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/lake-erie-islands.json",
-      "sectionId": "travel",
-      "kicker": "NORTH COAST · WATER & ISLANDS",
       "order": 8
     },
     {
@@ -321,8 +303,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cleveland.json",
-      "sectionId": "travel",
-      "kicker": "NORTHEAST OHIO · LAKE ERIE CITY",
       "order": 9
     },
     {
@@ -353,8 +333,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/columbus.json",
-      "sectionId": "travel",
-      "kicker": "CENTRAL OHIO · CAPITAL CITY",
       "order": 10
     },
     {
@@ -385,8 +363,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cincinnati.json",
-      "sectionId": "travel",
-      "kicker": "SOUTHWEST OHIO · RIVER CITY",
       "order": 11
     },
     {
@@ -417,8 +393,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/dayton.json",
-      "sectionId": "travel",
-      "kicker": "WESTERN OHIO · AVIATION",
       "order": 12
     },
     {
@@ -453,8 +427,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/marblehead-lighthouse.json",
-      "sectionId": "travel",
-      "kicker": "LAKE ERIE · LIGHTHOUSE",
       "order": 13
     },
     {
@@ -488,8 +460,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/wayne-covered-bridge-byway.json",
-      "sectionId": "travel",
-      "kicker": "SOUTHEAST OHIO · SCENIC DRIVE",
       "order": 14
     },
     {
@@ -524,8 +494,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/toledo-glass-pavilion.json",
-      "sectionId": "travel",
-      "kicker": "TOLEDO · ART & GLASS",
       "order": 15
     },
     {
@@ -560,8 +528,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/magee-marsh.json",
-      "sectionId": "travel",
-      "kicker": "LAKE ERIE · MIGRATING BIRDS",
       "order": 16
     },
     {
@@ -591,8 +557,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/serpent-mound.json",
-      "sectionId": "travel",
-      "kicker": "SOUTHERN OHIO · INDIGENOUS EARTHWORK",
       "order": 17
     },
     {
@@ -626,8 +590,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/glen-helen.json",
-      "sectionId": "travel",
-      "kicker": "YELLOW SPRINGS · WOODLAND PATHS",
       "order": 18
     },
     {
@@ -657,8 +619,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/hopewell-earthworks.json",
-      "sectionId": "culture",
-      "kicker": "INDIGENOUS HERITAGE · WORLD HERITAGE",
       "order": 19
     },
     {
@@ -689,8 +649,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/aviation-heritage.json",
-      "sectionId": "culture",
-      "kicker": "DAYTON · IDEAS IN MOTION",
       "order": 20
     },
     {
@@ -721,8 +679,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/music.json",
-      "sectionId": "culture",
-      "kicker": "CLEVELAND · SOUND",
       "order": 21
     },
     {
@@ -752,8 +708,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/arts-museums.json",
-      "sectionId": "culture",
-      "kicker": "STATEWIDE · CREATIVE LIFE",
       "order": 22
     },
     {
@@ -783,8 +737,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/foodways.json",
-      "sectionId": "culture",
-      "kicker": "LOCAL TABLES · EVERYDAY CULTURE",
       "order": 23
     },
     {
@@ -814,8 +766,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/sports-community.json",
-      "sectionId": "culture",
-      "kicker": "STATEWIDE · SHARED MOMENTS",
       "order": 24
     },
     {
@@ -850,8 +800,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cleveland-orchestra-severance.json",
-      "sectionId": "culture",
-      "kicker": "CLEVELAND · LIVE MUSIC",
       "order": 25
     },
     {
@@ -886,8 +834,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/freedom-center-river.json",
-      "sectionId": "culture",
-      "kicker": "CINCINNATI · HISTORY",
       "order": 26
     },
     {
@@ -922,8 +868,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/west-side-market.json",
-      "sectionId": "culture",
-      "kicker": "CLEVELAND · PUBLIC MARKET",
       "order": 27
     },
     {
@@ -958,8 +902,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/billy-ireland-cartoon-museum.json",
-      "sectionId": "culture",
-      "kicker": "COLUMBUS · COMICS & ARCHIVES",
       "order": 28
     },
     {
@@ -994,8 +936,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/american-sign-museum.json",
-      "sectionId": "culture",
-      "kicker": "CINCINNATI · SIGNS & NEON",
       "order": 29
     },
     {
@@ -1026,8 +966,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cincinnati-music-hall.json",
-      "sectionId": "culture",
-      "kicker": "CINCINNATI · A LIVING STAGE",
       "order": 30
     },
     {
@@ -1057,8 +995,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/economic-map.json",
-      "sectionId": "economy",
-      "kicker": "REGIONAL ECONOMIES · SHARED NETWORKS",
       "order": 31
     },
     {
@@ -1088,8 +1024,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/production.json",
-      "sectionId": "economy",
-      "kicker": "MANUFACTURING · MATERIALS · DESIGN",
       "order": 32
     },
     {
@@ -1119,8 +1053,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/jobs-households.json",
-      "sectionId": "economy",
-      "kicker": "LABOR · INCOME · OPPORTUNITY",
       "order": 33
     },
     {
@@ -1150,8 +1082,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/trade.json",
-      "sectionId": "economy",
-      "kicker": "ROADS · RAIL · AIR · WATER",
       "order": 34
     },
     {
@@ -1183,8 +1113,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/port-of-toledo.json",
-      "sectionId": "economy",
-      "kicker": "LAKE ERIE · CARGO & RAIL",
       "order": 35
     },
     {
@@ -1214,8 +1142,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/advanced-manufacturing.json",
-      "sectionId": "industry",
-      "kicker": "MATERIALS · MACHINES · PRODUCTION",
       "order": 36
     },
     {
@@ -1245,8 +1171,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/aerospace.json",
-      "sectionId": "industry",
-      "kicker": "FLIGHT · RESEARCH · SYSTEMS",
       "order": 37
     },
     {
@@ -1276,8 +1200,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/automotive.json",
-      "sectionId": "industry",
-      "kicker": "VEHICLES · COMPONENTS · TESTING",
       "order": 38
     },
     {
@@ -1307,8 +1229,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/healthcare.json",
-      "sectionId": "industry",
-      "kicker": "CARE · RESEARCH · BIOTECH",
       "order": 39
     },
     {
@@ -1338,8 +1258,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/food-agriculture.json",
-      "sectionId": "industry",
-      "kicker": "FARMS · PROCESSING · SUPPLY",
       "order": 40
     },
     {
@@ -1369,8 +1287,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/logistics.json",
-      "sectionId": "industry",
-      "kicker": "ROADS · RAIL · FREIGHT",
       "order": 41
     },
     {
@@ -1400,8 +1316,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/technology.json",
-      "sectionId": "industry",
-      "kicker": "SOFTWARE · CHIPS · DATA",
       "order": 42
     },
     {
@@ -1431,8 +1345,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/energy-chemicals.json",
-      "sectionId": "industry",
-      "kicker": "POWER · MATERIALS · PROCESSES",
       "order": 43
     },
     {
@@ -1467,8 +1379,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/glenn-icing-tunnel.json",
-      "sectionId": "industry",
-      "kicker": "CLEVELAND · FLIGHT RESEARCH",
       "order": 44
     },
     {
@@ -1498,8 +1408,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/east-liverpool-ceramics.json",
-      "sectionId": "industry",
-      "kicker": "EAST LIVERPOOL · CERAMICS",
       "order": 45
     },
     {
@@ -1530,8 +1438,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/columbus-whistle-factory.json",
-      "sectionId": "industry",
-      "kicker": "COLUMBUS · BRASS & PRECISION",
       "order": 46
     },
     {
@@ -1562,8 +1468,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/rookwood-cincinnati.json",
-      "sectionId": "industry",
-      "kicker": "CINCINNATI · ART POTTERY",
       "order": 47
     },
     {
@@ -1598,8 +1502,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/akron-rubber-work.json",
-      "sectionId": "industry",
-      "kicker": "AKRON · RUBBER & TIRES",
       "order": 48
     },
     {
@@ -1633,8 +1535,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/regional-voices.json",
-      "sectionId": "language",
-      "kicker": "NORTHERN · MIDLAND · SOUTHERN",
       "order": 49
     },
     {
@@ -1664,8 +1564,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/appalachian-english.json",
-      "sectionId": "language",
-      "kicker": "SOUTHEAST OHIO · A REGIONAL VARIETY",
       "order": 50
     },
     {
@@ -1695,8 +1593,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/place-names.json",
-      "sectionId": "language",
-      "kicker": "SCIOTO · BELLEFONTAINE · CUYAHOGA",
       "order": 51
     },
     {
@@ -1730,8 +1626,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/community-languages.json",
-      "sectionId": "language",
-      "kicker": "FAMILY · MIGRATION · COMMUNITY",
       "order": 52
     },
     {
@@ -1761,8 +1655,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/executive.json",
-      "sectionId": "government",
-      "kicker": "CARRY OUT THE LAW",
       "order": 53
     },
     {
@@ -1792,8 +1684,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/legislative.json",
-      "sectionId": "government",
-      "kicker": "MAKE THE LAW",
       "order": 54
     },
     {
@@ -1823,8 +1713,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/judicial.json",
-      "sectionId": "government",
-      "kicker": "INTERPRET THE LAW",
       "order": 55
     },
     {
@@ -1858,8 +1746,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/local-government.json",
-      "sectionId": "government",
-      "kicker": "COUNTIES · CITIES · VILLAGES · TOWNSHIPS",
       "order": 56
     },
     {
@@ -1894,8 +1780,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/statehouse-open-door.json",
-      "sectionId": "government",
-      "kicker": "COLUMBUS · CIVIC LIFE",
       "order": 57
     },
     {
@@ -1925,8 +1809,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/universities.json",
-      "sectionId": "life",
-      "kicker": "PUBLIC · PRIVATE · COMMUNITY",
       "order": 58
     },
     {
@@ -1956,8 +1838,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/research.json",
-      "sectionId": "life",
-      "kicker": "LABS · HEALTH · ENGINEERING",
       "order": 59
     },
     {
@@ -1987,8 +1867,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/schools-learning.json",
-      "sectionId": "life",
-      "kicker": "PUBLIC SCHOOLS · CAREER PATHS",
       "order": 60
     },
     {
@@ -2018,8 +1896,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/libraries.json",
-      "sectionId": "life",
-      "kicker": "BOOKS · DIGITAL ACCESS · COMMUNITY",
       "order": 61
     },
     {
@@ -2049,8 +1925,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/community-life.json",
-      "sectionId": "life",
-      "kicker": "NEIGHBORS · ARTS · SERVICE",
       "order": 62
     },
     {
@@ -2084,8 +1958,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/ohiolink-shared-shelves.json",
-      "sectionId": "life",
-      "kicker": "OHIO · SHARED LIBRARIES",
       "order": 63
     },
     {
@@ -2120,8 +1992,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/cosi-try-it-yourself.json",
-      "sectionId": "life",
-      "kicker": "COLUMBUS · HANDS-ON SCIENCE",
       "order": 64
     },
     {
@@ -2151,8 +2021,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/wilberforce-black-history.json",
-      "sectionId": "life",
-      "kicker": "WILBERFORCE · MUSEUM & ARCHIVES",
       "order": 65
     },
     {
@@ -2187,8 +2055,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/rocky-river-nature-center.json",
-      "sectionId": "life",
-      "kicker": "CLEVELAND AREA · LEARN OUTDOORS",
       "order": 66
     },
     {
@@ -2223,8 +2089,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/note/possum-creek-gardens.json",
-      "sectionId": "life",
-      "kicker": "DAYTON · COMMUNITY GARDEN",
       "order": 67
     },
     {
@@ -2254,7 +2118,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/phrase/youuns-yuns.json",
-      "region": "Upper Ohio Valley / south Midland speech, with related Appalachian forms",
       "order": 68
     },
     {
@@ -2284,7 +2147,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/phrase/mamaw-papaw.json",
-      "region": "Upper Ohio Valley speech, including Ohio",
       "order": 69
     },
     {
@@ -2314,7 +2176,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/phrase/needs-washed.json",
-      "region": "Ohio Valley and Appalachian varieties; also found elsewhere in the U.S.",
       "order": 70
     },
     {
@@ -2344,7 +2205,6 @@
         "status": "unverified"
       },
       "bodyPath": "./documents/phrase/scioto.json",
-      "region": "Scioto River and nearby communities in southern Ohio",
       "order": 71
     },
     {
@@ -2398,7 +2258,6 @@
       "bodyPath": "./documents/feature/cincinnati-market-to-music.json",
       "category": "guides",
       "location": "Cincinnati · Over-the-Rhine",
-      "duration": "One easy day",
       "readTime": "3 min read",
       "coverMediaId": "media:cincinnati-market-to-music",
       "coverAlt": "Painted Cincinnati market scene with a green entrance canopy and produce stalls",
@@ -2466,7 +2325,6 @@
       "bodyPath": "./documents/feature/dayton-made-to-fly.json",
       "category": "guides",
       "location": "Dayton · Wright-Dunbar and beyond",
-      "duration": "Two days",
       "readTime": "4 min read",
       "coverMediaId": "media:dayton-made-to-fly",
       "coverAlt": "Illustration of an early biplane model and bicycle wheel on a workshop bench",
@@ -2529,7 +2387,6 @@
       "bodyPath": "./documents/feature/cuyahoga-slow-day.json",
       "category": "guides",
       "location": "Cuyahoga Valley · Peninsula",
-      "duration": "One full day",
       "readTime": "3 min read",
       "coverMediaId": "media:cuyahoga-slow-day",
       "coverAlt": "Illustrated woodland waterfall and a wooden viewing boardwalk",
@@ -2598,7 +2455,6 @@
       "bodyPath": "./documents/feature/sandusky-play-day.json",
       "category": "guides",
       "location": "Sandusky · Lake Erie",
-      "duration": "Two days or one night",
       "readTime": "3 min read",
       "coverMediaId": "media:sandusky-play-day",
       "coverAlt": "Painted lakeside scene with a bench, sailboat and distant roller coasters",
@@ -2656,7 +2512,6 @@
       "bodyPath": "./documents/feature/brass-whistle.json",
       "category": "making",
       "location": "Columbus",
-      "duration": "A closer look",
       "readTime": "3 min read",
       "coverMediaId": "media:brass-whistle",
       "coverAlt": "Illustrated brass pea whistle, navy cord and metal blank on a workbench",
@@ -2718,7 +2573,6 @@
       "bodyPath": "./documents/feature/rookwood-clay.json",
       "category": "making",
       "location": "Cincinnati",
-      "duration": "A studio-minded afternoon",
       "readTime": "3 min read",
       "coverMediaId": "media:rookwood-clay",
       "coverAlt": "Illustrated green pottery vase, clay bowl and shaping tool in a workshop",
@@ -2790,7 +2644,6 @@
       "bodyPath": "./documents/feature/toledo-glass.json",
       "category": "making",
       "location": "Toledo",
-      "duration": "A museum afternoon",
       "readTime": "3 min read",
       "coverMediaId": "media:toledo-glass",
       "coverAlt": "Painted blue-green glass vase and amber bowl with a studio furnace behind",
@@ -2862,7 +2715,6 @@
       "bodyPath": "./documents/feature/akron-rubber.json",
       "category": "making",
       "location": "Akron",
-      "duration": "A city-history read",
       "readTime": "3 min read",
       "coverMediaId": "media:akron-rubber",
       "coverAlt": "Illustration of a rubber tire beside a workshop bench and a sheet of rubber",
@@ -2924,7 +2776,6 @@
       "bodyPath": "./documents/feature/cincinnati-chili.json",
       "category": "table",
       "location": "Cincinnati",
-      "duration": "A lunch stop",
       "readTime": "3 min read",
       "coverMediaId": "media:cincinnati-chili",
       "coverAlt": "Painted plate of Cincinnati chili with spaghetti and shredded cheddar in a diner",
@@ -2990,7 +2841,6 @@
       "bodyPath": "./documents/feature/buckeye-sweets.json",
       "category": "table",
       "location": "Across Ohio",
-      "duration": "A sweet little pause",
       "readTime": "3 min read",
       "coverMediaId": "media:buckeye-sweets",
       "coverAlt": "Illustrated buckeye candies with uncovered peanut-butter tops on a navy plate",
@@ -3057,7 +2907,6 @@
       "bodyPath": "./documents/feature/west-side-market-table.json",
       "category": "table",
       "location": "Cleveland",
-      "duration": "A market morning",
       "readTime": "3 min read",
       "coverMediaId": "media:west-side-market-table",
       "coverAlt": "Painted vaulted market hall with food counters and a sunlit aisle",
@@ -3124,7 +2973,6 @@
       "bodyPath": "./documents/feature/library-afternoon.json",
       "category": "everyday",
       "location": "Columbus",
-      "duration": "An afternoon",
       "readTime": "3 min read",
       "coverMediaId": "media:library-afternoon",
       "coverAlt": "Illustrated library reading table and open book beside a window overlooking greenery",
@@ -3186,7 +3034,6 @@
       "bodyPath": "./documents/feature/community-garden-season.json",
       "category": "everyday",
       "location": "Dayton",
-      "duration": "A growing season",
       "readTime": "3 min read",
       "coverMediaId": "media:community-garden-season",
       "coverAlt": "Painted garden beds, tomato plants and watering can beside a quiet path in evening light",
@@ -3253,7 +3100,6 @@
       "bodyPath": "./documents/feature/athens-campus-day.json",
       "category": "everyday",
       "location": "Athens",
-      "duration": "A campus day",
       "readTime": "3 min read",
       "coverMediaId": "media:athens-campus-day",
       "coverAlt": "Painted college green with a tree-lined path and red brick academic building",
@@ -3358,7 +3204,6 @@
       "order": 86,
       "category": "making",
       "location": "Columbus and Cincinnati",
-      "duration": "A close look",
       "readTime": "5 min read",
       "coverMediaId": "media:materials-in-the-making",
       "coverAlt": "An illustrated workbench with brass whistle parts and a clay vessel in progress",
@@ -3376,14 +3221,7 @@
           "id": "feature:akron-rubber",
           "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
         }
-      ],
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/materials.md"
-        }
-      }
+      ]
     },
     {
       "id": "note:whistle-cross-section",
@@ -3421,16 +3259,7 @@
         "sourceId": "source:mat-whistle-work"
       },
       "bodyPath": "./documents/note/whistle-cross-section.json",
-      "order": 87,
-      "sectionId": "making",
-      "kicker": "COLUMBUS · OBJECT STUDY",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/materials.md"
-        }
-      }
+      "order": 87
     },
     {
       "id": "note:what-survives-the-kiln",
@@ -3470,16 +3299,7 @@
         "sourceId": "source:mat-rookwood-vase"
       },
       "bodyPath": "./documents/note/what-survives-the-kiln.json",
-      "order": 88,
-      "sectionId": "making",
-      "kicker": "CINCINNATI · CERAMICS",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/materials.md"
-        }
-      }
+      "order": 88
     },
     {
       "id": "feature:listening-to-ohio",
@@ -3551,7 +3371,6 @@
       "order": 89,
       "category": "culture",
       "location": "Across Ohio",
-      "duration": "A listening session",
       "readTime": "5 min read",
       "coverMediaId": "media:listening-to-ohio",
       "coverAlt": "An illustrated marsh boardwalk at dusk with a frog by the water",
@@ -3569,14 +3388,7 @@
           "id": "note:cincinnati-music-hall",
           "reason": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive."
         }
-      ],
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/sounds.md"
-        }
-      }
+      ]
     },
     {
       "id": "note:one-canal-song-three-records",
@@ -3616,16 +3428,7 @@
         "sourceId": "source:snd-nye-finding-aid"
       },
       "bodyPath": "./documents/note/one-canal-song-three-records.json",
-      "order": 90,
-      "sectionId": "culture",
-      "kicker": "AKRON · ARCHIVAL SOUND",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/sounds.md"
-        }
-      }
+      "order": 90
     },
     {
       "id": "note:what-is-an-accent-sample",
@@ -3658,16 +3461,7 @@
         "sourceId": "source:snd-buckeye"
       },
       "bodyPath": "./documents/note/what-is-an-accent-sample.json",
-      "order": 91,
-      "sectionId": "language",
-      "kicker": "COLUMBUS · SPEECH RESEARCH",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/sounds.md"
-        }
-      }
+      "order": 91
     },
     {
       "id": "feature:how-a-library-loan-travels",
@@ -3731,7 +3525,6 @@
       "bodyPath": "./documents/feature/how-a-library-loan-travels.json",
       "category": "guides",
       "location": "Ohio · local library catalogs",
-      "duration": "One catalog search",
       "readTime": "5 min read",
       "coverMediaId": "media:how-a-library-loan-travels",
       "coverAlt": "An illustrated wrapped book on a library pickup shelf",
@@ -3746,14 +3539,7 @@
           "reason": "A request at your own library can send a book traveling between shared shelves. I like a reading adventure that begins close to home. ♡"
         }
       ],
-      "order": 92,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/library.md"
-        }
-      }
+      "order": 92
     },
     {
       "id": "note:what-catalog-can-tell-you",
@@ -3796,16 +3582,7 @@
         "sourceId": "source:lib-searchohio"
       },
       "bodyPath": "./documents/note/what-catalog-can-tell-you.json",
-      "order": 93,
-      "sectionId": "library",
-      "kicker": "Before you request",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/library.md"
-        }
-      }
+      "order": 93
     },
     {
       "id": "note:a-books-trip-through-ohio",
@@ -3848,16 +3625,7 @@
         "sourceId": "source:lib-searchohio"
       },
       "bodyPath": "./documents/note/a-books-trip-through-ohio.json",
-      "order": 94,
-      "sectionId": "library",
-      "kicker": "Request and return",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/library.md"
-        }
-      }
+      "order": 94
     },
     {
       "id": "feature:findlay-street-through-time",
@@ -3954,7 +3722,6 @@
       "bodyPath": "./documents/feature/findlay-street-through-time.json",
       "category": "everyday",
       "location": "Cincinnati · Findlay Market and Race Street",
-      "duration": "A map-led market visit",
       "readTime": "5 min read",
       "coverMediaId": "media:findlay-street-through-time",
       "coverAlt": "An illustrated Cincinnati street block beside the market",
@@ -3969,14 +3736,7 @@
           "reason": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both."
         }
       ],
-      "order": 95,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/street.md"
-        }
-      }
+      "order": 95
     },
     {
       "id": "note:reading-a-sanborn-map",
@@ -4025,16 +3785,7 @@
         "sourceId": "source:str-sanborn"
       },
       "bodyPath": "./documents/note/reading-a-sanborn-map.json",
-      "order": 96,
-      "sectionId": "street",
-      "kicker": "Map reading",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/street.md"
-        }
-      }
+      "order": 96
     },
     {
       "id": "note:markets-changing-edges",
@@ -4078,16 +3829,7 @@
         "sourceId": "source:str-market-history"
       },
       "bodyPath": "./documents/note/markets-changing-edges.json",
-      "order": 97,
-      "sectionId": "street",
-      "kicker": "Street and transit",
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/street.md"
-        }
-      }
+      "order": 97
     },
     {
       "id": "feature:water-has-a-working-life",
@@ -4170,7 +3912,6 @@
       "bodyPath": "./documents/feature/water-has-a-working-life.json",
       "category": "guides",
       "location": "Cleveland · Cuyahoga River and Lake Erie",
-      "duration": "A slow, map-led day",
       "readTime": "4 min read",
       "coverMediaId": "media:water-has-a-working-life",
       "coverAlt": "An illustrated working waterfront with river water, a cargo ship and cranes",
@@ -4185,14 +3926,7 @@
           "reason": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow."
         }
       ],
-      "order": 98,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/water.md"
-        }
-      }
+      "order": 98
     },
     {
       "id": "note:canal-corridor-in-maps",
@@ -4232,16 +3966,7 @@
         "sourceId": "source:water-ohio-canals"
       },
       "bodyPath": "./documents/note/canal-corridor-in-maps.json",
-      "sectionId": "discover",
-      "kicker": "OHIO & ERIE CANAL · MAPS",
-      "order": 99,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/water.md"
-        }
-      }
+      "order": 99
     },
     {
       "id": "note:lake-erie-intakes-and-buoys",
@@ -4281,16 +4006,7 @@
         "sourceId": "source:water-cleveland-water"
       },
       "bodyPath": "./documents/note/lake-erie-intakes-and-buoys.json",
-      "sectionId": "discover",
-      "kicker": "CLEVELAND · DRINKING WATER",
-      "order": 100,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/water.md"
-        }
-      }
+      "order": 100
     },
     {
       "id": "feature:who-keeps-ohios-memory",
@@ -4353,7 +4069,6 @@
       "bodyPath": "./documents/feature/who-keeps-ohios-memory.json",
       "category": "everyday",
       "location": "Ohio · state and community collections",
-      "duration": "A collection-led reading",
       "readTime": "4 min read",
       "coverMediaId": "media:who-keeps-ohios-memory",
       "coverAlt": "An illustrated archive reader examining an old photograph",
@@ -4368,14 +4083,7 @@
           "reason": "The Eastern Shawnee Tribe of Oklahoma shares a digital library through Ohio Memory. Let’s begin with the Tribe’s own collection and descriptions."
         }
       ],
-      "order": 101,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/memory.md"
-        }
-      }
+      "order": 101
     },
     {
       "id": "note:oral-history-is-a-persons-account",
@@ -4414,16 +4122,7 @@
         "sourceId": "source:memory-ohio-memory-oral"
       },
       "bodyPath": "./documents/note/oral-history-is-a-persons-account.json",
-      "sectionId": "discover",
-      "kicker": "OHIO · ORAL HISTORY",
-      "order": 102,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/memory.md"
-        }
-      }
+      "order": 102
     },
     {
       "id": "note:eastern-shawnee-digital-library",
@@ -4462,16 +4161,7 @@
         "sourceId": "source:memory-ohio-memory-collections"
       },
       "bodyPath": "./documents/note/eastern-shawnee-digital-library.json",
-      "sectionId": "discover",
-      "kicker": "EASTERN SHAWNEE TRIBE · DIGITAL COLLECTION",
-      "order": 103,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/memory.md"
-        }
-      }
+      "order": 103
     },
     {
       "id": "feature:small-towns-many-centers",
@@ -4559,7 +4249,6 @@
       "bodyPath": "./documents/feature/small-towns-many-centers.json",
       "category": "guides",
       "location": "Yellow Springs and Nelsonville · separate visits",
-      "duration": "Two separate town visits",
       "readTime": "4 min read",
       "coverMediaId": "media:small-towns-many-centers",
       "coverAlt": "An illustrated small town square with brick storefronts and a train",
@@ -4574,14 +4263,7 @@
           "reason": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day."
         }
       ],
-      "order": 104,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/small-towns.md"
-        }
-      }
+      "order": 104
     },
     {
       "id": "note:yellow-springs-stewardship",
@@ -4620,16 +4302,7 @@
         "sourceId": "source:town-glen-helen-history"
       },
       "bodyPath": "./documents/note/yellow-springs-stewardship.json",
-      "sectionId": "travel",
-      "kicker": "YELLOW SPRINGS · GLEN HELEN",
-      "order": 105,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/small-towns.md"
-        }
-      }
+      "order": 105
     },
     {
       "id": "note:nelsonville-railway-access",
@@ -4669,16 +4342,7 @@
         "sourceId": "source:town-hocking-access"
       },
       "bodyPath": "./documents/note/nelsonville-railway-access.json",
-      "sectionId": "travel",
-      "kicker": "NELSONVILLE · RAILWAY",
-      "order": 106,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/small-towns.md"
-        }
-      }
+      "order": 106
     },
     {
       "id": "feature:two-city-days",
@@ -4779,7 +4443,6 @@
       "bodyPath": "./documents/feature/two-city-days.json",
       "category": "guides",
       "location": "Cincinnati and Dayton · two separate itineraries",
-      "duration": "Choose a half-day or full day",
       "readTime": "4 min read",
       "coverMediaId": "media:two-city-days",
       "coverAlt": "An illustrated travel notebook with market and aviation day trip ideas",
@@ -4794,14 +4457,7 @@
           "reason": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites."
         }
       ],
-      "order": 107,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/routes.md"
-        }
-      }
+      "order": 107
     },
     {
       "id": "note:cincinnati-connector-station-order",
@@ -4840,16 +4496,7 @@
         "sourceId": "source:routes-cincinnati-map"
       },
       "bodyPath": "./documents/note/cincinnati-connector-station-order.json",
-      "sectionId": "travel",
-      "kicker": "CINCINNATI · CONNECTOR",
-      "order": 108,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/routes.md"
-        }
-      }
+      "order": 108
     },
     {
       "id": "note:dayton-aviation-transit-and-access",
@@ -4893,16 +4540,7 @@
         "sourceId": "source:routes-nps-directions"
       },
       "bodyPath": "./documents/note/dayton-aviation-transit-and-access.json",
-      "sectionId": "travel",
-      "kicker": "DAYTON · TRANSPORT",
-      "order": 109,
-      "updatedAt": "2026-09-25",
-      "dateEvidence": {
-        "updatedAt": {
-          "kind": "editorial-record",
-          "path": "editorial/research/routes.md"
-        }
-      }
+      "order": 109
     }
   ]
 }

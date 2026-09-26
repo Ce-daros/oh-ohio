@@ -1,6 +1,6 @@
 import { contentManifest, places, topics, type ContentMeta, type WorldId } from './index';
 
-export const SEARCH_ALIASES: Record<string, string> = {
+const SEARCH_ALIASES: Record<string, string> = {
   cle: 'cleveland', cbus: 'columbus', otr: 'over-the-rhine', cvnp: 'cuyahoga', buckeyes: 'buckeye',
 };
 
