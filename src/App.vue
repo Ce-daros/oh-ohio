@@ -8,7 +8,7 @@ provideReadingList();
 const route = useRoute();
 const menuOpen = ref(false);
 const menuButton = ref<HTMLButtonElement | null>(null);
-function closeMenu() { if (menuOpen.value) { menuOpen.value = false; menuButton.value!.focus(); } }
+function closeMenu() { if (menuOpen.value) { menuOpen.value = false; menuButton.value?.focus(); } }
 async function toggleMenu() {
   if (menuOpen.value) { closeMenu(); return; }
   menuOpen.value = true;

@@ -12,8 +12,12 @@ export function provideReadingList() {
   const ids = ref<string[]>([]);
   const ready = ref(false);
   function read() {
-    const stored = localStorage.getItem(storageKey);
-    ids.value = stored === null ? [] : JSON.parse(stored);
+    try {
+      const stored = JSON.parse(localStorage.getItem(storageKey) ?? '[]');
+      ids.value = Array.isArray(stored) ? stored.filter(item => typeof item === 'string') : [];
+    } catch {
+      ids.value = [];
+    }
     ready.value = true;
   }
   function sync(event: StorageEvent) {

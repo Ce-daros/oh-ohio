@@ -29,6 +29,7 @@ const mediaById = new Map(media.map(item => [item.id, item]));
 const collectionById = new Map(collections.map(collection => [collection.id, collection]));
 const worldById = new Map(worlds.map(world => [world.id, world]));
 const bodyModules = import.meta.glob<ContentBody>('./documents/*/*.json', { import: 'default' });
+const frozenBodies = new Map<string, readonly Readonly<import('./types').BodyBlock>[]>();
 
 export const kindLabels: Record<ContentMeta['kind'], string> = { feature: 'Field note', note: 'Guide note', phrase: 'Local words' };
 
@@ -61,11 +62,15 @@ export function queryContent(query: ContentQuery = {}): readonly Readonly<Conten
 
 export async function loadContentBody(idOrSlug: string): Promise<readonly Readonly<import('./types').BodyBlock>[]> {
   const document = getContent(idOrSlug);
+  const cached = frozenBodies.get(document.bodyPath);
+  if (cached) return cached;
   const load = bodyModules[document.bodyPath];
   if (!load) throw new Error(`Missing body module: ${document.bodyPath}`);
   const body = await load();
   if (body.meta.id !== document.id) throw new Error(`Body ID mismatch: ${document.bodyPath}`);
-  return deepFreeze(body.blocks);
+  const blocks = deepFreeze(body.blocks);
+  frozenBodies.set(document.bodyPath, blocks);
+  return blocks;
 }
 
 export function getSource(id: string): Readonly<Source> {
