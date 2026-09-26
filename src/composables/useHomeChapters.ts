@@ -19,6 +19,9 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
     const main = root.value!;
     const sections = [...main.querySelectorAll<HTMLElement>('.home-stage')];
     const motion = matchMedia('(min-width:1024px) and (min-height:720px) and (prefers-reduced-motion:no-preference)');
+    // Motion opt-outs only: viewport size never disables entrance motion, it only
+    // switches between the pinned desktop choreography and the simpler fallback.
+    const calm = matchMedia('(prefers-reduced-motion: reduce)');
     const fine = matchMedia('(pointer:fine)');
     const animated = () => motion.matches && html.dataset.input !== 'keyboard';
     const context = gsap.context(() => {}, main);
@@ -151,7 +154,7 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
           if (!entry.isIntersecting || visited.has(entry.target)) continue;
           visited.add(entry.target);
           observer!.unobserve(entry.target);
-          if (!motion.matches || html.dataset.input === 'keyboard') continue;
+          if (calm.matches || html.dataset.input === 'keyboard') continue;
           context.add(() => {
             entry.target.querySelectorAll<HTMLElement>('[data-home-reveal]').forEach((element, index) => {
               gsap.from(element, {
