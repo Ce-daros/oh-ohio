@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { contentManifest, places, topics, worlds } from "../content";
+import { places, worlds } from "../content";
+import { searchContent } from "../content/search";
 import ContentCard from "../components/ContentCard.vue";
 import { usePageMotion } from "../composables/usePageMotion";
 import { useGridFlip } from "../composables/useGridFlip";
@@ -17,18 +18,7 @@ watch(() => route.query, value => {
   kind.value = typeof value.kind === 'string' ? value.kind : '';
   place.value = typeof value.place === 'string' ? value.place : '';
 }, { immediate: true });
-const aliases: Record<string, string> = { cle: 'cleveland', cbus: 'columbus', otr: 'over-the-rhine', cvnp: 'cuyahoga', buckeyes: 'buckeye' };
-const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-const results = computed(() => {
-  const terms = normalize(query.value.trim()).split(/\s+/).filter(Boolean).map(term => aliases[term] ?? term);
-  return contentManifest.documents.filter(item => {
-    if (world.value && !item.worlds.includes(world.value as typeof item.primaryWorld)) return false;
-    if (kind.value && item.kind !== kind.value) return false;
-    if (place.value && !item.places.includes(place.value)) return false;
-    const text = normalize([item.title, item.summary, item.slug, ...item.places.map(id => places.find(p => p.id === id)!.title), ...item.topics.map(id => topics.find(topic => topic.id === id)!.title)].join(' '));
-    return terms.every(term => text.includes(term));
-  }).sort((a, b) => Number(normalize(b.title).includes(normalize(query.value))) - Number(normalize(a.title).includes(normalize(query.value))));
-});
+const results = computed(() => searchContent({ q: query.value, world: world.value, kind: kind.value, place: place.value }));
 function search() {
   router.push({ path: '/search', query: { ...(query.value.trim() ? { q: query.value.trim() } : {}), ...(world.value ? { world: world.value } : {}), ...(kind.value ? { kind: kind.value } : {}), ...(place.value ? { place: place.value } : {}) } });
 }
