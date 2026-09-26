@@ -20,3 +20,6 @@ jobs:
       # Build must precede test: the HTTP suite serves the built dist/ tree.
       - run: npm run build
       - run: npm test
+      # Internal-link check over the built site; remote links are covered
+      # by check:remote-media.
+      - run: npm run check:links
