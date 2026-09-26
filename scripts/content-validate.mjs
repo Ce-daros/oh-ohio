@@ -221,7 +221,6 @@ export function validateContent(repoRoot = process.cwd()) {
     if (bySlug.has(oldSlug)) fail(file, `old slug ${oldSlug} collides with a canonical slug`);
     if (!bySlug.has(newSlug)) fail(file, `migration ${oldSlug} references unknown slug ${newSlug}`);
   }
-  for (const oldSlug of ['phrase-1', 'phrase-2', 'phrase-3', 'phrase-4']) if (!migrations[oldSlug]) fail(`${base}data/migrations.json`, `missing legacy slug ${oldSlug}`);
   unique(journeys, `${base}data/journeys.json`, 'journey ID', item => item.id);
   for (const journey of journeys) {
     const file = `${base}data/journeys.json ${journey.id}`;

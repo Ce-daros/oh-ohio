@@ -9,7 +9,7 @@ npm ci
 npm run dev
 ```
 
-`npm run build` validates content and types, builds the client and server bundles, renders every public route to `dist/`, and checks the resulting HTML. `npm run preview` serves the build locally. `npm run validate:content` checks the document graph without building the site.
+`npm run build` validates content and types, builds the client and server bundles, renders every public route to `dist/`, and checks the resulting HTML. `npm run preview` serves the build locally. `npm run validate:content` checks the document graph without building the site. `npm test` runs the content-integrity and static-server test suites; the HTTP tests need a completed build in `dist/`.
 
 ## Content
 

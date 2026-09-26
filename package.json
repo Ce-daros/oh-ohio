@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "node scripts/build.mjs",
-    "validate:content": "node scripts/content-manifest.mjs --check && node scripts/content-validate.mjs && node scripts/route-catalog.mjs --check && node --test scripts/content-validate.test.mjs",
+    "validate:content": "node scripts/content-manifest.mjs --check && node scripts/content-validate.mjs && node scripts/route-catalog.mjs --check",
+    "test": "node --test scripts/*.test.mjs",
     "report:coverage": "node scripts/content-coverage.mjs",
     "check:remote-media": "node scripts/check-remote-media.mjs",
     "preview": "node scripts/serve-dist.mjs"
