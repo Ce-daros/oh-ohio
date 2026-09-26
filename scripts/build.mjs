@@ -9,6 +9,7 @@ const commands = [
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssrManifest'],
   [path.join('node_modules', 'vite', 'bin', 'vite.js'), 'build', '--ssr', 'src/entry-server.ts', '--outDir', '.ssr'],
   ['scripts/prerender.mjs'],
+  ['scripts/inline-critical-css.mjs'],
   ['scripts/prerender-verify.mjs'],
 ];
 
