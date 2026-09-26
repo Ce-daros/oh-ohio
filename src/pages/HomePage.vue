@@ -6,9 +6,14 @@ import HomeTheme from '../components/home/HomeTheme.vue';
 import HomeFieldNotes from '../components/home/HomeFieldNotes.vue';
 import HomeDiscoveries from '../components/home/HomeDiscoveries.vue';
 import HomeNeighborhood from '../components/home/HomeNeighborhood.vue';
-import { useHomeSections, homeSections } from '../composables/home/useHomeSections';
+import { homeSections } from '../components/home/sections';
+import { useHomeChoreography } from '../composables/home/useHomeChoreography';
+import { useHomeNav } from '../composables/home/useHomeNav';
 const root = ref<HTMLElement | null>(null);
-const active = useHomeSections(root);
+// Choreography mounts first so pinned layout is in place before the nav
+// takes its initial measurement (same ordering as the original composable).
+useHomeChoreography(root);
+const active = useHomeNav(root);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="home-page">

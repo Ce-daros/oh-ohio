@@ -1,0 +1,22 @@
+/* World selection sidebar and the world index chrome. */
+.scene-selection { padding:12px 10px 0 0; }
+.selection-heading { display:flex; align-items:center; gap:18px; }
+.selection-heading .eyebrow { font-size:11px; letter-spacing:.1em; color:var(--ink-muted); }
+.selection-number { font:500 38px/1 'Space Grotesk Variable',sans-serif; color:var(--accent); letter-spacing:-.06em; }
+.scene-selection h2 { font-size:38px; margin:25px 0 16px; line-height:1.08; }
+.selected-summary { font-size:15px; color:#59677b; line-height:1.7; }
+.selection-stories { margin-top:25px; }
+.selection-stories a { width:100%; display:flex; justify-content:space-between; align-items:center; gap:15px; background:transparent; border:0; border-bottom:1px solid #cfd7e3; text-align:left; padding:15px 0; color:var(--ink); font-size:15px; line-height:1.4; font-weight:600; transition:color .18s var(--ease); }
+.selection-stories a > span:last-child { font-size:22px; transition:transform .2s var(--ease); }
+.selection-stories a:hover { color:var(--accent); }
+.selection-stories a:hover > span:last-child { transform:translate(2px,-2px); }
+.selection-overview,.selection-details { min-width:0; }
+.world-index { max-width:1440px; margin:0 auto; padding:0 var(--page-gutter) 70px; }
+.topic-groups { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:35px; padding-top:35px; }
+.world-next { position:relative; display:block; background:var(--next-color); padding:38px 8% 46px; overflow:hidden; }
+.world-next > span { font-size:12px; letter-spacing:.15em; font-weight:600; }
+.world-next strong { display:block; font:500 clamp(64px,9vw,140px)/1.1 'Space Grotesk Variable',sans-serif; letter-spacing:-.06em; }
+.world-next strong span { display:inline-block; font-weight:400; font-size:.7em; margin-left:40px; transition:transform .4s var(--ease); }
+.world-next > img { position:absolute; right:12%; height:165px; width:165px; object-fit:contain; top:40px; transform:rotate(8deg); transition:transform .4s var(--ease); }
+.world-next:hover strong span { transform:translate(8px,-8px); }
+.world-next:hover > img { transform:rotate(-5deg) translateY(-8px); }

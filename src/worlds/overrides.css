@@ -1,0 +1,82 @@
+/* Layered additions after the base passes: breakpoints, reduced-motion
+   opt-out, and later components (connections, metrics, whispers). Kept
+   as one append-only layer, in the original cascade order, so equal-
+   specificity overrides land exactly where they used to. */
+@media(min-width:1600px) { .world-body { grid-template-columns:minmax(0,1fr) 340px; } }
+@media(max-width:1100px) {
+  .world-body { grid-template-columns:minmax(0,1fr) 255px; gap:24px; }
+  .world-make .world-body { grid-template-columns:245px minmax(0,1fr); }
+  .scene-selection h2 { font-size:32px; }
+  .selected-summary { font-size:14px; }
+  .hotspot-label { font-size:11px; padding:5px 7px; }
+  .hotspot-dot { width:30px; height:30px; font-size:11px; }
+  .word-collection { flex-direction:column; align-items:flex-start; gap:30px; }
+  .economy-board { padding:30px; }.economy-numbers { gap:20px; }
+}
+@media(max-width:800px) {
+  .world-body,.world-make .world-body { grid-template-columns:minmax(0,1fr); padding:0 var(--page-gutter); gap:25px; }
+  .scene-selection { display:grid; grid-template-columns:1fr 1fr; column-gap:32px; padding:0; }
+  .scene-selection h2 { margin-top:15px; }
+  .selected-summary { font-size:15px; }
+  .selection-stories { margin:0; }
+  .hotspot-label { font-size:12px; }.hotspot-dot { width:34px; height:34px; }
+  .world-live .scene-canvas { aspect-ratio:3/2; border-radius:40px 40px 4px 4px; }
+  .world-live .scene-selection { grid-template-columns:1fr 1fr; column-gap:32px; }
+  .economy-numbers { grid-template-columns:1fr 1fr; gap:30px; }.economy-numbers strong { font-size:38px; }
+  .board-heading { display:block; }.board-heading h2 { margin-top:12px; }
+  .topic-groups { grid-template-columns:1fr 1fr; }
+  .world-next > img { right:5%; width:120px; height:120px; top:30px; }
+}
+@media(max-width:560px) {
+  .site-header { height:72px; }.brand { font-size:28px; }
+  .scene-canvas,.world-live .scene-canvas { aspect-ratio:auto; display:grid; grid-template-columns:1fr 1fr; gap:9px; overflow:hidden; padding:calc(66.667% + 15px) 12px 14px; border-radius:4px 35px 4px 4px; background:#e6edf4; }
+  .scene-picture,.world-live .scene-picture { inset:0 0 auto; aspect-ratio:3/2; }
+  .scene-picture img { object-fit:contain; }
+  .scene-vignette { display:none; }
+  .scene-hotspot { position:relative; left:auto; top:auto; transform:none; flex-direction:row; white-space:normal; text-align:left; gap:8px; min-height:46px; }
+  .hotspot-dot { flex-shrink:0; width:27px; height:27px; font-size:10px; box-shadow:none; }
+  .hotspot-label { background:transparent; box-shadow:none; padding:3px 0; font-size:12px; line-height:1.3; }
+  .scene-hotspot.selected .hotspot-label { background:transparent; color:#a41d37; }
+  .scene-hotspot.selected .hotspot-dot { transform:none; box-shadow:none; }
+  .scene-imprint,.map-compass,.machine-crosshair,.collection-corner,.neighborhood-mark { display:none; }
+  .world-make .scene-canvas { border-width:4px; box-shadow:6px 6px 0 var(--world-shadow); }
+  .world-culture .scene-canvas { border-radius:40px 4px 4px 4px; background:var(--world-bg-scene); }
+  .world-live .scene-canvas { border-radius:35px 35px 4px 4px; background:var(--world-bg-scene); }
+  .scene-selection,.world-live .scene-selection { display:block; position:relative; padding:5px 0 0; }
+  .scene-selection h2 { font-size:35px; margin:15px 0; }
+  .selection-stories { margin-top:15px; }.selected-summary { font-size:16px; }
+  .selection-heading .eyebrow { font-size:11px; }
+  .economy-board { padding:25px 20px; margin-top:40px; }.board-heading h2 { font-size:27px; }
+  .economy-numbers { gap:25px 15px; }.economy-numbers strong { font-size:29px; }
+  .economy-numbers p { font-size:12px; }.economy-numbers article > span,.economy-numbers time,.economy-numbers a { font-size:11px; }
+  .word-collection { margin-top:40px; }.word-collection h2 { font-size:48px; }.word-slips { grid-template-columns:1fr 1fr; gap:20px; }.word-slips strong { font-size:25px; }
+  .world-index { padding-bottom:40px; }
+  .topic-groups { grid-template-columns:1fr; gap:25px; }
+  .world-next { padding:30px 6%; }.world-next strong { font-size:60px; }.world-next strong span { margin-left:15px; }.world-next > img { width:80px; height:80px; right:3%; top:35px; }
+  .reader { width:100%; }.reader-top { padding:14px 20px; }.reader-top > span { font-size:10px; }.reader-article { padding:30px 25px; }.reader-article h2 { font-size:40px; }.reader-summary { font-size:19px; }
+}
+@media(prefers-reduced-motion:reduce) { .world-page *, .world-page *::before, .world-page *::after { animation:none!important; transition:none!important; } }
+
+@media(max-width:560px) { html.reading-open { scrollbar-gutter:auto; } .reader { width:100vw; } }
+.industry-connections { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.industry-connections line { stroke:#fff0ad; stroke-width:2; stroke-dasharray:5 6; opacity:.2; transition:opacity .35s var(--ease); }
+.industry-connections line.active { opacity:.95; }
+.selection-metric { display:flex; flex-direction:column; margin-top:28px; padding:18px; background:#d6e0ed; border-radius:3px; gap:6px; }
+.selection-metric > span { font-size:11px; line-height:1.5; color:#435873; }
+.selection-metric > span:first-child { font-size:10px; letter-spacing:.06em; text-transform:uppercase; }
+.selection-metric strong { font:500 32px/1.1 'Space Grotesk Variable',sans-serif; letter-spacing:-.05em; }
+.selection-metric > span:last-child { text-decoration:underline; text-underline-offset:3px; margin-top:5px; }
+@media(min-width:1101px) { .hotspot-label { font-size:14px; } }
+@media(max-width:800px) { .selection-metric { margin-top:20px; } }
+@media(max-width:560px) {
+  .industry-connections { height:auto; aspect-ratio:3/2; }
+  .hotspot-label { font-size:14px; }
+  .scene-hotspot { min-height:52px; }
+  .selection-metric { padding:18px 20px; }
+}
+.chan-whisper { margin-top:22px; padding:16px 18px; background:var(--veil-soft); border-left:2px solid #d96a82; border-radius:0 14px 14px 0; }
+.chan-whisper > span { display:block; color:#9f344c; font-size:12px; font-weight:650; margin-bottom:7px; }
+.chan-whisper p { color:#566578; font-size:14px; line-height:1.8; }
+.world-live .chan-whisper { margin-top:23px; }
+@media(min-width:801px) { .world-page:not(.world-live) .world-scene { position:sticky; top:var(--anchor-offset); } }
+@media(max-width:560px) { .chan-whisper { margin-top:20px; }.chan-whisper p { font-size:15px; } }

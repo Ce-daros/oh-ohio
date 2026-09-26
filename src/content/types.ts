@@ -78,19 +78,24 @@ export interface FeatureMeta extends BaseMeta {
 }
 export type ContentMeta = NoteMeta | PhraseMeta | FeatureMeta;
 
-export type BodyBlock = ({
+// Each member carries the optional block-level source citation; the
+// union is kept distributed (intersection pushed into each member) so
+// `Extract<BodyBlock, { type: ... }>` narrows to a single block type.
+type WithBlockSources = { sourceIds?: string[] };
+
+export type BodyBlock = (({
     type: 'paragraph'; text: string; role?: 'intro' | 'signoff'
-  }
-  | { type: 'heading'; id: string; title: string; eyebrow: string }
-  | { type: 'illustration'; mediaId: string; caption?: string }
-  | { type: 'process'; title: string; layout?: 'steps' | 'parallel'; steps: { title: string; text: string }[] }
-  | { type: 'quote'; text: string; attribution: string; sourceId?: string }
-  | { type: 'timeline'; events: { label: string; text: string }[] }
-  | { type: 'practical'; items: { label: string; text: string }[] }
-  | { type: 'characterAside'; title: string; text: string; role?: 'welcome' | 'notice' | 'explain' | 'listen' | 'practical' | 'farewell' }
-  | { type: 'video'; mediaId: string; transcript: string }
-  | { type: 'placeMap'; title: string; placeIds: string[]; caption: string }
-  | { type: 'route'; stops: { id: string; title: string; note: string }[] }) & { sourceIds?: string[] };
+  } & WithBlockSources)
+  | ({ type: 'heading'; id: string; title: string; eyebrow: string } & WithBlockSources)
+  | ({ type: 'illustration'; mediaId: string; caption?: string } & WithBlockSources)
+  | ({ type: 'process'; title: string; layout?: 'steps' | 'parallel'; steps: { title: string; text: string }[] } & WithBlockSources)
+  | ({ type: 'quote'; text: string; attribution: string; sourceId?: string } & WithBlockSources)
+  | ({ type: 'timeline'; events: { label: string; text: string }[] } & WithBlockSources)
+  | ({ type: 'practical'; items: { label: string; text: string }[] } & WithBlockSources)
+  | ({ type: 'characterAside'; title: string; text: string; role?: 'welcome' | 'notice' | 'explain' | 'listen' | 'practical' | 'farewell' } & WithBlockSources)
+  | ({ type: 'video'; mediaId: string; transcript: string } & WithBlockSources)
+  | ({ type: 'placeMap'; title: string; placeIds: string[]; caption: string } & WithBlockSources)
+  | ({ type: 'route'; stops: { id: string; title: string; note: string }[] } & WithBlockSources));
 
 export interface ContentBody { meta: ContentMeta; blocks: BodyBlock[] }
 export interface ContentManifest { schemaVersion: 1; documents: ContentMeta[] }

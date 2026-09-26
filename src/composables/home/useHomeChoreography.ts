@@ -1,17 +1,33 @@
-import { onMounted, onUnmounted, ref, type Ref } from 'vue';
+import { onMounted, onUnmounted, type Ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SplitText from 'gsap/SplitText';
+import { useEventListener } from '@vueuse/core';
 import { inputMode, onInputModeChange } from '../../input-mode';
+import { useHomePointer } from './useHomePointer';
 
-export const homeSections = [
-  { id: 'welcome', label: 'Hello' }, { id: 'worlds', label: 'Four worlds' },
-  { id: 'in-focus', label: 'In focus' }, { id: 'field-notes', label: 'Field notes' },
-  { id: 'discoveries', label: 'Little finds' }, { id: 'neighborhood', label: 'Everyday Ohio' },
-];
+// Pin/scrub: each screen stays pinned for 55% of a viewport of scrolling
+// while its content recedes slightly and its art slowly zooms.
+const PIN_DISTANCE = '+=55%';
+const DWELL_RECEDE_Y = -14;
+const DWELL_RECEDE_OPACITY = .75;
+const DWELL_ART_ZOOM = 1.045;
+const WATERMARK_DRIFT_Y = 26;
+const IMG_PARALLAX_PERCENT = 4;
 
-export function useHomeSections(root: Ref<HTMLElement | null>) {
-  const active = ref('welcome');
+// Entrance: grid cards materialize out of a soft blur; lone elements sit
+// a touch deeper, the eyebrow lighter.
+const GRID_STAGGER = '.world-portals, .discovery-grid, .supporting-stories, .theme-companions';
+const BLUR_SOFT = 'blur(8px)';
+const BLUR_DEEP = 'blur(10px)';
+const BLUR_LIGHT = 'blur(6px)';
+
+/**
+ * The homepage scroll choreography: pinned desktop motion with entrance
+ * reveals, or a lightweight IntersectionObserver fallback. Rebuilt from
+ * scratch whenever the input mode or the motion media query flips.
+ */
+export function useHomeChoreography(root: Ref<HTMLElement | null>) {
   let dispose: () => void;
   onMounted(() => {
     gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -26,50 +42,8 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
     const fine = matchMedia('(pointer:fine)');
     const animated = () => motion.matches && inputMode() !== 'keyboard';
     const context = gsap.context(() => {}, main);
+    const pointer = useHomePointer(main);
     let observer: IntersectionObserver | null = null;
-    let cleanups: Array<() => void> = [];
-
-    function bindPointer() {
-      const strengthOf = (element: HTMLElement) => element.classList.contains('world-portal') ? .12 : .22;
-      for (const element of main.querySelectorAll<HTMLElement>('.home-welcome .button, .world-portal')) {
-        const strength = strengthOf(element);
-        const xTo = gsap.quickTo(element, 'x', { duration: .5, ease: 'expo.out' });
-        const yTo = gsap.quickTo(element, 'y', { duration: .5, ease: 'expo.out' });
-        const move = (event: PointerEvent) => {
-          const rect = element.getBoundingClientRect();
-          xTo((event.clientX - (rect.left + rect.width / 2)) * strength);
-          yTo((event.clientY - (rect.top + rect.height / 2)) * strength);
-        };
-        const leave = () => gsap.to(element, { x: 0, y: 0, duration: .9, ease: 'expo.out' });
-        element.addEventListener('pointermove', move);
-        element.addEventListener('pointerleave', leave);
-        cleanups.push(() => {
-          element.removeEventListener('pointermove', move);
-          element.removeEventListener('pointerleave', leave);
-          gsap.set(element, { x: 0, y: 0 });
-        });
-      }
-      for (const card of main.querySelectorAll<HTMLElement>('.world-portal')) {
-        const art = card.querySelector<HTMLElement>('.portal-art');
-        if (!art) continue;
-        gsap.set(art, { scale: 1.1 });
-        const xTo = gsap.quickTo(art, 'x', { duration: .6, ease: 'expo.out' });
-        const yTo = gsap.quickTo(art, 'y', { duration: .6, ease: 'expo.out' });
-        const move = (event: PointerEvent) => {
-          const rect = card.getBoundingClientRect();
-          xTo(((event.clientX - rect.left) / rect.width - .5) * 14);
-          yTo(((event.clientY - rect.top) / rect.height - .5) * 10);
-        };
-        const leave = () => gsap.to(art, { x: 0, y: 0, duration: .9, ease: 'expo.out' });
-        card.addEventListener('pointermove', move);
-        card.addEventListener('pointerleave', leave);
-        cleanups.push(() => {
-          card.removeEventListener('pointermove', move);
-          card.removeEventListener('pointerleave', leave);
-          gsap.set(art, { x: 0, y: 0, scale: 1 });
-        });
-      }
-    }
 
     function setupDesktop() {
       context.add(() => {
@@ -83,28 +57,27 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
           const dwell = gsap.timeline({
             defaults: { ease: 'none' },
             scrollTrigger: {
-              trigger: section, start: `top top+=${header}`, end: '+=55%',
+              trigger: section, start: `top top+=${header}`, end: PIN_DISTANCE,
               pin: true, anticipatePin: 1, scrub: .8,
             },
           });
-          dwell.fromTo(inner, { y: 0, opacity: 1 }, { y: -14, opacity: .75, ease: 'power1.inOut', duration: 1 }, 0);
-          if (art) dwell.fromTo(art, { scale: 1 }, { scale: 1.045, ease: 'power1.out', duration: 1 }, 0);
+          dwell.fromTo(inner, { y: 0, opacity: 1 }, { y: DWELL_RECEDE_Y, opacity: DWELL_RECEDE_OPACITY, ease: 'power1.inOut', duration: 1 }, 0);
+          if (art) dwell.fromTo(art, { scale: 1 }, { scale: DWELL_ART_ZOOM, ease: 'power1.out', duration: 1 }, 0);
           const watermark = section.querySelector<HTMLElement>('.welcome-watermark');
-          if (watermark) gsap.fromTo(watermark, { y: -26 }, {
-            y: 26, ease: 'none',
+          if (watermark) gsap.fromTo(watermark, { y: -WATERMARK_DRIFT_Y }, {
+            y: WATERMARK_DRIFT_Y, ease: 'none',
             scrollTrigger: { trigger: section, start: 'top bottom', end: 'bottom top', scrub: 1 },
           });
           for (const img of section.querySelectorAll<HTMLElement>('[data-home-reveal="art"] img')) {
             if (img.closest('.portal-art')) continue;
-            gsap.fromTo(img, { yPercent: -4 }, {
-              yPercent: 4, ease: 'none',
+            gsap.fromTo(img, { yPercent: -IMG_PARALLAX_PERCENT }, {
+              yPercent: IMG_PARALLAX_PERCENT, ease: 'none',
               scrollTrigger: { trigger: section, start: `top bottom`, end: `bottom top-=${header}`, scrub: 1 },
             });
           }
         });
         // 2) Entrance choreography: eyebrow → title line-mask reveal → aside →
         // content materializing out of blur → art settling, card grids staggered.
-        const staggerGrids = '.world-portals, .discovery-grid, .supporting-stories, .theme-companions';
         sections.forEach(section => {
           const eyebrow = section.querySelector<HTMLElement>('.eyebrow');
           const heading = section.id === 'welcome'
@@ -120,24 +93,24 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
             scrollTrigger: { trigger: section, start: 'top 72%', once: true },
           });
           const reveal = (element: HTMLElement, at: number) => {
-            if (element.matches(staggerGrids) && element.children.length > 2) {
+            if (element.matches(GRID_STAGGER) && element.children.length > 2) {
               tl.from([...element.children], {
-                y: 38, opacity: 0, scale: .97, filter: 'blur(8px)', duration: 1.1, stagger: .09,
+                y: 38, opacity: 0, scale: .97, filter: BLUR_SOFT, duration: 1.1, stagger: .09,
                 clearProps: 'transform,opacity,filter',
               }, at);
             } else {
               tl.from(element, {
-                y: 34, opacity: 0, filter: 'blur(10px)', duration: 1.05,
+                y: 34, opacity: 0, filter: BLUR_DEEP, duration: 1.05,
                 clearProps: 'transform,opacity,filter',
               }, at);
             }
           };
-          if (eyebrow) tl.from(eyebrow, { y: 16, opacity: 0, filter: 'blur(6px)', duration: .85, clearProps: 'filter' }, 0);
+          if (eyebrow) tl.from(eyebrow, { y: 16, opacity: 0, filter: BLUR_LIGHT, duration: .85, clearProps: 'filter' }, 0);
           if (heading) {
             const split = new SplitText(heading, { type: 'lines', mask: 'lines' });
             tl.from(split.lines, { yPercent: 120, duration: 1.15, stagger: .09, ease: 'power4.out' }, .07);
           }
-          if (headingAside) tl.from(headingAside, { y: 22, opacity: 0, filter: 'blur(8px)', duration: .95, clearProps: 'filter' }, .42);
+          if (headingAside) tl.from(headingAside, { y: 22, opacity: 0, filter: BLUR_SOFT, duration: .95, clearProps: 'filter' }, .42);
           copy.forEach((element, index) => reveal(element, heading ? .3 + index * .09 : .05));
           for (const art of arts) {
             const at = heading ? .34 : .1;
@@ -147,7 +120,7 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
           }
         });
       });
-      if (fine.matches) bindPointer();
+      if (fine.matches) pointer.bind();
     }
 
     function setupFallback() {
@@ -161,7 +134,7 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
           context.add(() => {
             entry.target.querySelectorAll<HTMLElement>('[data-home-reveal]').forEach((element, index) => {
               gsap.from(element, {
-                y: 14, opacity: 0, filter: 'blur(8px)',
+                y: 14, opacity: 0, filter: BLUR_SOFT,
                 duration: element.dataset.homeReveal === 'art' ? .55 : .45, delay: index * .06,
                 ease: 'power3.out', clearProps: 'transform,opacity,filter',
               });
@@ -174,8 +147,7 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
 
     function teardownMotion() {
       context.revert();
-      cleanups.forEach(cleanup => cleanup());
-      cleanups = [];
+      pointer.unbind();
       observer?.disconnect();
       observer = null;
     }
@@ -187,33 +159,14 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
 
     if (animated()) setupDesktop(); else setupFallback();
 
-    let frame = 0;
-    function update() {
-      frame = 0;
-      const header = parseFloat(getComputedStyle(html).getPropertyValue('--header-height'));
-      const line = header + (innerHeight - header) * .4;
-      let current = sections[0]!;
-      for (const section of sections) {
-        if (section.getBoundingClientRect().top <= line) current = section;
-      }
-      active.value = current.id;
-    }
-    function schedule() { if (!frame) frame = requestAnimationFrame(update); }
-    window.addEventListener('scroll', schedule, { passive: true });
-    window.addEventListener('resize', schedule);
     const offInputChange = onInputModeChange(finishMotion);
-    motion.addEventListener('change', finishMotion);
-    update();
+    const offMotionChange = useEventListener(motion, 'change', finishMotion);
     dispose = () => {
       delete html.dataset.home;
       teardownMotion();
-      cancelAnimationFrame(frame);
-      window.removeEventListener('scroll', schedule);
-      window.removeEventListener('resize', schedule);
       offInputChange();
-      motion.removeEventListener('change', finishMotion);
+      offMotionChange();
     };
   });
   onUnmounted(() => dispose());
-  return active;
 }
