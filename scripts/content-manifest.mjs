@@ -14,9 +14,7 @@ const documents = fs.readdirSync(documentsRoot, { withFileTypes: true })
       return document.meta;
     }));
 documents.sort((a, b) => a.order - b.order);
-const sourceRegistry = JSON.parse(fs.readFileSync(path.join(root, 'data', 'sources.json'), 'utf8'));
-const sourceUrls = sourceRegistry.map(({ id, url }) => ({ id, url }));
-const output = JSON.stringify({ schemaVersion: 1, documents, sourceUrls }, null, 2) + '\n';
+const output = JSON.stringify({ schemaVersion: 1, documents }, null, 2) + '\n';
 const target = path.join(root, 'data', 'manifest.json');
 if (process.argv.includes('--check')) {
   if (fs.readFileSync(target, 'utf8') !== output) {

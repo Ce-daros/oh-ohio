@@ -107,7 +107,7 @@ export type BodyBlock = ({
   | { type: 'route'; stops: { id: string; title: string; note: string; placeId?: string }[] }) & { sourceIds?: string[] };
 
 export interface ContentBody { meta: ContentMeta; blocks: BodyBlock[] }
-export interface ContentManifest { schemaVersion: 1; documents: ContentMeta[]; sourceUrls: { id: string; url: string }[] }
+export interface ContentManifest { schemaVersion: 1; documents: ContentMeta[] }
 export interface ContentQuery {
   kind?: ContentKind;
   world?: WorldId;

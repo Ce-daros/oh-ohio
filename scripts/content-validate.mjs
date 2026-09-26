@@ -161,7 +161,6 @@ export function validateContent(repoRoot = process.cwd()) {
 
   const sorted = [...metas].sort((a, b) => a.order - b.order);
   if (JSON.stringify(manifest.documents) !== JSON.stringify(sorted)) fail(`${base}data/manifest.json`, 'generated manifest is stale; run node scripts/content-manifest.mjs');
-  if (JSON.stringify(manifest.sourceUrls) !== JSON.stringify(sources.map(({ id, url }) => ({ id, url })))) fail(`${base}data/manifest.json`, 'generated source URLs are stale; run node scripts/content-manifest.mjs');
   for (const source of sources) {
     const file = `${base}data/sources.json ${source.id}`;
     nonempty(source.title, file, 'title');
@@ -275,6 +274,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
   else {
     const manifest = JSON.parse(fs.readFileSync('src/content/data/manifest.json', 'utf8'));
     const collections = JSON.parse(fs.readFileSync('src/content/data/collections.json', 'utf8'));
-    console.log(`Content valid: ${manifest.documents.length} documents, ${collections.length} collections, ${manifest.sourceUrls.length} sources`);
+    const sources = JSON.parse(fs.readFileSync('src/content/data/sources.json', 'utf8'));
+    console.log(`Content valid: ${manifest.documents.length} documents, ${collections.length} collections, ${sources.length} sources`);
   }
 }
