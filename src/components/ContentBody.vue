@@ -2,6 +2,7 @@
 import { computed } from "vue";
 import { getWorld, getMedia, getSource, type BodyBlock, type WorldId } from "../content";
 import PlaceMap from './PlaceMap.vue';
+import CharacterArt from './CharacterArt.vue';
 const props = defineProps<{ blocks: readonly Readonly<BodyBlock>[]; world: WorldId }>();
 const asideCharacter = computed(() => getWorld(props.world).art);
 </script>
@@ -16,7 +17,7 @@ const asideCharacter = computed(() => getWorld(props.world).art);
       <blockquote v-else-if="block.type === 'quote'"><p>{{ block.text }}</p><cite>{{ block.attribution }}</cite><a v-if="block.sourceId" :href="getSource(block.sourceId).url">Source ↗</a></blockquote>
       <ol v-else-if="block.type === 'timeline'" class="timeline"><li v-for="event in block.events" :key="event.label"><strong>{{ event.label }}</strong><p>{{ event.text }}</p></li></ol>
       <dl v-else-if="block.type === 'practical'" class="practical"><div v-for="item in block.items" :key="item.label"><dt>{{ item.label }}</dt><dd>{{ item.text }}</dd></div></dl>
-      <aside v-else-if="block.type === 'characterAside'" class="character-note"><div><span class="eyebrow">OHIO-CHAN</span><h3>{{ block.title }}</h3><p>{{ block.text }}</p></div><img :src="`/art/characters/${asideCharacter}-480.webp`" alt="Ohio-chan" width="480" height="720" loading="lazy" /></aside>
+      <aside v-else-if="block.type === 'characterAside'" class="character-note"><div><span class="eyebrow">OHIO-CHAN</span><h3>{{ block.title }}</h3><p>{{ block.text }}</p></div><CharacterArt :character="asideCharacter" alt="Ohio-chan" sizes="150px" /></aside>
       <figure v-else-if="block.type === 'video'" class="audio"><video controls preload="none" :src="getMedia(block.mediaId).src" playsinline></video><figcaption>{{ getMedia(block.mediaId).caption }}</figcaption><details><summary>Transcript &amp; listening notes</summary><p>{{ block.transcript }}</p></details></figure>
       <ol v-else-if="block.type === 'route'" class="route-stops"><li v-for="(stop, position) in block.stops" :key="stop.id"><span>{{ position + 1 }}</span><div><h3>{{ stop.title }}</h3><p>{{ stop.note }}</p></div></li></ol>
       <p v-if="block.sourceIds?.length" class="block-sources"><a v-for="id in block.sourceIds" :key="id" :href="getSource(id).url">{{ getSource(id).title }} ↗</a></p>

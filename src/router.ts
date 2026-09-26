@@ -93,6 +93,10 @@ function updateHead(to: RouteLocationGeneric) {
   } else canonical?.remove();
 }
 
+// How long to wait for a deep-link target to mount before giving up on
+// the scroll adjustment (e.g. a lazily loaded body still suspending).
+const ANCHOR_TIMEOUT_MS = 3000;
+
 function anchorPosition(hash: string) {
   const id = decodeURIComponent(hash.slice(1));
   return new Promise<false | { el: HTMLElement; top: number }>(resolve => {
@@ -105,7 +109,7 @@ function anchorPosition(hash: string) {
       if (element) { observer.disconnect(); clearTimeout(timeout); resolve(position(element)); }
     });
     observer.observe(document.getElementById('app')!, { childList: true, subtree: true });
-    const timeout = window.setTimeout(() => { observer.disconnect(); resolve(false); }, 3000);
+    const timeout = window.setTimeout(() => { observer.disconnect(); resolve(false); }, ANCHOR_TIMEOUT_MS);
   });
 }
 

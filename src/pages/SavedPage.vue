@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { contentManifest } from "../content";
+import { getContents } from "../content";
 import { useReadingList } from "../composables/useReadingList";
 import ContentCard from "../components/ContentCard.vue";
 import SaveButton from "../components/SaveButton.vue";
 const { ids, ready } = useReadingList();
-const items = computed(() => ids.value.flatMap(id => contentManifest.documents.filter(content => content.id === id)));
+const items = computed(() => getContents(ids.value));
 </script>
 <template>
   <main id="main-content" class="saved-page" tabindex="-1"><header><p class="eyebrow">FOR ANOTHER AFTERNOON</p><h1>Your reading <em>list.</em></h1><p>Saved in this browser.</p></header>

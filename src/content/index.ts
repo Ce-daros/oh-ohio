@@ -47,6 +47,15 @@ export function getContent(idOrSlug: string): Readonly<ContentMeta> {
   return document;
 }
 
+/** Batch lookup by id; unknown ids (e.g. a saved id whose document was
+ *  removed) are skipped instead of throwing. */
+export function getContents(ids: readonly string[]): readonly Readonly<ContentMeta>[] {
+  return ids.flatMap(id => {
+    const document = byId.get(id);
+    return document ? [document] : [];
+  });
+}
+
 export function queryContent(query: ContentQuery = {}): readonly Readonly<ContentMeta>[] {
   const selected = contentManifest.documents.filter(document =>
     (!query.kind || document.kind === query.kind) &&

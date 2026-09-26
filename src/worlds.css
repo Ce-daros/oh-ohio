@@ -61,6 +61,7 @@
 
 .world-make { background:#e8edf4; }
 .world-make .world-body { grid-template-columns:280px minmax(0,1fr); padding-right:var(--page-gutter); }
+.world-make .scene-selection { order:-1; }
 
 
 .world-make .scene-canvas { border-radius:3px; border:8px solid #243b58; box-shadow:12px 12px 0 #c7d2e0; }
@@ -125,7 +126,6 @@ html.reading-open { overflow:hidden; scrollbar-gutter:stable; }
 }
 @media(max-width:800px) {
   .world-body,.world-make .world-body { grid-template-columns:minmax(0,1fr); padding:0 var(--page-gutter); gap:25px; }
-  .world-make .world-scene { order:0; }.world-make .scene-selection { order:0; }
   .scene-selection { display:grid; grid-template-columns:1fr 1fr; column-gap:32px; padding:0; }
   .scene-selection h2 { margin-top:15px; }
   .selected-summary { font-size:15px; }

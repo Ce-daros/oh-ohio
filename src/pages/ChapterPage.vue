@@ -60,11 +60,10 @@ function closeEntry() {
     </PageMasthead>
     <Transition name="view-swap" mode="out-in">
     <section v-if="view === 'scene'" class="world-body" :aria-label="`${chapter.title} scene`">
-      <WorldSelection v-if="chapterId === 'make'" :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
       <div class="world-scene" data-hero-art><component :is="sceneComponents[chapterId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
-      <WorldSelection v-if="chapterId !== 'make'" :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
+      <WorldSelection :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
     </section>
-    <section v-else class="world-index" aria-label="Topic index"><div class="topic-groups" data-reveal-grid><section v-for="group in groups" :key="group.id"><h2>{{ group.title }}</h2><a v-for="slug in group.slugs" :key="slug" :href="getContent(slug).canonicalPath" @click="openEntry($event,slug)">{{ getContent(slug).title }}<span aria-hidden="true">↗</span></a></section></div></section>
+    <section v-else class="world-index" aria-label="Topic index"><div class="topic-groups" data-reveal-grid><section v-for="group in groups" :key="group.id"><h2>{{ group.title }}</h2><a v-for="entry in group.slugs.map(getContent)" :key="entry.id" :href="entry.canonicalPath" @click="openEntry($event,entry.slug)">{{ entry.title }}<span aria-hidden="true">↗</span></a></section></div></section>
     </Transition>
     <WorldNumbers v-if="chapterId === 'make'" />
     <WordCollection v-if="chapterId === 'culture'" @read="openEntry" />
