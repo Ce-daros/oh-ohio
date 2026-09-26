@@ -20,5 +20,14 @@
   --header-height: 88px;
   --anchor-offset: calc(var(--header-height) + 24px);
   --ease: cubic-bezier(.22, 1, .36, 1);
+  /* Motion durations: hover/fast feedback, standard entrances, slow settes. */
+  --dur-fast: .2s;
+  --dur-enter: .3s;
+  --dur-slow: .5s;
+  /* Translucent paper veils over scenes and dark panels. */
+  --veil-strong: #fffffff2;
+  --veil: #ffffffed;
+  --veil-soft: #ffffffa8;
+  --veil-faint: #ffffff60;
 }
 @media (max-width: 700px) { :root { --header-height: 72px; } }

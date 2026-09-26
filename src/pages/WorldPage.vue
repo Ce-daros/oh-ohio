@@ -58,7 +58,7 @@ function closeEntry() {
       <template #title>{{ world.title }}<span class="title-period">.</span></template>
       <template #actions><RouterLink :to="{query:{...route.query,view:undefined},hash:''}" :aria-current="view === 'scene' ? 'page' : undefined">Explore the scene</RouterLink><RouterLink :to="{query:{...route.query,view:'index'},hash:''}" :aria-current="view === 'index' ? 'page' : undefined">Topic index <span>{{ allEntries.length }}</span></RouterLink><RouterLink :to="{path:'/search',query:{world:worldId}}">Search ↗</RouterLink></template>
     </PageMasthead>
-    <Transition name="view-swap" mode="out-in">
+    <Transition name="swap" mode="out-in">
     <section v-if="view === 'scene'" class="world-body" :aria-label="`${world.title} scene`">
       <div class="world-scene" data-hero-art><component :is="sceneComponents[worldId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
       <WorldSelection :world="worldId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
@@ -75,10 +75,4 @@ function closeEntry() {
 </template>
 <style scoped>
 .topic-groups h2{font-size:24px;line-height:1.2;color:var(--accent);margin-bottom:18px;letter-spacing:-.04em}.topic-groups a{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--rule);padding:15px 0;font-size:16px;line-height:1.5}.topic-groups a:hover{color:var(--accent)}.world-index{padding-bottom:45px}
-.view-swap-enter-active{transition:opacity .3s var(--ease),transform .3s var(--ease),filter .3s var(--ease)}
-.view-swap-leave-active{transition:opacity .15s var(--ease)}
-.view-swap-enter-from{opacity:0;transform:translateY(14px);filter:blur(6px)}
-.view-swap-leave-to{opacity:0}
-:global(html[data-input=keyboard]) .view-swap-enter-active,:global(html[data-input=keyboard]) .view-swap-leave-active{transition:none}
-
 </style>
