@@ -15,12 +15,12 @@ export function useMotionPolicy(stop: () => void) {
   return () => !preference.matches && document.documentElement.dataset.input !== "keyboard";
 }
 
-export function useMotionScope(root: Ref<HTMLElement | null>, animate: (element: HTMLElement) => void) {
+export function useMotionScope(root: Ref<HTMLElement | null>, animate: (element: HTMLElement) => (() => void) | void) {
   let context: gsap.Context;
   const allowed = useMotionPolicy(() => context.revert());
   onMounted(() => {
     context = gsap.context(() => {
-      if (allowed()) animate(root.value!);
+      if (allowed()) return animate(root.value!) ?? undefined;
     }, root.value!);
   });
   onUnmounted(() => context.revert());

@@ -3,6 +3,8 @@ import { computed, ref, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { contentManifest, places, topics, worlds } from "../content";
 import ContentCard from "../components/ContentCard.vue";
+import { usePageMotion } from "../composables/usePageMotion";
+import { useGridFlip } from "../composables/useGridFlip";
 const route = useRoute();
 const router = useRouter();
 const query = ref('');
@@ -31,17 +33,20 @@ function search() {
   router.push({ path: '/search', query: { ...(query.value.trim() ? { q: query.value.trim() } : {}), ...(world.value ? { world: world.value } : {}), ...(kind.value ? { kind: kind.value } : {}), ...(place.value ? { place: place.value } : {}) } });
 }
 function clear() { query.value = ''; world.value = ''; kind.value = ''; place.value = ''; search(); }
+const root = ref<HTMLElement | null>(null);
+usePageMotion(root);
+useGridFlip(root, ".search-grid", () => results.value);
 </script>
 <template>
-  <main id="main-content" class="browse-page" tabindex="-1">
-    <header class="browse-heading"><p class="eyebrow">FIND A STORY</p><h1>What caught<br />your <em>curiosity?</em></h1></header>
-    <form class="search-form" role="search" @submit.prevent="search">
+  <main id="main-content" ref="root" class="browse-page" tabindex="-1">
+    <header class="browse-heading" data-reveal><p class="eyebrow">FIND A STORY</p><h1>What caught<br />your <em>curiosity?</em></h1></header>
+    <form class="search-form" role="search" data-reveal @submit.prevent="search">
       <div class="search-field"><label class="sr-only" for="story-search">Search stories</label><input id="story-search" v-model="query" type="search" placeholder="A place, a sound, a little brass whistle…" /><button type="submit">Search <span aria-hidden="true">↗</span></button></div>
       <div class="search-filters"><label>World<select v-model="world" @change="search"><option value="">All four worlds</option><option v-for="item in worlds" :key="item.id" :value="item.id">{{ item.title }}</option></select></label><label>Reading<select v-model="kind" @change="search"><option value="">All stories</option><option value="feature">Field notes</option><option value="note">Guide notes</option><option value="phrase">Local words</option></select></label><label>Place<select v-model="place" @change="search"><option value="">All places</option><option v-for="item in places" :key="item.id" :value="item.id">{{ item.title }}</option></select></label><button class="clear-filters" type="button" @click="clear">Clear filters</button></div>
     </form>
-    <div class="results-heading"><p aria-live="polite">{{ results.length }} {{ results.length === 1 ? 'story' : 'stories' }}</p><RouterLink to="/saved">Your reading list ↗</RouterLink></div>
-    <div v-if="results.length" class="search-grid"><ContentCard v-for="item in results" :key="item.id" :content="item" variant="compact" /></div>
-    <div v-else class="empty-reading"><h2>No stories found.</h2><p>Try a place name or clear a filter.</p><button class="text-link" @click="clear">Show all stories ↗</button></div>
+    <div class="results-heading" data-reveal><p aria-live="polite">{{ results.length }} {{ results.length === 1 ? 'story' : 'stories' }}</p><RouterLink to="/saved">Your reading list ↗</RouterLink></div>
+    <div v-if="results.length" class="search-grid" data-reveal><ContentCard v-for="item in results" :key="item.id" :content="item" variant="compact" /></div>
+    <div v-else class="empty-reading" data-reveal><h2>No stories found.</h2><p>Try a place name or clear a filter.</p><button class="text-link" @click="clear">Show all stories ↗</button></div>
   </main>
 </template>
 <style scoped>

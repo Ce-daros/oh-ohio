@@ -12,7 +12,7 @@ import ExploreScene from "../components/scenes/ExploreScene.vue";
 import MakeScene from "../components/scenes/MakeScene.vue";
 import CultureScene from "../components/scenes/CultureScene.vue";
 import LiveScene from "../components/scenes/LiveScene.vue";
-import { usePageMotion } from "../composables/usePageMotion";
+import { useWorldMotion } from "../composables/usePageMotion";
 const props = defineProps<{ chapterId: WorldId }>();
 const route = useRoute();
 const router = useRouter();
@@ -32,7 +32,7 @@ const view = computed(() => route.query.view === 'index' ? 'index' : 'scene');
 const nextWorld = computed(() => worlds[(worlds.findIndex(item => item.id === props.chapterId) + 1) % worlds.length]!);
 const root = ref<HTMLElement | null>(null);
 const sceneComponents = { explore:ExploreScene, make:MakeScene, culture:CultureScene, live:LiveScene };
-usePageMotion(root);
+useWorldMotion(root);
 function selectGroup(id:string) { router.push({query:{...route.query,scene:id},hash:''}); }
 function openEntry(event:MouseEvent,slug:string) {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -50,21 +50,28 @@ function closeEntry() {
       <template #title>{{ chapter.title }}<span class="title-period">.</span></template>
       <template #actions><RouterLink :to="{query:{...route.query,view:undefined},hash:''}" :aria-current="view === 'scene' ? 'page' : undefined">Explore the scene</RouterLink><RouterLink :to="{query:{...route.query,view:'index'},hash:''}" :aria-current="view === 'index' ? 'page' : undefined">Topic index <span>{{ allEntries.length }}</span></RouterLink><RouterLink :to="{path:'/search',query:{world:chapterId}}">Search ↗</RouterLink></template>
     </PageMasthead>
+    <Transition name="view-swap" mode="out-in">
     <section v-if="view === 'scene'" class="world-body" :aria-label="`${chapter.title} scene`">
       <WorldSelection v-if="chapterId === 'make'" :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
       <div class="world-scene" data-hero-art><component :is="sceneComponents[chapterId]" :groups="groups" :selected="selected" @select="selectGroup" /></div>
       <WorldSelection v-if="chapterId !== 'make'" :world="chapterId" :group="selectedGroup" :position="groups.indexOf(selectedGroup)+1" @read="openEntry" />
     </section>
-    <section v-else class="world-index" aria-label="Topic index"><div class="topic-groups"><section v-for="group in groups" :key="group.id"><h2>{{ group.title }}</h2><a v-for="slug in group.slugs" :key="slug" :href="getContent(slug).canonicalPath" @click="openEntry($event,slug)">{{ getContent(slug).title }}<span aria-hidden="true">↗</span></a></section></div></section>
-    <section v-if="chapterId === 'make'" class="economy-board" aria-labelledby="numbers-title"><div class="board-heading"><p class="eyebrow">STATEWIDE / THE BIGGER PICTURE</p><h2 id="numbers-title">Ohio, by the numbers<span>.</span></h2></div><div class="economy-numbers"><article v-for="metric in metrics" :key="metric.id"><p>{{ metric.label }}</p><strong>{{ metric.value }}<span v-if="metric.unit === 'percent'">%</span></strong><span>{{ metric.unit }}</span><time>{{ metric.period }}</time><a :href="metric.url" target="_blank" rel="noopener noreferrer">{{ metric.source }} ↗</a></article></div></section>
-    <section v-if="chapterId === 'culture'" class="word-collection" aria-labelledby="words-title"><div><p class="eyebrow">A FEW LOCAL WORDS</p><h2 id="words-title">Say <em>what?</em></h2></div><div class="word-slips"><a v-for="(phrase,index) in phrases" :key="phrase.id" :href="phrase.canonicalPath" :style="{'--slip-angle':`${index % 2 ? 3 : -3}deg`}" @click="openEntry($event,phrase.slug)"><span>0{{ index+1 }}</span><strong>“{{ phrase.title }}”</strong><span>What does it mean? ↗</span></a></div></section>
-    <JournalShelf :chapter="chapterId" />
-    <GuidedJourneys :chapter-id="chapterId" />
-    <RouterLink class="world-next" :to="`/${nextWorld.id}`" :style="{'--next-color':nextWorld.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextWorld.title }}<span>↗</span></strong><img :src="`/art/small/prop-${nextWorld.prop}.webp`" width="160" height="160" alt="" loading="lazy" /></RouterLink>
+    <section v-else class="world-index" aria-label="Topic index"><div class="topic-groups" data-reveal-grid><section v-for="group in groups" :key="group.id"><h2>{{ group.title }}</h2><a v-for="slug in group.slugs" :key="slug" :href="getContent(slug).canonicalPath" @click="openEntry($event,slug)">{{ getContent(slug).title }}<span aria-hidden="true">↗</span></a></section></div></section>
+    </Transition>
+    <section v-if="chapterId === 'make'" class="economy-board" aria-labelledby="numbers-title"><div class="board-heading" data-reveal><p class="eyebrow">STATEWIDE / THE BIGGER PICTURE</p><h2 id="numbers-title">Ohio, by the numbers<span>.</span></h2></div><div class="economy-numbers"><article v-for="metric in metrics" :key="metric.id"><p>{{ metric.label }}</p><strong>{{ metric.value }}<span v-if="metric.unit === 'percent'">%</span></strong><span>{{ metric.unit }}</span><time>{{ metric.period }}</time><a :href="metric.url" target="_blank" rel="noopener noreferrer">{{ metric.source }} ↗</a></article></div></section>
+    <section v-if="chapterId === 'culture'" class="word-collection" aria-labelledby="words-title"><div data-reveal><p class="eyebrow">A FEW LOCAL WORDS</p><h2 id="words-title">Say <em>what?</em></h2></div><div class="word-slips"><a v-for="(phrase,index) in phrases" :key="phrase.id" :href="phrase.canonicalPath" :style="{'--slip-angle':`${index % 2 ? 3 : -3}deg`}" @click="openEntry($event,phrase.slug)"><span>0{{ index+1 }}</span><strong>“{{ phrase.title }}”</strong><span>What does it mean? ↗</span></a></div></section>
+    <JournalShelf data-reveal :chapter="chapterId" />
+    <GuidedJourneys data-reveal :chapter-id="chapterId" />
+    <RouterLink data-reveal-art class="world-next" :to="`/${nextWorld.id}`" :style="{'--next-color':nextWorld.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextWorld.title }}<span>↗</span></strong><img :src="`/art/small/prop-${nextWorld.prop}.webp`" width="160" height="160" alt="" loading="lazy" /></RouterLink>
     <ReadingPanel :entry="reading" @close="closeEntry" />
   </main>
 </template>
 <style scoped>
 .topic-groups h2{font-size:24px;line-height:1.2;color:var(--accent);margin-bottom:18px;letter-spacing:-.04em}.topic-groups a{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--rule);padding:15px 0;font-size:16px;line-height:1.5}.topic-groups a:hover{color:var(--accent)}.world-index{padding-bottom:45px}.word-slips a{min-width:0;height:195px;background:#ffe4a9;color:#28354a;padding:20px 15px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;text-align:left;transform:rotate(var(--slip-angle))}.word-slips a:nth-child(2){background:#c9dfeb}.word-slips a:nth-child(3){background:#f4c2ca}.word-slips a:nth-child(4){background:#d3dfcc}.word-slips a>span{font-size:13px}.word-slips a:hover{outline:1px solid var(--accent)}
+.view-swap-enter-active{transition:opacity .3s var(--ease),transform .3s var(--ease),filter .3s var(--ease)}
+.view-swap-leave-active{transition:opacity .15s var(--ease)}
+.view-swap-enter-from{opacity:0;transform:translateY(14px);filter:blur(6px)}
+.view-swap-leave-to{opacity:0}
+:global(html[data-input=keyboard]) .view-swap-enter-active,:global(html[data-input=keyboard]) .view-swap-leave-active{transition:none}
 @media(max-width:560px){.word-slips a{height:170px}}
 </style>

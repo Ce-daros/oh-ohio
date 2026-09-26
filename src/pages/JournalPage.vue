@@ -14,7 +14,7 @@ const selectedWorld = computed(() => typeof route.query.world === 'string' ? rou
 const visible = computed(() => articles.filter(item => item.kind === 'feature' && (!selected.value || item.category === selected.value) && (!selectedWorld.value || item.worlds.includes(selectedWorld.value as typeof item.primaryWorld))));
 const featured = getContent(getCollection('home:field-notes').featuredId);
 const cover = featured.kind === 'feature' ? getMedia(featured.coverMediaId) : undefined;
-useJournalMotion(root);
+useJournalMotion(root, () => visible.value);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="journal-page">
@@ -24,10 +24,10 @@ useJournalMotion(root);
       <div class="journal-feature-copy" data-journal-enter><p class="eyebrow">OHIO-CHAN’S PICK</p><h2 id="journal-feature-title">{{ featured.title }}</h2><p>{{ featured.summary }}</p><RouterLink class="text-link" :to="featured.canonicalPath">Read the story <span>↗</span></RouterLink><span v-if="featured.kind === 'feature'" class="feature-time">{{ featured.location }} · {{ featured.readTime }}</span></div>
     </section>
     <section id="stories" class="journal-archive" aria-labelledby="archive-heading">
-      <div class="archive-heading"><h2 id="archive-heading">The reading <em>room.</em></h2><RouterLink to="/topics">Explore collections ↗</RouterLink></div>
+      <div class="archive-heading" data-reveal><h2 id="archive-heading">The reading <em>room.</em></h2><RouterLink to="/topics">Explore collections ↗</RouterLink></div>
       <nav class="journal-filters" aria-label="Filter field notes"><RouterLink :to="{path:'/journal',query:selectedWorld ? {world:selectedWorld} : {}}" :aria-current="!selected ? 'page' : undefined">All stories <span>{{ articles.length }}</span></RouterLink><RouterLink v-for="item in categories" :key="item.id" :to="{path:'/journal',query:{category:item.presentation!.id, ...(selectedWorld ? {world:selectedWorld} : {})}}" :aria-current="selected === item.presentation!.id ? 'page' : undefined">{{ item.title }}</RouterLink></nav>
       <div class="archive-context"><p aria-live="polite">{{ visible.length }} {{ visible.length === 1 ? 'story' : 'stories' }}</p><nav aria-label="World"><RouterLink :to="{path:'/journal',query:selected ? {category:selected} : {}}" :aria-current="!selectedWorld ? 'page' : undefined">All worlds</RouterLink><RouterLink v-for="world in worlds" :key="world.id" :to="{path:'/journal',query:{world:world.id,...(selected ? {category:selected} : {})}}" :aria-current="selectedWorld === world.id ? 'page' : undefined">{{ world.title }}</RouterLink></nav></div>
-      <div class="journal-grid"><ContentCard v-for="content in visible" :key="content.id" :content="content" /></div><p v-if="!visible.length" class="no-stories">No stories in this selection. Choose another world or category.</p>
+      <div class="journal-grid" data-reveal-grid><ContentCard v-for="content in visible" :key="content.id" :content="content" /></div><p v-if="!visible.length" class="no-stories">No stories in this selection. Choose another world or category.</p>
     </section>
   </main>
 </template>

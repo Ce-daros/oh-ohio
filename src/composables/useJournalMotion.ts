@@ -1,20 +1,26 @@
 import type { Ref } from "vue";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useMotionScope } from "./useMotionPolicy";
+import { usePageMotion } from "./usePageMotion";
+import { useGridFlip } from "./useGridFlip";
 
-gsap.registerPlugin(ScrollTrigger);
-
-export function useJournalMotion(root: Ref<HTMLElement | null>) {
+/**
+ * Field notes page: shared masthead choreography + generic reveals
+ * (data-reveal / data-reveal-grid / data-reveal-art) + the featured story
+ * materializing alongside its cover settling from 1.08. When a filter
+ * signal is provided, the archive grid re-flows smoothly on change.
+ */
+export function useJournalMotion(root: Ref<HTMLElement | null>, signal?: () => unknown) {
+  if (signal) useGridFlip(root, ".journal-grid", signal);
+  usePageMotion(root);
   useMotionScope(root, element => {
-    gsap.from(element.querySelectorAll("[data-journal-enter]"), {
-      y: 10, opacity: 0, duration: .4, stagger: .035, ease: "power3.out", clearProps: "transform,opacity",
+    const feature = element.querySelectorAll("[data-journal-enter]");
+    if (!feature.length) return;
+    const tl = gsap.timeline({ defaults: { ease: "expo.out" }, delay: .2 });
+    tl.from(feature, {
+      y: 30, opacity: 0, filter: "blur(10px)", duration: 1, stagger: .12, clearProps: "transform,opacity,filter",
     });
-    element.querySelectorAll("[data-journal-reveal]").forEach(section => {
-      gsap.from(section, {
-        y: 8, opacity: 0, duration: .3, ease: "power3.out", clearProps: "transform,opacity",
-        scrollTrigger: { trigger: section, start: "top 96%", once: true },
-      });
-    });
+    const art = element.querySelector<HTMLElement>(".journal-feature-art img");
+    if (art) tl.from(art, { scale: 1.08, duration: 1.6, clearProps: "transform" }, .08);
   });
 }
