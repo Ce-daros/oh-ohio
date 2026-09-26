@@ -14,7 +14,17 @@ gsap.registerPlugin(Flip);
  * motion and keyboard users: content just swaps.
  */
 export function useGridFlip(root: Ref<HTMLElement | null>, selector: string, signal: () => unknown) {
-  const allowed = useMotionPolicy(() => {});
+  const allowed = useMotionPolicy(() => {
+    // Motion became disallowed mid-flight: drop the captured state and
+    // clear any in-progress tweens so cards never freeze half-way.
+    state = null;
+    const grid = root.value?.querySelector(selector);
+    if (grid?.children.length) {
+      gsap.killTweensOf(grid.children);
+      Flip.killFlipsOf(grid.children);
+      gsap.set(grid.children, { clearProps: "opacity,transform,filter" });
+    }
+  });
   let state: Flip.FlipState | null = null;
   watch(signal, () => {
     const grid = allowed() ? root.value?.querySelector(selector) : null;

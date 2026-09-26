@@ -3,6 +3,7 @@ import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 import { worlds as chapters } from "./content";
 import { provideReadingList } from "./composables/useReadingList";
+import { startInputModeTracking } from "./input-mode";
 provideReadingList();
 const route = useRoute();
 const menuOpen = ref(false);
@@ -15,10 +16,9 @@ async function toggleMenu() {
   document.querySelector<HTMLAnchorElement>('#explore-menu a')!.focus();
 }
 watch(() => route.fullPath, () => { menuOpen.value = false; });
-const keyboard = () => { document.documentElement.dataset.input = "keyboard"; document.dispatchEvent(new Event("ohio:motion-stop")); };
-const pointer = () => { document.documentElement.dataset.input = "pointer"; };
-onMounted(() => { document.addEventListener("keydown", keyboard); document.addEventListener("pointerdown", pointer); });
-onUnmounted(() => { document.removeEventListener("keydown", keyboard); document.removeEventListener("pointerdown", pointer); });
+let stopInputTracking: () => void = () => {};
+onMounted(() => { stopInputTracking = startInputModeTracking(); });
+onUnmounted(() => stopInputTracking());
 </script>
 <template>
   <a class="skip-link" href="#main-content">Skip to content</a>

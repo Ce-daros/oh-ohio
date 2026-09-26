@@ -13,7 +13,7 @@ All site motion shares one language, established on the homepage and reused thro
 
 ## Access control — `useMotionPolicy`
 
-`src/composables/useMotionPolicy.ts` is the single gate. Motion runs only when the user has no `prefers-reduced-motion: reduce` preference and has not used the keyboard in this session (`html[data-input=keyboard]`, set on first `keydown`). CSS transitions carry explicit `html[data-input=keyboard]` opt-outs, and the global `@media(prefers-reduced-motion:reduce)` rule in `style.css` disables every CSS animation and transition. When the policy flips mid-animation, GSAP contexts revert and imperative text changes (count-up numbers) restore their original strings.
+`src/composables/useMotionPolicy.ts` is the single gate. Motion runs only when the user has no `prefers-reduced-motion: reduce` preference and the current input mode (`src/input-mode.ts`, mirrored as `html[data-input]`) is not the keyboard. Input-mode change listeners fire only when the mode actually flips, so typing in the search field no longer re-runs motion setup on every keystroke. CSS transitions carry explicit `html[data-input=keyboard]` opt-outs, and the global `@media(prefers-reduced-motion:reduce)` rule in `style.css` disables every CSS animation and transition. When the policy flips mid-animation, GSAP contexts revert and imperative text changes (count-up numbers) restore their original strings.
 
 ## Homepage — `src/composables/useHomeChapters.ts`
 

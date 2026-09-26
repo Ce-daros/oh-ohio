@@ -2,6 +2,7 @@ import { onMounted, onUnmounted, ref, type Ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SplitText from 'gsap/SplitText';
+import { inputMode, onInputModeChange } from '../input-mode';
 
 export const homeChapters = [
   { id: 'welcome', label: 'Hello' }, { id: 'worlds', label: 'Four worlds' },
@@ -23,7 +24,7 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
     // switches between the pinned desktop choreography and the simpler fallback.
     const calm = matchMedia('(prefers-reduced-motion: reduce)');
     const fine = matchMedia('(pointer:fine)');
-    const animated = () => motion.matches && html.dataset.input !== 'keyboard';
+    const animated = () => motion.matches && inputMode() !== 'keyboard';
     const context = gsap.context(() => {}, main);
     let observer: IntersectionObserver | null = null;
     let cleanups: Array<() => void> = [];
@@ -154,7 +155,7 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
           if (!entry.isIntersecting || visited.has(entry.target)) continue;
           visited.add(entry.target);
           observer!.unobserve(entry.target);
-          if (calm.matches || html.dataset.input === 'keyboard') continue;
+          if (calm.matches || inputMode() === 'keyboard') continue;
           context.add(() => {
             entry.target.querySelectorAll<HTMLElement>('[data-home-reveal]').forEach((element, index) => {
               gsap.from(element, {
@@ -198,7 +199,7 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
     function schedule() { if (!frame) frame = requestAnimationFrame(update); }
     window.addEventListener('scroll', schedule, { passive: true });
     window.addEventListener('resize', schedule);
-    document.addEventListener('ohio:motion-stop', finishMotion);
+    const offInputChange = onInputModeChange(finishMotion);
     motion.addEventListener('change', finishMotion);
     update();
     dispose = () => {
@@ -207,7 +208,7 @@ export function useHomeChapters(root: Ref<HTMLElement | null>) {
       cancelAnimationFrame(frame);
       window.removeEventListener('scroll', schedule);
       window.removeEventListener('resize', schedule);
-      document.removeEventListener('ohio:motion-stop', finishMotion);
+      offInputChange();
       motion.removeEventListener('change', finishMotion);
     };
   });
