@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { buildRobots, buildSitemap } from './site-artifacts.mjs';
 
 const root = process.cwd();
 const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
@@ -44,8 +45,6 @@ for (const route of uniqueRoutes) {
 const notFound = await render('/__not_found__');
 if (!notFound.notFound) throw new Error('404 route did not render the not-found page');
 fs.writeFileSync(path.join(root, 'dist', '404.html'), pageHtml(notFound));
-const indexed = catalog.routes.filter(route => !route.noindex).map(route => route.path);
-const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexed.map(route => `<url><loc>${site.origin}${route}</loc></url>`).join('')}</urlset>`;
-fs.writeFileSync(path.join(root, 'dist', 'sitemap.xml'), xml);
-fs.writeFileSync(path.join(root, 'dist', 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
+fs.writeFileSync(path.join(root, 'dist', 'sitemap.xml'), buildSitemap(catalog.routes, site.origin));
+fs.writeFileSync(path.join(root, 'dist', 'robots.txt'), buildRobots(site.origin));
 console.log(`Prerendered ${uniqueRoutes.length} routes and 404.html`);

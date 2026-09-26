@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { buildRobots, buildSitemap } from './site-artifacts.mjs';
 
 const manifest = JSON.parse(fs.readFileSync('src/content/data/manifest.json', 'utf8'));
 const site = JSON.parse(fs.readFileSync('site.config.json', 'utf8'));
@@ -42,6 +43,10 @@ for (const document of manifest.documents) {
 }
 const notFound = fs.readFileSync('dist/404.html', 'utf8');
 if (!notFound.includes('<main') || !notFound.includes('name="robots" content="noindex,follow"')) throw new Error('dist/404.html is not a rendered noindex page');
-const sitemap = fs.readFileSync('dist/sitemap.xml', 'utf8');
-for (const route of routes.filter(route => !route.noindex)) if (!sitemap.includes(`<loc>${site.origin}${route.path}</loc>`)) throw new Error(`sitemap missing ${route.path}`);
+const expectedSitemap = buildSitemap(routes, site.origin);
+if (fs.readFileSync('dist/sitemap.xml', 'utf8') !== expectedSitemap) throw new Error('dist/sitemap.xml does not exactly match the indexable route catalog');
+const expectedRobots = buildRobots(site.origin);
+for (const file of ['public/robots.txt', 'dist/robots.txt']) {
+  if (fs.readFileSync(file, 'utf8') !== expectedRobots) throw new Error(`${file} does not match site.config.json; run node scripts/site-artifacts.mjs --write-robots`);
+}
 console.log(`Verified ${routes.length} prerendered routes, ${manifest.documents.length} complete stories, ${assetsChecked} asset references`);

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://oh-ohio.vercel.app/sitemap.xml

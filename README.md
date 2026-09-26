@@ -13,7 +13,7 @@ npm run dev
 
 ## Content
 
-Stories live in independent JSON documents under `src/content/documents/{feature,note,phrase}/`. Each document owns its metadata and typed body blocks. The generated `src/content/data/manifest.json` contains metadata only; `loadContentBody` imports each body on demand. Edit a document, then run `node scripts/content-manifest.mjs` and `node scripts/route-catalog.mjs` to refresh the manifest, routes, and Vercel redirects.
+Stories live in independent JSON documents under `src/content/documents/{feature,note,phrase}/`. Each document owns its metadata and typed body blocks. The generated `src/content/data/manifest.json` contains metadata only; `loadContentBody` imports each body on demand. Edit a document, then run `node scripts/content-manifest.mjs` and `node scripts/route-catalog.mjs` to refresh the manifest, routes, and Vercel redirects. The browser router, prerendered pages, canonical URLs, and sitemap all use that route catalog; only routes without `noindex` appear in the sitemap.
 
 The registries in `src/content/data/` hold worlds, topics, places, sources, media, collections, scene relationships, journeys, metrics, and old phrase slug mappings. Collections give editorial order through `itemIds`; dossier collections appear at `/topics/<slug>`. The public content API is `src/content/index.ts`. See [the content architecture guide](editorial/content-architecture.md) before adding a story or source.
 
@@ -25,7 +25,7 @@ Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for n
 
 ## Static publishing
 
-The build renders Vue to complete HTML for home, worlds, collections, and every story. Each direct-entry page includes its full story text, route CSS, canonical metadata, and links to its assets. `dist/sitemap.xml`, `dist/robots.txt`, and a rendered `dist/404.html` are generated together with the pages. Client navigation hydrates the same components. Search and the browser-local reading list are marked `noindex`.
+The build renders Vue to complete HTML for home, worlds, collections, and every story. Each direct-entry page includes its full story text, route CSS, canonical metadata, and links to its assets. `dist/sitemap.xml`, `dist/robots.txt`, and a rendered `dist/404.html` are generated with the pages. The build checks that the sitemap exactly matches all indexable routes, has no duplicate or stale entries, and that both robots files point to the sitemap at `site.config.json`'s origin. If that origin changes, run `node scripts/site-artifacts.mjs --write-robots` to update the development copy in `public/robots.txt`. Client navigation hydrates the same components. Search and the browser-local reading list are marked `noindex`.
 
 Vercel serves `dist/` as static files. `vercel.json` contains only the old chapter redirects and does not rewrite unknown routes to the app. A local build does not publish changes.
 
