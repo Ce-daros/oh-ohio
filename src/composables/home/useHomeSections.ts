@@ -74,7 +74,8 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
     function setupDesktop() {
       context.add(() => {
         const header = parseFloat(getComputedStyle(html).getPropertyValue('--header-height')) || 0;
-        // —— 1) 每屏 pin 住，但驻留期间内容持续“呼吸”：整屏轻微退场让位 + 画面缓慢推近，scrub 平滑跟随，绝无死屏 ——
+        // 1) Pin each screen, but keep it breathing while dwelling: the content
+        // recedes slightly and its art slowly zooms, scrub-linked — no dead screens.
         sections.forEach(section => {
           const inner = section.querySelector<HTMLElement>('.home-inner');
           if (!inner) return;
@@ -101,7 +102,8 @@ export function useHomeSections(root: Ref<HTMLElement | null>) {
             });
           }
         });
-        // —— 2) 入场编排：eyebrow → 标题逐行揭幕 → 侧栏 → 内容模糊聚焦上浮（blur 物质化）→ 画面缓释，卡片网格逐张错峰 ——
+        // 2) Entrance choreography: eyebrow → title line-mask reveal → aside →
+        // content materializing out of blur → art settling, card grids staggered.
         const staggerGrids = '.world-portals, .discovery-grid, .supporting-stories, .theme-companions';
         sections.forEach(section => {
           const eyebrow = section.querySelector<HTMLElement>('.eyebrow');
