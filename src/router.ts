@@ -1,7 +1,7 @@
 import { createMemoryHistory, createRouter, createWebHistory, type RouteLocationGeneric, type RouteRecordRaw } from 'vue-router';
 import { resolveLegacySlug, worlds, type WorldId } from './content';
+import { routeHead, type MetaTag } from './head';
 import routeData from './content/data/routes.json';
-import site from '../site.config.json';
 
 type CatalogRoute = {
   path: string;
@@ -44,40 +44,53 @@ function routeComponent(kind: CatalogRoute['kind']) {
   }
 }
 
-function setHeadMeta(selector: string, name: string, content: string, property = false) {
+function setHeadMeta(meta: MetaTag) {
+  const selector = `meta[${meta.attr}="${meta.key}"]`;
   let element = document.querySelector<HTMLMetaElement>(selector);
   if (!element) {
     element = document.createElement('meta');
-    element.setAttribute(property ? 'property' : 'name', name);
+    element.setAttribute(meta.attr, meta.key);
     document.head.append(element);
   }
-  element.content = content;
+  element.content = meta.content;
 }
 
+// Meta keys this app manages; tags absent from the current head are removed.
+const MANAGED_META: MetaTag[] = [
+  { attr: 'name', key: 'robots', content: '' },
+  { attr: 'property', key: 'og:title', content: '' },
+  { attr: 'property', key: 'og:description', content: '' },
+  { attr: 'property', key: 'og:type', content: '' },
+  { attr: 'property', key: 'og:url', content: '' },
+  { attr: 'property', key: 'og:image', content: '' },
+];
+
 function updateHead(to: RouteLocationGeneric) {
-  const title = String(to.meta.title);
-  const description = String(to.meta.description);
-  document.title = title;
-  setHeadMeta('meta[name="description"]', 'description', description);
-  setHeadMeta('meta[name="robots"]', 'robots', to.meta.noindex ? 'noindex,follow' : 'index,follow');
-  setHeadMeta('meta[property="og:title"]', 'og:title', title, true);
-  setHeadMeta('meta[property="og:description"]', 'og:description', description, true);
-  setHeadMeta('meta[property="og:type"]', 'og:type', 'website', true);
-  if (to.meta.notFound) document.querySelector('meta[property="og:url"]')?.remove();
-  else setHeadMeta('meta[property="og:url"]', 'og:url', `${site.origin}${to.path}`, true);
-  if (to.meta.image) {
-    const image = String(to.meta.image);
-    setHeadMeta('meta[property="og:image"]', 'og:image', image.startsWith('http://') || image.startsWith('https://') ? image : `${site.origin}${image}`, true);
-  } else document.querySelector('meta[property="og:image"]')?.remove();
-  const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
-  if (to.meta.notFound) canonical?.remove();
-  else if (canonical) canonical.href = `${site.origin}${to.path}`;
-  else {
-    const link = document.createElement('link');
-    link.rel = 'canonical';
-    link.href = `${site.origin}${to.path}`;
-    document.head.append(link);
+  const head = routeHead({
+    title: String(to.meta.title),
+    description: String(to.meta.description),
+    image: to.meta.image ? String(to.meta.image) : undefined,
+    noindex: Boolean(to.meta.noindex),
+    notFound: Boolean(to.meta.notFound),
+    path: to.path,
+  });
+  document.title = head.title;
+  setHeadMeta({ attr: 'name', key: 'description', content: head.description });
+  for (const meta of head.metas) setHeadMeta(meta);
+  const present = new Set(head.metas.map(meta => `${meta.attr}:${meta.key}`));
+  for (const meta of MANAGED_META) {
+    if (!present.has(`${meta.attr}:${meta.key}`)) document.querySelector(`meta[${meta.attr}="${meta.key}"]`)?.remove();
   }
+  const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+  if (head.canonical) {
+    if (canonical) canonical.href = head.canonical;
+    else {
+      const link = document.createElement('link');
+      link.rel = 'canonical';
+      link.href = head.canonical;
+      document.head.append(link);
+    }
+  } else canonical?.remove();
 }
 
 function anchorPosition(hash: string) {
