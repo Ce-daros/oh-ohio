@@ -19,7 +19,7 @@ The registries in `src/content/data/` hold worlds, topics, places, sources, medi
 
 `npm run report:coverage` writes `editorial/content-coverage.json` from the canonical graph and the existing-content review. It reports world, category, dossier, source, media, and verification coverage outside the public site. A full build refreshes it. The local development route `/editorial` presents the report with document filters; it is excluded from production builds.
 
-Follow the [voice guide](editorial/voice-guide.md) for Ohio-chan’s bright, natural civic-idol voice, and the [update policy](editorial/update-policy.md) for fact checks, corrections and rights records. The inherited 86-document editorial review is separate from factual verification. It does not claim that those sources were reopened or that proposed merges have already happened.
+Follow the [voice guide](editorial/voice-guide.md) for Ohio-chan’s naturally cute English anime-girl voice: introduce the subject, express a specific personal taste, then occasionally add a gentle flirt. She remains a civic idol and local girl. Use the [update policy](editorial/update-policy.md) for fact checks, corrections and rights records. The inherited 86-document editorial review is separate from factual verification. It does not claim that those sources were reopened or that proposed merges have already happened.
 
 Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for notes, and `/words/<slug>` for phrases. The four world routes are `/explore`, `/make`, `/culture`, and `/live`. World hashes can open a reading panel. Old chapter paths redirect to their corresponding world, and old phrase hashes resolve through `migrations.json`.
 

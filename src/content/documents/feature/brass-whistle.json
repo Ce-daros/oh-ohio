@@ -4,7 +4,7 @@
     "slug": "brass-whistle",
     "kind": "feature",
     "title": "Little whistle. Big voice.",
-    "summary": "At a Columbus workbench, that familiar sound starts with a flat piece of brass.",
+    "summary": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal.",
     "canonicalPath": "/journal/brass-whistle",
     "primaryWorld": "make",
     "worlds": [
@@ -48,15 +48,15 @@
     "recommendations": [
       {
         "id": "feature:rookwood-clay",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
       },
       {
         "id": "feature:toledo-glass",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
       },
       {
         "id": "feature:dayton-made-to-fly",
-        "reason": "Another Ohio day out"
+        "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
       }
     ],
     "order": 76
@@ -65,7 +65,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "You know the sound before you see the thing making it. A game pauses, someone turns, and there it is: a little whistle. At American Whistle Corporation in Columbus, brass is cut, shaped, assembled, and tested until it can do that small but very noticeable job. Inside, its design makes the clear sound possible."
+      "text": "Oh, you know that sound! A game pauses, heads turn, and somewhere there’s a little whistle doing a very loud job. At American Whistle Corporation in Columbus, it starts with brass that gets cut, shaped, assembled, and tested. I’m curious about the tiny parts inside. Come a little closer to the drawing with me."
     },
     {
       "type": "heading",
@@ -79,7 +79,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Now look along a finished whistle’s seam, opening, and ring attachment. There’s a reason for each of them. The brass has to accept those precise shapes and stand up to outdoor use. I like this part of the story: an object that looks so familiar becomes easier to appreciate once you can imagine it lying flat on a workbench."
+      "text": "Follow the seam with your eyes, then the opening and ring attachment. There’s a reason for each little feature. Brass has to accept those precise shapes and stand up to outdoor use. I love this change of perspective: picture the familiar curved whistle lying flat on a workbench, waiting to become itself."
     },
     {
       "type": "heading",
@@ -97,8 +97,8 @@
     },
     {
       "type": "characterAside",
-      "title": "That little rattle has a job",
-      "text": "The pea moves inside the chamber. Next time you hear the trill, you’ll know there’s something busy happening in that tiny space. Neat, right?"
+      "title": "A little room for the pea",
+      "text": "The pea moves inside the whistle’s chamber and helps make its trill. Ooh, I like that the empty space has a job too. Such a small detail, and now I want to listen for it."
     },
     {
       "type": "heading",
@@ -108,7 +108,7 @@
     },
     {
       "type": "paragraph",
-      "text": "And now, someone listens. The company says every finished whistle is sound-tested by hand. Looking at the brass tells you some things; hearing the assembled whistle tells you something else. All the cutting, forming, and joining ends with a person checking the result. Ooh, there’s our familiar signal again."
+      "text": "Now someone listens. American Whistle says every finished whistle is sound-tested by hand. I like that last step: after all the cutting, forming, and joining, a person checks whether it actually sounds right. Ooh, there’s the signal we recognized at the beginning."
     },
     {
       "type": "paragraph",
@@ -130,7 +130,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "A small piece of brass, a lot of careful work, and one very familiar sound. ♡"
+      "text": "There’s our familiar signal again. A little brass, careful hands, and quite a voice—I’m fond of this one. ♡"
     }
   ]
 }

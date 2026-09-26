@@ -4,7 +4,7 @@
     "slug": "small-towns-many-centers",
     "kind": "feature",
     "title": "Small towns, many centers",
-    "summary": "Yellow Springs and Nelsonville are two Ohio towns with distinct institutions, landscapes, and public gathering places.",
+    "summary": "I’d leave room for a small-town afternoon. Yellow Springs and Nelsonville each deserve their own day—and a little time to sit.",
     "canonicalPath": "/journal/small-towns-many-centers",
     "primaryWorld": "explore",
     "worlds": [
@@ -93,11 +93,11 @@
     "recommendations": [
       {
         "id": "note:yellow-springs-stewardship",
-        "reason": "Read Glen Helen’s own account of land use and local stewardship."
+        "reason": "Glen Helen’s history includes choices people made to care for the land. I’d keep those stories with us on the path."
       },
       {
         "id": "note:nelsonville-railway-access",
-        "reason": "Check the railway’s specific lift, coach, parking, and restroom details."
+        "reason": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day."
       }
     ],
     "order": 104,
@@ -113,7 +113,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Let’s make room for a smaller place on the map. Yellow Springs has a preserve to explore; Nelsonville has a railway and a square with a life of its own. Pick one for today. We don’t have to hurry through both.",
+      "text": "Shall we pick a smaller place on the map today? I’m tempted by Glen Helen’s woodland in Yellow Springs, and curious about Nelsonville’s railway and square. They’re separate trips, so we can choose one and really give it some time. A meal, a place to sit, a little unexpected discovery… mm, that sounds good to me. ♡",
       "sourceIds": [
         "source:town-glen-helen-history",
         "source:town-hocking-access",
@@ -123,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Ohio outside its largest cities is not one landscape or one culture. A village near a college and preserve has different daily rhythms from a town with a historic rail line and arts venues. Yellow Springs in Greene County and Nelsonville in the Hocking Valley make a useful pair because their institutions hold distinct relationships to land, education, work, and public gathering. They are separate visits, not neighboring stops.",
+      "text": "Yellow Springs in Greene County and Nelsonville in the Hocking Valley give us two quite different invitations. One has a college and preserve nearby; the other brings a historic railway and arts venues into its day. I’d give each a separate visit. Being smaller places on the map doesn’t mean they have the same story—or that they’re next-door stops.",
       "sourceIds": [
         "source:town-glen-helen-history",
         "source:town-hocking-access",
@@ -143,7 +143,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Glen Helen’s institutional history describes land use over centuries: Indigenous routes and settlement, a nineteenth-century resort around the spring, mills and lime production along the Little Miami River, and later conservation and outdoor education. Its account names Shawnee and Miami histories rather than presenting the preserve as unpeopled wilderness. That is the preserve’s own institutional narrative; readers seeking tribal perspectives should consult tribal sources directly.",
+      "text": "At Glen Helen, I’d read the preserve’s history before calling the woods untouched. Its account names Shawnee and Miami histories, Indigenous routes and settlement, a nineteenth-century spring resort, mills and lime production along the Little Miami River, and later conservation and outdoor education. Those are the preserve’s descriptions. For tribal perspectives, let’s turn to tribal sources themselves.",
       "sourceIds": [
         "source:town-glen-helen-history"
       ]
@@ -163,7 +163,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The preserve’s history also includes civic choices. Glen Helen recounts local opposition to a proposed highway route through the preserve in 1958, a compromise that rerouted a proposed sewer in 1959, and the Glen Helen Association’s purchase and reopening of the preserve in 2020. Stewardship here appears as decisions by residents, organizations, and institutions, not as a timeless quality of scenery.",
+      "text": "Here’s the part that makes me look at the paths differently. Glen Helen recounts opposition to a highway route through the preserve in 1958, a sewer rerouting compromise in 1959, and the Glen Helen Association’s purchase and reopening in 2020. People made choices to care for this place. I like remembering that while enjoying the scenery.",
       "sourceIds": [
         "source:town-glen-helen-history"
       ]
@@ -196,7 +196,7 @@
     {
       "title": "Choose the entrance first",
       "type": "characterAside",
-      "text": "A small thing to check before we set off: Glen Helen lists ADA trail access at the Cascades Lot, while the Steps Lot starts with more than 110 stone steps. Choose the approach that suits you, and check today’s conditions.",
+      "text": "Glen Helen lists ADA trail access at the Cascades Lot; the Steps Lot begins with more than 110 stone steps. I’d choose the approach that suits you before adding anything else to the day, and check current conditions. An unhurried start is my favorite kind.",
       "role": "practical",
       "sourceIds": [
         "source:town-glen-helen-access"
@@ -204,7 +204,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The two Glen Helen entrances matter for practical planning. The preserve identifies ADA trail access to Birch Creek Cascades and the Yellow Spring from its Cascades Lot at 1075 OH-343. Its Steps Lot at 505 Corry Street serves the museum and a trail with more than 110 stone steps. Check the current directions and trail conditions, and do not assume that the sketch is a step-free pedestrian connection. Antioch College and WYSO have their own schedules and visitor policies; a campus or studio is not automatically open for drop-in visits.",
+      "text": "Let’s get the entrances straight. Glen Helen lists ADA trail access to Birch Creek Cascades and the Yellow Spring from the Cascades Lot at 1075 OH-343. The Steps Lot at 505 Corry Street serves the museum and a trail with more than 110 stone steps. Check current directions and conditions; our sketch isn’t a verified step-free connection. Antioch College and WYSO have their own visitor policies too, so I’d check those before adding a campus room or studio to the day.",
       "sourceIds": [
         "source:town-glen-helen-access"
       ]
@@ -223,7 +223,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Nelsonville offers a different center of gravity. The Hocking Valley Scenic Railway operates seasonal excursions from its depot at 33 West Canal Street. The organization describes itself as volunteer-run and preserves rail equipment for public trips through the valley. Stuart’s Opera House, a restored downtown performance venue, adds another institution in the historic square. One interprets rail travel and landscape; the other hosts performances and community events. Their calendars, rather than a generic expectation about small towns, determine whether either fits a visit.",
+      "text": "Nelsonville is tempting me in a different direction. The volunteer-run Hocking Valley Scenic Railway offers seasonal excursions from 33 West Canal Street, preserving equipment for trips through the valley. Downtown, restored Stuart’s Opera House hosts performances and community events around the historic square. A train ride or an evening performance? I’d open the calendars before letting either idea steal my afternoon.",
       "sourceIds": [
         "source:town-hocking-access",
         "source:town-hocking-railway",
@@ -272,7 +272,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The railway’s accessibility page says a portable lift serves three coaches, asks wheelchair users to call ahead, and notes that most parking is gravel and the depot restrooms are not wheelchair accessible. Confirm which car is scheduled and how loading will work before traveling. Nelsonville sits on ODOT’s defined 115-mile Appalachian Byway, whose corridor plan lists the public square and local cultural resources. That road plan locates the town in a specific route; it does not summarize Appalachian Ohio or speak for residents.",
+      "text": "For the railway, check access early: its page says a portable lift serves three coaches, asks wheelchair users to call ahead, and notes mostly gravel parking and depot restrooms that aren’t wheelchair accessible. Confirm the scheduled car and loading arrangements. Nelsonville also sits on ODOT’s 115-mile Appalachian Byway, whose plan includes the square and local cultural resources. That route helps us locate the town; residents have much more to tell than a road plan can.",
       "sourceIds": [
         "source:town-hocking-access",
         "source:town-odot-appalachian-plan"
@@ -292,7 +292,7 @@
     },
     {
       "type": "paragraph",
-      "text": "For a low-pressure visit, choose one institution and one nearby public place. In Yellow Springs, read Glen Helen’s history and then decide whether one of its current trail options suits your walking capacity. In Nelsonville, check the excursion schedule first; if no train runs, the square and performance calendar still give you ways to understand the town, but confirm what is open. Build in a rest stop and an ordinary meal. Local institutions are working places throughout the year, not attractions that guarantee a visitor program every day.",
+      "text": "My pick would be one institution, one nearby public place, and enough time for a meal. In Yellow Springs, choose a current Glen Helen trail option that suits you. In Nelsonville, check the train schedule first; if it doesn’t fit, the square and performance calendar offer other possibilities, subject to what’s open. I’d rather enjoy one place with you than make every stop a little race.",
       "sourceIds": [
         "source:town-glen-helen-access",
         "source:town-hocking-access",
@@ -303,7 +303,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "One place to spend some time, a meal, and room to sit down. I like a day with a little breathing space. ♡"
+      "text": "One place, one meal, and no need to hurry away. I like an afternoon with room for another little conversation. Yours included. ♡"
     }
   ]
 }

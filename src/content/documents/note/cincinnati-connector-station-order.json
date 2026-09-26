@@ -4,7 +4,7 @@
     "slug": "cincinnati-connector-station-order",
     "kind": "note",
     "title": "A Cincinnati day in selected stops",
-    "summary": "The Connector’s official map makes a shorter route possible without riding the whole loop.",
+    "summary": "The Connector map lets us choose a short trip between market, park, and downtown. I’d leave time to linger at your favorite stop.",
     "canonicalPath": "/notes/cincinnati-connector-station-order",
     "primaryWorld": "explore",
     "worlds": [
@@ -50,7 +50,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "The City of Cincinnati’s Connector map gives each station a number and name. A visitor can begin at Findlay Market–Race (12), continue through Liberty & Race (13) and Washington Park (14), then follow the map toward the Public Library (16), Fountain Square (18), and The Banks (1). This sequence carries the ride from Over-the-Rhine toward downtown and the riverfront; you can stop at Washington Park or another listed station instead of riding every segment. The City says the service is fare-free and describes level boarding and audio and visual stop information. These are vehicle details, not a guarantee about each sidewalk, curb, or destination entrance. Check the operator’s current service alerts and route information before setting out.",
+      "text": "The City of Cincinnati’s Connector map gives each station a number and name. A visitor can begin at Findlay Market–Race (12), continue through Liberty & Race (13) and Washington Park (14), then follow the map toward the Public Library (16), Fountain Square (18), and The Banks (1). This sequence carries the ride from Over-the-Rhine toward downtown and the riverfront; you can stop at Washington Park or another listed station instead of riding every segment. The City says the service is fare-free and describes level boarding and audio and visual stop information. These are vehicle details, not a guarantee about each sidewalk, curb, or destination entrance. Check the operator’s current service alerts and route information before setting out. I’d pick the stop I most want to linger at and build from there. We don’t have to finish a loop to have a lovely afternoon.",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to"

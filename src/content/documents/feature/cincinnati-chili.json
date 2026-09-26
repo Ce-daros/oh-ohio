@@ -4,7 +4,7 @@
     "slug": "cincinnati-chili",
     "kind": "feature",
     "title": "Pull up a chair. Let’s order chili.",
-    "summary": "Spaghetti, a spiced sauce, and that generous pile of cheese. I’ll help you make sense of the menu.",
+    "summary": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate.",
     "canonicalPath": "/journal/cincinnati-chili",
     "primaryWorld": "culture",
     "worlds": [
@@ -48,15 +48,15 @@
     "recommendations": [
       {
         "id": "feature:buckeye-sweets",
-        "reason": "Another Ohio food story"
+        "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
       },
       {
         "id": "feature:west-side-market-table",
-        "reason": "Another Ohio food story"
+        "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
       },
       {
         "id": "feature:cincinnati-market-to-music",
-        "reason": "Another Ohio day out"
+        "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
       }
     ],
     "order": 80
@@ -65,7 +65,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "First Cincinnati chili order? The numbers on the menu will make sense in a minute. A three-way brings spaghetti, chili, and shredded cheese together on the plate; from there, you choose what else sounds good. We can learn a little of the parlor’s history while you decide. Lunch should still get most of our attention. ♡"
+      "text": "First Cincinnati chili order? Come sit with me—we’ll figure out the menu. A three-way is spaghetti, chili, and shredded cheese; the next numbers tell you what else joins in. I rather like a lunch with a little local vocabulary. We can talk about the parlor’s history while you decide, then give your plate our full attention. ♡"
     },
     {
       "type": "heading",
@@ -93,12 +93,12 @@
     },
     {
       "type": "paragraph",
-      "text": "If you’re ordering a four-way, just say whether you want the onions or the beans. You don’t have to pretend you’ve been coming here forever. Check the portion choices too; a smaller order can be a nice introduction. Once it arrives, take a look at the fine sauce and the spaghetti underneath before the cheese disappears into your first bite."
+      "text": "For a four-way, say whether you’d like onions or beans. There, easy! Have a look at portion choices too; a smaller order can make a nice introduction. Once it arrives, peek at the fine sauce and spaghetti under the cheese. I’ll leave you a moment for that first bite before asking what you think."
     },
     {
       "type": "characterAside",
       "title": "Three, four, or five?",
-      "text": "Spaghetti + chili + cheese gets you to three. Onions or beans make four; both make five. You’ve got it. Now choose what sounds good."
+      "text": "Spaghetti, chili, and cheese make a three-way; onions or beans make four, and both make five. I like a menu that comes with its own little vocabulary. You choose your order—I’m curious which version wins you over."
     },
     {
       "type": "heading",
@@ -112,7 +112,7 @@
     },
     {
       "type": "paragraph",
-      "text": "So let this first visit be a beginning. Read the parlor’s own story, look at the menu, and decide what you’d order another time. You might be curious about a coney next, or about how a different place seasons its sauce. We have plenty of room for another lunch. For this one, go on—your plate is waiting."
+      "text": "I’d let the first visit start a little list of questions. A coney next time? Another parlor’s sauce? Read the place’s own story and see what you’d order again. You’re allowed to find your favorite slowly. For now—oh, go on. Your plate is waiting."
     },
     {
       "type": "practical",
@@ -130,7 +130,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Save your favorite order. Next time, you can show me what you picked. ♡"
+      "text": "So, what would you order again? Tell me on the way out. I do like a lunch that gives us something to compare. ♡"
     }
   ]
 }

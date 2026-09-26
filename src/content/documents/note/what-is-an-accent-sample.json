@@ -4,7 +4,7 @@
     "slug": "what-is-an-accent-sample",
     "kind": "note",
     "title": "What is an accent sample?",
-    "summary": "A Columbus speech corpus gives researchers a sample to study, not a single Ohio accent.",
+    "summary": "Forty Columbus speakers, many conversations. I like listening for differences rather than one voice for all of Ohio.",
     "canonicalPath": "/notes/what-is-an-accent-sample",
     "primaryWorld": "culture",
     "worlds": [
@@ -44,7 +44,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "The Buckeye Speech Corpus records conversations with 40 Columbus speakers and an interviewer. Researchers transcribed the speech, added phonetic labels, and aligned those labels with the audio. That makes the corpus a useful place to listen closely to actual speech, with words and timing available for study. It does not tell us what every Ohioan sounds like: the speakers are a defined Columbus sample, and conversation changes with topic, audience, and setting. Choose two recordings around the same sound or word, then listen to the words around it. The contrast may show how people vary within one city without turning one speaker into an Ohio stereotype. A transcript helps locate a moment; listen to the original audio to hear pacing, emphasis, and what surrounds the word.",
+      "text": "The Buckeye Speech Corpus records conversations with 40 Columbus speakers and an interviewer. Researchers transcribed the speech, added phonetic labels, and aligned those labels with the audio. That makes the corpus a useful place to listen closely to actual speech, with words and timing available for study. It does not tell us what every Ohioan sounds like: the speakers are a defined Columbus sample, and conversation changes with topic, audience, and setting. Choose two recordings around the same sound or word, then listen to the words around it. The contrast may show how people vary within one city without turning one speaker into an Ohio stereotype. A transcript helps locate a moment; listen to the original audio to hear pacing, emphasis, and what surrounds the word. I’d listen to the differences within the conversations first. Forty speakers give us plenty to notice without becoming everybody’s voice.",
       "sourceIds": [
         "source:snd-buckeye"
       ]

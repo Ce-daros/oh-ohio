@@ -4,7 +4,7 @@
     "slug": "cincinnati-market-to-music",
     "kind": "feature",
     "title": "A market morning. A music night.",
-    "summary": "A full day in Cincinnati’s Over-the-Rhine, with room for music at the end. ♡",
+    "summary": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡",
     "canonicalPath": "/journal/cincinnati-market-to-music",
     "primaryWorld": "explore",
     "worlds": [
@@ -58,11 +58,11 @@
     "recommendations": [
       {
         "id": "feature:rookwood-clay",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
       },
       {
         "id": "feature:cincinnati-chili",
-        "reason": "Another Ohio food story"
+        "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
       }
     ],
     "order": 72
@@ -71,7 +71,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Breakfast first? I thought you might say that. Let’s start at Findlay Market, wander past a few painted walls, and find a bench in Washington Park before the evening begins. Music Hall is waiting across the street if there’s a performance you fancy. We’ll stay in Over-the-Rhine today; there’s plenty here to keep us happily occupied without racing across Cincinnati."
+      "text": "Breakfast first? Oh, good—we agree on the important part. I’d start at Findlay Market, let a few painted walls distract us, then find a bench in Washington Park. If a Music Hall performance catches your eye, we can plan the evening around it. One Cincinnati neighborhood, plenty to linger over. I’m in no hurry to lose your company. ♡"
     },
     {
       "type": "heading",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "text": "There is no need to turn lunch into a reservation race. Choose something you can eat nearby, save a little appetite for later, and notice how many kinds of shopping fit into one block. The market is a good place to see the neighborhood in the middle of its ordinary errands."
+      "text": "I’d keep lunch wonderfully uncomplicated. Pick something to eat nearby, save a little appetite for later, and enjoy how much everyday shopping fits into this block. A long look at a counter is a perfectly good use of our time. Especially if you’re helping me choose."
     },
     {
       "type": "heading",
@@ -99,12 +99,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Give the buildings a look too. The close-set brick fronts and changing storefronts make the short trip feel like a sequence of rooms. Step into a shop if it interests you, then keep moving. This is a better stretch for curiosity than for speed."
+      "text": "Ooh, the buildings too. Those close-set brick fronts and changing storefronts keep giving us something else to look at. A shop caught your eye? Let’s pause. I’d much rather hear why you noticed it than hurry you along to my next suggestion."
     },
     {
       "type": "characterAside",
-      "title": "Wait, who painted that?",
-      "text": "The ArtWorks map names the artists behind the walls. If a mural makes you stop, give its maker a moment too. I’d love to know which one you pick."
+      "title": "A wall worth stopping for",
+      "text": "The ArtWorks map names the artists behind Cincinnati’s murals and helps us follow the painted walls through Over-the-Rhine. I have a soft spot for art tucked into an everyday street, with people passing beneath it on their way somewhere. Pick one you’d linger beside? I wouldn’t mind an excuse to stay a little longer with you. ♡"
     },
     {
       "type": "heading",
@@ -132,7 +132,7 @@
     },
     {
       "type": "paragraph",
-      "text": "By bedtime, you will have followed one neighborhood from its grocery counters to its public art and concert hall. There is plenty more to see another time."
+      "text": "From grocery counters to painted walls and a concert hall—all in one neighborhood. I like how much there is to talk about by the end of a day like this. And if something caught your eye that we didn’t get to, keep it for another visit."
     },
     {
       "type": "practical",
@@ -154,7 +154,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "A market bag, a few new stories, maybe a tune to take home. That was a good day, wasn’t it? ♡"
+      "text": "A market bag, a painted wall you’ll remember, perhaps a tune to hum. Mm, I like your kind of day. One more little wander before we say goodbye? ♡"
     }
   ]
 }

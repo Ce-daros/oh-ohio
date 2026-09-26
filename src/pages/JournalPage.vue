@@ -18,10 +18,10 @@ useJournalMotion(root);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="journal-page">
-    <PageMasthead label="FIELD NOTES" description="Stay with a place. Get to know a little more."><template #title>Field <em>notes.</em></template><template #actions><a href="#journal-feature-title">Editor's pick</a><a href="#stories">All stories <span>{{ articles.length }}</span></a><RouterLink :to="{path:'/search',query:{kind:'feature'}}">Search ↗</RouterLink></template></PageMasthead>
+    <PageMasthead label="FIELD NOTES" description="Places, objects, and people worth getting to know. I’ve picked a few stories to linger over with you. ♡"><template #title>Field <em>notes.</em></template><template #actions><a href="#journal-feature-title">Ohio-chan’s pick</a><a href="#stories">All stories <span>{{ articles.length }}</span></a><RouterLink :to="{path:'/search',query:{kind:'feature'}}">Search ↗</RouterLink></template></PageMasthead>
     <section class="journal-feature" aria-labelledby="journal-feature-title">
       <RouterLink v-if="cover" :to="featured.canonicalPath" class="journal-feature-art" :aria-label="featured.title" data-journal-enter><img :src="cover.src" :alt="featured.kind === 'feature' ? featured.coverAlt : ''" width="1536" height="1024" fetchpriority="high" /></RouterLink>
-      <div class="journal-feature-copy" data-journal-enter><p class="eyebrow">THE EDITOR'S PICK</p><h2 id="journal-feature-title">{{ featured.title }}</h2><p>{{ featured.summary }}</p><RouterLink class="text-link" :to="featured.canonicalPath">Read the story <span>↗</span></RouterLink><span v-if="featured.kind === 'feature'" class="feature-time">{{ featured.location }} · {{ featured.readTime }}</span></div>
+      <div class="journal-feature-copy" data-journal-enter><p class="eyebrow">OHIO-CHAN’S PICK</p><h2 id="journal-feature-title">{{ featured.title }}</h2><p>{{ featured.summary }}</p><RouterLink class="text-link" :to="featured.canonicalPath">Read the story <span>↗</span></RouterLink><span v-if="featured.kind === 'feature'" class="feature-time">{{ featured.location }} · {{ featured.readTime }}</span></div>
     </section>
     <section id="stories" class="journal-archive" aria-labelledby="archive-heading">
       <div class="archive-heading"><h2 id="archive-heading">The reading <em>room.</em></h2><RouterLink to="/topics">Explore collections ↗</RouterLink></div>

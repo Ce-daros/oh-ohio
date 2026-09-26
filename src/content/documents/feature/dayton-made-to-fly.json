@@ -4,7 +4,7 @@
     "slug": "dayton-made-to-fly",
     "kind": "feature",
     "title": "What took flight.",
-    "summary": "Two days in Dayton, with bicycles, a printing press, and airplanes that might make you forget to check the time.",
+    "summary": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky.",
     "canonicalPath": "/journal/dayton-made-to-fly",
     "primaryWorld": "explore",
     "worlds": [
@@ -58,11 +58,11 @@
     "recommendations": [
       {
         "id": "feature:akron-rubber",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
       },
       {
         "id": "feature:toledo-glass",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
       }
     ],
     "order": 73
@@ -71,7 +71,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Before we look up, let’s start in the workshop. Dayton’s flight story has bicycles and printing presses in it, and people whose work deserves a closer look. We’ll spend the first day around Wright-Dunbar and Carillon, then give the Air Force museum a day of its own. Bring your curiosity; those enormous galleries can keep it busy. ♡"
+      "text": "Before you look up—ooh, come see the workshop. Dayton’s flight story begins with bicycles, printing presses, and people figuring things out. I’d spend our first day around Wright-Dunbar and Carillon, then give the Air Force museum its own day. Big ideas, little adjustments, and time to wonder about both. That’s a trip I can get excited about. ♡"
     },
     {
       "type": "heading",
@@ -95,7 +95,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Next stop: Carillon Historical Park and the Wright Flyer III. Remember, the 1903 first flight happened in North Carolina. The brothers continued their experiments around Dayton, and the 1905 airplane shows how much work followed that first lift off the ground. Take your time with it. I think the changes become more interesting after a morning in the workshop."
+      "text": "Ooh, now for Carillon Historical Park and the Wright Flyer III. The first flight in 1903 happened in North Carolina; the brothers kept experimenting around Dayton, and the 1905 airplane shows how much came afterward. I’d give this one some time. After the workshop, the changes feel like questions we can actually follow."
     },
     {
       "type": "paragraph",
@@ -103,8 +103,8 @@
     },
     {
       "type": "characterAside",
-      "title": "One for another day?",
-      "text": "Huffman Prairie belongs in the Wright story too. Save it for a separate stop if the museum fills your day. We can be curious without being in a hurry."
+      "title": "Another part of the Wright story",
+      "text": "Huffman Prairie is another place to follow the Wright brothers’ experiments. I’d give it a separate stop if the museum fills the day; I like leaving enough time to understand a place. We can keep a little curiosity for next time. ♡"
     },
     {
       "type": "heading",
@@ -118,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Pause for lunch and build in time to sit down. A museum this large rewards a second pass at a favorite gallery more than a frantic march to its farthest corner. If you're traveling with someone whose interests differ from yours, pick a meeting spot and compare discoveries afterward. There is a surprising amount to talk about over dinner."
+      "text": "Please save a little time to sit and eat. I’d choose a second look at a favorite gallery over rushing to the farthest corner. If your companions want different things, agree on a meeting place and compare discoveries afterward. That’s the part I’d be looking forward to over dinner: what did you find?"
     },
     {
       "type": "heading",
@@ -154,7 +154,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "A bicycle shop can be the beginning of quite a trip. Ready to look at ordinary things a little differently? ♡"
+      "text": "Who knew a bicycle shop could send our curiosity this far? Oh, you liked that part too? Then I’m very glad I brought you here. ♡"
     }
   ]
 }

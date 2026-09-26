@@ -1,25 +1,40 @@
 # Ohio-chan’s voice
 
-Direction selected on 2026-09-25: a bright, friendly companion who is a civic idol and a local girl. Her pleasure in showing someone around should be audible. The reader should still be able to use the information without decoding a performance.
+Current direction, confirmed 2026-09-26: **a naturally cute English-speaking anime-girl host, a civic idol, and a local girl with her own tastes.**
 
 Home identity: **Civic idol, local girl, your Ohio guide.**
 
-## Writing her voice
+## The order of a passage
 
-- Begin with something she can point to: the pea inside a whistle, a book arriving on a pickup shelf, voices behind the frogs in a recording.
-- Use first person for invitations, curiosity and preferences. Use attributed sources for visits, interviews, measurements and historical accounts. Never invent a field visit or a conversation to make her feel local.
-- Let her say “Ooh,” pause over a detail, or end a gentle invitation with ♡. Choose the moment; do not attach a catchphrase to every paragraph.
-- Civic life appears through people doing ordinary things: borrowing a book, getting somewhere, maintaining a shared place. She is interested and useful, without speaking on behalf of an institution or an entire community.
-- Keep practical advice plain. Dates, eligibility, transport conditions and source limitations must stay precise. Put detailed caveats beside the claim they qualify, rather than making her farewell read like a policy document.
-- In oral histories and community or tribal records, make space for the named narrator and collection. Her warmth can take the form of listening.
-- Avoid baby talk, stock anime suffixes, forced flustered dialogue, repeated declarations of affection, and grand claims about Ohio.
+Introduce the real place, object, process, or story first. Let Ohio-chan offer a specific preference or personal observation next. A little playful closeness may follow when it fits. Information, taste, then an occasional gentle flirt: the invitation must grow out of what she has just shown the reader.
 
-## Examples
+She can prefer light shifting through glass, the unusual mechanism in a familiar object, a market meal that starts with one ingredient, or time in a library window seat. These are the fictional host’s editorial tastes, not testimony about visits. Keep her local knowledge attached to the actual subject rather than generic excitement about Ohio.
 
-Home: “I’m Ohio-chan. A market morning, a workshop visit, a quiet library afternoon—come along. I’ll show you where to start.”
+## English and character
 
-Object aside: “See the little pea inside? It moves around and interrupts the airflow, giving the whistle its trill. Such a small piece, and you can hear the difference.”
+- Use conversational English, contractions, clear explanations, and varied sentence lengths throughout the article, not just the greeting and farewell.
+- Let small reactions occur naturally: “oh,” “ooh,” “ahh,” “mm,” “neat, right?” A pleased “yay!” or occasional “yayyy!” belongs to a specific happy moment, such as a pickup notice arriving.
+- Use ♡ in warm invitations and light closing thoughts. It is a part of her expression, not required punctuation or a fixed quota.
+- Give her a reason for her preference. “I like where the glaze gathers along the edge” tells us more than “I love this place.”
+- Gentle flirt can mean enjoying the reader’s company, being curious about their taste, or wanting another look together. Keep it occasional and tied to the activity. Avoid possessiveness, sexual remarks, exaggerated embarrassment, or a romantic invitation in every paragraph.
+- Keep utility labels, filter names, dates, directions, eligibility rules, source credits, and factual definitions clear. The reader should never have to decode a joke to use the page.
+- In difficult histories and accounts from living communities, let her personality appear through attentive listening and care. Do not put flirt or celebratory interjections into loss, displacement, discrimination, or a narrator’s testimony.
+- Preserve quotations and attributions verbatim. Never invent a visit, interview, personal memory, available ticket, reserved seat, or endorsement to make her sound local.
 
-Listening farewell: “A song, a voice, a frog in the marsh. Pick one to listen to a little longer. I’ll be quiet for this part. ♡”
+## Model passage: murals
 
-The eight new feature openings, character asides and farewells were aligned to this direction on 2026-09-25. Detailed factual paragraphs and their source references were retained; this voice edit does not assert a new factual verification date.
+“The ArtWorks map names the artists behind Cincinnati’s murals and helps us follow the painted walls through Over-the-Rhine. I have a soft spot for art tucked into an everyday street, with people passing beneath it on their way somewhere. Pick one you’d linger beside? I wouldn’t mind an excuse to stay a little longer with you. ♡”
+
+The mural remains the subject. Her aesthetic preference is concrete. The final invitation is small enough to feel natural after the explanation.
+
+## Model passage: an object
+
+“Inside a pea whistle, the moving sphere interrupts airflow and gives the sound its trill. I’m fond of that little surprise: a familiar signal has a tiny moving part behind it. Ooh, now I want to follow the whole cutaway.”
+
+A passage does not need flirt or a heart to sound like her.
+
+## Scope and maintenance
+
+This guide supersedes the earlier generic friendly-guide direction and the suggestion that only introductions, asides, and farewells need voice alignment. Apply it to home, four-world guidance, reading journeys, collections, feature narration, short notes, and phrase commentary. Plain factual fields remain plain.
+
+Canonical public copy lives in `src/content/documents/`, the content registries, `src/data/scene-guidance.json`, and page components. Archived research drafts establish evidence, not the current voice. The 2026-09-26 pass revised all 22 features, commentary in 84 notes and four phrase pages, world recommendations, homepage copy, and supporting editorial surfaces. This is a voice edit, not a new factual verification or publication event.

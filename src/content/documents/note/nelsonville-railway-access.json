@@ -4,7 +4,7 @@
     "slug": "nelsonville-railway-access",
     "kind": "note",
     "title": "Before boarding in Nelsonville",
-    "summary": "The railway publishes coach-specific access information; call ahead before traveling.",
+    "summary": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day.",
     "canonicalPath": "/notes/nelsonville-railway-access",
     "primaryWorld": "explore",
     "worlds": [
@@ -51,7 +51,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Hocking Valley Scenic Railway runs seasonal excursions from its Nelsonville depot and describes itself as a volunteer-operated nonprofit preserving rail equipment and offering public rides. Access is specific to the scheduled train: the railway says a portable lift serves three coaches and asks wheelchair users to call ahead so staff can confirm the arrangement. Its accessibility page also notes gravel parking and says the depot restroom is not wheelchair accessible. These details can change what works for a party, so contact the operator with questions about the date, boarding, seating, and facilities before traveling. The depot is listed at 33 West Canal Street. Check the current timetable as well; a historic railway’s existence does not mean a train runs every day.",
+      "text": "Hocking Valley Scenic Railway runs seasonal excursions from its Nelsonville depot and describes itself as a volunteer-operated nonprofit preserving rail equipment and offering public rides. Access is specific to the scheduled train: the railway says a portable lift serves three coaches and asks wheelchair users to call ahead so staff can confirm the arrangement. Its accessibility page also notes gravel parking and says the depot restroom is not wheelchair accessible. These details can change what works for a party, so contact the operator with questions about the date, boarding, seating, and facilities before traveling. The depot is listed at 33 West Canal Street. Check the current timetable as well; a historic railway’s existence does not mean a train runs every day. I’d make that call before planning the rest of the day. Knowing how boarding will work gives us more room to look forward to the trip.",
       "sourceIds": [
         "source:town-hocking-access",
         "source:town-hocking-railway"

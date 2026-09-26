@@ -4,7 +4,7 @@
     "slug": "rookwood-clay",
     "kind": "feature",
     "title": "A little clay. A lot of hands.",
-    "summary": "Let’s follow a piece of Rookwood pottery through the work that gives it a place in someone’s home.",
+    "summary": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery.",
     "canonicalPath": "/journal/rookwood-clay",
     "primaryWorld": "make",
     "worlds": [
@@ -48,15 +48,15 @@
     "recommendations": [
       {
         "id": "feature:brass-whistle",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal."
       },
       {
         "id": "feature:toledo-glass",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
       },
       {
         "id": "feature:cincinnati-chili",
-        "reason": "Another Ohio food story"
+        "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
       }
     ],
     "order": 77
@@ -65,7 +65,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Pick a vase you like and look past the color for a moment. Someone chose that curve. Someone worked on the surface. Other hands helped it reach the shelf. At Cincinnati’s Rookwood Pottery, those decisions are part of a story that began in 1880. The finished piece is only our first clue."
+      "text": "Ooh, which vase would you choose? I’m usually caught by the color first, then I start following the curve and wondering about the hands behind it. At Cincinnati’s Rookwood Pottery, that curiosity takes us back to 1880. Pick a piece you like. We can start with your favorite instead of mine. ♡"
     },
     {
       "type": "heading",
@@ -79,7 +79,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Rookwood’s early artists developed individual designs and worked with form, decoration, and glaze. So when you look at a piece, try following one choice at a time. The outline first. Then the surface. Then where the glaze changes in the light. There’s no need to know all the pottery terms before you can notice something you like."
+      "text": "I’d look in three little passes: outline, surface, then the place where the glaze gathers or changes. Rookwood’s early artists worked with individual designs, form, decoration, and glaze. Giving each choice a moment helps me notice more than just ‘ooh, pretty.’ Though, honestly, that’s a lovely place to start."
     },
     {
       "type": "heading",
@@ -97,8 +97,8 @@
     },
     {
       "type": "characterAside",
-      "title": "Try looking twice",
-      "text": "First the shape, then the glaze. Does the piece feel different when you pay attention to just one of those? I’d love to know which detail you noticed first."
+      "title": "First the shape, then the glaze",
+      "text": "A Rookwood piece brings choices of form, decoration, and glaze together. I’m usually drawn to the color first, then the place where it gathers along an edge. Show me your favorite detail? I like seeing what I missed through your eyes. ♡"
     },
     {
       "type": "heading",
@@ -112,7 +112,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If you’re planning a Cincinnati visit, use Rookwood’s current information for shop hours and any factory-tour arrangements. A shop visit and a look at a collection are different ways to meet the work. Choose the one that fits your day. Either way, give the small objects time. A cup can hold a surprisingly long conversation."
+      "text": "For a Cincinnati visit, check Rookwood’s current shop hours and factory-tour arrangements. A shop visit and a collection offer different ways to meet the work. I’d choose whichever gives us time to linger over one piece. A cup can hold a surprisingly long conversation. ♡"
     },
     {
       "type": "practical",
@@ -130,7 +130,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Next time you pick up a favorite cup, spare a thought for the hands that got it to you. ♡"
+      "text": "A curve someone chose, a surface someone worked on. Your favorite feels a little more familiar now, doesn’t it? Mine too. ♡"
     }
   ]
 }

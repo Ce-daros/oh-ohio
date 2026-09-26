@@ -4,7 +4,7 @@
     "slug": "dayton-aviation-transit-and-access",
     "kind": "note",
     "title": "Dayton’s sites need separate legs",
-    "summary": "NPS and transit operator details show where a transit-first day works and where another ride is needed.",
+    "summary": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites.",
     "canonicalPath": "/notes/dayton-aviation-transit-and-access",
     "primaryWorld": "explore",
     "worlds": [
@@ -55,7 +55,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "The National Park Service identifies West Third and Williams as the nearest Greater Dayton RTA stop to the Wright-Dunbar visitor area. It places the Wright-Dunbar Interpretive Center at 16 South Williams Street and the adjoining Wright Cycle Company at 22 South Williams. NPS walking directions continue three blocks west along Third Street and three blocks north on Paul Laurence Dunbar Street to the Dunbar House; confirm the house’s current schedule before adding it. The NPS accessibility page lists an elevator, accessible restrooms, benches, a ramp at the Cycle Company, captions and audio description, and typed communication equipment at Wright-Dunbar. Huffman Prairie is a different problem: NPS says there is no public transportation to its visitor center. Use the RTA trip planner for the Wright-Dunbar portion and arrange a separate ride for outlying sites.",
+      "text": "The National Park Service identifies West Third and Williams as the nearest Greater Dayton RTA stop to the Wright-Dunbar visitor area. It places the Wright-Dunbar Interpretive Center at 16 South Williams Street and the adjoining Wright Cycle Company at 22 South Williams. NPS walking directions continue three blocks west along Third Street and three blocks north on Paul Laurence Dunbar Street to the Dunbar House; confirm the house’s current schedule before adding it. The NPS accessibility page lists an elevator, accessible restrooms, benches, a ramp at the Cycle Company, captions and audio description, and typed communication equipment at Wright-Dunbar. Huffman Prairie is a different problem: NPS says there is no public transportation to its visitor center. Use the RTA trip planner for the Wright-Dunbar portion and arrange a separate ride for outlying sites. I’d settle the transport first, then let the workshop have our attention. A little preparation leaves us more room to enjoy it.",
       "sourceIds": [
         "source:routes-nps-directions",
         "source:routes-nps-accessibility",

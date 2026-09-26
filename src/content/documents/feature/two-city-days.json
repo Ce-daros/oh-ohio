@@ -4,7 +4,7 @@
     "slug": "two-city-days",
     "kind": "feature",
     "title": "Two city days, two different rhythms",
-    "summary": "Cincinnati offers a compact streetcar-and-walk day. Dayton’s aviation sites are spread across town, so plan in sections and leave room for transit and rest.",
+    "summary": "Market morning or aviation afternoon? Tell me what you’re excited about, and we’ll build one comfortable Ohio day around it.",
     "canonicalPath": "/journal/two-city-days",
     "primaryWorld": "explore",
     "worlds": [
@@ -106,11 +106,11 @@
     "recommendations": [
       {
         "id": "note:cincinnati-connector-station-order",
-        "reason": "Check the selected station sequence on the City’s map."
+        "reason": "The Connector map lets us choose a short trip between market, park, and downtown. I’d leave time to linger at your favorite stop."
       },
       {
         "id": "note:dayton-aviation-transit-and-access",
-        "reason": "Use the NPS and transit operators’ details to plan Dayton legs."
+        "reason": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites."
       }
     ],
     "order": 107,
@@ -126,7 +126,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "A market morning in Cincinnati, or a day following Dayton’s aviation story? Let’s choose one place you really want to see, then build a day around it. There’s room for a rest stop, too.",
+      "text": "Cincinnati’s market, or Dayton’s aviation story? Oh, you don’t have to fit both into today. Tell me the one place you’re most excited about, and we’ll build around it. I like a plan with room for a seat, something to eat, and the occasional ‘ooh, what’s over there?’ ♡",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to",
@@ -135,7 +135,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Cincinnati’s central Connector loop makes it possible to choose one stop at a time. Dayton’s aviation sites sit in different parts of the city and Wright-Patterson area, so plan that day in sections. In either place, choose one anchor first and leave optional stops for energy, service, and opening hours.",
+      "text": "I’d plan these two days differently. Cincinnati’s central Connector loop lets us choose a stop and decide later about another. Dayton’s aviation sites spread across the city and Wright-Patterson area, so transport needs more thought. Either way, let’s pick one place you really want to see, then leave the extras to energy, service, and opening hours.",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to",
@@ -154,7 +154,7 @@
     },
     {
       "type": "paragraph",
-      "text": "For a shorter visit, begin at Findlay Market and ride the Cincinnati Connector to Washington Park. Spend time in the park and continue downtown only if you want another stop. The City’s published map numbers Findlay Market–Race as station 12, Liberty & Race as 13, Washington Park as 14, Public Library as 16, Fountain Square as 18, and The Banks as 1. Following those listed stations carries the route from Over-the-Rhine toward downtown and the riverfront. You can leave at Washington Park or continue to Fountain Square or The Banks; a full loop is optional, not a requirement.",
+      "text": "For a shorter Cincinnati day, I’d begin at Findlay Market and ride to Washington Park. The city map lists Findlay Market–Race as station 12, Liberty & Race as 13, Washington Park as 14, Public Library as 16, Fountain Square as 18, and The Banks as 1. That gives us choices from Over-the-Rhine toward downtown and the riverfront. We can stop at the park or continue if it sounds lovely. Nobody’s grading us on finishing the loop.",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to"
@@ -218,14 +218,14 @@
         "source:routes-cincinnati-how-to",
         "source:routes-nps-accessibility"
       ],
-      "text": "We can take this one stop at a time. The Connector has level boarding, though sidewalks and entrances vary. Pick somewhere to rest before deciding on another stop—there’s no prize for rushing. ♡",
+      "text": "The Connector has level boarding, while sidewalks and destination entrances need their own check. I’d choose a rest stop before adding another leg. A plan should leave us enough energy to enjoy where we are.",
       "type": "characterAside",
-      "title": "Leave room at the curb",
+      "title": "Leave room for a pause",
       "role": "practical"
     },
     {
       "type": "paragraph",
-      "text": "The Connector is fare-free, and the City describes level boarding plus audio and visual stop information. Those vehicle features do not guarantee step-free sidewalks, curbs, market aisles, or destination entrances. For a walking-light day, ride between stations and stay longer at one place. For a more active visit, browse the market and take the park walk, but add stops only as you feel comfortable.",
+      "text": "The Connector is fare-free; the city describes level boarding and audio and visual stop information. That doesn’t tell us everything about the sidewalks, curbs, market aisles, or entrances afterward. If you want less walking, I’d ride between stations and spend longer at one place. If a market browse and park walk suit you, we can do that and decide about more later.",
       "sourceIds": [
         "source:routes-cincinnati-how-to"
       ]
@@ -243,7 +243,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Begin with a focused transit-first visit to Wright-Dunbar. The National Park Service identifies the nearest Greater Dayton RTA stop at West Third and Williams. From there, visit the Wright-Dunbar Interpretive Center at 16 South Williams Street and the Wright Cycle Company building next door at 22 South Williams Street. The NPS directions place the Paul Laurence Dunbar House three blocks west along Third Street and three blocks north on Paul Laurence Dunbar Street; check the house’s schedule before walking there. The NPS accessibility page documents an elevator, accessible restrooms, benches, a ramp into the Cycle Company, captions and audio description for the film, and typed communication equipment at the visitor center.",
+      "text": "For a transit-first Dayton visit, I’d begin at Wright-Dunbar. NPS identifies the nearest Greater Dayton RTA stop at West Third and Williams. The Interpretive Center is at 16 South Williams Street, beside the Wright Cycle Company building at 22. NPS places the Paul Laurence Dunbar House three blocks west along Third and three north on Paul Laurence Dunbar Street; check its schedule before walking over. Its accessibility page lists an elevator, accessible restrooms, benches, a Cycle Company ramp, film captions and audio description, and typed communication equipment at the visitor center. Those are useful details to have before we choose our stops.",
       "sourceIds": [
         "source:routes-nps-directions",
         "source:routes-nps-accessibility",
@@ -307,7 +307,7 @@
     },
     {
       "type": "paragraph",
-      "text": "For a full day, eat and rest downtown, then arrange a separate ride to Huffman Prairie and the National Museum of the U.S. Air Force. NPS says there is no public transit to the Huffman Prairie visitor center, so do not assume the RTA bus alone completes that leg. Use Greater Dayton RTA’s trip planner for the transit portion to Wright-Dunbar and confirm the route for your date. A lower-transfer alternative is to stay downtown longer instead of trying to visit every site.",
+      "text": "For a fuller day, I’d eat and rest downtown before a separate ride to Huffman Prairie and the National Museum of the U.S. Air Force. NPS says there’s no public transit to the Huffman Prairie visitor center. Use RTA’s trip planner for Wright-Dunbar and check your date’s route; don’t expect that bus leg to cover everything. Staying downtown longer is a perfectly lovely alternative if you’d prefer fewer transfers.",
       "sourceIds": [
         "source:routes-nps-directions",
         "source:routes-dayton-rta-planner"
@@ -359,7 +359,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The best route is the one that leaves time to look, sit, and change plans. Check transit alerts, attraction hours, and any accessibility arrangements for the travel date. In Cincinnati, the loop offers several natural stopping points. In Dayton, the distance between sites makes transport part of the itinerary itself.",
+      "text": "My favorite kind of route leaves us time to notice something and change our minds. Check alerts, hours, and access arrangements for your date. Cincinnati gives us several stopping points along a loop; Dayton asks us to plan between spread-out sites. There, a little preparation—and more room to enjoy where we are.",
       "sourceIds": [
         "source:routes-cincinnati-map",
         "source:routes-cincinnati-how-to",
@@ -372,7 +372,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Leave a little room to look around, sit down, or change your mind. It’s your day in Ohio. I’m happy to help you find a beginning. ♡"
+      "text": "A little looking, a little sitting, permission to change your mind. That’s your day in Ohio. I’m happy we found a beginning together. ♡"
     }
   ]
 }

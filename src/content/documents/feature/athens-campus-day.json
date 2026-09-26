@@ -4,7 +4,7 @@
     "slug": "athens-campus-day",
     "kind": "feature",
     "title": "Got a little time? Let’s walk through Athens.",
-    "summary": "From Ohio University’s College Green to Uptown, a few ordinary blocks hold plenty of stories.",
+    "summary": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡",
     "canonicalPath": "/journal/athens-campus-day",
     "primaryWorld": "live",
     "worlds": [
@@ -53,15 +53,15 @@
     "recommendations": [
       {
         "id": "feature:library-afternoon",
-        "reason": "Another look at everyday Ohio"
+        "reason": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library."
       },
       {
         "id": "feature:community-garden-season",
-        "reason": "Another look at everyday Ohio"
+        "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
       },
       {
         "id": "feature:cuyahoga-slow-day",
-        "reason": "Another Ohio day out"
+        "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
       }
     ],
     "order": 85
@@ -70,7 +70,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Let’s start at College Green. You can look at the old buildings, but watch the paths too: they’re part of somebody’s walk to class, a meeting, or the library. Ohio University and Uptown Athens sit close enough for us to meet both on foot. We’ll take the public paths, leave people room to get on with their day, and see where a little wandering leads."
+      "text": "A little campus walk with me? I’d start on College Green, then wander toward Uptown Athens when something catches our eye. Ohio University’s paths are part of somebody’s everyday trip to class or the library, so we’ll share the public space and keep out of the rush. Ahh, a day that leaves room to look around. That’s my kind of plan."
     },
     {
       "type": "heading",
@@ -84,7 +84,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Cutler Hall is the oldest building on College Green. Over its long history it has held different university uses, including classrooms and a library. That’s something to keep in mind while you look at the facade. A historic building has had many ordinary mornings. Its place in the university comes from all those days as well as the big occasions."
+      "text": "I’d linger by Cutler Hall for a moment. It’s the oldest building on College Green, and over its long history it has held classrooms, a library, and other university uses. All those ordinary mornings behind one facade! That’s the part I find myself wondering about while looking at an old building."
     },
     {
       "type": "heading",
@@ -102,8 +102,8 @@
     },
     {
       "type": "characterAside",
-      "title": "Try the view both ways",
-      "text": "Toward the green, then back toward Uptown. The gateway is a good reminder that a campus day is also a day in somebody’s town."
+      "title": "The view in both directions",
+      "text": "The gateway connects College Green with Uptown Athens. I like that little shift from campus paths to town streets; it makes me want to look both ways before choosing. We could linger a moment, if you’d like. ♡"
     },
     {
       "type": "heading",
@@ -113,7 +113,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Ready for the town side? Head toward Court Street and Uptown. Ohio University’s introduction to Athens points to food, music, and arts as part of the relationship between campus and community. Choose a public street, look at the businesses, and let something catch your interest. There are neighbors and working days here beyond the university calendar."
+      "text": "Ready for the town side? Let’s turn toward Court Street and Uptown. Ohio University’s introduction to Athens points to food, music, and arts in the relationship between campus and community. I’d follow a public street and see which business catches your eye. You can choose the detour; I’m rather enjoying this pace."
     },
     {
       "type": "paragraph",
@@ -135,7 +135,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "A little walk, a little time in town. I’m glad we didn’t rush through. ♡"
+      "text": "A few blocks, a little time in town… I’m rather glad you kept me company. Shall we leave the next afternoon this open, too? ♡"
     }
   ]
 }

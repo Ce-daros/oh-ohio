@@ -2352,7 +2352,7 @@
       "slug": "cincinnati-market-to-music",
       "kind": "feature",
       "title": "A market morning. A music night.",
-      "summary": "A full day in Cincinnati’s Over-the-Rhine, with room for music at the end. ♡",
+      "summary": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡",
       "canonicalPath": "/journal/cincinnati-market-to-music",
       "primaryWorld": "explore",
       "worlds": [
@@ -2406,11 +2406,11 @@
       "recommendations": [
         {
           "id": "feature:rookwood-clay",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
         },
         {
           "id": "feature:cincinnati-chili",
-          "reason": "Another Ohio food story"
+          "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
         }
       ],
       "order": 72
@@ -2420,7 +2420,7 @@
       "slug": "dayton-made-to-fly",
       "kind": "feature",
       "title": "What took flight.",
-      "summary": "Two days in Dayton, with bicycles, a printing press, and airplanes that might make you forget to check the time.",
+      "summary": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky.",
       "canonicalPath": "/journal/dayton-made-to-fly",
       "primaryWorld": "explore",
       "worlds": [
@@ -2474,11 +2474,11 @@
       "recommendations": [
         {
           "id": "feature:akron-rubber",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
         },
         {
           "id": "feature:toledo-glass",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         }
       ],
       "order": 73
@@ -2488,7 +2488,7 @@
       "slug": "cuyahoga-slow-day",
       "kind": "feature",
       "title": "Let’s take the slow way.",
-      "summary": "A waterfall, a towpath, and lunch in Peninsula. Cuyahoga Valley has a lovely way of making us linger.",
+      "summary": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest.",
       "canonicalPath": "/journal/cuyahoga-slow-day",
       "primaryWorld": "explore",
       "worlds": [
@@ -2537,11 +2537,11 @@
       "recommendations": [
         {
           "id": "feature:community-garden-season",
-          "reason": "Another look at everyday Ohio"
+          "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
         },
         {
           "id": "feature:west-side-market-table",
-          "reason": "Another Ohio food story"
+          "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
         }
       ],
       "order": 74
@@ -2551,7 +2551,7 @@
       "slug": "sandusky-play-day",
       "kind": "feature",
       "title": "One more ride. Then the lake.",
-      "summary": "Cedar Point gets a whole day. Sandusky’s waterfront gets the quieter moments around it.",
+      "summary": "You pick the ride; I’m saving a little time for the bay. A Sandusky overnight gives both kinds of fun room to breathe. ♡",
       "canonicalPath": "/journal/sandusky-play-day",
       "primaryWorld": "explore",
       "worlds": [
@@ -2606,11 +2606,11 @@
       "recommendations": [
         {
           "id": "feature:toledo-glass",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         },
         {
           "id": "feature:buckeye-sweets",
-          "reason": "Another Ohio food story"
+          "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
         }
       ],
       "order": 75
@@ -2620,7 +2620,7 @@
       "slug": "brass-whistle",
       "kind": "feature",
       "title": "Little whistle. Big voice.",
-      "summary": "At a Columbus workbench, that familiar sound starts with a flat piece of brass.",
+      "summary": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal.",
       "canonicalPath": "/journal/brass-whistle",
       "primaryWorld": "make",
       "worlds": [
@@ -2664,15 +2664,15 @@
       "recommendations": [
         {
           "id": "feature:rookwood-clay",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
         },
         {
           "id": "feature:toledo-glass",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         },
         {
           "id": "feature:dayton-made-to-fly",
-          "reason": "Another Ohio day out"
+          "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
         }
       ],
       "order": 76
@@ -2682,7 +2682,7 @@
       "slug": "rookwood-clay",
       "kind": "feature",
       "title": "A little clay. A lot of hands.",
-      "summary": "Let’s follow a piece of Rookwood pottery through the work that gives it a place in someone’s home.",
+      "summary": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery.",
       "canonicalPath": "/journal/rookwood-clay",
       "primaryWorld": "make",
       "worlds": [
@@ -2726,15 +2726,15 @@
       "recommendations": [
         {
           "id": "feature:brass-whistle",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal."
         },
         {
           "id": "feature:toledo-glass",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         },
         {
           "id": "feature:cincinnati-chili",
-          "reason": "Another Ohio food story"
+          "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
         }
       ],
       "order": 77
@@ -2744,7 +2744,7 @@
       "slug": "toledo-glass",
       "kind": "feature",
       "title": "Ooh, look at that glass.",
-      "summary": "In Toledo, light, heat, and a maker’s timing turn something familiar into something worth stopping for.",
+      "summary": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you.",
       "canonicalPath": "/journal/toledo-glass",
       "primaryWorld": "make",
       "worlds": [
@@ -2798,15 +2798,15 @@
       "recommendations": [
         {
           "id": "feature:rookwood-clay",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
         },
         {
           "id": "feature:akron-rubber",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
         },
         {
           "id": "feature:dayton-made-to-fly",
-          "reason": "Another Ohio day out"
+          "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
         }
       ],
       "order": 78
@@ -2816,7 +2816,7 @@
       "slug": "akron-rubber",
       "kind": "feature",
       "title": "There’s a story in these tires.",
-      "summary": "Let’s follow Akron’s rubber history from a familiar wheel back to the people and experiments behind it.",
+      "summary": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood.",
       "canonicalPath": "/journal/akron-rubber",
       "primaryWorld": "make",
       "worlds": [
@@ -2870,15 +2870,15 @@
       "recommendations": [
         {
           "id": "feature:brass-whistle",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal."
         },
         {
           "id": "feature:toledo-glass",
-          "reason": "A closer look at an Ohio maker"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         },
         {
           "id": "feature:dayton-made-to-fly",
-          "reason": "Another Ohio day out"
+          "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
         }
       ],
       "order": 79
@@ -2888,7 +2888,7 @@
       "slug": "cincinnati-chili",
       "kind": "feature",
       "title": "Pull up a chair. Let’s order chili.",
-      "summary": "Spaghetti, a spiced sauce, and that generous pile of cheese. I’ll help you make sense of the menu.",
+      "summary": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate.",
       "canonicalPath": "/journal/cincinnati-chili",
       "primaryWorld": "culture",
       "worlds": [
@@ -2932,15 +2932,15 @@
       "recommendations": [
         {
           "id": "feature:buckeye-sweets",
-          "reason": "Another Ohio food story"
+          "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
         },
         {
           "id": "feature:west-side-market-table",
-          "reason": "Another Ohio food story"
+          "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
         },
         {
           "id": "feature:cincinnati-market-to-music",
-          "reason": "Another Ohio day out"
+          "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
         }
       ],
       "order": 80
@@ -2950,7 +2950,7 @@
       "slug": "buckeye-sweets",
       "kind": "feature",
       "title": "Save room for a buckeye.",
-      "summary": "A little peanut butter, a little chocolate, and one bare patch that gives the sweet its Ohio name.",
+      "summary": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡",
       "canonicalPath": "/journal/buckeye-sweets",
       "primaryWorld": "culture",
       "worlds": [
@@ -2998,15 +2998,15 @@
       "recommendations": [
         {
           "id": "feature:cincinnati-chili",
-          "reason": "Another Ohio food story"
+          "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
         },
         {
           "id": "feature:west-side-market-table",
-          "reason": "Another Ohio food story"
+          "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
         },
         {
           "id": "feature:cincinnati-market-to-music",
-          "reason": "Another Ohio day out"
+          "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
         }
       ],
       "order": 81
@@ -3016,7 +3016,7 @@
       "slug": "west-side-market-table",
       "kind": "feature",
       "title": "A market full of good things.",
-      "summary": "Cleveland’s West Side Market has a beautiful ceiling. The people at the counters deserve your attention too.",
+      "summary": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose.",
       "canonicalPath": "/journal/west-side-market-table",
       "primaryWorld": "culture",
       "worlds": [
@@ -3065,15 +3065,15 @@
       "recommendations": [
         {
           "id": "feature:cincinnati-chili",
-          "reason": "Another Ohio food story"
+          "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
         },
         {
           "id": "feature:buckeye-sweets",
-          "reason": "Another Ohio food story"
+          "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
         },
         {
           "id": "feature:cincinnati-market-to-music",
-          "reason": "Another Ohio day out"
+          "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
         }
       ],
       "order": 82
@@ -3083,7 +3083,7 @@
       "slug": "library-afternoon",
       "kind": "feature",
       "title": "A book, a window, an afternoon.",
-      "summary": "At Columbus Main Library, follow an old city map or settle in for one more chapter.",
+      "summary": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library.",
       "canonicalPath": "/journal/library-afternoon",
       "primaryWorld": "live",
       "worlds": [
@@ -3132,15 +3132,15 @@
       "recommendations": [
         {
           "id": "feature:community-garden-season",
-          "reason": "Another look at everyday Ohio"
+          "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
         },
         {
           "id": "feature:athens-campus-day",
-          "reason": "Another look at everyday Ohio"
+          "reason": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡"
         },
         {
           "id": "feature:cuyahoga-slow-day",
-          "reason": "Another Ohio day out"
+          "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
         }
       ],
       "order": 83
@@ -3150,7 +3150,7 @@
       "slug": "community-garden-season",
       "kind": "feature",
       "title": "Let’s see what’s growing.",
-      "summary": "At Dayton’s Possum Creek, garden plots change throughout the growing season.",
+      "summary": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month.",
       "canonicalPath": "/journal/community-garden-season",
       "primaryWorld": "live",
       "worlds": [
@@ -3194,15 +3194,15 @@
       "recommendations": [
         {
           "id": "feature:library-afternoon",
-          "reason": "Another look at everyday Ohio"
+          "reason": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library."
         },
         {
           "id": "feature:athens-campus-day",
-          "reason": "Another look at everyday Ohio"
+          "reason": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡"
         },
         {
           "id": "feature:cuyahoga-slow-day",
-          "reason": "Another Ohio day out"
+          "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
         }
       ],
       "order": 84
@@ -3212,7 +3212,7 @@
       "slug": "athens-campus-day",
       "kind": "feature",
       "title": "Got a little time? Let’s walk through Athens.",
-      "summary": "From Ohio University’s College Green to Uptown, a few ordinary blocks hold plenty of stories.",
+      "summary": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡",
       "canonicalPath": "/journal/athens-campus-day",
       "primaryWorld": "live",
       "worlds": [
@@ -3261,15 +3261,15 @@
       "recommendations": [
         {
           "id": "feature:library-afternoon",
-          "reason": "Another look at everyday Ohio"
+          "reason": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library."
         },
         {
           "id": "feature:community-garden-season",
-          "reason": "Another look at everyday Ohio"
+          "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
         },
         {
           "id": "feature:cuyahoga-slow-day",
-          "reason": "Another Ohio day out"
+          "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
         }
       ],
       "order": 85
@@ -3279,7 +3279,7 @@
       "slug": "materials-in-the-making",
       "kind": "feature",
       "title": "How an Ohio object takes shape",
-      "summary": "Follow a Columbus brass whistle and a Cincinnati pottery piece from material to finished object.",
+      "summary": "A little whistle, a curve in the clay—ooh, I want a closer look. Let’s meet the work behind a few Ohio objects.",
       "canonicalPath": "/journal/materials-in-the-making",
       "primaryWorld": "make",
       "worlds": [
@@ -3366,15 +3366,15 @@
       "recommendations": [
         {
           "id": "feature:rookwood-clay",
-          "reason": "See another Ohio material pass through many hands"
+          "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
         },
         {
           "id": "feature:toledo-glass",
-          "reason": "Follow glass from workshop to gallery"
+          "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
         },
         {
           "id": "feature:akron-rubber",
-          "reason": "Look closer at a familiar Ohio-made material"
+          "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
         }
       ],
       "updatedAt": "2026-09-25",
@@ -3390,7 +3390,7 @@
       "slug": "whistle-cross-section",
       "kind": "note",
       "title": "A whistle in cross-section",
-      "summary": "A small chamber and a moving pea turn a breath into a trill.",
+      "summary": "A moving pea helps give a whistle its trill. Ooh, come look at the tiny chamber behind that familiar sound.",
       "canonicalPath": "/notes/whistle-cross-section",
       "primaryWorld": "make",
       "worlds": [
@@ -3437,7 +3437,7 @@
       "slug": "what-survives-the-kiln",
       "kind": "note",
       "title": "What survives the kiln?",
-      "summary": "Compare a Rookwood form, a historic vase, and a surface changed by firing.",
+      "summary": "A Rookwood form changes through firing and glaze. I’d look twice at the surface; the little variations catch my eye. ♡",
       "canonicalPath": "/notes/what-survives-the-kiln",
       "primaryWorld": "make",
       "worlds": [
@@ -3486,7 +3486,7 @@
       "slug": "listening-to-ohio",
       "kind": "feature",
       "title": "Listening to Ohio",
-      "summary": "A canal song, a Columbus conversation, a marsh soundscape, and a Cincinnati orchestra reveal different ways of hearing the state.",
+      "summary": "Shh, there’s a frog in this part. A canal song, a Columbus conversation, a marsh: come get to know Ohio by ear with me.",
       "canonicalPath": "/journal/listening-to-ohio",
       "primaryWorld": "culture",
       "worlds": [
@@ -3559,15 +3559,15 @@
       "recommendations": [
         {
           "id": "note:music",
-          "reason": "Hear how Ohio’s music story keeps moving"
+          "reason": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving."
         },
         {
           "id": "note:regional-voices",
-          "reason": "Explore Ohio speech without reducing it to one accent"
+          "reason": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?"
         },
         {
           "id": "note:cincinnati-music-hall",
-          "reason": "Meet a Cincinnati performance space"
+          "reason": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive."
         }
       ],
       "updatedAt": "2026-09-25",
@@ -3583,7 +3583,7 @@
       "slug": "one-canal-song-three-records",
       "kind": "note",
       "title": "One canal song, three records",
-      "summary": "Hear one performance alongside its song text and the records kept with it.",
+      "summary": "A recorded song, its written words, and the records kept around it. I’d listen twice and see what the second pass reveals.",
       "canonicalPath": "/notes/one-canal-song-three-records",
       "primaryWorld": "culture",
       "worlds": [
@@ -3632,7 +3632,7 @@
       "slug": "what-is-an-accent-sample",
       "kind": "note",
       "title": "What is an accent sample?",
-      "summary": "A Columbus speech corpus gives researchers a sample to study, not a single Ohio accent.",
+      "summary": "Forty Columbus speakers, many conversations. I like listening for differences rather than one voice for all of Ohio.",
       "canonicalPath": "/notes/what-is-an-accent-sample",
       "primaryWorld": "culture",
       "worlds": [
@@ -3674,7 +3674,7 @@
       "slug": "how-a-library-loan-travels",
       "kind": "feature",
       "title": "How a library loan travels",
-      "summary": "One Cincinnati history book makes a useful guide to Ohio’s shared library shelves, from a local search to pickup and return.",
+      "summary": "A book taking a little Ohio trip just to reach your pickup shelf? Ooh, I like this story. Let’s follow one request together.",
       "canonicalPath": "/journal/how-a-library-loan-travels",
       "primaryWorld": "live",
       "worlds": [
@@ -3739,11 +3739,11 @@
       "recommendations": [
         {
           "id": "note:what-catalog-can-tell-you",
-          "reason": "Start with the title, author, and ISBN."
+          "reason": "Title, author, ISBN, edition—let’s find the book you actually want. Then we can look forward to the reading part. ♡"
         },
         {
           "id": "note:a-books-trip-through-ohio",
-          "reason": "Follow the request through pickup and return."
+          "reason": "A request at your own library can send a book traveling between shared shelves. I like a reading adventure that begins close to home. ♡"
         }
       ],
       "order": 92,
@@ -3760,7 +3760,7 @@
       "slug": "what-catalog-can-tell-you",
       "kind": "note",
       "title": "What a catalog can tell you",
-      "summary": "Search title, author, and ISBN, then check the edition and the request option in your own library catalog.",
+      "summary": "Title, author, ISBN, edition—let’s find the book you actually want. Then we can look forward to the reading part. ♡",
       "canonicalPath": "/notes/what-catalog-can-tell-you",
       "primaryWorld": "live",
       "worlds": [
@@ -3812,7 +3812,7 @@
       "slug": "a-books-trip-through-ohio",
       "kind": "note",
       "title": "A book’s trip through Ohio",
-      "summary": "The request and pickup are a shared-library workflow, with local account rules at either end.",
+      "summary": "A request at your own library can send a book traveling between shared shelves. I like a reading adventure that begins close to home. ♡",
       "canonicalPath": "/notes/a-books-trip-through-ohio",
       "primaryWorld": "live",
       "worlds": [
@@ -3864,7 +3864,7 @@
       "slug": "findlay-street-through-time",
       "kind": "feature",
       "title": "Findlay Street through time",
-      "summary": "Race Street’s market block links a nineteenth-century plat, a changing neighborhood, and a present-day transit stop.",
+      "summary": "Wait, before we head for the stalls—look at this block with me. Findlay Street’s maps have a few surprises tucked into their lines.",
       "canonicalPath": "/journal/findlay-street-through-time",
       "primaryWorld": "explore",
       "worlds": [
@@ -3962,11 +3962,11 @@
       "recommendations": [
         {
           "id": "note:reading-a-sanborn-map",
-          "reason": "Learn what an insurance map can and cannot show."
+          "reason": "A fire-insurance map describes buildings through its own little marks. Keep the legend beside us; there’s quite a lot to notice."
         },
         {
           "id": "note:markets-changing-edges",
-          "reason": "Compare the market plat with today’s transit map."
+          "reason": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both."
         }
       ],
       "order": 95,
@@ -3983,7 +3983,7 @@
       "slug": "reading-a-sanborn-map",
       "kind": "note",
       "title": "Reading a Sanborn map",
-      "summary": "Fire-insurance maps document buildings for risk assessment; use the legend and exact sheet before describing a block.",
+      "summary": "A fire-insurance map describes buildings through its own little marks. Keep the legend beside us; there’s quite a lot to notice.",
       "canonicalPath": "/notes/reading-a-sanborn-map",
       "primaryWorld": "explore",
       "worlds": [
@@ -4041,7 +4041,7 @@
       "slug": "markets-changing-edges",
       "kind": "note",
       "title": "Markets and changing edges",
-      "summary": "Compare the early Northern Liberties street grid with the current transit loop without treating them as one map.",
+      "summary": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both.",
       "canonicalPath": "/notes/markets-changing-edges",
       "primaryWorld": "explore",
       "worlds": [
@@ -4094,7 +4094,7 @@
       "slug": "water-has-a-working-life",
       "kind": "feature",
       "title": "Water has a working life",
-      "summary": "Ohio’s waterways connect freight, drinking water, habitat, and neighborhood stewardship. A Cleveland-to-Lake-Erie story makes those layers visible.",
+      "summary": "Lake Erie’s view makes me curious about the water’s other journeys. Follow the Cuyahoga, the harbor, and the work behind your tap with me.",
       "canonicalPath": "/journal/water-has-a-working-life",
       "primaryWorld": "explore",
       "worlds": [
@@ -4178,11 +4178,11 @@
       "recommendations": [
         {
           "id": "note:canal-corridor-in-maps",
-          "reason": "Read the Ohio & Erie Canal corridor through its original plats."
+          "reason": "The canal links rivers through engineered channels and summit works. Come follow the little turns in the map with me."
         },
         {
           "id": "note:lake-erie-intakes-and-buoys",
-          "reason": "Follow the public drinking-water system from lake to household."
+          "reason": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow."
         }
       ],
       "order": 98,
@@ -4199,7 +4199,7 @@
       "slug": "canal-corridor-in-maps",
       "kind": "note",
       "title": "A canal corridor on paper",
-      "summary": "Canal maps show an engineered route, not a natural river journey.",
+      "summary": "The canal links rivers through engineered channels and summit works. Come follow the little turns in the map with me.",
       "canonicalPath": "/notes/canal-corridor-in-maps",
       "primaryWorld": "explore",
       "worlds": [
@@ -4248,7 +4248,7 @@
       "slug": "lake-erie-intakes-and-buoys",
       "kind": "note",
       "title": "Lake water, public service",
-      "summary": "Cleveland’s drinking-water story begins offshore.",
+      "summary": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow.",
       "canonicalPath": "/notes/lake-erie-intakes-and-buoys",
       "primaryWorld": "explore",
       "worlds": [
@@ -4297,7 +4297,7 @@
       "slug": "who-keeps-ohios-memory",
       "kind": "feature",
       "title": "Who keeps Ohio’s memory?",
-      "summary": "A state archive can preserve millions of records. The people who make those records, describe them, and decide what can be shared shape the story too.",
+      "summary": "An old photograph makes me wonder about a name. Come meet the people and collections keeping Ohio’s stories within reach.",
       "canonicalPath": "/journal/who-keeps-ohios-memory",
       "primaryWorld": "culture",
       "worlds": [
@@ -4361,11 +4361,11 @@
       "recommendations": [
         {
           "id": "note:oral-history-is-a-persons-account",
-          "reason": "Follow a named narrator and the context of their interview."
+          "reason": "An interview keeps one person’s experience in their own voice. Let’s give the narrator and their story a little time."
         },
         {
           "id": "note:eastern-shawnee-digital-library",
-          "reason": "Read a tribal digital collection through its own partnership record."
+          "reason": "The Eastern Shawnee Tribe of Oklahoma shares a digital library through Ohio Memory. Let’s begin with the Tribe’s own collection and descriptions."
         }
       ],
       "order": 101,
@@ -4382,7 +4382,7 @@
       "slug": "oral-history-is-a-persons-account",
       "kind": "note",
       "title": "An oral history is one person’s account",
-      "summary": "A named interview preserves experience without standing for a whole community.",
+      "summary": "An interview keeps one person’s experience in their own voice. Let’s give the narrator and their story a little time.",
       "canonicalPath": "/notes/oral-history-is-a-persons-account",
       "primaryWorld": "culture",
       "worlds": [
@@ -4430,7 +4430,7 @@
       "slug": "eastern-shawnee-digital-library",
       "kind": "note",
       "title": "A tribal archive in a shared portal",
-      "summary": "Ohio Memory identifies the Eastern Shawnee Tribe of Oklahoma’s digital library as a partner collection.",
+      "summary": "The Eastern Shawnee Tribe of Oklahoma shares a digital library through Ohio Memory. Let’s begin with the Tribe’s own collection and descriptions.",
       "canonicalPath": "/notes/eastern-shawnee-digital-library",
       "primaryWorld": "culture",
       "worlds": [
@@ -4478,7 +4478,7 @@
       "slug": "small-towns-many-centers",
       "kind": "feature",
       "title": "Small towns, many centers",
-      "summary": "Yellow Springs and Nelsonville are two Ohio towns with distinct institutions, landscapes, and public gathering places.",
+      "summary": "I’d leave room for a small-town afternoon. Yellow Springs and Nelsonville each deserve their own day—and a little time to sit.",
       "canonicalPath": "/journal/small-towns-many-centers",
       "primaryWorld": "explore",
       "worlds": [
@@ -4567,11 +4567,11 @@
       "recommendations": [
         {
           "id": "note:yellow-springs-stewardship",
-          "reason": "Read Glen Helen’s own account of land use and local stewardship."
+          "reason": "Glen Helen’s history includes choices people made to care for the land. I’d keep those stories with us on the path."
         },
         {
           "id": "note:nelsonville-railway-access",
-          "reason": "Check the railway’s specific lift, coach, parking, and restroom details."
+          "reason": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day."
         }
       ],
       "order": 104,
@@ -4588,7 +4588,7 @@
       "slug": "yellow-springs-stewardship",
       "kind": "note",
       "title": "Glen Helen is a place people have shaped",
-      "summary": "The preserve’s own timeline connects land, civic choices, and conservation.",
+      "summary": "Glen Helen’s history includes choices people made to care for the land. I’d keep those stories with us on the path.",
       "canonicalPath": "/notes/yellow-springs-stewardship",
       "primaryWorld": "explore",
       "worlds": [
@@ -4636,7 +4636,7 @@
       "slug": "nelsonville-railway-access",
       "kind": "note",
       "title": "Before boarding in Nelsonville",
-      "summary": "The railway publishes coach-specific access information; call ahead before traveling.",
+      "summary": "The railway lists access by coach and asks visitors to call ahead. I’d settle those details before planning our valley day.",
       "canonicalPath": "/notes/nelsonville-railway-access",
       "primaryWorld": "explore",
       "worlds": [
@@ -4685,7 +4685,7 @@
       "slug": "two-city-days",
       "kind": "feature",
       "title": "Two city days, two different rhythms",
-      "summary": "Cincinnati offers a compact streetcar-and-walk day. Dayton’s aviation sites are spread across town, so plan in sections and leave room for transit and rest.",
+      "summary": "Market morning or aviation afternoon? Tell me what you’re excited about, and we’ll build one comfortable Ohio day around it.",
       "canonicalPath": "/journal/two-city-days",
       "primaryWorld": "explore",
       "worlds": [
@@ -4787,11 +4787,11 @@
       "recommendations": [
         {
           "id": "note:cincinnati-connector-station-order",
-          "reason": "Check the selected station sequence on the City’s map."
+          "reason": "The Connector map lets us choose a short trip between market, park, and downtown. I’d leave time to linger at your favorite stop."
         },
         {
           "id": "note:dayton-aviation-transit-and-access",
-          "reason": "Use the NPS and transit operators’ details to plan Dayton legs."
+          "reason": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites."
         }
       ],
       "order": 107,
@@ -4808,7 +4808,7 @@
       "slug": "cincinnati-connector-station-order",
       "kind": "note",
       "title": "A Cincinnati day in selected stops",
-      "summary": "The Connector’s official map makes a shorter route possible without riding the whole loop.",
+      "summary": "The Connector map lets us choose a short trip between market, park, and downtown. I’d leave time to linger at your favorite stop.",
       "canonicalPath": "/notes/cincinnati-connector-station-order",
       "primaryWorld": "explore",
       "worlds": [
@@ -4856,7 +4856,7 @@
       "slug": "dayton-aviation-transit-and-access",
       "kind": "note",
       "title": "Dayton’s sites need separate legs",
-      "summary": "NPS and transit operator details show where a transit-first day works and where another ride is needed.",
+      "summary": "Some Dayton aviation stops suit a transit-first day; others need another ride. Let’s sort out the journey before choosing our favorites.",
       "canonicalPath": "/notes/dayton-aviation-transit-and-access",
       "primaryWorld": "explore",
       "worlds": [

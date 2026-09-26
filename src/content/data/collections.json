@@ -474,7 +474,7 @@
     "id": "world:explore",
     "kind": "world",
     "title": "Explore",
-    "dek": "Lake shores, city streets, and Appalachian trails. ♡",
+    "dek": "A market street, a woodland path, a little time by the water. These are the stories I’d follow into an unhurried afternoon. ♡",
     "order": 0,
     "world": "explore",
     "featuredId": "feature:two-city-days",
@@ -489,7 +489,7 @@
     "id": "world:make",
     "kind": "world",
     "title": "Make",
-    "dek": "Meet the makers and workers behind it.",
+    "dek": "Brass, clay, glass, rubber: I like seeing what careful hands make possible. Ooh, choose an object to look at twice.",
     "order": 1,
     "world": "make",
     "featuredId": "feature:materials-in-the-making",
@@ -504,7 +504,7 @@
     "id": "world:culture",
     "kind": "world",
     "title": "Culture",
-    "dek": "Markets, music, art, and stories. ♡",
+    "dek": "Food, music, and the people around them. I’ve picked a few stories that make me want to stay for another page. ♡",
     "order": 2,
     "world": "culture",
     "featuredId": "feature:listening-to-ohio",
@@ -519,7 +519,7 @@
     "id": "world:live",
     "kind": "world",
     "title": "Live",
-    "dek": "Meet the neighbors, communities, and public life here.",
+    "dek": "A library book, a campus walk, a shared garden. I have a soft spot for these ordinary ways of feeling closer to a place.",
     "order": 3,
     "world": "live",
     "featuredId": "feature:how-a-library-loan-travels",
@@ -534,7 +534,7 @@
     "id": "home:field-notes",
     "kind": "home",
     "title": "Field notes",
-    "dek": "Good stories are worth staying for.",
+    "dek": "Places, objects, and everyday Ohio stories. I’ve picked a few I’d like to spend a little longer with you.",
     "order": 0,
     "featuredId": "feature:findlay-street-through-time",
     "itemIds": [
@@ -562,14 +562,13 @@
     "id": "home:theme",
     "kind": "home",
     "title": "A life in the making",
-    "dek": "A brass whistle carries a breath across a playing field. A piece of clay holds the shape of a hand. Follow the materials, and meet the work that gives them a life.",
+    "dek": "A brass whistle carries a breath across a playing field; clay holds a shape someone gave it. I’m fond of small objects that reveal careful work when you look twice. Come meet their makers with me. ♡",
     "order": 2,
     "featuredId": "feature:materials-in-the-making",
     "itemIds": [
       "feature:materials-in-the-making",
-      "feature:brass-whistle",
-      "feature:rookwood-clay",
-      "feature:toledo-glass"
+      "note:whistle-cross-section",
+      "note:what-survives-the-kiln"
     ]
   },
   {

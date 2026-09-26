@@ -16,6 +16,10 @@ Check each material claim in context and ensure its block cites the source that 
 
 For new source records, use a stable direct URL and a descriptive title. Add a short research note under `editorial/research/` for substantial fact checks, interpretation choices, and date evidence. Keep publication and editorial-update dates tied to real records. A date when someone checks a source is not a publication date or proof that every claim in the story was reviewed.
 
+## Voice-only revisions
+
+Use [the current voice guide](voice-guide.md) for Ohio-chan’s explanation, personal tastes, and occasional gentle flirt. Revise narrative flow as well as openings; do not append the same interjection or heart everywhere. Preserve source-linked facts, quotations, practical conditions, and verification records. A fictional preference is not evidence of a visit. A voice revision does not reset `verifiedAt` or claim that sources were reopened. Historical review documents remain dated records and should link to the current guide when their voice advice has been superseded.
+
 ## Changes and corrections
 
 When revising a factual claim, check the affected claim and its neighboring context, update block-level citations, and record the change in the research note. Preserve the prior account when it is necessary to understand a correction, disagreement, or historical change. When sources disagree, name the disagreement and attribute each account. Do not silently turn a proposed itinerary into a visited route or an institution's account into a community-wide conclusion.

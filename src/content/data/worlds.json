@@ -2,8 +2,8 @@
   {
     "id": "explore",
     "title": "Explore",
-    "headline": "Ohio has room for every kind of detour.",
-    "tease": "Lake shores, city streets, and Appalachian trails. ♡",
+    "headline": "Lake shores, city streets, wooded hills. I have a few favorite ways to wander—come along. ♡",
+    "tease": "I’d leave a little room for a lakeside detour.",
     "symbol": "01",
     "color": "#c5e4ec",
     "art": "travel",
@@ -16,8 +16,8 @@
   {
     "id": "make",
     "title": "Make",
-    "headline": "See what Ohio hands and minds can do.",
-    "tease": "Meet the makers and workers behind it.",
+    "headline": "A whistle, a wing, a piece of clay. Ooh, let me show you the work behind them.",
+    "tease": "I’m fond of little objects with a lot going on inside.",
     "symbol": "02",
     "color": "#d3def3",
     "art": "industry",
@@ -30,8 +30,8 @@
   {
     "id": "culture",
     "title": "Culture",
-    "headline": "Ohio’s many voices belong on stage.",
-    "tease": "Markets, music, art, and stories. ♡",
+    "headline": "Music, painted walls, and something good to eat. I’d like to show you what catches my eye. ♡",
+    "tease": "You choose the next song; I’ll choose a little market detour.",
     "symbol": "03",
     "color": "#f1cbd2",
     "art": "culture",
@@ -44,8 +44,8 @@
   {
     "id": "live",
     "title": "Live",
-    "headline": "Ohio is shaped by the people who call it home.",
-    "tease": "Meet the neighbors, communities, and public life here.",
+    "headline": "Libraries, campus paths, neighbors tending a shared garden. This is the everyday Ohio I like to linger in.",
+    "tease": "A window seat and one more chapter? Ahh, that sounds lovely.",
     "symbol": "04",
     "color": "#d4e4db",
     "art": "life",

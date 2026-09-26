@@ -4,7 +4,7 @@
     "slug": "library-afternoon",
     "kind": "feature",
     "title": "A book, a window, an afternoon.",
-    "summary": "At Columbus Main Library, follow an old city map or settle in for one more chapter.",
+    "summary": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library.",
     "canonicalPath": "/journal/library-afternoon",
     "primaryWorld": "live",
     "worlds": [
@@ -53,15 +53,15 @@
     "recommendations": [
       {
         "id": "feature:community-garden-season",
-        "reason": "Another look at everyday Ohio"
+        "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
       },
       {
         "id": "feature:athens-campus-day",
-        "reason": "Another look at everyday Ohio"
+        "reason": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡"
       },
       {
         "id": "feature:cuyahoga-slow-day",
-        "reason": "Another Ohio day out"
+        "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
       }
     ],
     "order": 83
@@ -70,7 +70,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "You don’t have to fill every hour of a day out. At Columbus Main Library, choose what feels right. A book by the window? A question about an old house? A little time with the city’s records? The building opened in 1907, but there are plenty of reasons to spend an ordinary afternoon here now."
+      "text": "A book by the window? Oh, that would tempt me. At Columbus Main Library, we could read, follow a question about an old house, or spend a little time with the city’s records. The building opened in 1907, but I’m just as interested in the ordinary afternoons happening here now. Find somewhere you’d like to sit. I’ll let the next stop wait. ♡"
     },
     {
       "type": "heading",
@@ -84,7 +84,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Around you, people may be doing quite different things: browsing, working, helping a child choose a book, or asking a question. A public library makes room for those days to overlap. You can join in with something as simple as reading a chapter. I’m happy to let the next stop wait a little."
+      "text": "Someone choosing a book, someone working, a child with a question… I like the way a library lets different days share a room. You can join in with something as simple as reading a chapter. Ahh, this is nice. I’m very willing to let the next stop wait."
     },
     {
       "type": "heading",
@@ -98,12 +98,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Research help is available through the library, including its reserve-an-expert service. You don’t need to know the right archival words before asking. A directory might give you a name; a map might show the shape of a building. Some questions stay open. Follow what the records actually show and keep the next question ready."
+      "text": "You don’t need the perfect archival words to ask for help. The library offers research support, including its reserve-an-expert service. A directory might offer a name; a map might show a building’s shape. Some questions stay open, and that’s all right. I’d follow the clue we have, then see what we want to ask next."
     },
     {
       "type": "characterAside",
       "title": "Bring one small question",
-      "text": "An address, a family name, a street you keep passing. That’s enough to start a conversation with the local history collection."
+      "text": "An address or family name gives the local history collection somewhere to start. I like questions that turn an ordinary street into a place you want to look at again. Tell me yours; I’m quite happy to stay for another page. ♡"
     },
     {
       "type": "heading",
@@ -135,7 +135,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "One more page? Of course. I said we had time. ♡"
+      "text": "One more page? Mm, I thought you might say that. Stay a little longer; this is rather nice. ♡"
     }
   ]
 }

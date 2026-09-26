@@ -4,7 +4,7 @@
     "slug": "akron-rubber",
     "kind": "feature",
     "title": "There’s a story in these tires.",
-    "summary": "Let’s follow Akron’s rubber history from a familiar wheel back to the people and experiments behind it.",
+    "summary": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood.",
     "canonicalPath": "/journal/akron-rubber",
     "primaryWorld": "make",
     "worlds": [
@@ -58,15 +58,15 @@
     "recommendations": [
       {
         "id": "feature:brass-whistle",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "That tiny whistle has such a big voice! Let me show you the cuts, curves, and careful listening behind a Columbus-made signal."
       },
       {
         "id": "feature:toledo-glass",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
       },
       {
         "id": "feature:dayton-made-to-fly",
-        "reason": "Another Ohio day out"
+        "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
       }
     ],
     "order": 79
@@ -75,7 +75,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "We pass tires every day. Usually we only notice them when something goes wrong. Give this one a moment instead: the tread, the curved side, the material that has to meet the road again and again. Akron’s history can make that ordinary object much more interesting. That work helped shape a city."
+      "text": "A tire? Yes, really. I have a soft spot for things we walk past without a second glance. Look at the tread and that curved side: this material meets the road again and again. Akron has quite a story behind it, and I’d like to show you why this everyday object deserves a little attention."
     },
     {
       "type": "heading",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Let’s go back to 1898. Goodyear began in Akron with products including bicycle and carriage tires, horseshoe pads, and poker chips. A rather different shelf from the one you might expect, right? Cars would make tires a much bigger part of the story. Those early objects are a good reminder that rubber already had plenty to do before the automobile became an everyday sight."
+      "text": "Poker chips! That’s the early Goodyear detail that makes me look twice. When the company began in Akron in 1898, its products included bicycle and carriage tires, horseshoe pads, and poker chips. Cars would make tires a much bigger part of the story, but rubber already had a surprisingly busy life before the automobile became an everyday sight."
     },
     {
       "type": "paragraph",
@@ -103,12 +103,12 @@
     },
     {
       "type": "paragraph",
-      "text": "In 1909, Buchtel College, now the University of Akron, began teaching rubber chemistry. That connection between local work and study grew into a much wider polymer research story. You don’t need a chemistry degree to start noticing the questions. For a tire, think about wear, flexibility, and contact with the road. There is a lot of testing behind a shape we barely glance at in a parking lot."
+      "text": "Here’s another thread I’d follow: in 1909, Buchtel College, now the University of Akron, began teaching rubber chemistry. Local work and study grew into a much wider polymer research story. Think about a tire’s wear, flexibility, and contact with the road. So many questions hiding in something we barely glance at in a parking lot!"
     },
     {
       "type": "characterAside",
       "title": "Start with the tread",
-      "text": "Look at a stationary tire’s pattern, then ask what its material needs to withstand. That small question is a good doorway into Akron’s much bigger story."
+      "text": "A tire’s tread is a small way into questions about wear, flexibility, and the road. I like starting with an object we usually ignore: suddenly the work behind it becomes interesting. What caught your eye first?"
     },
     {
       "type": "heading",
@@ -140,7 +140,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "An everyday object can introduce you to a whole city. Akron is a good place to begin. ♡"
+      "text": "Well, now I’m going to notice every tire in the parking lot. You too? Hehe. Akron does that to an ordinary object. ♡"
     }
   ]
 }

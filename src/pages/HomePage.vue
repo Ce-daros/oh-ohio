@@ -1,66 +1,32 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import { worlds, getCollection, getContent, getMedia } from "../content";
-import ChapterCover from "../components/ChapterCover.vue";
-import CharacterArt from "../components/CharacterArt.vue";
-import JournalShelf from "../components/JournalShelf.vue";
-import ContentCard from "../components/ContentCard.vue";
-import { usePageMotion } from "../composables/usePageMotion";
+import { ref } from 'vue';
+import HomeWelcome from '../components/home/HomeWelcome.vue';
+import HomeWorlds from '../components/home/HomeWorlds.vue';
+import HomeTheme from '../components/home/HomeTheme.vue';
+import HomeFieldNotes from '../components/home/HomeFieldNotes.vue';
+import HomeDiscoveries from '../components/home/HomeDiscoveries.vue';
+import HomeNeighborhood from '../components/home/HomeNeighborhood.vue';
+import { useHomeChapters, homeChapters } from '../composables/useHomeChapters';
 const root = ref<HTMLElement | null>(null);
-const theme = getCollection('home:theme');
-const lead = getContent(theme.featuredId);
-const art = lead.kind === 'feature' ? getMedia(lead.coverMediaId) : undefined;
-const dispatches = getCollection('home:dispatches').itemIds.map(getContent);
-const invitations = { explore: 'Lake shores, river cities, wooded hills.', make: 'Materials, machines, and the hands behind them.', culture: 'A sound, a shared table, a story passed on.', live: 'Libraries, neighbors, and everyday public life.' };
-usePageMotion(root);
+const active = useHomeChapters(root);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="home-page">
-    <section class="home-welcome">
-      <span class="welcome-watermark" aria-hidden="true">OHIO</span>
-      <div class="welcome-copy">
-        <p class="eyebrow" data-hero-copy><span aria-hidden="true">✳</span> OHIO-CHAN HERE!</p>
-        <h1 data-hero-copy>Oh, hello<br /><em>Ohio.</em><span aria-hidden="true">♡</span></h1>
-        <p class="welcome-identity" data-hero-copy>Civic idol, local girl,<br /><em>your Ohio guide.</em></p>
-        <p class="welcome-dek" data-hero-copy>I’m Ohio-chan. A market morning, a workshop visit, a quiet library afternoon—come along. I’ll show you where to start.</p>
-        <a href="#worlds" class="button" data-hero-copy>Where to first? <span aria-hidden="true">↘</span></a>
-      </div>
-      <div class="welcome-portrait" data-hero-art><img src="/ohio-chan-vtuber.webp" srcset="/art/characters/welcome-480.webp 480w, /art/characters/welcome-768.webp 768w, /ohio-chan-vtuber.webp 1024w" sizes="(max-width: 560px) 91vw, (max-width: 760px) 68vw, (max-width: 1000px) 62vw, 48vw" width="1024" height="1536" fetchpriority="high" alt="Ohio-chan welcomes you with a microphone and an outstretched hand" /></div>
-      <div class="welcome-stamp" data-hero-detail>YOUR GUIDE,<br /><strong>Ohio-chan <span aria-hidden="true">♡</span></strong></div>
-      <div class="welcome-bottom"><span>A LITTLE CLOSER TO THE BUCKEYE STATE</span><a href="#worlds">Four ways in <span aria-hidden="true">↓</span></a></div>
-    </section>
-    <section id="worlds" class="home-worlds">
-      <div class="home-section-heading" data-reveal><div><p class="eyebrow">PICK YOUR FIRST STOP</p><h2>A place for<br />your <em>curiosity.</em></h2></div><p>Take the scenic route.<br />Or follow something small.</p></div>
-      <div class="home-world-grid"><RouterLink v-for="world in worlds" :key="world.id" :to="`/${world.id}`" class="home-world-card" data-reveal><ChapterCover :chapter="world.id" :number="world.symbol" /><div><h3>{{ world.title }}<span aria-hidden="true">↗</span></h3><p>{{ invitations[world.id] }}</p></div></RouterLink></div>
-    </section>
-    <section class="home-theme">
-      <div class="theme-copy" data-reveal><p class="eyebrow">IN FOCUS / {{ theme.title }}</p><h2>Small things.<br /><em>Whole worlds.</em></h2><p>{{ theme.dek }}</p><RouterLink :to="lead.canonicalPath" class="text-link">{{ lead.title }} <span aria-hidden="true">↗</span></RouterLink><RouterLink to="/topics" class="theme-all">Explore all collections ↗</RouterLink></div>
-      <div class="theme-art" data-reveal><img v-if="art" :src="art.src" :alt="lead.kind === 'feature' ? lead.coverAlt : ''" width="1536" height="1024" loading="lazy" /><span>LOOK A LITTLE CLOSER <span aria-hidden="true">↗</span></span></div>
-    </section>
-    <JournalShelf />
-    <section class="home-notes"><div class="home-section-heading"><div><p class="eyebrow">A FEW GOOD DETAILS</p><h2>Start <em>anywhere.</em></h2></div><RouterLink class="text-link" to="/search">Find a story <span>↗</span></RouterLink></div><div class="home-note-grid"><ContentCard v-for="item in dispatches" :key="item.id" :content="item" variant="compact" /></div></section>
-    <section class="home-public"><div data-reveal><p class="eyebrow">EVERYDAY OHIO</p><h2>There’s a place<br /><em>for you here.</em></h2><p>A book travels between libraries. A garden fills a neighborhood table. Follow the work that keeps a community connected.</p><RouterLink class="text-link" to="/live">Step inside <span>↗</span></RouterLink><details class="host-letter"><summary>A note from Ohio-chan <span>♡</span></summary><p>I’ll point out a few things along the way: the mark left in a piece of clay, the work behind a library shelf, a voice worth listening to. Take your time with whatever catches your eye. ♡</p></details></div><div class="public-portrait" data-reveal><CharacterArt chapter="life" alt="Ohio-chan carrying a book and a bag" sizes="(max-width:600px) 70vw, 35vw" /></div></section>
+    <HomeWelcome /><HomeWorlds /><HomeTheme /><HomeFieldNotes /><HomeDiscoveries /><HomeNeighborhood />
+    <nav class="home-chapters" aria-label="Homepage chapters">
+      <a v-for="chapter in homeChapters" :key="chapter.id" :href="`#${chapter.id}`" :aria-label="chapter.label" :aria-current="active === chapter.id ? 'location' : undefined"><span>{{ chapter.label }}</span><i aria-hidden="true" /></a>
+    </nav>
   </main>
 </template>
-<style scoped>
-.home-welcome{position:relative;isolation:isolate;overflow:hidden;min-height:720px;height:min(820px,calc(100svh - var(--header-height)));background:#e8f0f5;padding:55px 7% 80px}
-.home-welcome::before{content:'';position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#e8f0f5 18%,#e8f0f5ab 72%),url('/travel-anime.webp') center/cover}
-.welcome-watermark{position:absolute;z-index:-1;right:-3%;top:10px;font:700 clamp(190px,31vw,470px)/1 var(--font-heading);letter-spacing:-.09em;color:#ffffff42;pointer-events:none}
-.welcome-copy{position:relative;z-index:2;max-width:560px}.welcome-copy .eyebrow{display:flex;align-items:center;gap:16px;font-size:12px}.welcome-copy .eyebrow>span{font-size:21px}
-.welcome-copy h1{font-size:clamp(74px,8.5vw,126px);line-height:1.01;letter-spacing:-.065em;margin:30px 0 25px;font-weight:600}.welcome-copy h1 em{color:var(--accent)}.welcome-copy h1>span{display:inline-block;font:normal .42em var(--font-editorial);color:var(--accent);margin-left:20px;transform:rotate(-12deg)}
-.welcome-identity{font:500 24px/1.35 var(--font-heading);letter-spacing:-.035em;color:var(--ink);margin-bottom:18px}.welcome-identity em{font-family:var(--font-editorial);font-weight:400;color:var(--accent)}
-.welcome-dek{font-size:17px;line-height:1.7;color:var(--ink-soft);max-width:350px;margin-bottom:25px}.welcome-portrait{position:absolute;z-index:1;bottom:-17%;right:3%;width:48%;height:115%;pointer-events:none}.welcome-portrait img{width:100%;height:100%;object-fit:contain;object-position:center top;max-width:none}
-.welcome-stamp{position:absolute;right:5%;bottom:15%;z-index:3;background:var(--ink);color:white;padding:20px 25px;transform:rotate(-4deg);font-size:11px;letter-spacing:.13em}.welcome-stamp strong{display:block;font:500 26px var(--font-heading);letter-spacing:-.045em;margin-top:9px}.welcome-stamp strong>span{color:#f0a2b1}
-.welcome-bottom{position:absolute;bottom:0;left:7%;right:7%;z-index:3;display:flex;justify-content:space-between;gap:15px;align-items:center;padding:21px 0;border-top:1px solid #18243c26;font-size:12px;letter-spacing:.055em}.welcome-bottom a{display:flex;gap:20px}
-.home-worlds,.home-notes{padding:65px var(--page-gutter) 75px;max-width:var(--page-width);margin:auto}.home-section-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:38px}.home-section-heading h2{font-size:clamp(39px,4.7vw,66px);line-height:1.06;margin-top:16px}.home-section-heading em{color:var(--accent)}.home-section-heading>p{font-size:17px;color:var(--ink-soft);line-height:1.8;max-width:300px}
-.home-world-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}.home-world-card :deep(.world-cover){aspect-ratio:1.16;height:auto;border-radius:2px}.home-world-card>div:last-child{padding-top:20px}.home-world-card h3{display:flex;justify-content:space-between;gap:12px;font-size:26px;letter-spacing:-.05em}.home-world-card h3>span{font-size:23px}.home-world-card p{font-size:15px;color:var(--ink-soft);line-height:1.65;margin-top:10px}.home-world-card:hover h3{color:var(--accent)}
-.home-theme{padding:65px var(--page-gutter);background:#e4ebe9;display:grid;grid-template-columns:1fr 1.18fr;gap:7%;align-items:center}.theme-copy{max-width:510px;margin-left:auto}.theme-copy h2{font-size:clamp(43px,5vw,70px);line-height:1.04;margin:23px 0}.theme-copy h2 em{color:#31675e}.theme-copy>p:not(.eyebrow){font-size:18px;line-height:1.8;color:#3f5956}.theme-copy .text-link{font-size:16px;line-height:1.5;margin-top:27px}.theme-all{display:block;font-size:14px;margin-top:24px;color:#3f5956}.theme-art{position:relative;max-width:710px}.theme-art img{aspect-ratio:3/2;object-fit:cover;width:100%;height:auto;border-radius:3px 70px 3px 3px}.theme-art>span{position:absolute;right:-12px;bottom:-20px;padding:18px 20px;display:flex;gap:30px;background:#fff9ec;font-size:12px;letter-spacing:.1em;transform:rotate(-3deg)}
-.home-notes{border-top:1px solid var(--rule)}.home-note-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}.home-note-grid :deep(.content-card h3){font-size:25px}.home-note-grid :deep(.content-card-summary){font-size:15px}
-.home-public{display:grid;grid-template-columns:1.2fr 1fr;gap:8%;background:#e6ece7;padding:55px max(var(--page-gutter),calc((100vw - 1250px)/2));align-items:center;overflow:hidden}.home-public h2{font-size:clamp(39px,4.8vw,64px);line-height:1.07;margin:22px 0}.home-public h2 em{color:#3b6656}.home-public>div>p:not(.eyebrow){font-size:18px;color:#425e51;line-height:1.8;max-width:520px}.home-public .text-link{margin-top:25px}.public-portrait{height:440px}.public-portrait img{width:100%;height:100%;object-fit:contain}.host-letter{margin-top:35px;border-top:1px solid #bdccbf;padding-top:16px;max-width:520px}.host-letter summary{display:flex;justify-content:space-between;cursor:pointer;font-size:14px;padding:10px 0}.host-letter p{font-size:16px;color:#425e51;line-height:1.8;margin-top:15px}
-@media(max-width:1000px){.home-welcome{min-height:640px;padding-top:48px}.welcome-portrait{right:-9%;width:62%}.welcome-copy{max-width:52%}.welcome-copy h1{font-size:90px}.welcome-stamp{right:3%;bottom:13%}.home-world-grid{gap:20px}.home-world-card h3{font-size:23px}.home-world-card p{font-size:14px}.home-note-grid{grid-template-columns:1fr 1fr}.home-theme{gap:5%}.theme-copy h2{font-size:48px}}
-@media(max-width:760px){.home-welcome{height:auto;min-height:650px}.welcome-copy h1{font-size:78px}.welcome-dek{font-size:17px}.welcome-portrait{right:-12%;width:68%;bottom:-12%;height:100%}.welcome-stamp{font-size:10px;padding:15px 18px;bottom:17%}.welcome-stamp strong{font-size:23px}.welcome-bottom>span{max-width:210px;line-height:1.6}.home-world-grid{grid-template-columns:1fr 1fr;gap:30px 20px}.home-theme{grid-template-columns:1fr;gap:35px}.theme-copy{max-width:none;margin:0}.theme-art{max-width:none}.home-section-heading>p{max-width:220px}.home-public{gap:3%}.public-portrait{height:380px}}
-@media(max-width:560px){.home-welcome{min-height:725px;padding:32px 6% 70px}.welcome-copy{max-width:100%}.welcome-copy h1{font-size:72px;margin-top:24px}.welcome-copy h1>span{margin-left:14px}.welcome-dek{max-width:56%;font-size:16px;margin-bottom:25px}.welcome-dek br{display:none}.welcome-portrait{width:91%;right:-29%;bottom:-5%;height:76%}.welcome-copy .button{padding:15px 17px;font-size:14px;gap:16px}.welcome-stamp{bottom:12%;right:3%;padding:13px 16px}.welcome-stamp strong{font-size:22px}.welcome-bottom{left:6%;right:6%;font-size:10px;padding:18px 0}.welcome-bottom>span{max-width:180px}.home-worlds,.home-notes{padding-block:42px 48px}.home-section-heading{display:block;margin-bottom:28px}.home-section-heading h2{font-size:43px}.home-section-heading>p{margin-top:22px;max-width:none}.home-world-grid{gap:28px 17px}.home-world-card h3{font-size:24px}.home-world-card p{font-size:14px}.home-theme{padding-block:45px 60px}.theme-copy h2{font-size:48px}.theme-copy>p:not(.eyebrow){font-size:17px}.theme-art>span{right:-6px;font-size:10px;padding:15px}.home-note-grid{grid-template-columns:1fr}.home-notes .text-link{margin-top:23px}.home-public{grid-template-columns:1fr;padding:45px var(--page-gutter) 0}.home-public h2{font-size:43px}.public-portrait{height:300px;max-width:80%;margin:20px auto 0}.home-public>div>p:not(.eyebrow){font-size:17px}}
-</style>
-<style scoped>
-@media(max-width:560px){.welcome-identity{font-size:22px}.welcome-portrait{height:64%;bottom:-2%}.welcome-stamp{display:none}.welcome-dek{max-width:54%}}
+<style>
+.home-page{--home-width:1240px;--home-gutter:clamp(22px,6vw,96px)}
+.home-stage{position:relative;padding:64px var(--home-gutter);scroll-margin-top:var(--header-height)}
+.home-page .home-stage{scroll-margin-top:var(--header-height)}
+.home-inner{width:100%;max-width:var(--home-width);margin-inline:auto;min-width:0}
+.home-heading{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:32px}.home-heading h2{font-size:clamp(40px,4.7vw,68px);line-height:1.04;margin-top:16px}.home-heading em{color:var(--accent)}.home-heading>p{font-size:16px;line-height:1.7;max-width:250px;color:var(--ink-soft)}
+.home-page .button{min-height:52px;padding:16px 22px;box-shadow:3px 3px 0 var(--ink)}.home-page .text-link{gap:24px;min-height:44px}
+.home-chapters{display:none}
+@media(min-width:1024px) and (min-height:720px){.home-page{--home-gutter:clamp(80px,8vw,128px)}.home-stage{min-height:calc(100svh - var(--header-height));display:flex;align-items:center;padding-block:48px}.home-chapters{display:flex;flex-direction:column;position:fixed;z-index:20;right:8px;top:50%;transform:translateY(-50%)}.home-chapters a{display:flex;align-items:center;justify-content:end;gap:8px;min-height:44px;min-width:44px;color:var(--ink)}.home-chapters i{width:6px;height:6px;border-radius:50%;background:currentColor;margin:0 15px;opacity:.45}.home-chapters span{font-size:10px;padding:5px 7px;background:#faf8f0ee;border-radius:3px;visibility:hidden}.home-chapters a[aria-current] span,.home-chapters a:hover span,.home-chapters a:focus-visible span{visibility:visible}.home-chapters a[aria-current] i{background:var(--accent);height:20px;border-radius:3px;opacity:1}}
+@media(min-width:1024px) and (min-height:720px) and (prefers-reduced-motion:no-preference){html[data-home]:not([data-input=keyboard]){scroll-snap-type:y proximity;scroll-behavior:smooth}html[data-home]:not([data-input=keyboard]) .home-stage{scroll-snap-align:start;scroll-snap-stop:normal}}
+@media(max-width:700px){.home-stage{padding-block:42px}.home-heading{flex-direction:column;align-items:start;gap:20px;margin-bottom:28px}.home-heading h2{font-size:42px}}
 </style>

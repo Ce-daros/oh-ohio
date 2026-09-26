@@ -64,7 +64,7 @@ Browser testing used the in-app browser directly. A Vue type check alone was not
 
 ### Voice alignment
 
-The user selected the bright, friendly companion direction. Home now identifies Ohio-chan as “Civic idol, local girl, your Ohio guide.” Eight feature introductions, asides and farewells follow the recorded voice guide. Source-backed explanatory paragraphs remain, without invented first-person visits. A separate editorial review found no concrete factual drift in this voice pass.
+The earlier eight-feature voice pass is superseded by the 2026-09-26 alignment in [the current voice guide](voice-guide.md). Ohio-chan introduces the subject, expresses specific tastes or observations, and occasionally offers a gentle flirt. The revision reaches all 22 feature narrations, commentary in 84 notes and four phrase pages, home, four-world recommendations, and reading journeys. Identity remains “Civic idol, local girl, your Ohio guide.” Source and verification records were preserved; this was not a new source-verification pass.
 
 ### Release
 

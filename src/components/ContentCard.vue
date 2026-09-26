@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { getMedia, places, worlds, type ContentMeta } from "../content";
-const props = withDefaults(defineProps<{ content: Readonly<ContentMeta>; variant?: 'story' | 'compact'; reason?: string }>(), { variant: 'story' });
+const props = withDefaults(defineProps<{ content: Readonly<ContentMeta>; variant?: 'story' | 'compact'; reason?: string; imageSizes?: string }>(), { variant: 'story', imageSizes: '(max-width: 600px) 90vw, (max-width: 1000px) 44vw, 29vw' });
 const world = computed(() => worlds.find(item => item.id === props.content.primaryWorld)!);
 const cover = computed(() => props.content.kind === 'feature' ? getMedia(props.content.coverMediaId) : undefined);
 const location = computed(() => props.content.kind === 'feature' ? props.content.location : props.content.places.filter(id => id !== 'ohio').map(id => places.find(place => place.id === id)!.title).join(' · '));
@@ -9,7 +9,7 @@ const labels = { feature: 'Field note', note: 'Guide note', phrase: 'Local words
 </script>
 <template>
   <RouterLink :to="content.canonicalPath" :class="['content-card', `card-${variant}`]" :style="{ '--card-color': world.color }">
-    <div v-if="cover && variant === 'story'" class="content-card-art"><img :src="cover.src" :alt="content.kind === 'feature' ? content.coverAlt : ''" width="1536" height="1024" loading="lazy" :srcset="cover.variants?.map(item => `${item.src} ${item.width}w`).join(', ')" sizes="(max-width: 600px) 90vw, (max-width: 1000px) 44vw, 29vw" /></div>
+    <div v-if="cover && variant === 'story'" class="content-card-art"><img :src="cover.src" :alt="content.kind === 'feature' ? content.coverAlt : ''" width="1536" height="1024" loading="lazy" :srcset="cover.variants?.map(item => `${item.src} ${item.width}w`).join(', ')" :sizes="imageSizes" /></div>
     <div class="content-card-copy">
       <p class="content-card-meta"><span>{{ world.title }} / {{ labels[content.kind] }}</span><span v-if="content.kind === 'feature'">{{ content.readTime }}</span></p>
       <h3>{{ content.title }}</h3>

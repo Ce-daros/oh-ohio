@@ -4,7 +4,7 @@
     "slug": "buckeye-sweets",
     "kind": "feature",
     "title": "Save room for a buckeye.",
-    "summary": "A little peanut butter, a little chocolate, and one bare patch that gives the sweet its Ohio name.",
+    "summary": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡",
     "canonicalPath": "/journal/buckeye-sweets",
     "primaryWorld": "culture",
     "worlds": [
@@ -52,15 +52,15 @@
     "recommendations": [
       {
         "id": "feature:cincinnati-chili",
-        "reason": "Another Ohio food story"
+        "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
       },
       {
         "id": "feature:west-side-market-table",
-        "reason": "Another Ohio food story"
+        "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
       },
       {
         "id": "feature:cincinnati-market-to-music",
-        "reason": "Another Ohio day out"
+        "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
       }
     ],
     "order": 81
@@ -69,7 +69,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "I saved the sweet part for you. See the little pale circle at the top? That’s what makes this chocolate-dipped peanut-butter candy look like a buckeye nut. It’s a familiar Ohio treat with a tiny detail worth noticing before the first bite. Let’s start with the tree, then head to the kitchen. ♡"
+      "text": "Ooh, the sweet part. I was hoping we’d get here. See that pale little circle? Leaving some peanut butter uncovered makes this chocolate-dipped candy look like a buckeye nut. We’ll meet the tree first, then the edible version. And yes, I’m already thinking about which one I’d choose. ♡"
     },
     {
       "type": "heading",
@@ -97,12 +97,12 @@
     },
     {
       "type": "paragraph",
-      "text": "The recognizable step is the dip: lower the peanut-butter center into chocolate and keep a little patch bare. Recipes can vary in proportions, size, and texture, but that last detail keeps the name visible. If you’re watching someone make a batch, this is the moment to look. Ooh, there it is—one little sweet becoming a buckeye."
+      "text": "Here comes my favorite part to watch: the dip. Lower the peanut-butter center into chocolate, leaving a little patch bare. Recipes vary in size, proportions, and texture, but that exposed circle keeps the resemblance to the nut. Ooh, there it is! One small dip, and the name suddenly makes sense."
     },
     {
       "type": "characterAside",
       "title": "Leave that little circle",
-      "text": "Cover the whole center in chocolate and you hide the detail that gives the candy its name. Funny how the smallest part can tell the whole story."
+      "text": "The uncovered peanut-butter patch makes the candy resemble a buckeye nut. I rather like the slightly uneven ones; you can see the rolling and dipping in their shape. I’d save a neat one for you, though. ♡"
     },
     {
       "type": "heading",
@@ -116,7 +116,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If you’re making a batch, enjoy the part where the shapes come together. Rolling and dipping gives each one a slightly different outline. Keep a little space on the plate for the uneven ones, too. The small pale circle at the top does the important work: one glance, and the buckeye shape is unmistakable."
+      "text": "If you make a batch, let the slightly uneven ones onto the plate too. I’m quite fond of a sweet that looks as though someone made it by hand. Rolling and dipping gives each a different outline; that pale little circle does the recognizing work. I’d be very happy with the lopsided one."
     },
     {
       "type": "practical",
@@ -134,7 +134,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "One for you, one to share. We can tell the tree story between bites. ♡"
+      "text": "One for you, one to share. Oh, you remembered the little circle? Yay! Now you’ve got a story to go with the chocolate. ♡"
     }
   ]
 }

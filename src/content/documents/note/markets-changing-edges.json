@@ -4,7 +4,7 @@
     "slug": "markets-changing-edges",
     "kind": "note",
     "title": "Markets and changing edges",
-    "summary": "Compare the early Northern Liberties street grid with the current transit loop without treating them as one map.",
+    "summary": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both.",
     "canonicalPath": "/notes/markets-changing-edges",
     "primaryWorld": "explore",
     "worlds": [
@@ -55,7 +55,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Findlay Market’s history dates the Northern Liberties plat to 1833 and names Race, Elm, Green, and Findlay among its streets, with the market area along Elder. The present city streetcar map is a different document: it shows a 3.6-mile loop and a Findlay Market – Race stop. Compare the two by locating the market block, then keep their dates and purposes visible. The current tour guide identifies 1801 Race Street and the market’s orientation. A street name that persists does not mean its traffic, buildings, or neighbors stayed the same; use historical maps for the footprint and current transit information for today’s route.",
+      "text": "Findlay Market’s history dates the Northern Liberties plat to 1833 and names Race, Elm, Green, and Findlay among its streets, with the market area along Elder. The present city streetcar map is a different document: it shows a 3.6-mile loop and a Findlay Market – Race stop. Compare the two by locating the market block, then keep their dates and purposes visible. The current tour guide identifies 1801 Race Street and the market’s orientation. A street name that persists does not mean its traffic, buildings, or neighbors stayed the same; use historical maps for the footprint and current transit information for today’s route. I like finding one familiar street in both views, then noticing what the maps describe differently. It gives our next walk another little question.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-streetcar",

@@ -4,7 +4,7 @@
     "slug": "sandusky-play-day",
     "kind": "feature",
     "title": "One more ride. Then the lake.",
-    "summary": "Cedar Point gets a whole day. Sandusky’s waterfront gets the quieter moments around it.",
+    "summary": "You pick the ride; I’m saving a little time for the bay. A Sandusky overnight gives both kinds of fun room to breathe. ♡",
     "canonicalPath": "/journal/sandusky-play-day",
     "primaryWorld": "explore",
     "worlds": [
@@ -59,11 +59,11 @@
     "recommendations": [
       {
         "id": "feature:toledo-glass",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you."
       },
       {
         "id": "feature:buckeye-sweets",
-        "reason": "Another Ohio food story"
+        "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
       }
     ],
     "order": 75
@@ -72,7 +72,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "You can have the big drop. I’m also saving us a look at the water afterward. Let’s make this a Sandusky overnight: arrive with time for downtown and the bay, spend the next day at Cedar Point, and keep a little space around the rides. It’s a much nicer pace than trying to fit a whole town between two queues."
+      "text": "Ooh, you’re choosing the big drop? I’ll leave that decision to you. I’m saving a little time for Sandusky Bay afterward. Let’s arrive with room for downtown and dinner, give Cedar Point the next day, and keep a few pauses between the rides. Excitement is lovely. So is sitting beside the water with you. ♡"
     },
     {
       "type": "heading",
@@ -100,12 +100,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Coaster fans have plenty to choose from, but the park also has gentler rides, food, shows, and a beach setting. If your group likes different things, choose a clear meeting place and time. Nobody has to pretend to love the same drop to enjoy the day together."
+      "text": "Big coaster day for one person, gentler rides for another? That works. Cedar Point also has food, shows, and a beach setting; choose a clear meeting place and time if you split up. I like a day where everyone can be honest about what sounds fun. No brave face required for my sake."
     },
     {
       "type": "characterAside",
-      "title": "Different ideas of fun?",
-      "text": "Agree on a few meeting spots and meals if your group splits up. You can love the lake and skip the tallest coaster. We’ll still have plenty to talk about afterward."
+      "title": "A little lake time, too",
+      "text": "Sandusky gives a park visit a waterfront before and after the rides. I’d keep time for the bay: I like the change from all that movement to a long, quiet view. You can tell me about your favorite ride while we sit. ♡"
     },
     {
       "type": "heading",
@@ -115,7 +115,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Okay, snack break. Better still, find time for a meal and somewhere to sit. When the busiest paths feel like a lot, take a look toward the lake and let your eyes rest on something that isn’t moving quite so fast. Afterward, you can try another ride, catch a scheduled show, or go back to the one you liked best."
+      "text": "Okay, snack break. Actually, let’s make room for a meal and a seat too. When the busy paths feel like a lot, I’d look toward the lake and let my eyes settle on something slower. Then you can choose another ride, a scheduled show, or a return to your favorite. I’m curious which one earns a second go."
     },
     {
       "type": "paragraph",
@@ -155,7 +155,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "All right, one last look at the bay. You can tell me your favorite ride on the way back. ♡"
+      "text": "One last look at the bay? Ahh, yes. Now tell me which ride you’d do again. I’m listening. ♡"
     }
   ]
 }

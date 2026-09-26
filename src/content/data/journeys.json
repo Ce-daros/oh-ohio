@@ -3,7 +3,7 @@
     "id": "explore-three-ways-to-meet-the-lake",
     "world": "explore",
     "title": "Three ways to meet the lake",
-    "intro": "Ohio’s North Coast offers three ways to look closely. Toledo’s glass catches and bends the light; Magee Marsh rewards a patient eye for the smallest movement in a tree; offshore, the islands open onto a wide horizon. Each place has its own pace, and Lake Erie will be here whenever you return. ♡",
+    "intro": "Ohio’s North Coast offers three ways to look closely. Toledo’s glass catches and bends the light; Magee Marsh rewards a patient eye for the smallest movement in a tree; offshore, the islands open onto a wide horizon. Each place has its own pace, and Lake Erie will be here whenever you return. ♡ I’d linger over the changing light first. You can choose which little detail we follow next. ♡",
     "stops": [
       {
         "contentId": "note:toledo-glass-pavilion",
@@ -23,7 +23,7 @@
     "id": "explore-the-land-holds-more-than-one-story",
     "world": "explore",
     "title": "The land holds more than one story",
-    "intro": "Southern Ohio holds places shaped by different communities and histories. Glen Helen’s protected woodland rewards a slow walk; Serpent Mound is an Indigenous cultural place that calls for respect and careful attention; Hocking Hills reveals sandstone and water on a dramatic scale. Give each place its own visit, and let what you learn at one sharpen your attention at the next.",
+    "intro": "Southern Ohio holds places shaped by different communities and histories. Glen Helen’s protected woodland rewards a slow walk; Serpent Mound is an Indigenous cultural place that calls for respect and careful attention; Hocking Hills reveals sandstone and water on a dramatic scale. Give each place its own visit, and let what you learn at one sharpen your attention at the next. I prefer giving each place its own time, with the people and histories behind it kept in view.",
     "stops": [
       {
         "contentId": "note:glen-helen",
@@ -43,7 +43,7 @@
     "id": "live-a-little-closer-to-public-life",
     "world": "live",
     "title": "A little closer to public life",
-    "intro": "Three places hold different parts of Ohio’s public story: the Statehouse, where laws are discussed; the public record, where a bill’s progress can be followed; and a museum preserving lives and voices often left out of a quick civics lesson. These are separate visits and reading sessions across the state. Bring your questions; each stop may raise another worth following.",
+    "intro": "Three places hold different parts of Ohio’s public story: the Statehouse, where laws are discussed; the public record, where a bill’s progress can be followed; and a museum preserving lives and voices often left out of a quick civics lesson. These are separate visits and reading sessions across the state. Bring your questions; each stop may raise another worth following. I’d bring one question close to home and see which record helps us understand it.",
     "stops": [
       {
         "contentId": "note:statehouse-open-door",
@@ -63,7 +63,7 @@
     "id": "live-follow-your-curiosity-outside",
     "world": "live",
     "title": "Follow your curiosity outside",
-    "intro": "Ohio’s outdoor life grows through observation and care. Nature centers help visitors carry questions onto the trail; community gardens show what a season of tending can accomplish; local gatherings bring neighbors together. These stops span different cities and kinds of commitment, so choose one that fits the day and save the others for another chapter.",
+    "intro": "Ohio’s outdoor life grows through observation and care. Nature centers help visitors carry questions onto the trail; community gardens show what a season of tending can accomplish; local gatherings bring neighbors together. These stops span different cities and kinds of commitment, so choose one that fits the day and save the others for another chapter. I’m fond of a place that gives us a reason to return and notice a change. Shall we start with one small thing? ♡",
     "stops": [
       {
         "contentId": "note:rocky-river-nature-center",
@@ -83,7 +83,7 @@
     "id": "make-follow-the-freight",
     "world": "make",
     "title": "Follow the freight",
-    "intro": "Ohio’s freight story begins at working places like Toledo’s waterfront, then stretches across trade routes and the people and systems that keep deliveries moving. Follow a shipment through the chain and notice how many hands it passes through. The next box or piece of steel may carry a much longer story than it first appears to. Neat, right?",
+    "intro": "Ohio’s freight story begins at working places like Toledo’s waterfront, then stretches across trade routes and the people and systems that keep deliveries moving. Follow a shipment through the chain and notice how many hands it passes through. The next box or piece of steel may carry a much longer story than it first appears to. Neat, right? I like the transfer points most: that moment somebody’s careful timing makes the next leg possible.",
     "stops": [
       {
         "contentId": "note:port-of-toledo",
@@ -103,7 +103,7 @@
     "id": "make-what-a-material-becomes",
     "world": "make",
     "title": "What a material becomes",
-    "intro": "A tire, a ceramic tile, and a brass whistle show three different kinds of making. Their makers solve different problems, but each object begins with material that must be shaped, tested, and finished. Follow the work from Akron to Cincinnati to Columbus, and look beyond the finished surface to the decisions that made each object useful, beautiful, or unmistakable to the ear.",
+    "intro": "A tire, a ceramic tile, and a brass whistle show three different kinds of making. Their makers solve different problems, but each object begins with material that must be shaped, tested, and finished. Follow the work from Akron to Cincinnati to Columbus, and look beyond the finished surface to the decisions that made each object useful, beautiful, or unmistakable to the ear. The whistle would catch my ear first; the glaze would probably keep my eyes longer. Tell me which one draws you in. ♡",
     "stops": [
       {
         "contentId": "note:akron-rubber-work",
@@ -123,7 +123,7 @@
     "id": "culture-rooms-full-of-people",
     "world": "culture",
     "title": "Rooms full of people",
-    "intro": "A market, a sign museum, and a concert hall each show how people meet a place. Shoppers and vendors animate the market; signs recall the storefronts that once called to passersby; performers and audiences give a concert hall its sound. Ask what draws people through a door—and what brings them back.",
+    "intro": "A market, a sign museum, and a concert hall each show how people meet a place. Shoppers and vendors animate the market; signs recall the storefronts that once called to passersby; performers and audiences give a concert hall its sound. Ask what draws people through a door—and what brings them back. I’d start at the market and leave room to be distracted. A little extra wandering with you sounds lovely. ♡",
     "stops": [
       {
         "contentId": "note:west-side-market",
@@ -143,7 +143,7 @@
     "id": "culture-lines-images-and-sound",
     "world": "culture",
     "title": "Lines, images, and sound",
-    "intro": "Art helps a place remember itself. Drawings once appeared on newspaper pages; museums care for works people want to keep; concert halls bring performances to a crowd. Follow this creative trail at your own pace and linger with the cartoon or song that speaks to you. Which work will stay with you afterward?",
+    "intro": "Art helps a place remember itself. Drawings once appeared on newspaper pages; museums care for works people want to keep; concert halls bring performances to a crowd. Follow this creative trail at your own pace and linger with the cartoon or song that speaks to you. Which work will stay with you afterward? I like a work that makes me turn back for a second look. Pick yours; I’m curious what we’ll notice together.",
     "stops": [
       {
         "contentId": "note:billy-ireland-cartoon-museum",

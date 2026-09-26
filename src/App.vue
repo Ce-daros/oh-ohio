@@ -44,12 +44,13 @@ onUnmounted(() => { document.removeEventListener("keydown", keyboard); document.
     </Transition>
   </header>
   <RouterView v-slot="{Component, route: currentRoute}"><Suspense :key="currentRoute.path"><component :is="Component" :key="currentRoute.path" /><template #fallback><main id="main-content" class="page-loading" aria-busy="true">Opening your story…</main></template></Suspense></RouterView>
-  <footer class="site-footer">
-    <div class="footer-top"><div><p class="eyebrow light">UNTIL NEXT TIME ♡</p><h2>See you around,<br /><em>Ohio.</em> <span>♡</span></h2></div><RouterLink class="round-link" to="/">Back home <span>↗</span></RouterLink></div>
+  <footer class="site-footer" :class="{ 'footer-home': route.path === '/' }">
+    <div v-if="route.path !== '/'" class="footer-top"><div><p class="eyebrow light">UNTIL NEXT TIME ♡</p><h2>See you around,<br /><em>Ohio.</em> <span>♡</span></h2></div><RouterLink class="round-link" to="/">Back home <span>↗</span></RouterLink></div>
     <div class="footer-bottom"><RouterLink class="brand" to="/">Oh,<span>Ohio</span><span class="brand-dot">.</span></RouterLink><p>An unofficial love letter to Ohio.<br />Not affiliated with the State of Ohio.</p><span>YOUR GUIDE, OHIO-CHAN ♡</span></div>
   </footer>
 </template>
 <style scoped>
+.footer-home{padding-top:0}.footer-home .footer-bottom{padding-top:28px}
 .site-header{gap:28px;height:var(--header-height)}.desktop-nav{gap:24px}.header-search{display:flex;align-items:center;gap:8px;font-size:14px;padding:12px 0}.menu-toggle{gap:20px;padding:12px 18px;min-height:44px}.page-loading{min-height:65vh;padding:80px var(--page-gutter);font:italic 30px var(--font-editorial)}
 @media(max-width:1100px){.site-header{gap:20px}.desktop-nav{gap:18px}.header-search>span{display:none}}
 @media(max-width:950px){.desktop-nav{display:none}.header-search{margin-left:auto}.site-header{gap:24px}}

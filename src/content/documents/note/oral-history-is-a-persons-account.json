@@ -4,7 +4,7 @@
     "slug": "oral-history-is-a-persons-account",
     "kind": "note",
     "title": "An oral history is one person’s account",
-    "summary": "A named interview preserves experience without standing for a whole community.",
+    "summary": "An interview keeps one person’s experience in their own voice. Let’s give the narrator and their story a little time.",
     "canonicalPath": "/notes/oral-history-is-a-persons-account",
     "primaryWorld": "culture",
     "worlds": [
@@ -50,7 +50,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Ohio Memory describes oral history as a way to preserve individual experience and to document communities as they change. The Ohio History Connection’s Gay Ohio History Initiative offers a concrete example: its project pages identify narrators and make selected recordings or transcripts available under stated access conditions. Read a testimony as the account of the person named. Its setting matters: who asked the questions, when the interview happened, how the transcript was produced, and what the narrator agreed could be shared. One person’s words can illuminate a life, organization, or moment; they cannot establish what every person in a community believes. When quoting or linking an interview, retain the narrator’s name, collection title, date where given, and any use restrictions shown by the repository.",
+      "text": "Ohio Memory describes oral history as a way to preserve individual experience and to document communities as they change. The Ohio History Connection’s Gay Ohio History Initiative offers a concrete example: its project pages identify narrators and make selected recordings or transcripts available under stated access conditions. Read a testimony as the account of the person named. Its setting matters: who asked the questions, when the interview happened, how the transcript was produced, and what the narrator agreed could be shared. One person’s words can illuminate a life, organization, or moment; they cannot establish what every person in a community believes. When quoting or linking an interview, retain the narrator’s name, collection title, date where given, and any use restrictions shown by the repository. I’m happy to stay with one person’s words and the questions around them. Careful listening can be its own kind of welcome.",
       "sourceIds": [
         "source:memory-ohio-memory-oral",
         "source:memory-gohi"

@@ -4,7 +4,7 @@
     "slug": "toledo-glass",
     "kind": "feature",
     "title": "Ooh, look at that glass.",
-    "summary": "In Toledo, light, heat, and a maker’s timing turn something familiar into something worth stopping for.",
+    "summary": "Ooh, move a little—the light changed! Toledo’s glass story is one I’d happily linger over with you.",
     "canonicalPath": "/journal/toledo-glass",
     "primaryWorld": "make",
     "worlds": [
@@ -58,15 +58,15 @@
     "recommendations": [
       {
         "id": "feature:rookwood-clay",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "I’m drawn to the glaze first. Then I want to know who made that curve. Come look a little closer at Cincinnati’s Rookwood Pottery."
       },
       {
         "id": "feature:akron-rubber",
-        "reason": "A closer look at an Ohio maker"
+        "reason": "Ooh, a whole city behind an ordinary tire. Come follow Akron’s rubber story with me, from the workbench to the neighborhood."
       },
       {
         "id": "feature:dayton-made-to-fly",
-        "reason": "Another Ohio day out"
+        "reason": "The bicycle shop before the airplane—that’s my favorite place to begin. Come follow Dayton’s patient experiments into the sky."
       }
     ],
     "order": 78
@@ -75,7 +75,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Move a little to the side. See how the light changes? Glass is lovely company for a curious eye, and Toledo gives us plenty to look at. We’ll start with the city’s glass story, spend time with the objects at the museum, and see how today’s studio programs can bring the making a little closer. No need to hurry past the windows."
+      "text": "Come a little to this side. See how the light changes? Ooh, that’s what I like about glass: another angle, another tiny surprise. Toledo gives us the city’s making history, a museum collection, and studio programs to be curious about. I’d take a slow lap before choosing a favorite. You can try to change my mind. ♡"
     },
     {
       "type": "heading",
@@ -89,7 +89,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The museum’s Glass Pavilion gives the collection a building with glass at the center of its design. Look at the works, then look at the room around them. Reflections and transparency make the edges interesting. We can take a slow lap and let different surfaces catch the light instead of choosing a favorite immediately."
+      "text": "The Glass Pavilion puts glass into the building’s design as well as the collection. I’d look at a work, then at the room around it: reflections, transparency, an edge that almost disappears. Ah, another slow lap is tempting. You haven’t picked a favorite yet either, have you?"
     },
     {
       "type": "heading",
@@ -103,12 +103,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Start with an object that holds your attention. Notice its thickness, color, bubbles, or the way a rim bends the light. The museum label can help with the technique, but your eyes can begin the conversation. Two pieces made from glass may feel completely different. That’s part of the pleasure of staying awhile."
+      "text": "Choose the piece that keeps pulling your eyes back. Its color? A bubble? The way the rim bends the light? I’d start there, then let the museum label help with the technique. Two glass objects can feel so different. Show me what you noticed—I might have walked straight past it."
     },
     {
       "type": "characterAside",
-      "title": "A different view",
-      "text": "Try looking from another angle without touching the work. A reflection can move, an edge can catch the light, and suddenly you’re noticing something else."
+      "title": "The light changes as you move",
+      "text": "A glass work can look different as reflections and edges shift with your viewing angle. I like that a second look can feel like finding another piece. Try the other side without touching the work—then tell me whether I’ve talked you into lingering. ♡"
     },
     {
       "type": "heading",
@@ -140,7 +140,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Now even the glass on an ordinary windowsill might get a second look. ♡"
+      "text": "Have you picked a favorite color yet? I’m still thinking about the light. Even a glass on the windowsill might distract me now. ♡"
     }
   ]
 }

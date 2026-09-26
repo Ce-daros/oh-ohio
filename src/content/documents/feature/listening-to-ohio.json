@@ -4,7 +4,7 @@
     "slug": "listening-to-ohio",
     "kind": "feature",
     "title": "Listening to Ohio",
-    "summary": "A canal song, a Columbus conversation, a marsh soundscape, and a Cincinnati orchestra reveal different ways of hearing the state.",
+    "summary": "Shh, there’s a frog in this part. A canal song, a Columbus conversation, a marsh: come get to know Ohio by ear with me.",
     "canonicalPath": "/journal/listening-to-ohio",
     "primaryWorld": "culture",
     "worlds": [
@@ -77,15 +77,15 @@
     "recommendations": [
       {
         "id": "note:music",
-        "reason": "Hear how Ohio’s music story keeps moving"
+        "reason": "Turn it up a little. Cleveland’s rock legacy is one way into Ohio’s music story, but local stages, recordings, and the people in the crowd keep it moving."
       },
       {
         "id": "note:regional-voices",
-        "reason": "Explore Ohio speech without reducing it to one accent"
+        "reason": "Drive across Ohio and listen closely: the vowels have their own geography. A state border doesn’t give everyone the same accent. Wouldn’t a little variety make the conversation more interesting?"
       },
       {
         "id": "note:cincinnati-music-hall",
-        "reason": "Meet a Cincinnati performance space"
+        "reason": "One grand building, so many kinds of sound. I’ll take you beyond the facade to see how Cincinnati keeps Music Hall alive."
       }
     ],
     "updatedAt": "2026-09-25",
@@ -100,7 +100,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Listen with me for a minute. A canal song, a conversation in Columbus, frogs at Beaver Marsh—there’s more than one way to get to know Ohio by ear.",
+      "text": "Listen with me for a minute? There’s a canal song I’d like to start with, a conversation in Columbus, and—ooh, wait until we get to the frogs at Beaver Marsh. I like how a place changes when we stop looking for a moment and pay attention to what we can hear. Let’s give each sound a little room.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-buckeye",
@@ -109,7 +109,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In the 1930s, folklorists John A. Lomax and Alan and Elizabeth Lomax recorded Captain Pearl R. Nye in Akron. Nye had been born and raised on a canal boat. The Library of Congress collection brings together 22 audio discs with 75 songs, alongside manuscripts, correspondence, and photographs. His voice offers one person’s account of life along the Ohio and Erie Canal, with the written records and photographs giving us more to explore.",
+      "text": "I’d begin in Akron in the 1930s, with Captain Pearl R. Nye. He was born and raised on a canal boat; John A. Lomax and Alan and Elizabeth Lomax recorded his singing. The Library of Congress collection holds 22 audio discs with 75 songs, plus manuscripts, letters, and photographs. One person’s voice, with so much kept around it. Let’s hear him as a person telling part of the Ohio and Erie Canal’s story.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-nye-finding-aid"
@@ -123,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Open one of the Library’s linked recordings and listen for what the catalog lets you know: the performer, disc and side, song title, and collection around it. Then listen again for what a metadata record cannot settle on its own. Who first taught Nye a song? How did a version change as it moved from person to person? A recording preserves one performance at one moment; it does not freeze an entire tradition. The collection’s written song texts and photographs can place a performance beside a person and a place.",
+      "text": "Pick one linked recording and keep its catalog entry beside it. Who’s singing, what’s the song, which disc and side? Then listen again. I find myself wondering who taught Nye the song and how it changed along the way. The recording gives us one performance; the song texts and photographs offer more clues without settling every question.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-nye-finding-aid"
@@ -131,7 +131,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Archives also have a history of selection. The Lomaxes’ equipment, travel, and collecting decisions shaped what was captured and how later listeners encounter it. The Library identifies these as performances by Nye recorded in Akron, not as a transparent window onto everyone who sang on the canal. We can value the recording and still ask what did not make it onto the disc.",
+      "text": "I’d keep the people making the recording in mind too. The Lomaxes’ equipment, travels, and collecting choices shaped what reached the disc. The Library identifies these as Nye’s performances recorded in Akron. We can enjoy hearing him and still wonder about other singers whose voices weren’t captured here.",
       "sourceIds": [
         "source:snd-nye-finding-aid"
       ]
@@ -146,21 +146,21 @@
     },
     {
       "type": "paragraph",
-      "text": "The National Park Service has posted a Beaver Marsh scene from Cuyahoga Valley National Park with no spoken narration. Its description notes insects, frogs, birds, and occasional muffled visitor voices. It is a different kind of field sound than the canal recording: animals and distant visitors share the frame.",
+      "text": "Now, a quieter invitation. The National Park Service’s Beaver Marsh scene has no spoken narration. Its description mentions insects, frogs, birds, and occasional muffled visitor voices. Oh, I like being left a little room to listen for myself. Animals and people share this soundscape, even when the people are somewhere in the background.",
       "sourceIds": [
         "source:snd-nps-marsh"
       ]
     },
     {
       "role": "listen",
-      "text": "Did you catch the visitors’ voices behind the frogs? Keep listening to the background, too. A sound can tell you a little about the place around it.",
+      "text": "The Beaver Marsh recording includes muffled visitors’ voices among the insects, frogs, and birds. I like listening to the background after the louder sounds feel familiar. Oh, did you catch that part too?",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-nps-marsh",
         "source:snd-buckeye"
       ],
       "type": "characterAside",
-      "title": "Listen for the setting"
+      "title": "Listen behind the frogs"
     },
     {
       "type": "heading",
@@ -170,14 +170,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Ohio speech also resists a single signature sound. The Buckeye Speech Corpus, maintained by researchers at The Ohio State University, holds conversations recorded with 40 Columbus speakers and an interviewer. Its project page says the speech is transcribed and phonetically labeled, with timing aligned to the audio. The time-aligned transcript places each pronunciation in conversation, where the surrounding words and speakers matter.",
+      "text": "What about ordinary conversation? Ohio State researchers’ Buckeye Speech Corpus holds recordings with 40 Columbus speakers and an interviewer. The words are transcribed, phonetically labeled, and aligned with the audio. I’d follow a short stretch with the transcript open. It helps us hear a pronunciation inside the conversation where it happened.",
       "sourceIds": [
         "source:snd-buckeye"
       ]
     },
     {
       "type": "paragraph",
-      "text": "Columbus is one city, and 40 speakers form a defined sample, not a map of the whole state. The collection cannot tell us what every Ohioan sounds like. It offers a better question: Which speaker, in which setting, using which pronunciation, compared with whom? Listen for differences among voices rather than trying to imitate a person.",
+      "text": "Forty people in Columbus can’t give us every Ohio voice. That’s part of why I like comparing the speakers instead of hunting for one official-sounding accent. Who’s talking, to whom, and about what? Listen for the differences. Nobody needs to put on somebody else’s voice to be curious about it.",
       "sourceIds": [
         "source:snd-buckeye"
       ]
@@ -190,14 +190,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Then there is the sound people make together in a room. Cincinnati Music Hall opened in 1878 as both a music center and a place for industrial exhibitions. Today Cincinnati Arts lists the Cincinnati Symphony Orchestra, Cincinnati Pops, Cincinnati Ballet, Cincinnati Opera, and May Festival among the organizations based there. A concert is the part an audience hears, but rehearsals, scheduling, contracts, instrument preparation, stage work, and musicians’ ability to earn a living sit behind that sound.",
+      "text": "And now a room full of sound. Cincinnati Music Hall opened in 1878 for music and industrial exhibitions. Cincinnati Arts lists the Symphony Orchestra, Pops, Ballet, Opera, and May Festival among the organizations based there. I’d be looking forward to the performance, of course. But the rehearsals, instruments, stage work, schedules, and musicians’ livelihoods belong to the evening too.",
       "sourceIds": [
         "source:snd-music-hall"
       ]
     },
     {
       "type": "paragraph",
-      "text": "In Cincinnati, that labor has a long local history. AFM Local 1 says the Cincinnati Musicians’ Protective Union was incorporated in 1881 and became a local of the American Federation of Musicians in 1897. Its constitution describes personal contracts and a master agreement for Cincinnati Symphony musicians, with provisions for rates, conditions, and touring. The constitution sets out the union’s own rules for engagements and working conditions. The written rules make visible the work behind the concert: specific services, rehearsals, rates, working conditions, and touring have to be negotiated and contracted. Put those sources beside Music Hall’s history and the building becomes a workplace as well as an auditorium.",
+      "text": "That work has a long local history. AFM Local 1 says Cincinnati’s Musicians’ Protective Union was incorporated in 1881 and became an American Federation of Musicians local in 1897. Its constitution describes personal contracts and a master agreement for Cincinnati Symphony musicians, including rates, conditions, and touring. These are the union’s own rules. Read them beside Music Hall’s history and you can see more of the working day behind the sound we hear from a seat.",
       "sourceIds": [
         "source:snd-local1-about",
         "source:snd-local1-constitution",
@@ -206,7 +206,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Try a listening sequence that moves between these scales. Follow one Pearl Nye recording through its catalog entry and related documents. Compare one voice in the Buckeye Corpus with another, paying attention to words and context rather than trying to imitate a person. Finally, check a current Cincinnati performance listing and notice the venue, ensemble, and people credited. Each link gives a different kind of evidence: archived performance, recorded conversation, and live work scheduled for an audience.",
+      "text": "Here’s the listening order I’d choose: a Pearl Nye recording with its related records, two voices from the Buckeye Corpus, then a current Cincinnati performance listing. Stay with whatever catches your ear. For the concert, notice the ensemble and people credited too. An archived performance, a conversation, a scheduled evening—each brings us close in a different way.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-buckeye",
@@ -215,7 +215,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A canal song, a Columbus conversation, a Beaver Marsh soundscape, and a symphony concert each have their own setting. Listen to them side by side and different details come forward: a performer’s memory, a turn of phrase, an insect among the frogs, the work that brings musicians together. Ohio has room for all of these sounds.",
+      "text": "A remembered song, a turn of phrase, an insect among the frogs, musicians finding a shared sound… ah, I don’t think I could choose just one way for Ohio to sound. Give each its own moment. I’d like to hear which detail you carry away.",
       "sourceIds": [
         "source:snd-nye-overview",
         "source:snd-buckeye",
@@ -226,7 +226,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "A song, a voice, a frog in the marsh. Pick one to listen to a little longer. I’ll be quiet for this part. ♡"
+      "text": "Which sound would you stay with a little longer? Pick yours. I’ll be quiet beside you for this part. ♡"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "slug": "whistle-cross-section",
     "kind": "note",
     "title": "A whistle in cross-section",
-    "summary": "A small chamber and a moving pea turn a breath into a trill.",
+    "summary": "A moving pea helps give a whistle its trill. Ooh, come look at the tiny chamber behind that familiar sound.",
     "canonicalPath": "/notes/whistle-cross-section",
     "primaryWorld": "make",
     "worlds": [
@@ -65,7 +65,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If you have a metal whistle nearby, look for the mouthpiece, chamber, sound opening, seam, and ring. A diagram can help you follow the path, but the company’s account is still one maker’s description of its product. It says the finished whistle is hand-tested. No need to take one apart: follow the published cutaway, then listen to the next whistle you hear and picture the small sphere moving inside.",
+      "text": "If you have a metal whistle nearby, look for the mouthpiece, chamber, sound opening, seam, and ring. A diagram can help you follow the path, but the company’s account is still one maker’s description of its product. It says the finished whistle is hand-tested. No need to take one apart: follow the published cutaway, then listen to the next whistle you hear and picture the small sphere moving inside. I like that the space around the pea matters as much as the little sphere. Ooh, that familiar trill has become much more interesting.",
       "sourceIds": [
         "source:mat-whistle-made",
         "source:mat-whistle-work"

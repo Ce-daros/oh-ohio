@@ -4,7 +4,7 @@
     "slug": "canal-corridor-in-maps",
     "kind": "note",
     "title": "A canal corridor on paper",
-    "summary": "Canal maps show an engineered route, not a natural river journey.",
+    "summary": "The canal links rivers through engineered channels and summit works. Come follow the little turns in the map with me.",
     "canonicalPath": "/notes/canal-corridor-in-maps",
     "primaryWorld": "explore",
     "worlds": [
@@ -51,7 +51,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Ohio’s canal story is easiest to misread when a line on a map looks like a river. Ohio History Connection describes the Ohio & Erie Canal as a state project authorized in 1825 and completed as a continuous route from Cleveland to Portsmouth by 1832. Ohio Memory’s Canal Plat Map Collection preserves original survey maps made for the Canal Commission. Read the plats as plans for an artificial channel: they show the route, engineering works, and surrounding land, while rivers and valleys are geographic settings the canal crosses or follows. Towpaths and preserved canal fragments survive in places, but a historical map does not promise that a continuous navigable canal or public trail exists today. Check the managing park or agency before choosing a present-day segment.",
+      "text": "Ohio’s canal story is easiest to misread when a line on a map looks like a river. Ohio History Connection describes the Ohio & Erie Canal as a state project authorized in 1825 and completed as a continuous route from Cleveland to Portsmouth by 1832. Ohio Memory’s Canal Plat Map Collection preserves original survey maps made for the Canal Commission. Read the plats as plans for an artificial channel: they show the route, engineering works, and surrounding land, while rivers and valleys are geographic settings the canal crosses or follows. Towpaths and preserved canal fragments survive in places, but a historical map does not promise that a continuous navigable canal or public trail exists today. Check the managing park or agency before choosing a present-day segment. I like following the places where the engineered line changes the route water would take by itself. That’s where I’d start looking closer.",
       "sourceIds": [
         "source:water-ohio-canals",
         "source:water-canal-plats"

@@ -4,7 +4,7 @@
     "slug": "reading-a-sanborn-map",
     "kind": "note",
     "title": "Reading a Sanborn map",
-    "summary": "Fire-insurance maps document buildings for risk assessment; use the legend and exact sheet before describing a block.",
+    "summary": "A fire-insurance map describes buildings through its own little marks. Keep the legend beside us; there’s quite a lot to notice.",
     "canonicalPath": "/notes/reading-a-sanborn-map",
     "primaryWorld": "explore",
     "worlds": [
@@ -60,7 +60,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Sanborn fire-insurance maps were made to record the built environment for insurance assessment. The Library of Congress explains that the maps document building footprints, construction materials, uses, and addresses, with color and symbols interpreted through each sheet’s legend. This makes them useful for comparing a block’s form at a particular date, not for recovering what residents thought or heard. The 1904 volume index alone does not identify the sheet containing Findlay Market; find the right sheet before comparing footprints. OPLIN’s 1887 viewer offers an earlier edition; consult the sheet’s date and legend to read it accurately.",
+      "text": "Sanborn fire-insurance maps were made to record the built environment for insurance assessment. The Library of Congress explains that the maps document building footprints, construction materials, uses, and addresses, with color and symbols interpreted through each sheet’s legend. This makes them useful for comparing a block’s form at a particular date, not for recovering what residents thought or heard. The 1904 volume index alone does not identify the sheet containing Findlay Market; find the right sheet before comparing footprints. OPLIN’s 1887 viewer offers an earlier edition; consult the sheet’s date and legend to read it accurately. I’d keep the legend beside the sheet. Learning one little mark can make a whole block look different to me.",
       "sourceIds": [
         "source:str-loc-sanborn-about",
         "source:str-sanborn",

@@ -4,7 +4,7 @@
     "slug": "community-garden-season",
     "kind": "feature",
     "title": "Let’s see what’s growing.",
-    "summary": "At Dayton’s Possum Creek, garden plots change throughout the growing season.",
+    "summary": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month.",
     "canonicalPath": "/journal/community-garden-season",
     "primaryWorld": "live",
     "worlds": [
@@ -48,15 +48,15 @@
     "recommendations": [
       {
         "id": "feature:library-afternoon",
-        "reason": "Another look at everyday Ohio"
+        "reason": "A book by the window, a question about an old house… ahh, I could linger. Come find your own quiet corner at Columbus Main Library."
       },
       {
         "id": "feature:athens-campus-day",
-        "reason": "Another look at everyday Ohio"
+        "reason": "College Green, a little Uptown wandering, and time to sit together. I’d leave this Athens afternoon pleasantly unhurried. ♡"
       },
       {
         "id": "feature:cuyahoga-slow-day",
-        "reason": "Another Ohio day out"
+        "reason": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest."
       }
     ],
     "order": 84
@@ -65,7 +65,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "A garden looks different from one month to the next. That’s what I’d like you to notice at Possum Creek MetroPark in Dayton. The community plots have people caring for them through a whole growing season: planting, watering, weeding, and finding out what the weather has decided. Let’s look at the small routines that keep a shared garden going."
+      "text": "Ooh, look how much can change in a month. That’s what I love about a garden: there’s always another small thing to notice. At Possum Creek MetroPark in Dayton, people return to their community plots through planting, watering, weeding, and whatever the weather decides. Let’s follow that ordinary care for a while. The pretty harvest gets plenty of attention already."
     },
     {
       "type": "heading",
@@ -93,12 +93,12 @@
     },
     {
       "type": "paragraph",
-      "text": "A month from now, notice what has changed from the public paths. Plants grow at different rates; weather changes the week’s jobs. A garden doesn’t have to produce a perfect basket to show how much attention it receives. Sometimes the interesting thing is a newly cleared row or a gardener making room for the next planting."
+      "text": "I’d come back to the public path a month later and look for one change. A taller plant? A newly cleared row? Weather changes the week’s jobs, and plants keep their own pace. The garden doesn’t owe us a perfect basket to show someone’s care. I like noticing the small work along the way."
     },
     {
       "type": "characterAside",
-      "title": "A little room for the neighbors",
-      "text": "The paths and water are shared, even when the plots have different caretakers. Leaving room for the next person is part of growing things here."
+      "title": "The space between the plots",
+      "text": "Possum Creek’s gardeners share paths and water even while tending their own plots. I like seeing care in those small practical things: room for the next person, a path left clear. It makes the whole garden feel worth looking after."
     },
     {
       "type": "heading",
@@ -112,7 +112,7 @@
     },
     {
       "type": "paragraph",
-      "text": "And if you’re here for a park visit, that belongs in the story too. Follow the visitor guidance, respect the marked beds, and notice how this part of the park is shaped by repeated work. Someone returned to water. Someone cleared a path. The next time you pass, the ground will have a little more of the season to reveal."
+      "text": "A park visit belongs here too. Follow visitor guidance and keep out of the marked beds, then look for signs of somebody returning: a watered row, a cleared path, room for the next planting. Those little routines make me want to look again next month. Ooh, I wonder what will have changed."
     },
     {
       "type": "practical",
@@ -130,7 +130,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Shall we see how it looks another month? Gardens are good at giving us a reason to return. ♡"
+      "text": "I’d like to see what’s growing another month. A little reason to return, and perhaps another walk with you? That sounds lovely. ♡"
     }
   ]
 }

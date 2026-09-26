@@ -4,7 +4,7 @@
     "slug": "findlay-street-through-time",
     "kind": "feature",
     "title": "Findlay Street through time",
-    "summary": "Race Street’s market block links a nineteenth-century plat, a changing neighborhood, and a present-day transit stop.",
+    "summary": "Wait, before we head for the stalls—look at this block with me. Findlay Street’s maps have a few surprises tucked into their lines.",
     "canonicalPath": "/journal/findlay-street-through-time",
     "primaryWorld": "explore",
     "worlds": [
@@ -102,11 +102,11 @@
     "recommendations": [
       {
         "id": "note:reading-a-sanborn-map",
-        "reason": "Learn what an insurance map can and cannot show."
+        "reason": "A fire-insurance map describes buildings through its own little marks. Keep the legend beside us; there’s quite a lot to notice."
       },
       {
         "id": "note:markets-changing-edges",
-        "reason": "Compare the market plat with today’s transit map."
+        "reason": "An early street grid and today’s transit loop show different layers around Findlay Market. I like finding a familiar corner in both."
       }
     ],
     "order": 95,
@@ -122,7 +122,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Before we head into Findlay Market, come look at the block with me. A street grid, an iron market house, a streetcar stop—there’s quite a lot to notice before we even get to the stalls.",
+      "text": "I know, I know—the market is right there. But give me a moment at the corner of Race and Elder? An old street grid, an iron market house, a streetcar stop… ooh, this little block has changed so much. I’d like to show you a few layers before we follow our appetites inside. ♡",
       "sourceIds": [
         "source:str-market-history",
         "source:str-tour",
@@ -131,7 +131,7 @@
     },
     {
       "type": "paragraph",
-      "text": "At Findlay Market, a short stretch of Race Street carries more than one city plan. The street is part of a grid laid out before this area joined Cincinnati; the market building came later, and a modern streetcar now stops at the block. Read the block through its changing infrastructure: the plat lays out streets, the market history describes a public institution, and the present route shows how transit reaches the area.",
+      "text": "Here’s the little puzzle I like: the street grid was here before this area joined Cincinnati. The market came later; today a streetcar stops beside the block. Let’s put those three layers next to each other. The plat helps with the streets, the market’s history with the building, and the current route with getting here.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-tour",
@@ -150,7 +150,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Findlay Market’s published history says James Findlay and Jepthah Garrard recorded the Northern Liberties town plat on June 3, 1833. The plat established streets that still include Race, Elm, Green, and Findlay, and reserved a market area along what became Elder Street. At the time, the Northern Liberties lay north of Cincinnati’s boundary; the area was annexed in 1849. The market occupies the later history of this grid, rather than explaining why every street line was drawn as it was.",
+      "text": "Findlay Market’s published history takes us to June 3, 1833, when James Findlay and Jepthah Garrard recorded the Northern Liberties town plat. Look for Race, Elm, Green, and Findlay: those streets are still part of the grid. A market area was reserved along what became Elder Street. Northern Liberties was then north of Cincinnati’s boundary and was annexed in 1849. I like finding a familiar street name this far back, even though the plat alone can’t explain every choice behind the lines.",
       "sourceIds": [
         "source:str-market-history"
       ]
@@ -213,19 +213,19 @@
       ]
     },
     {
-      "text": "Ooh, the same block looks different on each map. The plat gives us streets, the Sanborn sheet gives us buildings, and today’s transit map gives us a route. For what life felt like here, we’ll need people’s own accounts, too.",
+      "text": "The plat gives us streets, the Sanborn sheet gives us buildings, and today’s transit map gives us a route. I love comparing the same corner across those different views. For what living here felt like, I’d want people’s own accounts alongside the lines.",
       "type": "characterAside",
       "sourceIds": [
         "source:str-market-history",
         "source:str-sanborn",
         "source:str-streetcar"
       ],
-      "title": "Compare what each map can show",
+      "title": "Same corner, different clues",
       "role": "explain"
     },
     {
       "type": "paragraph",
-      "text": "The market’s account calls Findlay the only surviving municipal market house among the nine Cincinnati public markets operating in the nineteenth and early twentieth centuries. It was built as an open-sided pavilion with a cast- and wrought-iron frame, a relatively unusual construction method in the United States according to the market history. Built in 1852, it did not open until 1855 because of contractor disputes and problems in the construction. A masonry tower followed in 1902. Public-health concerns about exposure to weather and increasing urban pollution were followed by enclosure and the addition of plumbing and refrigeration. Merchants had previously used cool storage in deep cellars beneath nearby breweries. Each change answers a different practical problem: structure, weather, water, and keeping perishables cold.",
+      "text": "Now for the building. Findlay’s history calls it the only surviving municipal market house among Cincinnati’s nine nineteenth- and early-twentieth-century public markets. Its open-sided pavilion used a cast- and wrought-iron frame, a method the account describes as unusual in the United States. Built in 1852, it opened in 1855 after contractor disputes and construction problems. A masonry tower followed in 1902. Later, concerns about weather exposure and urban pollution helped bring enclosure, plumbing, and refrigeration; merchants had previously used deep brewery cellars for cool storage. That last detail caught me. Keeping dinner fresh has its own architectural story.",
       "sourceIds": [
         "source:str-market-history"
       ]
@@ -242,7 +242,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Over-the-Rhine’s growth involved housing, work, migration, and cultural institutions as well as commerce. Findlay Market’s history, drawing on the local historic district report, describes German churches, associations, newspapers, and a brewing industry with 36 breweries by 1860. It says most of the 950 structures in the Over-the-Rhine North district were built between 1860 and 1900. The National Register entry identifies the district’s significance in architecture and areas that include commerce, industry, religion, social history, and performing arts. Those institutional records define a broad historic context; they cannot stand in for individual residents’ experiences.",
+      "text": "Let’s look beyond the counters for a moment. Drawing on the historic district report, Findlay’s history describes German churches, associations, newspapers, and 36 breweries by 1860. It says most of the 950 structures in Over-the-Rhine North were built between 1860 and 1900. The National Register record points to architecture, commerce, industry, religion, social history, and performing arts. That gives us plenty of threads to follow. I’d still want residents’ own accounts beside those institutional descriptions.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-nps"
@@ -250,7 +250,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The market’s page also reports a population decline of more than half in Over-the-Rhine during the 1960s and a doubling of African-American residents, linking that shift to West End displacement from highway construction and urban renewal. Keep these changes out of a tidy decline-and-revival arc. A map can show parcels and street alignment; it cannot tell us who was forced to move, who could afford to remain, or how people experienced the neighborhood.",
+      "text": "There’s a harder part to stay with here. The market’s account reports that Over-the-Rhine’s population fell by more than half during the 1960s while the number of African-American residents doubled, linking the change to displacement from the West End through highway construction and urban renewal. I don’t want to hurry that into a neat comeback story. Street lines can’t tell us who had to move, who could stay, or what those changes felt like.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-nps"
@@ -268,7 +268,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The city’s current streetcar page describes a 3.6-mile loop joining The Banks, downtown, and Over-the-Rhine; its station list includes Findlay Market – Race. The published core schedule is daily, but weekday, Saturday, and Sunday hours differ, and extended service may run for selected events. Findlay Market’s hours page gives its present general schedule and a separate weekend farmers-market schedule. Check both pages before travelling because hours and service can change, while individual vendors may keep their own schedules. The present-day streetcar serves this block; it is a newer layer in the street’s history.",
+      "text": "Back to planning our own visit. The city describes a 3.6-mile Connector loop between The Banks, downtown, and Over-the-Rhine, including Findlay Market–Race. Its core schedule is daily, with different weekday, Saturday, and Sunday hours and some event extensions. The market publishes general hours and a separate weekend farmers-market schedule; individual vendors can differ too. I’d check both official pages before setting off. Then we can spend our attention on the block instead of wondering whether we’ve missed our stop.",
       "sourceIds": [
         "source:str-streetcar",
         "source:str-hours"
@@ -291,7 +291,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A useful walk is also a map comparison. Mark Race and Elder, find the market block on a verified historic sheet, then compare it with the city’s current streetcar map. The 1833 plat gives the grid’s early structure; the market history records construction changes; the district record supplies a preservation frame; the transit map shows today’s connection. Each source has a different scale and purpose. A map can explain a sequence of plans and buildings, but a sensory account of a past street would need a dated photograph, diary, recording, or a person’s own testimony.",
+      "text": "My suggestion: keep Race and Elder as our reference point. Compare the 1833 plat, a verified historic sheet showing the market block, and today’s streetcar map. Each answers a different question. If you start wondering what a past morning sounded or felt like, I’d look for a dated photograph, diary, recording, or somebody’s testimony next. That’s where our little map detour becomes another story.",
       "sourceIds": [
         "source:str-market-history",
         "source:str-sanborn",
@@ -301,7 +301,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Keep Race and Elder in mind. Next time you look at the market block, you’ll have a few more things to notice. ♡"
+      "text": "Race and Elder. Keep that little corner in mind, and the market will have a few more stories to tell next time. Okay—now we can look at the stalls. ♡"
     }
   ]
 }

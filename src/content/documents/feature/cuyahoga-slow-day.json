@@ -4,7 +4,7 @@
     "slug": "cuyahoga-slow-day",
     "kind": "feature",
     "title": "Let’s take the slow way.",
-    "summary": "A waterfall, a towpath, and lunch in Peninsula. Cuyahoga Valley has a lovely way of making us linger.",
+    "summary": "Comfy shoes, a waterfall, and lunch we don’t rush. I’ve picked a few Cuyahoga Valley stops; we can let our legs choose the rest.",
     "canonicalPath": "/journal/cuyahoga-slow-day",
     "primaryWorld": "explore",
     "worlds": [
@@ -53,11 +53,11 @@
     "recommendations": [
       {
         "id": "feature:community-garden-season",
-        "reason": "Another look at everyday Ohio"
+        "reason": "I like a place that gives us a reason to come back. At Possum Creek, a shared garden has something different to notice each month."
       },
       {
         "id": "feature:west-side-market-table",
-        "reason": "Another Ohio food story"
+        "reason": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose."
       }
     ],
     "order": 74
@@ -66,7 +66,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "You’ve got your comfy shoes? Good. We’re slipping between Cleveland and Akron for a day in Cuyahoga Valley, where the river, old canal route, woods, and little communities share the same landscape. I’ve picked a few places to start. We’ll check which paths are open, keep lunch unhurried, and let our legs decide how much more walking sounds nice."
+      "text": "Comfy shoes? Water? Okay, come along. We’re slipping between Cleveland and Akron for a little Cuyahoga Valley time. I’m tempted by the waterfall, but I’m also very much in favor of an unhurried lunch. We’ll check the open paths, pick a walk that feels good, and leave room to change our minds. No racing ahead of me, all right? ♡"
     },
     {
       "type": "heading",
@@ -94,12 +94,12 @@
     },
     {
       "type": "paragraph",
-      "text": "Watch the water, the old transportation corridor, and the way trees soften the edges of nearby towns. This is a lived-in valley, not a wilderness far from everyone. Turn around while the walk still feels good, leaving energy for the afternoon."
+      "text": "I’d watch the water for a while, then the old transport corridor and the trees around nearby towns. There’s everyday life tucked into this valley too. Turn back while the walk still feels lovely. I have a strong preference for reaching lunch with enough energy to enjoy it."
     },
     {
       "type": "characterAside",
       "title": "A little room to change our minds",
-      "text": "Brandywine’s parking lot can fill. We can follow the park’s advice, visit another stop, and try later. The waterfall doesn’t need to be an appointment."
+      "text": "Brandywine’s parking lot can fill, so the park’s guidance may send us to another stop first. I prefer a flexible day to a waterfall deadline. A quieter walk with you sounds like a lovely change of plan. ♡"
     },
     {
       "type": "heading",
@@ -113,7 +113,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If you're tempted to add three more waterfalls now, wait ten minutes. A meal and a short walk around town may be exactly what the day needs. The best memory can be the pause between trailheads."
+      "text": "Tempted to add three more waterfalls? Mm, let’s finish lunch first. A short town wander might be exactly enough. I’m fond of those little pauses between the places we meant to see—especially when they turn into a good conversation."
     },
     {
       "type": "heading",
@@ -149,7 +149,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Leave with a little energy to spare. There’s always another path for next time. ♡"
+      "text": "Still a little energy left? Perfect. I like ending a walk while another one still sounds lovely. We can save a path for next time. ♡"
     }
   ]
 }

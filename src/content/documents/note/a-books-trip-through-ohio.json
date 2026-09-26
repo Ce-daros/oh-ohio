@@ -4,7 +4,7 @@
     "slug": "a-books-trip-through-ohio",
     "kind": "note",
     "title": "A book’s trip through Ohio",
-    "summary": "The request and pickup are a shared-library workflow, with local account rules at either end.",
+    "summary": "A request at your own library can send a book traveling between shared shelves. I like a reading adventure that begins close to home. ♡",
     "canonicalPath": "/notes/a-books-trip-through-ohio",
     "primaryWorld": "live",
     "worlds": [
@@ -54,7 +54,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "SearchOhio’s published steps begin in your library catalog: find an item, sign in with the details your library requests, and choose a pickup location. The network estimates three to five business days for requests, excluding weekends, and holds arrivals on the pickup shelf for ten days. Treat that as an estimate and wait for the arrival notice before traveling. After pickup, follow your account’s due date. Columbus Metropolitan Library publishes its own loan terms and return options; your own library sets the rules for your card. If the request option is missing, ask library staff about the item record.",
+      "text": "SearchOhio’s published steps begin in your library catalog: find an item, sign in with the details your library requests, and choose a pickup location. The network estimates three to five business days for requests, excluding weekends, and holds arrivals on the pickup shelf for ten days. Treat that as an estimate and wait for the arrival notice before traveling. After pickup, follow your account’s due date. Columbus Metropolitan Library publishes its own loan terms and return options; your own library sets the rules for your card. If the request option is missing, ask library staff about the item record. I like that the book can make the long journey while your pickup stays close to home. Save yourself a little time for the first chapter. ♡",
       "sourceIds": [
         "source:lib-searchohio",
         "source:lib-cml",

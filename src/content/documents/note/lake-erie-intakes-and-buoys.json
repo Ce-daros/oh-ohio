@@ -4,7 +4,7 @@
     "slug": "lake-erie-intakes-and-buoys",
     "kind": "note",
     "title": "Lake water, public service",
-    "summary": "Cleveland’s drinking-water story begins offshore.",
+    "summary": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow.",
     "canonicalPath": "/notes/lake-erie-intakes-and-buoys",
     "primaryWorld": "explore",
     "worlds": [
@@ -51,7 +51,7 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Cleveland Water identifies Lake Erie as its source and describes four offshore intake locations that carry raw water toward treatment. The utility also shares readings from monitoring buoys near its intake areas. That public information connects the lake’s changing conditions with an ordinary service at home: water must be collected, monitored, treated, and delivered. The Cuyahoga River enters Lake Erie at Cleveland, and EPA’s Area of Concern account tracks restoration problems in that connected watershed. These are related systems, but one measure does not stand in for the other. A buoy reading is not a full water-quality report, and a cleanup milestone does not mean the river has no remaining impairments. For a visit or a research question, begin with the utility’s current lake and buoy information, then use EPA’s AOC page for the river restoration record.",
+      "text": "Cleveland Water identifies Lake Erie as its source and describes four offshore intake locations that carry raw water toward treatment. The utility also shares readings from monitoring buoys near its intake areas. That public information connects the lake’s changing conditions with an ordinary service at home: water must be collected, monitored, treated, and delivered. The Cuyahoga River enters Lake Erie at Cleveland, and EPA’s Area of Concern account tracks restoration problems in that connected watershed. These are related systems, but one measure does not stand in for the other. A buoy reading is not a full water-quality report, and a cleanup milestone does not mean the river has no remaining impairments. For a visit or a research question, begin with the utility’s current lake and buoy information, then use EPA’s AOC page for the river restoration record. I like this connection between a distant horizon and an ordinary tap. The buoy readings give me another reason to look out at the lake.",
       "sourceIds": [
         "source:water-cleveland-water",
         "source:water-cuyahoga-epa"

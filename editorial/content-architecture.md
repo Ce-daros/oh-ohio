@@ -10,6 +10,10 @@ Each story is one JSON file under `src/content/documents/feature/`, `note/`, or 
 4. Connect the document to at least one collection in `collections.json`. Collection `itemIds` control reading order. Update topics, places, world scene groups, or a dossier collection where relevant. A dossier collection needs a unique slug and a feature as its featured item.
 5. Run `node scripts/content-manifest.mjs`, `node scripts/route-catalog.mjs`, `npm run validate:content`, and `npm run build`. The validator checks relationships, source and media references, block requirements, dates, files, legacy slugs, and generated-file freshness. The build checks emitted route HTML and that every body remains in its own lazy client chunk.
 
+## Voice and editorial ownership
+
+Follow [Ohio-chan’s current voice guide](voice-guide.md) when revising public narration: subject first, specific personal taste next, occasional gentle flirt. This applies inside feature bodies as well as to summaries and character asides. World recommendations live in `src/data/scene-guidance.json`; reading-journey narration lives in `src/content/data/journeys.json`. Keep this prose in the canonical files, not a runtime catchphrase transform or a second content list. Archived research prose is evidence, not a voice template.
+
 ## Metadata and dates
 
 All documents have `id`, `kind`, `slug`, `title`, `summary`, `canonicalPath`, `primaryWorld`, `worlds`, `topics`, `places`, `sourceRefs`, `verification`, and `bodyPath`. Notes add `sectionId` and `kicker`; phrases add `region`; features add category, location, duration, read time, cover image, title accent, and reasoned recommendations. Keep a feature cover's `coverMediaId` in the media registry. Do not invent timestamps or source verification.

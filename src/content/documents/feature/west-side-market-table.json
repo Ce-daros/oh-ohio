@@ -4,7 +4,7 @@
     "slug": "west-side-market-table",
     "kind": "feature",
     "title": "A market full of good things.",
-    "summary": "Cleveland’s West Side Market has a beautiful ceiling. The people at the counters deserve your attention too.",
+    "summary": "I’d look at the ceiling, then let the bread distract me. Come take a slow lap of Cleveland’s West Side Market before we choose.",
     "canonicalPath": "/journal/west-side-market-table",
     "primaryWorld": "culture",
     "worlds": [
@@ -53,15 +53,15 @@
     "recommendations": [
       {
         "id": "feature:cincinnati-chili",
-        "reason": "Another Ohio food story"
+        "reason": "First chili-parlor order? I’ll help with the numbers. You can tell me whether onions or beans win a place on your plate."
       },
       {
         "id": "feature:buckeye-sweets",
-        "reason": "Another Ohio food story"
+        "reason": "I’d pick the slightly wonky one. Peanut butter, chocolate, and a little pale circle make a very sweet introduction to Ohio. ♡"
       },
       {
         "id": "feature:cincinnati-market-to-music",
-        "reason": "Another Ohio day out"
+        "reason": "Breakfast, a mural that stops us mid-walk, and a little music? I’d happily give Over-the-Rhine the whole day. Come along. ♡"
       }
     ],
     "order": 82
@@ -70,7 +70,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Look up first. That tiled vault is quite an entrance, isn’t it? Now look down at the counters. Cleveland’s West Side Market has served shoppers since 1912, and the day’s food still draws people through the doors. Let’s take a lap before we choose anything. I’m curious what will end up on your table."
+      "text": "Oh, look up first! That tiled vault deserves a moment. Now the counters… ah, this is where I’d get distracted. Cleveland’s West Side Market has served shoppers since 1912, and there’s today’s food to think about too. Let’s take a lap before choosing. Tell me what you’d bring home; I’m already curious about dinner. ♡"
     },
     {
       "type": "heading",
@@ -94,7 +94,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Let’s think about a meal. The market lists produce, meat, seafood, cheese, baked goods, and prepared food among its offerings. You could start with bread and a few ingredients for dinner, or choose something ready to eat. Take a look at several counters before deciding. There’s room to change the plan when something catches your eye."
+      "text": "Now, what would you cook? The market lists produce, meat, seafood, cheese, baked goods, and prepared food. I’d be tempted to start with bread and build dinner around whatever catches my eye next. Or we could choose something ready to eat. Mm, let’s take one more look before deciding."
     },
     {
       "type": "paragraph",
@@ -102,8 +102,8 @@
     },
     {
       "type": "characterAside",
-      "title": "What are we making for dinner?",
-      "text": "Pick one ingredient that looks good, then see what the other stalls can add. A market is a lovely place to let dinner change its mind."
+      "title": "Let one ingredient choose dinner",
+      "text": "West Side Market brings produce, bread, cheese, and other foods together at independent counters. I’d start with one ingredient and let the next stall suggest the rest. You get first pick—I’m curious what dinner with your taste in charge would look like. ♡"
     },
     {
       "type": "heading",
@@ -113,7 +113,7 @@
     },
     {
       "type": "paragraph",
-      "text": "By the time you leave, you may have a lunch, a bag of ingredients, or just a better idea of what you want to cook. The market’s original mix of indoor food stands and produce sellers suggests the same pleasure: different counters contributing to one table. Remember which stall helped you choose something. That’s a good detail to carry home."
+      "text": "A lunch, a bag of ingredients, or a new idea for dinner—any of those would make me happy. The market’s mix of indoor food stands and produce sellers puts lots of possibilities close together. Remember the stall that helped you choose. That’s a much nicer souvenir than my attempt to make up our minds quickly."
     },
     {
       "type": "paragraph",
@@ -135,7 +135,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Got everything? Good. Let’s see what that market bag becomes at the table. ♡"
+      "text": "Got everything? Lovely. Now I want to hear what that market bag becomes at your table. Don’t leave out the delicious part. ♡"
     }
   ]
 }

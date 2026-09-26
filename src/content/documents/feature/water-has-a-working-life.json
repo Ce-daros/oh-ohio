@@ -4,7 +4,7 @@
     "slug": "water-has-a-working-life",
     "kind": "feature",
     "title": "Water has a working life",
-    "summary": "Ohio’s waterways connect freight, drinking water, habitat, and neighborhood stewardship. A Cleveland-to-Lake-Erie story makes those layers visible.",
+    "summary": "Lake Erie’s view makes me curious about the water’s other journeys. Follow the Cuyahoga, the harbor, and the work behind your tap with me.",
     "canonicalPath": "/journal/water-has-a-working-life",
     "primaryWorld": "explore",
     "worlds": [
@@ -88,11 +88,11 @@
     "recommendations": [
       {
         "id": "note:canal-corridor-in-maps",
-        "reason": "Read the Ohio & Erie Canal corridor through its original plats."
+        "reason": "The canal links rivers through engineered channels and summit works. Come follow the little turns in the map with me."
       },
       {
         "id": "note:lake-erie-intakes-and-buoys",
-        "reason": "Follow the public drinking-water system from lake to household."
+        "reason": "Cleveland’s drinking water starts offshore. Ooh, the lake view has a connection to home I’d like to follow."
       }
     ],
     "order": 98,
@@ -108,7 +108,7 @@
     {
       "type": "paragraph",
       "role": "intro",
-      "text": "Come follow the water with me. Along the Cuyahoga and out to Lake Erie, a lovely view is also a place of work: moving cargo, supplying homes, and caring for the river itself.",
+      "text": "Come follow the water with me? I’m easily distracted by a lovely lake view, but the working part makes me curious too. Along the Cuyahoga and out to Lake Erie, water connects cargo, homes, habitats, and people caring for the river. Let’s stay with one question at a time. There’s quite a lot hiding behind that horizon.",
       "sourceIds": [
         "source:water-cuyahoga-epa",
         "source:water-cleveland-port",
@@ -117,7 +117,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Ohio’s water map is also a map of work. The Ohio & Erie Canal once carried people and cargo between Lake Erie and the Ohio River. Today, the Cuyahoga still drains a large watershed into Lake Erie, while a modern port, drinking-water utility, environmental agencies, and community groups shape what use of the river means. Follow the Cuyahoga north through Cleveland and the story changes at every bend: canal transport, industrial production, public services, and restoration share a corridor.",
+      "text": "I’d begin by following the Cuyahoga north through Cleveland. The river drains into Lake Erie, and the story keeps changing around it: canal transport, industry, drinking water, public services, restoration. The Ohio & Erie Canal once carried people and cargo between the lake and the Ohio River. Today, a port, utility, agencies, and community groups each have a part in what happens along this water. Let’s meet a few of them.",
       "sourceIds": [
         "source:water-ohio-canals",
         "source:water-cuyahoga-epa"
@@ -135,7 +135,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Ohio authorized canal construction in 1825. The Ohio History Connection describes the Canal Commission’s ambition as connecting the Great Lakes with the Mississippi River system. By 1832, boats could travel the Ohio & Erie Canal between Cleveland and Portsmouth. The canal moved agricultural products and raw materials toward distant markets; manufactured goods and travelers moved through Ohio towns. Its channel was engineered infrastructure, supported by locks, reservoirs, towpaths, and labor. Water-powered mills and factories grew along the route. The canal made inland water a transportation service, not merely a scenic backdrop.",
+      "text": "First, back to 1825, when Ohio authorized canal construction. Ohio History Connection describes the ambition as linking the Great Lakes with the Mississippi River system. By 1832, boats could travel between Cleveland and Portsmouth on the Ohio & Erie Canal. Farm products and raw materials went toward distant markets; manufactured goods and travelers moved through towns. Locks, reservoirs, towpaths, and people’s labor kept it working, while mills and factories grew beside the water. I like tracing how much had to happen around what looks like a simple line on a map.",
       "sourceIds": [
         "source:water-ohio-canals",
         "source:water-canal-plats"
@@ -176,7 +176,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This is a schematic of valleys and the summit, not a river itinerary or a claim that every segment remains navigable. Original canal plats show the surveyed waterway; the Cuyahoga, Tuscarawas, Muskingum, and Scioto are connected by engineered channel and summit works rather than one continuous natural river.",
+      "text": "Follow the valleys and summit in this sketch with me, but don’t use it as a river itinerary. Original canal plats show an engineered channel: the Cuyahoga, Tuscarawas, Muskingum, and Scioto were linked with canal and summit works, not one continuous natural river. The drawing also doesn’t mean every segment can still be navigated.",
       "sourceIds": [
         "source:water-ohio-canals",
         "source:water-canal-plats"
@@ -194,7 +194,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In Cleveland, the Cuyahoga meets Lake Erie. EPA describes the river’s watershed as more than 800 square miles and records its 1987 designation as a Great Lakes Area of Concern. The pressures it identifies include historic industrial contamination, municipal and agricultural discharges, erosion, stormwater, and combined sewer overflows. Those causes make a cleanup story larger than one dramatic image or one project: it concerns how land, pipes, industry, and water affect one another.",
+      "text": "Where the Cuyahoga meets Lake Erie, I’d pause with the cleanup story. EPA describes a watershed of more than 800 square miles and a 1987 Great Lakes Area of Concern designation. It identifies historic industrial contamination, municipal and agricultural discharges, erosion, stormwater, and combined sewer overflows. That’s a lot of connected work. One dramatic photograph can’t show all the land, pipes, and people involved.",
       "sourceIds": [
         "source:water-cuyahoga-epa"
       ]
@@ -216,7 +216,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Cuyahoga River AOC Advisory Committee brings public agencies, park systems, watershed groups, businesses, and individuals into restoration work. Ohio EPA and the Ohio Lake Erie Commission lead Ohio’s Areas of Concern program. The committee reports that six of the river’s original ten beneficial-use impairments have been removed, with four remaining. The figures mark progress and continuing work at once. They also show why a river account should name the people and institutions organizing around it, not only the waterway itself.",
+      "text": "Who’s doing that work? The Cuyahoga River AOC Advisory Committee brings together agencies, parks, watershed groups, businesses, and individuals. Ohio EPA and the Ohio Lake Erie Commission lead the state’s Areas of Concern program. The committee reports six of the original ten beneficial-use impairments removed, with four remaining. I’m glad to see progress, and I want to keep the unfinished work in view too. Those figures have people and decisions behind them.",
       "sourceIds": [
         "source:water-aoc-committee",
         "source:water-cuyahoga-epa"
@@ -234,7 +234,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Port of Cleveland connects Great Lakes shipping with markets beyond Ohio through year-round cargo operations. Its harbor is a modern freight system, distinct from the towpaths, locks, and narrow boats of the canal era. Both systems connect local labor and production to distant markets, but they do so with different vessels and infrastructure. Cleveland’s drinking-water system adds another public service: Cleveland Water draws from four Lake Erie intakes several miles offshore and monitors lake conditions with buoys before treating water for customers. Pipes can hide the lake’s role in everyday life; the utility’s published buoy readings make that relationship visible.",
+      "text": "Now look toward the harbor. The Port of Cleveland connects Great Lakes shipping with wider markets through year-round cargo operations—a different system from narrow canal boats, locks, and towpaths. Both carry local work outward. Then there’s water coming toward home: Cleveland Water draws from four Lake Erie intakes several miles offshore, monitors conditions with buoys, and treats water for customers. Ooh, the public buoy readings make an ordinarily hidden connection a little easier to see.",
       "sourceIds": [
         "source:water-cleveland-port",
         "source:water-cleveland-water"
@@ -269,14 +269,14 @@
       "layout": "parallel"
     },
     {
-      "text": "Here’s the part I want to follow home: Lake Erie supplies drinking water, while the river has its own restoration work. They meet in one watershed, with different people keeping an eye on each.",
+      "text": "Lake Erie supplies Cleveland’s drinking water, while the Cuyahoga has its own restoration work. I like following those separate responsibilities toward an ordinary kitchen tap. The lovely horizon feels closer to home once you know a little of the work behind it.",
       "type": "characterAside",
       "sourceIds": [
         "source:water-cleveland-water",
         "source:water-cuyahoga-epa",
         "source:water-aoc-committee"
       ],
-      "title": "Trace the water home",
+      "title": "Follow the water home",
       "role": "explain"
     },
     {
@@ -291,7 +291,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Start with the Cuyahoga mouth and Lake Erie on a map, then compare the shoreline with a historic canal plat. Cleveland Water’s public buoy page offers a practical way to see how lake conditions are monitored. The Towpath Trail lets visitors encounter preserved portions of the historic corridor, but access, surface, and closures vary by managed section; check the responsible park operator’s current notices before choosing a segment. The old canal, present-day port, household water service, and restoration committee describe different ways people depend on water.",
+      "text": "Here’s where I’d start looking: the Cuyahoga’s mouth on a current map, a historic canal plat, then Cleveland Water’s buoy page. If you’d like a walk too, the Towpath Trail reaches preserved parts of the corridor. Access, surfaces, and closures vary by managed section, so check the responsible park’s current notices before choosing. I’d pick a stretch that suits you and keep one question about the water for company.",
       "sourceIds": [
         "source:water-canal-plats",
         "source:water-cleveland-water",
@@ -300,7 +300,7 @@
     },
     {
       "type": "paragraph",
-      "text": "There is no single river story that can speak for everyone beside it. Agency records explain how pollution is measured and projects are organized. Port and utility pages describe services. Community and tribal collections add other kinds of relationship and memory; a commerce map cannot stand in for those accounts. The useful question is not simply what the water carried, but who uses it now, who cares for it, and whose account becomes part of its history.",
+      "text": "I’d like to keep listening beyond those maps. Agencies explain measurements and projects; port and utility pages describe services. Community and tribal collections hold other relationships and memories that a trade route can’t show us. Who uses this water, who cares for it, and whose account do we hear? Those are questions I’d carry past the shoreline.",
       "sourceIds": [
         "source:water-cuyahoga-epa",
         "source:water-aoc-committee",
@@ -311,7 +311,7 @@
     {
       "type": "paragraph",
       "role": "signoff",
-      "text": "Next time you see the lake, stay for the view. Then follow one small question about the work behind it. There’s plenty here to be curious about. ♡"
+      "text": "Stay for the view. Then bring me one little question about the water behind it. I rather like where your curiosity takes us. ♡"
     }
   ]
 }
