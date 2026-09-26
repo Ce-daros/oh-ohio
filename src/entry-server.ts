@@ -1,33 +1,27 @@
 import { renderToString } from 'vue/server-renderer';
+import { createHead, renderSSRHead } from '@unhead/vue/server';
 import { createSiteApp } from './app';
-import { headMarkup, routeHead, type RouteHeadInput } from './head';
-import type { RouteMeta } from 'vue-router';
+import { routeHeadInput } from './head';
 
 export async function render(url: string) {
   const { app, router } = createSiteApp();
+  const head = createHead({ disableDefaults: true });
+  app.use(head);
   await router.push(url);
   await router.isReady();
   const context = { modules: new Set<string>() };
   const html = await renderToString(app, context);
   const route = router.currentRoute.value;
-  const meta = route.meta as RouteMeta;
-  const input: RouteHeadInput = {
-    title: String(meta.title),
-    description: String(meta.description),
-    image: meta.image ? String(meta.image) : undefined,
-    noindex: Boolean(meta.noindex),
-    notFound: Boolean(meta.notFound),
-    path: route.path,
-  };
-  const head = routeHead(input);
+  const input = routeHeadInput(route);
+  const { headTags } = await renderSSRHead(head);
   return {
     html,
-    head: headMarkup(head),
+    head: headTags,
     path: route.path,
-    title: head.title,
-    description: head.description,
-    noindex: Boolean(meta.noindex),
-    notFound: Boolean(meta.notFound),
+    title: input.title,
+    description: input.description,
+    noindex: input.noindex,
+    notFound: input.notFound,
     modules: [...context.modules],
   };
 }

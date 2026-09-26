@@ -1,6 +1,5 @@
 import { createMemoryHistory, createRouter, createWebHistory, type RouteLocationGeneric, type RouteRecordRaw } from 'vue-router';
 import { resolveLegacySlug, worlds, type WorldId } from './content';
-import { routeHead, type MetaTag } from './head';
 import routeData from 'virtual:routes';
 
 type CatalogRoute = {
@@ -42,55 +41,6 @@ function routeComponent(kind: CatalogRoute['kind']) {
     case 'dossier': return () => import('./pages/TopicPage.vue');
     case 'content': return () => import('./pages/ContentPage.vue');
   }
-}
-
-function setHeadMeta(meta: MetaTag) {
-  const selector = `meta[${meta.attr}="${meta.key}"]`;
-  let element = document.querySelector<HTMLMetaElement>(selector);
-  if (!element) {
-    element = document.createElement('meta');
-    element.setAttribute(meta.attr, meta.key);
-    document.head.append(element);
-  }
-  element.content = meta.content;
-}
-
-// Meta keys this app manages; tags absent from the current head are removed.
-const MANAGED_META: MetaTag[] = [
-  { attr: 'name', key: 'robots', content: '' },
-  { attr: 'property', key: 'og:title', content: '' },
-  { attr: 'property', key: 'og:description', content: '' },
-  { attr: 'property', key: 'og:type', content: '' },
-  { attr: 'property', key: 'og:url', content: '' },
-  { attr: 'property', key: 'og:image', content: '' },
-];
-
-function updateHead(to: RouteLocationGeneric) {
-  const head = routeHead({
-    title: String(to.meta.title),
-    description: String(to.meta.description),
-    image: to.meta.image ? String(to.meta.image) : undefined,
-    noindex: Boolean(to.meta.noindex),
-    notFound: Boolean(to.meta.notFound),
-    path: to.path,
-  });
-  document.title = head.title;
-  setHeadMeta({ attr: 'name', key: 'description', content: head.description });
-  for (const meta of head.metas) setHeadMeta(meta);
-  const present = new Set(head.metas.map(meta => `${meta.attr}:${meta.key}`));
-  for (const meta of MANAGED_META) {
-    if (!present.has(`${meta.attr}:${meta.key}`)) document.querySelector(`meta[${meta.attr}="${meta.key}"]`)?.remove();
-  }
-  const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
-  if (head.canonical) {
-    if (canonical) canonical.href = head.canonical;
-    else {
-      const link = document.createElement('link');
-      link.rel = 'canonical';
-      link.href = head.canonical;
-      document.head.append(link);
-    }
-  } else canonical?.remove();
 }
 
 // How long to wait for a deep-link target to mount before giving up on
@@ -137,6 +87,5 @@ export function createSiteRouter(hydrationPath?: string) {
       if (canonical !== slug) return { path: to.path, query: to.query, hash: `#${canonical}`, replace: true };
     }
   });
-  if (!import.meta.env.SSR) router.afterEach(updateHead);
   return router;
 }

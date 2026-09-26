@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
+import { useHead } from "@unhead/vue";
 import { worlds } from "./content";
 import { provideReadingList } from "./composables/useReadingList";
+import { routeHeadInput, routeHeadOptions } from "./head";
 import { startInputModeTracking } from "./input-mode";
 provideReadingList();
 const route = useRoute();
+useHead(() => routeHeadOptions(routeHeadInput(route)));
 const menuOpen = ref(false);
 const menuButton = ref<HTMLButtonElement | null>(null);
 function closeMenu() { if (menuOpen.value) { menuOpen.value = false; menuButton.value?.focus(); } }

@@ -1,10 +1,12 @@
 import site from '../site.config.json';
+import type { ReactiveHead } from '@unhead/vue';
+import type { RouteLocationGeneric } from 'vue-router';
 
 /**
- * Head metadata rules shared by the client router (DOM updates on
- * navigation) and the prerenderer (serialized markup for static pages).
- * Both sides must agree on canonical URLs, robots directives, and the
- * Open Graph tags, so the rules live here once.
+ * Head metadata rules shared by the app shell (unhead, driven by the
+ * router's current route) and the prerenderer. Both sides must agree on
+ * canonical URLs, robots directives, and the Open Graph tags, so the
+ * rules live here once.
  */
 export interface RouteHeadInput {
   title: string;
@@ -15,43 +17,35 @@ export interface RouteHeadInput {
   path: string;
 }
 
-export interface MetaTag { attr: 'name' | 'property'; key: string; content: string }
-
-export interface RouteHead {
-  title: string;
-  description: string;
-  metas: MetaTag[];
-  canonical?: string;
-}
-
 const absoluteUrl = (value: string) =>
   value.startsWith('http://') || value.startsWith('https://') ? value : `${site.origin}${value}`;
 
-export function routeHead(input: RouteHeadInput): RouteHead {
-  const metas: MetaTag[] = [
-    { attr: 'name', key: 'robots', content: input.noindex ? 'noindex,follow' : 'index,follow' },
-    { attr: 'property', key: 'og:title', content: input.title },
-    { attr: 'property', key: 'og:description', content: input.description },
-    { attr: 'property', key: 'og:type', content: 'website' },
-  ];
-  if (!input.notFound) {
-    metas.push({ attr: 'property', key: 'og:url', content: `${site.origin}${input.path}` });
-    if (input.image) metas.push({ attr: 'property', key: 'og:image', content: absoluteUrl(input.image) });
-  }
+/** Route meta → head input; the single conversion point for both sides. */
+export function routeHeadInput(route: Pick<RouteLocationGeneric, 'path' | 'meta'>): RouteHeadInput {
+  const meta = route.meta;
   return {
-    title: input.title,
-    description: input.description,
-    metas,
-    canonical: input.notFound ? undefined : `${site.origin}${input.path}`,
+    title: String(meta.title),
+    description: String(meta.description),
+    image: meta.image ? String(meta.image) : undefined,
+    noindex: Boolean(meta.noindex),
+    notFound: Boolean(meta.notFound),
+    path: route.path,
   };
 }
 
-const ESCAPES: Record<string, string> = { '&': '&amp;', '"': '&quot;', '<': '&lt;', '>': '&gt;' };
-const escapeHtml = (value: string) => value.replace(/[&"<>]/g, char => ESCAPES[char] ?? char);
-
-/** Serialized head markup for prerendered pages (description lives in the page template). */
-export function headMarkup(head: RouteHead): string {
-  const metas = head.metas.map(meta => `<meta ${meta.attr}="${meta.key}" content="${escapeHtml(meta.content)}" />`).join('');
-  const canonical = head.canonical ? `<link rel="canonical" href="${escapeHtml(head.canonical)}" />` : '';
-  return `${canonical}${metas}`;
+/** unhead entry describing the tags for one route. */
+export function routeHeadOptions(input: RouteHeadInput): ReactiveHead {
+  return {
+    title: input.title,
+    meta: [
+      { name: 'description', content: input.description },
+      { name: 'robots', content: input.noindex ? 'noindex,follow' : 'index,follow' },
+      { property: 'og:title', content: input.title },
+      { property: 'og:description', content: input.description },
+      { property: 'og:type', content: 'website' },
+      ...(!input.notFound ? [{ property: 'og:url', content: `${site.origin}${input.path}` }] : []),
+      ...(input.image && !input.notFound ? [{ property: 'og:image', content: absoluteUrl(input.image) }] : []),
+    ],
+    link: input.notFound ? [] : [{ rel: 'canonical', href: `${site.origin}${input.path}` }],
+  };
 }

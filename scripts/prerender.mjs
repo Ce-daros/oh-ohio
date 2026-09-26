@@ -13,7 +13,6 @@ const { render } = await import(pathToFileURL(path.join(root, '.ssr', 'entry-ser
 const routes = catalog.routes.map(route => route.path);
 const uniqueRoutes = [...new Set(routes)];
 if (uniqueRoutes.length !== routes.length) throw new Error('Prerender routes contain duplicate paths');
-const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 
 function pageHtml(result) {
   const styles = new Set(result.modules.flatMap(module => {
@@ -24,8 +23,6 @@ function pageHtml(result) {
   const links = [...styles].map(asset => `<link rel="stylesheet" href="${asset}" />`).join('');
   const extra = `${links}${result.head}`;
   return template
-    .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(result.title)}</title>`)
-    .replace(/<meta name="description" content="[^"]*"\s*\/>/, `<meta name="description" content="${escapeHtml(result.description)}" />`)
     .replace('<!--page-head-->', extra)
     .replace('<!--app-html-->', result.html);
 }
