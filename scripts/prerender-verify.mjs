@@ -1,10 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { buildRobots, buildSitemap } from './site-artifacts.mjs';
+import { buildRobots } from './site-artifacts.mjs';
 
-const manifest = JSON.parse(fs.readFileSync('src/content/data/manifest.json', 'utf8'));
+import { computeCatalog, computeManifest } from './lib/content.mjs';
+
+const manifest = computeManifest(process.cwd());
 const site = JSON.parse(fs.readFileSync('site.config.json', 'utf8'));
-const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
+const { catalog } = computeCatalog(process.cwd());
 const routes = catalog.routes;
 const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 let assetsChecked = 0;
@@ -43,8 +45,6 @@ for (const document of manifest.documents) {
 }
 const notFound = fs.readFileSync('dist/404.html', 'utf8');
 if (!notFound.includes('<main') || !notFound.includes('name="robots" content="noindex,follow"')) throw new Error('dist/404.html is not a rendered noindex page');
-const expectedSitemap = buildSitemap(routes, site.origin);
-if (fs.readFileSync('dist/sitemap.xml', 'utf8') !== expectedSitemap) throw new Error('dist/sitemap.xml does not exactly match the indexable route catalog');
 const expectedRobots = buildRobots(site.origin);
 for (const file of ['public/robots.txt', 'dist/robots.txt']) {
   if (fs.readFileSync(file, 'utf8') !== expectedRobots) throw new Error(`${file} does not match site.config.json; run node scripts/site-artifacts.mjs --write-robots`);

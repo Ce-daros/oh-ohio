@@ -2,9 +2,10 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { computeCatalog } from './lib/content.mjs';
 
 const root = path.resolve('dist');
-const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
+const catalog = computeCatalog(process.cwd()).catalog;
 const redirects = new Map(catalog.redirects.map(item => [item.source, item.destination]));
 const canonicalPaths = new Set(catalog.routes.map(route => route.path));
 const types = new Map([

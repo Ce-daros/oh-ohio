@@ -160,6 +160,24 @@ export function computeCoverage(repoRoot) {
 
 function places(repoRoot) { return readJson(repoRoot, 'src/content/data/places.json'); }
 
+/**
+ * vercel.json is a hand-managed platform config derived from the catalog;
+ * an out-of-date copy is a real deployment error, so both the build and
+ * the CLI verify it. Vercel's build-time name/version annotations are
+ * excluded from the comparison.
+ */
+export function verifyVercelConfig(repoRoot) {
+  const { vercel } = computeCatalog(repoRoot);
+  const current = readJson(repoRoot, 'vercel.json');
+  const checked = process.env.VERCEL
+    ? Object.fromEntries(Object.entries(current).filter(([key]) => key !== 'name' && key !== 'version'))
+    : current;
+  if (JSON.stringify(checked) !== JSON.stringify(vercel)) {
+    return 'vercel.json is stale; run node scripts/route-catalog.mjs';
+  }
+  return null;
+}
+
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const idPattern = /^(note|phrase|feature):[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const kinds = new Set(['note', 'phrase', 'feature']);

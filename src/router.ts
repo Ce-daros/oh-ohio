@@ -1,7 +1,7 @@
 import { createMemoryHistory, createRouter, createWebHistory, type RouteLocationGeneric, type RouteRecordRaw } from 'vue-router';
 import { resolveLegacySlug, worlds, type WorldId } from './content';
 import { routeHead, type MetaTag } from './head';
-import routeData from './content/data/routes.json';
+import routeData from 'virtual:routes';
 
 type CatalogRoute = {
   path: string;

@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createStaticServer } from './serve-dist.mjs';
+import { computeCatalog } from './lib/content.mjs';
 
-const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
+const catalog = computeCatalog(process.cwd()).catalog;
 
 // HTTP-layer checks only: which file a route serves, its headers,
 // redirects, and error handling. The content of the prerendered pages

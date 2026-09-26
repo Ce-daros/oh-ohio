@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import coverage from '../../editorial/content-coverage.json';
+import coverage from 'virtual:coverage';
 import review from '../../editorial/existing-content-review.json';
 import { collections, contentManifest, getCollection, media, worlds } from '../content';
 

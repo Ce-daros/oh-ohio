@@ -1,4 +1,4 @@
-import manifestData from './data/manifest.json';
+import manifestData from 'virtual:content-manifest';
 import worldsData from './data/worlds.json';
 import placesData from './data/places.json';
 import sourcesData from './data/sources.json';

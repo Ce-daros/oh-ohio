@@ -2,9 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { buildRobots, buildSitemap } from './site-artifacts.mjs';
+import { computeCatalog } from './lib/content.mjs';
 
 const root = process.cwd();
-const catalog = JSON.parse(fs.readFileSync('src/content/data/routes.json', 'utf8'));
+const { catalog } = computeCatalog(root);
 const site = JSON.parse(fs.readFileSync('site.config.json', 'utf8'));
 const template = fs.readFileSync('dist/index.html', 'utf8');
 const ssrManifest = JSON.parse(fs.readFileSync('dist/.vite/ssr-manifest.json', 'utf8'));
