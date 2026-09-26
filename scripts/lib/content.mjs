@@ -196,7 +196,6 @@ export function validateContent(repoRoot = process.cwd()) {
   const fail = (file, message) => errors.push(`${file}: ${message}`);
   const read = relative => readJson(repoRoot, relative);
   const base = 'src/content/';
-  const manifest = computeManifest(repoRoot);
   const worlds = read(`${base}data/worlds.json`);
   const places_ = read(`${base}data/places.json`);
   const sources = read(`${base}data/sources.json`);
