@@ -4,6 +4,10 @@ export type ContentKind = 'note' | 'phrase' | 'feature';
 type JournalCategory = 'guides' | 'making' | 'table' | 'everyday' | 'culture';
 type SourceKind = 'Travel account' | 'Local guide' | 'Official source' | 'Reporting';
 
+export interface Metric { id: string; scope: string; label: string; value: string; unit: string; period: string; source: string; url: string }
+export interface JourneyStop { contentId: string; note: string }
+export interface Journey { id: string; world: WorldId; title: string; intro: string; stops: JourneyStop[] }
+
 interface SourceRef { id: string; label: string; kind?: SourceKind }
 export interface Source { id: string; title: string; url: string }
 export interface Media {

@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { getContent, queryContent, scenes, worlds, resolveLegacySlug, type WorldId } from "../content";
-import metrics from "../content/data/metrics.json";
+import { metrics } from "../content/registries";
 import ReadingPanel from "../components/ReadingPanel.vue";
 import PageMasthead from "../components/PageMasthead.vue";
 import WorldSelection from "../components/WorldSelection.vue";

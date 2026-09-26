@@ -8,16 +8,9 @@ import collectionsData from './data/collections.json';
 import scenesData from './data/scenes.json';
 import migrationsData from './data/migrations.json';
 import type { Collection, ContentBody, ContentManifest, ContentMeta, ContentQuery, Media, Place, SceneGroup, Source, Topic, World, WorldId } from './types';
+import { deepFreeze } from './freeze';
 
 export type * from './types';
-
-function deepFreeze<T>(value: T): Readonly<T> {
-  if (value !== null && typeof value === 'object' && !Object.isFrozen(value)) {
-    for (const child of Object.values(value)) deepFreeze(child);
-    Object.freeze(value);
-  }
-  return value;
-}
 
 export const contentManifest = deepFreeze(manifestData as ContentManifest);
 export const worlds = deepFreeze(worldsData as World[]);

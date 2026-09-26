@@ -2,7 +2,7 @@
 import { computed, nextTick } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { getContent, getWorld, type WorldId } from "../content";
-import journeys from "../content/data/journeys.json";
+import { journeys } from "../content/registries";
 import CharacterArt from "./CharacterArt.vue";
 const props = defineProps<{ chapterId: WorldId }>();
 const route = useRoute();
