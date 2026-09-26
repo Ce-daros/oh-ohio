@@ -3,7 +3,6 @@ dist/
 .ssr/
 .sites-runtime/
 .openai/
-artwork/
 .env
 .env.*
 .vercel/

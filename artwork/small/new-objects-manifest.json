@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "prop-cardinal.webp",
+    "prompt": "One natural-proportioned northern cardinal, Ohio state bird, perched on a small twig. Elegant vivid red plumage with subtle feather detail, natural bird anatomy and proportions, poised profile, small dark face mask and crest, realistic bird eyes (small, not oversized). Refined anime illustration linework with soft cel shading; clean, polished and naturalistic. Centered, full bird and twig visible with clear silhouette and generous margins. Truly transparent alpha background, no scenery, extra objects, text, logo, watermark, costume details or gold ornaments.",
+    "reference": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-atlas.png",
+    "original": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-cardinal.png",
+    "optimized": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-cardinal.webp",
+    "dimensions": [
+      512,
+      468
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "filename": "prop-carnation.webp",
+    "prompt": "One single scarlet carnation, Ohio state flower, with a slender green stem and a few natural leaves. Elegant detailed botanical illustration: ruffled red petals with nuanced folds, lifelike botanical shape, restrained shading, refined anime linework and soft cel shading. Full flower, stem, and leaves visible, centered with a clean silhouette and generous margins. Truly transparent alpha background, no vase, scenery, extra objects, text, logo, watermark, costume details or gold ornaments.",
+    "reference": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-atlas.png",
+    "original": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-carnation.png",
+    "optimized": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-carnation.webp",
+    "dimensions": [
+      341,
+      512
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "filename": "prop-buckeye-leaf.webp",
+    "prompt": "A natural buckeye nut with its characteristic glossy deep-brown shell and lighter tan cap, shown together with one fresh green palmate buckeye leaf whose five leaflets are clearly visible. Elegant botanical drawing with accurate natural forms and restrained highlights, refined anime linework and soft cel shading. Arrange the nut and leaf as one compact composition, both fully visible, centered with clear silhouette and generous margins. Truly transparent alpha background, no face, eyes, character features, ribbon, charm hardware, scenery, text, logo, watermark, costume details or gold ornaments.",
+    "reference": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-atlas.png",
+    "original": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-buckeye-leaf.png",
+    "optimized": "C:\\Users\\Ame\\Documents\\ChatGPT\\ohio-anime\\artwork\\small\\prop-buckeye-leaf.webp",
+    "dimensions": [
+      512,
+      468
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+]
