@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "sectionId": "government",
+      "sceneGroupId": "civic",
+      "slug": "statehouse-open-door",
+      "title": "Step inside the Statehouse",
+      "kicker": "COLUMBUS · CIVIC LIFE",
+      "summary": "Inside the building where Ohio's lawmakers meet, the halls and museum make the work of state government easier to picture.",
+      "body": [
+        "The Ohio Statehouse is a working government building and a place you can visit. Start in the Map Room, where tours gather, then look for the Museum Education Center on the ground floor. Its exhibits invite you to weigh viewpoints and make decisions. Suddenly those familiar words—bill, vote, constitution—have rooms and faces attached to them.",
+        "I would leave time to look around after a tour. The museum displays pages from Ohio's historic constitutions, and Capitol Square holds art and memorials outside. Guided and self-guided visits are offered; check the Statehouse's current tour information and security guidance before you go. A building can explain how a government works, but your own questions make the visit yours."
+      ],
+      "source": "Ohio Statehouse · Museum Education Center",
+      "url": "https://ohiostatehouse.org/museum/museum-education-center",
+      "supportingSource": "Ohio Statehouse · School and group tours",
+      "supportingUrl": "https://www.ohiostatehouse.org/visit/school-and-group-tours"
+    },
+    {
+      "sectionId": "life",
+      "sceneGroupId": "campus",
+      "slug": "wilberforce-black-history",
+      "title": "Stories in Wilberforce",
+      "kicker": "WILBERFORCE · MUSEUM & ARCHIVES",
+      "summary": "Let's spend time with Black history told through art, objects, documents, and lives. The National Afro-American Museum & Cultural Center gives us a place to look closely.",
+      "body": [
+        "In Wilberforce, the National Afro-American Museum & Cultural Center collects and shares African American history and culture. Its holdings stretch across art, civil rights, childhood, military history, inventions, and the records of Black organizations. I would pick one object that catches your eye and ask whose life it touches; that question can carry you much farther than a quick circuit of the galleries.",
+        "The museum also offers programs, and its archive is available by appointment. Check the current exhibitions, hours, admission, and archive arrangements before visiting. Wilberforce is home to Wilberforce University and Central State University, so this museum belongs to a wider landscape of Black education and community. Give the stories time to unfold."
+      ],
+      "source": "Ohio History Connection · National Afro-American Museum & Cultural Center",
+      "url": "https://www.ohiohistory.org/visit/browse-historical-sites/national-afro-american-museum-cultural-center/"
+    },
+    {
+      "sectionId": "life",
+      "sceneGroupId": "campus",
+      "slug": "rocky-river-nature-center",
+      "title": "A nature center afternoon",
+      "kicker": "CLEVELAND AREA · LEARN OUTDOORS",
+      "summary": "A short look at the exhibits, then a walk toward the river? Rocky River Nature Center makes room for both curiosity and fresh air.",
+      "body": [
+        "Rocky River Nature Center sits within Cleveland Metroparks' Rocky River Reservation. Gardens near the building lead toward trails that reach the river, ponds, wetland forest, and hilltops. The landscape changes with the season, so I would begin by noticing one thing—a leaf, a bird call, the color of the water—and see what else it helps us find.",
+        "The center lists upcoming programs and offers group learning, too. Choose a walk that fits your time and mobility, and check the park's current trail and program details before setting out. You can enjoy the visit without turning every sighting into a lesson. Still, if a question follows you home, I think the afternoon has done its job."
+      ],
+      "source": "Cleveland Metroparks · Rocky River Nature Center",
+      "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/rocky-river-reservation/rocky-river-nature-center",
+      "supportingSource": "Cleveland Metroparks · Group programs",
+      "supportingUrl": "https://cms.clevelandmetroparks.com/parks/education/education-programs/group-programs"
+    },
+    {
+      "sectionId": "life",
+      "sceneGroupId": "community",
+      "slug": "possum-creek-gardens",
+      "title": "Grow something together",
+      "kicker": "DAYTON · COMMUNITY GARDEN",
+      "summary": "At Possum Creek MetroPark, a garden plot can turn an ordinary season into shared work, new skills, and a reason to return.",
+      "body": [
+        "Five Rivers MetroParks runs community garden plots at Possum Creek in Dayton. Gardeners tend their own space within a larger growing area, with park rules covering care of the plot and organic practices. I like the rhythm of it: checking the soil, noticing what changed since last week, and learning from the people working nearby.",
+        "A plot is a real commitment through the growing season, and registration, fees, availability, and dates can change. Read the current garden information before making plans. If a whole plot is more than you want, Five Rivers also describes volunteer work that includes gardening and park care. There are several ways to get your hands in the dirt and meet neighbors there."
+      ],
+      "source": "Five Rivers MetroParks · Possum Creek community garden rules",
+      "url": "https://www.metroparks.org/wp-content/uploads/2025/03/Possum-Creek-Community-Garden-Info_Rules.pdf",
+      "supportingSource": "Five Rivers MetroParks · 2024 annual report",
+      "supportingUrl": "https://www.metroparks.org/wp-content/uploads/2025/06/2024_FRMPAnnualReport_v4WebPages.pdf"
+    }
+  ],
+  "journeys": [
+    {
+      "title": "A little closer to public life",
+      "intro": "Three places offer a way into Ohio's public stories: start where laws are discussed, follow a bill through the record, then spend time with a museum that preserves lives and voices often left out of a quick civics lesson. These are ideas for separate visits and reading sessions across the state, so take them at your own pace. Bring questions; each stop may change the next one.",
+      "stops": [
+        {
+          "slug": "statehouse-open-door",
+          "note": "I'll meet you in the Map Room. After the tour, let's linger at the museum and see which question about Ohio's government we want to follow into the public record."
+        },
+        {
+          "slug": "legislative",
+          "note": "I like tracing one proposal from committee to vote instead of trying to learn every procedure at once. Pick a subject you care about, and we'll read the official record together."
+        },
+        {
+          "slug": "wilberforce-black-history",
+          "note": "Now let's give the human stories room. At the museum in Wilberforce, choose an object or exhibition and listen for whose experiences it brings into focus."
+        }
+      ]
+    },
+    {
+      "title": "Follow your curiosity outside",
+      "intro": "Some of my favorite Ohio lessons begin with a muddy shoe or a surprising leaf. A nature center gives us a question to carry onto the trail. A community garden shows what patient care looks like over a season. Then we can look for the neighbors who keep local places lively. These stops span different cities and different kinds of commitment; choose the one that fits your day, and let the others wait for another chapter.",
+      "stops": [
+        {
+          "slug": "rocky-river-nature-center",
+          "note": "Let's start with one small observation outside the center. I might choose a bird call; you can choose anything. Then we can see where the trail and that little question lead."
+        },
+        {
+          "slug": "possum-creek-gardens",
+          "note": "A garden asks us to return, which I rather love. Possum Creek's plots and volunteer opportunities help us decide how much time we want to give."
+        },
+        {
+          "slug": "community-life",
+          "note": "I would finish by checking a local calendar and showing up for something neighbors are making together. Listen first, offer a hand when it's welcome, and leave room to be surprised."
+        }
+      ]
+    }
+  ],
+  "pageWelcome": "There’s more to everyday life here than you might expect. The Statehouse, museums, trails, and neighborhood gardens each open onto a different part of Ohio. Pick the door that makes you curious, and we’ll take it from there. I’ll point out a few details along the way; you can decide which ones are worth staying for.",
+  "homepageParagraph": {
+    "slug": "wilberforce-black-history",
+    "text": "I keep thinking about the objects at the National Afro-American Museum & Cultural Center in Wilberforce. A photograph, a pair of shoes, a page of writing—each can open a life you haven't met yet. Take your time with the one that stays with you."
+  },
+  "voiceRules": [
+    "Let Ohio-chan invite the reader to notice, choose, or pause; keep dates, access, costs, and institutional claims in plain factual language.",
+    "Use first person lightly: one lively observation or invitation per paragraph is enough. Avoid catchphrases, mascot tics, and exaggerated praise.",
+    "Put current visit details behind links to the institution. Do not promise a tour, place, price, or accessible route when conditions vary.",
+    "Treat communities as living places with their own voices. Ohio-chan is a companion, not a spokesperson for their experiences."
+  ]
+}

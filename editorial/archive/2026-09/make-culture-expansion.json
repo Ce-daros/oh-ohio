@@ -1,0 +1,176 @@
+{
+  "make": {
+    "welcome": "Ohio's work has wonderfully different scales. A ship unloads beside Lake Erie; a potter shapes one vessel; a Columbus factory turns brass into a sharp, familiar sound. I'll follow the materials with you, from the route they travel to the hands and machines that change them. Some of these stories are about old skills still practiced, and some are about testing what comes next. Either way, I want to know who made the thing, where it came from, and how it got into our lives.",
+    "homepageTeaser": "A small brass whistle and a Great Lakes freighter have more in common than you might think: both lead us into the work behind everyday objects. Columbus makers turn brass into a signal you know by ear; Ohio's materials, makers, and routes carry the story farther.",
+    "homepageTeaserSlug": "columbus-whistle-factory",
+    "entries": [
+      {
+        "sectionId": "economy",
+        "sceneGroupId": "movement",
+        "slug": "port-of-toledo",
+        "title": "The Port of Toledo",
+        "kicker": "LAKE ERIE · CARGO & RAIL",
+        "summary": "What happens after a lake freighter docks? I'll follow the cargo from Toledo's waterfront toward the rail lines and roads beyond it.",
+        "body": [
+          "At the western end of Lake Erie, the Port of Toledo connects Ohio to the Great Lakes–St. Lawrence Seaway. Its 13 marine terminals handle different kinds of freight. At the general cargo dock, cranes lift material between ship and shore, while on-dock rail and nearby highways carry the journey inland. From the water, it can look like one big operation; up close, each handoff has its own equipment and workers.",
+          "There's manufacturing at the waterfront too. Cleveland-Cliffs' direct reduction plant at Ironville receives material by vessel and sends hot briquetted iron out by truck and rail. I like tracing that sequence because the word “port” suddenly becomes more than a dot on a map. It is a place where shipping, industry, and local infrastructure meet."
+        ],
+        "source": "Toledo-Lucas County Port Authority · Port of Toledo",
+        "url": "https://www.toledoport.org/port-of-toledo"
+      },
+      {
+        "sectionId": "industry",
+        "sceneGroupId": "factory",
+        "slug": "columbus-whistle-factory",
+        "title": "A whistle from Columbus",
+        "kicker": "COLUMBUS · BRASS & PRECISION",
+        "summary": "That little whistle has a surprisingly long making story. Shall we see how a sheet of brass becomes a clear, piercing signal?",
+        "body": [
+          "American Whistle Corporation has made metal whistles in Columbus since 1956. Its factory tour follows brass through stamping, forming, assembly, and inspection. The company says each whistle is blown and checked by hand before it leaves. Suddenly, the object in a referee's pocket feels less ordinary: shape, air, sound, and careful testing all have to meet in something small enough to hold between two fingers.",
+          "The tour also shows the machines built for this particular job and the packaging that sends finished whistles outward. I would pause at the quality check; hearing a familiar sound emerge from factory work makes the process easy to remember. Tours must be booked in advance, so use the maker's current tour page if you'd like to see the floor yourself."
+        ],
+        "source": "American Whistle Corporation · Factory tour",
+        "url": "https://www.americanwhistle.com/pages/what-to-expect"
+      },
+      {
+        "sectionId": "industry",
+        "sceneGroupId": "factory",
+        "slug": "rookwood-cincinnati",
+        "title": "Rookwood's Cincinnati clay",
+        "kicker": "CINCINNATI · ART POTTERY",
+        "summary": "A tile can be both part of a building and a small work of art. Rookwood's makers have been exploring that idea since 1880.",
+        "body": [
+          "Maria Longworth Storer founded Rookwood in Cincinnati in 1880 with one kiln and a plan to make American art pottery. Its first potters worked in a former schoolhouse, shaping clay from the Ohio River. The company still makes pottery, tile, and custom work in Cincinnati. I love the thought that a vase on a table and a tile in a wall can carry the same attention to form and surface.",
+          "Rookwood describes a process in which many hands touch each piece before it is finished. That matters more to this story than treating every object as a museum relic. Glazes, shapes, and uses have changed, while people continue to make things for homes and public interiors. Look at a tile closely next time; its texture may tell you as much as its pattern."
+        ],
+        "source": "Rookwood Pottery · About Rookwood",
+        "url": "https://rookwood.com/pages/about-rookwood"
+      },
+      {
+        "sectionId": "industry",
+        "sceneGroupId": "factory",
+        "slug": "akron-rubber-work",
+        "title": "Akron and the rubber road",
+        "kicker": "AKRON · RUBBER & TIRES",
+        "summary": "Before Akron's tires rolled everywhere, local factories made a much wider mix of rubber goods. I'll follow how that work grew.",
+        "body": [
+          "When Frank and Charles Seiberling began making rubber goods in Akron in 1898, the early Goodyear products included horseshoe pads, poker chips, and carriage and bicycle tires. The rising automobile industry changed the scale of the work. Akron already had other rubber firms, workers with manufacturing experience, a river, and railroad access. A famous industrial nickname grew from a very real network of people and routes.",
+          "The technical questions did not stop with making more tires. Goodyear's 1901 straight-sided tire used a braided wire bead to help hold it on the wheel while making removal easier. Today its Akron Innovation Center uses a driving simulator as part of tire development. I find that arc fascinating: an awkward wheel change and a virtual driving test both ask how a tire behaves in use."
+        ],
+        "source": "Goodyear Corporate · History",
+        "url": "https://corporate.goodyear.com/us/en/company/history.html",
+        "supportingSource": "Goodyear Corporate · Technologies",
+        "supportingUrl": "https://corporate.goodyear.com/us/en/products-and-innovations/technologies.html"
+      }
+    ],
+    "journeys": [
+      {
+        "title": "Follow the freight",
+        "intro": "Let's trace a thing instead of racing along a road. We'll start where cargo crosses Toledo's waterfront, step back to the wider trade routes, then look at the people and systems that keep deliveries moving. Follow the chain at your own pace and see how many hands a shipment passes through. By the end, the next box or piece of steel might carry a much longer story in your mind.",
+        "stops": [
+          { "slug": "port-of-toledo", "note": "I begin with the handoff: vessel, dock, crane, rail. Toledo makes the movement visible, and its waterfront plant shows that some freight arrives as an ingredient for making something new." },
+          { "slug": "trade", "note": "Now I'll pull the map outward. The port is one connection among Ohio's waterways, rail corridors, airports, and roads, each with a different role in bringing materials and products between places." },
+          { "slug": "logistics", "note": "At the final stop, I want to notice the planning and workers behind the route. Freight reaches a destination because people coordinate storage, transfers, timing, and the last stretch of delivery." }
+        ]
+      },
+      {
+        "title": "What a material becomes",
+        "intro": "I'll pick up three very different objects: a tire, a ceramic tile, and a brass whistle. Their makers solve different problems, yet each story begins with material that has to be shaped, tested, and finished. We can follow the work from Akron to Cincinnati to Columbus at our own pace. Ready? Let's look beyond the finished surface and ask what decisions made each object useful, beautiful, or unmistakable to the ear.",
+        "stops": [
+          { "slug": "akron-rubber-work", "note": "I'll start with rubber because a tire's everyday familiarity hides years of design questions. Akron's story moves from early products to experiments that change how a wheel meets the road." },
+          { "slug": "rookwood-cincinnati", "note": "Clay asks for another pace. I'll look at how Rookwood's potters and tile makers give form and finish to objects meant to live in rooms, on tables, and in walls." },
+          { "slug": "columbus-whistle-factory", "note": "Listen for the last transformation: a small piece of brass becomes a dependable signal. I want to linger at the inspection step, where someone checks whether the finished object actually sounds right." }
+        ]
+      }
+    ]
+  },
+  "culture": {
+    "welcome": "You can hear a place in its markets, galleries, stages, and conversations. Ohio's cultural life takes shape in a market still serving shoppers, a library that treats comics as art and history, and a museum glowing with signs saved from streets and storefronts. We can enjoy a beautiful room and still ask whose work and memories fill it. Bring your curiosity, take your time with the people behind the displays, and leave space for a surprise in the next room. I'll be right here with you.",
+    "homepageTeaser": "Cleveland's West Side Market has welcomed shoppers since 1912, and the people behind its counters keep the place alive today. That busy room opens onto artists, archivists, and performers who give Ohio its many voices.",
+    "homepageTeaserSlug": "west-side-market",
+    "entries": [
+      {
+        "sectionId": "culture",
+        "sceneGroupId": "table",
+        "slug": "west-side-market",
+        "title": "West Side Market",
+        "kicker": "CLEVELAND · PUBLIC MARKET",
+        "summary": "Look up at the tiled vault, then back to the counters. This Cleveland market is a working place with more than a century of neighbors in its story.",
+        "body": [
+          "Cleveland's West Side Market opened to shoppers in 1912, replacing an older market across the corner in Ohio City. It is the city's oldest continuously operating municipally owned market. The high vaulted ceiling and clock tower make a first impression, but the stalls are the point: people come here to buy food, sell it, and exchange recommendations across the counter.",
+          "Earlier public markets served Cleveland's growing immigrant communities; today's vendors reflect a wider set of food traditions and businesses. I would look at the architecture, then give the sellers my attention. Choose something you'll actually eat, ask about it when a counter is free, and check the market's current hours before coming. A living market changes through the week; it isn't a still photograph from 1912."
+        ],
+        "source": "West Side Market · Market History",
+        "url": "https://westsidemarket.org/about/market-history/",
+        "supportingSource": "West Side Market · People's Stories",
+        "supportingUrl": "https://westsidemarket.org/about/market-history/self-guided-historical-tour/people/"
+      },
+      {
+        "sectionId": "culture",
+        "sceneGroupId": "gallery",
+        "slug": "billy-ireland-cartoon-museum",
+        "title": "A home for cartoon art",
+        "kicker": "COLUMBUS · COMICS & ARCHIVES",
+        "summary": "A comic panel can make you laugh and hold a piece of history at once. At Ohio State, I'll follow both sides of the page.",
+        "body": [
+          "The Billy Ireland Cartoon Library & Museum at Ohio State collects original art, published cartoons, comics, archives, and related materials. Its exhibitions make that work visible beyond the reading room. There is a particular pleasure in seeing an original drawing: the marks and corrections remind us that someone made every familiar printed panel by hand or through a deliberate process.",
+          "The museum also preserves cartoon art for researchers, teachers, and the public. I wouldn't rush through it as a nostalgia stop. Editorial cartoons, comic strips, and longer stories can reveal how people argued, played, and pictured their times. Galleries are open to the public, while special collections require a different kind of visit; check current exhibition details and reading-room guidance before you go."
+        ],
+        "source": "Billy Ireland Cartoon Library & Museum · About",
+        "url": "https://cartoons.osu.edu/",
+        "supportingSource": "Billy Ireland Cartoon Library & Museum · Location & Hours",
+        "supportingUrl": "https://cartoons.osu.edu/location-hours"
+      },
+      {
+        "sectionId": "culture",
+        "sceneGroupId": "gallery",
+        "slug": "american-sign-museum",
+        "title": "The signs we live by",
+        "kicker": "CINCINNATI · SIGNS & NEON",
+        "summary": "A sign has to catch your eye, but it can hold the memory of a whole street. Cincinnati has saved plenty of them.",
+        "body": [
+          "In Cincinnati's Camp Washington neighborhood, the American Sign Museum gathers more than a century of signs and signmaking history. Its collection includes signs, photographs, artworks, tools, and materials. I'll follow the lettering first: a shop sign has only a moment to tell passersby where to look, and its maker has to choose color, shape, scale, and light with care. Once a sign comes indoors, it also becomes a record of a business and the street around it.",
+          "The museum's Main Street display lets signs speak to one another across styles and decades. There's a working neon shop in the building too, where visitors can sometimes watch a tube being bent or repaired. I like that link between preservation and continuing skill. Look closely at a painted letter or illuminated curve, then notice the signs on your own route home. They may never seem quite so ordinary again."
+        ],
+        "source": "American Sign Museum · Explore",
+        "url": "https://www.americansignmuseum.org/explore",
+        "supportingSource": "American Sign Museum · Collection",
+        "supportingUrl": "https://www.americansignmuseum.org/collection/"
+      },
+      {
+        "sectionId": "culture",
+        "sceneGroupId": "records",
+        "slug": "cincinnati-music-hall",
+        "title": "Cincinnati Music Hall",
+        "kicker": "CINCINNATI · A LIVING STAGE",
+        "summary": "One grand building, many kinds of sound. Let's look beyond the façade and see how Cincinnati keeps filling Music Hall with life.",
+        "body": [
+          "Cincinnati Music Hall was built in 1878, and its Elm Street façade still makes me want to stop and look up. The hall first served the city as a convention center as well as a performance space. Industrial exhibitions, public events, and concerts all belong to its history. A building so often pictured from the outside has always depended on people gathering inside.",
+          "Today it is home to the Cincinnati Symphony Orchestra, Pops Orchestra, Opera, Ballet, and May Festival, among others. Its long program has also included sports, conventions, and contemporary musicians. I like that range: a cultural landmark isn't frozen in its opening year. If you're planning a visit, look for a performance that draws you in and check the current calendar. The room changes with the people onstage and in the seats."
+        ],
+        "source": "Cincinnati Arts Association · About Music Hall",
+        "url": "https://www.cincinnatiarts.org/music-hall-home/about-music-hall"
+      }
+    ],
+    "journeys": [
+      {
+        "title": "Rooms full of people",
+        "intro": "A market, a sign museum, and a concert hall do very different things, but each changes how people meet a place. I'll start with shoppers and vendors, look at signs that once called to people from storefronts, then listen for the performers and audiences who make a hall feel alive. Follow these rooms at your own pace. Along the way, we can ask what draws people through a door and what makes them return.",
+        "stops": [
+          { "slug": "west-side-market", "note": "At the market, I'll notice the present tense first: who is selling, choosing, and talking today? The old building matters, but a good market story also belongs to its working counters." },
+          { "slug": "american-sign-museum", "note": "At the sign museum, I'll look at how makers invited people into shops and streets through light, color, and lettering. Every rescued sign carries traces of the place where it once stood." },
+          { "slug": "cincinnati-music-hall", "note": "For our last room, let's listen. A stage needs musicians, dancers, crews, and an audience; together they give the landmark an evening that could only happen once." }
+        ]
+      },
+      {
+        "title": "Lines, images, and sound",
+        "intro": "How does a place remember itself through art? I'll begin with drawings that appeared on pages, look at how museums care for work we want to keep, and end with a hall built to bring performances to a crowd. Follow the creative trail at your own pace. I'd rather linger with one cartoon or one song than collect three hurried photographs and miss what the artists were trying to say. Which work will stay with you afterward?",
+        "stops": [
+          { "slug": "billy-ireland-cartoon-museum", "note": "I'll start with the drawn line. A cartoon can be funny, angry, tender, or all three, and the library preserves the original work and context behind what readers once saw in print." },
+          { "slug": "arts-museums", "note": "Now let's widen our view. Ohio's galleries and museums hold many forms of creative work; I'll choose a collection or exhibition that makes me look twice, then give it enough time." },
+          { "slug": "cincinnati-music-hall", "note": "At Music Hall, the art happens in time. I can admire the building any afternoon, but a performance brings its own sound, cast, and audience into the story." }
+        ]
+      }
+    ]
+  }
+}
