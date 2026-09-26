@@ -2,7 +2,7 @@
 
 ## Use and crop
 
-The 14 journal illustrations are atmospheric cover art, not documentary photographs or evidence for an article’s factual claims. The archived [journal art manifest](../../editorial/journal-art-manifest.json) records 1536 × 1024 source renders and 768-pixel-wide derivatives. The current feature hero and story card both use a 3:2 frame, matching the landscape source ratio; no per-image `crop` or `focalPoint` is recorded in the media registry. Keep the full composition at that ratio. If a future surface crops to a portrait or square, preserve the prompt’s named focal object and recheck the crop at its rendered size instead of assuming centered `cover` will work.
+The 22 journal illustrations are atmospheric cover art, not documentary photographs or evidence for an article’s factual claims. The archived [journal art manifest](../../editorial/journal-art-manifest.json) records the original 14 illustrations; eight article-specific covers were generated on 2026-09-26. All 22 have 1536 × 1024 renders and 768-pixel-wide derivatives. The current feature hero and story card both use a 3:2 frame, matching the landscape source ratio. Keep the full composition at that ratio. If a future surface crops to a portrait or square, preserve the focal object and recheck the crop at its rendered size instead of assuming centered `cover` will work.
 
 | Asset | Editorial role and crop focus |
 | --- | --- |
@@ -20,8 +20,16 @@ The 14 journal illustrations are atmospheric cover art, not documentary photogra
 | `library-afternoon` | Library reading and archives. Keep the open book, chair/table, and window together; it is not a depiction of a particular Columbus branch. |
 | `athens-campus-day` | Athens campus walk. Keep the green, path, and red-brick academic building; the prompt says “inspired by Cutler Hall,” not a documentary architectural rendering. |
 | `community-garden-season` | Shared garden season. Keep the beds, path, and watering can; the manifest identifies this as a redraw using a composition input and a separate style reference. |
+| `findlay-street-through-time` | Cincinnati street block. Keep the brick storefronts and iron market house together. |
+| `two-city-days` | Cincinnati and Dayton trip choices. Keep the market and aviation pages legible as separate options. |
+| `listening-to-ohio` | Marsh soundscape. Keep boardwalk, reeds, and frog in the frame. |
+| `water-has-a-working-life` | Working waterfront. Keep river water, ship, and cranes together. |
+| `small-towns-many-centers` | Small-town square. Keep the bench, storefronts, and distant train. |
+| `how-a-library-loan-travels` | Library loan. Keep the wrapped book on the pickup shelf. |
+| `who-keeps-ohios-memory` | Archive reading. Keep hands, photograph, and archival box together. |
+| `materials-in-the-making` | Brass and clay workbench. Keep both materials visible. |
 
-The 768-pixel files are responsive size variants, not alternate crops. The archived manifest contains no approved alternate aspect ratios. The existing cover art is reused by the new materials, sound, library, and street draft bundles where a dossier needs a matching scene; those associations do not change what the image depicts.
+The 768-pixel files are responsive size variants, not alternate crops. The archived manifest contains no approved alternate aspect ratios. The eight new covers were created with built-in imagegen using the corresponding scene descriptions above and the original covers as visual style references. They are illustrations of the article subjects, not verified depictions of exact places or artifacts.
 
 ## Character art states
 

@@ -74,7 +74,7 @@
       "slug": "materials-in-the-making",
       "title": "Materials, made in Ohio — Oh, Ohio",
       "description": "Follow a brass whistle, pottery, glass, and rubber from material to everyday use.",
-      "image": "/art/journal/brass-whistle.webp"
+      "image": "/art/journal/materials-in-the-making.webp"
     },
     {
       "path": "/topics/listening-to-ohio",
@@ -82,7 +82,7 @@
       "slug": "listening-to-ohio",
       "title": "Listening to Ohio — Oh, Ohio",
       "description": "Canal songs, city voices, marsh sounds, and performance work offer different ways to hear Ohio.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/listening-to-ohio.webp"
     },
     {
       "path": "/topics/how-a-library-loan-travels",
@@ -90,7 +90,7 @@
       "slug": "how-a-library-loan-travels",
       "title": "How a library loan travels — Oh, Ohio",
       "description": "One title shows how Ohio’s shared library collections connect a local catalog to a neighborhood pickup desk.",
-      "image": "/art/journal/library-afternoon.webp"
+      "image": "/art/journal/how-a-library-loan-travels.webp"
     },
     {
       "path": "/topics/findlay-street-through-time",
@@ -98,7 +98,7 @@
       "slug": "findlay-street-through-time",
       "title": "Findlay Street through time — Oh, Ohio",
       "description": "Read the market block through a nineteenth-century plat, historic maps, and today’s transit route.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/findlay-street-through-time.webp"
     },
     {
       "path": "/topics/water-has-a-working-life",
@@ -106,7 +106,7 @@
       "slug": "water-has-a-working-life",
       "title": "Water has a working life — Oh, Ohio",
       "description": "Canals, ports, household water, and river restoration meet along Ohio’s north coast.",
-      "image": "/art/journal/cuyahoga-slow-day.webp"
+      "image": "/art/journal/water-has-a-working-life.webp"
     },
     {
       "path": "/topics/who-keeps-ohios-memory",
@@ -114,7 +114,7 @@
       "slug": "who-keeps-ohios-memory",
       "title": "Who keeps Ohio’s memory? — Oh, Ohio",
       "description": "Archives, narrators, and tribal and community collections shape how Ohio remembers.",
-      "image": "/art/journal/library-afternoon.webp"
+      "image": "/art/journal/who-keeps-ohios-memory.webp"
     },
     {
       "path": "/topics/small-towns-many-centers",
@@ -122,7 +122,7 @@
       "slug": "small-towns-many-centers",
       "title": "Small towns, many centers — Oh, Ohio",
       "description": "Two distinct towns, and the local institutions that shape how each is experienced.",
-      "image": "/art/journal/cuyahoga-slow-day.webp"
+      "image": "/art/journal/small-towns-many-centers.webp"
     },
     {
       "path": "/topics/two-city-days",
@@ -130,7 +130,7 @@
       "slug": "two-city-days",
       "title": "Two city days, two different rhythms — Oh, Ohio",
       "description": "A compact Cincinnati loop and a Dayton day planned in separate transportation legs.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/two-city-days.webp"
     },
     {
       "path": "/notes/north-coast",
@@ -826,7 +826,7 @@
       "slug": "materials-in-the-making",
       "title": "How an Ohio object takes shape — Oh, Ohio",
       "description": "A little whistle, a curve in the clay—ooh, I want a closer look. Let’s meet the work behind a few Ohio objects.",
-      "image": "/art/journal/brass-whistle.webp"
+      "image": "/art/journal/materials-in-the-making.webp"
     },
     {
       "path": "/notes/whistle-cross-section",
@@ -850,7 +850,7 @@
       "slug": "listening-to-ohio",
       "title": "Listening to Ohio — Oh, Ohio",
       "description": "Shh, there’s a frog in this part. A canal song, a Columbus conversation, a marsh: come get to know Ohio by ear with me.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/listening-to-ohio.webp"
     },
     {
       "path": "/notes/one-canal-song-three-records",
@@ -874,7 +874,7 @@
       "slug": "how-a-library-loan-travels",
       "title": "How a library loan travels — Oh, Ohio",
       "description": "A book taking a little Ohio trip just to reach your pickup shelf? Ooh, I like this story. Let’s follow one request together.",
-      "image": "/art/journal/library-afternoon.webp"
+      "image": "/art/journal/how-a-library-loan-travels.webp"
     },
     {
       "path": "/notes/what-catalog-can-tell-you",
@@ -898,7 +898,7 @@
       "slug": "findlay-street-through-time",
       "title": "Findlay Street through time — Oh, Ohio",
       "description": "Wait, before we head for the stalls—look at this block with me. Findlay Street’s maps have a few surprises tucked into their lines.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/findlay-street-through-time.webp"
     },
     {
       "path": "/notes/reading-a-sanborn-map",
@@ -922,7 +922,7 @@
       "slug": "water-has-a-working-life",
       "title": "Water has a working life — Oh, Ohio",
       "description": "Lake Erie’s view makes me curious about the water’s other journeys. Follow the Cuyahoga, the harbor, and the work behind your tap with me.",
-      "image": "/art/journal/cuyahoga-slow-day.webp"
+      "image": "/art/journal/water-has-a-working-life.webp"
     },
     {
       "path": "/notes/canal-corridor-in-maps",
@@ -946,7 +946,7 @@
       "slug": "who-keeps-ohios-memory",
       "title": "Who keeps Ohio’s memory? — Oh, Ohio",
       "description": "An old photograph makes me wonder about a name. Come meet the people and collections keeping Ohio’s stories within reach.",
-      "image": "/art/journal/library-afternoon.webp"
+      "image": "/art/journal/who-keeps-ohios-memory.webp"
     },
     {
       "path": "/notes/oral-history-is-a-persons-account",
@@ -970,7 +970,7 @@
       "slug": "small-towns-many-centers",
       "title": "Small towns, many centers — Oh, Ohio",
       "description": "I’d leave room for a small-town afternoon. Yellow Springs and Nelsonville each deserve their own day—and a little time to sit.",
-      "image": "/art/journal/cuyahoga-slow-day.webp"
+      "image": "/art/journal/small-towns-many-centers.webp"
     },
     {
       "path": "/notes/yellow-springs-stewardship",
@@ -994,7 +994,7 @@
       "slug": "two-city-days",
       "title": "Two city days, two different rhythms — Oh, Ohio",
       "description": "Market morning or aviation afternoon? Tell me what you’re excited about, and we’ll build one comfortable Ohio day around it.",
-      "image": "/art/journal/cincinnati-market-to-music.webp"
+      "image": "/art/journal/two-city-days.webp"
     },
     {
       "path": "/notes/cincinnati-connector-station-order",

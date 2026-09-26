@@ -11,7 +11,7 @@
     "worlds": 4,
     "dossiers": 8,
     "sources": 203,
-    "media": 16
+    "media": 24
   },
   "worldCoverage": [
     {
@@ -948,7 +948,15 @@
       "media:west-side-market-table",
       "media:library-afternoon",
       "media:community-garden-season",
-      "media:athens-campus-day"
+      "media:athens-campus-day",
+      "media:findlay-street-through-time",
+      "media:two-city-days",
+      "media:listening-to-ohio",
+      "media:water-has-a-working-life",
+      "media:small-towns-many-centers",
+      "media:how-a-library-loan-travels",
+      "media:who-keeps-ohios-memory",
+      "media:materials-in-the-making"
     ],
     "mediaWithoutClearedRights": [
       "media:cincinnati-market-to-music",
@@ -964,7 +972,15 @@
       "media:west-side-market-table",
       "media:library-afternoon",
       "media:community-garden-season",
-      "media:athens-campus-day"
+      "media:athens-campus-day",
+      "media:findlay-street-through-time",
+      "media:two-city-days",
+      "media:listening-to-ohio",
+      "media:water-has-a-working-life",
+      "media:small-towns-many-centers",
+      "media:how-a-library-loan-travels",
+      "media:who-keeps-ohios-memory",
+      "media:materials-in-the-making"
     ]
   },
   "existingContentReview": {

@@ -436,5 +436,237 @@
       "status": "cleared",
       "license": "Original project diagram"
     }
+  },
+  {
+    "id": "media:findlay-street-through-time",
+    "kind": "image",
+    "src": "/art/journal/findlay-street-through-time.webp",
+    "alt": "Painted Cincinnati street block with brick storefronts and an iron market house",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/findlay-street-through-time-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/findlay-street-through-time.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:two-city-days",
+    "kind": "image",
+    "src": "/art/journal/two-city-days.webp",
+    "alt": "Illustrated travel notebook with Cincinnati and Dayton day trip ideas on a cafe table",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/two-city-days-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/two-city-days.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:listening-to-ohio",
+    "kind": "image",
+    "src": "/art/journal/listening-to-ohio.webp",
+    "alt": "Painted marsh boardwalk at dusk with reeds, birds and a frog",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/listening-to-ohio-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/listening-to-ohio.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:water-has-a-working-life",
+    "kind": "image",
+    "src": "/art/journal/water-has-a-working-life.webp",
+    "alt": "Painted Cleveland working waterfront with river, cargo ship and harbor cranes",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/water-has-a-working-life-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/water-has-a-working-life.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:small-towns-many-centers",
+    "kind": "image",
+    "src": "/art/journal/small-towns-many-centers.webp",
+    "alt": "Painted small Ohio town square with brick buildings, a bench and distant train",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/small-towns-many-centers-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/small-towns-many-centers.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:how-a-library-loan-travels",
+    "kind": "image",
+    "src": "/art/journal/how-a-library-loan-travels.webp",
+    "alt": "Illustrated library pickup shelf with a wrapped book and reading room beyond",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/how-a-library-loan-travels-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/how-a-library-loan-travels.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:who-keeps-ohios-memory",
+    "kind": "image",
+    "src": "/art/journal/who-keeps-ohios-memory.webp",
+    "alt": "Illustrated archive reader holding an old photograph beside an archival box",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/who-keeps-ohios-memory-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/who-keeps-ohios-memory.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "media:materials-in-the-making",
+    "kind": "image",
+    "src": "/art/journal/materials-in-the-making.webp",
+    "alt": "Painted craft workbench with brass whistle parts and a clay vessel being shaped",
+    "use": "atmosphere",
+    "provenance": {
+      "status": "unverified"
+    },
+    "rights": {
+      "status": "unverified"
+    },
+    "variants": [
+      {
+        "src": "/art/journal/materials-in-the-making-768.webp",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/art/journal/materials-in-the-making.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    }
   }
 ]
