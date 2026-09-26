@@ -1,5 +1,7 @@
 # Homepage refinement — 2026-09-25
 
+> Superseded in part on 2026-09-27 by the motion refinement described at the end of this file: scroll snapping was removed. See [motion-system.md](motion-system.md) for current behavior.
+
 ## Composition
 
 - Split the homepage into six components, retaining the existing character and scene assets.
@@ -10,7 +12,7 @@
 
 ## Interaction and static output
 
-- Document-level proximity snapping is limited to the homepage at widths of at least 1024px and heights of at least 720px.
+- Document-level proximity snapping is limited to the homepage at widths of at least 1024px and heights of at least 720px. *(Superseded 2026-09-27: snapping removed — see the update below.)*
 - Keyboard input and reduced-motion preferences disable snapping and entrance motion. Each section enters once per mount; completed content stays visible.
 - Chapter links preserve native anchor/history behavior. Ordinary scrolling only updates the active chapter.
 - Verified save, reload persistence, reading-list navigation, removal, browser back, anchor alignment and native letter expansion.
@@ -30,3 +32,9 @@ No horizontal overflow or broken loaded images at 320×740, 390×844, 768×1024,
 - `npm run validate:content`: passed all 17 tests.
 - `git diff --check`: passed.
 - Browser console: no warnings or errors during final verification.
+
+## Update — 2026-09-27 motion refinement
+
+Document-level scroll snapping was removed from the homepage: it fought user input and read as mechanical. Each pinned section now keeps breathing through its dwell (scrub-linked recede, slow art zoom, watermark depth parallax), and entrance motion gained blur-based materializing with per-card grid staggers. The same materializing language was extended across the world, journal, collections and search pages; journal filtering and live search re-flow with GSAP Flip. Current behavior is documented in [motion-system.md](motion-system.md).
+
+Re-verification after the change: `npm run build` passed with the same totals (127 prerendered routes, 110 complete stories, 2514 asset references) and `vue-tsc --noEmit` was clean. The responsive viewport spot checks above were not repeated.

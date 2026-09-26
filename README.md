@@ -23,6 +23,10 @@ Follow the [voice guide](editorial/voice-guide.md) for Ohio-chan’s naturally c
 
 Canonical story routes are `/journal/<slug>` for features, `/notes/<slug>` for notes, and `/words/<slug>` for phrases. The four world routes are `/explore`, `/make`, `/culture`, and `/live`. World hashes can open a reading panel. Old chapter paths redirect to their corresponding world, and old phrase hashes resolve through `migrations.json`.
 
+## Motion
+
+Entrances across the site share one language: a short rise with opacity and a blur that resolves, custom easing, and grid children staggering in; exits are always quicker and quieter. On desktop the homepage pins each section for a dwell with scrub-linked choreography — the screen recedes while its art slowly zooms — and scroll never snaps or hijacks input. Pages opt into shared motion through data attributes handled by `src/composables/usePageMotion.ts` (`data-reveal`, `data-reveal-grid`, `data-reveal-art`, `data-hero-art`) plus a shared masthead choreography; journal filtering and live search re-flow their grids with GSAP Flip via `src/composables/useGridFlip.ts`. Only `transform`, `opacity` and `filter` animate, and every effect is disabled for `prefers-reduced-motion` and keyboard users. See [the motion system guide](editorial/motion-system.md).
+
 ## Static publishing
 
 The build renders Vue to complete HTML for home, worlds, collections, and every story. Each direct-entry page includes its full story text, route CSS, canonical metadata, and links to its assets. `dist/sitemap.xml`, `dist/robots.txt`, and a rendered `dist/404.html` are generated with the pages. The build checks that the sitemap exactly matches all indexable routes, has no duplicate or stale entries, and that both robots files point to the sitemap at `site.config.json`'s origin. If that origin changes, run `node scripts/site-artifacts.mjs --write-robots` to update the development copy in `public/robots.txt`. Client navigation hydrates the same components. Search and the browser-local reading list are marked `noindex`.
