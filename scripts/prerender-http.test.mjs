@@ -2,7 +2,7 @@ import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import { createStaticServer } from './serve-dist.mjs';
+import { preview } from 'vite';
 import { computeCatalog } from './lib/content.mjs';
 
 const catalog = computeCatalog(process.cwd()).catalog;
@@ -10,17 +10,19 @@ const catalog = computeCatalog(process.cwd()).catalog;
 // HTTP-layer checks only: which file a route serves, its headers,
 // redirects, and error handling. The content of the prerendered pages
 // (head tags, story text, assets) is verified against the files by
-// prerender-verify.mjs during the build.
+// prerender-verify.mjs during the build. The server under test is the
+// same `vite preview` stack the preview script and CI use.
 let server;
 let origin;
 
 before(async () => {
-  server = createStaticServer();
-  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-  origin = `http://127.0.0.1:${server.address().port}`;
+  server = await preview({ logLevel: 'error', preview: { host: '127.0.0.1', port: 0 } });
+  origin = server.resolvedUrls.local[0].replace(/\/$/, '');
 });
 
-after(() => new Promise((resolve, reject) => server.close(error => (error ? reject(error) : resolve()))));
+after(async () => {
+  await server.close();
+});
 
 test('serves prerendered routes and resolves queries to the same file', async () => {
   for (const routePath of ['/', '/journal', '/notes/north-coast', '/topics']) {

@@ -6,6 +6,7 @@ export default [
   {
     ignores: [
       'dist/**',
+      'dist-baseline/**',
       '.ssr/**',
       '.vercel/**',
       'public/**',
