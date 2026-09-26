@@ -1,4 +1,4 @@
-import test from 'node:test';
+import { test, after } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -11,6 +11,7 @@ const projectRoot = process.cwd();
 // exactly one registry file and restores it afterwards, so the suite
 // copies the content tree once instead of once per test.
 const fixtureRoot = createFixture();
+after(() => fs.rmSync(fixtureRoot, { recursive: true, force: true }));
 
 function createFixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'ohio-content-test-'));
@@ -51,10 +52,6 @@ function checkCorruption(name, relative, change, expected) {
     });
   });
 }
-
-test('canonical content validates', () => {
-  assert.deepEqual(validateContent(projectRoot), []);
-});
 
 test('remote media validates without a local file or network request', () => {
   withMutation('src/content/data/media.json', media => { media[0].src = 'https://www.nps.gov/media/example.mp4'; }, errors => {

@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "validate:content": "node scripts/content-manifest.mjs --check && node scripts/content-validate.mjs && node scripts/route-catalog.mjs --check",
     "test": "node --test scripts/*.test.mjs",
+    "lint": "eslint .",
     "report:coverage": "node scripts/content-coverage.mjs",
     "check:remote-media": "node scripts/check-remote-media.mjs",
     "preview": "node scripts/serve-dist.mjs"
@@ -24,7 +25,11 @@
     "@types/leaflet": "^1.9.22",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.8.0",
+    "eslint": "^10.11.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^17.12.0",
     "typescript": "^5.9.0",
+    "typescript-eslint": "^8.70.1",
     "vite": "^8.0.0",
     "vue-tsc": "^3.1.0"
   }
