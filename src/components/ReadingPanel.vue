@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import gsap from "gsap";
-import type { ContentMeta } from "../content";
+import type { ContentMeta, WorldId } from "../content";
 import { useMotionPolicy } from "../composables/useMotionPolicy";
 import NoteReader from "./NoteReader.vue";
-const props = defineProps<{ entry: Readonly<ContentMeta> | undefined }>();
+const props = defineProps<{ entry: Readonly<ContentMeta> | undefined; world: WorldId; sceneId?: string }>();
 const emit = defineEmits<{ close: [] }>();
 const dialog = ref<HTMLDialogElement | null>(null);
 const displayed = ref<Readonly<ContentMeta> | undefined>(props.entry);
@@ -49,7 +49,7 @@ onUnmounted(() => { animation?.kill(); document.documentElement.classList.remove
   <dialog ref="dialog" class="reader" aria-labelledby="reader-title" @cancel.prevent="emit('close')" @click="backdrop">
     <template v-if="displayed">
       <header class="reader-top"><span>OH, OHIO / GUIDE NOTES</span><button class="reader-close" autofocus aria-label="Close article" @click="emit('close')">Close <span aria-hidden="true">×</span></button></header>
-      <Suspense :key="displayed.slug"><NoteReader :slug="displayed.slug" /><template #fallback><p class="reader-article">Opening story…</p></template></Suspense>
+      <Suspense :key="displayed.slug"><NoteReader :slug="displayed.slug" :world="world" :scene-id="sceneId" /><template #fallback><p class="reader-article">Opening story…</p></template></Suspense>
     </template>
   </dialog>
 </template>

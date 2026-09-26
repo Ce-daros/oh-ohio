@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, shallowRef } from "vue";
 import { useRoute } from "vue-router";
-import { collections, getContent, getMedia, loadContentBody, worlds, type BodyBlock } from "../content";
+import { collections, getContent, getMedia, getWorld, loadContentBody, type BodyBlock } from "../content";
 import { relatedStories } from "../content/related";
+import { readingContext, worldReturnTarget } from "../reading-context";
 import ContentBody from "../components/ContentBody.vue";
 import ContentSources from "../components/ContentSources.vue";
 import ContentCard from "../components/ContentCard.vue";
@@ -11,12 +12,14 @@ import { useJournalMotion } from "../composables/useJournalMotion";
 const props = defineProps<{ slug: string }>();
 const route = useRoute();
 const content = getContent(props.slug);
-const world = worlds.find(item => item.id === content.primaryWorld)!;
+const world = getWorld(content.primaryWorld);
 const cover = content.kind === 'feature' ? getMedia(content.coverMediaId) : undefined;
 const related = relatedStories(content);
 const dossiers = collections.filter(item => item.kind === 'dossier' && item.itemIds.includes(content.id));
-const returnWorld = worlds.find(item => item.id === route.query.from) ?? world;
-const returnTarget = { path: `/${returnWorld.id}`, query: { scene: route.query.scene, view: route.query.view, journey: route.query.journey } };
+const context = readingContext(route.query);
+const returnWorld = context.from ?? content.primaryWorld;
+const returnWorldTitle = getWorld(returnWorld).title;
+const returnTarget = worldReturnTarget(returnWorld, context);
 const root = ref<HTMLElement | null>(null);
 const prose = ref<HTMLElement | null>(null);
 const blocks = shallowRef<readonly Readonly<BodyBlock>[]>([]);
@@ -42,7 +45,7 @@ blocks.value = await loadContentBody(content.id);
   <main id="main-content" ref="root" tabindex="-1" class="reading-page" :style="{ '--reading-color': world.color }">
     <div class="reading-progress" aria-hidden="true"><span :style="{ transform: `scaleX(${progress})` }"></span></div>
     <header class="reading-masthead">
-      <nav class="breadcrumbs" aria-label="Breadcrumb"><RouterLink :to="returnTarget">{{ returnWorld.title }}</RouterLink><span>/</span><RouterLink v-if="content.kind === 'feature'" to="/journal">Field notes</RouterLink><span v-else>{{ content.kind === 'phrase' ? 'Local words' : 'Guide notes' }}</span></nav>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><RouterLink :to="returnTarget">{{ returnWorldTitle }}</RouterLink><span>/</span><RouterLink v-if="content.kind === 'feature'" to="/journal">Field notes</RouterLink><span v-else>{{ content.kind === 'phrase' ? 'Local words' : 'Guide notes' }}</span></nav>
       <div :class="['reading-hero', { 'without-cover': !cover }]">
         <div data-journal-enter><p class="eyebrow">{{ content.kind === 'feature' ? content.location : world.title }}</p><h1 v-if="content.kind === 'feature'">{{ content.title.slice(0, -content.titleAccent.length) }}<em>{{ content.titleAccent }}</em></h1><h1 v-else>{{ content.title }}</h1><p class="reading-dek">{{ content.summary }}</p><div class="reading-meta"><span>{{ content.kind === 'feature' ? content.readTime : 'Guide note' }}</span><SaveButton :id="content.id" /></div></div>
         <figure v-if="cover" data-journal-enter><img :src="cover.src" :alt="content.kind === 'feature' ? content.coverAlt : ''" :srcset="cover.variants?.map(item => `${item.src} ${item.width}w`).join(', ')" sizes="(max-width: 760px) 90vw, 46vw" width="1536" height="1024" fetchpriority="high" /><figcaption>{{ cover.use === 'atmosphere' ? 'Illustration' : cover.caption }}</figcaption></figure>

@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { getContent, queryContent, scenes, worlds, resolveLegacySlug, type WorldId } from "../content";
+import { readingContext } from "../reading-context";
 import { metrics } from "../content/registries";
 import ReadingPanel from "../components/ReadingPanel.vue";
 import PageMasthead from "../components/PageMasthead.vue";
@@ -21,6 +22,7 @@ const groups = computed(() => scenes[props.chapterId]);
 const allEntries = computed(() => queryContent({world:props.chapterId}).filter(item => item.kind !== 'feature'));
 const phrases = queryContent({kind:'phrase'});
 const reading = computed(() => allEntries.value.find(item => item.slug === resolveLegacySlug(route.hash.slice(1))));
+const readingScene = computed(() => groups.value.find(item => reading.value && item.slugs.includes(reading.value.slug))?.id);
 const selectedGroup = computed(() => {
   const requested = groups.value.find(item => item.id === route.query.scene);
   if (requested) return requested;
@@ -34,14 +36,20 @@ const root = ref<HTMLElement | null>(null);
 const sceneComponents = { explore:ExploreScene, make:MakeScene, culture:CultureScene, live:LiveScene };
 useWorldMotion(root);
 function selectGroup(id:string) { router.push({query:{...route.query,scene:id},hash:''}); }
+// Session-local flag: a close action goes back only if this session
+// pushed the reading entry onto the history stack; deep links just
+// strip the hash.
+let readerPushed = false;
+watch(() => route.hash, hash => { if (!hash) readerPushed = false; });
 function openEntry(event:MouseEvent,slug:string) {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
-  router.push({hash:`#${slug}`,query:route.query,state:{readerFrom:route.path}});
+  readerPushed = true;
+  router.push({hash:`#${slug}`,query:{ ...readingContext(route.query) }});
 }
 function closeEntry() {
-  if (window.history.state.readerFrom === route.path) router.back();
-  else router.replace({hash:'',query:route.query});
+  if (readerPushed) router.back();
+  else router.replace({hash:'',query:{ ...readingContext(route.query) }});
 }
 </script>
 <template>
@@ -63,7 +71,7 @@ function closeEntry() {
     <JournalShelf data-reveal :chapter="chapterId" />
     <GuidedJourneys data-reveal :chapter-id="chapterId" />
     <RouterLink data-reveal-art class="world-next" :to="`/${nextWorld.id}`" :style="{'--next-color':nextWorld.color}"><span>WHERE TO NEXT? ♡</span><strong>{{ nextWorld.title }}<span>↗</span></strong><img :src="`/art/small/prop-${nextWorld.prop}.webp`" width="160" height="160" alt="" loading="lazy" /></RouterLink>
-    <ReadingPanel :entry="reading" @close="closeEntry" />
+    <ReadingPanel :entry="reading" :world="chapterId" :scene-id="readingScene" @close="closeEntry" />
   </main>
 </template>
 <style scoped>

@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
-import { getContent, loadContentBody, scenes, type WorldId } from "../content";
+import { getContent, loadContentBody, type WorldId } from "../content";
+import { readingContext } from "../reading-context";
 import ContentBody from "./ContentBody.vue";
 import ContentSources from "./ContentSources.vue";
 import SaveButton from "./SaveButton.vue";
-const props = defineProps<{ slug: string }>();
+const props = defineProps<{ slug: string; world: WorldId; sceneId?: string }>();
 const route = useRoute();
 const content = getContent(props.slug);
-const fromWorld = route.path.slice(1) as WorldId;
-const scene = scenes[fromWorld].find(group => group.slugs.includes(content.slug))!.id;
-const fullPage = { path: content.canonicalPath, query: { ...route.query, from: fromWorld, scene } };
+const fullPage = { path: content.canonicalPath, query: { ...readingContext(route.query), from: props.world, scene: props.sceneId } };
 const blocks = await loadContentBody(content.id);
 </script>
 <template>
