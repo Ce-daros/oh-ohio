@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, shallowRef } from "vue";
 import { useRoute } from "vue-router";
+import { useEventListener } from "@vueuse/core";
 import { collections, getContent, getMedia, getWorld, loadContentBody, type BodyBlock } from "../content";
 import { relatedStories } from "../content/related";
 import { readingContext, worldReturnTarget } from "../reading-context";
@@ -39,8 +40,13 @@ function measure() {
   frame = 0;
 }
 function schedule() { if (!frame) frame = requestAnimationFrame(measure); }
-onMounted(() => { if (!headings.value.length) return; measure(); window.addEventListener('scroll', schedule, { passive: true }); window.addEventListener('resize', schedule); });
-onUnmounted(() => { window.removeEventListener('scroll', schedule); window.removeEventListener('resize', schedule); cancelAnimationFrame(frame); });
+onMounted(() => {
+  if (!headings.value.length) return;
+  measure();
+  useEventListener(window, 'scroll', schedule, { passive: true });
+  useEventListener(window, 'resize', schedule);
+});
+onUnmounted(() => cancelAnimationFrame(frame));
 useReadingEnter(root);
 blocks.value = await loadContentBody(content.id);
 </script>

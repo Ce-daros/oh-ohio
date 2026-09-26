@@ -1,4 +1,5 @@
-import { inject, onMounted, onUnmounted, provide, readonly, ref, type InjectionKey, type Ref } from "vue";
+import { inject, onMounted, provide, readonly, ref, type InjectionKey, type Ref } from "vue";
+import { useLocalStorage } from "@vueuse/core";
 
 interface ReadingList {
   ids: Readonly<Ref<readonly string[]>>;
@@ -9,27 +10,16 @@ const key: InjectionKey<ReadingList> = Symbol("reading-list");
 const storageKey = "oh-ohio:reading-list";
 
 export function provideReadingList() {
-  const ids = ref<string[]>([]);
+  // initOnMounted keeps hydration honest: the stored list is read only
+  // after mount, so prerendered markup and the first client render agree.
+  // Cross-tab sync and malformed stored JSON are handled by useStorage.
+  const ids = useLocalStorage<string[]>(storageKey, [], { initOnMounted: true, writeDefaults: false });
   const ready = ref(false);
-  function read() {
-    try {
-      const stored = JSON.parse(localStorage.getItem(storageKey) ?? '[]');
-      ids.value = Array.isArray(stored) ? stored.filter(item => typeof item === 'string') : [];
-    } catch {
-      ids.value = [];
-    }
-    ready.value = true;
-  }
-  function sync(event: StorageEvent) {
-    if (event.key === storageKey) read();
-  }
-  onMounted(() => { read(); window.addEventListener("storage", sync); });
-  onUnmounted(() => window.removeEventListener("storage", sync));
+  onMounted(() => { ready.value = true; });
   provide(key, {
     ids: readonly(ids), ready: readonly(ready),
     toggle(id) {
       ids.value = ids.value.includes(id) ? ids.value.filter(item => item !== id) : [...ids.value, id];
-      localStorage.setItem(storageKey, JSON.stringify(ids.value));
     },
   });
 }
