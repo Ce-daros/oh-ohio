@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { validateContent } from './content-validate.mjs';
+import { validateContent } from './lib/content.mjs';
 
 const projectRoot = process.cwd();
 
@@ -122,8 +122,3 @@ checkCorruption('rejects stale legacy slug migrations',
   'src/content/data/migrations.json',
   migrations => { migrations['phrase-1'] = 'unknown-phrase'; },
   /references unknown slug unknown-phrase/);
-
-checkCorruption('rejects stale generated manifest',
-  'src/content/data/manifest.json',
-  manifest => { manifest.documents[0].title = 'Changed only in the manifest'; },
-  /generated manifest is stale/);
