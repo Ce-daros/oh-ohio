@@ -27,6 +27,9 @@ const headings = computed(() => blocks.value.filter(block => block.type === 'hea
 const progress = ref(0);
 const active = ref('');
 let frame = 0;
+// Only notes with heading blocks (features) get the section tracker; the
+// other content kinds would register scroll/resize listeners that can never
+// move the highlight or the progress bar.
 function measure() {
   const bounds = prose.value!.getBoundingClientRect();
   const distance = Math.max(1, bounds.height - window.innerHeight * .5);
@@ -36,14 +39,14 @@ function measure() {
   frame = 0;
 }
 function schedule() { if (!frame) frame = requestAnimationFrame(measure); }
-onMounted(() => { measure(); window.addEventListener('scroll', schedule, { passive: true }); window.addEventListener('resize', schedule); });
+onMounted(() => { if (!headings.value.length) return; measure(); window.addEventListener('scroll', schedule, { passive: true }); window.addEventListener('resize', schedule); });
 onUnmounted(() => { window.removeEventListener('scroll', schedule); window.removeEventListener('resize', schedule); cancelAnimationFrame(frame); });
 useJournalMotion(root);
 blocks.value = await loadContentBody(content.id);
 </script>
 <template>
   <main id="main-content" ref="root" tabindex="-1" class="reading-page" :style="{ '--reading-color': world.color }">
-    <div class="reading-progress" aria-hidden="true"><span :style="{ transform: `scaleX(${progress})` }"></span></div>
+    <div v-if="headings.length" class="reading-progress" aria-hidden="true"><span :style="{ transform: `scaleX(${progress})` }"></span></div>
     <header class="reading-masthead">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><RouterLink :to="returnTarget">{{ returnWorldTitle }}</RouterLink><span>/</span><RouterLink v-if="content.kind === 'feature'" to="/journal">Field notes</RouterLink><span v-else>{{ content.kind === 'phrase' ? 'Local words' : 'Guide notes' }}</span></nav>
       <div :class="['reading-hero', { 'without-cover': !cover }]">
