@@ -23,11 +23,11 @@ export const contentManifest = deepFreeze(manifestData as ContentManifest);
 export const worlds = deepFreeze(worldsData as World[]);
 export const topics = deepFreeze(topicsData as Topic[]);
 export const places = deepFreeze(placesData as Place[]);
-export const sources = deepFreeze(sourcesData as Source[]);
+const sources = deepFreeze(sourcesData as Source[]);
 export const media = deepFreeze(mediaData as Media[]);
 export const collections = deepFreeze(collectionsData as Collection[]);
 export const scenes = deepFreeze(scenesData as Record<WorldId, SceneGroup[]>);
-export const legacySlugs = deepFreeze(migrationsData as Record<string, string>);
+const legacySlugs = deepFreeze(migrationsData as Record<string, string>);
 
 const byId = new Map(contentManifest.documents.map(document => [document.id, document]));
 const bySlug = new Map(contentManifest.documents.map(document => [document.slug, document]));

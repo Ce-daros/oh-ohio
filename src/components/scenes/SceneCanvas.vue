@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { SceneGroup, ChapterId } from "../../catalog";
+import type { SceneGroup, WorldId } from "../../content";
 import { computed } from "vue";
-const props = defineProps<{ world: ChapterId; groups: SceneGroup[]; selected: string; alt: string }>();
+const props = defineProps<{ world: WorldId; groups: SceneGroup[]; selected: string; alt: string }>();
 const point = computed(() => props.groups.find(group => group.id === props.selected)!);
 defineEmits<{ select: [id: string] }>();
 </script>

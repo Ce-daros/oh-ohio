@@ -13,7 +13,7 @@ const materialize = { ease: "power3.out", clearProps: "transform,opacity,filter"
  * kicker blur-fade → title line-mask reveal → description rise → actions fade.
  * The same language as the homepage headings, so the whole site reads as one system.
  */
-export function animateMasthead(scope: HTMLElement) {
+function animateMasthead(scope: HTMLElement) {
   const masthead = scope.querySelector<HTMLElement>(".page-masthead");
   if (!masthead) return;
   const kicker = masthead.querySelector<HTMLElement>(".masthead-kicker");

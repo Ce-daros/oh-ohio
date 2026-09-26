@@ -1,9 +1,10 @@
 export type WorldId = 'explore' | 'make' | 'culture' | 'live';
+export type CharacterId = 'discover' | 'travel' | 'economy' | 'industry' | 'culture' | 'language' | 'life' | 'government';
 export type ContentKind = 'note' | 'phrase' | 'feature';
-export type JournalCategory = 'guides' | 'making' | 'table' | 'everyday' | 'culture';
-export type SourceKind = 'Travel account' | 'Local guide' | 'Official source' | 'Reporting';
+type JournalCategory = 'guides' | 'making' | 'table' | 'everyday' | 'culture';
+type SourceKind = 'Travel account' | 'Local guide' | 'Official source' | 'Reporting';
 
-export interface SourceRef { id: string; label: string; kind?: SourceKind }
+interface SourceRef { id: string; label: string; kind?: SourceKind }
 export interface Source { id: string; title: string; url: string }
 export interface Media {
   id: string;

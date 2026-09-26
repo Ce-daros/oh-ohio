@@ -22,7 +22,7 @@ const contextualMetrics = computed(() => props.world === 'make' ? metrics.filter
           <a v-for="metric in contextualMetrics" :key="metric.id" class="selection-metric" :href="metric.url" target="_blank" rel="noopener noreferrer"><span>{{ metric.scope }} / {{ metric.label }}</span><strong>{{ metric.value }}</strong><span>{{ metric.unit }} · {{ metric.period }}</span><span>{{ metric.source }} ↗</span></a>
         </div>
       </Transition>
-      <GuideKeepsake :chapter="world" />
+      <GuideKeepsake :world="world" />
     </div>
   </aside>
 </template>

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { ChapterId } from "../catalog";
-defineProps<{ chapter: ChapterId }>();
+import type { WorldId } from "../content";
+defineProps<{ world: WorldId }>();
 const objects = { explore: { file: "camera", alt: "Ohio-chan's navy and cream camera" }, make: { file: "whistle", alt: "A brass whistle with a navy cord" }, culture: { file: "record", alt: "A vinyl record in its illustrated sleeve" }, live: { file: "backpack", alt: "Ohio-chan's canvas day bag" } };
 </script>
 <template>
   <div class="guide-keepsake">
-    <div class="keepsake-object"><span aria-hidden="true"></span><img :src="`/art/small/prop-${objects[chapter].file}.webp`" :alt="objects[chapter].alt" width="150" height="150" loading="lazy" /></div>
+    <div class="keepsake-object"><span aria-hidden="true"></span><img :src="`/art/small/prop-${objects[world].file}.webp`" :alt="objects[world].alt" width="150" height="150" loading="lazy" /></div>
     <div class="keepsake-signature"><span>YOUR GUIDE</span><strong>Ohio-chan</strong><span aria-hidden="true">♡</span></div>
   </div>
 </template>

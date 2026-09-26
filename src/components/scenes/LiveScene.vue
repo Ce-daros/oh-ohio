@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import SceneCanvas from "./SceneCanvas.vue";
-import type { SceneGroup } from "../../catalog";
+import type { SceneGroup } from "../../content";
 defineProps<{ groups: SceneGroup[]; selected: string }>();
 defineEmits<{ select: [id: string] }>();
 </script>

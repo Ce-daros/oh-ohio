@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CharacterId } from "../catalog";
+import type { CharacterId } from "../content";
 defineProps<{
   chapter: CharacterId;
   alt: string;

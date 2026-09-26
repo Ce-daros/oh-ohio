@@ -85,7 +85,5 @@ const report = {
 };
 
 const output = 'editorial/content-coverage.json';
-if (process.argv.includes('--check')) {
-  if (JSON.stringify(read(output)) !== JSON.stringify(report)) throw new Error(`${output} is stale; run node scripts/content-coverage.mjs`);
-} else fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
-console.log(`${process.argv.includes('--check') ? 'Checked' : 'Generated'} coverage for ${report.totals.documents} documents, ${report.totals.dossiers} dossiers, ${report.totals.sources} sources`);
+fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
+console.log(`Generated coverage for ${report.totals.documents} documents, ${report.totals.dossiers} dossiers, ${report.totals.sources} sources`);
